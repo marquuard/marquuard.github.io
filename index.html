@@ -1,0 +1,45 @@
+<html>
+  <head>
+      <title>$$$ - Marquard Industries - $$$</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h2><a href="index.html">Marquard Industries</a></h2>
+    </div>
+    <div class="center_block">
+      <h2>"Pénz <span class="highlight">beszél</span>, kutya <span class="highlight">ugat</span>."</h2>
+      <h3><a href="#" class="button">Kezdjük el!</a></h3>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".center_block").each(function () {
+        $( this ).css("position","absolute");
+        $( this ).css("left","50%");
+        $( this ).css("margin-left", - $( this ).outerWidth()/2 );
+        $( this ).css("top","50%");
+        $( this ).css("margin-top", - $( this ).outerHeight()/2 );
+        return this;
+      });
+
+      $(".button").click(function(){
+
+        rand = Math.floor(Math.random() * 9) + 1;
+        $('body').css({
+          "background": "url(gif/"+ rand +".gif)",
+          "background-size": "cover",
+          "background-position": "center",
+          "background-repeat": "no-repeat",
+          "background-attachment": "fixed"
+        });
+      });
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+body
+{
+  font-family: ;
+  margin: 0;
+  padding: 0;
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'Montserrat', sans-serif;
+
+    cursor: url('money.png'), auto;
+}
+
+a
+{
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.header
+{
+  background-color: rgba(96,223,155,1);
+  /*height: 2em;*/
+  width: 100%;
+  padding: 1em 0;
+}
+
+.header h2
+{
+  text-align: center;
+  margin: 0;
+  font-size: 72px;
+  font-family: 'Tangerine', serif;
+  line-height: 72px;
+}
+
+.header h2 a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.center_block
+{
+  color: white;
+  text-align: center;
+}
+
+.center_block h2
+{
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.center_block h3
+{
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.highlight
+{
+  color: red;
+}
+
+.button
+{
+  padding: 0 25px;
+  border: 5px rgba(255, 255, 255, 0.55) solid;
+  border-radius: 45px;
+  background: rgba(96,223,155,0.55);
+  cursor: pointer !important;
+
+  color: white;
+  font-weight: 300;
+}
+
+.button:hover
+{
+  background: rgba(96,223,155,0.95);
+  border: 5px rgba(255, 255, 255, 0.95) solid;
+}
