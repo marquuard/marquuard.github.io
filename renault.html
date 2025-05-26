@@ -33,6 +33,9 @@
     font-size: 1em;
     color: #333; /* Sötétebb szövegszín a jobb olvashatóságért */
   }
+  .special-codes div {
+    margin-bottom: 5px; /* Kis térköz a két kód sor között */
+  }
 </style>
 </head>
 <body>
@@ -61,8 +64,8 @@
 
   function getDayOfYear(d) {
     var start = new Date(d.getFullYear(), 0, 0);
-    var diff = d - start;
-    var oneDay = 1000 * 60 * 60 * 24;
+    var diff = d - start; // Eltérés milliszekundumban
+    var oneDay = 1000 * 60 * 60 * 24; // Egy nap milliszekundumban
     var day = Math.floor(diff / oneDay);
     return day;
   }
@@ -74,8 +77,9 @@
   document.getElementById('weekNumber').textContent = hetSzama + ". hét";
   document.getElementById('dayOfYear').textContent = evNapja + ". nap";
 
-  document.getElementById('normalCode').textContent = "Normál: R" + evNapja + "858503";
-  document.getElementById('sofaCode').textContent = "Sofa: F" + evNapja + "993001";
+  // Az innerHTML használata a <strong> tag beillesztéséhez
+  document.getElementById('normalCode').innerHTML = "Normál: R<strong>" + evNapja + "</strong>858503";
+  document.getElementById('sofaCode').innerHTML = "Sofa: F<strong>" + evNapja + "</strong>993001";
 </script>
 
 </body>
