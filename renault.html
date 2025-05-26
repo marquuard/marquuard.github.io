@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Renault</title>
-<style>
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #e0e0e0;
-  }
-  .container {
-    padding: 20px;
-    border: 1px solid #aaa;
-    border-radius: 8px;
-    background-color: #cccccc;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  .info-line {
-    margin-bottom: 10px;
-    font-size: 1.2em;
-    color: #333;
-  }
-  .special-codes {
-    margin-top: 20px;
-    font-size: 1em;
-    color: #333;
-  }
-  .special-codes div {
-    margin-bottom: 10px;
-  }
-  .copy-button {
-    margin-left: 10px;
-    padding: 4px 8px;
-    font-size: 1.1em;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    background-color: transparent;
-  }
-  .copy-button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  .copied-message {
-    display: none;
-    font-size: 0.9em;
-    color: green;
-    margin-top: 5px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renault</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #e0e0e0;
+    }
+    .container {
+      padding: 20px;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      background-color: #cccccc;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .info-line {
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      color: #333;
+      text-align: center;
+    }
+    pre {
+      font-family: monospace;
+      background: #e6e6e6;
+      padding: 10px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    .copy-button {
+      margin-left: 10px;
+      background: none;
+      border: none;
+      font-size: 1.2em;
+      cursor: pointer;
+      color: #333;
+    }
+    .copy-button:hover {
+      color: #000;
+      transform: scale(1.1);
+    }
+    .copied-message {
+      display: none;
+      font-size: 0.9em;
+      color: green;
+      margin-top: 5px;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
 
 <div class="container">
   <div id="weekNumber" class="info-line"></div>
   <div id="dayOfYear" class="info-line"></div>
-  <div class="special-codes">
-    <div>
-      <span id="normalCode"></span>
-      <button class="copy-button" onclick="copyCode('normalCode')" title="Másolás">📋</button>
-      <div id="copiedNormal" class="copied-message">Másolva</div>
-    </div>
-    <div>
-      <span id="sofaCode"></span>
-      <button class="copy-button" onclick="copyCode('sofaCode')" title="Másolás">📋</button>
-      <div id="copiedSofa" class="copied-message">Másolva</div>
-    </div>
+  
+  <pre id="codeBlock"></pre>
+
+  <div class="row">
+    <button class="copy-button" onclick="copyText(normalStr)" title="Normál másolása">
+      <i class="fas fa-copy"></i>
+    </button>
+    <div id="copiedNormal" class="copied-message">Normál másolva</div>
+  </div>
+
+  <div class="row">
+    <button class="copy-button" onclick="copyText(sofaStr)" title="Sofa másolása">
+      <i class="fas fa-copy"></i>
+    </button>
+    <div id="copiedSofa" class="copied-message">Sofa másolva</div>
   </div>
 </div>
 
@@ -88,8 +99,7 @@
     var start = new Date(d.getFullYear(), 0, 0);
     var diff = d - start;
     var oneDay = 1000 * 60 * 60 * 24;
-    var day = Math.floor(diff / oneDay);
-    return day;
+    return Math.floor(diff / oneDay);
   }
 
   const ma = new Date();
@@ -101,23 +111,21 @@
 
   document.getElementById('weekNumber').textContent = hetSzama + ". hét";
   document.getElementById('dayOfYear').textContent = evNapja + ". nap";
-  document.getElementById('normalCode').innerHTML = "Normál: <strong>" + normalStr + "</strong>";
-  document.getElementById('sofaCode').innerHTML = "Sofa: <strong>" + sofaStr + "</strong>";
+  document.getElementById('codeBlock').textContent =
+    "Normál:\t" + normalStr + "\n" +
+    "Sofa:  \t" + sofaStr;
 
-  function copyCode(id) {
-    let text;
-    if (id === "normalCode") {
-      text = normalStr;
+  function copyText(text) {
+    navigator.clipboard.writeText(text);
+    if (text.startsWith("R")) {
       showCopied("copiedNormal");
-    } else if (id === "sofaCode") {
-      text = sofaStr;
+    } else if (text.startsWith("F")) {
       showCopied("copiedSofa");
     }
-    navigator.clipboard.writeText(text);
   }
 
-  function showCopied(elementId) {
-    const el = document.getElementById(elementId);
+  function showCopied(id) {
+    const el = document.getElementById(id);
     el.style.display = "block";
     setTimeout(() => {
       el.style.display = "none";
