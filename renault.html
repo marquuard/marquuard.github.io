@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Év Információk</title>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .info-line {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  .special-codes {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div id="weekNumber" class="info-line"></div>
+  <div id="dayOfYear" class="info-line"></div>
+  <div class="special-codes">
+    <div id="normalCode"></div>
+    <div id="sofaCode"></div>
+  </div>
+</div>
+
+<script>
+  function getWeekNumber(d) {
+    // Másolás dátumra, hogy az eredetit ne módosítsuk
+    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    // Csütörtök beállítása az aktuális héten
+    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+    // Az év első csütörtökének meghatározása
+    var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+    // Hét számának kiszámítása
+    var weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+    return weekNo;
+  }
+
+  function getDayOfYear(d) {
+    var start = new Date(d.getFullYear(), 0, 0);
+    var diff = d - start;
+    var oneDay = 1000 * 60 * 60 * 24;
+    var day = Math.floor(diff / oneDay);
+    return day;
+  }
+
+  const ma = new Date();
+  const hetSzama = getWeekNumber(ma);
+  const evNapja = getDayOfYear(ma);
+
+  document.getElementById('weekNumber').textContent = hetSzama + ". hét";
+  document.getElementById('dayOfYear').textContent = evNapja + ". nap";
+
+  document.getElementById('normalCode').textContent = "Normál: R" + evNapja + "858503";
+  document.getElementById('sofaCode').textContent = "Sofa: F" + evNapja + "993001";
+</script>
+
+</body>
+</html>
