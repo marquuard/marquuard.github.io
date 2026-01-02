@@ -54,6 +54,48 @@
     color: green;
     margin-top: 5px;
   }
+  /* Új visszaszámláló stílus - illeszkedik a dizájnhoz */
+  .djoti-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background-color: #d0d0d0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #333;
+    font-size: 1em;
+  }
+  .djoti-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .time-unit {
+    background-color: #e0e0e0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    min-width: 45px;
+  }
+  .label {
+    font-size: 0.7em;
+    display: block;
+    margin-top: 2px;
+    font-weight: normal;
+  }
+  .expired {
+    color: #ffeb3b;
+    background-color: #333;
+    color: white;
+  }
 </style>
 </head>
 <body>
@@ -61,6 +103,7 @@
 <div class="container">
   <div id="weekNumber" class="info-line"></div>
   <div id="dayOfYear" class="info-line"></div>
+  
   <div class="special-codes">
     <div>
       <span id="normalCode"></span>
@@ -71,6 +114,17 @@
       <span id="sofaCode"></span>
       <button class="copy-button" onclick="copyCode('sofaCode')" title="Másolás">📋</button>
       <div id="copiedSofa" class="copied-message">Másolva</div>
+    </div>
+  </div>
+
+  <!-- Új DJ Oti doboz R/F kódok alá -->
+  <div id="djotiContainer" class="djoti-box">
+    <div class="djoti-label">DJ Oti hátralévő idő:</div>
+    <div id="countdown" class="countdown">
+      <span class="time-unit"><span id="days">00</span><span class="label">nap</span></span>
+      <span class="time-unit"><span id="hours">00</span><span class="label">óra</span></span>
+      <span class="time-unit"><span id="minutes">00</span><span class="label">perc</span></span>
+      <span class="time-unit"><span id="seconds">00</span><span class="label">mp</span></span>
     </div>
   </div>
 </div>
@@ -102,6 +156,30 @@
   document.getElementById('normalCode').innerHTML = "Normál: <strong>" + normalStr + "</strong>";
   document.getElementById('sofaCode').innerHTML = "Sofa: <strong>" + sofaStr + "</strong>";
 
+  // Visszaszámláló
+  const countDownDate = new Date('2026-08-08T15:00:00').getTime();
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
+
+    const countdownEl = document.getElementById('countdown');
+    if (distance < 0) {
+      countdownEl.innerHTML = '<span class="time-unit expired">Az esemény elkezdődött!</span>';
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById('days').textContent = days.toString().padStart(2, '0');
+    document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+    document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+    document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+  }
+
   function copyCode(id) {
     let text;
     if (id === "normalCode") {
@@ -121,6 +199,9 @@
       el.style.display = "none";
     }, 1500);
   }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
 </script>
 
 </body>
