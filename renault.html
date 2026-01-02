@@ -85,19 +85,17 @@
   }
 
   function getDayOfYear(d) {
-    var start = new Date(d.getFullYear(), 0, 0);
-    var diff = d - start;
-    var oneDay = 1000 * 60 * 60 * 24;
-    var day = Math.floor(diff / oneDay);
-    return day;
+    var jan1 = new Date(d.getFullYear(), 0, 1);
+    var diff = (d - jan1) / (1000 * 60 * 60 * 24);
+    return Math.floor(diff) + 1;
   }
 
   const ma = new Date();
   const hetSzama = getWeekNumber(ma);
   const evNapja = getDayOfYear(ma);
-
-  const normalStr = "R" + evNapja + "858501";
-  const sofaStr = "F" + evNapja + "993001";
+  const evNapjaPadded = evNapja.toString().padStart(3, '0');
+  const normalStr = "R" + evNapjaPadded + "858501";
+  const sofaStr = "F" + evNapjaPadded + "993001";
 
   document.getElementById('weekNumber').textContent = hetSzama + ". hét";
   document.getElementById('dayOfYear').textContent = evNapja + ". nap";
