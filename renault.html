@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';">
 <title>Renault</title>
 <style>
   body {
@@ -35,6 +36,10 @@
   }
   .special-codes div {
     margin-bottom: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
   .copy-button {
     margin-left: 10px;
@@ -98,7 +103,7 @@
   }
 </style>
 </head>
-<body>
+<body oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;">
 
 <div class="container">
   <div id="weekNumber" class="info-line"></div>
@@ -130,6 +135,45 @@
 </div>
 
 <script>
+  // Védelmi funkciók hozzáadása - NEM módosítja a meglévő kódot
+  // CSP meta már head-ben
+  // Anti-debugging
+  (function() {
+    const originalConsole = window.console;
+    window.console = {
+      log: function() {},
+      debug: function() {},
+      info: function() {},
+      warn: function() {},
+      error: function() {}
+    };
+    setInterval(() => {
+      if (window.outerHeight - window.innerHeight > 100 || window.outerWidth - window.innerWidth > 100) {
+        document.body.innerHTML = '';
+      }
+    }, 1000);
+    
+    // Debugger trap
+    function antiDebug() {
+      try {
+        eval('debugger;');
+      } catch(e) {}
+    }
+    setInterval(antiDebug, 500);
+    
+    // DOM integrity check
+    const expectedNormal = "R" + (Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 1)) / 86400000) + 1).toString().padStart(3, '0') + "858501";
+    const expectedSofa = "F" + (Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 1)) / 86400000) + 1).toString().padStart(3, '0') + "993001";
+    setInterval(() => {
+      if (document.getElementById('normalCode') && document.getElementById('normalCode').textContent.indexOf(expectedNormal) === -1) {
+        document.body.innerHTML = '';
+      }
+      if (document.getElementById('sofaCode') && document.getElementById('sofaCode').textContent.indexOf(expectedSofa) === -1) {
+        document.body.innerHTML = '';
+      }
+    }, 2000);
+  })();
+
   function getWeekNumber(d) {
     d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
     d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
@@ -206,4 +250,3 @@
 
 </body>
 </html>
-
