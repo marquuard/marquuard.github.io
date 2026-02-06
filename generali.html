@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generali Eszközalapok – YTD hozamok (csökkenő sorrend)</title>
+    <style>
+        :root {
+            --primary: #004d99;
+            --light-bg: #f8f9fa;
+            --card-bg: white;
+            --positive: #006400;
+            --negative: #b22222;
+            --text-muted: #555;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--light-bg);
+            color: #222;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        header {
+            padding: 1.5rem 1rem;
+            background: var(--primary);
+            color: white;
+        }
+
+        header h1 {
+            font-size: clamp(1.5rem, 5.5vw, 2.1rem);
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: clamp(0.95rem, 3.8vw, 1.05rem);
+            opacity: 0.9;
+        }
+
+        #container {
+            padding: 1.5rem 1rem;
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .fund {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            padding: 1.6rem;
+            margin: 1.2rem 0;
+            border: 1px solid #e0e8ff;
+            width: 100%;
+            max-width: 520px;
+            text-align: center;
+        }
+
+        .fund h2 {
+            font-size: clamp(1.15rem, 4.2vw, 1.4rem);
+            color: var(--primary);
+            margin-bottom: 0.7rem;
+        }
+
+        .fund h2 a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s, text-decoration 0.2s;
+        }
+
+        .fund h2 a:hover,
+        .fund h2 a:focus {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+
+        .hozam {
+            font-size: clamp(2.2rem, 9vw, 3rem);
+            font-weight: 700;
+            margin: 0.6rem 0;
+        }
+
+        .date {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+
+        .error {
+            color: #c00;
+            font-weight: 600;
+            margin-top: 0.8rem;
+        }
+
+        .loading {
+            padding: 4rem 1rem;
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Színek */
+        .positive { color: var(--positive); }
+        .negative  { color: var(--negative); }
+
+        /* Mobilos finomhangolás */
+        @media (max-width: 600px) {
+            header {
+                padding: 1.2rem 0.8rem;
+            }
+
+            #container {
+                padding: 1rem 0.8rem;
+            }
+
+            .fund {
+                padding: 1.4rem 1rem;
+                margin: 1rem 0;
+                max-width: 100%;
+            }
+
+            .hozam {
+                font-size: clamp(2rem, 10vw, 2.6rem);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Generali eszközalapok – Év elejétől számított hozam</h1>
+        <div class="subtitle">• nem évesített •</div>
+    </header>
+
+    <div id="container">
+        <div class="loading">Adatok betöltése folyamatban...</div>
+    </div>
+
+    <script>
+        const funds = [
+            { 
+                name: "Hazai Részvény Eszközalap", 
+                url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/hazaireszvenyeszkozalap.aspx" 
+            },
+            { 
+                name: "Horizont 10+ Vegyes Eszközalap", 
+                url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/horizont10eszkozalap.aspx" 
+            },
+            { 
+                name: "Innováció Részvény Eszközalap", 
+                url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/innovacioreszvenyeszkozalap.aspx" 
+            },
+            { 
+                name: "Tallózó Abszolút Hozam Eszközalap", 
+                url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/tallozoabszoluthozameszkozalap.aspx" 
+            }
+        ];
+
+        const searchPhrase = 'Év elejétől számított hozam (nem évesített)';
+        const percentRegex = /[+-]?\s*\d+[.,]\d{1,2}\s*%/;
+        const dateRegex = /\d{4}\.\d{2}\.\d{2}/;
+
+        const container = document.getElementById('container');
+        container.innerHTML = '';
+
+        function parsePercent(str) {
+            if (!str || str.includes('Nem') || str.includes('Hiba')) return -Infinity;
+            const cleaned = str.replace(/\s/g, '').replace(',', '.').replace('%', '');
+            return parseFloat(cleaned);
+        }
+
+        async function fetchHozam(fund) {
+            try {
+                const response = await fetch(fund.url);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const html = await response.text();
+
+                const index = html.indexOf(searchPhrase);
+                if (index === -1) {
+                    return { name: fund.name, url: fund.url, hozamStr: 'Nem található', numeric: -Infinity, date: '', error: true };
+                }
+
+                const slice = html.substring(index, index + 350);
+                const match = slice.match(percentRegex);
+
+                let hozamStr = match ? match[0].trim() : 'Nem található';
+                let numeric = parsePercent(hozamStr);
+
+                const dates = slice.match(dateRegex) || html.match(dateRegex) || [];
+                const relevantDate = dates.find(d => d.startsWith('2026')) || dates[dates.length-1] || '–';
+
+                return { name: fund.name, url: fund.url, hozamStr, numeric, date: relevantDate, error: false };
+            } catch (err) {
+                return { name: fund.name, url: fund.url, hozamStr: 'Hiba betöltéskor', numeric: -Infinity, date: '', error: true };
+            }
+        }
+
+        Promise.all(funds.map(fetchHozam))
+            .then(results => {
+                results.sort((a, b) => b.numeric - a.numeric);
+
+                container.innerHTML = '';
+
+                results.forEach(res => {
+                    const div = document.createElement('div');
+                    div.className = 'fund';
+
+                    const colorClass = res.hozamStr.includes('-') ? 'negative' :
+                                      (res.hozamStr.match(/\d/) ? 'positive' : '');
+
+                    div.innerHTML = `
+                        <h2><a href="${res.url}" target="_blank" rel="noopener noreferrer">${res.name}</a></h2>
+                        <div class="hozam ${colorClass}">${res.hozamStr}</div>
+                        <div class="date">Referencia dátum: ${res.date}</div>
+                        ${res.error ? '<div class="error">Az adat nem található vagy betöltési hiba történt</div>' : ''}
+                    `;
+                    container.appendChild(div);
+                });
+            })
+            .catch(err => {
+                container.innerHTML = '<p class="error" style="padding:2rem;">Általános hiba történt az adatok lekérésekor.</p>';
+                console.error(err);
+            });
+    </script>
+</body>
+</html>
