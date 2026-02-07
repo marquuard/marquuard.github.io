@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontroller Teszt – Modern UI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0d12;
+      --surface: #16161c;
+      --surface2: #1e1e28;
+      --text: #e2e2ff;
+      --text-dim: #a0a0cc;
+      --accent-l: #00d4ff;
+      --accent-r: #ff4d88;
+      --success: #44ffaa;
+      --warning: #ffcc33;
+      --danger: #ff4d4d;
+      --border: rgba(255,255,255,0.08);
+      --shadow: 0 12px 32px rgba(0,0,0,0.55);
+      --glass: rgba(30,30,40,0.42);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px 16px;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: linear-gradient(90deg, #a0d0ff, #ff99cc, #a0d0ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    #status {
+      margin-top: 12px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin: 32px 0 40px;
+    }
+    button {
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.22s ease;
+      background: var(--surface2);
+      color: white;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    button:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.6);
+    }
+    button:disabled {
+      opacity: 0.38;
+      cursor: not-allowed;
+      transform: none;
+    }
+    .calib { background: linear-gradient(135deg, #5e60ce, #48cae4); }
+    .circ { background: linear-gradient(135deg, #00b4d8, #0096c7); }
+    .hyst { background: linear-gradient(135deg, #ff4d6d, #ff758f); }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .panel {
+      background: var(--glass);
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: var(--shadow);
+      padding: 24px 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .panel:hover {
+      transform: translateY(-6px);
+    }
+    .panel h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center;
+      letter-spacing: 0.4px;
+    }
+    .canvas-wrapper {
+      aspect-ratio: 1 / 1;
+      background: #0a0a0f;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      image-rendering: crisp-edges;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.96rem;
+      color: var(--text-dim);
+    }
+    .drift {
+      font-size: 2.1rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin: 8px 0 4px;
+    }
+    .bar-container {
+      width: 100%;
+      height: 10px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 5px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+    .bar-fill {
+      height: 100%;
+      width: 0%;
+      border-radius: 5px;
+      transition: width 0.25s ease-out;
+      background: linear-gradient(90deg, var(--accent-l), #00aaff);
+    }
+    .right .bar-fill {
+      background: linear-gradient(90deg, var(--accent-r), #ff6699);
+    }
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      color: #555;
+      font-size: 0.84rem;
+      opacity: 0.7;
+    }
+    @media (max-width: 900px) {
+      .container { grid-template-columns: 1fr; }
+      button { padding: 12px 24px; font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Kontroller project marc</h1>
+  <div id="status">Kattints a „Kapcsolódás indítása” gombra, majd nyomj meg egy gombot a kontrolleren!</div>
+</header>
+<div class="controls">
+  <button onclick="startListening()">Kapcsolódás indítása / Frissítés</button>
+  <button class="calib" onclick="startCalibration()" id="btnCalib">1. Nullpont kalibrálás (10s)</button>
+  <button class="circ" onclick="startCircTest()" id="btnCirc">2. Körkörösség teszt (Forgasd!)</button>
+  <button class="hyst" onclick="startHystTest()" id="btnHyst">3. Hiszterézis teszt (Lökdösés)</button>
+</div>
+<div class="container">
+  <div class="panel" id="left-panel">
+    <h2 style="color: var(--accent-l);">BAL STICK</h2>
+    <div class="canvas-wrapper"><canvas id="cLeft"></canvas></div>
+    <div class="info">
+      <div class="drift" id="driftL">Drift: — %</div>
+      <div>Circularity Err: <span id="circL">--</span> %</div>
+      <div>Centering Err: <span id="hystL">--</span> %</div>
+      <div class="bar-container">
+        <div class="bar-fill" id="barL"></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel" id="right-panel">
+    <h2 style="color: var(--accent-r);">JOBB STICK</h2>
+    <div class="canvas-wrapper"><canvas id="cRight"></canvas></div>
+    <div class="info">
+      <div class="drift" id="driftR">Drift: — %</div>
+      <div>Circularity Err: <span id="circR">--</span> %</div>
+      <div>Centering Err: <span id="hystR">--</span> %</div>
+      <div class="bar-container">
+        <div class="bar-fill" id="barR"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>Gamepad API • Modern böngészőkben működik legjobban (Chrome/Edge/Firefox) • HTTPS vagy localhost ajánlott</footer>
+<script>
+  // ===== Alapelemek =====
+  const statusEl = document.getElementById('status');
+  const cLeft = document.getElementById('cLeft');
+  const cRight = document.getElementById('cRight');
+  const ctxL = cLeft.getContext('2d');
+  const ctxR = cRight.getContext('2d');
+  const driftL = document.getElementById('driftL');
+  const driftR = document.getElementById('driftR');
+  const barL = document.getElementById('barL');
+  const barR = document.getElementById('barR');
+  const circL = document.getElementById('circL');
+  const circR = document.getElementById('circR');
+  const hystL = document.getElementById('hystL');
+  const hystR = document.getElementById('hystR');
+  // Nullpont offsetek
+  let leftOffsetX = 0, leftOffsetY = 0;
+  let rightOffsetX = 0, rightOffsetY = 0;
+  // Kalibráció állapot
+  let isCalibrating = false;
+  let calibSamples = [];
+  const CALIB_DURATION = 10000; // 10s
+  const CALIB_INTERVAL = 16; // Körülbelül 60x/sec a pontosabb mintavételhez
+  // Körkörösség teszt állapot
+  let isCircTesting = false;
+  let circSamplesL = [];
+  let circSamplesR = [];
+  // Hiszterézis teszt állapot
+  let isHystTesting = false;
+  let hystSamplesL = [];
+  let hystSamplesR = [];
+  let prevMagL = 0;
+  let prevMagR = 0;
+  // Canvas méretek
+  function resizeCanvases() {
+    const sizeL = cLeft.clientWidth;
+    const sizeR = cRight.clientWidth;
+    cLeft.width = sizeL;
+    cLeft.height = sizeL;
+    cRight.width = sizeR;
+    cRight.height = sizeR;
+  }
+  resizeCanvases();
+  window.addEventListener('resize', resizeCanvases);
+  // Stick kirajzolása – bővítve útvonal rajzolással
+  function drawStick(ctx, xNorm, yNorm, pathSamples = []) {
+    const w = ctx.canvas.width;
+    const h = ctx.canvas.height;
+    const cx = w / 2;
+    const cy = h / 2;
+    const rOuter = Math.min(w, h) * 0.45;
+    const rDot = Math.min(w, h) * 0.06;
+    ctx.clearRect(0, 0, w, h);
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.strokeStyle = '#333a';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.arc(0, 0, rOuter, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.strokeStyle = '#444a';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(-rOuter, 0);
+    ctx.lineTo(rOuter, 0);
+    ctx.moveTo(0, -rOuter);
+    ctx.lineTo(0, rOuter);
+    ctx.stroke();
+    // Útvonal rajzolása, ha van
+    if (pathSamples.length > 1) {
+      ctx.strokeStyle = '#ffff00'; // sárga útvonal
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(pathSamples[0].x * rOuter, pathSamples[0].y * rOuter);
+      for (let i = 1; i < pathSamples.length; i++) {
+        ctx.lineTo(pathSamples[i].x * rOuter, pathSamples[i].y * rOuter);
+      }
+      ctx.stroke();
+    }
+    const x = xNorm * rOuter;
+    const y = yNorm * rOuter; // Gamepad Y: -1 = fel, 1 = le, canvas fel: negatív y
+    ctx.strokeStyle = '#0ff8';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(x, y);
+    ctx.stroke();
+    ctx.fillStyle = '#0ff';
+    ctx.beginPath();
+    ctx.arc(x, y, rDot, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  }
+  // Drift százalék – pontosabb: használjuk Math.hypot a sqrt helyett a numerikus stabilitásért, és toFixed(1) a tizedesjegyhez
+  function calcDriftPercent(x, y) {
+    const len = Math.hypot(x, y);
+    return Math.min(100, (len * 100).toFixed(1));
+  }
+  // Körkörösség hiba számítása – pontosabb: több minta, szűkebb perem (0.95-1.05), medián helyett átlag, outlier eltávolítás (IQR módszer), least squares fit a körhöz
+  function calcCircularityErr(samples) {
+    if (samples.length < 50) return '--'; // Több minta szükséges a pontossághoz
+    const filteredSamples = samples.filter(s => {
+      const len = Math.hypot(s.x, s.y);
+      return len > 0.95 && len < 1.05; // Szűkebb tartomány a peremre
+    });
+    if (filteredSamples.length < 20) return '--';
+    
+    // Outlier eltávolítás: számoljuk a sugarakat, távolítsuk el az IQR-n kívüli értékeket
+    const radii = filteredSamples.map(s => Math.hypot(s.x, s.y));
+    radii.sort((a, b) => a - b);
+    const q1 = radii[Math.floor(radii.length * 0.25)];
+    const q3 = radii[Math.floor(radii.length * 0.75)];
+    const iqr = q3 - q1;
+    const cleanRadii = radii.filter(r => r >= q1 - 1.5 * iqr && r <= q3 + 1.5 * iqr);
+    
+    if (cleanRadii.length < 10) return '--';
+    
+    // Átlagos hiba
+    let sumErr = 0;
+    cleanRadii.forEach(r => {
+      sumErr += Math.abs(r - 1);
+    });
+    const avgErr = sumErr / cleanRadii.length;
+    
+    // Extra: egyszerű least squares circle fit approximáció (központ eltolás nélkül, csak sugár)
+    const avgRadius = cleanRadii.reduce((a, b) => a + b, 0) / cleanRadii.length;
+    const rmsErr = Math.sqrt(cleanRadii.reduce((sum, r) => sum + Math.pow(r - avgRadius, 2), 0) / cleanRadii.length);
+    
+    // Kombinált hiba: átlagos abs hiba + RMS
+    return ((avgErr + rmsErr) * 100).toFixed(2);
+  }
+  // Hiszterézis / centering error számítása – pontosabb: több release, medián hiba, irány szerinti csoportosítás, outlier eltávolítás
+  function calcHystErr(samples) {
+    if (samples.length < 3) return '--'; // Csökkentett minimum a könnyebb aktiváláshoz
+    const errors = samples.map(s => Math.hypot(s.x, s.y));
+    
+    // Outlier eltávolítás IQR-rel
+    errors.sort((a, b) => a - b);
+    const q1 = errors[Math.floor(errors.length * 0.25)];
+    const q3 = errors[Math.floor(errors.length * 0.75)];
+    const iqr = q3 - q1;
+    const cleanErrors = errors.filter(e => e >= q1 - 1.5 * iqr && e <= q3 + 1.5 * iqr);
+    
+    if (cleanErrors.length < 2) return '--';
+    
+    // Medián használata az átlag helyett a robusztusságért
+    const medianErr = cleanErrors[Math.floor(cleanErrors.length / 2)];
+    
+    // Extra: szórás hozzáadása a variabilitás méréséhez
+    const meanErr = cleanErrors.reduce((a, b) => a + b, 0) / cleanErrors.length;
+    const variance = cleanErrors.reduce((sum, e) => sum + Math.pow(e - meanErr, 2), 0) / cleanErrors.length;
+    const stdDev = Math.sqrt(variance);
+    
+    // Kombinált: medián + std dev
+    return ((medianErr + stdDev / 2) * 100).toFixed(2);
+  }
+  // ===== Gamepad poll =====
+  let animationId = null;
+  function pollGamepads() {
+    const gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
+    const gp = gamepads[0];
+    if (!gp) {
+      statusEl.textContent = 'Nincs észlelt kontroller. Nyomj meg egy gombot a kontrolleren!';
+      drawStick(ctxL, 0, 0);
+      drawStick(ctxR, 0, 0);
+      driftL.textContent = 'Drift: — %';
+      driftR.textContent = 'Drift: — %';
+      barL.style.width = '0%';
+      barR.style.width = '0%';
+      circL.textContent = '--';
+      circR.textContent = '--';
+      hystL.textContent = '--';
+      hystR.textContent = '--';
+    } else {
+      statusEl.textContent = `Észlelt kontroller: ${gp.id}`;
+      let lx = gp.axes[0] || 0;
+      let ly = gp.axes[1] || 0;
+      let rx = gp.axes[2] || 0;
+      let ry = gp.axes[3] || 0;
+      const idLower = gp.id.toLowerCase();
+      const isDS4 = idLower.includes('054c') || idLower.includes('dualshock') || idLower.includes('wireless controller') || idLower.includes('playstation');
+      if (isDS4 && gp.mapping !== 'standard' && gp.axes.length >= 6) {
+        rx = gp.axes[2] || 0;
+        ry = gp.axes[5] || 0;
+      }
+      // Offset korrekció
+      lx -= leftOffsetX;
+      ly -= leftOffsetY;
+      rx -= rightOffsetX;
+      ry -= rightOffsetY;
+      // Deadzone – finomabb, adaptív deadzone kalibráció után
+      const deadzone = 0.01; // Még kisebb deadzone a finomabb méréshez
+      lx = Math.abs(lx) < deadzone ? 0 : lx;
+      ly = Math.abs(ly) < deadzone ? 0 : ly;
+      rx = Math.abs(rx) < deadzone ? 0 : rx;
+      ry = Math.abs(ry) < deadzone ? 0 : ry;
+      // Rajzolás (útvonal a körkörösség teszt alatt)
+      drawStick(ctxL, lx, ly, isCircTesting ? circSamplesL : []);
+      drawStick(ctxR, rx, ry, isCircTesting ? circSamplesR : []);
+      // Drift
+      const driftLP = calcDriftPercent(lx, ly);
+      const driftRP = calcDriftPercent(rx, ry);
+      driftL.textContent = `Drift: ${driftLP} %`;
+      driftR.textContent = `Drift: ${driftRP} %`;
+      barL.style.width = `${Math.min(100, driftLP)}%`;
+      barR.style.width = `${Math.min(100, driftRP)}%`;
+      // Ha kalibrálás fut
+      if (isCalibrating) {
+        calibSamples.push({lx, ly, rx, ry});
+      }
+      // Ha körkörösség teszt fut
+      if (isCircTesting) {
+        if (circSamplesL.length > 5000) circSamplesL.shift(); // Nagyobb limit, de shift a lag elkerülésére
+        if (circSamplesR.length > 5000) circSamplesR.shift();
+        circSamplesL.push({x: lx, y: ly});
+        circSamplesR.push({x: rx, y: ry});
+        circL.textContent = calcCircularityErr(circSamplesL);
+        circR.textContent = calcCircularityErr(circSamplesR);
+      }
+      // Ha hiszterézis teszt fut
+      if (isHystTesting) {
+        const magL = Math.hypot(lx, ly);
+        const magR = Math.hypot(rx, ry);
+        // Lazább detekció: 0.4 felett push, 0.1 alá release
+        if (prevMagL > 0.4 && magL < 0.1) {
+          hystSamplesL.push({x: lx, y: ly});
+          hystL.textContent = calcHystErr(hystSamplesL);
+        }
+        if (prevMagR > 0.4 && magR < 0.1) {
+          hystSamplesR.push({x: rx, y: ry});
+          hystR.textContent = calcHystErr(hystSamplesR);
+        }
+        prevMagL = magL;
+        prevMagR = magR;
+      }
+    }
+    animationId = requestAnimationFrame(pollGamepads);
+  }
+  function startListening() {
+    if (animationId) {
+      cancelAnimationFrame(animationId);
+      animationId = null;
+    }
+    statusEl.textContent = 'Figyelés… Nyomj meg egy gombot a kontrolleren, majd mozgasd a stickeket!';
+    animationId = requestAnimationFrame(pollGamepads);
+  }
+  // Nullpont kalibrálás – pontosabb: több minta (60Hz), outlier eltávolítás IQR-rel, medián offset
+  function startCalibration() {
+    if (isCalibrating) return;
+    isCalibrating = true;
+    calibSamples = [];
+    const btnCalib = document.getElementById('btnCalib');
+    btnCalib.disabled = true;
+    statusEl.textContent = 'Nullpont kalibrálás indul... Tartsd nyugalomban a stickeket 10 másodpercig!';
+    const startTime = Date.now();
+    const calibLoop = () => {
+      if (Date.now() - startTime < CALIB_DURATION) {
+        requestAnimationFrame(calibLoop);
+      } else {
+        isCalibrating = false;
+        btnCalib.disabled = false;
+        btnCalib.textContent = '1. Nullpont kalibrálás (10s)';
+        if (calibSamples.length === 0) {
+          statusEl.textContent = 'Kalibrálás sikertelen, nincs adat.';
+          return;
+        }
+        // Külön listák az értékekhez
+        const lxs = calibSamples.map(s => s.lx);
+        const lys = calibSamples.map(s => s.ly);
+        const rxs = calibSamples.map(s => s.rx);
+        const rys = calibSamples.map(s => s.ry);
+        
+        // Outlier eltávolítás minden tengelyre külön
+        function cleanAxis(values) {
+          values.sort((a, b) => a - b);
+          const q1 = values[Math.floor(values.length * 0.25)];
+          const q3 = values[Math.floor(values.length * 0.75)];
+          const iqr = q3 - q1;
+          return values.filter(v => v >= q1 - 1.5 * iqr && v <= q3 + 1.5 * iqr);
+        }
+        
+        const cleanLX = cleanAxis(lxs);
+        const cleanLY = cleanAxis(lys);
+        const cleanRX = cleanAxis(rxs);
+        const cleanRY = cleanAxis(rys);
+        
+        if (cleanLX.length < 10) {
+          statusEl.textContent = 'Kalibrálás sikertelen, túl sok outlier.';
+          return;
+        }
+        
+        // Medián használata az átlag helyett a robusztusságért
+        leftOffsetX = cleanLX[Math.floor(cleanLX.length / 2)];
+        leftOffsetY = cleanLY[Math.floor(cleanLY.length / 2)];
+        rightOffsetX = cleanRX[Math.floor(cleanRX.length / 2)];
+        rightOffsetY = cleanRY[Math.floor(cleanRY.length / 2)];
+        
+        statusEl.textContent = 'Kalibrálás kész! Offsetek alkalmazva.';
+      }
+    };
+    calibLoop();
+    const countdownInterval = setInterval(() => {
+      const elapsed = Date.now() - startTime;
+      const remaining = Math.ceil((CALIB_DURATION - elapsed) / 1000);
+      btnCalib.textContent = `Kalibrálás (${remaining}s)`;
+      if (elapsed >= CALIB_DURATION) {
+        clearInterval(countdownInterval);
+      }
+    }, 1000);
+  }
+  // Körkörösség teszt
+  function startCircTest() {
+    if (isCircTesting) {
+      isCircTesting = false;
+      const btnCirc = document.getElementById('btnCirc');
+      btnCirc.textContent = '2. Körkörösség teszt (Forgasd!)';
+      statusEl.textContent = 'Körkörösség teszt befejezve.';
+      circL.textContent = calcCircularityErr(circSamplesL);
+      circR.textContent = calcCircularityErr(circSamplesR);
+      circSamplesL = [];
+      circSamplesR = [];
+    } else {
+      isCircTesting = true;
+      circSamplesL = [];
+      circSamplesR = [];
+      const btnCirc = document.getElementById('btnCirc');
+      btnCirc.textContent = 'Teszt leállítása';
+      statusEl.textContent = 'Körkörösség teszt indul... Forgasd lassan a stickeket teljes körökben!';
+    }
+  }
+  // Hiszterézis teszt
+  function startHystTest() {
+    if (isHystTesting) {
+      isHystTesting = false;
+      const btnHyst = document.getElementById('btnHyst');
+      btnHyst.textContent = '3. Hiszterézis teszt (Lökdösés)';
+      statusEl.textContent = 'Hiszterézis teszt befejezve.';
+      hystL.textContent = calcHystErr(hystSamplesL);
+      hystR.textContent = calcHystErr(hystSamplesR);
+      hystSamplesL = [];
+      hystSamplesR = [];
+    } else {
+      isHystTesting = true;
+      hystSamplesL = [];
+      hystSamplesR = [];
+      prevMagL = 0;
+      prevMagR = 0;
+      const btnHyst = document.getElementById('btnHyst');
+      btnHyst.textContent = 'Teszt leállítása';
+      statusEl.textContent = 'Hiszterézis teszt indul... Lökd meg a stickeket különböző irányokba és engedd vissza a középre!';
+    }
+  }
+  window.addEventListener('gamepadconnected', (e) => {
+    statusEl.textContent = `Kontroller csatlakozott: ${e.gamepad.id}`;
+  });
+  window.addEventListener('gamepaddisconnected', () => {
+    statusEl.textContent = 'Kontroller leválasztva.';
+  });
+</script>
+</body>
+</html>
