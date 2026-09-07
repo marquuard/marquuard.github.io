@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generali Eszközalapok – YTD hozamok (csökkenő sorrend)</title>
+
+    <link rel="icon" href="https://www.generali.com/etc/designs/generali/favicon.ico">
+    <link rel="shortcut icon" href="https://www.generali.com/etc/designs/generali/favicon.ico">
+    
+    <style>
+        :root {
+            --primary: #004d99;
+            --light-bg: #f8f9fa;
+            --card-bg: white;
+            --text: #222;
+            --text-muted: #555;
+            --border: #e0e8ff;
+            --shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+        [data-theme="dark"] {
+            --primary: #4da3ff;
+            --light-bg: #0d1117;
+            --card-bg: #161b22;
+            --text: #e6edf3;
+            --text-muted: #8b949e;
+            --border: #30363d;
+            --shadow: 0 3px 12px rgba(0,0,0,0.5);
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--light-bg);
+            color: var(--text);
+            line-height: 1.5;
+            text-align: center;
+            transition: background 0.3s, color 0.3s;
+        }
+        header {
+            padding: 1.5rem 1rem;
+            background: var(--primary);
+            color: white;
+        }
+        header h1 {
+            font-size: clamp(1.5rem, 5.5vw, 2.1rem);
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            font-size: clamp(0.95rem, 3.8vw, 1.05rem);
+            opacity: 0.9;
+        }
+        #container {
+            padding: 1.5rem 1rem;
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .fund {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            padding: 1.6rem;
+            margin: 1.2rem 0;
+            border: 1px solid var(--border);
+            width: 100%;
+            max-width: 520px;
+            text-align: center;
+            transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
+        }
+        .fund h2 {
+            font-size: clamp(1.15rem, 4.2vw, 1.4rem);
+            color: var(--primary);
+            margin-bottom: 0.7rem;
+        }
+        .fund h2 a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .fund h2 a:hover,
+        .fund h2 a:focus {
+            color: #4da3ff;
+            text-decoration: underline;
+        }
+        .hozam {
+            font-size: clamp(2.2rem, 9vw, 3rem);
+            font-weight: 700;
+            margin: 0.6rem 0;
+        }
+        .date {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+        .error {
+            color: #ff6b6b;
+            font-weight: 600;
+            margin-top: 0.8rem;
+        }
+        .loading {
+            padding: 4rem 1rem;
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .positive { color: #2ecc71; }
+        .negative { color: #e74c3c; }
+        #theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: #444;
+            color: white;
+            border: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: background 0.2s, transform 0.15s;
+        }
+        #theme-toggle:hover {
+            background: #666;
+            transform: scale(1.08);
+        }
+        #theme-toggle:active {
+            transform: scale(0.96);
+        }
+        @media (max-width: 600px) {
+            header { padding: 1.2rem 0.8rem; }
+            #container { padding: 1rem 0.8rem; }
+            .fund { padding: 1.4rem 1rem; margin: 1rem 0; max-width: 100%; }
+            .hozam { font-size: clamp(2rem, 10vw, 2.6rem); }
+            #theme-toggle {
+                bottom: 16px;
+                right: 16px;
+                width: 44px;
+                height: 44px;
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body data-theme="dark">
+    <header>
+        <h1>Generali eszközalapok – Év elejétől számított hozam</h1>
+        <div class="subtitle">• nem évesített •</div>
+    </header>
+    <div id="container">
+        <div class="loading">Adatok betöltése folyamatban...</div>
+    </div>
+    <button id="theme-toggle" title="Sötét/világos mód váltás">☀️</button>
+
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        function setTheme(theme) {
+            body.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            toggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        const savedTheme = localStorage.getItem('theme');
+        setTheme(savedTheme || 'dark');
+
+        toggleBtn.addEventListener('click', () => {
+            const current = body.getAttribute('data-theme') || 'dark';
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+
+        const funds = [
+            { name: "Hazai Részvény Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/hazaireszvenyeszkozalap.aspx" },
+            { name: "Horizont 10+ Vegyes Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/horizont10eszkozalap.aspx" },
+            { name: "Innováció Részvény Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/innovacioreszvenyeszkozalap.aspx" },
+            { name: "Tallózó Abszolút Hozam Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/tallozoabszoluthozameszkozalap.aspx" }
+        ];
+
+        const percentRegex = /[+-]?\s*\d+[.,]\d{1,2}\s*%/;
+        const dateRegex = /\d{4}\.\d{2}\.\d{2}/g;
+        const currentYear = new Date().getFullYear().toString();
+        const container = document.getElementById('container');
+
+        function parsePercent(str) {
+            if (!str || str.includes('Nem') || str.includes('Hiba')) return -Infinity;
+            const cleaned = str.replace(/\s/g, '').replace(',', '.').replace('%', '');
+            return parseFloat(cleaned);
+        }
+
+        async function fetchHozam(fund) {
+            try {
+                // CORS proxy használata a böngésző tiltásának feloldására
+                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(fund.url)}`;
+                const response = await fetch(proxyUrl);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                
+                const data = await response.json();
+                const html = data.contents;
+                if (!html) throw new Error('Üres válasz');
+
+                // DOMParser használata a precízebb szöveg- és táblázatkereséshez
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+
+                let hozamStr = 'Nem található';
+                let relevantDate = '–';
+
+                // Keresés szöveges címke alapján
+                const searchLabel = "Év elejétől számított hozam";
+                const walker = document.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+                let targetNode = null;
+
+                while (walker.nextNode()) {
+                    if (walker.currentNode.nodeValue.includes(searchLabel)) {
+                        targetNode = walker.currentNode.parentElement;
+                        break;
+                    }
+                }
+
+                if (targetNode) {
+                    // Megvizsgáljuk a szülő konténert és a szomszédos elemeket az értékért
+                    const parentContext = targetNode.closest('tr, div, li') || targetNode.parentElement;
+                    const contextText = parentContext ? parentContext.innerText : targetNode.innerText;
+                    const match = contextText.match(percentRegex);
+                    if (match) {
+                        hozamStr = match[0].trim();
+                    }
+                }
+
+                // Fallback: Ha nem talált direktben DOM-ból, regexszel nézünk rá a szeletre
+                if (hozamStr === 'Nem található') {
+                    const idx = html.indexOf(searchLabel);
+                    if (idx !== -1) {
+                        const slice = html.substring(idx, idx + 400);
+                        const match = slice.match(percentRegex);
+                        if (match) hozamStr = match[0].trim();
+                    }
+                }
+
+                // Dátum kinyerése: dinamikusan az aktuális évet keressük
+                const dates = html.match(dateRegex) || [];
+                const yearMatch = dates.find(d => d.startsWith(currentYear));
+                relevantDate = yearMatch || dates[dates.length - 1] || '–';
+
+                const numeric = parsePercent(hozamStr);
+                const isError = hozamStr === 'Nem található';
+
+                return { name: fund.name, url: fund.url, hozamStr, numeric, date: relevantDate, error: isError };
+            } catch (err) {
+                console.error(`Hiba a lekéréskor (${fund.name}):`, err);
+                return { name: fund.name, url: fund.url, hozamStr: 'Hiba betöltéskor', numeric: -Infinity, date: '', error: true };
+            }
+        }
+
+        Promise.all(funds.map(fetchHozam))
+            .then(results => {
+                results.sort((a, b) => b.numeric - a.numeric);
+                container.innerHTML = '';
+                results.forEach(res => {
+                    const div = document.createElement('div');
+                    div.className = 'fund';
+                    const colorClass = res.hozamStr.includes('-') ? 'negative' :
+                                      (res.hozamStr.match(/\d/) ? 'positive' : '');
+                    div.innerHTML = `
+                        <h2><a href="${res.url}" target="_blank" rel="noopener noreferrer">${res.name}</a></h2>
+                        <div class="hozam ${colorClass}">${res.hozamStr}</div>
+                        <div class="date">Referencia dátum: ${res.date}</div>
+                        ${res.error ? '<div class="error">Az adat nem található vagy betöltési hiba történt</div>' : ''}
+                    `;
+                    container.appendChild(div);
+                });
+            })
+            .catch(err => {
+                container.innerHTML = '<p class="error" style="padding:2rem;">Általános hiba történt az adatok feldolgozásakor.</p>';
+                console.error(err);
+            });
+    </script>
+</body>
+</html>
