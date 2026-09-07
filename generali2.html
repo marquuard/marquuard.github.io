@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generali Eszközalapok – YTD hozamok</title>
+    <title>Generali Eszközalapok – Hozamok</title>
 
     <link rel="icon" href="https://www.generali.com/etc/designs/generali/favicon.ico">
     <link rel="shortcut icon" href="https://www.generali.com/etc/designs/generali/favicon.ico">
@@ -27,7 +27,11 @@
             --border: #30363d;
             --shadow: 0 3px 12px rgba(0,0,0,0.5);
         }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             background: var(--light-bg);
@@ -35,11 +39,21 @@
             line-height: 1.5;
             text-align: center;
             transition: background 0.3s, color 0.3s;
-            padding-bottom: 80px;
+            padding-bottom: 70px;
         }
-        header { padding: 1.5rem 1rem; background: var(--primary); color: white; }
-        header h1 { font-size: clamp(1.4rem, 5vw, 2rem); margin-bottom: 0.3rem; }
-        .subtitle { font-size: 0.95rem; opacity: 0.9; }
+        header {
+            padding: 1.5rem 1rem;
+            background: var(--primary);
+            color: white;
+        }
+        header h1 {
+            font-size: clamp(1.4rem, 5vw, 2rem);
+            margin-bottom: 0.3rem;
+        }
+        .subtitle {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
         #container {
             padding: 1.5rem 1rem;
             max-width: 960px;
@@ -52,22 +66,39 @@
             background: var(--card-bg);
             border-radius: 12px;
             box-shadow: var(--shadow);
-            padding: 1.5rem;
-            margin: 1rem 0;
+            padding: 1.6rem;
+            margin: 1.1rem 0;
             border: 1px solid var(--border);
             width: 100%;
-            max-width: 500px;
+            max-width: 520px;
+            text-align: center;
         }
-        .fund h2 { font-size: 1.25rem; margin-bottom: 0.5rem; }
-        .fund h2 a { color: var(--primary); text-decoration: none; }
-        .hozam { font-size: 2.5rem; font-weight: 700; margin: 0.5rem 0; }
-        .date { font-size: 0.9rem; color: var(--text-muted); }
-        .error { color: #ff6b6b; font-weight: 600; font-size: 0.9rem; margin-top: 0.5rem; }
-        .loading { padding: 3rem; font-size: 1.1rem; color: var(--text-muted); font-style: italic; }
+        .fund h2 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        .fund h2 a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .hozam {
+            font-size: clamp(2.2rem, 8vw, 2.8rem);
+            font-weight: 700;
+            margin: 0.5rem 0;
+        }
+        .date {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
         .positive { color: #2ecc71; }
         .negative { color: #e74c3c; }
+        .loading {
+            padding: 3.5rem;
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
 
-        /* Gombok a jobb alsó sarokban */
         .floating-buttons {
             position: fixed;
             bottom: 20px;
@@ -90,246 +121,204 @@
             align-items: center;
             justify-content: center;
         }
-        .btn-circle:hover { background: #444; }
-
-        /* Debug Logger Panel */
         #debug-panel {
             display: none;
             position: fixed;
             bottom: 75px;
             left: 5%;
             right: 5%;
-            max-width: 900px;
+            max-width: 850px;
             margin: 0 auto;
-            height: 320px;
+            height: 280px;
             background: #111;
             color: #00ff66;
-            font-family: Consolas, monospace;
+            font-family: monospace;
             font-size: 0.8rem;
             text-align: left;
             padding: 12px;
             border-radius: 8px;
             border: 1px solid #444;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.7);
             overflow-y: auto;
             white-space: pre-wrap;
-            word-break: break-all;
             z-index: 999;
         }
-        #debug-panel .log-err { color: #ff5555; }
-        #debug-panel .log-warn { color: #ffaa00; }
-        #debug-panel .log-info { color: #55ccff; }
     </style>
 </head>
 <body data-theme="dark">
     <header>
-        <h1>Generali eszközalapok – Év elejétől számított hozam</h1>
-        <div class="subtitle">• nem évesített •</div>
+        <h1>Generali eszközalapok – Hozamok</h1>
+        <div class="subtitle">• Generali központi adatok •</div>
     </header>
 
     <div id="container">
-        <div class="loading">Adatok lekérése...</div>
+        <div class="loading">Adatok letöltése...</div>
     </div>
 
-    <!-- Debug Log Panel -->
     <div id="debug-panel"></div>
 
-    <!-- Lebegő gombok -->
     <div class="floating-buttons">
-        <button id="debug-toggle" class="btn-circle" title="Debug napló megjelenítése/elrejtése">🐞</button>
+        <button id="debug-toggle" class="btn-circle" title="Debug napló">🐞</button>
         <button id="theme-toggle" class="btn-circle" title="Sötét/világos mód">☀️</button>
     </div>
 
     <script>
-        // Debug Logger modul
         const debugPanel = document.getElementById('debug-panel');
         const debugToggleBtn = document.getElementById('debug-toggle');
 
-        function log(msg, type = 'normal') {
+        function log(msg, color = '#00ff66') {
             const time = new Date().toLocaleTimeString();
             const div = document.createElement('div');
-            if (type === 'error') div.className = 'log-err';
-            if (type === 'warn') div.className = 'log-warn';
-            if (type === 'info') div.className = 'log-info';
+            div.style.color = color;
             div.textContent = `[${time}] ${msg}`;
             debugPanel.appendChild(div);
             debugPanel.scrollTop = debugPanel.scrollHeight;
-            console.log(`[${type.toUpperCase()}] ${msg}`);
+            console.log(msg);
         }
 
         debugToggleBtn.addEventListener('click', () => {
-            if (debugPanel.style.display === 'block') {
-                debugPanel.style.display = 'none';
-            } else {
-                debugPanel.style.display = 'block';
-            }
+            debugPanel.style.display = debugPanel.style.display === 'block' ? 'none' : 'block';
         });
 
-        // Téma váltás
+        // Téma váltó
         const toggleBtn = document.getElementById('theme-toggle');
         const body = document.body;
-
-        function setTheme(theme) {
-            body.setAttribute('data-theme', theme);
-            localStorage.setItem('theme', theme);
-            toggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        function setTheme(t) {
+            body.setAttribute('data-theme', t);
+            localStorage.setItem('theme', t);
+            toggleBtn.textContent = t === 'dark' ? '☀️' : '🌙';
         }
         setTheme(localStorage.getItem('theme') || 'dark');
         toggleBtn.addEventListener('click', () => {
-            const current = body.getAttribute('data-theme') || 'dark';
-            setTheme(current === 'dark' ? 'light' : 'dark');
+            setTheme(body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
         });
 
+        // A keresendő 4 alap és a linkjeik
         const funds = [
-            { name: "Hazai Részvény Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/hazaireszvenyeszkozalap.aspx" },
-            { name: "Horizont 10+ Vegyes Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/horizont10eszkozalap.aspx" },
-            { name: "Innováció Részvény Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/innovacioreszvenyeszkozalap.aspx" },
-            { name: "Tallózó Abszolút Hozam Eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/tallozoabszoluthozameszkozalap.aspx" }
+            { name: "Hazai részvény eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/hazaireszvenyeszkozalap.aspx" },
+            { name: "Horizont 10+ vegyes eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/horizont10eszkozalap.aspx" },
+            { name: "Innováció részvény eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/innovacioreszvenyeszkozalap.aspx" },
+            { name: "Tallózó abszolút hozam eszközalap", url: "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/tallozoabszoluthozameszkozalap.aspx" }
         ];
 
-        const searchPhrase = 'Év elejétől számított hozam';
+        // 1etlen gyűjtő URL lekérése a 4 különálló helyett!
+        const overviewUrl = "https://www.generali.hu/home/online_ugyfelszolgalat/befektetesi_informaciok/hozamok.aspx";
         const percentRegex = /[+-]?\s*\d+[.,]\d{1,2}\s*%/;
-        const dateRegex = /\d{4}\.\d{2}\.\d{2}/g;
-        const currentYear = new Date().getFullYear().toString();
+        const dateRegex = /\d{4}\.\d{2}\.\d{2}/;
 
         function parsePercent(str) {
-            if (!str || str.includes('Nem') || str.includes('Hiba')) return -Infinity;
+            if (!str || str.includes('Nem') || str.includes('Hiba') || str.trim() === '-') return -Infinity;
             return parseFloat(str.replace(/\s/g, '').replace(',', '.').replace('%', ''));
         }
 
-        async function fetchHtml(targetUrl, fundName) {
-            log(`Indítás: ${fundName}`, 'info');
+        async function fetchCentralPage() {
+            log('Központi hozamoldal letöltése (1etlen kérés)...', '#55ccff');
 
-            // 1. Próba: direkt lekérés (ha nincs CORS-korlát vagy helyi engedmény van)
-            try {
-                log(`[${fundName}] Próba 1: Közvetlen letöltés...`);
-                const ctrl = new AbortController();
-                const t = setTimeout(() => ctrl.abort(), 4000);
-                const res = await fetch(targetUrl, { signal: ctrl.signal });
-                clearTimeout(t);
-                if (res.ok) {
-                    const txt = await res.text();
-                    log(`[${fundName}] Közvetlen letöltés SIKERES! Méret: ${txt.length} bájt`);
-                    return txt;
-                }
-                log(`[${fundName}] Közvetlen válasz státusz: ${res.status}`, 'warn');
-            } catch (err) {
-                log(`[${fundName}] Közvetlen lekérés elutasítva: ${err.message}`, 'warn');
-            }
+            // Megnövelt, 15 másodperces időkorlát, hogy mobilhálózaton se szakadjon meg
+            const endpoints = [
+                `https://api.allorigins.win/get?url=${encodeURIComponent(overviewUrl)}&ts=${Date.now()}`,
+                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(overviewUrl)}`
+            ];
 
-            // 2. Próba: AllOrigins RAW
-            try {
-                log(`[${fundName}] Próba 2: AllOrigins RAW átjáró...`);
-                const ctrl = new AbortController();
-                const t = setTimeout(() => ctrl.abort(), 6000);
-                const res = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}&timestamp=${Date.now()}`, { signal: ctrl.signal });
-                clearTimeout(t);
-                if (res.ok) {
-                    const txt = await res.text();
-                    log(`[${fundName}] AllOrigins RAW siker! Méret: ${txt.length}`);
-                    return txt;
-                }
-                log(`[${fundName}] AllOrigins RAW státusz: ${res.status}`, 'warn');
-            } catch (err) {
-                log(`[${fundName}] AllOrigins RAW hiba: ${err.message}`, 'warn');
-            }
+            for (const ep of endpoints) {
+                try {
+                    log(`Próbálkozás: ${ep.substring(0, 32)}...`);
+                    const ctrl = new AbortController();
+                    const timer = setTimeout(() => ctrl.abort(), 15000);
+                    const res = await fetch(ep, { signal: ctrl.signal });
+                    clearTimeout(timer);
 
-            // 3. Próba: CodeTabs
-            try {
-                log(`[${fundName}] Próba 3: CodeTabs átjáró...`);
-                const ctrl = new AbortController();
-                const t = setTimeout(() => ctrl.abort(), 6000);
-                const res = await fetch(`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`, { signal: ctrl.signal });
-                clearTimeout(t);
-                if (res.ok) {
-                    const txt = await res.text();
-                    log(`[${fundName}] CodeTabs siker! Méret: ${txt.length}`);
-                    return txt;
-                }
-                log(`[${fundName}] CodeTabs státusz: ${res.status}`, 'warn');
-            } catch (err) {
-                log(`[${fundName}] CodeTabs hiba: ${err.message}`, 'warn');
-            }
+                    if (!res.ok) continue;
 
-            // 4. Próba: AllOrigins JSON wrapper
-            try {
-                log(`[${fundName}] Próba 4: AllOrigins JSON...`);
-                const ctrl = new AbortController();
-                const t = setTimeout(() => ctrl.abort(), 6000);
-                const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}&timestamp=${Date.now()}`, { signal: ctrl.signal });
-                clearTimeout(t);
-                if (res.ok) {
-                    const json = await res.json();
-                    if (json.contents) {
-                        log(`[${fundName}] AllOrigins JSON siker! Méret: ${json.contents.length}`);
-                        return json.contents;
+                    let html = '';
+                    if (ep.includes('/get?url=')) {
+                        const json = await res.json();
+                        html = json.contents || '';
+                    } else {
+                        html = await res.text();
                     }
-                }
-            } catch (err) {
-                log(`[${fundName}] AllOrigins JSON hiba: ${err.message}`, 'warn');
-            }
 
-            throw new Error('Minden letöltési útvonal elbukott.');
+                    if (html && html.includes('Hazai részvény eszközalap')) {
+                        log(`SIKERES LETÖLTÉS! Oldalméret: ${html.length} karakter`, '#00ff66');
+                        return html;
+                    }
+                } catch (e) {
+                    log(`Hiba ezen a csatornán: ${e.message}`, '#ffaa00');
+                }
+            }
+            throw new Error('Nem sikerült letölteni a központi oldalt.');
         }
 
-        async function fetchHozam(fund) {
+        async function init() {
             try {
-                const html = await fetchHtml(fund.url, fund.name);
+                const html = await fetchCentralPage();
 
-                const index = html.indexOf(searchPhrase);
-                if (index === -1) {
-                    log(`[${fund.name}] Nem található benne a keresett szöveg: "${searchPhrase}"`, 'error');
-                    log(`[${fund.name}] HTML eleje (minta): ${html.substring(0, 180).replace(/\s+/g, ' ')}...`, 'warn');
-                    return { name: fund.name, url: fund.url, hozamStr: 'Nem található', numeric: -Infinity, date: '–', error: true };
-                }
+                // Dátum kinyerése a táblázat fejlécéből (pl. 2026.09.02)
+                const dateMatch = html.match(dateRegex);
+                const tableDate = dateMatch ? dateMatch[0] : new Date().toLocaleDateString('hu-HU');
 
-                log(`[${fund.name}] Kifejezés megtalálva az indexnél: ${index}`);
-                const slice = html.substring(index, index + 800);
-                const match = slice.match(percentRegex);
+                const results = [];
 
-                if (!match) {
-                    log(`[${fund.name}] Kifejezés megvan, de nem található százalék a környezetében. Szelet: ${slice.replace(/\s+/g, ' ').substring(0, 150)}...`, 'error');
-                } else {
-                    log(`[${fund.name}] Megtalált hozam: ${match[0]}`);
-                }
+                funds.forEach(fund => {
+                    const idx = html.toLowerCase().indexOf(fund.name.toLowerCase());
+                    if (idx !== -1) {
+                        // Kivágjuk a táblázat adott sorát az alap neve után
+                        const rowSnippet = html.substring(idx, idx + 400);
+                        // A táblázatban: Alap neve -> 6 hónapos hozam -> 12 hónapos hozam
+                        const matches = rowSnippet.match(/[+-]?\s*\d+[.,]\d{1,2}\s*%/g);
 
-                const hozamStr = match ? match[0].trim() : 'Nem található';
-                const numeric = parsePercent(hozamStr);
+                        let hozamVal = '–';
+                        let numeric = -Infinity;
 
-                const dates = html.match(dateRegex) || [];
-                const currentYearDate = dates.find(d => d.startsWith(currentYear));
-                const relevantDate = currentYearDate || dates[dates.length - 1] || '–';
+                        if (matches && matches.length > 0) {
+                            // Az első százalék az aktuális (nem évesített) időszaki hozam
+                            hozamVal = matches[0].trim();
+                            numeric = parsePercent(hozamVal);
+                        }
 
-                return { name: fund.name, url: fund.url, hozamStr, numeric, date: relevantDate, error: (hozamStr === 'Nem található') };
+                        log(`[KÉSZ] ${fund.name}: ${hozamVal}`);
+                        results.push({
+                            name: fund.name.charAt(0).toUpperCase() + fund.name.slice(1),
+                            url: fund.url,
+                            hozamStr: hozamVal,
+                            numeric: numeric,
+                            date: tableDate
+                        });
+                    } else {
+                        log(`[HIÁNYZIK] Nem található a táblázatban: ${fund.name}`, '#ff5555');
+                    }
+                });
+
+                results.sort((a, b) => b.numeric - a.numeric);
+
+                const container = document.getElementById('container');
+                container.innerHTML = '';
+
+                results.forEach(res => {
+                    const div = document.createElement('div');
+                    div.className = 'fund';
+                    const colorClass = res.hozamStr.includes('-') ? 'negative' :
+                                      (res.hozamStr.match(/\d/) ? 'positive' : '');
+                    div.innerHTML = `
+                        <h2><a href="${res.url}" target="_blank" rel="noopener noreferrer">${res.name}</a></h2>
+                        <div class="hozam ${colorClass}">${res.hozamStr}</div>
+                        <div class="date">Referencia dátum: ${res.date}</div>
+                    `;
+                    container.appendChild(div);
+                });
+
+                log('Megjelenítés sikeresen befejeződött!', '#00ff66');
+
             } catch (err) {
-                log(`[${fund.name}] KRITIKUS HIBA: ${err.message}`, 'error');
-                return { name: fund.name, url: fund.url, hozamStr: 'Hiba betöltéskor', numeric: -Infinity, date: '–', error: true };
+                log(`VÉGZETES HIBA: ${err.message}`, '#ff5555');
+                document.getElementById('container').innerHTML = `
+                    <div style="color:#ff6b6b; padding:2rem; font-weight:bold;">
+                        Nem sikerült elérni az adatokat. Nyisd meg a jobb alsó 🐞 gombot a részletekért!
+                    </div>
+                `;
             }
         }
 
-        Promise.all(funds.map(fetchHozam)).then(results => {
-            results.sort((a, b) => b.numeric - a.numeric);
-            const container = document.getElementById('container');
-            container.innerHTML = '';
-
-            results.forEach(res => {
-                const div = document.createElement('div');
-                div.className = 'fund';
-                const colorClass = res.hozamStr.includes('-') && !res.hozamStr.startsWith('-Infinity') ? 'negative' :
-                                  (res.hozamStr.match(/\d/) ? 'positive' : '');
-                div.innerHTML = `
-                    <h2><a href="${res.url}" target="_blank" rel="noopener noreferrer">${res.name}</a></h2>
-                    <div class="hozam ${colorClass}">${res.hozamStr}</div>
-                    <div class="date">Referencia dátum: ${res.date}</div>
-                    ${res.error ? '<div class="error">Az adat nem található vagy betöltési hiba történt</div>' : ''}
-                `;
-                container.appendChild(div);
-            });
-            log('Összesítés befejeződött.', 'info');
-        }).catch(e => {
-            log(`Általános hiba: ${e.message}`, 'error');
-            document.getElementById('container').innerHTML = '<div class="error">Végzetes hiba történt a futtatáskor.</div>';
-        });
+        init();
     </script>
 </body>
 </html>
