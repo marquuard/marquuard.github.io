@@ -199,25 +199,26 @@
             return parseFloat(cleaned);
         }
 
-        async function fetchHtml(targetUrl) {
-            const gateways = [
-                `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`,
-                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`,
-                `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`
+        // Többcsatornás, időkorlátos letöltő, ami mobilon és asztali gépen is működik
+        async function fetchHtml(url) {
+            const endpoints = [
+                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
             ];
 
-            for (const gateway of gateways) {
+            for (const ep of endpoints) {
                 try {
-                    const controller = new AbortController();
-                    const timer = setTimeout(() => controller.abort(), 6000);
-                    const res = await fetch(gateway, { signal: controller.signal });
+                    const ctrl = new AbortController();
+                    const timer = setTimeout(() => ctrl.abort(), 7000);
+                    const res = await fetch(ep, { signal: ctrl.signal });
                     clearTimeout(timer);
 
                     if (!res.ok) continue;
 
-                    if (gateway.includes('/get?url=')) {
+                    if (ep.includes('/get?url=')) {
                         const data = await res.json();
-                        if (data.contents && data.contents.includes(searchPhrase)) {
+                        if (data && data.contents && data.contents.includes(searchPhrase)) {
                             return data.contents;
                         }
                     } else {
@@ -226,28 +227,27 @@
                             return txt;
                         }
                     }
-                } catch (e) {
-                    // Próbálkozás a következő átjáróval
-                }
+                } catch (err) {}
             }
-            throw new Error('Sikertelen betöltés');
+            throw new Error('Sikertelen letöltés.');
         }
 
         async function fetchHozam(fund) {
             try {
                 const html = await fetchHtml(fund.url);
-                const index = html.indexOf(searchPhrase);
 
+                const index = html.indexOf(searchPhrase);
                 if (index === -1) {
                     return { name: fund.name, url: fund.url, hozamStr: 'Nem található', numeric: -Infinity, date: '–', error: true };
                 }
 
-                // Megnövelt, 600 karakteres ablak, hogy a sortörések utáni értéket is beolvassa
-                const slice = html.substring(index, index + 600);
+                // A Generali módosult HTML-je miatt megnövelt (1200 karakteres) ablakot vizsgálunk
+                const slice = html.substring(index, index + 1200);
                 const match = slice.match(percentRegex);
                 const hozamStr = match ? match[0].trim() : 'Nem található';
                 const numeric = parsePercent(hozamStr);
 
+                // Dátumkeresés dinamikusan
                 const dates = html.match(dateRegex) || [];
                 const yearMatch = dates.find(d => d.startsWith(currentYear));
                 const relevantDate = yearMatch || dates[dates.length - 1] || '–';
@@ -291,7 +291,7 @@
                 });
             })
             .catch(err => {
-                container.innerHTML = '<p class="error" style="padding:2rem;">Általános hiba történt az adatok betöltésekor.</p>';
+                container.innerHTML = '<p class="error" style="padding:2rem;">Általános hiba történt az adatok feldolgozásakor.</p>';
             });
     </script>
 </body>
