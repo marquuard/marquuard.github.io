@@ -1,412 +1,448 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PS5 Kontroller Pro Teszter (Jobb Kar)</title>
-    <style>
-        :root {
-            --bg-color: #0f0f13;
-            --panel-bg: #1c1c24;
-            --accent-blue: #0070d1;
-            --text-main: #ffffff;
-            --text-muted: #888891;
-            --drift-safe: #00ff88;
-            --drift-warning: #ff3366;
-            --trigger-bg: #2a2a35;
-        }
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        h1 {
-            font-weight: 300;
-            letter-spacing: 2px;
-            margin-bottom: 0.5rem;
-            text-align: center;
-        }
-        #status {
-            color: var(--text-muted);
-            margin-bottom: 1.5rem;
-            font-size: 1.1rem;
-            padding: 10px 20px;
-            border-radius: 8px;
-            background: rgba(255, 255, 255, 0.05);
-            transition: all 0.3s ease;
-        }
-        .connected {
-            color: var(--drift-safe) !important;
-            box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
-        }
-        .controls {
-            display: flex;
-            gap: 2rem;
-            margin-bottom: 2rem;
-            background: var(--panel-bg);
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            align-items: center;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-        }
-        .controls button {
-            background: var(--accent-blue);
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background 0.2s;
-        }
-        .controls button:hover { background: #005bb5; }
-        .controls input[type="range"] { cursor: pointer; }
-        
-        .container {
-            display: flex;
-            gap: 2rem;
-            flex-wrap: wrap;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-            max-width: 900px;
-            width: 100%;
-        }
-        .stick-panel {
-            background: var(--panel-bg);
-            padding: 2rem;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 340px;
-        }
-        .stick-panel h2 {
-            margin-top: 0;
-            font-weight: 500;
-            color: var(--accent-blue);
-        }
-        canvas {
-            background: #121217;
-            border-radius: 50%;
-            border: 2px solid #2a2a35;
-            margin: 1.5rem 0;
-            box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
-        }
-        .data-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.8rem;
-            width: 100%;
-        }
-        .data-box {
-            background: rgba(0,0,0,0.3);
-            padding: 10px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        .data-label {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            margin-bottom: 4px;
-        }
-        .data-value {
-            font-family: "Courier New", Courier, monospace;
-            font-size: 1.1rem;
-            font-weight: bold;
-        }
-        .full-width { grid-column: span 2; }
-        .highlight { font-size: 1.3rem; }
-        
-        .triggers-panel {
-            background: var(--panel-bg);
-            padding: 2rem;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            width: 340px;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-        .trigger-box {
-            background: rgba(0,0,0,0.3);
-            padding: 1rem;
-            border-radius: 8px;
-        }
-        .trigger-header {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 0.5rem;
-            font-weight: bold;
-        }
-        .progress-bg {
-            background: var(--trigger-bg);
-            height: 20px;
-            border-radius: 10px;
-            overflow: hidden;
-            position: relative;
-        }
-        .progress-fill {
-            background: var(--accent-blue);
-            height: 100%;
-            width: 0%;
-            transition: width 0.05s linear;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DualSense Stick Drift & Precision Tester</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --text: #c9d1d9;
+      --text-dim: #8b949e;
+      --error: #f85149;
+      --success: #3fb950;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      max-width: 1100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .badge {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: #21262d;
+      border: 1px solid var(--border);
+    }
+    .badge.connected { background: rgba(63, 185, 80, 0.15); border-color: var(--success); color: var(--success); }
+    .badge.disconnected { background: rgba(248, 81, 73, 0.15); border-color: var(--error); color: var(--error); }
+
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .canvas-container {
+      position: relative;
+      width: 320px;
+      height: 320px;
+      margin: 15px 0;
+    }
+
+    canvas {
+      background: #090d13;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
+    }
+
+    .metrics {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      font-size: 0.85rem;
+      background: #090d13;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin-top: 10px;
+    }
+
+    .metric-box { display: flex; flex-direction: column; }
+    .metric-label { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; }
+    .metric-value { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.95rem; font-weight: 600; }
+
+    .controls {
+      width: 100%;
+      max-width: 1100px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 15px 20px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .btn-group { display: flex; gap: 10px; align-items: center; }
+
+    button {
+      background: #21262d;
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    button:hover { background: #30363d; }
+    button.primary { background: #238636; border-color: rgba(240, 246, 252, 0.1); color: #fff; }
+    button.primary:hover { background: #2ea043; }
+    button.danger { background: #da3633; border-color: rgba(240, 246, 252, 0.1); color: #fff; }
+    button.danger:hover { background: #f85149; }
+
+    .range-control {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+    }
+
+    input[type="range"] { accent-color: var(--accent); }
+  </style>
 </head>
 <body>
 
-    <h1>PS5 DUALSENSE (CSAK JOBB KAR) TESZTER</h1>
-    <div id="status">Kérlek, csatlakoztasd a kontrollert (USB) és nyomj meg egy gombot...</div>
+  <header>
+    <div>
+      <h2>PS5 DualSense Stick Drift & Hiba Analizátor</h2>
+      <p style="color: var(--text-dim); font-size: 0.85rem;">Magas mintavételezésű Gamepad API diagnosztika</p>
+    </div>
+    <span id="connStatus" class="badge disconnected">Nincs kontroller csatlakoztatva</span>
+  </header>
 
-    <div class="controls" id="controls-ui">
-        <div>
-            <label class="data-label">Holttér vizualizáció: <span id="dz-label">5%</span></label><br>
-            <input type="range" id="dz-slider" min="0" max="0.2" step="0.01" value="0.05">
+  <div class="container">
+    <!-- Bal Stick -->
+    <div class="panel">
+      <h3>Bal Analóg Kar (L-Stick)</h3>
+      <div class="canvas-container">
+        <canvas id="leftCanvas" width="320" height="320"></canvas>
+      </div>
+      <div class="metrics">
+        <div class="metric-box">
+          <span class="metric-label">X tengely</span>
+          <span id="lx" class="metric-value">0.00000</span>
         </div>
-        <button id="btn-export">Mentés CSV (utolsó 60mp)</button>
-        <button id="btn-reset-peak">Peak Nullázása</button>
+        <div class="metric-box">
+          <span class="metric-label">Y tengely</span>
+          <span id="ly" class="metric-value">0.00000</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Kitérés (R)</span>
+          <span id="lr" class="metric-value">0.00000</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Közép hiba (Drift)</span>
+          <span id="ldrift" class="metric-value">0.00%</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Szög (Fok)</span>
+          <span id="ldeg" class="metric-value">0.0°</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Max Kitérés</span>
+          <span id="lmax" class="metric-value">0.00000</span>
+        </div>
+      </div>
     </div>
 
-    <div class="container" id="tester-ui">
-        <!-- Jobb Analóg -->
-        <div class="stick-panel">
-            <h2>Jobb Analóg (R3)</h2>
-            <canvas id="canvasR" width="240" height="240"></canvas>
-            <div class="data-grid">
-                <div class="data-box">
-                    <div class="data-label">X Tengely</div>
-                    <div class="data-value" id="valRX">0.00000</div>
-                </div>
-                <div class="data-box">
-                    <div class="data-label">Y Tengely</div>
-                    <div class="data-value" id="valRY">0.00000</div>
-                </div>
-                <div class="data-box">
-                    <div class="data-label">Szög (Fok)</div>
-                    <div class="data-value" id="angleR">0°</div>
-                </div>
-                <div class="data-box">
-                    <div class="data-label">Max. Drift (Peak)</div>
-                    <div class="data-value" id="peakR" style="color: var(--drift-warning)">0.00000</div>
-                </div>
-                <div class="data-box full-width highlight">
-                    <div class="data-label">Eltérés a központtól</div>
-                    <div class="data-value" id="distR">0.00000</div>
-                </div>
-            </div>
+    <!-- Jobb Stick -->
+    <div class="panel">
+      <h3>Jobb Analóg Kar (R-Stick)</h3>
+      <div class="canvas-container">
+        <canvas id="rightCanvas" width="320" height="320"></canvas>
+      </div>
+      <div class="metrics">
+        <div class="metric-box">
+          <span class="metric-label">X tengely</span>
+          <span id="rx" class="metric-value">0.00000</span>
         </div>
-
-        <!-- Ravaszok (R2) -->
-        <div class="triggers-panel">
-            <h2 style="margin-top:0; color:var(--accent-blue); text-align:center;">Analóg Ravasz</h2>
-            
-            <div class="trigger-box">
-                <div class="trigger-header">
-                    <span>R2 Ravasz</span>
-                    <span id="valR2" class="data-value">0.00000</span>
-                </div>
-                <div class="progress-bg">
-                    <div class="progress-fill" id="barR2"></div>
-                </div>
-            </div>
-            
-            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: auto;">
-                A ravasznak alapállapotban 0.00000-n kell állnia, teljesen lenyomva pedig el kell érnie az 1.00000-t.
-            </div>
+        <div class="metric-box">
+          <span class="metric-label">Y tengely</span>
+          <span id="ry" class="metric-value">0.00000</span>
         </div>
+        <div class="metric-box">
+          <span class="metric-label">Kitérés (R)</span>
+          <span id="rr" class="metric-value">0.00000</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Közép hiba (Drift)</span>
+          <span id="rdrift" class="metric-value">0.00%</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Szög (Fok)</span>
+          <span id="rdeg" class="metric-value">0.0°</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Max Kitérés</span>
+          <span id="rmax" class="metric-value">0.00000</span>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <script>
-        const statusEl = document.getElementById('status');
-        const uiContainer = document.getElementById('tester-ui');
-        const controlsUi = document.getElementById('controls-ui');
-        
-        const canvasR = document.getElementById('canvasR');
-        const ctxR = canvasR.getContext('2d');
-        
-        const R = canvasR.width / 2;
-        let DEADZONE = 0.05;
+  <div class="controls">
+    <div class="range-control">
+      <label for="deadzone">Holtzóna referencia küszöb:</label>
+      <input type="range" id="deadzone" min="0.01" max="0.30" step="0.01" value="0.05">
+      <span id="deadzoneVal">5%</span>
+    </div>
+    <div class="btn-group">
+      <button id="clearBtn">Útvonalak törlése</button>
+      <button id="recBtn" class="primary">Rögzítés Indítása</button>
+      <button id="exportJsonBtn" disabled>JSON Export</button>
+      <button id="exportCsvBtn" disabled>CSV Export</button>
+    </div>
+  </div>
 
-        let trailR = [];
-        const MAX_TRAIL = 40; 
-        let peakR = 0;
-        const PEAK_RESET_THRESHOLD = 0.2; 
+  <script>
+    let gamepadIdx = null;
+    let isRecording = false;
+    let recordedData = [];
+    let deadzoneThreshold = 0.05;
 
-        const MAX_LOG_ENTRIES = 7200; 
-        let dataLog = [];
+    const leftHistory = [];
+    const rightHistory = [];
+    const HISTORY_LIMIT = 400;
 
-        document.getElementById('dz-slider').addEventListener('input', (e) => {
-            DEADZONE = parseFloat(e.target.value);
-            document.getElementById('dz-label').textContent = Math.round(DEADZONE * 100) + '%';
-        });
+    let leftMaxR = 0;
+    let rightMaxR = 0;
 
-        document.getElementById('btn-reset-peak').addEventListener('click', () => {
-            peakR = 0;
-            document.getElementById('peakR').textContent = '0.00000';
-        });
+    const leftCanvas = document.getElementById('leftCanvas');
+    const rightCanvas = document.getElementById('rightCanvas');
+    const lCtx = leftCanvas.getContext('2d');
+    const rCtx = rightCanvas.getContext('2d');
 
-        document.getElementById('btn-export').addEventListener('click', () => {
-            if (dataLog.length === 0) {
-                alert("Nincs még elég adat a mentéshez!");
-                return;
-            }
-            let csv = "Timestamp,R3_X,R3_Y,R2\n";
-            dataLog.forEach(row => {
-                csv += `${row.time},${row.rx},${row.ry},${row.r2}\n`;
+    const connStatus = document.getElementById('connStatus');
+    const recBtn = document.getElementById('recBtn');
+    const exportJsonBtn = document.getElementById('exportJsonBtn');
+    const exportCsvBtn = document.getElementById('exportCsvBtn');
+    const deadzoneSlider = document.getElementById('deadzone');
+    const deadzoneVal = document.getElementById('deadzoneVal');
+
+    deadzoneSlider.addEventListener('input', (e) => {
+      deadzoneThreshold = parseFloat(e.target.value);
+      deadzoneVal.textContent = Math.round(deadzoneThreshold * 100) + '%';
+    });
+
+    window.addEventListener("gamepadconnected", (e) => {
+      gamepadIdx = e.gamepad.index;
+      connStatus.textContent = `Csatlakoztatva: ${e.gamepad.id.substring(0, 30)}...`;
+      connStatus.className = "badge connected";
+    });
+
+    window.addEventListener("gamepaddisconnected", () => {
+      gamepadIdx = null;
+      connStatus.textContent = "Nincs kontroller csatlakoztatva";
+      connStatus.className = "badge disconnected";
+    });
+
+    document.getElementById('clearBtn').addEventListener('click', () => {
+      leftHistory.length = 0;
+      rightHistory.length = 0;
+      leftMaxR = 0;
+      rightMaxR = 0;
+      document.getElementById('lmax').textContent = '0.00000';
+      document.getElementById('rmax').textContent = '0.00000';
+    });
+
+    recBtn.addEventListener('click', () => {
+      if (!isRecording) {
+        recordedData = [];
+        isRecording = true;
+        recBtn.textContent = "Rögzítés Leállítása";
+        recBtn.className = "danger";
+        exportJsonBtn.disabled = true;
+        exportCsvBtn.disabled = true;
+      } else {
+        isRecording = false;
+        recBtn.textContent = "Rögzítés Indítása";
+        recBtn.className = "primary";
+        if (recordedData.length > 0) {
+          exportJsonBtn.disabled = false;
+          exportCsvBtn.disabled = false;
+        }
+      }
+    });
+
+    function drawStick(ctx, x, y, history) {
+      const w = ctx.canvas.width;
+      const h = ctx.canvas.height;
+      const cx = w / 2;
+      const cy = h / 2;
+      const radius = w * 0.42;
+
+      ctx.clearRect(0, 0, w, h);
+
+      // Kijelölt határoló kör és holtzóna
+      ctx.strokeStyle = '#30363d';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+      ctx.stroke();
+
+      // Holtzóna kör
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius * deadzoneThreshold, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(248, 81, 73, 0.08)';
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(248, 81, 73, 0.3)';
+      ctx.stroke();
+
+      // Tengelyek
+      ctx.strokeStyle = '#21262d';
+      ctx.beginPath();
+      ctx.moveTo(cx, cy - radius); ctx.lineTo(cx, cy + radius);
+      ctx.moveTo(cx - radius, cy); ctx.lineTo(cx + radius, cy);
+      ctx.stroke();
+
+      // Előzmény útvonal rajzolása
+      for (let i = 0; i < history.length; i++) {
+        const pt = history[i];
+        const px = cx + pt.x * radius;
+        const py = cy + pt.y * radius;
+        const alpha = (i / history.length) * 0.4;
+        ctx.fillStyle = `rgba(88, 166, 255, ${alpha})`;
+        ctx.beginPath();
+        ctx.arc(px, py, 2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      // Stick pozíció
+      const posX = cx + x * radius;
+      const posY = cy + y * radius;
+      const currentR = Math.hypot(x, y);
+
+      ctx.beginPath();
+      ctx.arc(posX, posY, 7, 0, Math.PI * 2);
+      ctx.fillStyle = currentR > deadzoneThreshold ? '#58a6ff' : '#f85149';
+      ctx.fill();
+      ctx.strokeStyle = '#ffffff';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }
+
+    function update() {
+      if (gamepadIdx !== null) {
+        const gp = navigator.getGamepads()[gamepadIdx];
+        if (gp) {
+          const lx = gp.axes[0] || 0;
+          const ly = gp.axes[1] || 0;
+          const rx = gp.axes[2] || 0;
+          const ry = gp.axes[3] || 0;
+
+          const lr = Math.hypot(lx, ly);
+          const rr = Math.hypot(rx, ry);
+
+          const ldeg = ((Math.atan2(ly, lx) * 180 / Math.PI) + 360) % 360;
+          const rdeg = ((Math.atan2(ry, rx) * 180 / Math.PI) + 360) % 360;
+
+          if (lr > leftMaxR) { leftMaxR = lr; document.getElementById('lmax').textContent = lr.toFixed(5); }
+          if (rr > rightMaxR) { rightMaxR = rr; document.getElementById('rmax').textContent = rr.toFixed(5); }
+
+          leftHistory.push({ x: lx, y: ly });
+          if (leftHistory.length > HISTORY_LIMIT) leftHistory.shift();
+
+          rightHistory.push({ x: rx, y: ry });
+          if (rightHistory.length > HISTORY_LIMIT) rightHistory.shift();
+
+          drawStick(lCtx, lx, ly, leftHistory);
+          drawStick(rCtx, rx, ry, rightHistory);
+
+          document.getElementById('lx').textContent = lx.toFixed(5);
+          document.getElementById('ly').textContent = ly.toFixed(5);
+          document.getElementById('lr').textContent = lr.toFixed(5);
+          document.getElementById('ldrift').textContent = (lr * 100).toFixed(2) + '%';
+          document.getElementById('ldeg').textContent = ldeg.toFixed(1) + '°';
+
+          document.getElementById('rx').textContent = rx.toFixed(5);
+          document.getElementById('ry').textContent = ry.toFixed(5);
+          document.getElementById('rr').textContent = rr.toFixed(5);
+          document.getElementById('rdrift').textContent = (rr * 100).toFixed(2) + '%';
+          document.getElementById('rdeg').textContent = rdeg.toFixed(1) + '°';
+
+          if (isRecording) {
+            recordedData.push({
+              timestamp: performance.now(),
+              left: { x: Number(lx.toFixed(5)), y: Number(ly.toFixed(5)), magnitude: Number(lr.toFixed(5)), angleDeg: Number(ldeg.toFixed(1)) },
+              right: { x: Number(rx.toFixed(5)), y: Number(ry.toFixed(5)), magnitude: Number(rr.toFixed(5)), angleDeg: Number(rdeg.toFixed(1)) }
             });
-            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-            const link = document.createElement("a");
-            link.href = URL.createObjectURL(blob);
-            link.download = `ps5_jobb_kar_drift_log_${new Date().getTime()}.csv`;
-            link.click();
-        });
-
-        let reqId = null;
-
-        window.addEventListener("gamepadconnected", (e) => {
-            statusEl.textContent = `Csatlakoztatva: ${e.gamepad.id}`;
-            statusEl.classList.add('connected');
-            uiContainer.style.opacity = 1;
-            controlsUi.style.opacity = 1;
-            loop();
-        });
-
-        window.addEventListener("gamepaddisconnected", () => {
-            statusEl.textContent = "Kontroller leválasztva. Kérlek csatlakoztasd újra.";
-            statusEl.classList.remove('connected');
-            uiContainer.style.opacity = 0;
-            controlsUi.style.opacity = 0;
-            cancelAnimationFrame(reqId);
-        });
-
-        function calculateAngle(x, y) {
-            if (x === 0 && y === 0) return 0;
-            let angle = Math.atan2(y, x) * (180 / Math.PI);
-            if (angle < 0) angle += 360;
-            return angle;
+          }
         }
+      }
+      requestAnimationFrame(update);
+    }
 
-        function drawStick(ctx, x, y, trail) {
-            ctx.clearRect(0, 0, R*2, R*2);
-            
-            ctx.beginPath();
-            ctx.moveTo(R, 0); ctx.lineTo(R, R*2);
-            ctx.moveTo(0, R); ctx.lineTo(R*2, R);
-            ctx.strokeStyle = '#2a2a35';
-            ctx.lineWidth = 1;
-            ctx.stroke();
+    requestAnimationFrame(update);
 
-            ctx.beginPath();
-            ctx.arc(R, R, R * DEADZONE, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-            ctx.fill();
-            ctx.strokeStyle = '#555';
-            ctx.stroke();
+    // Exportálás
+    function downloadFile(content, fileName, contentType) {
+      const a = document.createElement("a");
+      const file = new Blob([content], { type: contentType });
+      a.href = URL.createObjectURL(file);
+      a.download = fileName;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
 
-            ctx.beginPath();
-            ctx.arc(R, R, R-2, 0, Math.PI * 2);
-            ctx.strokeStyle = '#2a2a35';
-            ctx.stroke();
+    exportJsonBtn.addEventListener('click', () => {
+      const jsonStr = JSON.stringify({
+        device: navigator.getGamepads()[gamepadIdx]?.id || "DualSense",
+        date: new Date().toISOString(),
+        deadzoneThresholdUsed: deadzoneThreshold,
+        samplesCount: recordedData.length,
+        samples: recordedData
+      }, null, 2);
+      downloadFile(jsonStr, `dualsense_drift_analysis_${Date.now()}.json`, 'application/json');
+    });
 
-            if (trail.length > 1) {
-                ctx.beginPath();
-                ctx.moveTo(R + trail[0].x * R, R + trail[0].y * R);
-                for (let i = 1; i < trail.length; i++) {
-                    ctx.lineTo(R + trail[i].x * R, R + trail[i].y * R);
-                }
-                ctx.strokeStyle = 'rgba(0, 112, 209, 0.4)';
-                ctx.lineWidth = 3;
-                ctx.stroke();
-            }
-
-            const drawX = R + (x * R);
-            const drawY = R + (y * R);
-            
-            ctx.beginPath();
-            ctx.moveTo(R, R);
-            ctx.lineTo(drawX, drawY);
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
-            ctx.lineWidth = 1;
-            ctx.stroke();
-
-            ctx.beginPath();
-            ctx.arc(drawX, drawY, 8, 0, Math.PI * 2);
-            const distance = Math.sqrt(x*x + y*y);
-            
-            ctx.fillStyle = distance > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
-            ctx.fill();
-            ctx.shadowBlur = 10;
-            ctx.shadowColor = ctx.fillStyle;
-            ctx.shadowBlur = 0; 
-        }
-
-        function updateStickData(x, y, trail) {
-            const dist = Math.sqrt(x*x + y*y);
-            const angle = calculateAngle(x, y);
-
-            if (dist < PEAK_RESET_THRESHOLD) {
-                if (dist > peakR) peakR = dist;
-                document.getElementById('peakR').textContent = peakR.toFixed(5);
-            }
-
-            trail.push({x, y});
-            if (trail.length > MAX_TRAIL) trail.shift();
-
-            document.getElementById('valRX').textContent = x.toFixed(5);
-            document.getElementById('valRY').textContent = y.toFixed(5);
-            document.getElementById('distR').textContent = dist.toFixed(5);
-            document.getElementById('angleR').textContent = Math.round(angle) + '°';
-
-            const color = dist > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
-            document.getElementById('valRX').style.color = Math.abs(x) > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
-            document.getElementById('valRY').style.color = Math.abs(y) > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
-            document.getElementById('distR').style.color = color;
-        }
-
-        function updateTrigger(r2) {
-            document.getElementById('valR2').textContent = r2.toFixed(5);
-            document.getElementById('barR2').style.width = (r2 * 100) + '%';
-        }
-
-        function loop() {
-            const gamepads = navigator.getGamepads();
-            let gp = null;
-            for (let i = 0; i < gamepads.length; i++) {
-                if (gamepads[i]) { gp = gamepads[i]; break; }
-            }
-
-            if (gp) {
-                const rx = gp.axes[2] || 0;
-                const ry = gp.axes[3] || 0;
-                
-                const r2Val = gp.buttons[7]?.value || 0;
-
-                drawStick(ctxR, rx, ry, trailR);
-                updateStickData(rx, ry, trailR);
-                updateTrigger(r2Val);
-
-                dataLog.push({
-                    time: Date.now(),
-                    rx: rx.toFixed(5), ry: ry.toFixed(5),
-                    r2: r2Val.toFixed(5)
-                });
-                if (dataLog.length > MAX_LOG_ENTRIES) dataLog.shift();
-            }
-
-            reqId = requestAnimationFrame(loop);
-        }
-    </script>
+    exportCsvBtn.addEventListener('click', () => {
+      let csv = "Timestamp_ms,Left_X,Left_Y,Left_Magnitude,Left_Angle,Right_X,Right_Y,Right_Magnitude,Right_Angle\n";
+      recordedData.forEach(row => {
+        csv += `${row.timestamp.toFixed(2)},${row.left.x},${row.left.y},${row.left.magnitude},${row.left.angleDeg},${row.right.x},${row.right.y},${row.right.magnitude},${row.right.angleDeg}\n`;
+      });
+      downloadFile(csv, `dualsense_drift_analysis_${Date.now()}.csv`, 'text/csv');
+    });
+  </script>
 </body>
 </html>
