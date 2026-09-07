@@ -194,118 +194,73 @@
         const container = document.getElementById('container');
 
         function parsePercent(str) {
-            if (!str || str.includes('Nem') || str.includes('Hiba') || str.trim() === '-') return -Infinity;
+            if (!str || str.includes('Nem') || str.includes('Hiba')) return -Infinity;
             const cleaned = str.replace(/\s/g, '').replace(',', '.').replace('%', '');
             return parseFloat(cleaned);
         }
 
-        async function fetchWithTimeout(url, timeout = 7000) {
-            const controller = new AbortController();
-            const id = setTimeout(() => controller.abort(), timeout);
-            try {
-                const res = await fetch(url, { signal: controller.signal });
-                clearTimeout(id);
-                return res;
-            } catch (err) {
-                clearTimeout(id);
-                throw err;
-            }
-        }
-
         async function fetchHtml(targetUrl) {
-            // 1. Megbízható proxy: codetabs
-            try {
-                const res = await fetchWithTimeout(`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`, 6000);
-                if (res.ok) {
-                    const text = await res.text();
-                    if (text && text.length > 500) return text;
-                }
-            } catch (e) {}
+            const gateways = [
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`,
+                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`,
+                `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`
+            ];
 
-            // 2. Tartalék proxy: allorigins
-            try {
-                const res = await fetchWithTimeout(`https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`, 7000);
-                if (res.ok) {
-                    const json = await res.json();
-                    if (json.contents && json.contents.length > 500) return json.contents;
-                }
-            } catch (e) {}
+            for (const gateway of gateways) {
+                try {
+                    const controller = new AbortController();
+                    const timer = setTimeout(() => controller.abort(), 6000);
+                    const res = await fetch(gateway, { signal: controller.signal });
+                    clearTimeout(timer);
 
-            // 3. Harmadik proxy: corsproxy.io
-            try {
-                const res = await fetchWithTimeout(`https://corsproxy.io/?${encodeURIComponent(targetUrl)}`, 6000);
-                if (res.ok) {
-                    const text = await res.text();
-                    if (text && text.length > 500) return text;
-                }
-            } catch (e) {}
+                    if (!res.ok) continue;
 
-            throw new Error('Nem érhető el az adatforrás egyik proxyn keresztül sem.');
-        }
-
-        function extractHozamFromHtml(html) {
-            let hozamStr = 'Nem található';
-
-            // HTML parser a szerkezet elemzéséhez
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-
-            // 1. Keresés táblázatos cellákban (td, th) vagy listákban
-            const elements = Array.from(doc.querySelectorAll('td, th, tr, div, li, p'));
-            const matchedEl = elements.find(el => el.innerText && el.innerText.includes(searchPhrase));
-
-            if (matchedEl) {
-                // Ha táblázat sora: megnézzük a következő testvércellát
-                if (matchedEl.tagName === 'TD' || matchedEl.tagName === 'TH') {
-                    const nextCell = matchedEl.nextElementSibling;
-                    if (nextCell && percentRegex.test(nextCell.innerText)) {
-                        hozamStr = nextCell.innerText.match(percentRegex)[0].trim();
+                    if (gateway.includes('/get?url=')) {
+                        const data = await res.json();
+                        if (data.contents && data.contents.includes(searchPhrase)) {
+                            return data.contents;
+                        }
+                    } else {
+                        const txt = await res.text();
+                        if (txt && txt.includes(searchPhrase)) {
+                            return txt;
+                        }
                     }
-                }
-                
-                // Ha nem táblázat, vagy nem cella, a szülő teljes szövegét nézzük
-                if (hozamStr === 'Nem található') {
-                    const parentText = matchedEl.parentElement ? matchedEl.parentElement.innerText : matchedEl.innerText;
-                    const match = parentText.match(percentRegex);
-                    if (match) hozamStr = match[0].trim();
+                } catch (e) {
+                    // Próbálkozás a következő átjáróval
                 }
             }
-
-            // 2. Regex fallback, ha a DOM keresés nem találta meg
-            if (hozamStr === 'Nem található') {
-                const index = html.indexOf(searchPhrase);
-                if (index !== -1) {
-                    // Megnövelt keresési ablak (1000 karakter), átlépve az amCharts tageket
-                    const slice = html.substring(index, index + 1000);
-                    const match = slice.match(percentRegex);
-                    if (match) hozamStr = match[0].trim();
-                }
-            }
-
-            return hozamStr;
+            throw new Error('Sikertelen betöltés');
         }
 
         async function fetchHozam(fund) {
             try {
                 const html = await fetchHtml(fund.url);
-                const hozamStr = extractHozamFromHtml(html);
+                const index = html.indexOf(searchPhrase);
+
+                if (index === -1) {
+                    return { name: fund.name, url: fund.url, hozamStr: 'Nem található', numeric: -Infinity, date: '–', error: true };
+                }
+
+                // Megnövelt, 600 karakteres ablak, hogy a sortörések utáni értéket is beolvassa
+                const slice = html.substring(index, index + 600);
+                const match = slice.match(percentRegex);
+                const hozamStr = match ? match[0].trim() : 'Nem található';
                 const numeric = parsePercent(hozamStr);
 
-                // Dátum kinyerése
                 const dates = html.match(dateRegex) || [];
-                const currentYearDate = dates.find(d => d.startsWith(currentYear));
-                const relevantDate = currentYearDate || dates[dates.length - 1] || '–';
+                const yearMatch = dates.find(d => d.startsWith(currentYear));
+                const relevantDate = yearMatch || dates[dates.length - 1] || '–';
 
                 return { 
                     name: fund.name, 
                     url: fund.url, 
-                    hozamStr: hozamStr, 
-                    numeric: numeric, 
+                    hozamStr, 
+                    numeric, 
                     date: relevantDate, 
                     error: (hozamStr === 'Nem található') 
                 };
             } catch (err) {
-                console.error(`Hiba a(z) ${fund.name} lekérésekor:`, err);
                 return { 
                     name: fund.name, 
                     url: fund.url, 
@@ -317,11 +272,9 @@
             }
         }
 
-        Promise.allSettled(funds.map(fetchHozam))
-            .then(settled => {
-                const results = settled.map(r => r.value || { name: 'Ismeretlen', url: '#', hozamStr: 'Hiba', numeric: -Infinity, date: '', error: true });
+        Promise.all(funds.map(fetchHozam))
+            .then(results => {
                 results.sort((a, b) => b.numeric - a.numeric);
-
                 container.innerHTML = '';
                 results.forEach(res => {
                     const div = document.createElement('div');
@@ -338,8 +291,7 @@
                 });
             })
             .catch(err => {
-                container.innerHTML = '<p class="error" style="padding:2rem;">Általános hiba történt a megjelenítéskor.</p>';
-                console.error(err);
+                container.innerHTML = '<p class="error" style="padding:2rem;">Általános hiba történt az adatok betöltésekor.</p>';
             });
     </script>
 </body>
