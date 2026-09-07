@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PS5 Kontroller Pro Teszter</title>
+    <title>PS5 Kontroller Pro Teszter (Jobb Kar)</title>
     <style>
         :root {
             --bg-color: #0f0f13;
@@ -75,7 +75,7 @@
             justify-content: center;
             opacity: 0;
             transition: opacity 0.5s ease;
-            max-width: 1200px;
+            max-width: 800px;
         }
         .stick-panel {
             background: var(--panel-bg);
@@ -163,7 +163,7 @@
 </head>
 <body>
 
-    <h1>PS5 DUALSENSE PRO TESZTER</h1>
+    <h1>PS5 DUALSENSE (CSAK JOBB KAR) TESZTER</h1>
     <div id="status">Kérlek, csatlakoztasd a kontrollert (USB) és nyomj meg egy gombot...</div>
 
     <div class="controls" id="controls-ui">
@@ -176,63 +176,6 @@
     </div>
 
     <div class="container" id="tester-ui">
-        <!-- Bal Analóg -->
-        <div class="stick-panel">
-            <h2>Bal Analóg (L3)</h2>
-            <canvas id="canvasL" width="240" height="240"></canvas>
-            <div class="data-grid">
-                <div class="data-box">
-                    <div class="data-label">X Tengely</div>
-                    <div class="data-value" id="valLX">0.00000</div>
-                </div>
-                <div class="data-box">
-                    <div class="data-label">Y Tengely</div>
-                    <div class="data-value" id="valLY">0.00000</div>
-                </div>
-                <div class="data-box">
-                    <div class="data-label">Szög (Fok)</div>
-                    <div class="data-value" id="angleL">0°</div>
-                </div>
-                <div class="data-box">
-                    <div class="data-label">Max. Drift (Peak)</div>
-                    <div class="data-value" id="peakL" style="color: var(--drift-warning)">0.00000</div>
-                </div>
-                <div class="data-box full-width highlight">
-                    <div class="data-label">Eltérés a központtól</div>
-                    <div class="data-value" id="distL">0.00000</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Ravaszok (L2/R2) -->
-        <div class="triggers-panel">
-            <h2 style="margin-top:0; color:var(--accent-blue); text-align:center;">Analóg Ravaszok</h2>
-            
-            <div class="trigger-box">
-                <div class="trigger-header">
-                    <span>L2 Ravasz</span>
-                    <span id="valL2" class="data-value">0.00000</span>
-                </div>
-                <div class="progress-bg">
-                    <div class="progress-fill" id="barL2"></div>
-                </div>
-            </div>
-
-            <div class="trigger-box">
-                <div class="trigger-header">
-                    <span>R2 Ravasz</span>
-                    <span id="valR2" class="data-value">0.00000</span>
-                </div>
-                <div class="progress-bg">
-                    <div class="progress-fill" id="barR2"></div>
-                </div>
-            </div>
-            
-            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: auto;">
-                A ravaszoknak alapállapotban 0.00000-n kell állniuk, teljesen lenyomva pedig el kell érniük az 1.00000-t.
-            </div>
-        </div>
-
         <!-- Jobb Analóg -->
         <div class="stick-panel">
             <h2>Jobb Analóg (R3)</h2>
@@ -260,44 +203,53 @@
                 </div>
             </div>
         </div>
+
+        <!-- Ravaszok (R2) -->
+        <div class="triggers-panel">
+            <h2 style="margin-top:0; color:var(--accent-blue); text-align:center;">Analóg Ravasz</h2>
+            
+            <div class="trigger-box">
+                <div class="trigger-header">
+                    <span>R2 Ravasz</span>
+                    <span id="valR2" class="data-value">0.00000</span>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-fill" id="barR2"></div>
+                </div>
+            </div>
+            
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: auto;">
+                A ravasznak alapállapotban 0.00000-n kell állnia, teljesen lenyomva pedig el kell érnie az 1.00000-t.
+            </div>
+        </div>
     </div>
 
     <script>
-        // DOM Elemek
         const statusEl = document.getElementById('status');
         const uiContainer = document.getElementById('tester-ui');
         const controlsUi = document.getElementById('controls-ui');
         
-        const canvasL = document.getElementById('canvasL');
-        const ctxL = canvasL.getContext('2d');
         const canvasR = document.getElementById('canvasR');
         const ctxR = canvasR.getContext('2d');
         
-        const R = canvasL.width / 2;
+        const R = canvasR.width / 2;
         let DEADZONE = 0.05;
 
-        // Változók a bővített funkciókhoz
-        let trailL = [];
         let trailR = [];
-        const MAX_TRAIL = 40; // Hőtérkép/Trace hossza
-
-        let peakL = 0;
+        const MAX_TRAIL = 40; 
         let peakR = 0;
-        const PEAK_RESET_THRESHOLD = 0.2; // Ha ennél jobban kitérítik a kart, a peak nem rögzül (szándékos mozgásnak vesszük)
+        const PEAK_RESET_THRESHOLD = 0.2; 
 
-        // CSV Naplózás
-        const MAX_LOG_ENTRIES = 7200; // kb 60 másodperc 120hz-es frissítés mellett
+        const MAX_LOG_ENTRIES = 7200; 
         let dataLog = [];
 
-        // UI Eseménykezelők
         document.getElementById('dz-slider').addEventListener('input', (e) => {
             DEADZONE = parseFloat(e.target.value);
             document.getElementById('dz-label').textContent = Math.round(DEADZONE * 100) + '%';
         });
 
         document.getElementById('btn-reset-peak').addEventListener('click', () => {
-            peakL = 0; peakR = 0;
-            document.getElementById('peakL').textContent = '0.00000';
+            peakR = 0;
             document.getElementById('peakR').textContent = '0.00000';
         });
 
@@ -306,14 +258,14 @@
                 alert("Nincs még elég adat a mentéshez!");
                 return;
             }
-            let csv = "Timestamp,L3_X,L3_Y,R3_X,R3_Y,L2,R2\n";
+            let csv = "Timestamp,R3_X,R3_Y,R2\n";
             dataLog.forEach(row => {
-                csv += `${row.time},${row.lx},${row.ly},${row.rx},${row.ry},${row.l2},${row.r2}\n`;
+                csv += `${row.time},${row.rx},${row.ry},${row.r2}\n`;
             });
             const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
             const link = document.createElement("a");
             link.href = URL.createObjectURL(blob);
-            link.download = `ps5_drift_log_${new Date().getTime()}.csv`;
+            link.download = `ps5_jobb_kar_drift_log_${new Date().getTime()}.csv`;
             link.click();
         });
 
@@ -345,7 +297,6 @@
         function drawStick(ctx, x, y, trail) {
             ctx.clearRect(0, 0, R*2, R*2);
             
-            // Rács és tengelyek
             ctx.beginPath();
             ctx.moveTo(R, 0); ctx.lineTo(R, R*2);
             ctx.moveTo(0, R); ctx.lineTo(R*2, R);
@@ -353,7 +304,6 @@
             ctx.lineWidth = 1;
             ctx.stroke();
 
-            // Holttér kör
             ctx.beginPath();
             ctx.arc(R, R, R * DEADZONE, 0, Math.PI * 2);
             ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
@@ -361,13 +311,11 @@
             ctx.strokeStyle = '#555';
             ctx.stroke();
 
-            // Külső határ
             ctx.beginPath();
             ctx.arc(R, R, R-2, 0, Math.PI * 2);
             ctx.strokeStyle = '#2a2a35';
             ctx.stroke();
 
-            // Trace (Mozgástörténet) rajzolása
             if (trail.length > 1) {
                 ctx.beginPath();
                 ctx.moveTo(R + trail[0].x * R, R + trail[0].y * R);
@@ -379,7 +327,6 @@
                 ctx.stroke();
             }
 
-            // Jelenlegi pozíció
             const drawX = R + (x * R);
             const drawY = R + (y * R);
             
@@ -394,50 +341,38 @@
             ctx.arc(drawX, drawY, 8, 0, Math.PI * 2);
             const distance = Math.sqrt(x*x + y*y);
             
-            // Szín logikája
             ctx.fillStyle = distance > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
             ctx.fill();
             ctx.shadowBlur = 10;
             ctx.shadowColor = ctx.fillStyle;
-            ctx.shadowBlur = 0; // reset for next frame
+            ctx.shadowBlur = 0; 
         }
 
-        function updateStickData(side, x, y, trail, isLeft) {
+        function updateStickData(x, y, trail) {
             const dist = Math.sqrt(x*x + y*y);
             const angle = calculateAngle(x, y);
 
-            // Peak hold logika (csak akkor rögzít, ha a kart látszólag elengedték)
             if (dist < PEAK_RESET_THRESHOLD) {
-                if (isLeft) {
-                    if (dist > peakL) peakL = dist;
-                    document.getElementById('peakL').textContent = peakL.toFixed(5);
-                } else {
-                    if (dist > peakR) peakR = dist;
-                    document.getElementById('peakR').textContent = peakR.toFixed(5);
-                }
+                if (dist > peakR) peakR = dist;
+                document.getElementById('peakR').textContent = peakR.toFixed(5);
             }
 
-            // Trace frissítés
             trail.push({x, y});
             if (trail.length > MAX_TRAIL) trail.shift();
 
-            // DOM frissítés
-            document.getElementById(`val${side}X`).textContent = x.toFixed(5);
-            document.getElementById(`val${side}Y`).textContent = y.toFixed(5);
-            document.getElementById(`dist${side}`).textContent = dist.toFixed(5);
-            document.getElementById(`angle${side}`).textContent = Math.round(angle) + '°';
+            document.getElementById('valRX').textContent = x.toFixed(5);
+            document.getElementById('valRY').textContent = y.toFixed(5);
+            document.getElementById('distR').textContent = dist.toFixed(5);
+            document.getElementById('angleR').textContent = Math.round(angle) + '°';
 
             const color = dist > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
-            document.getElementById(`val${side}X`).style.color = Math.abs(x) > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
-            document.getElementById(`val${side}Y`).style.color = Math.abs(y) > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
-            document.getElementById(`dist${side}`).style.color = color;
+            document.getElementById('valRX').style.color = Math.abs(x) > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
+            document.getElementById('valRY').style.color = Math.abs(y) > DEADZONE ? 'var(--drift-warning)' : 'var(--drift-safe)';
+            document.getElementById('distR').style.color = color;
         }
 
-        function updateTriggers(l2, r2) {
-            document.getElementById('valL2').textContent = l2.toFixed(5);
+        function updateTrigger(r2) {
             document.getElementById('valR2').textContent = r2.toFixed(5);
-            
-            document.getElementById('barL2').style.width = (l2 * 100) + '%';
             document.getElementById('barR2').style.width = (r2 * 100) + '%';
         }
 
@@ -449,29 +384,21 @@
             }
 
             if (gp) {
-                const lx = gp.axes[0] || 0;
-                const ly = gp.axes[1] || 0;
+                // Jobb kar indexei: 2 (X), 3 (Y)
                 const rx = gp.axes[2] || 0;
                 const ry = gp.axes[3] || 0;
                 
-                // Mac-en standard gomb kiosztás a DualSense ravaszokra
-                const l2Val = gp.buttons[6]?.value || 0;
+                // Jobb ravasz indexe Mac-en a legtöbb esetben: 7
                 const r2Val = gp.buttons[7]?.value || 0;
 
-                drawStick(ctxL, lx, ly, trailL);
-                updateStickData('L', lx, ly, trailL, true);
-
                 drawStick(ctxR, rx, ry, trailR);
-                updateStickData('R', rx, ry, trailR, false);
+                updateStickData(rx, ry, trailR);
+                updateTrigger(r2Val);
 
-                updateTriggers(l2Val, r2Val);
-
-                // CSV Naplózás
                 dataLog.push({
                     time: Date.now(),
-                    lx: lx.toFixed(5), ly: ly.toFixed(5),
                     rx: rx.toFixed(5), ry: ry.toFixed(5),
-                    l2: l2Val.toFixed(5), r2: r2Val.toFixed(5)
+                    r2: r2Val.toFixed(5)
                 });
                 if (dataLog.length > MAX_LOG_ENTRIES) dataLog.shift();
             }
