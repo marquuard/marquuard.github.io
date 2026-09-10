@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oldalválasztó Menü</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --primary: #38bdf8;
+      --primary-hover: #0284c7;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      padding: 3rem 1rem;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.025em;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 0.25rem;
+    }
+
+    .status {
+      padding: 1rem;
+      border-radius: 8px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .folder-group {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 1.25rem;
+      overflow: hidden;
+    }
+
+    .folder-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      padding: 0.75rem 1.25rem;
+      background: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .file-list {
+      list-style: none;
+    }
+
+    .file-item a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 1.25rem;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .file-item:last-child a {
+      border-bottom: none;
+    }
+
+    .file-item a:hover {
+      background: rgba(56, 189, 248, 0.08);
+      color: var(--primary);
+    }
+
+    .file-item a span.arrow {
+      color: var(--muted);
+      font-size: 0.85rem;
+      transition: transform 0.15s ease;
+    }
+
+    .file-item a:hover span.arrow {
+      transform: translateX(4px);
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Elérhető oldalak</h1>
+      <p class="subtitle">Válassz a feltöltött dokumentumok és projektek közül</p>
+    </header>
+
+    <div id="content">
+      <div class="status">Fájlok feltérképezése...</div>
+    </div>
+  </div>
+
+  <script>
+    // Konfiguráció - írd át a saját repód adataira
+    const REPO_OWNER = 'marquuard';
+    const REPO_NAME = 'marquuard.github.io';
+    const BRANCH = 'main'; // vagy 'gh-pages'
+
+    async function loadFiles() {
+      const contentDiv = document.getElementById('content');
+      const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/${BRANCH}?recursive=1`;
+
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`API hiba: ${response.status} (Nyilvános a repó? Helyes a felhasználónév?)`);
+        }
+
+        const data = await response.json();
+        
+        // Csak az almappákban lévő .html fájlok szűrése (a gyökér index.html kivételével)
+        const htmlFiles = data.tree.filter(item => 
+          item.type === 'blob' && 
+          item.path.endsWith('.html') && 
+          item.path !== 'index.html'
+        );
+
+        if (htmlFiles.length === 0) {
+          contentDiv.innerHTML = '<div class="status">Nem találhatók HTML fájlok a repóban.</div>';
+          return;
+        }
+
+        // Mappák szerinti csoportosítás
+        const grouped = {};
+        htmlFiles.forEach(file => {
+          const parts = file.path.split('/');
+          const folder = parts.length > 1 ? parts.slice(0, -1).join('/') : 'Gyökérkönyvtár';
+          const filename = parts[parts.length - 1];
+
+          if (!grouped[folder]) grouped[folder] = [];
+          grouped[folder].push({ path: file.path, name: filename });
+        });
+
+        // HTML felépítése
+        contentDiv.innerHTML = '';
+        for (const [folder, files] of Object.entries(grouped)) {
+          const section = document.createElement('div');
+          section.className = 'folder-group';
+
+          const title = document.createElement('div');
+          title.className = 'folder-title';
+          title.textContent = folder;
+          section.appendChild(title);
+
+          const list = document.createElement('ul');
+          list.className = 'file-list';
+
+          files.forEach(file => {
+            const item = document.createElement('li');
+            item.className = 'file-item';
+            
+            const link = document.createElement('a');
+            link.href = `./${file.path}`;
+            link.innerHTML = `<span>${file.name}</span><span class="arrow">Megnyitás &rarr;</span>`;
+
+            item.appendChild(link);
+            list.appendChild(item);
+          });
+
+          section.appendChild(list);
+          contentDiv.appendChild(section);
+        }
+
+      } catch (err) {
+        contentDiv.innerHTML = `<div class="status" style="color: #f87171;">Hiba történt: ${err.message}</div>`;
+      }
+    }
+
+    loadFiles();
+  </script>
+</body>
+</html>
