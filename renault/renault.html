@@ -54,7 +54,6 @@
     color: green;
     margin-top: 5px;
   }
-  /* Új visszaszámláló stílus - illeszkedik a dizájnhoz */
   .djoti-box {
     margin-top: 20px;
     padding: 15px;
@@ -92,9 +91,8 @@
     font-weight: normal;
   }
   .expired {
-    color: #ffeb3b;
     background-color: #333;
-    color: white;
+    color: #ffeb3b;
   }
 </style>
 </head>
@@ -117,7 +115,6 @@
     </div>
   </div>
 
-  <!-- Új DJ Oti doboz R/F kódok alá -->
   <div id="djotiContainer" class="djoti-box">
     <div class="djoti-label">DJ Oti:</div>
     <div id="countdown" class="countdown">
@@ -133,14 +130,13 @@
   function getWeekNumber(d) {
     d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
     d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
-    var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
-    var weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
-    return weekNo;
+    const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+    return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
   }
 
   function getDayOfYear(d) {
-    var jan1 = new Date(d.getFullYear(), 0, 1);
-    var diff = (d - jan1) / (1000 * 60 * 60 * 24);
+    const jan1 = new Date(d.getFullYear(), 0, 1);
+    const diff = (d - jan1) / (1000 * 60 * 60 * 24);
     return Math.floor(diff) + 1;
   }
 
@@ -156,7 +152,6 @@
   document.getElementById('normalCode').innerHTML = "Normál: <strong>" + normalStr + "</strong>";
   document.getElementById('sofaCode').innerHTML = "Sofa: <strong>" + sofaStr + "</strong>";
 
-  // Visszaszámláló
   const countDownDate = new Date('2026-08-08T15:00:00').getTime();
 
   function updateCountdown() {
@@ -171,7 +166,7 @@
 
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const minutes = Math.floor((distance % (1000 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById('days').textContent = days.toString().padStart(2, '0');
@@ -181,15 +176,12 @@
   }
 
   function copyCode(id) {
-    let text;
-    if (id === "normalCode") {
-      text = normalStr;
-      showCopied("copiedNormal");
-    } else if (id === "sofaCode") {
-      text = sofaStr;
-      showCopied("copiedSofa");
-    }
-    navigator.clipboard.writeText(text);
+    const text = id === "normalCode" ? normalStr : sofaStr;
+    const msgId = id === "normalCode" ? "copiedNormal" : "copiedSofa";
+    
+    navigator.clipboard.writeText(text).then(() => {
+      showCopied(msgId);
+    });
   }
 
   function showCopied(elementId) {
@@ -202,16 +194,6 @@
 
   updateCountdown();
   setInterval(updateCountdown, 1000);
-</script>
-
-<div id="footer"></div>
-
-<script>
-fetch("footer.html")
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById("footer").innerHTML = data;
-  });
 </script>
 
 </body>
