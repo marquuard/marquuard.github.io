@@ -235,7 +235,7 @@
           const grouped = {};
           htmlFiles.forEach(file => {
             const parts = file.path.split('/');
-            const folder = parts.length > 1 ? parts.slice(0, -1).join('/') : 'Gyökérkönyvtár';
+            const folder = parts.length > 1 ? parts.slice(0, -1).join('/') : 'Generali';
             const filename = parts[parts.length - 1];
 
             if (!grouped[folder]) grouped[folder] = [];
