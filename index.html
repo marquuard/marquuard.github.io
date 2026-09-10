@@ -1,205 +1,200 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marquuard Industries</title>
-  <style>
-    :root {
-      --bg: #0f172a;
-      --card-bg: #1e293b;
-      --border: #334155;
-      --text: #f8fafc;
-      --muted: #94a3b8;
-      --primary: #38bdf8;
-      --primary-hover: #0284c7;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
-      display: flex;
-      justify-content: center;
-      padding: 3rem 1rem;
-      min-height: 100vh;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 720px;
-    }
-
-    header {
-      margin-bottom: 2rem;
-    }
-
-    h1 {
-      font-size: 1.75rem;
-      font-weight: 600;
-      letter-spacing: -0.025em;
-    }
-
-    .subtitle {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-top: 0.25rem;
-    }
-
-    .status {
-      padding: 1rem;
-      border-radius: 8px;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .folder-group {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      margin-bottom: 1.25rem;
-      overflow: hidden;
-    }
-
-    .folder-title {
-      font-size: 0.9rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--primary);
-      padding: 0.75rem 1.25rem;
-      background: rgba(255, 255, 255, 0.02);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .file-list {
-      list-style: none;
-    }
-
-    .file-item a {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.85rem 1.25rem;
-      color: var(--text);
-      text-decoration: none;
-      border-bottom: 1px solid var(--border);
-      transition: background 0.15s ease, color 0.15s ease;
-    }
-
-    .file-item:last-child a {
-      border-bottom: none;
-    }
-
-    .file-item a:hover {
-      background: rgba(56, 189, 248, 0.08);
-      color: var(--primary);
-    }
-
-    .file-item a span.arrow {
-      color: var(--muted);
-      font-size: 0.85rem;
-      transition: transform 0.15s ease;
-    }
-
-    .file-item a:hover span.arrow {
-      transform: translateX(4px);
-      color: var(--primary);
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renault</title>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #e0e0e0;
+  }
+  .container {
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background-color: #cccccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .info-line {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  .special-codes {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #333;
+  }
+  .special-codes div {
+    margin-bottom: 10px;
+  }
+  .copy-button {
+    margin-left: 10px;
+    padding: 4px 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+  }
+  .copy-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .copied-message {
+    display: none;
+    font-size: 0.9em;
+    color: green;
+    margin-top: 5px;
+  }
+  .djoti-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background-color: #d0d0d0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #333;
+    font-size: 1em;
+  }
+  .djoti-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .time-unit {
+    background-color: #e0e0e0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    min-width: 45px;
+  }
+  .label {
+    font-size: 0.7em;
+    display: block;
+    margin-top: 2px;
+    font-weight: normal;
+  }
+  .expired {
+    background-color: #333;
+    color: #ffeb3b;
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Marquuard Industries</h1>
-      <p class="subtitle">Projects</p>
-    </header>
 
-    <div id="content">
-      <div class="status">Searching for projects...</div>
+<div class="container">
+  <div id="weekNumber" class="info-line"></div>
+  <div id="dayOfYear" class="info-line"></div>
+  
+  <div class="special-codes">
+    <div>
+      <span id="normalCode"></span>
+      <button class="copy-button" onclick="copyCode('normalCode')" title="Másolás">📋</button>
+      <div id="copiedNormal" class="copied-message">Másolva</div>
+    </div>
+    <div>
+      <span id="sofaCode"></span>
+      <button class="copy-button" onclick="copyCode('sofaCode')" title="Másolás">📋</button>
+      <div id="copiedSofa" class="copied-message">Másolva</div>
     </div>
   </div>
 
-  <script>
-    // Konfiguráció - írd át a saját repód adataira
-    const REPO_OWNER = 'marquuard';
-    const REPO_NAME = 'marquuard.github.io';
-    const BRANCH = 'main'; // vagy 'gh-pages'
+  <div id="djotiContainer" class="djoti-box">
+    <div class="djoti-label">DJ Oti:</div>
+    <div id="countdown" class="countdown">
+      <span class="time-unit"><span id="days">00</span><span class="label">nap</span></span>
+      <span class="time-unit"><span id="hours">00</span><span class="label">óra</span></span>
+      <span class="time-unit"><span id="minutes">00</span><span class="label">perc</span></span>
+      <span class="time-unit"><span id="seconds">00</span><span class="label">mp</span></span>
+    </div>
+  </div>
+</div>
 
-    async function loadFiles() {
-      const contentDiv = document.getElementById('content');
-      const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/${BRANCH}?recursive=1`;
+<script>
+  function getWeekNumber(d) {
+    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+    const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+    return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+  }
 
-      try {
-        const response = await fetch(apiUrl);
-        if (!response.ok) {
-          throw new Error(`API hiba: ${response.status} (Nyilvános a repó? Helyes a felhasználónév?)`);
-        }
+  function getDayOfYear(d) {
+    const jan1 = new Date(d.getFullYear(), 0, 1);
+    const diff = (d - jan1) / (1000 * 60 * 60 * 24);
+    return Math.floor(diff) + 1;
+  }
 
-        const data = await response.json();
-        
-        // Csak az almappákban lévő .html fájlok szűrése (a gyökér index.html kivételével)
-        const htmlFiles = data.tree.filter(item => 
-          item.type === 'blob' && 
-          item.path.endsWith('.html') && 
-          item.path !== 'index.html'
-        );
+  const ma = new Date();
+  const hetSzama = getWeekNumber(ma);
+  const evNapja = getDayOfYear(ma);
+  const evNapjaPadded = evNapja.toString().padStart(3, '0');
+  const normalStr = "R" + evNapjaPadded + "858501";
+  const sofaStr = "F" + evNapjaPadded + "993001";
 
-        if (htmlFiles.length === 0) {
-          contentDiv.innerHTML = '<div class="status">Nem találhatók HTML fájlok a repóban.</div>';
-          return;
-        }
+  document.getElementById('weekNumber').textContent = hetSzama + ". hét";
+  document.getElementById('dayOfYear').textContent = evNapja + ". nap";
+  document.getElementById('normalCode').innerHTML = "Normál: <strong>" + normalStr + "</strong>";
+  document.getElementById('sofaCode').innerHTML = "Sofa: <strong>" + sofaStr + "</strong>";
 
-        // Mappák szerinti csoportosítás
-        const grouped = {};
-        htmlFiles.forEach(file => {
-          const parts = file.path.split('/');
-          const folder = parts.length > 1 ? parts.slice(0, -1).join('/') : 'Gyökérkönyvtár';
-          const filename = parts[parts.length - 1];
+  const countDownDate = new Date('2026-08-08T15:00:00').getTime();
 
-          if (!grouped[folder]) grouped[folder] = [];
-          grouped[folder].push({ path: file.path, name: filename });
-        });
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
 
-        // HTML felépítése
-        contentDiv.innerHTML = '';
-        for (const [folder, files] of Object.entries(grouped)) {
-          const section = document.createElement('div');
-          section.className = 'folder-group';
-
-          const title = document.createElement('div');
-          title.className = 'folder-title';
-          title.textContent = folder;
-          section.appendChild(title);
-
-          const list = document.createElement('ul');
-          list.className = 'file-list';
-
-          files.forEach(file => {
-            const item = document.createElement('li');
-            item.className = 'file-item';
-            
-            const link = document.createElement('a');
-            link.href = `./${file.path}`;
-            link.innerHTML = `<span>${file.name}</span><span class="arrow">Megnyitás &rarr;</span>`;
-
-            item.appendChild(link);
-            list.appendChild(item);
-          });
-
-          section.appendChild(list);
-          contentDiv.appendChild(section);
-        }
-
-      } catch (err) {
-        contentDiv.innerHTML = `<div class="status" style="color: #f87171;">Hiba történt: ${err.message}</div>`;
-      }
+    const countdownEl = document.getElementById('countdown');
+    if (distance < 0) {
+      countdownEl.innerHTML = '<span class="time-unit expired">Az esemény elkezdődött!</span>';
+      return;
     }
 
-    loadFiles();
-  </script>
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById('days').textContent = days.toString().padStart(2, '0');
+    document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+    document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+    document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+  }
+
+  function copyCode(id) {
+    const text = id === "normalCode" ? normalStr : sofaStr;
+    const msgId = id === "normalCode" ? "copiedNormal" : "copiedSofa";
+    
+    navigator.clipboard.writeText(text).then(() => {
+      showCopied(msgId);
+    });
+  }
+
+  function showCopied(elementId) {
+    const el = document.getElementById(elementId);
+    el.style.display = "block";
+    setTimeout(() => {
+      el.style.display = "none";
+    }, 1500);
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+</script>
+
 </body>
 </html>
