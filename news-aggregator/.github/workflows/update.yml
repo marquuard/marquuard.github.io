@@ -22,16 +22,16 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        working-directory: ./scripts
+        working-directory: ./news-aggregator/scripts
         run: npm install
 
       - name: Fetch and aggregate news
-        working-directory: ./scripts
+        working-directory: ./news-aggregator/scripts
         run: node fetch-news.js
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add news-aggregator/data/news.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update news [skip ci]" && git push)
