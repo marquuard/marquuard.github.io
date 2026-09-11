@@ -1,0 +1,41 @@
+{
+  "lastUpdated": "2026-09-11T10:00:00.000Z",
+  "categories": {
+    "technology": [
+      {
+        "title": "Minta hír a technológia világából",
+        "link": "https://example.com",
+        "summary": "Ez egy minta hír az első futtatás előtti teszteléshez. A GitHub Actions lefutása után ez automatikusan felülíródik.",
+        "source": "Tech Demo",
+        "pubDate": 1789120800000
+      }
+    ],
+    "finance": [
+      {
+        "title": "Minta pénzügyi elemzés és piaci összefoglaló",
+        "link": "https://example.com",
+        "summary": "Pénzügyi mutatók és árfolyam-trendek elemzése a megbízható források adatai alapján.",
+        "source": "Finance Demo",
+        "pubDate": 1789120800000
+      }
+    ],
+    "business": [
+      {
+        "title": "Üzleti döntések és globális vállalati hírek",
+        "link": "https://example.com",
+        "summary": "A legfrissebb nemzetközi gazdasági folyamatok és vállalati hírek összegzése.",
+        "source": "Business Demo",
+        "pubDate": 1789120800000
+      }
+    ],
+    "world": [
+      {
+        "title": "Globális események és világpolitikai körkép",
+        "link": "https://example.com",
+        "summary": "A legfontosabb világpolitikai és diplomáciai történések valós időben aggregálva.",
+        "source": "World Demo",
+        "pubDate": 1789120800000
+      }
+    ]
+  }
+}
