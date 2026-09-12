@@ -1,9 +1,16 @@
 {
-  "lastUpdated": "2026-09-11T22:58:20.833Z",
+  "lastUpdated": "2026-09-12T09:01:12.979Z",
   "categories": {
     "technology": [
       {
-        "title": "Random rewards enrich classic game-theory contests",
+        "title": "Some satellite companies still have an appetite for boutique launch services",
+        "link": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+        "summary": "\"Dedicated launch is pretty essential for us for most of our missions.\"",
+        "source": "Ars Technica - All content",
+        "pubDate": 1789169685000
+      },
+      {
+        "title": "Random rewards enrich classic game-theory insights",
         "link": "https://arstechnica.com/science/2026/09/random-rewards-enrich-classic-game-theory-contests/",
         "summary": "Simple games gain rich strategies in the face of noise.",
         "source": "Ars Technica - All content",
@@ -29,16 +36,16 @@
         "summary": "The Department of Energy declared an \"emergency\" when none existed.",
         "source": "Ars Technica - All content",
         "pubDate": 1789158779000
-      },
-      {
-        "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
-        "link": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
-        "summary": "\"I didn't know that AI could hallucinate facts,\" New Mexico defense lawyer says.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789155249000
       }
     ],
     "finance": [
+      {
+        "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+        "link": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+        "summary": "Economists note that the Fed historically has not been content to raise rates only once.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789170840000
+      },
       {
         "title": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
         "link": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
@@ -66,29 +73,22 @@
         "summary": "The EV maker aims to finally kick its long-awaited Semi truck into high gear — unlocking a potentially huge opportunity, according to Morgan Stanley.",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1789159740000
-      },
-      {
-        "title": "Oracle shook off fears about AI spending, but its stock still loses ground",
-        "link": "https://www.marketwatch.com/story/oracle-shares-are-climbing-after-results-what-wall-street-analysts-are-saying-now-0d4517ae?mod=mw_rss_topstories",
-        "summary": "“Several of Oracle’s bear cases were addressed head on” in the latest earnings report, according to an analyst.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789159500000
       }
     ],
     "business": [
+      {
+        "title": "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
+        "link": "https://www.nytimes.com/2026/09/11/business/economy/inflation-cpi-august.html",
+        "summary": "The odds of a quarter-point rate increase at the Federal Reserve’s meeting next week surged to 90 percent after August’s Consumer Price Index report.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1789176346000
+      },
       {
         "title": "AARP Projects 2027 Social Security COLA at 3.6%",
         "link": "https://www.nytimes.com/2026/09/11/business/economy/social-security-cola.html",
         "summary": "If the AARP’s projection holds, the cost-of-living adjustment would be the largest since 2023.",
         "source": "NYT > Business > Economy",
         "pubDate": 1789151297000
-      },
-      {
-        "title": "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
-        "link": "https://www.nytimes.com/2026/09/11/business/economy/inflation-cpi-august.html",
-        "summary": "The odds of a quarter-point rate increase at the Federal Reserve’s meeting next week surged to 90 percent after August’s Consumer Price Index report.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1789141658000
       },
       {
         "title": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
-        "link": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
-        "summary": "The militia captured the island in the Bab al-Mandab Strait, a choke point for trade. Saudi Arabia also announced it had shut down a critical oil pipeline after a drone attack laun...",
+        "title": "In Doonbeg, Trump’s Irish Open Visit Prompts Protests and Praise",
+        "link": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html",
+        "summary": "As the U.S. president heads to his Doonbeg hotel for the Irish Open, locals expressed both appreciation for the resort’s economic benefits and opposition to his politics.",
         "source": "NYT > World News",
-        "pubDate": 1789165336000
+        "pubDate": 1789203413000
       },
       {
-        "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-        "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+        "title": "Trump at residence of Irish president  for first engagement during visit",
+        "link": "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump will hold meetings in Dublin before attending the Irish Open golf tournament in Doonbeg, County Clare.",
         "source": "BBC News",
-        "pubDate": 1789165065000
+        "pubDate": 1789203182000
       },
       {
-        "title": "Colombia to Start Aerial Spraying of Coca Crops Despite Health Worries",
-        "link": "https://www.nytimes.com/2026/09/11/world/americas/colombia-aerial-spraying-coca-crops.html",
-        "summary": "The news comes days after Colombia’s president, Abelardo De La Espriella, and the U.S. secretary of state, Marco Rubio, discussed stronger measures against drug trafficking.",
-        "source": "NYT > World News",
-        "pubDate": 1789163092000
-      },
-      {
-        "title": "Six Nigerians accused of romance scams to be extradited to the US",
-        "link": "https://www.bbc.co.uk/news/articles/cj3dy704l71o?at_medium=RSS&at_campaign=rss",
-        "summary": "The six will face wire fraud and money-laundry charges in the US, South African police say.",
+        "title": "Grammy-winning US rapper Lil Durk acquitted in murder-for-hire trial",
+        "link": "https://www.bbc.co.uk/news/articles/c1kx0jje18wo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Chicago rapper was arrested in 2024 and accused of involvement in a shooting that killed the cousin of rival rapper Quando Rondo.",
         "source": "BBC News",
-        "pubDate": 1789160839000
+        "pubDate": 1789200256000
       },
       {
-        "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
-        "link": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
-        "summary": "The leaders of China, Russia, India, Iran and other nations in the BRICS club gather in New Delhi this weekend, but wars and soaring energy prices divide them.",
+        "title": "Inside an Ancient Lebanese City Engulfed by War",
+        "link": "https://www.nytimes.com/2026/09/11/world/middleeast/tyre-engulfed-war-lebanon.html",
+        "summary": "The Lebanese city of Tyre, one of the oldest metropolises in the world, has been left scarred.",
         "source": "NYT > World News",
-        "pubDate": 1789159524000
+        "pubDate": 1789197508000
+      },
+      {
+        "title": "As Oil Prices Rise, BRICS Leaders Have What U.S. Doesn’t: Iran at the Table",
+        "link": "https://www.nytimes.com/2026/09/12/world/asia/brics-summit-china-india-russia-iran.html",
+        "summary": "Even so, finding unity among the loose grouping of emerging economies will be difficult as the war in the Middle East strains their own interests.",
+        "source": "NYT > World News",
+        "pubDate": 1789194614000
       }
     ]
   }
