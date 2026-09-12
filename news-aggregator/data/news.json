@@ -1,81 +1,88 @@
 {
-  "lastUpdated": "2026-09-12T09:01:12.979Z",
+  "lastUpdated": "2026-09-12T15:59:24.671Z",
   "categories": {
     "technology": [
       {
-        "title": "Some satellite companies still have an appetite for boutique launch services",
-        "link": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
-        "summary": "\"Dedicated launch is pretty essential for us for most of our missions.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789169685000
-      },
-      {
-        "title": "Random rewards enrich classic game-theory insights",
-        "link": "https://arstechnica.com/science/2026/09/random-rewards-enrich-classic-game-theory-contests/",
-        "summary": "Simple games gain rich strategies in the face of noise.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789162876000
-      },
-      {
-        "title": "Bouncy castle launches horrifying MRSA outbreak, striking 48 kids in Ireland",
-        "link": "https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/",
-        "summary": "The strain lurking in the inflatable structure was hypervirulent.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789161266000
-      },
-      {
-        "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
-        "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a rep...",
+        "title": "LG responds to TV spying allegations",
+        "link": "https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations",
+        "summary": "Earlier this week, Gamers Nexus, Level1Techs, and independent security researchers detailed some alarming findings about how LG's TVs are logging and uploading data on its users. N...",
         "source": "The Verge",
-        "pubDate": 1789159442000
+        "pubDate": 1789226384000
       },
       {
-        "title": "Trump's forced coal plant extensions thrown out by judge",
-        "link": "https://arstechnica.com/science/2026/09/court-rejects-governments-energy-emergency-that-kept-coal-plant-open/",
-        "summary": "The Department of Energy declared an \"emergency\" when none existed.",
+        "title": "Trump is giving data centers a pass to pollute",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+        "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former ...",
+        "source": "The Verge",
+        "pubDate": 1789224087000
+      },
+      {
+        "title": "Laika’s stop-motion fantasy Wildwood looks so smooth",
+        "link": "https://www.theverge.com/entertainment/994314/tiff-2026-wildwood-stuffed-julian",
+        "summary": "Due to a scheduling mishap, I was only able to check out two movies on my second day at the Toronto International Film Festival - but I did manage to get an early look at and some ...",
+        "source": "The Verge",
+        "pubDate": 1789218000000
+      },
+      {
+        "title": "Where to preorder the iPhone 18 Pro and Pro Max",
+        "link": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy",
+        "summary": "Which color suits you best? | Photo: Nilay Patel / The Verge\t\n\nThe iPhone 18 Pro and 18 Pro Max are almost here. Announced at Apple's September 2026 \"Sunrise and shine\" event along...",
+        "source": "The Verge",
+        "pubDate": 1789214400000
+      },
+      {
+        "title": "I spent $4,000 on a robot dog from China",
+        "link": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+        "summary": "Unitree might be the world’s most important robotics company.",
         "source": "Ars Technica - All content",
-        "pubDate": 1789158779000
+        "pubDate": 1789210853000
       }
     ],
     "finance": [
       {
-        "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
-        "link": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
-        "summary": "Economists note that the Fed historically has not been content to raise rates only once.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789170840000
+        "title": "Top Economist Says the Fed Should Hike Rates 50 Basis Points Next Week. The Bond Market Is Already Near His Danger Zone.",
+        "link": "https://finance.yahoo.com/economy/policy/articles/top-economist-says-fed-hike-154815533.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789228095000
       },
       {
-        "title": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
-        "link": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
-        "summary": "There’s a safe haven hiding in plain sight.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789164360000
+        "title": "Should You Buy Archer Aviation Stock While It's Below $6?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/buy-archer-aviation-stock-while-154500657.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789227900000
       },
       {
-        "title": "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
-        "link": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
-        "summary": "Marvell is best known for making custom chips — but an analyst notes there’s arguably more potential in supporting components and optical networking.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789161360000
+        "title": "The Family Cabin Was Worth $180,000 and Nobody Lived There. Medicaid Called It a Countable Asset and the Nursing Home Got It Before the Grandkids Did",
+        "link": "https://finance.yahoo.com/healthcare/articles/family-cabin-worth-180-000-153924182.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789227564000
       },
       {
-        "title": "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
-        "link": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
-        "summary": "“Am I required to create three new inherited IRAs so that the firm can divide it equally?”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789160400000
+        "title": "Prediction: This High-Yield Dow Dividend Stock Will Become a Dividend King Before the End of the Year.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-high-yield-dow-dividend-153500615.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789227300000
       },
       {
-        "title": "Tesla could transform the trucking business — and capitalize on high diesel prices",
-        "link": "https://www.marketwatch.com/story/tesla-could-transform-the-trucking-business-and-capitalize-on-high-diesel-prices-e4c48d79?mod=mw_rss_topstories",
-        "summary": "The EV maker aims to finally kick its long-awaited Semi truck into high gear — unlocking a potentially huge opportunity, according to Morgan Stanley.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789159740000
+        "title": "5 Big Yields That Could Be Slashed: Income Investors Beware",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/5-big-yields-could-slashed-153353087.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789227233000
       }
     ],
     "business": [
+      {
+        "title": "Want to Entice New Residents? Offer Cash, for a Start.",
+        "link": "https://www.nytimes.com/2026/09/12/business/economy/rural-america-moving-incentives.html",
+        "summary": "Relocation incentives have a mixed record of helping cities and towns stand out as people return to rural America.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1789203742000
+      },
       {
         "title": "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
         "link": "https://www.nytimes.com/2026/09/11/business/economy/inflation-cpi-august.html",
@@ -103,50 +110,43 @@
         "summary": "The government says the work will support thousands of jobs across the UK.",
         "source": "BBC News",
         "pubDate": 1789137813000
-      },
-      {
-        "title": "US prices remain high as fuel costs squeeze household budgets",
-        "link": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
-        "summary": "Prices in the US rose 3.4% in the 12 months to August,  according to the latest official report on inflation.",
-        "source": "BBC News",
-        "pubDate": 1789136562000
       }
     ],
     "world": [
       {
-        "title": "In Doonbeg, Trump’s Irish Open Visit Prompts Protests and Praise",
-        "link": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html",
-        "summary": "As the U.S. president heads to his Doonbeg hotel for the Irish Open, locals expressed both appreciation for the resort’s economic benefits and opposition to his politics.",
-        "source": "NYT > World News",
-        "pubDate": 1789203413000
-      },
-      {
-        "title": "Trump at residence of Irish president  for first engagement during visit",
-        "link": "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump will hold meetings in Dublin before attending the Irish Open golf tournament in Doonbeg, County Clare.",
+        "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+        "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Amodei's call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
         "source": "BBC News",
-        "pubDate": 1789203182000
-      },
-      {
-        "title": "Grammy-winning US rapper Lil Durk acquitted in murder-for-hire trial",
-        "link": "https://www.bbc.co.uk/news/articles/c1kx0jje18wo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Chicago rapper was arrested in 2024 and accused of involvement in a shooting that killed the cousin of rival rapper Quando Rondo.",
-        "source": "BBC News",
-        "pubDate": 1789200256000
-      },
-      {
-        "title": "Inside an Ancient Lebanese City Engulfed by War",
-        "link": "https://www.nytimes.com/2026/09/11/world/middleeast/tyre-engulfed-war-lebanon.html",
-        "summary": "The Lebanese city of Tyre, one of the oldest metropolises in the world, has been left scarred.",
-        "source": "NYT > World News",
-        "pubDate": 1789197508000
+        "pubDate": 1789228423000
       },
       {
         "title": "As Oil Prices Rise, BRICS Leaders Have What U.S. Doesn’t: Iran at the Table",
         "link": "https://www.nytimes.com/2026/09/12/world/asia/brics-summit-china-india-russia-iran.html",
         "summary": "Even so, finding unity among the loose grouping of emerging economies will be difficult as the war in the Middle East strains their own interests.",
         "source": "NYT > World News",
-        "pubDate": 1789194614000
+        "pubDate": 1789228020000
+      },
+      {
+        "title": "Trump Says Irish Unification Would Be ‘Fantastic,’ Breaking With Precedent",
+        "link": "https://www.nytimes.com/2026/09/12/world/europe/trump-ireland-unification-remarks.html",
+        "summary": "The United States is officially neutral on an issue that had been a source of decades of violence in Northern Ireland until a 1998 peace deal.",
+        "source": "NYT > World News",
+        "pubDate": 1789226845000
+      },
+      {
+        "title": "‘We Left in the Clothes We Were Wearing’: Yemenis Flee New Fighting",
+        "link": "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html",
+        "summary": "Hunger and disease have tormented Yemen for years. Now, fighting between the Saudi-backed government and Iran-backed Houthis is pushing it to the brink.",
+        "source": "NYT > World News",
+        "pubDate": 1789226808000
+      },
+      {
+        "title": "Iran Finds Escalation Is a Fruitful Path to Leverage in War With U.S.",
+        "link": "https://www.nytimes.com/2026/09/12/world/middleeast/iran-escalation-leverage-houthis-strait.html",
+        "summary": "Iran and its allies now hold sway over two key oil shipping routes, and Tehran is setting the stage for a diplomatic win that could enhance its stature.",
+        "source": "NYT > World News",
+        "pubDate": 1789226583000
       }
     ]
   }
