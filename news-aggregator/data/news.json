@@ -1,81 +1,88 @@
 {
-  "lastUpdated": "2026-09-12T15:59:24.671Z",
+  "lastUpdated": "2026-09-12T22:50:31.253Z",
   "categories": {
     "technology": [
       {
-        "title": "LG responds to TV spying allegations",
-        "link": "https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations",
-        "summary": "Earlier this week, Gamers Nexus, Level1Techs, and independent security researchers detailed some alarming findings about how LG's TVs are logging and uploading data on its users. N...",
+        "title": "OpenAI’s rogue AI tried to hack another company in May",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+        "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI a...",
         "source": "The Verge",
-        "pubDate": 1789226384000
+        "pubDate": 1789249296000
       },
       {
-        "title": "Trump is giving data centers a pass to pollute",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
-        "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former ...",
+        "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+        "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects in...",
         "source": "The Verge",
-        "pubDate": 1789224087000
+        "pubDate": 1789247788000
       },
       {
-        "title": "Laika’s stop-motion fantasy Wildwood looks so smooth",
-        "link": "https://www.theverge.com/entertainment/994314/tiff-2026-wildwood-stuffed-julian",
-        "summary": "Due to a scheduling mishap, I was only able to check out two movies on my second day at the Toronto International Film Festival - but I did manage to get an early look at and some ...",
+        "title": "StarCraft returns in 2030 as an open-world shooter",
+        "link": "https://www.theverge.com/games/994371/starcraft-returns-in-2030-as-an-open-world-shooter",
+        "summary": "Blizzard originally tried to bring the StarCraft universe to the world of 3D shooters way back in 2002 with StarCraft: Ghost. It sat in development hell for years until Blizzard pr...",
         "source": "The Verge",
-        "pubDate": 1789218000000
+        "pubDate": 1789243689000
       },
       {
-        "title": "Where to preorder the iPhone 18 Pro and Pro Max",
-        "link": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy",
-        "summary": "Which color suits you best? | Photo: Nilay Patel / The Verge\t\n\nThe iPhone 18 Pro and 18 Pro Max are almost here. Announced at Apple's September 2026 \"Sunrise and shine\" event along...",
+        "title": "Sylvan Esso think you should splurge on good-quality yogurt",
+        "link": "https://www.theverge.com/entertainment/994340/sylvan-esso-ow-infinity-interview-music",
+        "summary": "Sylvan Esso preparing to attend a frutiger aero renfaire.\t\n\nAmelia Meath and Nick Sanborn, better known as Sylvan Esso, have been bringing their low-key electro-pop to the masses s...",
         "source": "The Verge",
-        "pubDate": 1789214400000
+        "pubDate": 1789230900000
       },
       {
-        "title": "I spent $4,000 on a robot dog from China",
-        "link": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
-        "summary": "Unitree might be the world’s most important robotics company.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789210853000
+        "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+        "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to s...",
+        "source": "The Verge",
+        "pubDate": 1789230220000
       }
     ],
     "finance": [
       {
-        "title": "Top Economist Says the Fed Should Hike Rates 50 Basis Points Next Week. The Bond Market Is Already Near His Danger Zone.",
-        "link": "https://finance.yahoo.com/economy/policy/articles/top-economist-says-fed-hike-154815533.html",
+        "title": "GE Aerospace (GE)’s $12 Billion CPP Acquisition Puts Its Growth Strategy to the Test",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-12-billion-223833187.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789228095000
+        "pubDate": 1789252713000
       },
       {
-        "title": "Should You Buy Archer Aviation Stock While It's Below $6?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/buy-archer-aviation-stock-while-154500657.html",
+        "title": "$10,000 in Tesla When It Joined the S&P 500 Would Be About $15,700 Today. An Index Fund Would Have Done Better.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/10-000-tesla-joined-p-223801736.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789227900000
+        "pubDate": 1789252681000
       },
       {
-        "title": "The Family Cabin Was Worth $180,000 and Nobody Lived There. Medicaid Called It a Countable Asset and the Nursing Home Got It Before the Grandkids Did",
-        "link": "https://finance.yahoo.com/healthcare/articles/family-cabin-worth-180-000-153924182.html",
+        "title": "Not Nvidia. Not Micron. This Dirt Cheap “Magnificent Seven” Stock Could Be the Biggest Winner of the Trillion-Dollar AI Race – Here’s the Case.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/not-nvidia-not-micron-dirt-223501021.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789227564000
+        "pubDate": 1789252501000
       },
       {
-        "title": "Prediction: This High-Yield Dow Dividend Stock Will Become a Dividend King Before the End of the Year.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-high-yield-dow-dividend-153500615.html",
+        "title": "Is NuScale Power a Millionaire Maker?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-millionaire-maker-222500086.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789227300000
+        "pubDate": 1789251900000
       },
       {
-        "title": "5 Big Yields That Could Be Slashed: Income Investors Beware",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/5-big-yields-could-slashed-153353087.html",
+        "title": "Walgreens retreats as CVS quietly takes over suburban pharmacies",
+        "link": "https://finance.yahoo.com/healthcare/articles/walgreens-retreats-cvs-quietly-takes-221700643.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789227233000
+        "pubDate": 1789251420000
       }
     ],
     "business": [
+      {
+        "title": "'Skimpflation' warning as tinned mackerel alternative hits more supermarket shelves ",
+        "link": "https://www.bbc.co.uk/news/articles/crm9xk9eg88o?at_medium=RSS&at_campaign=rss",
+        "summary": "Consumer group Which? has called the sale of jack mackerel, a cheaper, less nutritious species of fish, an example of \"skimpflation\".",
+        "source": "BBC News",
+        "pubDate": 1789245449000
+      },
       {
         "title": "Want to Entice New Residents? Offer Cash, for a Start.",
         "link": "https://www.nytimes.com/2026/09/12/business/economy/rural-america-moving-incentives.html",
@@ -103,50 +110,43 @@
         "summary": "O'Leary has said airline passengers \"can't afford to fly with the high-fare rapists around Europe\".",
         "source": "BBC News",
         "pubDate": 1789141045000
-      },
-      {
-        "title": "Alstom to build new battery-electric train fleet",
-        "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The government says the work will support thousands of jobs across the UK.",
-        "source": "BBC News",
-        "pubDate": 1789137813000
       }
     ],
     "world": [
       {
-        "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-        "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Amodei's call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
-        "source": "BBC News",
-        "pubDate": 1789228423000
-      },
-      {
-        "title": "As Oil Prices Rise, BRICS Leaders Have What U.S. Doesn’t: Iran at the Table",
-        "link": "https://www.nytimes.com/2026/09/12/world/asia/brics-summit-china-india-russia-iran.html",
-        "summary": "Even so, finding unity among the loose grouping of emerging economies will be difficult as the war in the Middle East strains their own interests.",
-        "source": "NYT > World News",
-        "pubDate": 1789228020000
-      },
-      {
         "title": "Trump Says Irish Unification Would Be ‘Fantastic,’ Breaking With Precedent",
         "link": "https://www.nytimes.com/2026/09/12/world/europe/trump-ireland-unification-remarks.html",
-        "summary": "The United States is officially neutral on an issue that had been a source of decades of violence in Northern Ireland until a 1998 peace deal.",
+        "summary": "The United States has been officially neutral on an issue that was a source of decades of violence in Northern Ireland until a 1998 peace deal.",
         "source": "NYT > World News",
-        "pubDate": 1789226845000
+        "pubDate": 1789253172000
       },
       {
         "title": "‘We Left in the Clothes We Were Wearing’: Yemenis Flee New Fighting",
         "link": "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html",
         "summary": "Hunger and disease have tormented Yemen for years. Now, fighting between the Saudi-backed government and Iran-backed Houthis is pushing it to the brink.",
         "source": "NYT > World News",
-        "pubDate": 1789226808000
+        "pubDate": 1789252124000
       },
       {
-        "title": "Iran Finds Escalation Is a Fruitful Path to Leverage in War With U.S.",
-        "link": "https://www.nytimes.com/2026/09/12/world/middleeast/iran-escalation-leverage-houthis-strait.html",
-        "summary": "Iran and its allies now hold sway over two key oil shipping routes, and Tehran is setting the stage for a diplomatic win that could enhance its stature.",
+        "title": "As Oil Prices Rise, BRICS Leaders Have What U.S. Doesn’t: Iran at the Table",
+        "link": "https://www.nytimes.com/2026/09/12/world/asia/brics-summit-china-india-russia-iran.html",
+        "summary": "Even so, finding unity among the loose grouping of emerging economies will be difficult as the war in the Middle East strains their own interests.",
         "source": "NYT > World News",
-        "pubDate": 1789226583000
+        "pubDate": 1789248852000
+      },
+      {
+        "title": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
+        "link": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
+        "summary": "Nobody could have predicted that today's main global headline would be Trump's desire to see a unified Ireland.",
+        "source": "BBC News",
+        "pubDate": 1789248328000
+      },
+      {
+        "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+        "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+        "source": "BBC News",
+        "pubDate": 1789247807000
       }
     ]
   }
