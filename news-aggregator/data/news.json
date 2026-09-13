@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-09-13T16:49:58.268Z",
+  "lastUpdated": "2026-09-13T22:52:40.868Z",
   "categories": {
     "technology": [
+      {
+        "title": "Trump and Mike Johnson think the AI industry is overreacting",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+        "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both...",
+        "source": "The Verge",
+        "pubDate": 1789328508000
+      },
+      {
+        "title": "Apple is reportedly working on iPhone game controllers",
+        "link": "https://www.theverge.com/tech/994426/apple-iphone-game-controllers",
+        "summary": "Bloomberg's Mark Gurman says Apple is developing two game controllers for the iPhone and will likely sell them under the Beats brand. Rumors that Apple might enter the game control...",
+        "source": "The Verge",
+        "pubDate": 1789324216000
+      },
+      {
+        "title": "The Units’ Digital Stimulation is synthpunk perfection",
+        "link": "https://www.theverge.com/entertainment/994415/the-units-digital-stimulation-synthpunk-review",
+        "summary": "The Units are a band I discovered in part thanks to No Dogs in Space. During their miniseries on The Screamers (another incredible band worth checking out), they mention synthpunk....",
+        "source": "The Verge",
+        "pubDate": 1789320970000
+      },
       {
         "title": "Waymo pulls over, calls cops on riders with a ghost gun",
         "link": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun",
@@ -15,67 +36,60 @@
         "summary": "Marvel's mishandling of its Blade reboot will likely go down as one of the studio's biggest mistakes. There was a great actor in place to play the vampire hunter (Mahershala Ali), ...",
         "source": "The Verge",
         "pubDate": 1789304400000
-      },
-      {
-        "title": "Your car is selling your data",
-        "link": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
-        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins. ...",
-        "source": "The Verge",
-        "pubDate": 1789300800000
-      },
-      {
-        "title": "Apple’s new phones are here",
-        "link": "https://www.theverge.com/tech/994218/apple-iphone-18-pro-airpods-5-meta-muse-ai-sony-headphones",
-        "summary": "Hi, friends! Welcome to Installer No. 143, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, new tech season is here, and also you can read al...",
-        "source": "The Verge",
-        "pubDate": 1789300800000
-      },
-      {
-        "title": "I fixed a tractor using John Deere’s self-repair service. Farmers aren’t sold on it.",
-        "link": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
-        "summary": "The manufacturer has a service that lets owners repair their own equipment.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789297241000
       }
     ],
     "finance": [
       {
-        "title": "Will Micron Technology Stock Soar to $1,500 After Sept. 30?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-stock-soar-1-163500139.html",
+        "title": "Can a $780,000 Portfolio Really Pay $4,750 a Month Without Touching Principal?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/780-000-portfolio-really-pay-224333678.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789317300000
+        "pubDate": 1789339413000
       },
       {
-        "title": "She Inherited Her Husband’s $300,000 IRA at 56 and Rolled It Into Her Own Name, Like the Bank Suggested. Every Withdrawal Until 59½ Cost Her a 10% Penalty She Didn’t Have to Pay",
-        "link": "https://finance.yahoo.com/markets/currencies/articles/she-inherited-her-husband-300-163152990.html",
+        "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789317112000
+        "pubDate": 1789338912000
       },
       {
-        "title": "Prediction: This Memory Stock Could Surge 233% Over the Next 3 Years (Hint: It's not Micron or Sandisk)",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-memory-stock-could-surge-163100696.html",
+        "title": "Berkshire Hathaway Stock Is Trailing the S&P 500 by About 10 Points This Year. History Says That Usually Doesn't Last.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-stock-trailing-p-223401074.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789317060000
+        "pubDate": 1789338841000
       },
       {
-        "title": "‘I still don’t have my MRI’: My health insurer canceled my plan without warning. Is that legal?",
-        "link": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
-        "summary": "“It wasn’t an ACA plan, but it was meaningfully cheaper than anything I could find on the ACA exchange.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789317000000
-      },
-      {
-        "title": "Sept. 16 Will Provide a Clearer Path for Interest Rates -- These 3 High-Yield Dividend Stocks Win Either Way",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sept-16-clearer-path-interest-162501048.html",
+        "title": "Ray Dalio Says Interest Costs Are Crowding Out Everything Else—Here’s His Three-Year Warning",
+        "link": "https://finance.yahoo.com/economy/policy/articles/ray-dalio-says-interest-costs-222107955.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789316701000
+        "pubDate": 1789338067000
+      },
+      {
+        "title": "I’m 61 Years Old With $200,000 Saved for Retirement. What’s My Game Plan?",
+        "link": "https://finance.yahoo.com/news/m-61-years-old-200-171222070.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789338013000
       }
     ],
     "business": [
+      {
+        "title": "'Culture shift' needed in how UK does business, PM urges",
+        "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+        "summary": "Burnham has said those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
+        "source": "BBC News",
+        "pubDate": 1789335021000
+      },
+      {
+        "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+        "link": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
+        "summary": "Whiskey distilled in the Republic of Ireland faces the standard 15% tariff which applies to EU goods entering the US.",
+        "source": "BBC News",
+        "pubDate": 1789328076000
+      },
       {
         "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
         "link": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
@@ -96,57 +110,43 @@
         "summary": "The government needs to do more to support working families, a charity in Rotherham says.",
         "source": "BBC News",
         "pubDate": 1789279756000
-      },
-      {
-        "title": "Oil prices create 'huge worry' as winter looms",
-        "link": "https://www.bbc.co.uk/news/articles/cwyzegz38wlo?at_medium=RSS&at_campaign=rss",
-        "summary": "The warning comes after the US-Iran conflict drives up heating oil and fuel costs.",
-        "source": "BBC News",
-        "pubDate": 1789279313000
-      },
-      {
-        "title": "Ending rough sleeping is 'not just a housing issue'",
-        "link": "https://www.bbc.co.uk/news/articles/ckg7qyl1yk9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Andy Burnham wants to get people \"in from the cold\" by Christmas, but the scale of the task is huge.",
-        "source": "BBC News",
-        "pubDate": 1789276455000
       }
     ],
     "world": [
       {
-        "title": "Russia struck train near Poland border shortly after Boris Johnson and top European officials passed through",
-        "link": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The former UK PM said \"I don't know what warped logic drove Putin to blow up a stationary Ukrainian locomotive on the Polish border this morning\".",
+        "title": "Swedish party blocs tied after Sunday vote, projections say",
+        "link": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+        "summary": "A partial count by Sweden's election authority projected that left-wing opposition bloc would win a one-seat majority.",
         "source": "BBC News",
-        "pubDate": 1789317237000
+        "pubDate": 1789338474000
       },
       {
-        "title": "Trump downplays AI risks after dire expert warnings and calls to slow development down",
-        "link": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US President said \"negative forces\" were airing concerns about \"things that won't happen\".",
-        "source": "BBC News",
-        "pubDate": 1789316967000
-      },
-      {
-        "title": "Trump doubles down on united Ireland comments on day two of visit",
-        "link": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president was speaking at the Irish Open on Sunday and said \"many people agree\" with his comments.",
-        "source": "BBC News",
-        "pubDate": 1789314170000
-      },
-      {
-        "title": "US congressman swims to safety after his plane is forced to land on a lake  ",
-        "link": "https://www.bbc.co.uk/news/articles/c5y5d87x72zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The small plane carrying Rep Tom Tiffany had a mechanical issue that forced the pilot to make an emergency landing on a Wisconsin lake.",
-        "source": "BBC News",
-        "pubDate": 1789313443000
-      },
-      {
-        "title": "Iran Will Meet With Gulf Arab States as Mideast Conflict Widens",
-        "link": "https://www.nytimes.com/2026/09/13/world/middleeast/iran-meeting-gulf-arab-states.html",
-        "summary": "Talks are expected tomorrow, officials said, as a ship was targeted in the Strait of Hormuz and Iranian allies in Yemen said they had launched a new attack on Saudi Arabia.",
+        "title": "Russian Strikes on Ukraine Hits Near David Petraeus, ex-C.I.A. Chief",
+        "link": "https://www.nytimes.com/2026/09/13/world/europe/ukraine-petraeus-russian-strike.html",
+        "summary": "David Petraeus was at a rail station when a drone hit. Another train, with former Prime Minister Boris Johnson of Britain and other dignitaries, had just left, Ukrainian officials ...",
         "source": "NYT > World News",
-        "pubDate": 1789311433000
+        "pubDate": 1789335288000
+      },
+      {
+        "title": "Meeting Between Iran, Arab States Postponed as Mideast Diplomacy Stalls",
+        "link": "https://www.nytimes.com/2026/09/13/world/middleeast/iran-meeting-gulf-arab-states.html",
+        "summary": "Talks between the United States and Iran hit a dead end weeks ago, leaving Arab countries struggling to manage their ties to Tehran amid ongoing attacks.",
+        "source": "NYT > World News",
+        "pubDate": 1789333097000
+      },
+      {
+        "title": "Trump’s Supercharged Social Media",
+        "link": "https://www.nytimes.com/2026/09/13/world/trump-ai-social-media-celine-dion.html",
+        "summary": "The president’s A.I. post barrages, far more intense than during his first term, are redefining the presidency and driving a debate over his state of mind.",
+        "source": "NYT > World News",
+        "pubDate": 1789332509000
+      },
+      {
+        "title": "King Charles Will Convene A.I. Leaders Amid Calls to Slow Development",
+        "link": "https://www.nytimes.com/2026/09/13/world/europe/king-charles-ai-meeting.html",
+        "summary": "As alarm from the highest echelons of A.I. companies mounts, Buckingham Palace said the king would meet with executives to explore how the technology can be used for good.",
+        "source": "NYT > World News",
+        "pubDate": 1789331027000
       }
     ]
   }
