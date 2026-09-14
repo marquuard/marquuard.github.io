@@ -1,81 +1,102 @@
 {
-  "lastUpdated": "2026-09-14T10:19:29.730Z",
+  "lastUpdated": "2026-09-14T18:20:47.593Z",
   "categories": {
     "technology": [
       {
-        "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
-        "link": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
-        "summary": "The 40-year-old unvaccinated woman reportedly had underlying health conditions.",
+        "title": "TIFF 2026: The latest movie reviews from Toronto",
+        "link": "https://www.theverge.com/entertainment/994834/tiff-2026-movie-reviews",
+        "summary": "If you want an idea of what’s next in film, the Toronto International Film Festival is a good place to start. Every year TIFF features a huge range of features from around the worl...",
+        "source": "The Verge",
+        "pubDate": 1789407000000
+      },
+      {
+        "title": "Prehistoric builders transported Devil's Arrows 11 miles",
+        "link": "https://arstechnica.com/science/2026/09/prehistoric-builders-transported-devils-arrows-11-miles/",
+        "summary": "Isotropic analysis revealed the most likely source to be Brimham Rocks, not the nearby Plumpton Rocks.",
         "source": "Ars Technica - All content",
-        "pubDate": 1789336612000
+        "pubDate": 1789405854000
       },
       {
-        "title": "Trump and Mike Johnson think the AI industry is overreacting",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
-        "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both...",
+        "title": "macOS 27 is available now",
+        "link": "https://www.theverge.com/tech/994818/apple-macos-27-golden-gate-available-now",
+        "summary": "Apple released macOS 27 Golden Gate on Monday, which brings the new Siri AI assistant, Liquid Glass improvements, improved performance, and more. The update is compatible with all ...",
         "source": "The Verge",
-        "pubDate": 1789328508000
+        "pubDate": 1789405813000
       },
       {
-        "title": "Apple is reportedly working on iPhone game controllers",
-        "link": "https://www.theverge.com/tech/994426/apple-iphone-game-controllers",
-        "summary": "Bloomberg's Mark Gurman says Apple is developing two game controllers for the iPhone and will likely sell them under the Beats brand. Rumors that Apple might enter the game control...",
+        "title": "Apple releases iOS 27 with Siri AI overhaul",
+        "link": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
+        "summary": "The iOS 27 update arrives just in time for the iPhone 18 Pro release. | Photo by Allison Johnson / The Verge\t\n\nApple is now rolling out its iOS 27 update to compatible devices toda...",
         "source": "The Verge",
-        "pubDate": 1789324216000
+        "pubDate": 1789405729000
       },
       {
-        "title": "The Units’ Digital Stimulation is synthpunk perfection",
-        "link": "https://www.theverge.com/entertainment/994415/the-units-digital-stimulation-synthpunk-review",
-        "summary": "The Units are a band I discovered in part thanks to No Dogs in Space. During their miniseries on The Screamers (another incredible band worth checking out), they mention synthpunk....",
-        "source": "The Verge",
-        "pubDate": 1789320970000
-      },
-      {
-        "title": "Waymo pulls over, calls cops on riders with a ghost gun",
-        "link": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun",
-        "summary": "Two people were arrested in San Fransico while riding around in a Waymo robotaxi after the cab pulled over and called the cops on them. The riders were juveniles in possession of a...",
-        "source": "The Verge",
-        "pubDate": 1789309692000
+        "title": "Steam Frame: The Ars Technica review",
+        "link": "https://arstechnica.com/gaming/2026/09/steam-frame-the-ars-technica-review/",
+        "summary": "Valve's new $1,049 VR hardware tries to revive an abandoned VR \"revolution.\"",
+        "source": "Ars Technica - All content",
+        "pubDate": 1789405207000
       }
     ],
     "finance": [
       {
-        "title": "AI warnings by Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman could hammer this momentum stock",
-        "link": "https://finance.yahoo.com/markets/stocks/article/ai-warnings-by-anthropic-ceo-dario-amodei-and-openai-ceo-sam-altman-could-hammer-this-momentum-stock-101518585.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789380918000
-      },
-      {
-        "title": "‘I still don’t have my MRI’: My health insurer canceled my plan without warning. Is that legal?",
-        "link": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
-        "summary": "“It wasn’t an ACA plan, but it was meaningfully cheaper than anything I could find on the ACA exchange.”",
+        "title": "AI doomsday fears are arriving at the worst possible time for the stock market",
+        "link": "https://www.marketwatch.com/story/ai-doomsday-fears-are-arriving-at-the-worst-possible-time-for-the-stock-market-75c4ad53?mod=mw_rss_topstories",
+        "summary": "The latest cracks in the AI trade are emerging at a particularly troubling time for investors.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789380900000
+        "pubDate": 1789410000000
       },
       {
-        "title": "How luxury brands are redesigning packaging for sustainability",
-        "link": "https://finance.yahoo.com/media-advertising/articles/luxury-brands-redesigning-packaging-sustainability-101346329.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789380826000
+        "title": "10-year Treasury yield eases back from crucial 5% level despite concerns about AI and the surge in oil prices",
+        "link": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
+        "summary": "The benchmark 10-year Treasury yield briefly touched the crucial 5% threshold on Monday, but it then pulled back.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789409640000
       },
       {
-        "title": "Analysis-Bitcoin's late summer rally set to face off against the Fed, Congress",
-        "link": "https://finance.yahoo.com/news/analysis-bitcoins-summer-rally-set-100329922.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789380305000
+        "title": "AI companies say they want to slow down. Here’s how Washington might help apply the brakes.",
+        "link": "https://www.marketwatch.com/story/ai-companies-say-they-want-to-slow-down-heres-how-washington-might-help-apply-the-brakes-7db9dabb?mod=mw_rss_topstories",
+        "summary": "Washington is likely to move slowly, but there are catalysts that could make it act faster than expected",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789409280000
       },
       {
-        "title": "He Retired With No Paycheck and Planned His Roth Conversion Around an Empty Tax Bracket. In December, His Mutual Funds Filled It.",
-        "link": "https://finance.yahoo.com/markets/options/articles/retired-no-paycheck-planned-roth-100228385.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789380148000
+        "title": "Inflation is sinking your high-yield savings account’s returns. Here’s one way to fight it.",
+        "link": "https://www.marketwatch.com/story/inflation-is-sinking-your-high-yield-savings-accounts-returns-heres-one-way-to-fight-it-6aa798e9?mod=mw_rss_topstories",
+        "summary": "4% APYs sound good. Too bad inflation is taking a bigger bite out of those yields now.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789407960000
+      },
+      {
+        "title": "Why the Social Security COLA is much ado about nothing",
+        "link": "https://www.marketwatch.com/story/why-the-social-security-cola-is-much-ado-about-nothing-cf9b90d4?mod=mw_rss_topstories",
+        "summary": "Social Security benefits will be largely stable in real terms.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789407360000
       }
     ],
     "business": [
+      {
+        "title": "Government set to nationalise troubled steel firm",
+        "link": "https://www.bbc.co.uk/news/articles/cm9w47ngje9no?at_medium=RSS&at_campaign=rss",
+        "summary": "Production at SSUK sites in South Yorkshire and the West Midlands was paused earlier this year.",
+        "source": "BBC News",
+        "pubDate": 1789405103000
+      },
+      {
+        "title": "'Culture shift' needed in how UK does business, PM urges",
+        "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+        "summary": "Burnham says those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
+        "source": "BBC News",
+        "pubDate": 1789395775000
+      },
+      {
+        "title": "Petrol and diesel prices hit highest since 2022",
+        "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The cost of filling up a vehicle has rebounded, according to the RAC, as oil prices remain elevated.",
+        "source": "BBC News",
+        "pubDate": 1789386172000
+      },
       {
         "title": "Heading off to uni? Here's what to insure against theft",
         "link": "https://www.bbc.co.uk/news/articles/czezwd6xw0zo?at_medium=RSS&at_campaign=rss",
@@ -89,64 +110,43 @@
         "summary": "Existing laws are not equipped to address the risks to human rights being posed by artificial intelligence, UK politicians say.",
         "source": "BBC News",
         "pubDate": 1789373228000
-      },
-      {
-        "title": "'Culture shift' needed in how UK does business, PM urges",
-        "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
-        "summary": "Burnham has said those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
-        "source": "BBC News",
-        "pubDate": 1789371583000
-      },
-      {
-        "title": "Food redistribution warehouse opens in east London",
-        "link": "https://www.bbc.co.uk/news/articles/c87vywld028o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Big Heart Food Hub in Barking aims to deliver 10 tonnes of food to charities each week.",
-        "source": "BBC News",
-        "pubDate": 1789361814000
-      },
-      {
-        "title": "Amazon pauses work with cargo firm after fatal crash",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zg554w9ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The 21 Air-operated jet overshot a runway at Miami International Airport and hit several vehicles.",
-        "source": "BBC News",
-        "pubDate": 1789353606000
       }
     ],
     "world": [
       {
-        "title": "Landmark Vote Held in Restive Muslim Autonomous Region in the Philippines",
-        "link": "https://www.nytimes.com/2026/09/14/world/asia/muslim-mindanao-philippines-election.html",
-        "summary": "The election, in an area long known for violent separatists, was marred by a shootout that killed three, officials said.",
+        "title": "‘NAZA,’ Israeli Film About Killings in Gaza, Faces Backlash",
+        "link": "https://www.nytimes.com/2026/09/14/world/middleeast/israel-naza-documentary-backlash.html",
+        "summary": "The film “NAZA” investigates the killing of Palestinians by Israeli forces in Gaza. Israel’s culture minister has suggested revoking the directors’ citizenship.",
         "source": "NYT > World News",
-        "pubDate": 1789380206000
+        "pubDate": 1789409226000
       },
       {
-        "title": "The New Moscow: A Digital Utopia Doubling as a Surveillance Trap",
-        "link": "https://www.nytimes.com/2026/09/14/world/europe/moscow-russia-putin-digital-surveillance.html",
-        "summary": "Cutting-edge technologies have reshaped the Russian capital, making it safer, more convenient — and more closely watched.",
+        "title": "Saudi Leader Meets U.S. Commander as Houthi Attacks Threaten Oil Markets",
+        "link": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-leader-meets-centcom.html",
+        "summary": "Crown Prince Mohammed bin Salman asked the United States for more U.S. military help last week after the Iranian-backed Houthi forces in Yemen launched a broad offensive.",
         "source": "NYT > World News",
-        "pubDate": 1789377963000
+        "pubDate": 1789408828000
       },
       {
-        "title": "More Than 120 Are Unaccounted For After Ferry Sinks in Indonesia",
-        "link": "https://www.nytimes.com/2026/09/14/world/asia/indonesia-ferry-rescue-borneo.html",
-        "summary": "At least six people were killed and more than 100 rescued after the vessel sank in the Java Sea on Sunday, the authorities said.",
+        "title": "Syrians Protest as Surge in Fuel Prices Adds to Cost-of-Living Crisis",
+        "link": "https://www.nytimes.com/2026/09/14/world/middleeast/syrians-protest-fuel-price-rises.html",
+        "summary": "The government’s decision to increase prices by as much as 40 percent spurred widespread demonstrations across the country.",
         "source": "NYT > World News",
-        "pubDate": 1789376861000
+        "pubDate": 1789408366000
       },
       {
-        "title": "Why Scandals Don’t Bring Down Politicians Anymore",
-        "link": "https://www.nytimes.com/2026/09/14/world/scandal-shame-politics-polarization.html",
-        "summary": "It’s about more than just shamelessness.",
+        "title": "How One Man’s Quest for a Musketeer’s Bones Got Him Locked Up",
+        "link": "https://www.nytimes.com/2026/09/13/world/europe/wim-dijkman-musketeer-bones-dartagnan.html",
+        "summary": "A secret archaeological dig inside a Dutch church has led to drama worthy of Alexandre Dumas. Did Wim Dijkman really find the bones of the fourth musketeer? We may never know.",
         "source": "NYT > World News",
-        "pubDate": 1789376853000
+        "pubDate": 1789407926000
       },
       {
-        "title": "Is A.I. Raising the Chances of Biological Warfare?",
+        "title": "A.I. Queries From Abroad Raise Fears of a Biological Weapons Race",
         "link": "https://www.nytimes.com/2026/09/14/science/ai-bioweapons.html",
-        "summary": "Current chatbots aren’t likely to help lone actors invent a deadly pathogen, experts say. But newer models, trained in biology, may need stronger safeguards.",
+        "summary": "Today’s chatbots aren’t likely to help lone actors invent a deadly pathogen, experts say. But newer models, trained in biology, may need stronger safeguards.",
         "source": "NYT > World News",
-        "pubDate": 1789376573000
+        "pubDate": 1789407585000
       }
     ]
   }
