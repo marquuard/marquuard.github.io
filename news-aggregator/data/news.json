@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-09-13T22:52:40.868Z",
+  "lastUpdated": "2026-09-14T10:19:29.730Z",
   "categories": {
     "technology": [
+      {
+        "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+        "link": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
+        "summary": "The 40-year-old unvaccinated woman reportedly had underlying health conditions.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1789336612000
+      },
       {
         "title": "Trump and Mike Johnson think the AI industry is overreacting",
         "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
@@ -29,124 +36,117 @@
         "summary": "Two people were arrested in San Fransico while riding around in a Waymo robotaxi after the cab pulled over and called the cops on them. The riders were juveniles in possession of a...",
         "source": "The Verge",
         "pubDate": 1789309692000
-      },
-      {
-        "title": "Your Mother Your Mother Your Mother will make you forget all about Marvel’s Blade disaster",
-        "link": "https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026",
-        "summary": "Marvel's mishandling of its Blade reboot will likely go down as one of the studio's biggest mistakes. There was a great actor in place to play the vampire hunter (Mahershala Ali), ...",
-        "source": "The Verge",
-        "pubDate": 1789304400000
       }
     ],
     "finance": [
       {
-        "title": "Can a $780,000 Portfolio Really Pay $4,750 a Month Without Touching Principal?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/780-000-portfolio-really-pay-224333678.html",
+        "title": "AI warnings by Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman could hammer this momentum stock",
+        "link": "https://finance.yahoo.com/markets/stocks/article/ai-warnings-by-anthropic-ceo-dario-amodei-and-openai-ceo-sam-altman-could-hammer-this-momentum-stock-101518585.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789339413000
+        "pubDate": 1789380918000
       },
       {
-        "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789338912000
+        "title": "‘I still don’t have my MRI’: My health insurer canceled my plan without warning. Is that legal?",
+        "link": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
+        "summary": "“It wasn’t an ACA plan, but it was meaningfully cheaper than anything I could find on the ACA exchange.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789380900000
       },
       {
-        "title": "Berkshire Hathaway Stock Is Trailing the S&P 500 by About 10 Points This Year. History Says That Usually Doesn't Last.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-stock-trailing-p-223401074.html",
+        "title": "How luxury brands are redesigning packaging for sustainability",
+        "link": "https://finance.yahoo.com/media-advertising/articles/luxury-brands-redesigning-packaging-sustainability-101346329.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789338841000
+        "pubDate": 1789380826000
       },
       {
-        "title": "Ray Dalio Says Interest Costs Are Crowding Out Everything Else—Here’s His Three-Year Warning",
-        "link": "https://finance.yahoo.com/economy/policy/articles/ray-dalio-says-interest-costs-222107955.html",
+        "title": "Analysis-Bitcoin's late summer rally set to face off against the Fed, Congress",
+        "link": "https://finance.yahoo.com/news/analysis-bitcoins-summer-rally-set-100329922.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789338067000
+        "pubDate": 1789380305000
       },
       {
-        "title": "I’m 61 Years Old With $200,000 Saved for Retirement. What’s My Game Plan?",
-        "link": "https://finance.yahoo.com/news/m-61-years-old-200-171222070.html",
+        "title": "He Retired With No Paycheck and Planned His Roth Conversion Around an Empty Tax Bracket. In December, His Mutual Funds Filled It.",
+        "link": "https://finance.yahoo.com/markets/options/articles/retired-no-paycheck-planned-roth-100228385.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789338013000
+        "pubDate": 1789380148000
       }
     ],
     "business": [
+      {
+        "title": "Heading off to uni? Here's what to insure against theft",
+        "link": "https://www.bbc.co.uk/news/articles/czezwd6xw0zo?at_medium=RSS&at_campaign=rss",
+        "summary": "What should new students consider to keep your belongings safe and covered by insurance?",
+        "source": "BBC News",
+        "pubDate": 1789373636000
+      },
+      {
+        "title": "MPs and Lords call for new law to address AI threat to human rights",
+        "link": "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Existing laws are not equipped to address the risks to human rights being posed by artificial intelligence, UK politicians say.",
+        "source": "BBC News",
+        "pubDate": 1789373228000
+      },
       {
         "title": "'Culture shift' needed in how UK does business, PM urges",
         "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
         "summary": "Burnham has said those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
         "source": "BBC News",
-        "pubDate": 1789335021000
+        "pubDate": 1789371583000
       },
       {
-        "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-        "link": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
-        "summary": "Whiskey distilled in the Republic of Ireland faces the standard 15% tariff which applies to EU goods entering the US.",
+        "title": "Food redistribution warehouse opens in east London",
+        "link": "https://www.bbc.co.uk/news/articles/c87vywld028o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Big Heart Food Hub in Barking aims to deliver 10 tonnes of food to charities each week.",
         "source": "BBC News",
-        "pubDate": 1789328076000
+        "pubDate": 1789361814000
       },
       {
-        "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
-        "link": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
-        "summary": "It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
+        "title": "Amazon pauses work with cargo firm after fatal crash",
+        "link": "https://www.bbc.co.uk/news/articles/cx2zg554w9ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The 21 Air-operated jet overshot a runway at Miami International Airport and hit several vehicles.",
         "source": "BBC News",
-        "pubDate": 1789311220000
-      },
-      {
-        "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
-        "link": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
-        "summary": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
-        "source": "BBC News",
-        "pubDate": 1789290310000
-      },
-      {
-        "title": "'It's cost upon cost for working families - they get no help'",
-        "link": "https://www.bbc.co.uk/news/articles/c158l7zz5n5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The government needs to do more to support working families, a charity in Rotherham says.",
-        "source": "BBC News",
-        "pubDate": 1789279756000
+        "pubDate": 1789353606000
       }
     ],
     "world": [
       {
-        "title": "Swedish party blocs tied after Sunday vote, projections say",
-        "link": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
-        "summary": "A partial count by Sweden's election authority projected that left-wing opposition bloc would win a one-seat majority.",
-        "source": "BBC News",
-        "pubDate": 1789338474000
+        "title": "Landmark Vote Held in Restive Muslim Autonomous Region in the Philippines",
+        "link": "https://www.nytimes.com/2026/09/14/world/asia/muslim-mindanao-philippines-election.html",
+        "summary": "The election, in an area long known for violent separatists, was marred by a shootout that killed three, officials said.",
+        "source": "NYT > World News",
+        "pubDate": 1789380206000
       },
       {
-        "title": "Russian Strikes on Ukraine Hits Near David Petraeus, ex-C.I.A. Chief",
-        "link": "https://www.nytimes.com/2026/09/13/world/europe/ukraine-petraeus-russian-strike.html",
-        "summary": "David Petraeus was at a rail station when a drone hit. Another train, with former Prime Minister Boris Johnson of Britain and other dignitaries, had just left, Ukrainian officials ...",
+        "title": "The New Moscow: A Digital Utopia Doubling as a Surveillance Trap",
+        "link": "https://www.nytimes.com/2026/09/14/world/europe/moscow-russia-putin-digital-surveillance.html",
+        "summary": "Cutting-edge technologies have reshaped the Russian capital, making it safer, more convenient — and more closely watched.",
         "source": "NYT > World News",
-        "pubDate": 1789335288000
+        "pubDate": 1789377963000
       },
       {
-        "title": "Meeting Between Iran, Arab States Postponed as Mideast Diplomacy Stalls",
-        "link": "https://www.nytimes.com/2026/09/13/world/middleeast/iran-meeting-gulf-arab-states.html",
-        "summary": "Talks between the United States and Iran hit a dead end weeks ago, leaving Arab countries struggling to manage their ties to Tehran amid ongoing attacks.",
+        "title": "More Than 120 Are Unaccounted For After Ferry Sinks in Indonesia",
+        "link": "https://www.nytimes.com/2026/09/14/world/asia/indonesia-ferry-rescue-borneo.html",
+        "summary": "At least six people were killed and more than 100 rescued after the vessel sank in the Java Sea on Sunday, the authorities said.",
         "source": "NYT > World News",
-        "pubDate": 1789333097000
+        "pubDate": 1789376861000
       },
       {
-        "title": "Trump’s Supercharged Social Media",
-        "link": "https://www.nytimes.com/2026/09/13/world/trump-ai-social-media-celine-dion.html",
-        "summary": "The president’s A.I. post barrages, far more intense than during his first term, are redefining the presidency and driving a debate over his state of mind.",
+        "title": "Why Scandals Don’t Bring Down Politicians Anymore",
+        "link": "https://www.nytimes.com/2026/09/14/world/scandal-shame-politics-polarization.html",
+        "summary": "It’s about more than just shamelessness.",
         "source": "NYT > World News",
-        "pubDate": 1789332509000
+        "pubDate": 1789376853000
       },
       {
-        "title": "King Charles Will Convene A.I. Leaders Amid Calls to Slow Development",
-        "link": "https://www.nytimes.com/2026/09/13/world/europe/king-charles-ai-meeting.html",
-        "summary": "As alarm from the highest echelons of A.I. companies mounts, Buckingham Palace said the king would meet with executives to explore how the technology can be used for good.",
+        "title": "Is A.I. Raising the Chances of Biological Warfare?",
+        "link": "https://www.nytimes.com/2026/09/14/science/ai-bioweapons.html",
+        "summary": "Current chatbots aren’t likely to help lone actors invent a deadly pathogen, experts say. But newer models, trained in biology, may need stronger safeguards.",
         "source": "NYT > World News",
-        "pubDate": 1789331027000
+        "pubDate": 1789376573000
       }
     ]
   }
