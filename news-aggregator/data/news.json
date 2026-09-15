@@ -1,87 +1,94 @@
 {
-  "lastUpdated": "2026-09-15T09:46:47.114Z",
+  "lastUpdated": "2026-09-15T17:28:33.819Z",
   "categories": {
     "technology": [
       {
-        "title": "Microsoft issues emergency Windows 11 update to fix its record-breaking patch",
-        "link": "https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues",
-        "summary": "Microsoft has started rolling out an emergency out-of-band update to fix problems with its record-breaking September patch Tuesday update. The software giant patched nearly 1,000 f...",
+        "title": "How The Oregon Trail became a generational icon",
+        "link": "https://www.theverge.com/podcast/995432/how-the-oregon-trail-became-a-generational-icon",
+        "summary": "Whether you played it in the back of your classroom or on your computer at home, if you were a kid in the last 30 years you almost certainly grew up playing The Oregon Trail.\nOn th...",
         "source": "The Verge",
-        "pubDate": 1789462488000
+        "pubDate": 1789489090000
       },
       {
-        "title": "Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh",
-        "link": "https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/",
-        "summary": "The refreshed Volvos also get new infotainment systems with Gemini onboard.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789455630000
-      },
-      {
-        "title": "Volvo’s plug-in hybrid XC60 and XC90 can really go the distance",
-        "link": "https://www.theverge.com/transportation/994792/volvo-xc60-xc90-phev-longest-electric-range",
-        "summary": "Most plug-in hybrid electric vehicles (PHEV) today get an average of around 30-50 miles of battery-only range: decent, but not mind-blowing. With hybrid sales dominating the market...",
+        "title": "Vintage Violence is an absurdist crime thriller for phone addicts",
+        "link": "https://www.theverge.com/entertainment/995472/tiff-2026-vintage-violence-the-devils-gentle-monster",
+        "summary": "There are a lot of movies that have tried to seamlessly integrate modern tech - text messages, livestreams, etc. - into their storytelling. Some of the most novel attempts have bee...",
         "source": "The Verge",
-        "pubDate": 1789455600000
+        "pubDate": 1789488000000
       },
       {
-        "title": "For the first time, the US military confirms it has deployed weapons in orbit",
-        "link": "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
-        "summary": "\"The United States now has on-orbit space control weapons capable of defending the joint force.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789444056000
-      },
-      {
-        "title": "Valve is still figuring out ‘how and when’ to do Steam Deck 2",
-        "link": "https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when",
-        "summary": "Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today's Steam Frame - are we any closer to a next-gen Steam Deck ...",
+        "title": "Now Light’s minimalist phone can easily call an Uber",
+        "link": "https://www.theverge.com/gadgets/995449/light-phone-uber-lyft-rideshare-app",
+        "summary": "More than a decade after its Kickstarter proposed a \"cell phone designed to be used as little as possible,\" Light is adding a direct connection to Uber and Lyft with a new Rideshar...",
         "source": "The Verge",
-        "pubDate": 1789431227000
+        "pubDate": 1789484400000
+      },
+      {
+        "title": "Meta&#8217;s new One subscriptions put a price on social media and AI",
+        "link": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
+        "summary": "Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the n...",
+        "source": "The Verge",
+        "pubDate": 1789484400000
+      },
+      {
+        "title": "Fujifilm’s Instax Pal 2 is a tiny digital camera that may not disappoint",
+        "link": "https://www.theverge.com/tech/995399/fujifilm-instax-pal-2-digital-camera-wireless-autofocus-face-detection",
+        "summary": "Fujifilm announced a follow-up to its tiny and quirky Instax Pal camera that debuted three years ago bundled with an instant printer. While the original Pal was a palm-sized camera...",
+        "source": "The Verge",
+        "pubDate": 1789480998000
       }
     ],
     "finance": [
       {
-        "title": "What a $10,000 Investment in Amazon Now Would Be Worth if Its Anthropic Stake Gets Marked at $2 Trillion",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/10-000-investment-amazon-now-094000078.html",
+        "title": "Jim Cramer Validates Caller’s $1,400 Micron (MU) Thesis, Doubles Down on Charitable Trust Position",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-validates-caller-1-172138438.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789465200000
+        "pubDate": 1789492898000
       },
       {
-        "title": "Ameresco’s (AMRC) Data Center Boom Masks A Cash Flow Problem",
-        "link": "https://finance.yahoo.com/energy/articles/ameresco-amrc-data-center-boom-093716882.html",
+        "title": "Oil prices surge past $108 as Saudi pipeline shutdown continues",
+        "link": "https://finance.yahoo.com/energy/articles/oil-prices-surge-past-108-171815703.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789465036000
+        "pubDate": 1789492695000
       },
       {
-        "title": "Jim Cramer Says Lululemon (LULU) is in “No Man’s Land” After Another Brutal Quarter",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-lululemon-lulu-093702668.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789465022000
+        "title": "AI stocks are rebounding. One analyst says there’s no spending slowdown in sight.",
+        "link": "https://www.marketwatch.com/story/ai-stocks-are-rebounding-one-analyst-says-theres-no-spending-slowdown-in-sight-8fd99c4b?mod=mw_rss_topstories",
+        "summary": "Customers are signing multiyear deals for chips and more: “That’s not what the front end of a downturn looks like.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789492680000
       },
       {
-        "title": "Wall Street Expects Bad News From the Federal Reserve This Week. History Says a Stock Market Correction May Follow.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-expects-bad-news-093201393.html",
+        "title": "What American Eagle’s (AEO) Q2 Numbers Say Beyond the Tariff Refund Boost",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/american-eagle-aeo-q2-numbers-171745773.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789464721000
+        "pubDate": 1789492665000
       },
       {
-        "title": "US Stock Futures Fall Ahead of Fed Meeting as Oil and Treasury Yields Rise: Dow Jones, S&P, Nasdaq, Wall Street",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-ahead-092943720.html",
+        "title": "IBD Stock Of The Day Scorpio Tankers Sails Toward Buy Point As Oil-Needy World Seeks Its Services",
+        "link": "https://www.investors.com/research/ibd-stock-of-the-day/scorpio-tankers-stock-buy-point/?src=A00220&yptr=yahoo",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789464583000
+        "pubDate": 1789492644000
       }
     ],
     "business": [
+      {
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/09/15/business/bessent-testify/heres-the-latest",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1789491814000
+      },
       {
         "title": "State pension likely to top £13,000 a year as UK wage growth slows to 3.9%",
         "link": "https://www.bbc.co.uk/news/articles/c2l8v7l0djqo?at_medium=RSS&at_campaign=rss",
         "summary": "The rise has reignited the debate about the state pension's long-term affordability and generational fairness.",
         "source": "BBC News",
-        "pubDate": 1789462299000
+        "pubDate": 1789470342000
       },
       {
         "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
@@ -103,13 +110,6 @@
         "summary": "The cuts comes into effect in April, but the largest businesses will pay higher rates to fund the changes.",
         "source": "BBC News",
         "pubDate": 1789449188000
-      },
-      {
-        "title": "Charities praise will gifts despite cost of living",
-        "link": "https://www.bbc.co.uk/news/articles/cj9xerk9v2po?at_medium=RSS&at_campaign=rss",
-        "summary": "Jersey charities say leaving donations in wills can be \"transformational\", regardless of how much.",
-        "source": "BBC News",
-        "pubDate": 1789448627000
       }
     ],
     "world": [
@@ -118,35 +118,35 @@
         "link": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss",
         "summary": "Trains were cancelled or delayed on Tuesday after objects were found on tracks at multiple locations.",
         "source": "BBC News",
-        "pubDate": 1789465020000
-      },
-      {
-        "title": "It’s Boom Time in Kyrgyzstan, Courtesy in Part of the War in Ukraine",
-        "link": "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
-        "summary": "The economy of the Central Asian nation grew by 11 percent last year, partly by becoming a key conduit for goods flowing into Russia.",
-        "source": "NYT > World News",
-        "pubDate": 1789463609000
-      },
-      {
-        "title": "Nato jets down drone that entered Lithuanian airspace",
-        "link": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The origin of the drone is currently unknown, but authorities say it likely entered Lithuania from neighbouring Belarus, an ally of Russia.",
-        "source": "BBC News",
-        "pubDate": 1789463255000
+        "pubDate": 1789491304000
       },
       {
         "title": "Carney Pitches Canada as a Haven of Investment Stability in a Chaotic World",
         "link": "https://www.nytimes.com/2026/09/15/world/canada/carney-pitches-canada-as-a-stable-investment-in-a-chaotic-world.html",
-        "summary": "The prime minister brought together about 100 money managers in Toronto to promote Canada as the ideal place for their investments.",
+        "summary": "Prime Minister Mark Carney brought together in Toronto about 100 money managers overseeing much of the world’s wealth to promote Canada as an ideal place to invest.",
         "source": "NYT > World News",
-        "pubDate": 1789463044000
+        "pubDate": 1789489944000
       },
       {
-        "title": "Kyrgyzstan Is Russia’s Trading Loophole",
-        "link": "https://www.nytimes.com/video/world/asia/100000011077350/kyrgyzstan-is-russias-trading-loophole.html",
-        "summary": "Kyrgyzstan has turned into a crucial middleman for Russia to import goods from China since the start of the Ukraine war. Paul Sonne, our Moscow bureau chief, traveled to Kyrgyzstan...",
+        "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+        "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
+        "source": "BBC News",
+        "pubDate": 1789488821000
+      },
+      {
+        "title": "Ed Sheeran says it was 'not my decision' to drop Macklemore from tour",
+        "link": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The star says tour promoters took the decision, after Macklemore made pro-Palestinian statements on stage.",
+        "source": "BBC News",
+        "pubDate": 1789488114000
+      },
+      {
+        "title": "Lucy Letby Murder Inquiry Says Some Babies’ Deaths Were Avoidable",
+        "link": "https://www.nytimes.com/2026/09/15/world/europe/lucy-letby-murder-inquiry.html",
+        "summary": "While significant questions remain about the evidence used to convict a British nurse of murdering seven babies, a report predicated on her guilt was released on Tuesday.",
         "source": "NYT > World News",
-        "pubDate": 1789462834000
+        "pubDate": 1789486435000
       }
     ]
   }
