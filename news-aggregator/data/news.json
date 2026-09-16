@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-09-15T23:24:11.400Z",
+  "lastUpdated": "2026-09-16T09:40:47.640Z",
   "categories": {
     "technology": [
       {
-        "title": "Microsoft announces Windows and Surface event for October 7th",
-        "link": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco",
-        "summary": "It's been more than two years since the last major Windows event, so Microsoft is heading to San Francisco next month to outline the future of Windows and Surface devices. At an ev...",
+        "title": "Meta is reportedly ready to launch less pervy smart glasses",
+        "link": "https://www.theverge.com/tech/996138/meta-luna-ray-ban-smart-glasses-camera-free-connect",
+        "summary": "Meta may be ready to reveal a new pair of smart glasses with no camera at all, amid a PR crisis for the company caused by the video recording capabilities of its flagship smart gla...",
         "source": "The Verge",
-        "pubDate": 1789504619000
+        "pubDate": 1789548886000
       },
       {
-        "title": "What if social media isn’t hurting kids?",
-        "link": "https://www.theverge.com/policy/995704/peter-gray-restoring-childhood-jonathan-haidt",
-        "summary": "Two years ago, social psychologist Jonathan Haidt released his New York Times bestseller The Anxious Generation. The book posits that the rise of social media and smartphone use is...",
-        "source": "The Verge",
-        "pubDate": 1789503210000
-      },
-      {
-        "title": "18-year-old dies of measles in PA from severe neurological complication",
-        "link": "https://arstechnica.com/health/2026/09/measles-kills-18-year-old-in-pa-fourth-death-as-state-outbreak-nears-700-cases/",
-        "summary": "Teen developed acute disseminated encephalomyelitis, a known measles complication.",
+        "title": "How chimps teach their kids tool tricks",
+        "link": "https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/",
+        "summary": "Adults first demonstrate tool use, then hand over the implements to their infants, who copy the behavior.",
         "source": "Ars Technica - All content",
-        "pubDate": 1789498689000
+        "pubDate": 1789531239000
       },
       {
-        "title": "SpaceX declares Starship ready for orbit, sets launch date next week",
-        "link": "https://arstechnica.com/space/2026/09/spacex-sets-launch-date-for-first-starship-orbital-flight/",
-        "summary": "Reaching orbit would mark a significant milestone.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789498088000
-      },
-      {
-        "title": "Kia’s electric van lineup is getting more interesting with reveal of PV7",
-        "link": "https://www.theverge.com/transportation/995608/kia-pv7-electric-van-specs-sale",
-        "summary": "You may not know it, but minivans are making a comeback in the US. Look around, and you'll start to notice an uptick in these breadboxes on wheels. Sales were up 21 percent in 2025...",
+        "title": "The Boox Palma 3 gets stylus support and a sleek redesign",
+        "link": "https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16",
+        "summary": "Nearly two years after the last update to Boox's smartphone-sized black-and-white e-reader, the company announced the Palma 3 with a sleek redesign, new functionality, and a handfu...",
         "source": "The Verge",
-        "pubDate": 1789497584000
+        "pubDate": 1789524000000
+      },
+      {
+        "title": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
+        "link": "https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability",
+        "summary": "Canon announced the second-generation of its EOS R8 with a new retro-inspired redesign and the addition of in-body stabilization. That feature was one of the most notable omissions...",
+        "source": "The Verge",
+        "pubDate": 1789520400000
+      },
+      {
+        "title": "AI and data centers are incredibly unpopular in every poll",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+        "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incr...",
+        "source": "The Verge",
+        "pubDate": 1789515265000
       }
     ],
     "finance": [
+      {
+        "title": "This BlackRock strategist opposes a Fed hike. Here are the funds she recommends.",
+        "link": "https://www.marketwatch.com/story/this-blackrock-strategist-opposes-a-fed-hike-here-are-the-funds-she-recommends-36a3b981?mod=mw_rss_topstories",
+        "summary": "Gargi Pal Chaudhuri, of BlackRock, recommends investors stay invested in the artificial-intelligence sector but broaden into themes like quality and healthcare.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789551240000
+      },
+      {
+        "title": "‘I am drowning in debt’: I have $125,000 in credit-card debt. Will $9,000 in disability income affect my bankruptcy?",
+        "link": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
+        "summary": "“I racked up this debt to cover my living expenses for two years without an income stream.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789550100000
+      },
+      {
+        "title": "What history says about longer-term bond yields after the first Fed hike",
+        "link": "https://www.marketwatch.com/story/what-history-says-about-longer-term-bond-yields-after-the-first-fed-hike-53eaae9f?mod=mw_rss_topstories",
+        "summary": "If the Federal Reserve hikes interest rates in an effort to slow down the rapid rise in longer-term yields, history shows it probably won’t be a success.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789549860000
+      },
+      {
+        "title": "What Altman, Amodei, Huang and Zuckerberg are saying about the raging AI debate",
+        "link": "https://www.marketwatch.com/story/what-altman-amodei-huang-and-zuckerberg-are-saying-about-the-raging-ai-debate-afaae83b?mod=mw_rss_topstories",
+        "summary": "A product conference at software giant Salesforce turned into the battleground on the new debate on whether there should be a slowdown in artificial intelligence.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789547160000
+      },
       {
         "title": "Medicare is using AI to approve claims. The result has been ‘alarmingly high denial rates.’",
         "link": "https://www.marketwatch.com/story/medicare-is-using-ai-to-approve-claims-the-result-has-been-alarmingly-high-denial-rates-db87d902?mod=mw_rss_topstories",
         "summary": "A pilot program using artificial intelligence to approve care for Medicare beneficiaries has resulted in high levels of denials and delayed decisions and prompted warnings from a v...",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1789513740000
-      },
-      {
-        "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
-        "link": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
-        "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789510500000
-      },
-      {
-        "title": "‘There might be a silver lining’: My friend’s wife died at 60 after a high-earning career. Can he claim her Social Security?",
-        "link": "https://www.marketwatch.com/story/there-might-be-a-silver-lining-my-friends-wife-died-at-60-after-a-high-earning-career-can-he-claim-her-social-security-eb95210a?mod=mw_rss_topstories",
-        "summary": "“They had been married for over 30 years when she passed.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789509600000
-      },
-      {
-        "title": "These 4 stocks could benefit most from a $3.2 trillion semiconductor opportunity",
-        "link": "https://www.marketwatch.com/story/these-four-stocks-could-benefit-most-from-a-3-2-trillion-semiconductor-opportunity-e6bf58b4?mod=mw_rss_topstories",
-        "summary": "A BofA analyst expects the semiconductor market to reach $3.2 trillion by the end of the decade, shrugging off fears of an AI slowdown.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789508400000
-      },
-      {
-        "title": "How the Iran war is transforming the relationship between stocks, bonds and oil",
-        "link": "https://www.marketwatch.com/story/2-charts-showing-how-oil-is-becoming-the-global-markets-biggest-wild-card-ec273da8?mod=mw_rss_topstories",
-        "summary": "Oil is increasingly calling the tune in global markets as rising energy prices make investors nervous.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789508040000
       }
     ],
     "business": [
       {
-        "title": "The extreme engineering of aircraft windows",
-        "link": "https://www.bbc.co.uk/news/articles/c0lr69zeyrwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Few companies have the technology to make aircraft windows which are getting harder to make.",
-        "source": "BBC News",
-        "pubDate": 1789514378000
-      },
-      {
-        "title": "We are all new job starters - here's how we got through the first few days",
-        "link": "https://www.bbc.co.uk/news/articles/cm2qn163053o?at_medium=RSS&at_campaign=rss",
-        "summary": "Four recent job starters share their tips on what helped them have a smooth transition and survive their first few days.",
-        "source": "BBC News",
-        "pubDate": 1789514066000
-      },
-      {
-        "title": "Complaints to watchdog about water firms jump 84%",
-        "link": "https://www.bbc.co.uk/news/articles/cjy5z9l0395ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Many complaints were about affordability, after customers saw steep hikes to bills.",
-        "source": "BBC News",
-        "pubDate": 1789514048000
-      },
-      {
-        "title": "Nvidia boss says AI 'doesn't need new laws' as safety concerns grow",
+        "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
         "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-        "summary": "Jensen Huang's stance on AI safety contrasts with several current and former employees of AI-focused firm",
+        "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
         "source": "BBC News",
-        "pubDate": 1789510390000
+        "pubDate": 1789550173000
       },
       {
-        "title": "Bessent Defends Faltering Bond Market Intervention",
-        "link": "https://www.nytimes.com/2026/09/15/business/economy/scott-bessent-congress.html",
-        "summary": "Testifying before Congress, the Treasury secretary said that he supported giving Americans $5,000 dividends if Republicans win in November.",
+        "title": "What is happening to UK prices?",
+        "link": "https://www.bbc.co.uk/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss",
+        "summary": "UK inflation rose in August, pushed up by higher petrol and diesel prices.",
+        "source": "BBC News",
+        "pubDate": 1789549962000
+      },
+      {
+        "title": "Fed Readies for Momentous Rate Decision",
+        "link": "https://www.nytimes.com/2026/09/16/business/economy/federal-reserve-interest-rates-warsh.html",
+        "summary": "The central bank is widely expected to raise interest rates on Wednesday, less than two months before the midterm elections.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1789507161000
+        "pubDate": 1789549443000
+      },
+      {
+        "title": "Why the Fed Might Raise Interest Rates When Borrowing Costs Are Surging",
+        "link": "https://www.nytimes.com/2026/09/16/business/economy/fed-interest-rates-borrowing-costs.html",
+        "summary": "Elevated interest rates have raised the cost of mortgages and car loans without dampening consumer spending.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1789549390000
+      },
+      {
+        "title": "Petrol and diesel price rises push UK inflation higher ",
+        "link": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+        "source": "BBC News",
+        "pubDate": 1789548557000
       }
     ],
     "world": [
-      {
-        "title": "Data centres and pipelines up for grabs as Carney pitches Canada to investment giants",
-        "link": "https://www.bbc.co.uk/news/articles/cmq8jdgel128o?at_medium=RSS&at_campaign=rss",
-        "summary": "A $1tn sales pitch, more than 160 projects on offer, pivot to the EU amid a bitter trade war with the US  - takeaways from the first Canada Investment Summit.",
-        "source": "BBC News",
-        "pubDate": 1789512380000
-      },
-      {
-        "title": "Houthis Report Deadly Saudi Airstrikes as Kingdom Issues Mass Alerts",
-        "link": "https://www.nytimes.com/2026/09/15/world/middleeast/yemen-saudi-arabia-houthis-attacks.html",
-        "summary": "The two sides traded accusations of attacks as fighting inside Yemen remains fierce. The escalating conflict threatens to further destabilize the Middle East.",
-        "source": "NYT > World News",
-        "pubDate": 1789509335000
-      },
-      {
-        "title": "Israeli Strikes in Gaza Kill Teenager and Civil Defense Worker, Official Says",
-        "link": "https://www.nytimes.com/2026/09/15/world/middleeast/gaza-strikes-israel.html",
-        "summary": "Two Israeli drone strikes hit a residential neighborhood, a civil defense official said. Israel is under international pressure to curtail its attacks.",
-        "source": "NYT > World News",
-        "pubDate": 1789507913000
-      },
-      {
-        "title": "The A.I. Doomsday Skeptics",
-        "link": "https://www.nytimes.com/2026/09/15/world/ai-doomsday-skeptics-sydney-sweeney.html",
-        "summary": "The focus on dystopian scenarios is shifting public discourse from present-day dangers to hypothetical futures, some experts say.",
-        "source": "NYT > World News",
-        "pubDate": 1789506974000
-      },
       {
         "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
         "link": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
         "summary": "The star said he was not responsible for Macklemore being dropped from the line-up after he made pro-Palestinian statements on stage.",
         "source": "BBC News",
-        "pubDate": 1789506433000
+        "pubDate": 1789551414000
+      },
+      {
+        "title": "Trump Bars Some South Africans Over Claims of Anti-White Discrimination",
+        "link": "https://www.nytimes.com/2026/09/16/world/africa/trump-visas-south-africa.html",
+        "summary": "Washington says South Africa has not done anything to fix what President Trump sees as discrimination. South Africa’s president has called Mr. Trump’s policies racist.",
+        "source": "NYT > World News",
+        "pubDate": 1789551172000
+      },
+      {
+        "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+        "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+        "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
+        "source": "BBC News",
+        "pubDate": 1789550173000
+      },
+      {
+        "title": "Migrants Fear Discrimination After Far Right Surge in German State",
+        "link": "https://www.nytimes.com/2026/09/16/world/europe/migrants-germany-far-right-afd.html",
+        "summary": "Alternative for Germany, an anti-immigrant party widely known as the AfD, could take power in the state of Saxony-Anhalt, spurring panic among its immigrant population.",
+        "source": "NYT > World News",
+        "pubDate": 1789549569000
+      },
+      {
+        "title": "Canada Could Become the E.U.’s First ‘Associate Member’",
+        "link": "https://www.nytimes.com/2026/09/16/world/europe/eu-canada-associate-member.html",
+        "summary": "Ursula von der Leyen, the president of the bloc’s executive arm, has invited Ottawa closer as both sides look to navigate complicated geopolitical challenges.",
+        "source": "NYT > World News",
+        "pubDate": 1789549466000
       }
     ]
   }
