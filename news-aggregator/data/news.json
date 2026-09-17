@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-09-17T17:28:09.643Z",
+  "lastUpdated": "2026-09-17T23:22:06.451Z",
   "categories": {
     "technology": [
+      {
+        "title": "The AI Superintelligence Slowdown",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+        "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became re...",
+        "source": "The Verge",
+        "pubDate": 1789673304000
+      },
+      {
+        "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+        "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Gr...",
+        "source": "The Verge",
+        "pubDate": 1789671485000
+      },
       {
         "title": "Save $30 or more on a refurbished Apple TV 4K",
         "link": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale",
@@ -22,131 +36,117 @@
         "summary": "Camp Snap is expanding its small collection of screenless digital point-and-shoot cameras with the new pocket-friendly 110D featuring a thin horizontal design first popularized by ...",
         "source": "The Verge",
         "pubDate": 1789657200000
-      },
-      {
-        "title": "Your robotaxi might be a narc",
-        "link": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
-        "summary": "In early September, two teenagers got into a Waymo, but then ended up in the back of a police car. The robotaxi company said it detected \"a violation of our terms of service involv...",
-        "source": "The Verge",
-        "pubDate": 1789657200000
-      },
-      {
-        "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
-        "link": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
-        "summary": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulat...",
-        "source": "The Verge",
-        "pubDate": 1789653600000
       }
     ],
     "finance": [
       {
-        "title": "Stock Market Today: Nasdaq Dwarfs Dow's Gain; This AI Chip Leader Breaks Out To All-Time High (Live Coverage)",
-        "link": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789665447000
-      },
-      {
-        "title": "Why Oracle Stock Jumped 6% Today on OpenAI Funding Buzz",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/why-oracle-stock-jumped-6-171651571.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789665411000
-      },
-      {
-        "title": "Why growth stocks’ surprising strength may be warning of a market bubble",
-        "link": "https://www.marketwatch.com/story/why-growth-stocks-surprising-strength-may-be-warning-of-a-market-bubble-5288a7dc?mod=mw_rss_topstories",
-        "summary": "Yet another warning sign of a stock-market bubble is coming from growth stocks’ surprising strength.",
+        "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+        "link": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+        "summary": "“The higher that yields go — for at least new money — it becomes more enticing to think about putting money into bonds,” one strategist notes.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789665360000
+        "pubDate": 1789680120000
       },
       {
-        "title": "Roundtable Secures 10-Year, $1 Billion Agreement, Bringing its AI/DeFi Media Operating System to Global Scale and Profitability",
-        "link": "https://finance.yahoo.com/technology/ai/articles/roundtable-secures-10-1-billion-171557951.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789665357000
+        "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
+        "link": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
+        "summary": "Investor fears about an AI spending slowdown and the impact of interest-rate hikes are subsiding.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789680120000
       },
       {
-        "title": "Goldman Reversed Its Fed Call Twice in Four Days. What an October Hike Does to Bitcoin and XRP.",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/goldman-reversed-fed-call-twice-171242819.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789665162000
+        "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
+        "link": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
+        "summary": "For six months, investors had a playbook: when Trump threatens Iran, buy the dip, because he always backs down. But in September, the playbook stopped working.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789679340000
+      },
+      {
+        "title": "Tesla’s upcoming product frenzy could leave investors disappointed",
+        "link": "https://www.marketwatch.com/story/teslas-upcoming-product-frenzy-could-leave-investors-disappointed-18619fb3?mod=mw_rss_topstories",
+        "summary": "Slower-than-expected robotaxi progress is still a chief concern, according to experts.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789676580000
+      },
+      {
+        "title": "Pet insurance or savings account: What’s the best way to plan for a big vet bill?",
+        "link": "https://www.marketwatch.com/story/pet-insurance-or-savings-account-whats-the-best-way-to-plan-for-a-big-vet-bill-f9f22f33?mod=mw_rss_topstories",
+        "summary": "You want to make sure your pet can receive the care they need when an emergency happens — but is pet insurance the best way to prepare for that?",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789676340000
       }
     ],
     "business": [
+      {
+        "title": "Early Bowie music available to stream for first time",
+        "link": "https://www.bbc.co.uk/news/articles/cm4gj5z9xvnqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Previously unheard material from the start of the artist's career has been released for the first time.",
+        "source": "BBC News",
+        "pubDate": 1789686063000
+      },
+      {
+        "title": "Why we bought our first home with a 100% mortgage - despite the risks",
+        "link": "https://www.bbc.co.uk/news/articles/cvj64w204y58o?at_medium=RSS&at_campaign=rss",
+        "summary": "The share of UK mortgages with smaller deposits is the highest it's been since 2008. The BBC spoke to borrowers about how they manage the risks.",
+        "source": "BBC News",
+        "pubDate": 1789686053000
+      },
+      {
+        "title": "The virtual worlds where robots are trained",
+        "link": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
+        "source": "BBC News",
+        "pubDate": 1789686047000
+      },
+      {
+        "title": "Councils to share £5m in 'emergency food aid' as living costs rise",
+        "link": "https://www.bbc.co.uk/news/articles/c8dx5gvyle49o?at_medium=RSS&at_campaign=rss",
+        "summary": "The money from the Welsh government will amount to around £200,000 to every council.",
+        "source": "BBC News",
+        "pubDate": 1789682112000
+      },
       {
         "title": "Mixed feelings from consumers as electricity discount to be given to NI households",
         "link": "https://www.bbc.co.uk/news/articles/cjvgy5yqvpy2o?at_medium=RSS&at_campaign=rss",
         "summary": "The one-off £63 reduction in electricity bills will be applied from next month.",
         "source": "BBC News",
         "pubDate": 1789664401000
-      },
-      {
-        "title": "Barclays workers ask for more money to return to the office",
-        "link": "https://www.bbc.co.uk/news/articles/cqlym1n9kpyvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Unite union, which represents 36,000 Barclays staff, calls for a one-off payment to offset increased travel and childcare costs.",
-        "source": "BBC News",
-        "pubDate": 1789654827000
-      },
-      {
-        "title": "Interest rates held but Bank signals rise if energy prices stay high",
-        "link": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
-        "source": "BBC News",
-        "pubDate": 1789653938000
-      },
-      {
-        "title": "Trump’s Latest Threats Loom Over Fed’s Interest Rate Decision",
-        "link": "https://www.nytimes.com/2026/09/16/business/economy/trump-fed-interest-rates.html",
-        "summary": "This month, the president threatened to halt a broad swath of trade if interest rates were not cut, a possibility he resurfaced on Wednesday.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1789652366000
-      },
-      {
-        "title": "Fed Raises Rates in First Major Step by Warsh to Contain Inflation",
-        "link": "https://www.nytimes.com/2026/09/16/business/economy/federal-reserve-interest-rates-warsh.html",
-        "summary": "The Federal Reserve’s first increase to interest rates since July 2023 comes less than two months before the midterm elections.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1789651874000
       }
     ],
     "world": [
       {
-        "title": "Rising Seas Are Gobbling Up Beaches Around the World. A.I. Might Restore Them.",
-        "link": "https://www.nytimes.com/2026/09/16/climate/maldives-beach-restoration-ai.html",
-        "summary": "An experiment with roots at M.I.T. used A.I. and satellite images to grow a coastline in the Maldives. More projects are planned for Boston and Miami.",
+        "title": "Yemen War Intensifies as Houthi Militia Advances on Marib",
+        "link": "https://www.nytimes.com/2026/09/17/world/middleeast/yemen-houthis-marib.html",
+        "summary": "Clashes between Iranian-backed Houthi fighters and Saudi-backed government forces have been reported near oil-rich Marib Province.",
         "source": "NYT > World News",
-        "pubDate": 1789664832000
+        "pubDate": 1789685043000
       },
       {
-        "title": "Man Suspected of Pushing Woman in Front of London Bus Is Found Dead, British News Media Say",
-        "link": "https://www.nytimes.com/2026/09/17/world/europe/putney-pusher-dead-london-jogger-shoved-bus.html",
-        "summary": "Nicholas Brandram, 44, was arrested in June in connection with the attack in London. His family said there was “no credible evidence” linking him to the incident.",
-        "source": "NYT > World News",
-        "pubDate": 1789664270000
+        "title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+        "link": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
+        "source": "BBC News",
+        "pubDate": 1789681279000
       },
       {
-        "title": "Carney Calls for E.U.-Canada Pact Amid ‘Ferocious Storm’",
-        "link": "https://www.nytimes.com/2026/09/17/world/europe/canada-carney-eu.html",
-        "summary": "Prime Minister Mark Carney told European lawmakers that an alliance would help to secure sovereignty and independence for his country. The moves come amid a historic low for U.S. t...",
+        "title": "Comedians Beyond Borders",
+        "link": "https://www.nytimes.com/2026/09/17/world/comedy-russia-vote-mexico-pollution.html",
+        "summary": "A new generation of cross-cultural comics is taking regional humor global.",
         "source": "NYT > World News",
-        "pubDate": 1789660768000
+        "pubDate": 1789680916000
       },
       {
-        "title": "Afghan Sentenced to 20 Years After Mixed Verdict in 2021 Kabul Attack Case",
-        "link": "https://www.nytimes.com/2026/09/17/us/abbey-gate-attack-sentencing-afghanistan.html",
-        "summary": "A jury had split on whether Mohammad Sharifullah was to blame in a deadly bombing but found him guilty of aiding the terrorist group ISIS-K.",
-        "source": "NYT > World News",
-        "pubDate": 1789656869000
+        "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+        "link": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
+        "source": "BBC News",
+        "pubDate": 1789677270000
       },
       {
-        "title": "The Canaduropean Union?",
-        "link": "https://www.nytimes.com/2026/09/16/world/canada-eu-ed-sheeran-iran.html",
-        "summary": "As ties with the U.S. fray, Canada and Europe are pulling closer. But defining a new partnership could prove tricky.",
+        "title": "The Racial Disparities of Flood Buyouts",
+        "link": "https://www.nytimes.com/2026/09/17/climate/the-racial-disparities-of-flood-buyouts.html",
+        "summary": "Black homeowners are paid less than white homeowners under a FEMA program, new research finds.",
         "source": "NYT > World News",
-        "pubDate": 1789655146000
+        "pubDate": 1789676815000
       }
     ]
   }
