@@ -1,81 +1,102 @@
 {
-  "lastUpdated": "2026-09-18T16:57:05.404Z",
+  "lastUpdated": "2026-09-18T23:00:51.845Z",
   "categories": {
     "technology": [
       {
-        "title": "What Hollywood thinks about existential AI warnings",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
-        "summary": "As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment labor groups are urging the public to stay focused on what's already happening. The Verge r...",
+        "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+        "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom ...",
         "source": "The Verge",
-        "pubDate": 1789749319000
+        "pubDate": 1789765644000
       },
       {
-        "title": "Security researchers used Claude to help them hack into OpenAI",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-        "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5,...",
-        "source": "The Verge",
-        "pubDate": 1789745416000
+        "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+        "link": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+        "summary": "FAA plans for AI tool to help manage DC air traffic before a nationwide rollout.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1789759250000
       },
       {
-        "title": "Brendan Carr’s FCC is more worried about who The View interviews than foreign governments owning Paramount",
-        "link": "https://www.theverge.com/policy/997416/brendan-carr-fcc-foreign-governments-paramount",
-        "summary": "The FCC has announced it's waiving its rules limiting foreign equity ownership to 25 percent in the Paramount-Warner Bros. case and will allow three sovereign wealth funds run by t...",
+        "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+        "link": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+        "summary": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down appro...",
         "source": "The Verge",
-        "pubDate": 1789744361000
+        "pubDate": 1789756157000
       },
       {
-        "title": "Lenovo’s Yoga Slim 7X is the most laptop that $1,000 can currently buy",
-        "link": "https://www.theverge.com/gadgets/997388/lenovo-yoga-slim-7x-laptop-fire-emblem-switch-2-deal-sale",
-        "summary": "Anyone shopping for a Windows laptop with a $1K budget should head to Best Buy, where for the rest of the day you can get a great deal on a capable Lenovo laptop. The Yoga Slim 7X ...",
+        "title": "Disney’s first CTO is Character.AI’s former CEO",
+        "link": "https://www.theverge.com/entertainment/997555/karandeep-anand-disney-character-ai",
+        "summary": "You would think that a multimedia conglomerate as large as Disney would have a few chief technology officers by now, but the company has just appointed someone to the position for ...",
         "source": "The Verge",
-        "pubDate": 1789743086000
+        "pubDate": 1789756024000
       },
       {
-        "title": "This cartridge-playing Game Boy clone is smaller and cheaper than Analogue’s Pocket",
-        "link": "https://www.theverge.com/tech/997379/funnyplaying-fpbg-mini-game-boy-color-handheld-fpga-cartridge",
-        "summary": "FunnyPlaying, a Chinese company known for its Game Boy and GBA upgrade kits, has announced a new handheld that plays original Nintendo cartridges and ROMs. The FPGB Mini's cartridg...",
-        "source": "The Verge",
-        "pubDate": 1789742478000
+        "title": "FCC lets Paramount sell 49.5% equity stake to Saudi Arabia, UAE, and Qatar",
+        "link": "https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/",
+        "summary": "FCC rejects concerns about repressive governments buying influence over CBS owner.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1789754261000
       }
     ],
     "finance": [
       {
-        "title": "Oil Retreat Slows on Saudi Supply Concerns",
-        "link": "https://www.wsj.com/business/energy-oil/oil-prices-fall-for-third-day-as-wti-slips-below-100-e533d2fe?siteid=yhoof2&yptr=yahoo",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789750320000
-      },
-      {
-        "title": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
-        "link": "https://finance.yahoo.com/healthcare/articles/gilead-strengthens-hiv-growth-platform-165122348.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789750282000
-      },
-      {
-        "title": "What’s really driving inflation and rising interest rates",
-        "link": "https://www.marketwatch.com/story/whats-really-driving-inflation-and-rising-interest-rates-59a9cd51?mod=mw_rss_topstories",
-        "summary": "Also in Weekend Reads: The housing market, retirement planning with an age gap, and a combination of warnings and opportunities in the stock market.",
+        "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
+        "link": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
+        "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789750200000
+        "pubDate": 1789771500000
       },
       {
-        "title": "Truist Reshapes Lending Strategy with $5.5B Auto-Loan Sale",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/truist-reshapes-lending-strategy-5-164856583.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789750136000
+        "title": "Why investors shouldn’t be spooked by fears of an October stock-market crash",
+        "link": "https://www.marketwatch.com/story/why-investors-shouldnt-be-spooked-by-fears-of-an-october-stock-market-crash-ac0eb2e1?mod=mw_rss_topstories",
+        "summary": "You may be able to profit from investors’ irrational belief that crashes are especially likely to occur in October.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789771260000
       },
       {
-        "title": "JPMorgan Sees Investment Banking and Trading Powering Q3 Growth",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sees-investment-banking-trading-164740809.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789750060000
+        "title": "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
+        "link": "https://www.marketwatch.com/story/its-almost-impossible-to-sell-a-condo-these-days-i-feel-trapped-1f96ce37?mod=mw_rss_topstories",
+        "summary": "Selling a condominium unit has become a challenge for many, as buyers get spooked at the prospect of bearing ever-rising HOA fees — even if the home comes with a lower price tag.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789766160000
+      },
+      {
+        "title": "Amazon, Palantir and 12 more top tech stock picks from UBS analysts",
+        "link": "https://www.marketwatch.com/story/amazon-palantir-and-12-more-top-tech-stock-picks-from-ubs-analysts-435244bb?mod=mw_rss_topstories",
+        "summary": "The AI data-center buildout is still early, and UBS says investors can cash in through investments across the technology, media and telecommunications sectors.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789766040000
+      },
+      {
+        "title": "Stocks are failing the ‘breadth’ test, but options traders still see reason to buy",
+        "link": "https://www.marketwatch.com/story/stocks-are-failing-the-breadth-test-but-options-traders-still-see-reason-to-buy-ef78ef14?mod=mw_rss_topstories",
+        "summary": "An options volatility tracker has produced a “spike peak” buy signal for stocks for the first time in months, at a time that internal market indicators are negative.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789764480000
       }
     ],
     "business": [
+      {
+        "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
+        "link": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
+        "source": "BBC News",
+        "pubDate": 1789754250000
+      },
+      {
+        "title": "Warren Buffett steps down after six decades at Berkshire - 'Father Time always wins' ",
+        "link": "https://www.bbc.co.uk/news/articles/cvj64dl1w6yno?at_medium=RSS&at_campaign=rss",
+        "summary": "Since taking control in 1965, Buffett grew a struggling textile mill into a global conglomerate.",
+        "source": "BBC News",
+        "pubDate": 1789751702000
+      },
+      {
+        "title": "Ryanair boss Michael O'Leary apologises over 'high-fare rapists' remarks",
+        "link": "https://www.bbc.co.uk/news/articles/cm1j4kj57k08o?at_medium=RSS&at_campaign=rss",
+        "summary": "O'Leary described his choice of language as \"careless\" and said \"it won't happen again\".",
+        "source": "BBC News",
+        "pubDate": 1789751458000
+      },
       {
         "title": "Flight chaos caused by 'millisecond' software defect, report says",
         "link": "https://www.bbc.co.uk/news/articles/cw0kl1571lpmo?at_medium=RSS&at_campaign=rss",
@@ -89,64 +110,43 @@
         "summary": "Deborah Meaden makes a bold opening move in response to a pitch.",
         "source": "BBC News",
         "pubDate": 1789739383000
-      },
-      {
-        "title": "'Insufficient funds' to pay Brewdog creditors after takeover deal",
-        "link": "https://www.bbc.co.uk/news/articles/cw1mvjyv937eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Administrators say about £489,000 was owed for staff wages and holiday pay and £2.4m was owed to HMRC for unpaid VAT.",
-        "source": "BBC News",
-        "pubDate": 1789737574000
-      },
-      {
-        "title": "British Steel plan lacks credibility, MPs say",
-        "link": "https://www.bbc.co.uk/news/articles/cklyjzv4nl7wo?at_medium=RSS&at_campaign=rss",
-        "summary": "A committee report says the government has not set out how British Steel will become profitable.",
-        "source": "BBC News",
-        "pubDate": 1789735635000
-      },
-      {
-        "title": "Economy minister accuses SoS of 'mischief making' in social media exchange",
-        "link": "https://www.bbc.co.uk/news/articles/c94gm0mxmy65o?at_medium=RSS&at_campaign=rss",
-        "summary": "Dr Caoimhe Archibald posted on X about a new one-off electricity bill reduction, which Sir Chris Bryant reposted saying the UK government funded it.",
-        "source": "BBC News",
-        "pubDate": 1789733579000
       }
     ],
     "world": [
       {
-        "title": "Dozens of suspected illegal miners die in Nigerian custody",
-        "link": "https://www.bbc.co.uk/news/articles/cw980qp2n3p4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities linked the deaths to disease, but this has been disputed by intelligence reports and relatives of the accused.",
+        "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
+        "link": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump said the agreement will give the US \"permanent control over security, and all other needs, in Greenland\", though specifics haven't been confirmed by Danish officials.",
         "source": "BBC News",
-        "pubDate": 1789746448000
+        "pubDate": 1789772335000
       },
       {
-        "title": "37 Miners in Nigeria Die in Police Custody, Sparking Protests",
+        "title": "Trump says he is banning CNN and Politico from White House",
+        "link": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president has had a tense and fiery relationship with the US media throughout his political career.",
+        "source": "BBC News",
+        "pubDate": 1789767919000
+      },
+      {
+        "title": "Watch: Trump says ban on some news outlets is 'because they're fake news'",
+        "link": "https://www.bbc.co.uk/news/videos/cm93e7p1wkndo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president on Friday announced he is \"immediately\" banning CNN, MS NOW and Politico from the White House.",
+        "source": "BBC News",
+        "pubDate": 1789763703000
+      },
+      {
+        "title": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
+        "link": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
+        "summary": "A four-year-old child is among those killed in the attack, during which gunmen also opened fire on a police facility.",
+        "source": "BBC News",
+        "pubDate": 1789762670000
+      },
+      {
+        "title": "Protests Erupt in Nigeria After Police Pack 66 Miners Into One Cell",
         "link": "https://www.nytimes.com/2026/09/18/world/africa/nigeria-miners-dead-police-minna.html",
-        "summary": "One survivor told The New York Times that dozens were packed into a single cell with barely any ventilation, food, or water.",
+        "summary": "Thirty-seven people died in the authorities’ custody, officials said. Survivors said the cell had barely any ventilation, food, or water and people began “collapsing and dying.”",
         "source": "NYT > World News",
-        "pubDate": 1789745229000
-      },
-      {
-        "title": "Russian hybrid attacks against Europe intensifying, says Macron",
-        "link": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-        "summary": "The French president says he has tasked the government with protecting critical infrastructure and defence industry sites.",
-        "source": "BBC News",
-        "pubDate": 1789744475000
-      },
-      {
-        "title": "Why Autocrats Care What People Think",
-        "link": "https://www.nytimes.com/2026/09/18/world/europe/putin-russia-election-ideas.html",
-        "summary": "Russia is staging an election that matters to almost no one — except President Vladimir V. Putin and his inner circle.",
-        "source": "NYT > World News",
-        "pubDate": 1789744471000
-      },
-      {
-        "title": "A Central African Hotel Has Become a Nightmare Prison for U.S. Deportations",
-        "link": "https://www.nytimes.com/2026/09/18/world/africa/us-deportation-hotel-equatorial-guinea.html",
-        "summary": "Witnesses say men were hooded and beaten in Equatorial Guinea. The autocratic government there is a partner in President Trump’s deportation program.",
-        "source": "NYT > World News",
-        "pubDate": 1789744235000
+        "pubDate": 1789760751000
       }
     ]
   }
