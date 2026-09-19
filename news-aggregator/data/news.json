@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-09-19T09:11:32.981Z",
+  "lastUpdated": "2026-09-19T16:13:47.030Z",
   "categories": {
     "technology": [
       {
-        "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-        "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom ...",
+        "title": "Gemini went rogue, hacked three companies, and Google hid it",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+        "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happe...",
         "source": "The Verge",
-        "pubDate": 1789765644000
+        "pubDate": 1789831503000
       },
       {
-        "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
-        "link": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-        "summary": "But the military's overall use of AI seems to be accelerating.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789763193000
-      },
-      {
-        "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
-        "link": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
-        "summary": "FAA plans for AI tool to help manage DC air traffic before a nationwide rollout.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1789759250000
-      },
-      {
-        "title": "Virginia governor creates an AI task force and moves to restrain data centers",
-        "link": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
-        "summary": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down appro...",
+        "title": "Anamanaguchi has ‘too goddamn many’ browser tabs open right now",
+        "link": "https://www.theverge.com/entertainment/996855/anamanaguchi-anyway-yeah-i-guess-interview-music",
+        "summary": "Band members Luke Silas, Ary Warnaar, Peter Burkman, and James DeVito (left to right). Maybe their next album will be recorded entirely in a windmill? | Image: Joshua Tarn\t\n\nAnaman...",
         "source": "The Verge",
-        "pubDate": 1789756157000
+        "pubDate": 1789830000000
       },
       {
-        "title": "Disney’s first CTO is Character.AI’s former CEO",
-        "link": "https://www.theverge.com/entertainment/997555/karandeep-anand-disney-character-ai",
-        "summary": "You would think that a multimedia conglomerate as large as Disney would have a few chief technology officers by now, but the company has just appointed someone to the position for ...",
+        "title": "The colorful, unique Hyte X50 PC case is $50 off",
+        "link": "https://www.theverge.com/gadgets/997467/hyte-x50-pc-case-deal-sale",
+        "summary": "The Hyte X50 is a PC case that really stands out from the typical black box design, and it’s $50 off at the company’s site until September 21st, 2026, bringing the price down to $9...",
         "source": "The Verge",
-        "pubDate": 1789756024000
+        "pubDate": 1789830000000
+      },
+      {
+        "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
+        "link": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+        "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Just...",
+        "source": "The Verge",
+        "pubDate": 1789826400000
+      },
+      {
+        "title": "It’s not just LG. Every TV company is spying on you",
+        "link": "https://www.theverge.com/tech/997682/every-tv-company-is-spying",
+        "summary": "The TV in your living room knows more about you than you realize. | Photo by John Higgins / The Verge\t\n\nThe TV world has been a pot of controversy thanks to a two-hour-and-15-minut...",
+        "source": "The Verge",
+        "pubDate": 1789822800000
       }
     ],
     "finance": [
       {
-        "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
-        "link": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
-        "summary": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789774200000
+        "title": "Cardinal Health Sees Growth Normalize as Specialty, At-Home Investments Expand",
+        "link": "https://finance.yahoo.com/healthcare/articles/cardinal-health-sees-growth-normalize-160202920.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789833722000
+      },
+      {
+        "title": "Bitcoin's Sharpest Rally in Two Years Ran Almost Entirely on Short Liquidations",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoins-sharpest-rally-two-years-160103232.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789833663000
       },
       {
         "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
         "link": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
         "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789772400000
+        "pubDate": 1789833600000
       },
       {
-        "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
-        "link": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
-        "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789771500000
+        "title": "Marvell (MRVL) and GlobalFoundries (GFS) Rise on Expanded Deal: What Investors Should Know",
+        "link": "https://finance.yahoo.com/technology/articles/marvell-mrvl-globalfoundries-gfs-rise-155724895.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789833444000
       },
       {
-        "title": "Why investors shouldn’t be spooked by fears of an October stock-market crash",
-        "link": "https://www.marketwatch.com/story/why-investors-shouldnt-be-spooked-by-fears-of-an-october-stock-market-crash-ac0eb2e1?mod=mw_rss_topstories",
-        "summary": "You may be able to profit from investors’ irrational belief that crashes are especially likely to occur in October.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789771260000
-      },
-      {
-        "title": "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
-        "link": "https://www.marketwatch.com/story/its-almost-impossible-to-sell-a-condo-these-days-i-feel-trapped-1f96ce37?mod=mw_rss_topstories",
-        "summary": "Selling a condominium unit has become a challenge for many, as buyers get spooked at the prospect of bearing ever-rising HOA fees — even if the home comes with a lower price tag.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789766160000
+        "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
+        "link": "https://finance.yahoo.com/economy/policy/articles/federal-inflation-outlook-signals-critical-155700852.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789833420000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Behold the Most Handsome Melons in Mexico",
-        "link": "https://www.nytimes.com/2026/09/19/world/americas/mexico-melon-contest-veracruz.html",
-        "summary": "In the eastern city of Xalapa, what started as a joke among friends over two decades ago has become a vibrant annual tradition that highlights creativity and absurdity with melons.",
-        "source": "NYT > World News",
-        "pubDate": 1789808593000
-      },
-      {
-        "title": "Millionaire Activist James Chambers Seeks Asylum in Spain",
-        "link": "https://www.nytimes.com/2026/09/19/world/europe/spain-chambers-asylum-us-extradition.html",
-        "summary": "Jailed in Madrid on an extradition request from the United States that his lawyer says is tied to pro-Palestinian activism, James Chambers fears persecution if returned.",
-        "source": "NYT > World News",
-        "pubDate": 1789808591000
-      },
-      {
-        "title": "The Kremlin Has Put Lots of Veterans on the Ballot. Could It Backfire?",
-        "link": "https://www.nytimes.com/2026/09/19/world/europe/russia-kremlin-election-veterans.html",
-        "summary": "President Vladimir V. Putin of Russia has said veterans are the “new elite,” but selecting them as candidates is a risk.",
-        "source": "NYT > World News",
-        "pubDate": 1789808541000
-      },
-      {
-        "title": "How Guyana Is Feeding the Profits of Exxon Mobil, the Largest U.S. Oil Company",
-        "link": "https://www.nytimes.com/2026/09/19/world/americas/guyana-oil-exxon-mobil.html",
-        "summary": "Exxon Mobil found a coveted growth engine in Guyana. Now it must navigate Guyana’s fractious politics and a territorial dispute with Venezuela.",
-        "source": "NYT > World News",
-        "pubDate": 1789808501000
-      },
-      {
         "title": "A Small Country’s Huge Windfall from the War in Iran",
         "link": "https://www.nytimes.com/2026/09/19/world/americas/guyana-oil-boom.html",
         "summary": "Oil-rich Guyana is enjoying red-hot growth. But the boom is magnifying tensions over corruption, inequality and strained ties with Venezuela.",
         "source": "NYT > World News",
-        "pubDate": 1789808455000
+        "pubDate": 1789825662000
+      },
+      {
+        "title": "Google's Gemini AI hacked three companies in security test",
+        "link": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+        "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
+        "source": "BBC News",
+        "pubDate": 1789825172000
+      },
+      {
+        "title": "Reported Explosions Put Saudi Capital on Edge Amid Conflict With Houthis",
+        "link": "https://www.nytimes.com/2026/09/19/world/middleeast/saudi-arabia-riyadh-houthis.html",
+        "summary": "The Saudi authorities issued emergency alerts as several booms rattled parts of Riyadh, and local flights were disrupted. The cause of the blasts was not immediately clear.",
+        "source": "NYT > World News",
+        "pubDate": 1789824973000
+      },
+      {
+        "title": "‘Nervous and Skeptical,’ Greenlanders Question the New Deal With Trump",
+        "link": "https://www.nytimes.com/2026/09/19/world/europe/greenland-trump-deal.html",
+        "summary": "The U.S. president’s threats to seize Greenland left its people on edge, and with details scarce, the news of an agreement didn’t seem to be putting minds at ease.",
+        "source": "NYT > World News",
+        "pubDate": 1789822605000
+      },
+      {
+        "title": "Behold the Most Handsome Melons in Mexico",
+        "link": "https://www.nytimes.com/2026/09/19/world/americas/mexico-melon-contest-veracruz.html",
+        "summary": "In the eastern city of Xalapa, what started as a joke among friends over two decades ago has become a vibrant annual tradition that highlights creativity and absurdity with melons.",
+        "source": "NYT > World News",
+        "pubDate": 1789820983000
       }
     ]
   }
