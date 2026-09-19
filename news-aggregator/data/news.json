@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-09-19T16:13:47.030Z",
+  "lastUpdated": "2026-09-19T22:40:15.466Z",
   "categories": {
     "technology": [
+      {
+        "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+        "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But...",
+        "source": "The Verge",
+        "pubDate": 1789850680000
+      },
+      {
+        "title": "Trump treads further on free speech with new journalist bans",
+        "link": "https://www.theverge.com/policy/997805/trump-cnn-msnow-politico-ban",
+        "summary": "President Donald Trump speaks to reporters on the tarmac before boarding Air Force One. (Photo by Andrew Harnik/Getty Images) | Getty Images\t\n\nOn Friday, the president threatened t...",
+        "source": "The Verge",
+        "pubDate": 1789837821000
+      },
       {
         "title": "Gemini went rogue, hacked three companies, and Google hid it",
         "link": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
@@ -22,57 +36,43 @@
         "summary": "The Hyte X50 is a PC case that really stands out from the typical black box design, and it’s $50 off at the company’s site until September 21st, 2026, bringing the price down to $9...",
         "source": "The Verge",
         "pubDate": 1789830000000
-      },
-      {
-        "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
-        "link": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
-        "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Just...",
-        "source": "The Verge",
-        "pubDate": 1789826400000
-      },
-      {
-        "title": "It’s not just LG. Every TV company is spying on you",
-        "link": "https://www.theverge.com/tech/997682/every-tv-company-is-spying",
-        "summary": "The TV in your living room knows more about you than you realize. | Photo by John Higgins / The Verge\t\n\nThe TV world has been a pot of controversy thanks to a two-hour-and-15-minut...",
-        "source": "The Verge",
-        "pubDate": 1789822800000
       }
     ],
     "finance": [
       {
-        "title": "Cardinal Health Sees Growth Normalize as Specialty, At-Home Investments Expand",
-        "link": "https://finance.yahoo.com/healthcare/articles/cardinal-health-sees-growth-normalize-160202920.html",
+        "title": "Bloom Energy Is Riding the Data Center Boom to a $25 Billion Backlog. Plug Power Is Passing on It. Here's Why.",
+        "link": "https://finance.yahoo.com/energy/articles/bloom-energy-riding-data-center-222500710.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789833722000
+        "pubDate": 1789856700000
       },
       {
-        "title": "Bitcoin's Sharpest Rally in Two Years Ran Almost Entirely on Short Liquidations",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoins-sharpest-rally-two-years-160103232.html",
+        "title": "Where You Hold SCHD and JEPI Matters More Than You Think: The Taxable vs. IRA Math",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/where-hold-schd-jepi-matters-222358521.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789833663000
+        "pubDate": 1789856638000
       },
       {
-        "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
-        "link": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
-        "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789833600000
-      },
-      {
-        "title": "Marvell (MRVL) and GlobalFoundries (GFS) Rise on Expanded Deal: What Investors Should Know",
-        "link": "https://finance.yahoo.com/technology/articles/marvell-mrvl-globalfoundries-gfs-rise-155724895.html",
+        "title": "Could Oracle's Debt Load Derail Its AI Cloud Ambitions?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/could-oracles-debt-load-derail-220900578.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789833444000
+        "pubDate": 1789855740000
       },
       {
-        "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
-        "link": "https://finance.yahoo.com/economy/policy/articles/federal-inflation-outlook-signals-critical-155700852.html",
+        "title": "Bank of America does the math on Apple's $1,200 iPhone offer",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-does-math-apples-220700012.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789833420000
+        "pubDate": 1789855620000
+      },
+      {
+        "title": "Cardinal Health Targets 13%-15% EPS Growth as Specialty Momentum Builds",
+        "link": "https://finance.yahoo.com/healthcare/articles/cardinal-health-targets-13-15-220157006.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789855317000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "A Small Country’s Huge Windfall from the War in Iran",
-        "link": "https://www.nytimes.com/2026/09/19/world/americas/guyana-oil-boom.html",
-        "summary": "Oil-rich Guyana is enjoying red-hot growth. But the boom is magnifying tensions over corruption, inequality and strained ties with Venezuela.",
+        "title": "Israeli President Pardons Ex-Soldier Over Killing of Incapacitated Palestinian",
+        "link": "https://www.nytimes.com/2026/09/19/world/middleeast/israel-pardon-azaria.html",
+        "summary": "In 2016 Elor Azaria killed a Palestinian attacker who had been injured, fueling a public debate both at home and abroad over Israeli military actions.",
         "source": "NYT > World News",
-        "pubDate": 1789825662000
+        "pubDate": 1789853920000
       },
       {
-        "title": "Google's Gemini AI hacked three companies in security test",
-        "link": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
+        "title": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar",
+        "link": "https://www.bbc.co.uk/news/articles/cqlykr2vrv04o?at_medium=RSS&at_campaign=rss",
+        "summary": "The president said his administration \"will not in any way hinder or stifle the growth\" amid amid warnings about the emergent technology.",
         "source": "BBC News",
-        "pubDate": 1789825172000
+        "pubDate": 1789851716000
       },
       {
-        "title": "Reported Explosions Put Saudi Capital on Edge Amid Conflict With Houthis",
+        "title": "In Significant Escalation, Houthis Attack Saudi Capital",
         "link": "https://www.nytimes.com/2026/09/19/world/middleeast/saudi-arabia-riyadh-houthis.html",
-        "summary": "The Saudi authorities issued emergency alerts as several booms rattled parts of Riyadh, and local flights were disrupted. The cause of the blasts was not immediately clear.",
+        "summary": "The Houthis, an Iranian-backed militia, said they had fired a wave of missiles and drones at Riyadh, and on Saudi oil facilities.",
         "source": "NYT > World News",
-        "pubDate": 1789824973000
+        "pubDate": 1789850626000
       },
       {
         "title": "‘Nervous and Skeptical,’ Greenlanders Question the New Deal With Trump",
         "link": "https://www.nytimes.com/2026/09/19/world/europe/greenland-trump-deal.html",
         "summary": "The U.S. president’s threats to seize Greenland left its people on edge, and with details scarce, the news of an agreement didn’t seem to be putting minds at ease.",
         "source": "NYT > World News",
-        "pubDate": 1789822605000
+        "pubDate": 1789850127000
       },
       {
-        "title": "Behold the Most Handsome Melons in Mexico",
-        "link": "https://www.nytimes.com/2026/09/19/world/americas/mexico-melon-contest-veracruz.html",
-        "summary": "In the eastern city of Xalapa, what started as a joke among friends over two decades ago has become a vibrant annual tradition that highlights creativity and absurdity with melons.",
+        "title": "Group With Al Qaeda Links Claims Responsibility for Attack in Pakistan",
+        "link": "https://www.nytimes.com/2026/09/19/world/asia/pakistan-mosque-attack-bahadur.html",
+        "summary": "The attack on a mosque inside a police compound, killing at least two dozen people, is the latest example of the worsening violence near the Afghan border.",
         "source": "NYT > World News",
-        "pubDate": 1789820983000
+        "pubDate": 1789848982000
       }
     ]
   }
