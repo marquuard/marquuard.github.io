@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-09-20T16:41:11.906Z",
+  "lastUpdated": "2026-09-20T22:58:57.888Z",
   "categories": {
     "technology": [
+      {
+        "title": "No Dogs in Space is back to feed your need for obsessive music history",
+        "link": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast",
+        "summary": "In August, I wrote about my love of the music history podcast No Dogs in Space, but mourned the fact that there hadn't been a new episode in over two years. Little did I know that ...",
+        "source": "The Verge",
+        "pubDate": 1789937517000
+      },
+      {
+        "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+        "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. ...",
+        "source": "The Verge",
+        "pubDate": 1789930218000
+      },
+      {
+        "title": "Kojima Productions disputes reports the studio is in trouble",
+        "link": "https://www.theverge.com/games/997880/hideo-kojima-productions-physint-xbox-sony-playstation",
+        "summary": "After it was announced that Sony was dropping Hideo Kojima's Physint, and that instead the Metal Gear Solid creator's latest title would be coming to Xbox, there were a flurry of r...",
+        "source": "The Verge",
+        "pubDate": 1789928110000
+      },
       {
         "title": "Trump now says he wants to form an ‘AI Force’",
         "link": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
@@ -15,64 +36,43 @@
         "summary": "After the success of Backrooms, it looks like A24 is trying to cash in on yet another internet horror craze with a new installment in the V/H/S horror anthology series set in the S...",
         "source": "The Verge",
         "pubDate": 1789908348000
-      },
-      {
-        "title": "A great new video game movie",
-        "link": "https://www.theverge.com/tech/997322/resident-evil-steam-frame-fire-emblem-fortunes-weave",
-        "summary": "Hi, friends! Welcome to Installer No. 144, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, new tech season is here, and also you can read al...",
-        "source": "The Verge",
-        "pubDate": 1789905600000
-      },
-      {
-        "title": "The hidden monopoly behind your TI graphing calculator",
-        "link": "https://www.theverge.com/podcast/997725/the-hidden-monopoly-behind-your-ti-graphing-calculator",
-        "summary": "The same calculator has been on most kids' back to school shopping list since the early 2000's and the dominance of Texas Instruments' calculator division goes back even farther. \n...",
-        "source": "The Verge",
-        "pubDate": 1789905600000
-      },
-      {
-        "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
-        "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
-        "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is gr...",
-        "source": "The Verge",
-        "pubDate": 1789905600000
       }
     ],
     "finance": [
       {
-        "title": "Centrus Energy (LEU) Lands New HALEU Deal with Antares",
-        "link": "https://finance.yahoo.com/energy/articles/centrus-energy-leu-lands-haleu-163159900.html",
+        "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789921919000
+        "pubDate": 1789944432000
       },
       {
-        "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-        "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-        "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789921800000
-      },
-      {
-        "title": "Definium’s LSD Pill Clears a Second Anxiety Trial, and the Psychedelics Sector Is Watching",
-        "link": "https://finance.yahoo.com/healthcare/articles/definium-lsd-pill-clears-second-162842492.html",
+        "title": "Dollar General EVP Reardon Sells 5,578 Shares",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-evp-reardon-sells-223502393.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789921722000
+        "pubDate": 1789943702000
       },
       {
-        "title": "I'm Watching PG&E Closely, but Here's Why I Haven't Bought the Dip",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/im-watching-pg-e-closely-162500840.html",
+        "title": "Realty Income or Agree Realty During a REIT Sell-Off?",
+        "link": "https://finance.yahoo.com/real-estate/articles/realty-income-agree-realty-during-223501210.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789921500000
+        "pubDate": 1789943701000
       },
       {
-        "title": "Transocean (RIG) Scores an $80 Million Deepwater Contract in Africa",
-        "link": "https://finance.yahoo.com/energy/articles/transocean-rig-scores-80-million-162459514.html",
+        "title": "Bill Ackman Built a $2.4 Billion Stake in Microsoft, Calling It a \"Core Holding\" Bought at a \"Highly Compelling Valuation.\" Here's Why He's Betting Big on Big Tech.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-built-2-4-222900517.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789921499000
+        "pubDate": 1789943340000
+      },
+      {
+        "title": "3 Things You Need to Know Before Buying IonQ Stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-things-know-buying-ionq-221100276.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1789942260000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Trump says his planned triumphal arch will double as a military complex to store ammunition",
-        "link": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump said the updated plans were at the request of the US military and for national security purposes.",
+        "title": "Thirty More Arrested in Jovenel Moïse Assassination",
+        "link": "https://www.nytimes.com/2026/09/20/world/americas/haiti-assassination-trial-moise.html",
+        "summary": "The suspects in the 2021 assassination of President Jovenel Moïse include 18 men who were extradited from Haiti to Miami, officials said.",
+        "source": "NYT > World News",
+        "pubDate": 1789942825000
+      },
+      {
+        "title": "On a Dot of France Off Canada, Carney and Macron Promote Shared Values",
+        "link": "https://www.nytimes.com/2026/09/20/world/canada/carney-macron-saint-pierre-miquelon-canada-eu.html",
+        "summary": "The leaders of Canada and France met just after the European Union invited Canada to become its first “associate member.”",
+        "source": "NYT > World News",
+        "pubDate": 1789942796000
+      },
+      {
+        "title": "A Diplomat From Myanmar Refuses to Give Up New York City Post",
+        "link": "https://www.nytimes.com/2026/09/20/world/asia/myanmar-mission-un-envoy.html",
+        "summary": "For more than five years, U Kyaw Moe Tun has refused to give up his United Nations post and a sandstone townhouse on the Upper East Side.",
+        "source": "NYT > World News",
+        "pubDate": 1789939769000
+      },
+      {
+        "title": "Man, 82, dies after beach fight with 76-year-old over sunlounger in Greece",
+        "link": "https://www.bbc.co.uk/news/articles/cqm27pnyd294o?at_medium=RSS&at_campaign=rss",
+        "summary": "One eyewitness said the scene was so chaotic that screaming could be heard from the other end of the beach.",
         "source": "BBC News",
-        "pubDate": 1789922203000
+        "pubDate": 1789939042000
       },
       {
-        "title": "Houthis Push to Expand Territory as Tensions With Saudi Arabia Rise",
-        "link": "https://www.nytimes.com/2026/09/20/world/middleeast/saudi-arabia-yemen-houthis-fighting.html",
-        "summary": "The Iran-backed Houthi militia was engaged in fierce battles with the Saudi-backed government forces in Yemen on Sunday, as it seeks to maintain momentum in the war.",
+        "title": "They Have Almost No Chance in Russia’s Elections. Why Are They Running?",
+        "link": "https://www.nytimes.com/2026/09/20/world/europe/russia-duma-election-yabloko.html",
+        "summary": "The liberal party Yabloko is fielding 98 candidates in this weekend’s elections, a small miracle for antiwar Russians who cannot openly express their views.",
         "source": "NYT > World News",
-        "pubDate": 1789920615000
-      },
-      {
-        "title": "Israeli Shot and Killed in West Bank by Palestinian, Officials Say",
-        "link": "https://www.nytimes.com/2026/09/20/world/middleeast/israeli-killed-west-bank-attack.html",
-        "summary": "The Israeli officials said an arrest had been made. The attack was on the eve of Yom Kippur, the holiest day in the Jewish calendar. Violence in the territory has grown recently.",
-        "source": "NYT > World News",
-        "pubDate": 1789916399000
-      },
-      {
-        "title": "U.N. General Assembly Traffic and Street Closures: What New Yorkers Need to Know",
-        "link": "https://www.nytimes.com/2026/09/20/nyregion/nyc-traffic-street-closures-unga.html",
-        "summary": "Many street closures are starting on Sunday, and rolling pedestrian and vehicle closures will continue during the week.",
-        "source": "NYT > World News",
-        "pubDate": 1789913972000
-      },
-      {
-        "title": "Hundreds of Drones Target Moscow on Final Day of Russian Elections",
-        "link": "https://www.nytimes.com/2026/09/20/world/europe/moscow-russia-ukraine.html",
-        "summary": "Ukraine says it used a newly developed ballistic missile in the attacks, which also targeted other parts of Russia.",
-        "source": "NYT > World News",
-        "pubDate": 1789907109000
+        "pubDate": 1789939001000
       }
     ]
   }
