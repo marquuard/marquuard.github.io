@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-09-20T22:58:57.888Z",
+  "lastUpdated": "2026-09-21T10:24:12.329Z",
   "categories": {
     "technology": [
+      {
+        "title": "UN says AI safeguards can’t wait for certainty",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+        "summary": "The United Nations logo at the UN headquarters in New York. | Getty Images\t\n\nGovernments need to rein in increasingly capable AI agents before their risks are fully understood, a U...",
+        "source": "The Verge",
+        "pubDate": 1789985886000
+      },
+      {
+        "title": "Amazon doesn’t trust Meta’s Muse AI agent",
+        "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "summary": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continu...",
+        "source": "The Verge",
+        "pubDate": 1789982507000
+      },
       {
         "title": "No Dogs in Space is back to feed your need for obsessive music history",
         "link": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast",
@@ -10,7 +24,7 @@
         "pubDate": 1789937517000
       },
       {
-        "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+        "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
         "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
         "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. ...",
         "source": "The Verge",
@@ -22,131 +36,117 @@
         "summary": "After it was announced that Sony was dropping Hideo Kojima's Physint, and that instead the Metal Gear Solid creator's latest title would be coming to Xbox, there were a flurry of r...",
         "source": "The Verge",
         "pubDate": 1789928110000
-      },
-      {
-        "title": "Trump now says he wants to form an ‘AI Force’",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
-        "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum...",
-        "source": "The Verge",
-        "pubDate": 1789918762000
-      },
-      {
-        "title": "A24’s reputation is on the line with the SCP Foundation movie",
-        "link": "https://www.theverge.com/entertainment/997853/a24-scp-movie-creative-commons-license",
-        "summary": "After the success of Backrooms, it looks like A24 is trying to cash in on yet another internet horror craze with a new installment in the V/H/S horror anthology series set in the S...",
-        "source": "The Verge",
-        "pubDate": 1789908348000
       }
     ],
     "finance": [
       {
-        "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789944432000
+        "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+        "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+        "summary": "“On each of these weekends away, she’s probably spending $500.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789985760000
       },
       {
-        "title": "Dollar General EVP Reardon Sells 5,578 Shares",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-evp-reardon-sells-223502393.html",
+        "title": "Chevron vs. Occidental Petroleum: Which Oil Stock Is a Better Buy in 2026?",
+        "link": "https://finance.yahoo.com/energy/articles/chevron-vs-occidental-petroleum-oil-101350145.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789943702000
+        "pubDate": 1789985630000
       },
       {
-        "title": "Realty Income or Agree Realty During a REIT Sell-Off?",
-        "link": "https://finance.yahoo.com/real-estate/articles/realty-income-agree-realty-during-223501210.html",
+        "title": "Telix to acquire ITM in deal worth up to $2.35bn",
+        "link": "https://finance.yahoo.com/healthcare/articles/telix-acquire-itm-deal-worth-101300372.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789943701000
+        "pubDate": 1789985580000
       },
       {
-        "title": "Bill Ackman Built a $2.4 Billion Stake in Microsoft, Calling It a \"Core Holding\" Bought at a \"Highly Compelling Valuation.\" Here's Why He's Betting Big on Big Tech.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-built-2-4-222900517.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789943340000
+        "title": "Corporate earnings are growing much faster than the economy. What Goldman strategists say about bubble concerns.",
+        "link": "https://www.marketwatch.com/story/corporate-earnings-are-growing-much-faster-than-the-economy-what-goldman-strategists-say-about-bubble-concerns-1f625fb3?mod=mw_rss_topstories",
+        "summary": "A team at the bank, led by Ben Snider, wrote in a recent note that they see  S&P 500 earnings per share growth slowing to 11% in 2027 and 2028.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1789985580000
       },
       {
-        "title": "3 Things You Need to Know Before Buying IonQ Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-things-know-buying-ionq-221100276.html",
+        "title": "Tesla faces major trial for alleged bias against Black workers, after years of lawsuits",
+        "link": "https://finance.yahoo.com/news/tesla-faces-major-trial-alleged-100649614.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1789942260000
+        "pubDate": 1789985478000
       }
     ],
     "business": [
       {
-        "title": "Ed Davey calls for immediate 10p cut to fuel duty",
-        "link": "https://www.bbc.co.uk/news/articles/cr89j514dly2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Sir Ed blamed Donald Trump's war with Iran for damaging the UK economy and pushing fuel prices up.",
+        "title": "Will you get £13,000 a year when you stop working? Here's how to check",
+        "link": "https://www.bbc.co.uk/news/articles/crq5x74yv6dxo?at_medium=RSS&at_campaign=rss",
+        "summary": "How to find out how much state pension you're likely to receive - and what you can do about it now.",
         "source": "BBC News",
-        "pubDate": 1789915362000
+        "pubDate": 1789980585000
       },
       {
-        "title": "Lib Dems vow to end 'computer says no' economy to boost growth",
-        "link": "https://www.bbc.co.uk/news/articles/cqrk31k7pprlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Deputy leader Daisy Cooper also proposes a Growth and Defence Partnership with the EU in a speech to her party conference.",
+        "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+        "link": "https://www.bbc.co.uk/news/articles/cr5ye7p13jg7o?at_medium=RSS&at_campaign=rss",
+        "summary": "Jensen Huang's comments come after warnings from AI researchers that the technology could lead to human extinction.",
         "source": "BBC News",
-        "pubDate": 1789913115000
+        "pubDate": 1789971943000
       },
       {
-        "title": "Billionaire Man United owner loses moral high ground after tax exile, Labour chair says",
-        "link": "https://www.bbc.co.uk/news/articles/cm0rexrwjj1vo?at_medium=RSS&at_campaign=rss",
-        "summary": "The billionaire businessman told the BBC he has lost confidence in the UK due to a combination of high taxes and high immigration.",
+        "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
+        "link": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Top US and Chinese officials held talks in New York on Sunday ahead of a Trump-Xi summit this week.",
         "source": "BBC News",
-        "pubDate": 1789903341000
+        "pubDate": 1789969856000
       },
       {
-        "title": "Chiltern Railways renationalised after 30 years",
-        "link": "https://www.bbc.co.uk/news/articles/c68xk701d975o?at_medium=RSS&at_campaign=rss",
-        "summary": "It joins Great British Railways as part of government plans to save money and improve services.",
+        "title": "Baby bank helping more parents in full-time work",
+        "link": "https://www.bbc.co.uk/news/articles/ckge4848pzjro?at_medium=RSS&at_campaign=rss",
+        "summary": "The couple who run the bank say they are in \"desperate need\" of baby formula as demand is so high.",
         "source": "BBC News",
-        "pubDate": 1789901139000
+        "pubDate": 1789966595000
       },
       {
-        "title": "Family shares hidden cost of cancer care",
-        "link": "https://www.bbc.co.uk/news/articles/c8qlwg07p906o?at_medium=RSS&at_campaign=rss",
-        "summary": "Maya, 13, from Hythe in Kent, was diagnosed with neuroblastoma when she was three.",
+        "title": "UK should 'team up' with Canada in new Europe alliance, Canadian minister tells BBC",
+        "link": "https://www.bbc.co.uk/news/articles/cmed7p06epxjo?at_medium=RSS&at_campaign=rss",
+        "summary": "It comes after European Commission President proposed \"opening the door\" for Canada to become an associate member of the EU.",
         "source": "BBC News",
-        "pubDate": 1789896334000
+        "pubDate": 1789963238000
       }
     ],
     "world": [
       {
-        "title": "Thirty More Arrested in Jovenel Moïse Assassination",
-        "link": "https://www.nytimes.com/2026/09/20/world/americas/haiti-assassination-trial-moise.html",
-        "summary": "The suspects in the 2021 assassination of President Jovenel Moïse include 18 men who were extradited from Haiti to Miami, officials said.",
+        "title": "At 92, the Bard of Bollywood Is Still Writing About Love",
+        "link": "https://www.nytimes.com/2026/09/21/world/asia/bollywood-india-gulzar.html",
+        "summary": "The poet and lyricist Gulzar has profoundly shaped the idea of tender romance in India through his verse and songs in more than 150 musicals.",
         "source": "NYT > World News",
-        "pubDate": 1789942825000
+        "pubDate": 1789984957000
       },
       {
-        "title": "On a Dot of France Off Canada, Carney and Macron Promote Shared Values",
-        "link": "https://www.nytimes.com/2026/09/20/world/canada/carney-macron-saint-pierre-miquelon-canada-eu.html",
-        "summary": "The leaders of Canada and France met just after the European Union invited Canada to become its first “associate member.”",
-        "source": "NYT > World News",
-        "pubDate": 1789942796000
-      },
-      {
-        "title": "A Diplomat From Myanmar Refuses to Give Up New York City Post",
-        "link": "https://www.nytimes.com/2026/09/20/world/asia/myanmar-mission-un-envoy.html",
-        "summary": "For more than five years, U Kyaw Moe Tun has refused to give up his United Nations post and a sandstone townhouse on the Upper East Side.",
-        "source": "NYT > World News",
-        "pubDate": 1789939769000
-      },
-      {
-        "title": "Man, 82, dies after beach fight with 76-year-old over sunlounger in Greece",
-        "link": "https://www.bbc.co.uk/news/articles/cqm27pnyd294o?at_medium=RSS&at_campaign=rss",
-        "summary": "One eyewitness said the scene was so chaotic that screaming could be heard from the other end of the beach.",
+        "title": "Frank Gardner: Inside a camp for Yemeni refugees who have fled to Djibouti",
+        "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
         "source": "BBC News",
-        "pubDate": 1789939042000
+        "pubDate": 1789984831000
       },
       {
-        "title": "They Have Almost No Chance in Russia’s Elections. Why Are They Running?",
-        "link": "https://www.nytimes.com/2026/09/20/world/europe/russia-duma-election-yabloko.html",
-        "summary": "The liberal party Yabloko is fielding 98 candidates in this weekend’s elections, a small miracle for antiwar Russians who cannot openly express their views.",
+        "title": "Inside a camp for Yemeni refugees who have fled to Djibouti",
+        "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
+        "source": "BBC News",
+        "pubDate": 1789984831000
+      },
+      {
+        "title": "Police Officer Is Injured in Shooting Near Ontario Synagogue",
+        "link": "https://www.nytimes.com/2026/09/21/world/canada/synagogue-shooting-belleville-ontario-yom-kippur.html",
+        "summary": "There was an exchange of gunfire near the Sons of Jacob Synagogue in Belleville as congregants gathered inside to mark Yom Kippur, the authorities said.",
         "source": "NYT > World News",
-        "pubDate": 1789939001000
+        "pubDate": 1789983276000
+      },
+      {
+        "title": "Let’s Talk Climate",
+        "link": "https://www.nytimes.com/2026/09/20/world/climate-change-trump-xi-germany.html",
+        "summary": "World leaders are mostly silent and President Trump is pushing fossil fuels. We’ll explore the stakes at this week’s Climate Forward event.",
+        "source": "NYT > World News",
+        "pubDate": 1789982623000
       }
     ]
   }
