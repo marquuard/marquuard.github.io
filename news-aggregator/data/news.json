@@ -1,41 +1,41 @@
 {
-  "lastUpdated": "2026-09-21T10:24:12.329Z",
+  "lastUpdated": "2026-09-21T18:28:43.235Z",
   "categories": {
     "technology": [
       {
-        "title": "UN says AI safeguards can’t wait for certainty",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-        "summary": "The United Nations logo at the UN headquarters in New York. | Getty Images\t\n\nGovernments need to rein in increasingly capable AI agents before their risks are fully understood, a U...",
+        "title": "GM can’t ‘bring back’ Apple CarPlay because it never left",
+        "link": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
+        "summary": "Last week, GM announced a new software experience for its upcoming Chevy Silverado and GMC Sierra trucks, including a new look for Apple CarPlay and Android Auto, the popular phone...",
         "source": "The Verge",
-        "pubDate": 1789985886000
+        "pubDate": 1790012874000
       },
       {
-        "title": "Amazon doesn’t trust Meta’s Muse AI agent",
-        "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-        "summary": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continu...",
+        "title": "Paramount settles lawsuit blocking $110 billion Warner Bros. merger",
+        "link": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
+        "summary": "Paramount has reached a settlement with California and the 11 other states that sued to block its planned $110 billion acquisition of Warner Bros. Discovery. The settlement removes...",
         "source": "The Verge",
-        "pubDate": 1789982507000
+        "pubDate": 1790012535000
       },
       {
-        "title": "No Dogs in Space is back to feed your need for obsessive music history",
-        "link": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast",
-        "summary": "In August, I wrote about my love of the music history podcast No Dogs in Space, but mourned the fact that there hadn't been a new episode in over two years. Little did I know that ...",
-        "source": "The Verge",
-        "pubDate": 1789937517000
+        "title": "Google confirms Gemini models hacked three companies in May 2026",
+        "link": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+        "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790009846000
       },
       {
-        "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-        "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. ...",
-        "source": "The Verge",
-        "pubDate": 1789930218000
+        "title": "Russel Vought will reportedly be given veto power over all NIH grants",
+        "link": "https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/",
+        "summary": "Pending move comes over the objections of the NIH director.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790008826000
       },
       {
-        "title": "Kojima Productions disputes reports the studio is in trouble",
-        "link": "https://www.theverge.com/games/997880/hideo-kojima-productions-physint-xbox-sony-playstation",
-        "summary": "After it was announced that Sony was dropping Hideo Kojima's Physint, and that instead the Metal Gear Solid creator's latest title would be coming to Xbox, there were a flurry of r...",
+        "title": "Bungie says it’s ‘not done with Destiny’ and will bring back vaulted content",
+        "link": "https://www.theverge.com/news/998317/bungie-destiny-2-unvaulted-raids-campaigns-destinations",
+        "summary": "Months after seemingly giving up on Destiny 2, Bungie now says it's planning to restore vaulted content in the game like campaigns, destinations, and raids. The decision reverses t...",
         "source": "The Verge",
-        "pubDate": 1789928110000
+        "pubDate": 1790008559000
       }
     ],
     "finance": [
@@ -44,109 +44,109 @@
         "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
         "summary": "“On each of these weekends away, she’s probably spending $500.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789985760000
+        "pubDate": 1790013600000
       },
       {
-        "title": "Chevron vs. Occidental Petroleum: Which Oil Stock Is a Better Buy in 2026?",
-        "link": "https://finance.yahoo.com/energy/articles/chevron-vs-occidental-petroleum-oil-101350145.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789985630000
-      },
-      {
-        "title": "Telix to acquire ITM in deal worth up to $2.35bn",
-        "link": "https://finance.yahoo.com/healthcare/articles/telix-acquire-itm-deal-worth-101300372.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789985580000
-      },
-      {
-        "title": "Corporate earnings are growing much faster than the economy. What Goldman strategists say about bubble concerns.",
-        "link": "https://www.marketwatch.com/story/corporate-earnings-are-growing-much-faster-than-the-economy-what-goldman-strategists-say-about-bubble-concerns-1f625fb3?mod=mw_rss_topstories",
-        "summary": "A team at the bank, led by Ben Snider, wrote in a recent note that they see  S&P 500 earnings per share growth slowing to 11% in 2027 and 2028.",
+        "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
+        "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
+        "summary": "Muse is gaining popularity and helping convince investors that Meta’s AI bets are paying off.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1789985580000
+        "pubDate": 1790012700000
       },
       {
-        "title": "Tesla faces major trial for alleged bias against Black workers, after years of lawsuits",
-        "link": "https://finance.yahoo.com/news/tesla-faces-major-trial-alleged-100649614.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1789985478000
+        "title": "The future of retirement? Work until you die.",
+        "link": "https://www.marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
+        "summary": "The retirement myth has been crumbling for decades",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790010960000
+      },
+      {
+        "title": "A happier retirement contains these 3 elements",
+        "link": "https://www.marketwatch.com/story/a-happier-retirement-contains-these-3-elements-9aa99c9a?mod=mw_rss_topstories",
+        "summary": "Boosting your postwork satisfaction isn’t about luck. Here is what experts say actually drives fulfillment in your next chapter.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790010720000
+      },
+      {
+        "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
+        "link": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
+        "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790008200000
       }
     ],
     "business": [
       {
-        "title": "Will you get £13,000 a year when you stop working? Here's how to check",
-        "link": "https://www.bbc.co.uk/news/articles/crq5x74yv6dxo?at_medium=RSS&at_campaign=rss",
-        "summary": "How to find out how much state pension you're likely to receive - and what you can do about it now.",
+        "title": "Paramount settles lawsuit with US states, helping clear way for $110bn merger with Warner Bros",
+        "link": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Paramount has reached a settlement with the US states in a lawsuit challenging its $110bn merger with Warner Bros",
         "source": "BBC News",
-        "pubDate": 1789980585000
+        "pubDate": 1790015048000
       },
       {
-        "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
-        "link": "https://www.bbc.co.uk/news/articles/cr5ye7p13jg7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Jensen Huang's comments come after warnings from AI researchers that the technology could lead to human extinction.",
-        "source": "BBC News",
-        "pubDate": 1789971943000
+        "title": "Trump and Xi Meet Amid an Uneasy U.S.-China Trade Truce",
+        "link": "https://www.nytimes.com/2026/09/21/business/economy/trump-xi-china-trade.html",
+        "summary": "Beyond warm meetings between their leaders, the countries are engaging in tit-for-tat measures that call into question the stability of their arrangement.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790013612000
       },
       {
-        "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
-        "link": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Top US and Chinese officials held talks in New York on Sunday ahead of a Trump-Xi summit this week.",
+        "title": "Airlines criticise air traffic control as second glitch causes more disruption",
+        "link": "https://www.bbc.co.uk/news/articles/cqp80p78mxx5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Airlines are angry about the delays, with EasyJet saying the latest incident \"once again calls into question the resilience\" of the system.",
         "source": "BBC News",
-        "pubDate": 1789969856000
+        "pubDate": 1790008756000
       },
       {
-        "title": "Baby bank helping more parents in full-time work",
-        "link": "https://www.bbc.co.uk/news/articles/ckge4848pzjro?at_medium=RSS&at_campaign=rss",
-        "summary": "The couple who run the bank say they are in \"desperate need\" of baby formula as demand is so high.",
+        "title": "Repeated air traffic control failures leave us in worrying territory",
+        "link": "https://www.bbc.co.uk/news/articles/cmde0pp22r5go?at_medium=RSS&at_campaign=rss",
+        "summary": "The question is whether all of these incidents were isolated and unavoidable, or whether they point to something more systemic.",
         "source": "BBC News",
-        "pubDate": 1789966595000
+        "pubDate": 1790008741000
       },
       {
-        "title": "UK should 'team up' with Canada in new Europe alliance, Canadian minister tells BBC",
-        "link": "https://www.bbc.co.uk/news/articles/cmed7p06epxjo?at_medium=RSS&at_campaign=rss",
-        "summary": "It comes after European Commission President proposed \"opening the door\" for Canada to become an associate member of the EU.",
+        "title": "Families missing out on NHS money for healthy food",
+        "link": "https://www.bbc.co.uk/news/articles/cme30e8zyvjno?at_medium=RSS&at_campaign=rss",
+        "summary": "Figures show as little as 64% of eligible families are claiming NHS money for milk, fruit and veg",
         "source": "BBC News",
-        "pubDate": 1789963238000
+        "pubDate": 1789991001000
       }
     ],
     "world": [
       {
-        "title": "At 92, the Bard of Bollywood Is Still Writing About Love",
-        "link": "https://www.nytimes.com/2026/09/21/world/asia/bollywood-india-gulzar.html",
-        "summary": "The poet and lyricist Gulzar has profoundly shaped the idea of tender romance in India through his verse and songs in more than 150 musicals.",
+        "title": "Russia’s Election Was Engineered to Send a Message: Putin Remains in Control",
+        "link": "https://www.nytimes.com/2026/09/21/world/europe/russia-duma-election.html",
+        "summary": "A parliamentary vote demonstrated that President Vladimir V. Putin’s autocratic system was still able to deliver the results he wanted, analysts said.",
         "source": "NYT > World News",
-        "pubDate": 1789984957000
+        "pubDate": 1790014143000
       },
       {
-        "title": "Frank Gardner: Inside a camp for Yemeni refugees who have fled to Djibouti",
-        "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
+        "title": "Hundreds of Drones Target Moscow on Final Day of Russian Elections",
+        "link": "https://www.nytimes.com/2026/09/20/world/europe/moscow-russia-ukraine.html",
+        "summary": "Ukraine says it used a newly developed ballistic missile in the attacks, which also targeted other parts of Russia.",
+        "source": "NYT > World News",
+        "pubDate": 1790013607000
+      },
+      {
+        "title": "First UK charges brought over 1994 Rwanda genocide",
+        "link": "https://www.bbc.co.uk/news/articles/cr2092216nywo?at_medium=RSS&at_campaign=rss",
+        "summary": "Dr Vincent Brown, formerly Dr Vincent Bajinya, 65, will appear at Westminster Magistrates’ Court on Tuesday charged with seven offences.",
         "source": "BBC News",
-        "pubDate": 1789984831000
+        "pubDate": 1790012903000
       },
       {
-        "title": "Inside a camp for Yemeni refugees who have fled to Djibouti",
-        "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
-        "source": "BBC News",
-        "pubDate": 1789984831000
-      },
-      {
-        "title": "Police Officer Is Injured in Shooting Near Ontario Synagogue",
+        "title": "Police Officer Injured in Shooting Near Ontario Synagogue on Yom Kippur",
         "link": "https://www.nytimes.com/2026/09/21/world/canada/synagogue-shooting-belleville-ontario-yom-kippur.html",
-        "summary": "There was an exchange of gunfire near the Sons of Jacob Synagogue in Belleville as congregants gathered inside to mark Yom Kippur, the authorities said.",
+        "summary": "A gunman opened fire near the Sons of Jacob Synagogue in Belleville as congregants gathered for Yom Kippur, the authorities said.",
         "source": "NYT > World News",
-        "pubDate": 1789983276000
+        "pubDate": 1790012382000
       },
       {
-        "title": "Let’s Talk Climate",
-        "link": "https://www.nytimes.com/2026/09/20/world/climate-change-trump-xi-germany.html",
-        "summary": "World leaders are mostly silent and President Trump is pushing fossil fuels. We’ll explore the stakes at this week’s Climate Forward event.",
-        "source": "NYT > World News",
-        "pubDate": 1789982623000
+        "title": "Two charged with woman's murder as South Africa police investigate eight other body finds",
+        "link": "https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss",
+        "summary": "The body of Jabulile Ntimba was the ninth to be found recently in an area east of Johannesburg.",
+        "source": "BBC News",
+        "pubDate": 1790010376000
       }
     ]
   }
