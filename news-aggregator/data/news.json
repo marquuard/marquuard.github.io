@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-09-21T18:28:43.235Z",
+  "lastUpdated": "2026-09-21T23:49:23.786Z",
   "categories": {
     "technology": [
       {
-        "title": "GM can’t ‘bring back’ Apple CarPlay because it never left",
-        "link": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
-        "summary": "Last week, GM announced a new software experience for its upcoming Chevy Silverado and GMC Sierra trucks, including a new look for Apple CarPlay and Android Auto, the popular phone...",
+        "title": "Amazon wants to help the Colorado River, but we still don’t know how much water the company uses ",
+        "link": "https://www.theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river",
+        "summary": "Amazon plans to spend $20 million on water conservation projects along the Colorado River, a crucial but dwindling water supply for 40 million people in the Western US. \nThe initia...",
         "source": "The Verge",
-        "pubDate": 1790012874000
+        "pubDate": 1790032532000
       },
       {
-        "title": "Paramount settles lawsuit blocking $110 billion Warner Bros. merger",
-        "link": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
-        "summary": "Paramount has reached a settlement with California and the 11 other states that sued to block its planned $110 billion acquisition of Warner Bros. Discovery. The settlement removes...",
-        "source": "The Verge",
-        "pubDate": 1790012535000
-      },
-      {
-        "title": "Google confirms Gemini models hacked three companies in May 2026",
-        "link": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-        "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
+        "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+        "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+        "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
         "source": "Ars Technica - All content",
-        "pubDate": 1790009846000
+        "pubDate": 1790029478000
       },
       {
-        "title": "Russel Vought will reportedly be given veto power over all NIH grants",
-        "link": "https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/",
-        "summary": "Pending move comes over the objections of the NIH director.",
+        "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
+        "link": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
+        "summary": "Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.",
         "source": "Ars Technica - All content",
-        "pubDate": 1790008826000
+        "pubDate": 1790024825000
       },
       {
-        "title": "Bungie says it’s ‘not done with Destiny’ and will bring back vaulted content",
-        "link": "https://www.theverge.com/news/998317/bungie-destiny-2-unvaulted-raids-campaigns-destinations",
-        "summary": "Months after seemingly giving up on Destiny 2, Bungie now says it's planning to restore vaulted content in the game like campaigns, destinations, and raids. The decision reverses t...",
+        "title": "Saudi Arabia wants a car industry, launches Ceer with two EVs",
+        "link": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
+        "summary": "The new carmaker is a joint venture between the Saudi PIF and Foxconn.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790024136000
+      },
+      {
+        "title": "California tightens rules on AI data center energy and water use",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+        "summary": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The...",
         "source": "The Verge",
-        "pubDate": 1790008559000
+        "pubDate": 1790022585000
       }
     ],
     "finance": [
-      {
-        "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
-        "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-        "summary": "“On each of these weekends away, she’s probably spending $500.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790013600000
-      },
       {
         "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
         "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
         "summary": "Muse is gaining popularity and helping convince investors that Meta’s AI bets are paying off.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790012700000
+        "pubDate": 1790028060000
       },
       {
-        "title": "The future of retirement? Work until you die.",
-        "link": "https://www.marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
-        "summary": "The retirement myth has been crumbling for decades",
+        "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
+        "link": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
+        "summary": "An analyst at BNP has taken a positive view of AT&T’s stock, writing that investors should have “little to quibble with on the mobile side.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790010960000
+        "pubDate": 1790027820000
       },
       {
-        "title": "A happier retirement contains these 3 elements",
-        "link": "https://www.marketwatch.com/story/a-happier-retirement-contains-these-3-elements-9aa99c9a?mod=mw_rss_topstories",
-        "summary": "Boosting your postwork satisfaction isn’t about luck. Here is what experts say actually drives fulfillment in your next chapter.",
+        "title": "Bitcoin hits an 8-month high — and sends a clear message about risk appetite right now",
+        "link": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5?mod=mw_rss_topstories",
+        "summary": "The lack of clarity around crypto’s regulatory framework hasn’t stopped bitcoin from surging, as investors haven’t abandoned hopes for clearer U.S. rules.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790010720000
+        "pubDate": 1790027220000
       },
       {
-        "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
-        "link": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
-        "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
+        "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
+        "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
+        "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790008200000
+        "pubDate": 1790026200000
+      },
+      {
+        "title": "As the S&P 500 nears a new record high, there are signs of weakness below the surface",
+        "link": "https://www.marketwatch.com/story/as-the-s-p-500-nears-a-new-record-high-there-are-cracks-below-the-surface-6df3e90d?mod=mw_rss_topstories",
+        "summary": "About 60% of the stocks in the S&P 500 are down more than 20% from their all-time highs.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790025420000
       }
     ],
     "business": [
       {
-        "title": "Paramount settles lawsuit with US states, helping clear way for $110bn merger with Warner Bros",
+        "title": "I couldn't cook when I left home – but these easy £2.50 recipes became my go-to",
+        "link": "https://www.bbc.co.uk/news/articles/cgjqgjn3n2wo?at_medium=RSS&at_campaign=rss",
+        "summary": "Former culinary-challenged students share four low cost meals they think everyone can master.",
+        "source": "BBC News",
+        "pubDate": 1790034080000
+      },
+      {
+        "title": "Flights at major US airports delayed after cable cut by construction workers",
+        "link": "https://www.bbc.co.uk/news/articles/ckvgyzzgvv4wo?at_medium=RSS&at_campaign=rss",
+        "summary": "The cable had been repaired and airports are resuming normal operations, the US transportation secretary says.",
+        "source": "BBC News",
+        "pubDate": 1790033128000
+      },
+      {
+        "title": "I'd rather pay thousands on a holiday: Meet the pensioners spending the kids' inheritance",
+        "link": "https://www.bbc.co.uk/news/articles/cje8y3w2zdpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The phenomenon sees retirees spend all their money on enjoying life to the full.",
+        "source": "BBC News",
+        "pubDate": 1790031686000
+      },
+      {
+        "title": "Vet prescription fees capped under rule changes",
+        "link": "https://www.bbc.co.uk/news/articles/cqzjz2gx18ggo?at_medium=RSS&at_campaign=rss",
+        "summary": "Vets must also tell clients if cheaper medicine is available online as part of the rule updates which surgeries have the coming months to bring in.",
+        "source": "BBC News",
+        "pubDate": 1790031678000
+      },
+      {
+        "title": "Paramount settles lawsuit with US states, clearing way for $110bn merger with Warner Bros",
         "link": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Paramount has reached a settlement with the US states in a lawsuit challenging its $110bn merger with Warner Bros",
+        "summary": "The deal includes an agreement to produce 30 films a year, or Paramount will be forced to sell off parts of its company.",
         "source": "BBC News",
-        "pubDate": 1790015048000
-      },
-      {
-        "title": "Trump and Xi Meet Amid an Uneasy U.S.-China Trade Truce",
-        "link": "https://www.nytimes.com/2026/09/21/business/economy/trump-xi-china-trade.html",
-        "summary": "Beyond warm meetings between their leaders, the countries are engaging in tit-for-tat measures that call into question the stability of their arrangement.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790013612000
-      },
-      {
-        "title": "Airlines criticise air traffic control as second glitch causes more disruption",
-        "link": "https://www.bbc.co.uk/news/articles/cqp80p78mxx5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Airlines are angry about the delays, with EasyJet saying the latest incident \"once again calls into question the resilience\" of the system.",
-        "source": "BBC News",
-        "pubDate": 1790008756000
-      },
-      {
-        "title": "Repeated air traffic control failures leave us in worrying territory",
-        "link": "https://www.bbc.co.uk/news/articles/cmde0pp22r5go?at_medium=RSS&at_campaign=rss",
-        "summary": "The question is whether all of these incidents were isolated and unavoidable, or whether they point to something more systemic.",
-        "source": "BBC News",
-        "pubDate": 1790008741000
-      },
-      {
-        "title": "Families missing out on NHS money for healthy food",
-        "link": "https://www.bbc.co.uk/news/articles/cme30e8zyvjno?at_medium=RSS&at_campaign=rss",
-        "summary": "Figures show as little as 64% of eligible families are claiming NHS money for milk, fruit and veg",
-        "source": "BBC News",
-        "pubDate": 1789991001000
+        "pubDate": 1790026472000
       }
     ],
     "world": [
       {
-        "title": "Russia’s Election Was Engineered to Send a Message: Putin Remains in Control",
-        "link": "https://www.nytimes.com/2026/09/21/world/europe/russia-duma-election.html",
-        "summary": "A parliamentary vote demonstrated that President Vladimir V. Putin’s autocratic system was still able to deliver the results he wanted, analysts said.",
+        "title": "At 92, the Bard of Bollywood Is Still Writing About Love",
+        "link": "https://www.nytimes.com/2026/09/21/world/asia/bollywood-india-gulzar.html",
+        "summary": "The poet and lyricist Gulzar has profoundly shaped the idea of tender romance in India through his verse and songs in more than 150 musicals.",
         "source": "NYT > World News",
-        "pubDate": 1790014143000
+        "pubDate": 1790033277000
       },
       {
-        "title": "Hundreds of Drones Target Moscow on Final Day of Russian Elections",
-        "link": "https://www.nytimes.com/2026/09/20/world/europe/moscow-russia-ukraine.html",
-        "summary": "Ukraine says it used a newly developed ballistic missile in the attacks, which also targeted other parts of Russia.",
-        "source": "NYT > World News",
-        "pubDate": 1790013607000
-      },
-      {
-        "title": "First UK charges brought over 1994 Rwanda genocide",
-        "link": "https://www.bbc.co.uk/news/articles/cr2092216nywo?at_medium=RSS&at_campaign=rss",
-        "summary": "Dr Vincent Brown, formerly Dr Vincent Bajinya, 65, will appear at Westminster Magistrates’ Court on Tuesday charged with seven offences.",
+        "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+        "link": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+        "summary": "Major US networks later suspended White House TV coverage of Trump as he heads to New York for the UN summit.",
         "source": "BBC News",
-        "pubDate": 1790012903000
+        "pubDate": 1790030913000
       },
       {
-        "title": "Police Officer Injured in Shooting Near Ontario Synagogue on Yom Kippur",
-        "link": "https://www.nytimes.com/2026/09/21/world/canada/synagogue-shooting-belleville-ontario-yom-kippur.html",
-        "summary": "A gunman opened fire near the Sons of Jacob Synagogue in Belleville as congregants gathered for Yom Kippur, the authorities said.",
+        "title": "British Columbia Sues OpenAI Over Tumbler Ridge Shooting",
+        "link": "https://www.nytimes.com/2026/09/21/world/canada/open-ai-tumbler-ridge-shooting-british-columbia.html",
+        "summary": "The province claims in its lawsuit that the shooting at a rural school “could have been prevented” if OpenAI had shared concerns brewing internally with the police.",
         "source": "NYT > World News",
-        "pubDate": 1790012382000
+        "pubDate": 1790027882000
       },
       {
-        "title": "Two charged with woman's murder as South Africa police investigate eight other body finds",
-        "link": "https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss",
-        "summary": "The body of Jabulile Ntimba was the ninth to be found recently in an area east of Johannesburg.",
-        "source": "BBC News",
-        "pubDate": 1790010376000
+        "title": "Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are Back at War",
+        "link": "https://www.nytimes.com/2026/09/21/world/middleeast/yemen-houthis-saudi-war.html",
+        "summary": "The conflict has opened a second front in the Middle East after the United States and Israel attacked Iran, adding to global uncertainty and turmoil in energy markets.",
+        "source": "NYT > World News",
+        "pubDate": 1790027130000
+      },
+      {
+        "title": "Spectre of Rogue A.I. Looms Over U.N. Talks on Digital Cooperation",
+        "link": "https://www.nytimes.com/2026/09/21/world/un-general-assembly-ai.html",
+        "summary": "Diplomats, dignitaries and tech experts gathered amid the United Nations General Assembly to debate how to address the threats and harness the potential of artificial intelligence.",
+        "source": "NYT > World News",
+        "pubDate": 1790024916000
       }
     ]
   }
