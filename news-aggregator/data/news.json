@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-09-22T09:38:00.312Z",
+  "lastUpdated": "2026-09-22T17:31:18.644Z",
   "categories": {
     "technology": [
       {
-        "title": "Apple&#8217;s first live music venue is opening beneath its UK headquarters",
-        "link": "https://www.theverge.com/tech/998581/apple-music-hall-london-venue-battersea",
-        "summary": "The venue is opening below Battersea Power Station, also well recognized for featuring on the cover of Pink Floyd’s Animals album. | Image: Apple\t\n\nApple is preparing to open a new...",
+        "title": "Apple is reportedly working on a Whoop-like fitness tracker",
+        "link": "https://www.theverge.com/gadgets/998902/apple-whoop-fitness-tracker",
+        "summary": "The Whoop MG fitness band. | Photo by Amelia Holowaty Krales / The Verge\t\n\nApple is working on a new fitness tracker with a screenless design, similar to the one made by Whoop, acc...",
         "source": "The Verge",
-        "pubDate": 1790066154000
+        "pubDate": 1790096692000
       },
       {
-        "title": "A cut cable disrupted hundreds of flights across the US",
-        "link": "https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us",
-        "summary": "A JetBlue airplane past an FAA air traffic control tower at Philadelphia International Airport (PHL) in Philadelphia, Pennsylvania, US, on Friday, Oct. 24, 2025. JetBlue Airways Co...",
+        "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+        "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreess...",
         "source": "The Verge",
-        "pubDate": 1790034536000
+        "pubDate": 1790094848000
       },
       {
-        "title": "Amazon wants to help the Colorado River, but we still don’t know how much water the company uses ",
-        "link": "https://www.theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river",
-        "summary": "Amazon plans to spend $20 million on water conservation projects along the Colorado River, a crucial but dwindling water supply for 40 million people in the Western US. \nThe initia...",
+        "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+        "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5...",
         "source": "The Verge",
-        "pubDate": 1790032532000
+        "pubDate": 1790094600000
       },
       {
-        "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-        "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-        "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790029478000
+        "title": "Rivian’s R2 beat its own climate goals four years early",
+        "link": "https://www.theverge.com/transportation/998762/rivian-r2-climate-impact-carbon-lifecycle-half",
+        "summary": "Rivian always planned for its all-important R2 vehicle to be less expensive than its pricey R1 predecessors, but also less polluting. The production process for the R2 would rely o...",
+        "source": "The Verge",
+        "pubDate": 1790093025000
       },
       {
-        "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
-        "link": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
-        "summary": "Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790024825000
+        "title": "Trump says the US is officially renaming AI to ‘super intelligence’",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
+        "summary": "In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change, and transgender people while also claiming that the US is no...",
+        "source": "The Verge",
+        "pubDate": 1790092870000
       }
     ],
     "finance": [
       {
-        "title": "Aecon-led JV secures $2.1bn contracts for Ontario’s Pickering nuclear refurbishment",
-        "link": "https://finance.yahoo.com/energy/articles/aecon-led-jv-secures-2-093518558.html",
+        "title": "Private markets dealmaking is starting to mirror Greater China 's K-shaped economy",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/private-markets-dealmaking-starting-mirror-172112209.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1790069718000
+        "pubDate": 1790097672000
       },
       {
-        "title": "Why AMD's new $1 trillion valuation makes perfect sense",
-        "link": "https://finance.yahoo.com/markets/stocks/article/why-amds-new-1-trillion-valuation-makes-perfect-sense-093453726.html",
+        "title": "Viking Soars Alone as Obesity Complex Shrugs at Strong GLP-1 Results",
+        "link": "https://finance.yahoo.com/healthcare/articles/viking-soars-alone-obesity-complex-172027334.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1790069693000
+        "pubDate": 1790097627000
       },
       {
-        "title": "IonQ, Rigetti Computing, D-Wave Quantum, and Quantum Computing Inc. Are Sending Shockwaves Through Wall Street With This $895 Million Warning",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-computing-d-wave-092601051.html",
+        "title": "Oracle cloud layoffs hit developers, engineers hardest",
+        "link": "https://finance.yahoo.com/technology/articles/oracle-cloud-layoffs-hit-developers-171648789.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1790069161000
+        "pubDate": 1790097408000
       },
       {
-        "title": "RSM US, Rillet to support AI-driven finance modernisation",
-        "link": "https://finance.yahoo.com/technology/ai/articles/rsm-us-rillet-support-ai-092507642.html",
+        "title": "When His Fund Dropped in the Spring, He Moved the Shares Into the Roth Instead of Selling Them. The IRS Taxed the Depressed Price, and the Rebound Happened Where It Can’t Be Taxed",
+        "link": "https://finance.yahoo.com/markets/options/articles/fund-dropped-spring-moved-shares-171436207.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "Yahoo Finance",
-        "pubDate": 1790069107000
+        "pubDate": 1790097276000
       },
       {
-        "title": "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury",
-        "link": "https://www.marketwatch.com/story/what-this-machine-learning-model-with-65-accuracy-says-is-coming-next-for-the-10-year-treasury-55d76b8f?mod=mw_rss_topstories",
-        "summary": "HSBC says it’s designed a machine-learning model to predict the direction of the most important financial instrument in global markets.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790068980000
+        "title": "BYD's China Business Is Slowing. Here's the Part of the Company That's Taking Off",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/byds-china-business-slowing-heres-171300093.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1790097180000
       }
     ],
     "business": [
       {
-        "title": "Spain battles climate change on several fronts",
-        "link": "https://www.bbc.co.uk/news/articles/cwg59g3vz564o?at_medium=RSS&at_campaign=rss",
-        "summary": "A summer of wildfires and heatwaves underlines the threats to the country's economy.",
+        "title": "Davey promises tax cuts for millions if UK rejoins EU single market",
+        "link": "https://www.bbc.co.uk/news/articles/cj62e1wrpx73o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Lib Dem leader vows to raise tax thresholds if he becomes PM, in a speech to his party conference.",
         "source": "BBC News",
-        "pubDate": 1790068308000
+        "pubDate": 1790095829000
       },
       {
-        "title": "Unexpected UK borrowing surge adds to pre-Budget pressure on chancellor",
-        "link": "https://www.bbc.co.uk/news/articles/c68049m18435o?at_medium=RSS&at_campaign=rss",
-        "summary": "Borrowing was higher than expected in August as inflation piles pressure on the government ahead of the Budget.",
+        "title": "'We screwed up': Doordash admits underpaying New York workers",
+        "link": "https://www.bbc.co.uk/news/articles/cjr4v72y6p4eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The food delivery giant will pay a $131.5m settlement following a city probe into wage violations.",
         "source": "BBC News",
-        "pubDate": 1790067132000
+        "pubDate": 1790095824000
       },
       {
-        "title": "Businesses struggle to profit as fuel prices soar",
-        "link": "https://www.bbc.co.uk/news/articles/cr0qx2p587nxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fuel prices across the West have risen to nearly £2 per litre amid ongoing conflict in the Middle East.",
+        "title": "Sir Jim Ratcliffe suspends production at key UK plants blaming high gas prices",
+        "link": "https://www.bbc.co.uk/news/articles/cw305ynd69n6o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ineos said natural gas in the UK is twelve times more expensive than in the US.",
         "source": "BBC News",
-        "pubDate": 1790066029000
+        "pubDate": 1790091794000
       },
       {
-        "title": "Vet prescription fees capped under rule changes",
-        "link": "https://www.bbc.co.uk/news/articles/cqzjz2gx18ggo?at_medium=RSS&at_campaign=rss",
-        "summary": "Vets must also tell clients if cheaper medicine is available online as part of the rule updates which surgeries have the coming months to bring in.",
-        "source": "BBC News",
-        "pubDate": 1790062775000
+        "title": "How Unions Are Confronting A.I. Threats in the Workplace",
+        "link": "https://www.nytimes.com/2026/09/22/business/economy/unions-ai-negotiations.html",
+        "summary": "The machinists union shows how workers are negotiating for a say in the ways artificial intelligence is used in their workplaces.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790090316000
       },
       {
-        "title": "Rising fuel prices 'cost tow truck business £10k'",
-        "link": "https://www.bbc.co.uk/news/articles/cxp845vnpv27o?at_medium=RSS&at_campaign=rss",
-        "summary": "A business says fuel duty will need to be cut by 30p to 50p per litre to help.",
-        "source": "BBC News",
-        "pubDate": 1790054641000
+        "title": "Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit",
+        "link": "https://www.nytimes.com/2026/09/22/business/economy/us-china-ai-competition.html",
+        "summary": "Artificial intelligence is on the agenda when leaders from the United States and China meet this week. But with little consensus on a path forward, expectations are limited.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790086514000
       }
     ],
     "world": [
       {
-        "title": "Teenager captured after 11 shot at Turkish high school ",
-        "link": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage appears to show a male in the area carrying a firearm, while officials say the attacker has been captured.",
+        "title": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran",
+        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
+        "summary": "President Trump delivered the remark before a gathering where world leaders typically present themselves as champions of global harmony. Earlier, António Guterres, the U.N. secreta...",
+        "source": "NYT > World News",
+        "pubDate": 1790098037000
+      },
+      {
+        "title": "Texas ICE shooting leaves Venezuelan DoorDash driver with bullet in his back, says lawyer",
+        "link": "https://www.bbc.co.uk/news/articles/c3y0z25v0zjwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The delivery driver was transferred from a hospital to a detention centre, his lawyer tells US media.",
         "source": "BBC News",
-        "pubDate": 1790069491000
+        "pubDate": 1790097421000
       },
       {
-        "title": "What Are the United Nations and the General Assembly?",
-        "link": "https://www.nytimes.com/2026/09/22/world/what-is-united-nations-general-assembly.html",
-        "summary": "Here’s a look at what the 193-member United Nations does and how it works as leaders convene in New York for the annual General Assembly.",
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/heres-the-latest",
+        "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > World News",
-        "pubDate": 1790068196000
+        "pubDate": 1790097213000
       },
       {
-        "title": "Tech-Utopian Movement Praxis Says It Has Found a Home in Uruguay",
-        "link": "https://www.nytimes.com/2026/09/22/world/americas/praxis-uruguay-colonia-tech-utopia.html",
-        "summary": "After a sprawling world tour, Praxis, a New York-based, crypto-backed “digital nation,” has signed a deal to build a physical city in Uruguay.",
+        "title": "Cuban officials walk out after Trump calls the nation a ‘failed state’ in his speech.",
+        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/cuban-officials-walk-out-after-trump-calls-the-nation-a-failed-state-in-his-speech",
+        "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > World News",
-        "pubDate": 1790067757000
+        "pubDate": 1790097086000
       },
       {
-        "title": "Paris Really, Really Loves Céline Dion",
-        "link": "https://www.nytimes.com/2026/09/22/world/europe/celine-dion-tour-paris.html",
-        "summary": "Ms. Dion, the French Canadian diva, has embarked on her first solo tour of France since the pandemic. The French are swooning.",
+        "title": "Putin Reignited a Dispute With Japan. This Town Is Stuck in the Middle.",
+        "link": "https://www.nytimes.com/2026/09/21/world/asia/japan-russia-putin-nemuro.html",
+        "summary": "The fishing town of Nemuro depends on Russia for trade. But it’s also leading a fight to win back islands seized by Moscow in World War II.",
         "source": "NYT > World News",
-        "pubDate": 1790067729000
-      },
-      {
-        "title": "The Other Victims of China’s Church Crackdown",
-        "link": "https://www.nytimes.com/2026/09/22/world/asia/china-zion-church-pastor-detained-family.html",
-        "summary": "Cherie Geng is trying to free her husband, a pastor, who was among dozens of church members detained by the Chinese police. At the same time, she must rebuild her life in exile.",
-        "source": "NYT > World News",
-        "pubDate": 1790067680000
+        "pubDate": 1790097058000
       }
     ]
   }
