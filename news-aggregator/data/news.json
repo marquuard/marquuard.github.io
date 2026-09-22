@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-09-22T17:31:18.644Z",
+  "lastUpdated": "2026-09-22T23:29:34.496Z",
   "categories": {
     "technology": [
       {
-        "title": "Apple is reportedly working on a Whoop-like fitness tracker",
-        "link": "https://www.theverge.com/gadgets/998902/apple-whoop-fitness-tracker",
-        "summary": "The Whoop MG fitness band. | Photo by Amelia Holowaty Krales / The Verge\t\n\nApple is working on a new fitness tracker with a screenless design, similar to the one made by Whoop, acc...",
+        "title": "Paramount will need to release way more movies to make this merger work",
+        "link": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails",
+        "summary": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to beco...",
         "source": "The Verge",
-        "pubDate": 1790096692000
+        "pubDate": 1790115967000
       },
       {
-        "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-        "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreess...",
-        "source": "The Verge",
-        "pubDate": 1790094848000
+        "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
+        "link": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
+        "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790113334000
       },
       {
-        "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-        "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5...",
-        "source": "The Verge",
-        "pubDate": 1790094600000
+        "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+        "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+        "summary": "The frontier AI model race has entered its comparison shopping phase.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790112318000
       },
       {
-        "title": "Rivian’s R2 beat its own climate goals four years early",
-        "link": "https://www.theverge.com/transportation/998762/rivian-r2-climate-impact-carbon-lifecycle-half",
-        "summary": "Rivian always planned for its all-important R2 vehicle to be less expensive than its pricey R1 predecessors, but also less polluting. The production process for the R2 would rely o...",
+        "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+        "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says...",
         "source": "The Verge",
-        "pubDate": 1790093025000
+        "pubDate": 1790110360000
       },
       {
-        "title": "Trump says the US is officially renaming AI to ‘super intelligence’",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
-        "summary": "In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change, and transgender people while also claiming that the US is no...",
-        "source": "The Verge",
-        "pubDate": 1790092870000
+        "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
+        "link": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
+        "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790109510000
       }
     ],
     "finance": [
       {
-        "title": "Private markets dealmaking is starting to mirror Greater China 's K-shaped economy",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/private-markets-dealmaking-starting-mirror-172112209.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1790097672000
+        "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
+        "link": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
+        "summary": "Some analysts say the upbeat data on the Nasdaq’s outlook is backed up by improving fundamentals.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790113440000
       },
       {
-        "title": "Viking Soars Alone as Obesity Complex Shrugs at Strong GLP-1 Results",
-        "link": "https://finance.yahoo.com/healthcare/articles/viking-soars-alone-obesity-complex-172027334.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1790097627000
+        "title": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
+        "link": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
+        "summary": "Larger AI models and inference are turning NAND from a commodity into a critical component, a Rosenblatt analyst said.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790112600000
       },
       {
-        "title": "Oracle cloud layoffs hit developers, engineers hardest",
-        "link": "https://finance.yahoo.com/technology/articles/oracle-cloud-layoffs-hit-developers-171648789.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1790097408000
+        "title": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October.",
+        "link": "https://www.marketwatch.com/story/want-to-bet-on-risky-high-beta-stocks-why-you-should-wait-for-this-week-in-october-d9094820?mod=mw_rss_topstories",
+        "summary": "Coming soon is one of the only weeks of the year in which aggressive traders should bet that the highest-beta stocks will beat the lowest ones.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790112420000
       },
       {
-        "title": "When His Fund Dropped in the Spring, He Moved the Shares Into the Roth Instead of Selling Them. The IRS Taxed the Depressed Price, and the Rebound Happened Where It Can’t Be Taxed",
-        "link": "https://finance.yahoo.com/markets/options/articles/fund-dropped-spring-moved-shares-171436207.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1790097276000
+        "title": "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
+        "link": "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories",
+        "summary": "Meta’s new assistant is topping App Store charts and beating ChatGPT’s early download pace, spurring renewed confidence in the company’s AI strategy",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790112360000
       },
       {
-        "title": "BYD's China Business Is Slowing. Here's the Part of the Company That's Taking Off",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/byds-china-business-slowing-heres-171300093.html",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "Yahoo Finance",
-        "pubDate": 1790097180000
+        "title": "Why Apple could soon join Nvidia in the exclusive $5 trillion club",
+        "link": "https://www.marketwatch.com/story/why-apple-could-soon-join-nvidia-in-the-exclusive-5-trillion-club-4e7724e7?mod=mw_rss_topstories",
+        "summary": "A new foldable iPhone and a disciplined AI-spending approach have sent Apple shares to new highs this year",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790110440000
       }
     ],
     "business": [
       {
-        "title": "Davey promises tax cuts for millions if UK rejoins EU single market",
-        "link": "https://www.bbc.co.uk/news/articles/cj62e1wrpx73o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Lib Dem leader vows to raise tax thresholds if he becomes PM, in a speech to his party conference.",
+        "title": "'I don't have a buoyancy aid': Living without the Bank of Mum and Dad",
+        "link": "https://www.bbc.co.uk/news/articles/c8dx5p7gd4e9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Three 20-somethings tell BBC News how they are navigating life without parental support.",
         "source": "BBC News",
-        "pubDate": 1790095829000
+        "pubDate": 1790119231000
       },
       {
-        "title": "'We screwed up': Doordash admits underpaying New York workers",
-        "link": "https://www.bbc.co.uk/news/articles/cjr4v72y6p4eo?at_medium=RSS&at_campaign=rss",
-        "summary": "The food delivery giant will pay a $131.5m settlement following a city probe into wage violations.",
+        "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
+        "link": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
+        "summary": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
         "source": "BBC News",
-        "pubDate": 1790095824000
+        "pubDate": 1790118693000
       },
       {
-        "title": "Sir Jim Ratcliffe suspends production at key UK plants blaming high gas prices",
-        "link": "https://www.bbc.co.uk/news/articles/cw305ynd69n6o?at_medium=RSS&at_campaign=rss",
-        "summary": "Ineos said natural gas in the UK is twelve times more expensive than in the US.",
+        "title": "Will a switch to light speed cut power use at data centres?",
+        "link": "https://www.bbc.co.uk/news/articles/c2dwg3zexkpo?at_medium=RSS&at_campaign=rss",
+        "summary": "To save power and add capacity,  data centres are switching from copper wires to tech using light.",
         "source": "BBC News",
-        "pubDate": 1790091794000
+        "pubDate": 1790118228000
       },
       {
-        "title": "How Unions Are Confronting A.I. Threats in the Workplace",
-        "link": "https://www.nytimes.com/2026/09/22/business/economy/unions-ai-negotiations.html",
-        "summary": "The machinists union shows how workers are negotiating for a say in the ways artificial intelligence is used in their workplaces.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790090316000
+        "title": "IMF tells advanced economies to 'bring debt down' as borrowing costs rise",
+        "link": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
+        "summary": "In an interview with the BBC, Kristalina Georgieva says economic shocks had pushed \"debt levels up like a staircase not to heaven\".",
+        "source": "BBC News",
+        "pubDate": 1790118088000
       },
       {
-        "title": "Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit",
-        "link": "https://www.nytimes.com/2026/09/22/business/economy/us-china-ai-competition.html",
-        "summary": "Artificial intelligence is on the agenda when leaders from the United States and China meet this week. But with little consensus on a path forward, expectations are limited.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790086514000
+        "title": "New EU industry rules would damage UK, warns Burnham",
+        "link": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
+        "summary": "The prime minister met the European Commission President during his visit to the United Nations General Assembly.",
+        "source": "BBC News",
+        "pubDate": 1790111920000
       }
     ],
     "world": [
       {
-        "title": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran",
+        "title": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
         "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
-        "summary": "President Trump delivered the remark before a gathering where world leaders typically present themselves as champions of global harmony. Earlier, António Guterres, the U.N. secreta...",
+        "summary": "President Trump said he must decide whether to make a deal or “annihilate” Iran, in a gathering where world leaders typically focus on declarations of global harmony.",
         "source": "NYT > World News",
-        "pubDate": 1790098037000
+        "pubDate": 1790118093000
       },
       {
-        "title": "Texas ICE shooting leaves Venezuelan DoorDash driver with bullet in his back, says lawyer",
-        "link": "https://www.bbc.co.uk/news/articles/c3y0z25v0zjwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The delivery driver was transferred from a hospital to a detention centre, his lawyer tells US media.",
+        "title": "Andy Burnham, U.K.’s New Prime Minister, Prepares for U.N. Spotlight",
+        "link": "https://www.nytimes.com/2026/09/22/world/europe/andy-burnham-unga-ukraine-iran-war.html",
+        "summary": "Andy Burnham appears likely to promote support for Ukraine and hold to tough lines on Israel and the war on Iran.",
+        "source": "NYT > World News",
+        "pubDate": 1790117970000
+      },
+      {
+        "title": "Trump Threatens Annihilation in Iran in UN Speech and Lays Out Winner-Takes-All Vision",
+        "link": "https://www.nytimes.com/2026/09/22/us/politics/un-trump-speech-iran-venezuela-greenland.html",
+        "summary": "President Trump’s speech at the U.N. General Assembly amounted to a rejection of the founding concept of the United Nations.",
+        "source": "NYT > World News",
+        "pubDate": 1790117355000
+      },
+      {
+        "title": "Watch: Threats, deals and passionate speeches at UNGA event",
+        "link": "https://www.bbc.co.uk/news/videos/cqkgx8ynj8zko?at_medium=RSS&at_campaign=rss",
+        "summary": "Delegations from across the world attended the United Nations General Assembly in New York.",
         "source": "BBC News",
-        "pubDate": 1790097421000
+        "pubDate": 1790116424000
       },
       {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/heres-the-latest",
+        "title": "Japan’s leader aims to highlight her country’s push for a more pivotal global role.",
+        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/japans-leader-aims-to-highlight-her-countrys-push-for-a-more-pivotal-global-role",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > World News",
-        "pubDate": 1790097213000
-      },
-      {
-        "title": "Cuban officials walk out after Trump calls the nation a ‘failed state’ in his speech.",
-        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/cuban-officials-walk-out-after-trump-calls-the-nation-a-failed-state-in-his-speech",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > World News",
-        "pubDate": 1790097086000
-      },
-      {
-        "title": "Putin Reignited a Dispute With Japan. This Town Is Stuck in the Middle.",
-        "link": "https://www.nytimes.com/2026/09/21/world/asia/japan-russia-putin-nemuro.html",
-        "summary": "The fishing town of Nemuro depends on Russia for trade. But it’s also leading a fight to win back islands seized by Moscow in World War II.",
-        "source": "NYT > World News",
-        "pubDate": 1790097058000
+        "pubDate": 1790115969000
       }
     ]
   }
