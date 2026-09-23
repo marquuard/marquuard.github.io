@@ -1,87 +1,108 @@
 {
-  "lastUpdated": "2026-09-23T09:44:23.470Z",
+  "lastUpdated": "2026-09-23T17:42:31.589Z",
   "categories": {
     "technology": [
       {
-        "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-        "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forwar...",
+        "title": "YouTube is building AI creator tools that do almost everything for them",
+        "link": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+        "summary": "Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration ...",
         "source": "The Verge",
-        "pubDate": 1790122637000
+        "pubDate": 1790173800000
       },
       {
-        "title": "Paramount will need to release way more movies to make this merger work",
-        "link": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails",
-        "summary": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to beco...",
+        "title": "Discord will now automatically estimate your age",
+        "link": "https://www.theverge.com/tech/999305/discord-updated-age-assurance-global-rollout",
+        "summary": "Discord is rolling out a new global age assurance system, seven months after pausing its previous verification measures following backlash from users. Starting today in every count...",
         "source": "The Verge",
-        "pubDate": 1790115967000
+        "pubDate": 1790173669000
       },
       {
-        "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
-        "link": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
-        "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+        "title": "After multiple deaths and injuries, NHTSA is investigating comma.ai",
+        "link": "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/",
+        "summary": "Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.",
         "source": "Ars Technica - All content",
-        "pubDate": 1790113334000
+        "pubDate": 1790173223000
       },
       {
-        "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
-        "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
-        "summary": "The frontier AI model race has entered its comparison shopping phase.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790112318000
-      },
-      {
-        "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-        "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says...",
+        "title": "McDonald’s is testing ads on its drive-thru menus",
+        "link": "https://www.theverge.com/tech/999295/mcdonalds-drive-thru-menu-ads",
+        "summary": "McDonald's is putting ads on its drive-thru menu as part of a \"limited\" pilot at company-owned restaurants, according to a report from Bloomberg. Drive-thru locations included in t...",
         "source": "The Verge",
-        "pubDate": 1790110360000
+        "pubDate": 1790171559000
+      },
+      {
+        "title": "Nobody does it like Remedy",
+        "link": "https://www.theverge.com/games/999268/control-resonant-review-ps5-xbox",
+        "summary": "Video games have given us plenty of ways to traverse huge open worlds, but none have felt quite as oddly exhilarating as manipulating gravity in Control Resonant's twisted version ...",
+        "source": "The Verge",
+        "pubDate": 1790171100000
       }
     ],
     "finance": [
       {
-        "title": "Why analysts say a diesel export ban could backfire",
-        "link": "https://www.marketwatch.com/story/why-analysts-say-a-diesel-export-ban-could-backfire-8b13cd51?mod=mw_rss_topstories",
-        "summary": "A ban on U.S. diesel exports could reduce supplies and simultaneously lead to prices rising further, according to analysts.",
+        "title": "Fuel prices keep rising — and so do Democrats’ chances for winning both the House and Senate",
+        "link": "https://www.marketwatch.com/story/fuel-prices-keep-rising-and-so-do-democrats-chances-for-winning-both-the-house-and-senate-c4541380?mod=mw_rss_topstories",
+        "summary": "Losses for President Donald Trump’s Republican Party in the midterms are expected in large part because of voters’ frustrations with the elevated cost of living.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790155740000
+        "pubDate": 1790185260000
       },
       {
-        "title": "Here are the hidden flaws in Warsh’s new way of tracking inflation",
-        "link": "https://www.marketwatch.com/story/here-are-the-hidden-flaws-in-warshs-new-way-of-tracking-inflation-fb7939de?mod=mw_rss_topstories",
-        "summary": "Economists at Nomura say the new way Kevin Warsh is tracking inflation doesn’t have better predictive power than core readings.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790155680000
+        "title": "Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/not-intel-not-nvidia-chip-173500624.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1790184900000
       },
       {
-        "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
-        "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
-        "summary": "“She currently has about 15 sitters, all independent contractors.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790154900000
+        "title": "Canaan (CAN) Sold Crypto to Buy Back Stock. Can It Offset Weak Mining-Equipment Demand?",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/canaan-sold-crypto-buy-back-173457168.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1790184897000
       },
       {
-        "title": "The real estate portfolio of Zendaya and Tom Holland, plus her plans for a room just for her wedding dress",
-        "link": "https://www.marketwatch.com/story/the-real-estate-portfolio-of-zendaya-and-tom-holland-plus-her-plans-for-a-room-just-for-her-wedding-dress-daa9cc93?mod=mw_rss_topstories",
-        "summary": "Tom Holland and Zendaya are reportedly planning to install a climate-controlled room in one of their several properties to preserve her $269,000 wedding gown.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790154060000
+        "title": "Amazon's AWS Backlog Climbed to $496 Billion as Its Cloud Margin Reached 39%. The Stock Is Primed to Skyrocket as a Result.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/amazons-aws-backlog-climbed-496-173300632.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1790184780000
       },
       {
-        "title": "TV host Maria Menounos lists a beautifully renovated Encino mansion for $7 million",
-        "link": "https://www.marketwatch.com/story/tv-host-maria-menounos-lists-a-beautifully-renovated-encino-mansion-for-7-million-2af120a2?mod=mw_rss_topstories",
-        "summary": "TV personality Maria Menounos has listed her longtime Encino mansion for $6.995 million, two decades after she and husband made the sprawling California estate their home.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790153880000
+        "title": "Here’s How Much Money the Average 65-Year-Old Leaves on the Table by Claiming Social Security Early",
+        "link": "https://finance.yahoo.com/healthcare/articles/much-money-average-65-old-173039165.html",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "Yahoo Finance",
+        "pubDate": 1790184639000
       }
     ],
     "business": [
       {
-        "title": "UK economy will grow by less than expected next year, OECD says",
+        "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+        "link": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_medium=RSS&at_campaign=rss",
+        "summary": "Stock in major firms such as Microsoft, Nvidia and SpaceX was bought and sold on behalf of the US president.",
+        "source": "BBC News",
+        "pubDate": 1790181767000
+      },
+      {
+        "title": "UK warned over ballooning debt costs and slower growth ahead of Budget",
         "link": "https://www.bbc.co.uk/news/articles/c607ly09y7rlo?at_medium=RSS&at_campaign=rss",
         "summary": "Higher energy prices due to the conflict in the Middle East and climate change could hit growth.",
         "source": "BBC News",
-        "pubDate": 1790155092000
+        "pubDate": 1790171425000
+      },
+      {
+        "title": "Concerns county will not benefit from £2 bus cap",
+        "link": "https://www.bbc.co.uk/news/articles/cqd08m30r2j9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Councillor Justine Peberdy says Yeomans Travel and Sargeants Brothers have not committed to the cap.",
+        "source": "BBC News",
+        "pubDate": 1790160597000
+      },
+      {
+        "title": "Off sick? You need to phone your boss, back-to-work adviser says",
+        "link": "https://www.bbc.co.uk/news/articles/cq0lry248y2zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Relying on text and email means sick workers disengaged and were less likely to work again, says Sir Charlie Mayfield.",
+        "source": "BBC News",
+        "pubDate": 1790160591000
       },
       {
         "title": "UK and US warned to take action on spiralling debt costs by IMF",
@@ -89,64 +110,43 @@
         "summary": "In an interview with the BBC, Kristalina Georgieva says economic shocks had pushed \"debt levels up like a staircase not to heaven\".",
         "source": "BBC News",
         "pubDate": 1790152276000
-      },
-      {
-        "title": "How much do you spend on a birthday present?",
-        "link": "https://www.bbc.co.uk/news/videos/cmj64g887zy9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Do you show you care through expensive presents? Or do you consider a drink in a pub a worthy birthday gift?",
-        "source": "BBC News",
-        "pubDate": 1790140450000
-      },
-      {
-        "title": "How Unions Are Confronting A.I. Threats in the Workplace",
-        "link": "https://www.nytimes.com/2026/09/22/business/economy/unions-ai-negotiations.html",
-        "summary": "The machinists union shows how workers are negotiating for a say in the ways artificial intelligence is used in their workplaces.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790134007000
-      },
-      {
-        "title": "Trump wants AI to be called 'super intelligence'. Will it work?",
-        "link": "https://www.bbc.co.uk/news/articles/cqy4z9pv4w0po?at_medium=RSS&at_campaign=rss",
-        "summary": "Some people close to the president have started to use the term but experts say it is unlikely to catch on.",
-        "source": "BBC News",
-        "pubDate": 1790133630000
       }
     ],
     "world": [
       {
-        "title": "Youth Frustration and Migration Shadow Morocco’s Election",
-        "link": "https://www.nytimes.com/2026/09/23/world/africa/morocco-election-youth-frustration.html",
-        "summary": "Unemployment and poor public services fueled the border crisis at Ceuta and Gen Z protests, but frustrated young people may stay away from the polls.",
-        "source": "NYT > World News",
-        "pubDate": 1790156295000
+        "title": "Trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing",
+        "link": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
+        "summary": "The US Justice Department's response to a lawsuit filed by CNN, Politico and MS NOW also cites national security.",
+        "source": "BBC News",
+        "pubDate": 1790185259000
       },
       {
-        "title": "It’s Not the Oscars: U.N. Speakers Love to Ignore Its 15-Minute Rule",
-        "link": "https://www.nytimes.com/2026/09/23/world/un-speeches-15-minutes.html",
-        "summary": "The chronic flouting of the time limit for speeches highlights a fundamental feature of the United Nations: It is made up of sovereign states that it cannot force to do anything.",
+        "title": "U.N. Live Updates: Iran’s President Accuses U.S. and Israel of Lawless Attacks in a Defiant Address",
+        "link": "https://www.nytimes.com/live/2026/09/23/world/un-general-assembly-iran-ukraine",
+        "summary": "Masoud Pezeshkian said Iran was open to diplomacy but would never accept limits on its civilian nuclear program. Before his speech later today, President Volodymyr Zelensky of Ukra...",
         "source": "NYT > World News",
-        "pubDate": 1790156291000
+        "pubDate": 1790185099000
       },
       {
-        "title": "U.N. Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
-        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
-        "summary": "President Trump said he must decide whether to make a deal or “annihilate” Iran, in a gathering where world leaders typically focus on declarations of global harmony.",
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/09/23/world/un-general-assembly-iran-ukraine/unga-iran-ukraine",
+        "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > World News",
-        "pubDate": 1790154902000
+        "pubDate": 1790184887000
       },
       {
-        "title": "Trump Praises Burnham as ‘Natural Business Person’ After First Meeting",
-        "link": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html",
-        "summary": "Prime Minister Andy Burnham of Britain met with President Trump for the first time on the sidelines of the U.N. General Assembly on Tuesday.",
-        "source": "NYT > World News",
-        "pubDate": 1790154900000
+        "title": "Iran's president tells Trump it will never 'bend the knee'",
+        "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
+        "source": "BBC News",
+        "pubDate": 1790184884000
       },
       {
-        "title": "At the U.N., Japan’s Leader Says It’s Time to End ‘Enemy State’ Label",
-        "link": "https://www.nytimes.com/2026/09/23/world/asia/unga-japan-takaichi-enemy-state.html",
-        "summary": "Prime Minister Sanae Takaichi said the United Nations should scrub the World War II-era designation from its Charter. China and Russia have used the term recently to attack Japan.",
+        "title": "Ancient Wall Found in Paris Provides Clues to City’s Origins",
+        "link": "https://www.nytimes.com/2026/09/23/world/europe/ancient-wall-paris-rome.html",
+        "summary": "A discovery at a Parisian hospital, on an island in the Seine, has given archaeologists clues about the city as Julius Caesar may have found it.",
         "source": "NYT > World News",
-        "pubDate": 1790154179000
+        "pubDate": 1790184814000
       }
     ]
   }
