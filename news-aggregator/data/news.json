@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-09-22T23:29:34.496Z",
+  "lastUpdated": "2026-09-23T09:44:23.470Z",
   "categories": {
     "technology": [
+      {
+        "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+        "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forwar...",
+        "source": "The Verge",
+        "pubDate": 1790122637000
+      },
       {
         "title": "Paramount will need to release way more movies to make this merger work",
         "link": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails",
@@ -29,124 +36,117 @@
         "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says...",
         "source": "The Verge",
         "pubDate": 1790110360000
-      },
-      {
-        "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
-        "link": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
-        "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790109510000
       }
     ],
     "finance": [
       {
-        "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
-        "link": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
-        "summary": "Some analysts say the upbeat data on the Nasdaq’s outlook is backed up by improving fundamentals.",
+        "title": "Why analysts say a diesel export ban could backfire",
+        "link": "https://www.marketwatch.com/story/why-analysts-say-a-diesel-export-ban-could-backfire-8b13cd51?mod=mw_rss_topstories",
+        "summary": "A ban on U.S. diesel exports could reduce supplies and simultaneously lead to prices rising further, according to analysts.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790113440000
+        "pubDate": 1790155740000
       },
       {
-        "title": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
-        "link": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
-        "summary": "Larger AI models and inference are turning NAND from a commodity into a critical component, a Rosenblatt analyst said.",
+        "title": "Here are the hidden flaws in Warsh’s new way of tracking inflation",
+        "link": "https://www.marketwatch.com/story/here-are-the-hidden-flaws-in-warshs-new-way-of-tracking-inflation-fb7939de?mod=mw_rss_topstories",
+        "summary": "Economists at Nomura say the new way Kevin Warsh is tracking inflation doesn’t have better predictive power than core readings.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790112600000
+        "pubDate": 1790155680000
       },
       {
-        "title": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October.",
-        "link": "https://www.marketwatch.com/story/want-to-bet-on-risky-high-beta-stocks-why-you-should-wait-for-this-week-in-october-d9094820?mod=mw_rss_topstories",
-        "summary": "Coming soon is one of the only weeks of the year in which aggressive traders should bet that the highest-beta stocks will beat the lowest ones.",
+        "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
+        "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
+        "summary": "“She currently has about 15 sitters, all independent contractors.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790112420000
+        "pubDate": 1790154900000
       },
       {
-        "title": "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
-        "link": "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories",
-        "summary": "Meta’s new assistant is topping App Store charts and beating ChatGPT’s early download pace, spurring renewed confidence in the company’s AI strategy",
+        "title": "The real estate portfolio of Zendaya and Tom Holland, plus her plans for a room just for her wedding dress",
+        "link": "https://www.marketwatch.com/story/the-real-estate-portfolio-of-zendaya-and-tom-holland-plus-her-plans-for-a-room-just-for-her-wedding-dress-daa9cc93?mod=mw_rss_topstories",
+        "summary": "Tom Holland and Zendaya are reportedly planning to install a climate-controlled room in one of their several properties to preserve her $269,000 wedding gown.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790112360000
+        "pubDate": 1790154060000
       },
       {
-        "title": "Why Apple could soon join Nvidia in the exclusive $5 trillion club",
-        "link": "https://www.marketwatch.com/story/why-apple-could-soon-join-nvidia-in-the-exclusive-5-trillion-club-4e7724e7?mod=mw_rss_topstories",
-        "summary": "A new foldable iPhone and a disciplined AI-spending approach have sent Apple shares to new highs this year",
+        "title": "TV host Maria Menounos lists a beautifully renovated Encino mansion for $7 million",
+        "link": "https://www.marketwatch.com/story/tv-host-maria-menounos-lists-a-beautifully-renovated-encino-mansion-for-7-million-2af120a2?mod=mw_rss_topstories",
+        "summary": "TV personality Maria Menounos has listed her longtime Encino mansion for $6.995 million, two decades after she and husband made the sprawling California estate their home.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790110440000
+        "pubDate": 1790153880000
       }
     ],
     "business": [
       {
-        "title": "'I don't have a buoyancy aid': Living without the Bank of Mum and Dad",
-        "link": "https://www.bbc.co.uk/news/articles/c8dx5p7gd4e9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Three 20-somethings tell BBC News how they are navigating life without parental support.",
+        "title": "UK economy will grow by less than expected next year, OECD says",
+        "link": "https://www.bbc.co.uk/news/articles/c607ly09y7rlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Higher energy prices due to the conflict in the Middle East and climate change could hit growth.",
         "source": "BBC News",
-        "pubDate": 1790119231000
+        "pubDate": 1790155092000
       },
       {
-        "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
-        "link": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
-        "summary": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
-        "source": "BBC News",
-        "pubDate": 1790118693000
-      },
-      {
-        "title": "Will a switch to light speed cut power use at data centres?",
-        "link": "https://www.bbc.co.uk/news/articles/c2dwg3zexkpo?at_medium=RSS&at_campaign=rss",
-        "summary": "To save power and add capacity,  data centres are switching from copper wires to tech using light.",
-        "source": "BBC News",
-        "pubDate": 1790118228000
-      },
-      {
-        "title": "IMF tells advanced economies to 'bring debt down' as borrowing costs rise",
+        "title": "UK and US warned to take action on spiralling debt costs by IMF",
         "link": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
         "summary": "In an interview with the BBC, Kristalina Georgieva says economic shocks had pushed \"debt levels up like a staircase not to heaven\".",
         "source": "BBC News",
-        "pubDate": 1790118088000
+        "pubDate": 1790152276000
       },
       {
-        "title": "New EU industry rules would damage UK, warns Burnham",
-        "link": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
-        "summary": "The prime minister met the European Commission President during his visit to the United Nations General Assembly.",
+        "title": "How much do you spend on a birthday present?",
+        "link": "https://www.bbc.co.uk/news/videos/cmj64g887zy9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Do you show you care through expensive presents? Or do you consider a drink in a pub a worthy birthday gift?",
         "source": "BBC News",
-        "pubDate": 1790111920000
+        "pubDate": 1790140450000
+      },
+      {
+        "title": "How Unions Are Confronting A.I. Threats in the Workplace",
+        "link": "https://www.nytimes.com/2026/09/22/business/economy/unions-ai-negotiations.html",
+        "summary": "The machinists union shows how workers are negotiating for a say in the ways artificial intelligence is used in their workplaces.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790134007000
+      },
+      {
+        "title": "Trump wants AI to be called 'super intelligence'. Will it work?",
+        "link": "https://www.bbc.co.uk/news/articles/cqy4z9pv4w0po?at_medium=RSS&at_campaign=rss",
+        "summary": "Some people close to the president have started to use the term but experts say it is unlikely to catch on.",
+        "source": "BBC News",
+        "pubDate": 1790133630000
       }
     ],
     "world": [
       {
-        "title": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
+        "title": "Youth Frustration and Migration Shadow Morocco’s Election",
+        "link": "https://www.nytimes.com/2026/09/23/world/africa/morocco-election-youth-frustration.html",
+        "summary": "Unemployment and poor public services fueled the border crisis at Ceuta and Gen Z protests, but frustrated young people may stay away from the polls.",
+        "source": "NYT > World News",
+        "pubDate": 1790156295000
+      },
+      {
+        "title": "It’s Not the Oscars: U.N. Speakers Love to Ignore Its 15-Minute Rule",
+        "link": "https://www.nytimes.com/2026/09/23/world/un-speeches-15-minutes.html",
+        "summary": "The chronic flouting of the time limit for speeches highlights a fundamental feature of the United Nations: It is made up of sovereign states that it cannot force to do anything.",
+        "source": "NYT > World News",
+        "pubDate": 1790156291000
+      },
+      {
+        "title": "U.N. Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
         "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
         "summary": "President Trump said he must decide whether to make a deal or “annihilate” Iran, in a gathering where world leaders typically focus on declarations of global harmony.",
         "source": "NYT > World News",
-        "pubDate": 1790118093000
+        "pubDate": 1790154902000
       },
       {
-        "title": "Andy Burnham, U.K.’s New Prime Minister, Prepares for U.N. Spotlight",
-        "link": "https://www.nytimes.com/2026/09/22/world/europe/andy-burnham-unga-ukraine-iran-war.html",
-        "summary": "Andy Burnham appears likely to promote support for Ukraine and hold to tough lines on Israel and the war on Iran.",
+        "title": "Trump Praises Burnham as ‘Natural Business Person’ After First Meeting",
+        "link": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html",
+        "summary": "Prime Minister Andy Burnham of Britain met with President Trump for the first time on the sidelines of the U.N. General Assembly on Tuesday.",
         "source": "NYT > World News",
-        "pubDate": 1790117970000
+        "pubDate": 1790154900000
       },
       {
-        "title": "Trump Threatens Annihilation in Iran in UN Speech and Lays Out Winner-Takes-All Vision",
-        "link": "https://www.nytimes.com/2026/09/22/us/politics/un-trump-speech-iran-venezuela-greenland.html",
-        "summary": "President Trump’s speech at the U.N. General Assembly amounted to a rejection of the founding concept of the United Nations.",
+        "title": "At the U.N., Japan’s Leader Says It’s Time to End ‘Enemy State’ Label",
+        "link": "https://www.nytimes.com/2026/09/23/world/asia/unga-japan-takaichi-enemy-state.html",
+        "summary": "Prime Minister Sanae Takaichi said the United Nations should scrub the World War II-era designation from its Charter. China and Russia have used the term recently to attack Japan.",
         "source": "NYT > World News",
-        "pubDate": 1790117355000
-      },
-      {
-        "title": "Watch: Threats, deals and passionate speeches at UNGA event",
-        "link": "https://www.bbc.co.uk/news/videos/cqkgx8ynj8zko?at_medium=RSS&at_campaign=rss",
-        "summary": "Delegations from across the world attended the United Nations General Assembly in New York.",
-        "source": "BBC News",
-        "pubDate": 1790116424000
-      },
-      {
-        "title": "Japan’s leader aims to highlight her country’s push for a more pivotal global role.",
-        "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/japans-leader-aims-to-highlight-her-countrys-push-for-a-more-pivotal-global-role",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > World News",
-        "pubDate": 1790115969000
+        "pubDate": 1790154179000
       }
     ]
   }
