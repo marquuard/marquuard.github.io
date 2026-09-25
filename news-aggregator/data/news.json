@@ -1,81 +1,102 @@
 {
-  "lastUpdated": "2026-09-25T17:46:03.980Z",
+  "lastUpdated": "2026-09-25T23:49:33.902Z",
   "categories": {
     "technology": [
       {
-        "title": "These camera apps give you more control over the iPhone 18 Pro’s aperture",
-        "link": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
-        "summary": "One of the questionable limitations of the iPhone 18 Pro's new main camera with a variable aperture is that you're limited to just four settings in the native iOS' camera app in ma...",
-        "source": "The Verge",
-        "pubDate": 1790357010000
+        "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
+        "link": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/",
+        "summary": "Better thermals and battery life make this iterative update nicer to use.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790364882000
       },
       {
-        "title": "Tesla&#8217;s Optimus robot is going through growing pains",
-        "link": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
-        "summary": "Hitting its goal of making 20,000 Optimus robots per week is reportedly proving tricky for Tesla. The Information reports that Tesla produced \"several hundred robots a week\" last m...",
-        "source": "The Verge",
-        "pubDate": 1790355696000
+        "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+        "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+        "summary": "\"There is no evidence of any significant, widespread displacement or reduction in hiring”",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790363465000
       },
       {
-        "title": "Meta makes the Muse filesystem even more accessible",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-        "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI cha...",
-        "source": "The Verge",
-        "pubDate": 1790354993000
+        "title": "Paramount/WBD merger conditions give the public \"virtually nothing,\" judge is told",
+        "link": "https://arstechnica.com/tech-policy/2026/09/paramount-wbd-merger-conditions-give-the-public-virtually-nothing-judge-is-told/",
+        "summary": "US judge reviews deal with California, says it must not be result of collusion.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790361777000
       },
       {
-        "title": "Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K",
-        "link": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
-        "summary": "Apple is expected to announce more hardware before the end of the year following the debut of the iPhone 18 Pro and folding iPhone Duo earlier this month. The updated products will...",
-        "source": "The Verge",
-        "pubDate": 1790353325000
+        "title": "Is solar's growth finally slowing in the US?",
+        "link": "https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/",
+        "summary": "Renewables easily cover changes in US demand, which is rising by 2% in 2026.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790360838000
       },
       {
-        "title": "Sony and UMG are suing Suno again",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
-        "summary": "Suno’s AI vocalists could learn a thing or two from this glitchy image. | Image: Cath Virginia / The Verge, Getty Images\t\n\nSony and Universal Music Group filed yet another suit aga...",
+        "title": "Roku&#8217;s first OLED TVs are up to $400 off, starting at $699",
+        "link": "https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale",
+        "summary": "Roku’s new OLED TVs are already marked down. | Image: The Verge\t\n\nRoku recently launched its first-ever OLED TVs. The $999 starting price was already impressive for the 55-inch Pro...",
         "source": "The Verge",
-        "pubDate": 1790351516000
+        "pubDate": 1790360337000
       }
     ],
     "finance": [
       {
-        "title": "I spend my time and money caring for my aging mother — yet she gave my brother $100,000. Should I pull back?",
-        "link": "https://www.marketwatch.com/story/i-spend-my-time-and-money-caring-for-my-aging-mother-yet-she-gave-my-brother-100-000-should-i-pull-back-7e4a3185?mod=mw_rss_topstories",
-        "summary": "“My mother started having more trouble getting around. First a knee replacement, then a fall.”",
+        "title": "My friend is terminally ill. Should she sell her rental home and pay $100,000 in capital gains?",
+        "link": "https://www.marketwatch.com/story/my-friend-is-terminally-ill-should-she-sell-her-rental-home-and-pay-100-000-in-capital-gains-8568aada?mod=mw_rss_topstories",
+        "summary": "“Her younger son lives in the condo, but wants to move elsewhere with friends.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790357400000
+        "pubDate": 1790379000000
       },
       {
-        "title": "This is why you might see 8% mortgage rates soon",
-        "link": "https://www.marketwatch.com/story/this-is-why-you-might-see-8-mortgage-rates-soon-6a2e24dd?mod=mw_rss_topstories",
-        "summary": "Also in Weekend Reads: The bond market selloff’s consequences for AI, a threat to the buy-and-hold investment style and advice from the Moneyist.",
+        "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+        "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+        "summary": "“On each of these weekends away, she’s probably spending $500.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790356800000
+        "pubDate": 1790373600000
       },
       {
-        "title": "Choosing these AI-exposed college majors could dent your job prospects — and lower your pay",
-        "link": "https://www.marketwatch.com/story/choosing-these-ai-exposed-college-majors-could-dent-your-job-prospects-and-lower-your-pay-b80576cb?mod=mw_rss_topstories",
-        "summary": "At a time when many college students say they are rethinking their academic focus because of AI, new findings supply hard data on the potential costs of these decisions.",
+        "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
+        "link": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
+        "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial markets that “I am the house ...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790356260000
+        "pubDate": 1790373420000
       },
       {
-        "title": "How do I know when to ask someone out? I’m 21 and I don’t want to waste my money or my time.",
-        "link": "https://www.marketwatch.com/story/when-is-it-the-right-time-to-ask-someone-out-im-21-and-my-finances-and-identity-still-feel-like-works-in-progress-4bce4fa5?mod=mw_rss_topstories",
-        "summary": "“What signs of mutual interest should someone realistically look for?”",
+        "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
+        "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
+        "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790354880000
+        "pubDate": 1790372700000
       },
       {
-        "title": "Micron investors should get ready for a seesaw ride, analyst says",
-        "link": "https://www.marketwatch.com/story/micron-investors-should-get-ready-for-a-seesaw-ride-analyst-says-1c0cc651?mod=mw_rss_topstories",
-        "summary": "The timing of an Nvidia product ramp may require a balancing act for Micron investors, as some estimated revenue shifts toward next year instead of this year.",
+        "title": "Microsoft’s stock has roared back to life, closing at its highest level of the year",
+        "link": "https://www.marketwatch.com/story/microsofts-stock-has-roared-back-to-life-and-is-now-headed-for-its-highest-close-of-the-year-89e4d596?mod=mw_rss_topstories",
+        "summary": "Microsoft shares got off to a rough start this year, but investors have warmed to the company’s AI narrative over the last few months.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790353620000
+        "pubDate": 1790370240000
       }
     ],
     "business": [
+      {
+        "title": "Diesel prices exceed £2 a litre at hundreds of forecourts across Scotland",
+        "link": "https://www.bbc.co.uk/news/articles/cr86xn04gxj9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Motoring organisation the RAC says it expects the average UK diesel price to hit a new record high over the weekend.",
+        "source": "BBC News",
+        "pubDate": 1790372868000
+      },
+      {
+        "title": "Man City found guilty of breaking financial rules",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cw7v44ezry5go?at_medium=RSS&at_campaign=rss",
+        "summary": "Manchester City have been found guilty of breaking the majority of the 115 financial rules they were accused of breaching.",
+        "source": "BBC News",
+        "pubDate": 1790367072000
+      },
+      {
+        "title": "Save or Overpay? What to do with your mortgage if interest rates rise",
+        "link": "https://www.bbc.co.uk/news/videos/c65y55j2dxepo?at_medium=RSS&at_campaign=rss",
+        "summary": "Save or Overpay? What to do with your mortgage if interest rates rise",
+        "source": "BBC News",
+        "pubDate": 1790361825000
+      },
       {
         "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
         "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
@@ -89,64 +110,43 @@
         "summary": "His stake in DRJB Holdings has entitled him to almost half of its £85.5m in dividend payments.",
         "source": "BBC News",
         "pubDate": 1790352044000
-      },
-      {
-        "title": "Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
-        "link": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo?at_medium=RSS&at_campaign=rss",
-        "summary": "The pipeline would strengthen energy security in landlocked Ethiopia, while creating jobs at Djibouti's port.",
-        "source": "BBC News",
-        "pubDate": 1790346259000
-      },
-      {
-        "title": "Special agents' blood and urine test results stolen in FBI hack",
-        "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
-        "summary": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
-        "source": "BBC News",
-        "pubDate": 1790344576000
-      },
-      {
-        "title": "UK diesel price close to all-time high",
-        "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The average price of a litre of diesel at the pump stands at 198.32p, according to the RAC motoring body.",
-        "source": "BBC News",
-        "pubDate": 1790333449000
       }
     ],
     "world": [
       {
-        "title": "This Tiny Village Is Picture Perfect, Apart From All the Tourists",
-        "link": "https://www.nytimes.com/2026/09/25/world/europe/slovakia-village-tourism.html",
-        "summary": "The residents of Vlkolinec in Slovakia — there are 17 — say that since the place was named a world heritage site, gawking hordes have made it unlivable.",
+        "title": "Carney Seeks New Trade Partners for Canada, But Knows the Limits",
+        "link": "https://www.nytimes.com/2026/09/25/world/canada/carney-canada-european-union-china-india.html",
+        "summary": "Canada’s prime minister is pursuing deeper trade, defense and cultural ties with China, India and the European Union, but none are likely to replace ties to the United States.",
         "source": "NYT > World News",
-        "pubDate": 1790357633000
+        "pubDate": 1790372199000
       },
       {
-        "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
-        "link": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
-        "summary": "Critics have questioned the reliability of the data, warning it could  result in US citizens being wrongly removed from electoral rolls.",
+        "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+        "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+        "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
         "source": "BBC News",
-        "pubDate": 1790357535000
+        "pubDate": 1790369269000
+      },
+      {
+        "title": "6 People Are Missing After Explosion in Athens Tourist District",
+        "link": "https://www.nytimes.com/2026/09/25/world/europe/athens-tourists-explosion.html",
+        "summary": "Four of the missing are believed to be tourists, possibly Americans. Local officials said the cause might have been a gas leak.",
+        "source": "NYT > World News",
+        "pubDate": 1790367822000
       },
       {
         "title": "Catherine Ringer, French Pop Icon of Eclectic Style, Dies at 68",
         "link": "https://www.nytimes.com/2026/09/25/world/europe/catherine-ringer-dead.html",
         "summary": "With her guitarist-partner, Fred Chichin, she formed Les Rita Mitsouko as a band that embraced a more multicultural France.",
         "source": "NYT > World News",
-        "pubDate": 1790357206000
+        "pubDate": 1790367477000
       },
       {
-        "title": "Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7",
-        "link": "https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html",
-        "summary": "The warning from the leader of the United Arab Emirates, which lacked specific details about the nature of an attack, never reached the chiefs of Israel’s security establishment, I...",
+        "title": "His Novel Had a Shot at a Top Book Prize. Then Someone Ran an A.I. Test.",
+        "link": "https://www.nytimes.com/2026/09/25/world/europe/thelyson-orelien-ai-canada-haiti-france.html",
+        "summary": "“It Was Either That Or Die,” by the Haitian-Canadian author Thélyson Orélien, was the hit of the French literary season. Now it has been pulled from the shortlist for a prestigious...",
         "source": "NYT > World News",
-        "pubDate": 1790356517000
-      },
-      {
-        "title": "Internet restricted after fighting breaks out in Ethiopia's Tigray region",
-        "link": "https://www.bbc.co.uk/news/articles/cqp8dxxg325no?at_medium=RSS&at_campaign=rss",
-        "summary": "During the two-year civil war in Tigray, the region was totally cut off from the outside world.",
-        "source": "BBC News",
-        "pubDate": 1790356435000
+        "pubDate": 1790367100000
       }
     ]
   }
