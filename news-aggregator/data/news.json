@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-09-24T23:45:44.111Z",
+  "lastUpdated": "2026-09-25T09:59:41.442Z",
   "categories": {
     "technology": [
+      {
+        "title": "Here’s the Tesla Semi… again",
+        "link": "https://www.theverge.com/transportation/1000317/tesla-semi-launch-customer-delivery-freight-battery-engineer",
+        "summary": "Remember the Tesla Semi? The long-gestating, heavy-duty truck first introduced in concept form in 2017 is finally in volume production as of April 2026 - nearly a decade after its ...",
+        "source": "The Verge",
+        "pubDate": 1790302377000
+      },
+      {
+        "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
+        "link": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
+        "summary": "Microsoft CEO Satya Nadella introducing the company’s Copilot Plus PC initiative. | Image: Allison Johnson\t\n\nRemember when Microsoft wanted everyone to know that \"Copilot Plus PCs\"...",
+        "source": "The Verge",
+        "pubDate": 1790299553000
+      },
+      {
+        "title": "Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures",
+        "link": "https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats",
+        "summary": "Meta's lawyers have argued that certain evidence should be withheld from public view on the grounds of attorney-client privilege in the ongoing lawsuits over alleged harm to teens'...",
+        "source": "The Verge",
+        "pubDate": 1790293855000
+      },
       {
         "title": "Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream",
         "link": "https://www.theverge.com/tech/1000443/qualcomms-new-elite-sound-chip-might-finally-deliver-the-wi-fi-earbud-dream",
@@ -15,30 +36,30 @@
         "summary": "Health department previously blamed delay on \"not yet finalized procurement decisions.\"",
         "source": "Ars Technica - All content",
         "pubDate": 1790288988000
-      },
-      {
-        "title": "Microsoft puts Brad Smith in charge of communications",
-        "link": "https://www.theverge.com/news/1000374/microsoft-comms-pr-brad-smith-cela",
-        "summary": "Microsoft vice chair and president Brad Smith. | Image: Getty Images\t\n\nMicrosoft is moving its communications group out of marketing and into its Corporate, External, and Legal Aff...",
-        "source": "The Verge",
-        "pubDate": 1790287702000
-      },
-      {
-        "title": "Donald Duck's uncle was partly based on Wernher von Braun",
-        "link": "https://arstechnica.com/space/2026/09/disneys-ludwig-von-drake-was-inspired-by-rocket-scientists-65-years-ago/",
-        "summary": "Introducing the \"world-famous authority on outer space...\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790286007000
-      },
-      {
-        "title": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
-        "link": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
-        "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and sho...",
-        "source": "The Verge",
-        "pubDate": 1790279966000
       }
     ],
     "finance": [
+      {
+        "title": "After capital-markets day flop, Novo strikes licensing deal that sends a Swedish company’s stock soaring",
+        "link": "https://www.marketwatch.com/story/after-capital-markets-day-flop-novo-strikes-licensing-deal-that-sends-a-swedish-companys-stock-soaring-f3c99cbe?mod=mw_rss_topstories",
+        "summary": "Just days after a capital-markets day left investors wondering what’s next for Novo Nordisk, the Danish drug giant struck a licensing deal worth over $1 billion.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790327460000
+      },
+      {
+        "title": "The low-key California property portfolio of ‘Wednesday’ star Jenna Ortega",
+        "link": "https://www.marketwatch.com/story/the-low-key-california-property-portfolio-of-wednesday-star-jenna-ortega-1e0c80cb?mod=mw_rss_topstories",
+        "summary": "“Wednesday” star Jenna Ortega may be one of Hollywood’s most recognizable young actresses, but when it comes to real estate, she has kept a relatively low profile.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790326860000
+      },
+      {
+        "title": "Akamai stock is surging. A $12 billion Anthropic deal reveals its powerful edge over cloud providers.",
+        "link": "https://www.marketwatch.com/story/akamai-stock-is-surging-a-12-billion-anthropic-deal-reveals-its-powerful-edge-over-cloud-providers-0b60ca6d?mod=mw_rss_topstories",
+        "summary": "Akamai has agreed to supply cloud computing services to Anthropic.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790325720000
+      },
       {
         "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
         "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
@@ -52,101 +73,80 @@
         "summary": "When Micron reports earnings next week, a Rosenblatt analyst expects to hear about additional customer agreements, rising prices and stock buybacks.",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1790292480000
-      },
-      {
-        "title": "The S&P 500’s newest tech stock is now its best performer",
-        "link": "https://www.marketwatch.com/story/the-s-p-500s-newest-tech-stock-is-now-its-best-performer-5bfeb6e2?mod=mw_rss_topstories",
-        "summary": "Shares of data-storage company Everpure were leading S&P 500 gainers on Thursday.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790292360000
-      },
-      {
-        "title": "Costco’s results beat expectations. Here’s why investors are still cautious.",
-        "link": "https://www.marketwatch.com/story/costco-earnings-beat-expectations-thanks-to-tariff-refunds-e7270cfa?mod=mw_rss_topstories",
-        "summary": "Tariff refunds helped deliver a profit beat during Costco’s fourth quarter.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790292180000
-      },
-      {
-        "title": "I spend my time and money caring for my aging mother — yet she gave my brother $100,000. Should I pull back?",
-        "link": "https://www.marketwatch.com/story/i-spend-my-time-and-money-caring-for-my-aging-mother-yet-she-gave-my-brother-100-000-should-i-pull-back-7e4a3185?mod=mw_rss_topstories",
-        "summary": "“My mother started having more trouble getting around. First a knee replacement, then a fall.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790291760000
       }
     ],
     "business": [
       {
-        "title": "X-planes: Are they needed in the new era of drones?",
-        "link": "https://www.bbc.co.uk/news/articles/c9q92x359xdo?at_medium=RSS&at_campaign=rss",
-        "summary": "Where do America's X-plane projects fit in an era of cheap drones?",
+        "title": "Business Daily",
+        "link": "https://www.bbc.co.uk/sounds/play/w3ct8g9v?at_medium=RSS&at_campaign=rss",
+        "summary": "Did trade frenemies find common ground at the White House?",
         "source": "BBC News",
-        "pubDate": 1790291033000
+        "pubDate": 1790329260000
       },
       {
-        "title": "'We're all broke': Would you chase a friend for £5?",
-        "link": "https://www.bbc.co.uk/news/articles/cmly439q4y27o?at_medium=RSS&at_campaign=rss",
-        "summary": "What's the smallest amount of money you would ask a friend to pay you back?",
+        "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
+        "link": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
+        "summary": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
         "source": "BBC News",
-        "pubDate": 1790290845000
+        "pubDate": 1790325116000
       },
       {
-        "title": "Tech Titans Will Mingle With Trump and Xi at State Dinner",
-        "link": "https://www.nytimes.com/2026/09/24/business/economy/tech-executives-state-dinner-xi-trump.html",
-        "summary": "Prominent executives are expected to attend a dinner at the White House Thursday night, as the countries wrangle over tariffs, trade and potential A.I. regulation.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790284797000
+        "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+        "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Despite diplomatic niceties and gifts, little was shared on substantial issues separating the leaders.",
+        "source": "BBC News",
+        "pubDate": 1790323766000
       },
       {
-        "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-        "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
-        "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+        "title": "Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
+        "link": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The pipeline would strengthen energy security in landlocked Ethiopia, while creating jobs at Djibouti's port.",
         "source": "BBC News",
-        "pubDate": 1790273200000
+        "pubDate": 1790318887000
       },
       {
-        "title": "Reported assaults on Britain's rail services rise by more than a third",
-        "link": "https://www.bbc.co.uk/news/articles/c6z0z5dz884lo?at_medium=RSS&at_campaign=rss",
-        "summary": "Recorded incidents of violence and harassment against passengers and rail workers showed a sharp increase in the year to March.",
+        "title": "Farmers down 240 million litres of milk after heat ",
+        "link": "https://www.bbc.co.uk/news/articles/cjvgy7qd20wgo?at_medium=RSS&at_campaign=rss",
+        "summary": "Milk yield was affected by a series of extreme heatwaves which led to poor grazing conditions, researchers say.",
         "source": "BBC News",
-        "pubDate": 1790264330000
+        "pubDate": 1790314213000
       }
     ],
     "world": [
       {
-        "title": "U.N. Live Updates: Netanyahu Lashes Out at Critics and Underscores Threats to Israel",
-        "link": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
-        "summary": "In a combative speech, the prime minister defended Israeli military action across the Middle East, and attacked Mayor Zohran Mamdani of New York. Dozens of delegates walked out of ...",
+        "title": "25int-pope-press-zlqm",
+        "link": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-media-trump.html",
+        "summary": "Asked about the Trump administration’s restrictions on journalists, Leo told reporters accompanying him on a flight to France that they were “all welcome.”",
         "source": "NYT > World News",
-        "pubDate": 1790293424000
+        "pubDate": 1790329786000
       },
       {
-        "title": "From Nagaland to a path to the Oscars: Indian film brings a rarely seen world to global cinema",
-        "link": "https://www.bbc.co.uk/news/articles/cv2dwk3z7x5eo?at_medium=RSS&at_campaign=rss",
-        "summary": "After a major win at Toronto, Angh, a film from northeastern India, is now on a path towards the Oscars.",
+        "title": "Hundreds of thousands expected in Paris for Pope's visit",
+        "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+        "summary": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people.",
         "source": "BBC News",
-        "pubDate": 1790293270000
+        "pubDate": 1790328937000
       },
       {
-        "title": "Netanyahu Lashes Out at Foes in U.N. Speech, Including Mamdani",
-        "link": "https://www.nytimes.com/2026/09/24/world/middleeast/netanyahu-speech-un-general-assembly.html",
-        "summary": "Prime Minister Benjamin Netanyahu of Israel lashed out at a litany of enemies but took particular verbal aim at Mayor Zohran Mamdani.",
+        "title": "Far-Right Activist Danny Tommo Arrested After Slashing Dinghy in English Channel",
+        "link": "https://www.nytimes.com/2026/09/24/world/europe/danny-tommo-arrested-uk-migrants-far-right.html",
+        "summary": "The man, Daniel Thomas, was following migrants traveling across the English Channel when he filmed himself slashing an inflatable dinghy that had an emergency responder on board.",
         "source": "NYT > World News",
-        "pubDate": 1790292879000
+        "pubDate": 1790328005000
       },
       {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news/israel-palestinians-venezuela-xi",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > World News",
-        "pubDate": 1790292774000
-      },
-      {
-        "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-        "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+        "title": "Robbie Williams' surprise singalong after Peru gig cancelled",
+        "link": "https://www.bbc.co.uk/news/videos/c3qjkxk58y02o?at_medium=RSS&at_campaign=rss",
+        "summary": "Robbie Williams gave an impromptu performance outside a hotel in Lima after his stadium concert was cancelled.",
         "source": "BBC News",
-        "pubDate": 1790292771000
+        "pubDate": 1790328004000
+      },
+      {
+        "title": "A Russian Software Company Duped the Secret Service, U.S. Prosecutors Say",
+        "link": "https://www.nytimes.com/2026/09/25/world/europe/russia-software-arrest.html",
+        "summary": "Executives from a Russian-owned company are accused of misrepresentation in order to secure U.S. government contracts.",
+        "source": "NYT > World News",
+        "pubDate": 1790327003000
       }
     ]
   }
