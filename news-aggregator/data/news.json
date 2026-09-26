@@ -1,44 +1,51 @@
 {
-  "lastUpdated": "2026-09-25T23:49:33.902Z",
+  "lastUpdated": "2026-09-26T09:42:04.384Z",
   "categories": {
     "technology": [
       {
-        "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
-        "link": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/",
-        "summary": "Better thermals and battery life make this iterative update nicer to use.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790364882000
-      },
-      {
-        "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
-        "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
-        "summary": "\"There is no evidence of any significant, widespread displacement or reduction in hiring”",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790363465000
-      },
-      {
-        "title": "Paramount/WBD merger conditions give the public \"virtually nothing,\" judge is told",
-        "link": "https://arstechnica.com/tech-policy/2026/09/paramount-wbd-merger-conditions-give-the-public-virtually-nothing-judge-is-told/",
-        "summary": "US judge reviews deal with California, says it must not be result of collusion.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790361777000
-      },
-      {
-        "title": "Is solar's growth finally slowing in the US?",
-        "link": "https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/",
-        "summary": "Renewables easily cover changes in US demand, which is rising by 2% in 2026.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790360838000
-      },
-      {
-        "title": "Roku&#8217;s first OLED TVs are up to $400 off, starting at $699",
-        "link": "https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale",
-        "summary": "Roku’s new OLED TVs are already marked down. | Image: The Verge\t\n\nRoku recently launched its first-ever OLED TVs. The $999 starting price was already impressive for the 55-inch Pro...",
+        "title": "Can &#8216;eSUV&#8217; e-bikes really go from trail to town?",
+        "link": "https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox",
+        "summary": "Have you ever wanted an electric bike that easily transitions from the drudgery of urban asphalt to adventures in gravel and dirt? That's what a subclass of so-called \"electric SUV...",
         "source": "The Verge",
-        "pubDate": 1790360337000
+        "pubDate": 1790406000000
+      },
+      {
+        "title": "Can Trump ever be wrong? His pick to lead FDA refused to say.",
+        "link": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
+        "summary": "Heidi Overton faced questions focused on vaccines, birth control, and vapes.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790377226000
+      },
+      {
+        "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+        "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+        "summary": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790372180000
+      },
+      {
+        "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+        "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+        "summary": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790370651000
+      },
+      {
+        "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
+        "link": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
+        "summary": "Ads appearing all over the Internet are trying to scam people.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790365139000
       }
     ],
     "finance": [
+      {
+        "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
+        "link": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
+        "summary": "“I am a retired senior citizen living check-to-check.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790380800000
+      },
       {
         "title": "My friend is terminally ill. Should she sell her rental home and pay $100,000 in capital gains?",
         "link": "https://www.marketwatch.com/story/my-friend-is-terminally-ill-should-she-sell-her-rental-home-and-pay-100-000-in-capital-gains-8568aada?mod=mw_rss_topstories",
@@ -66,87 +73,80 @@
         "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1790372700000
-      },
-      {
-        "title": "Microsoft’s stock has roared back to life, closing at its highest level of the year",
-        "link": "https://www.marketwatch.com/story/microsofts-stock-has-roared-back-to-life-and-is-now-headed-for-its-highest-close-of-the-year-89e4d596?mod=mw_rss_topstories",
-        "summary": "Microsoft shares got off to a rough start this year, but investors have warmed to the company’s AI narrative over the last few months.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790370240000
       }
     ],
     "business": [
       {
-        "title": "Diesel prices exceed £2 a litre at hundreds of forecourts across Scotland",
+        "title": "Scottish drivers hit as diesel passes £2 a litre across the country",
         "link": "https://www.bbc.co.uk/news/articles/cr86xn04gxj9o?at_medium=RSS&at_campaign=rss",
         "summary": "Motoring organisation the RAC says it expects the average UK diesel price to hit a new record high over the weekend.",
         "source": "BBC News",
-        "pubDate": 1790372868000
+        "pubDate": 1790409930000
       },
       {
-        "title": "Man City found guilty of breaking financial rules",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cw7v44ezry5go?at_medium=RSS&at_campaign=rss",
-        "summary": "Manchester City have been found guilty of breaking the majority of the 115 financial rules they were accused of breaching.",
+        "title": "Fuel costs putting off meal delivery driver applicants",
+        "link": "https://www.bbc.co.uk/news/articles/c6wyzkwnd258o?at_medium=RSS&at_campaign=rss",
+        "summary": "Maureen Bougeard says some prospective volunteers do not respond after learning about expenses.",
         "source": "BBC News",
-        "pubDate": 1790367072000
+        "pubDate": 1790404382000
       },
       {
-        "title": "Save or Overpay? What to do with your mortgage if interest rates rise",
-        "link": "https://www.bbc.co.uk/news/videos/c65y55j2dxepo?at_medium=RSS&at_campaign=rss",
-        "summary": "Save or Overpay? What to do with your mortgage if interest rates rise",
+        "title": "OpenAI bots meddled with multiple US government agency sites",
+        "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+        "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
         "source": "BBC News",
-        "pubDate": 1790361825000
+        "pubDate": 1790391056000
       },
       {
-        "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
-        "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Despite diplomatic niceties and gifts, little was shared on substantial issues separating the leaders.",
+        "title": "Could an iced coffee freeze you out of the job market?",
+        "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
+        "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
         "source": "BBC News",
-        "pubDate": 1790352114000
+        "pubDate": 1790377702000
       },
       {
-        "title": "Sir David Beckham nets £38.5m after World Cup ad deals",
-        "link": "https://www.bbc.co.uk/news/articles/crkgww5j0yzwo?at_medium=RSS&at_campaign=rss",
-        "summary": "His stake in DRJB Holdings has entitled him to almost half of its £85.5m in dividend payments.",
+        "title": "Clubs seek legal advice over Man City charges compensation",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
         "source": "BBC News",
-        "pubDate": 1790352044000
+        "pubDate": 1790367233000
       }
     ],
     "world": [
       {
-        "title": "Carney Seeks New Trade Partners for Canada, But Knows the Limits",
-        "link": "https://www.nytimes.com/2026/09/25/world/canada/carney-canada-european-union-china-india.html",
-        "summary": "Canada’s prime minister is pursuing deeper trade, defense and cultural ties with China, India and the European Union, but none are likely to replace ties to the United States.",
-        "source": "NYT > World News",
-        "pubDate": 1790372199000
-      },
-      {
-        "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-        "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
-        "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
-        "source": "BBC News",
-        "pubDate": 1790369269000
-      },
-      {
-        "title": "6 People Are Missing After Explosion in Athens Tourist District",
+        "title": "At Least 2 Dead After Explosion in Athens Tourist District",
         "link": "https://www.nytimes.com/2026/09/25/world/europe/athens-tourists-explosion.html",
-        "summary": "Four of the missing are believed to be tourists, possibly Americans. Local officials said the cause might have been a gas leak.",
+        "summary": "Four people, some of them believed to be tourists, were still missing. Local officials said the cause might have been a gas leak.",
         "source": "NYT > World News",
-        "pubDate": 1790367822000
+        "pubDate": 1790413985000
       },
       {
-        "title": "Catherine Ringer, French Pop Icon of Eclectic Style, Dies at 68",
-        "link": "https://www.nytimes.com/2026/09/25/world/europe/catherine-ringer-dead.html",
-        "summary": "With her guitarist-partner, Fred Chichin, she formed Les Rita Mitsouko as a band that embraced a more multicultural France.",
+        "title": "Heroine or Public Enemy? The Israeli Blocking Much of Netanyahu’s Agenda.",
+        "link": "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
+        "summary": "Gali Baharav-Miara, Israel’s first female attorney general, has stopped many of the government’s efforts to remove constraints on its power.",
         "source": "NYT > World News",
-        "pubDate": 1790367477000
+        "pubDate": 1790413210000
       },
       {
-        "title": "His Novel Had a Shot at a Top Book Prize. Then Someone Ran an A.I. Test.",
-        "link": "https://www.nytimes.com/2026/09/25/world/europe/thelyson-orelien-ai-canada-haiti-france.html",
-        "summary": "“It Was Either That Or Die,” by the Haitian-Canadian author Thélyson Orélien, was the hit of the French literary season. Now it has been pulled from the shortlist for a prestigious...",
+        "title": "He Ran a Top Lady Gaga Fan Page. Then He Vanished.",
+        "link": "https://www.nytimes.com/2026/09/26/world/europe/lady-gaga-daily-founder-belarus-prison.html",
+        "summary": "Kirill Nguyen, the founder of Gaga Daily, said he had been imprisoned in Belarus for participating in pro-democracy protests. He resurfaced this week after an absence of more than ...",
         "source": "NYT > World News",
-        "pubDate": 1790367100000
+        "pubDate": 1790411040000
+      },
+      {
+        "title": "Bangkok roads submerged as flood disaster declared",
+        "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
+        "summary": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
+        "source": "BBC News",
+        "pubDate": 1790407290000
+      },
+      {
+        "title": "Bangkok declares disaster as heavy rains spark flooding",
+        "link": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Days of near continuous downpours have caused widespread flooding in the Thai capital.",
+        "source": "BBC News",
+        "pubDate": 1790404138000
       }
     ]
   }
