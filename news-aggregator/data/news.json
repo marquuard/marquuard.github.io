@@ -1,81 +1,88 @@
 {
-  "lastUpdated": "2026-09-26T09:42:04.384Z",
+  "lastUpdated": "2026-09-26T16:52:07.509Z",
   "categories": {
     "technology": [
       {
-        "title": "Can &#8216;eSUV&#8217; e-bikes really go from trail to town?",
-        "link": "https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox",
-        "summary": "Have you ever wanted an electric bike that easily transitions from the drudgery of urban asphalt to adventures in gravel and dirt? That's what a subclass of so-called \"electric SUV...",
+        "title": "OpenAI pauses training of its ‘most capable models’",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+        "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most pow...",
         "source": "The Verge",
-        "pubDate": 1790406000000
+        "pubDate": 1790440499000
       },
       {
-        "title": "Can Trump ever be wrong? His pick to lead FDA refused to say.",
-        "link": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
-        "summary": "Heidi Overton faced questions focused on vaccines, birth control, and vapes.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790377226000
+        "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+        "link": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+        "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business.\nMatthew last joined us on the show about two ...",
+        "source": "The Verge",
+        "pubDate": 1790431200000
       },
       {
-        "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
-        "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-        "summary": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790372180000
+        "title": "Control Resonant is a great game — it’s even better when you read everything",
+        "link": "https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs",
+        "summary": "In Control Resonant, the entire world is at stake. But that didn't stop the diligent employees of the Federal Bureau of Control from filing reams of paperwork, and it didn't stop m...",
+        "source": "The Verge",
+        "pubDate": 1790427600000
       },
       {
-        "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-        "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
-        "summary": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790370651000
+        "title": "Pokémon card resellers have turned collecting into an online blood sport",
+        "link": "https://www.theverge.com/games/1001002/pokemon-30th-celebration-scalping-resellers",
+        "summary": "Earlier this month, Pokémon card content creator Natalie Roush posted a video to her YouTube and Instagram pages that enraged the larger collection community. In the now-deleted vi...",
+        "source": "The Verge",
+        "pubDate": 1790424000000
       },
       {
-        "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
-        "link": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
-        "summary": "Ads appearing all over the Internet are trying to scam people.",
+        "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+        "link": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+        "summary": "The 500-mile Semi arrives as charging gaps still limit electric trucking.",
         "source": "Ars Technica - All content",
-        "pubDate": 1790365139000
+        "pubDate": 1790419509000
       }
     ],
     "finance": [
       {
-        "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
-        "link": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
-        "summary": "“I am a retired senior citizen living check-to-check.”",
+        "title": "Choosing these AI-exposed college majors could dent your job prospects — and lower your pay",
+        "link": "https://www.marketwatch.com/story/choosing-these-ai-exposed-college-majors-could-dent-your-job-prospects-and-lower-your-pay-b80576cb?mod=mw_rss_topstories",
+        "summary": "At a time when many college students say they are rethinking their academic focus because of AI, new findings supply hard data on the potential costs of these decisions.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790380800000
+        "pubDate": 1790439720000
       },
       {
-        "title": "My friend is terminally ill. Should she sell her rental home and pay $100,000 in capital gains?",
-        "link": "https://www.marketwatch.com/story/my-friend-is-terminally-ill-should-she-sell-her-rental-home-and-pay-100-000-in-capital-gains-8568aada?mod=mw_rss_topstories",
-        "summary": "“Her younger son lives in the condo, but wants to move elsewhere with friends.”",
+        "title": "Tax-free bond yields are in a sweet spot. Get in before it’s too late.",
+        "link": "https://www.marketwatch.com/story/tax-free-bond-yields-are-in-a-sweet-spot-get-in-before-its-too-late-94b8adac?mod=mw_rss_topstories",
+        "summary": "Yields on municipal bonds — adjusted for taxable-equivalent comparisons — have widened dramatically over those of corporate bonds over the past two months.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790379000000
+        "pubDate": 1790437680000
       },
       {
         "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
         "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
         "summary": "“On each of these weekends away, she’s probably spending $500.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790373600000
+        "pubDate": 1790436600000
       },
       {
-        "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
-        "link": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
-        "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial markets that “I am the house ...",
+        "title": "Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.",
+        "link": "https://www.marketwatch.com/story/millions-will-lose-medicaid-once-new-work-rules-kick-in-these-groups-will-be-hit-the-hardest-507694d3?mod=mw_rss_topstories",
+        "summary": "The changes will cut about $1 trillion from federal Medicaid spending over 10 years.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790373420000
+        "pubDate": 1790436600000
       },
       {
-        "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-        "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
-        "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
+        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
+        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+        "summary": "“As a country, we have grown dangerously comfortable.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790372700000
+        "pubDate": 1790436600000
       }
     ],
     "business": [
+      {
+        "title": "Could an iced coffee freeze you out of the job market?",
+        "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
+        "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
+        "source": "BBC News",
+        "pubDate": 1790417136000
+      },
       {
         "title": "Scottish drivers hit as diesel passes £2 a litre across the country",
         "link": "https://www.bbc.co.uk/news/articles/cr86xn04gxj9o?at_medium=RSS&at_campaign=rss",
@@ -98,13 +105,6 @@
         "pubDate": 1790391056000
       },
       {
-        "title": "Could an iced coffee freeze you out of the job market?",
-        "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
-        "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
-        "source": "BBC News",
-        "pubDate": 1790377702000
-      },
-      {
         "title": "Clubs seek legal advice over Man City charges compensation",
         "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
         "summary": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "At Least 2 Dead After Explosion in Athens Tourist District",
-        "link": "https://www.nytimes.com/2026/09/25/world/europe/athens-tourists-explosion.html",
-        "summary": "Four people, some of them believed to be tourists, were still missing. Local officials said the cause might have been a gas leak.",
+        "title": "Trump Rejects Iran’s Cease-Fire Proposal to Reopen Strait of Hormuz",
+        "link": "https://www.nytimes.com/2026/09/26/us/politics/trump-iran-hormuz-strait.html",
+        "summary": "The president said the deal was not “acceptable” and demurred on whether he would restart military strikes after the midterm elections.",
         "source": "NYT > World News",
-        "pubDate": 1790413985000
+        "pubDate": 1790440210000
       },
       {
-        "title": "Heroine or Public Enemy? The Israeli Blocking Much of Netanyahu’s Agenda.",
-        "link": "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
-        "summary": "Gali Baharav-Miara, Israel’s first female attorney general, has stopped many of the government’s efforts to remove constraints on its power.",
-        "source": "NYT > World News",
-        "pubDate": 1790413210000
-      },
-      {
-        "title": "He Ran a Top Lady Gaga Fan Page. Then He Vanished.",
-        "link": "https://www.nytimes.com/2026/09/26/world/europe/lady-gaga-daily-founder-belarus-prison.html",
-        "summary": "Kirill Nguyen, the founder of Gaga Daily, said he had been imprisoned in Belarus for participating in pro-democracy protests. He resurfaced this week after an absence of more than ...",
-        "source": "NYT > World News",
-        "pubDate": 1790411040000
-      },
-      {
-        "title": "Bangkok roads submerged as flood disaster declared",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
-        "summary": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
+        "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president says Tehran had only put forward the proposal because it is losing the war.",
         "source": "BBC News",
-        "pubDate": 1790407290000
+        "pubDate": 1790439389000
       },
       {
-        "title": "Bangkok declares disaster as heavy rains spark flooding",
-        "link": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Days of near continuous downpours have caused widespread flooding in the Thai capital.",
+        "title": "German town bans 'stumbling stone' memorials to Nazi victims",
+        "link": "https://www.bbc.co.uk/news/articles/cqm2mm4y5dkko?at_medium=RSS&at_campaign=rss",
+        "summary": "Germany's education minister has branded the ban on the small brass memorial plaques a \"scandal\".",
         "source": "BBC News",
-        "pubDate": 1790404138000
+        "pubDate": 1790437731000
+      },
+      {
+        "title": "Brazil's Lula bans online gambling ahead of presidential election",
+        "link": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
+        "source": "BBC News",
+        "pubDate": 1790437600000
+      },
+      {
+        "title": "Watch: Bangkok declared flood disaster zone",
+        "link": "https://www.bbc.co.uk/news/videos/cwp933mr9v1xo?at_medium=RSS&at_campaign=rss",
+        "summary": "Heavy rain over the last two days has overwhelmed Bangkok's water systems, with more rain forecast on Sunday.",
+        "source": "BBC News",
+        "pubDate": 1790436858000
       }
     ]
   }
