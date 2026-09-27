@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T23:22:40.842Z",
+  "lastUpdated": "2026-09-27T10:21:54.861Z",
   "categories": {
     "technology": [
       {
@@ -77,11 +77,32 @@
     ],
     "business": [
       {
+        "title": "Baby bank's urgent appeal as demand for help grows",
+        "link": "https://www.bbc.co.uk/news/articles/c81dl1qkxg7xo?at_medium=RSS&at_campaign=rss",
+        "summary": "The founder of Leeds Baby Bank says the charity has seen a \"massive\" increase in referrals recently.",
+        "source": "BBC News",
+        "pubDate": 1790495659000
+      },
+      {
         "title": "The ecstasy of buying our first home was short-lived after we found 150 faults",
         "link": "https://www.bbc.co.uk/news/articles/c2dyxg0zkpko?at_medium=RSS&at_campaign=rss",
         "summary": "Getting the keys to a new home felt like a dream come true, until this couple found 150 faults.",
         "source": "BBC News",
-        "pubDate": 1790455935000
+        "pubDate": 1790489927000
+      },
+      {
+        "title": "Faisal Islam: The two big decisions the chancellor must make",
+        "link": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
+        "summary": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
+        "source": "BBC News",
+        "pubDate": 1790463642000
+      },
+      {
+        "title": "Heathrow Airport warns third runway could be delayed by four years",
+        "link": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK's busiest airport cautions it may miss the government target of 2035 as ministers say the deadline has \"always been ambitious\".",
+        "source": "BBC News",
+        "pubDate": 1790440362000
       },
       {
         "title": "Could an iced coffee freeze you out of the job market?",
@@ -89,64 +110,43 @@
         "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
         "source": "BBC News",
         "pubDate": 1790417136000
-      },
-      {
-        "title": "Scottish drivers hit as diesel passes £2 a litre across the country",
-        "link": "https://www.bbc.co.uk/news/articles/cr86xn04gxj9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Motoring organisation the RAC says it expects the average UK diesel price to hit a new record high over the weekend.",
-        "source": "BBC News",
-        "pubDate": 1790409930000
-      },
-      {
-        "title": "Fuel costs putting off meal delivery driver applicants",
-        "link": "https://www.bbc.co.uk/news/articles/c6wyzkwnd258o?at_medium=RSS&at_campaign=rss",
-        "summary": "Maureen Bougeard says some prospective volunteers do not respond after learning about expenses.",
-        "source": "BBC News",
-        "pubDate": 1790404382000
-      },
-      {
-        "title": "OpenAI bots meddled with multiple US government agency sites",
-        "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-        "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
-        "source": "BBC News",
-        "pubDate": 1790391056000
       }
     ],
     "world": [
       {
-        "title": "Evicted 87-Year-Old Woman Urges Spaniards to ‘Fight’ to Avoid Same Fate",
-        "link": "https://www.nytimes.com/2026/09/25/world/europe/spain-eviction-housing-crisis.html",
-        "summary": "María del Carmen Abascal, whose case has become a symbol of Spain’s housing crisis, appeared in a video from a hospital bed after being removed from her apartment.",
+        "title": "Two mass shootings in South Africa leave 27 dead",
+        "link": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
+        "source": "BBC News",
+        "pubDate": 1790503236000
+      },
+      {
+        "title": "The Raffles’ Singapore Sling Costs $40. There’s a Reason Tourists Still Love It.",
+        "link": "https://www.nytimes.com/2026/09/27/world/asia/singapore-sling-raffles-hotel-cocktail.html",
+        "summary": "You can still buy a Singapore Sling in the colonial-era hotel where it’s said to have been invented more than a century ago. Custom versions have arisen nearby.",
         "source": "NYT > World News",
-        "pubDate": 1790461332000
+        "pubDate": 1790500314000
       },
       {
-        "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
-        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran's foreign minister acknowledges Trump's comments, but adds that Tehran is waiting for the \"definitive views\" of mediators.",
-        "source": "BBC News",
-        "pubDate": 1790460959000
-      },
-      {
-        "title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
-        "summary": "Tens of millions of people from Maine to Virginia are in the path of the powerful storm.",
-        "source": "BBC News",
-        "pubDate": 1790460266000
-      },
-      {
-        "title": "At Summit, Xi Sought to Tilt Trump’s Stance on America’s Place in Asia",
-        "link": "https://www.nytimes.com/2026/09/26/world/asia/summit-xi-trump-taiwan-japan.html",
-        "summary": "In his talks with President Trump, the Chinese leader used praise, warnings and wartime history to challenge American support for Taiwan and Japan.",
+        "title": "As A.I. Accelerates, Governments Are Increasingly Being Left Behind",
+        "link": "https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html",
+        "summary": "The gap between technology and policymaking has gotten wider than ever with artificial intelligence, leaving a global policy vacuum as A.I. models rapidly advance.",
         "source": "NYT > World News",
-        "pubDate": 1790458317000
+        "pubDate": 1790499680000
       },
       {
-        "title": "Mother of woman found hanging in tree shocked as police say body was staged",
-        "link": "https://www.bbc.co.uk/news/articles/cq4gmmdl52rgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Christy Spivey tells the BBC she only has more questions now police think Tasia Fortune's body was put in the tree after her death.",
+        "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+        "link": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+        "summary": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
         "source": "BBC News",
-        "pubDate": 1790457193000
+        "pubDate": 1790495051000
+      },
+      {
+        "title": "Bangkok roads submerged as flood disaster declared",
+        "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Authorities said the heavy rains have subsided but the flooding is not yet over.",
+        "source": "BBC News",
+        "pubDate": 1790484308000
       }
     ]
   }
