@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-09-27T17:29:57.809Z",
+  "lastUpdated": "2026-09-27T23:39:35.527Z",
   "categories": {
     "technology": [
+      {
+        "title": "Out of the Park Baseball lets me enjoy baseball even when the Mets suck",
+        "link": "https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review",
+        "summary": "If you were to ask me what game or game series I've sunk the most time into, the answer would be easy: Out of the Park Baseball (OOTP). I have spent roughly 2,300 hours, according ...",
+        "source": "The Verge",
+        "pubDate": 1790546397000
+      },
+      {
+        "title": "Engram is a sampler that turns broken AI hallucinations into music",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+        "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and ...",
+        "source": "The Verge",
+        "pubDate": 1790541996000
+      },
+      {
+        "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "summary": "The United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images\t\n\nSecurity researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Co...",
+        "source": "The Verge",
+        "pubDate": 1790529667000
+      },
       {
         "title": "Why OLPC’s $100 laptop never stood a chance",
         "link": "https://www.theverge.com/podcast/1000517/why-olpcs-100-laptop-never-stood-a-chance",
@@ -15,30 +36,30 @@
         "summary": "Hi, friends! Welcome to Installer No. 145, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, I'm happy to be done traveling for a bit, and als...",
         "source": "The Verge",
         "pubDate": 1790510400000
-      },
-      {
-        "title": "The smart home graveyard is getting crowded",
-        "link": "https://www.theverge.com/column/1000778/smart-home-june-oven-graveyard",
-        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the fragile state of your connected devices, follow Jennifer Pattison T...",
-        "source": "The Verge",
-        "pubDate": 1790510400000
-      },
-      {
-        "title": "How the Smithsonian became the latest front in Trump’s culture war",
-        "link": "https://arstechnica.com/tech-policy/2026/09/how-the-smithsonian-became-the-latest-front-in-trumps-culture-war/",
-        "summary": "The Smithsonian has faced withering pressure from the Trump administration.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790506812000
-      },
-      {
-        "title": "Apple hit with $5.7 billion in damages over haptic patents",
-        "link": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
-        "summary": "Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents. Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages. Accordi...",
-        "source": "The Verge",
-        "pubDate": 1790458201000
       }
     ],
     "finance": [
+      {
+        "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+        "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+        "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790546400000
+      },
+      {
+        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
+        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+        "summary": "“As a country, we have grown dangerously comfortable.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790545500000
+      },
+      {
+        "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
+        "link": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
+        "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial markets that “I am the house ...",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790536860000
+      },
       {
         "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
         "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
@@ -52,30 +73,30 @@
         "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1790524800000
-      },
-      {
-        "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
-        "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
-        "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790524800000
-      },
-      {
-        "title": "My friend is terminally ill. Should she sell her rental home and pay $100,000 in capital gains?",
-        "link": "https://www.marketwatch.com/story/my-friend-is-terminally-ill-should-she-sell-her-rental-home-and-pay-100-000-in-capital-gains-8568aada?mod=mw_rss_topstories",
-        "summary": "“Her younger son lives in the condo, but wants to move elsewhere with friends.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790522100000
-      },
-      {
-        "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
-        "link": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
-        "summary": "“I am a retired senior citizen living check-to-check.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790521200000
       }
     ],
     "business": [
+      {
+        "title": "You need £17,000 for a first home - here's how to do it",
+        "link": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
+        "summary": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
+        "source": "BBC News",
+        "pubDate": 1790551243000
+      },
+      {
+        "title": "My hometown shows that high streets have to change or die",
+        "link": "https://www.bbc.co.uk/news/articles/crd689de186jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Aberdeen is launching an ambitious bid to revive its struggling centre. Could it offer lessons for other high streets?",
+        "source": "BBC News",
+        "pubDate": 1790550353000
+      },
+      {
+        "title": "Healey to promise 'new age of industrialisation' for UK in conference speech",
+        "link": "https://www.bbc.co.uk/news/articles/cjdx53edkglgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The chancellor will unveil policies aimed at boosting British shipbuilding in his speech to Labour's annual conference on Monday.",
+        "source": "BBC News",
+        "pubDate": 1790550107000
+      },
       {
         "title": "Andy Burnham refuses to back third runway at Heathrow",
         "link": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
@@ -89,64 +110,43 @@
         "summary": "The founder of Leeds Baby Bank says the charity has seen a \"massive\" increase in referrals recently.",
         "source": "BBC News",
         "pubDate": 1790495659000
-      },
-      {
-        "title": "The ecstasy of buying our first home was short-lived after we found 150 faults",
-        "link": "https://www.bbc.co.uk/news/articles/c2dyxg0zkpko?at_medium=RSS&at_campaign=rss",
-        "summary": "Getting the keys to a new home felt like a dream come true, until this couple found 150 faults.",
-        "source": "BBC News",
-        "pubDate": 1790489927000
-      },
-      {
-        "title": "Faisal Islam: The two big decisions the chancellor must make",
-        "link": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
-        "summary": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
-        "source": "BBC News",
-        "pubDate": 1790463642000
-      },
-      {
-        "title": "Heathrow Airport warns third runway could be delayed by four years",
-        "link": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK's busiest airport cautions it may miss the government target of 2035 as ministers say the deadline has \"always been ambitious\".",
-        "source": "BBC News",
-        "pubDate": 1790440362000
       }
     ],
     "world": [
       {
-        "title": "Giant Pandas, Icons of China’s Soft Diplomacy, Arrive in Atlanta",
-        "link": "https://www.nytimes.com/2026/09/27/us/panda-zoo-atlanta-china-xi.html",
-        "summary": "A male named Ping Ping and a female named Fu Shuang landed on Sunday, days after China’s leader said he would dispatch “envoys of friendship” to the United States.",
-        "source": "NYT > World News",
-        "pubDate": 1790529399000
+        "title": "One dead as nor'easter storm pummels New York and New Jersey",
+        "link": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
+        "summary": "Tens of millions of people from Maine to Virginia found themselves in the path of the powerful weather system.",
+        "source": "BBC News",
+        "pubDate": 1790552246000
       },
       {
-        "title": "Two bodies found after avalanche hits Himalayan climbing group",
-        "link": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
-        "summary": "Rescuers are looking for at least 10 Nepalese people who were preparing to take climbers up the Himlung Himal peak.",
-        "source": "BBC News",
-        "pubDate": 1790528726000
+        "title": "Trump Offered to Sell Arms to China, U.S. Ambassador Says",
+        "link": "https://www.nytimes.com/2026/09/27/us/politics/trump-weapons-sale-china.html",
+        "summary": "President Trump made the offer to Xi Jinping, China’s leader, said David Perdue, the ambassador to China. The White House later said the U.S. had no plans for such a sale.",
+        "source": "NYT > World News",
+        "pubDate": 1790552019000
+      },
+      {
+        "title": "A Transcript From The Times Interview with Prime Minister Mark Carney of Canada",
+        "link": "https://www.nytimes.com/2026/09/27/world/canada/mark-carney-interview-transcript.html",
+        "summary": "New York Times journalists pressed the Canadian prime minister about a range of topics in an hourlong interview last week. Here’s a transcript of their conversation.",
+        "source": "NYT > World News",
+        "pubDate": 1790547072000
       },
       {
         "title": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer",
         "link": "https://www.nytimes.com/2026/09/27/world/middleeast/iran-trump-ceasefire-strait-of-hormuz.html",
         "summary": "Abbas Araghchi, Iran’s foreign minister, said a history of contradictory messaging meant that President Trump’s rejection might not be a final position.",
         "source": "NYT > World News",
-        "pubDate": 1790528254000
+        "pubDate": 1790544982000
       },
       {
-        "title": "Woman charged with stealing from patients and staff at hospitals across Ontario",
-        "link": "https://www.bbc.co.uk/news/articles/c3ew9e5lg01vo?at_medium=RSS&at_campaign=rss",
-        "summary": "The 34-year-old is under investigation for incidents that began in February 2024 up until as recently as last month.",
-        "source": "BBC News",
-        "pubDate": 1790526941000
-      },
-      {
-        "title": "The Surprising Reasons China Is Skeptical of A.I. Safety Calls",
-        "link": "https://www.nytimes.com/2026/09/27/world/asia/china-us-ai-distrust.html",
-        "summary": "In China, A.I. doomsday warnings can feel distinctly Western or like a ploy to stop Chinese A.I. companies from trying to overtake their U.S. rivals.",
+        "title": "Serbia’s Longtime President Aleksandar Vucic Resigns Post",
+        "link": "https://www.nytimes.com/2026/09/27/world/europe/serbia-president-aleksandar-vucicto-resigns.html",
+        "summary": "Aleksandar Vucic, one of Europe’s longest-serving leaders, resigned as president, paving the way for him to become prime minister after elections next month.",
         "source": "NYT > World News",
-        "pubDate": 1790525246000
+        "pubDate": 1790544149000
       }
     ]
   }
