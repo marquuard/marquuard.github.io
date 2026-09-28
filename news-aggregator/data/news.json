@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-09-27T23:39:35.527Z",
+  "lastUpdated": "2026-09-28T11:26:47.222Z",
   "categories": {
     "technology": [
+      {
+        "title": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
+        "link": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china",
+        "summary": "This mossy green looks great, but the 9 Pro Max is also launching in black and silver. | Image: Honor\t\n\nHonor launches its new Magic 9 flagship phones in China today, and the 9 Pro...",
+        "source": "The Verge",
+        "pubDate": 1790582436000
+      },
       {
         "title": "Out of the Park Baseball lets me enjoy baseball even when the Mets suck",
         "link": "https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review",
@@ -29,124 +36,117 @@
         "summary": "The idea was big, exciting, and inspiring: What if we could get every kid in the world access to a computer? For a bunch of thinkers and executives in Silicon Valley, it felt like ...",
         "source": "The Verge",
         "pubDate": 1790511900000
-      },
-      {
-        "title": "Googlebooks might be the real deal",
-        "link": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
-        "summary": "Hi, friends! Welcome to Installer No. 145, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, I'm happy to be done traveling for a bit, and als...",
-        "source": "The Verge",
-        "pubDate": 1790510400000
       }
     ],
     "finance": [
+      {
+        "title": "Nvidia makes a statement with historic $150 billion buyback announcement",
+        "link": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
+        "summary": "The company intends to repurchase a large amount of shares through January 2028, reflecting “confidence in the long-term opportunity ahead.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790594460000
+      },
       {
         "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
         "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
         "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790546400000
+        "pubDate": 1790594100000
       },
       {
-        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
-        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-        "summary": "“As a country, we have grown dangerously comfortable.”",
+        "title": "A pullback is brewing, say these strategists who have examined every drawdown since 1956",
+        "link": "https://www.marketwatch.com/story/a-pullback-is-brewing-say-these-strategists-who-have-examined-every-drawdown-since-1956-69e39d5f?mod=mw_rss_topstories",
+        "summary": "While a modest correction is probable in the near-term, RBC Capital Markets’ analysis of previous significant market drawdowns finds many of the telltale signs are lacking at prese...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790545500000
+        "pubDate": 1790593320000
       },
       {
-        "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
-        "link": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
-        "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial markets that “I am the house ...",
+        "title": "How Muse and other AI agents  could spark a bank run, according to an economist",
+        "link": "https://www.marketwatch.com/story/how-muse-and-other-ai-agents-could-spark-a-bank-run-according-to-an-economist-c4730049?mod=mw_rss_topstories",
+        "summary": "The note was brief, but the implications are big: The chief economist of private-equity giant Apollo Global Management thinks agentic AI could spark a bank run.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790536860000
+        "pubDate": 1790592420000
       },
       {
-        "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
-        "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
-        "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
+        "title": "The history of this market bad breadth signal points to ominous risks ahead",
+        "link": "https://www.marketwatch.com/story/the-history-of-this-market-bad-breadth-signal-points-to-ominous-risks-ahead-ad77e065?mod=mw_rss_topstories",
+        "summary": "Not since the dotcom bubble have stocks thrown up this concerning metric.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790527500000
-      },
-      {
-        "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-        "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
-        "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790524800000
+        "pubDate": 1790592300000
       }
     ],
     "business": [
       {
-        "title": "You need £17,000 for a first home - here's how to do it",
-        "link": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
-        "summary": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
+        "title": "UK diesel price hits all-time high",
+        "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The average price of a litre of diesel at the pump stands at 198.32p, according to the RAC motoring body.",
         "source": "BBC News",
-        "pubDate": 1790551243000
+        "pubDate": 1790592849000
       },
       {
-        "title": "My hometown shows that high streets have to change or die",
-        "link": "https://www.bbc.co.uk/news/articles/crd689de186jo?at_medium=RSS&at_campaign=rss",
-        "summary": "Aberdeen is launching an ambitious bid to revive its struggling centre. Could it offer lessons for other high streets?",
+        "title": "Tourism tax needs to be more flexible in Wales, warns expert",
+        "link": "https://www.bbc.co.uk/news/articles/cm4glxn32zypo?at_medium=RSS&at_campaign=rss",
+        "summary": "Anglesey, Conwy and Gwynedd councils have all put a pause on introducing the nightly tourist tax.",
         "source": "BBC News",
-        "pubDate": 1790550353000
+        "pubDate": 1790592571000
       },
       {
-        "title": "Healey to promise 'new age of industrialisation' for UK in conference speech",
-        "link": "https://www.bbc.co.uk/news/articles/cjdx53edkglgo?at_medium=RSS&at_campaign=rss",
-        "summary": "The chancellor will unveil policies aimed at boosting British shipbuilding in his speech to Labour's annual conference on Monday.",
+        "title": "Avanti West Coast services to be nationalised from March",
+        "link": "https://www.bbc.co.uk/news/articles/c60qxk7d2539o?at_medium=RSS&at_campaign=rss",
+        "summary": "The move is part of a plan to improve rail infrastructure, cut train delays and improve experiences for passengers.",
         "source": "BBC News",
-        "pubDate": 1790550107000
+        "pubDate": 1790586472000
       },
       {
-        "title": "Andy Burnham refuses to back third runway at Heathrow",
-        "link": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
-        "summary": "Andy Burnham said he would wait for the results of a consultation on a scheme estimated to cost £33bn",
-        "source": "BBC News",
-        "pubDate": 1790508152000
+        "title": "Under Trump, Commodity Futures Trading Commission Scales Back Enforcement, Worrying Farmers",
+        "link": "https://www.nytimes.com/2026/09/28/us/politics/cotton-trump-commodity-markets-cftc.html",
+        "summary": "The fate of two cotton brokers highlights how the Commodity Futures Trading Commission has scaled back its regulatory actions not just for crypto cases but also for the kinds of ca...",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790586142000
       },
       {
-        "title": "Baby bank's urgent appeal as demand for help grows",
-        "link": "https://www.bbc.co.uk/news/articles/c81dl1qkxg7xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The founder of Leeds Baby Bank says the charity has seen a \"massive\" increase in referrals recently.",
+        "title": "Childminder facing 'severe financial burden' as heating oil costs rise",
+        "link": "https://www.bbc.co.uk/news/articles/cq07ly2232pzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The war in Iran is having a practical impact on people across the island as energy prices continue to climb.",
         "source": "BBC News",
-        "pubDate": 1790495659000
+        "pubDate": 1790586072000
       }
     ],
     "world": [
       {
-        "title": "One dead as nor'easter storm pummels New York and New Jersey",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
-        "summary": "Tens of millions of people from Maine to Virginia found themselves in the path of the powerful weather system.",
-        "source": "BBC News",
-        "pubDate": 1790552246000
+        "title": "Trump Brought Venezuelan Gold to the U.S., but Refiners Won’t Touch It",
+        "link": "https://www.nytimes.com/2026/09/28/world/americas/venezuela-gold-trump.html",
+        "summary": "The administration is brokering deals in a notoriously corrupt industry, including one with a company that the United States deems a security threat.",
+        "source": "NYT > World News",
+        "pubDate": 1790593771000
       },
       {
-        "title": "Trump Offered to Sell Arms to China, U.S. Ambassador Says",
-        "link": "https://www.nytimes.com/2026/09/27/us/politics/trump-weapons-sale-china.html",
-        "summary": "President Trump made the offer to Xi Jinping, China’s leader, said David Perdue, the ambassador to China. The White House later said the U.S. had no plans for such a sale.",
+        "title": "Possible Foiled Terror Attack at U.K Air Base Used by U.S. Raises Questions Over Security",
+        "link": "https://www.nytimes.com/2026/09/28/world/europe/us-air-base-uk-terror-incident-fairford.html",
+        "summary": "Conflicting accounts from a bystander who called the police and from President Trump have led to questions about whether security services knew about the possible plot in advance.",
         "source": "NYT > World News",
-        "pubDate": 1790552019000
+        "pubDate": 1790591352000
       },
       {
-        "title": "A Transcript From The Times Interview with Prime Minister Mark Carney of Canada",
-        "link": "https://www.nytimes.com/2026/09/27/world/canada/mark-carney-interview-transcript.html",
-        "summary": "New York Times journalists pressed the Canadian prime minister about a range of topics in an hourlong interview last week. Here’s a transcript of their conversation.",
+        "title": "Brazil’s Biggest Election Question?: Donald Trump’s Next Move",
+        "link": "https://www.nytimes.com/2026/09/28/world/americas/brazil-election-bolsonaro-president-trump.html",
+        "summary": "As Brazil prepares to hold elections next month, Latin America’s biggest nation is taking steps to shield its democracy from potential American meddling.",
         "source": "NYT > World News",
-        "pubDate": 1790547072000
+        "pubDate": 1790586171000
       },
       {
-        "title": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer",
-        "link": "https://www.nytimes.com/2026/09/27/world/middleeast/iran-trump-ceasefire-strait-of-hormuz.html",
-        "summary": "Abbas Araghchi, Iran’s foreign minister, said a history of contradictory messaging meant that President Trump’s rejection might not be a final position.",
+        "title": "What We Saw in One Venezuelan Gold Town",
+        "link": "https://www.nytimes.com/2026/09/28/world/americas/what-we-saw-in-one-venezuelan-gold-town.html",
+        "summary": "With U.S. support, traders arrived and cut deals. That investment has so far failed to improve the bleak conditions in the mining industry.",
         "source": "NYT > World News",
-        "pubDate": 1790544982000
+        "pubDate": 1790586149000
       },
       {
-        "title": "Serbia’s Longtime President Aleksandar Vucic Resigns Post",
-        "link": "https://www.nytimes.com/2026/09/27/world/europe/serbia-president-aleksandar-vucicto-resigns.html",
-        "summary": "Aleksandar Vucic, one of Europe’s longest-serving leaders, resigned as president, paving the way for him to become prime minister after elections next month.",
+        "title": "Their Sons Are Dying on Battlefields in Ukraine. They Still Back Russia’s War.",
+        "link": "https://www.nytimes.com/2026/09/28/world/europe/ukraine-russia-war-soldiers-deaths-north-ossetia.html",
+        "summary": "The Russian region of North Ossetia has suffered a heavy toll, yet many accept the Kremlin’s line that the fighting must continue until victory is secured.",
         "source": "NYT > World News",
-        "pubDate": 1790544149000
+        "pubDate": 1790586020000
       }
     ]
   }
