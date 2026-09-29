@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-09-29T11:06:35.896Z",
+  "lastUpdated": "2026-09-29T18:27:39.526Z",
   "categories": {
     "technology": [
       {
-        "title": "Your car’s data privacy problems are worse than you think",
-        "link": "https://www.theverge.com/transportation/1001463/car-data-privacy-northeastern-study-honda-gm-ford",
-        "summary": "You hear it all the time: Modern cars are basically smartphones on wheels. And just like the phone in your pocket, the car in your driveway collects vast amounts of data - tracking...",
+        "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+        "summary": "\"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a former OpenAI and Google DeepMind employee, said in a new interview. It's one of a dozen inter...",
         "source": "The Verge",
-        "pubDate": 1790676000000
+        "pubDate": 1790703303000
       },
       {
-        "title": "Nothing’s new flagship Headphone 1 Pro put you in the studio",
-        "link": "https://www.theverge.com/tech/1001797/nothings-headphone-1-pro-review",
-        "summary": "The Headphone 1 Pro flagship headphones keep Nothing’s aesthetic while adding some surprises. | Photo: John Higgins / The Verge\t\n\nNothing has been on a bit of an audio tear this ye...",
-        "source": "The Verge",
-        "pubDate": 1790643600000
-      },
-      {
-        "title": "Boeing \"incredibly excited\" to serve as nation's only astronaut transportation",
-        "link": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
-        "summary": "\"We couldn't provide detailed pricing to the CLD suppliers.\"",
+        "title": "Apple worked with Trump admin to remove ICE-tracking apps, lawmaker says",
+        "link": "https://arstechnica.com/tech-policy/2026/09/apple-worked-with-trump-admin-to-remove-ice-tracking-apps-lawmaker-says/",
+        "summary": "Lawmaker rejects Apple excuse for banning ICE-tracking apps as unconstitutional.",
         "source": "Ars Technica - All content",
-        "pubDate": 1790634273000
+        "pubDate": 1790702954000
       },
       {
-        "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
-        "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
-        "summary": "China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790632150000
-      },
-      {
-        "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-        "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-        "summary": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images\t\n\nAMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent research...",
+        "title": "Razer’s low-latency wireless gaming keyboard is almost half off",
+        "link": "https://www.theverge.com/gadgets/1002087/razer-deathstalker-v2-pro-tkl-witcher-3-remastered-deal-sale",
+        "summary": "Razer’s DeathStalker V2 Pro is discounted in both black and white. | Image: The Verge\t\n\nWoot has the Razer DeathStalker V2 Pro TKL on sale for $130, a significant discount from its...",
         "source": "The Verge",
-        "pubDate": 1790631095000
+        "pubDate": 1790702347000
+      },
+      {
+        "title": "OpenAI launches Dots, its Muse competitor",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+        "summary": "Like Muse, OpenAI’s Dots are represented by cute, customizable avatars. | Image: OpenAI\t\n\nOpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During...",
+        "source": "The Verge",
+        "pubDate": 1790702100000
+      },
+      {
+        "title": "Protesters gather at OpenAI’s DevDay",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
+        "summary": "On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Altman, get off it, put people over profit,\" said a group of protesters marching in a circle ...",
+        "source": "The Verge",
+        "pubDate": 1790701947000
       }
     ],
     "finance": [
       {
-        "title": "Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs",
-        "link": "https://www.marketwatch.com/story/morgan-stanleys-mike-wilson-says-an-s-p-500-correction-may-be-exactly-what-the-market-needs-a6baf54e?mod=mw_rss_topstories",
-        "summary": "The chief U.S. equity strategist at the investment bank favors large-capitalization quality companies.",
+        "title": "Medicare Advantage plans will be cheaper next year. Here’s the new cost.",
+        "link": "https://www.marketwatch.com/story/medicare-advantage-plans-will-be-cheaper-next-year-heres-the-new-cost-2f7ab55b?mod=mw_rss_topstories",
+        "summary": "Medicare beneficiaries can change their coverage during open enrollment, which begins Oct. 15.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790679780000
+        "pubDate": 1790703900000
       },
       {
-        "title": "Two stock picks from a money manager who expects small-caps to roar in 2027",
-        "link": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
-        "summary": "Calamos Investments manager Brandon Nelson’s four-star fund is betting on financial services apps.",
+        "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
+        "link": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
+        "summary": "“I am a retired senior citizen living check-to-check.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790679720000
+        "pubDate": 1790703000000
       },
       {
-        "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
-        "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-        "summary": "“When my paycheck lands, it takes a detour through bitcoin.”",
+        "title": "Could SpaceX be worth $12 trillion one day? Citi says Starship gets it a step closer.",
+        "link": "https://www.marketwatch.com/story/could-spacex-be-worth-12-trillion-one-day-citi-says-starship-gets-it-a-step-closer-6ce44961?mod=mw_rss_topstories",
+        "summary": "The recent Starship launch helps SpaceX with a number of priorities that could help its stock reach $900 over the long run, an analyst says.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790676900000
+        "pubDate": 1790701140000
       },
       {
-        "title": "Novo Nordisk strikes second licensing deal since frosty capital-markets day",
-        "link": "https://www.marketwatch.com/story/novo-nordisk-strikes-second-licensing-deal-since-frosty-capital-markets-day-cc0db878?mod=mw_rss_topstories",
-        "summary": "Novo Nordisk on Tuesday struck its second licensing deal since receiving a poor reception from investors after presenting its long-term strategy.",
+        "title": "Here’s what Netflix skeptics are getting wrong about the stock, according to an analyst",
+        "link": "https://www.marketwatch.com/story/heres-what-netflix-skeptics-are-getting-wrong-about-the-stock-according-to-an-analyst-40436696?mod=mw_rss_topstories",
+        "summary": "Netflix investors are too worried about the U.S. and are overlooking gains abroad, Deutsche Bank argues.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790675100000
+        "pubDate": 1790700300000
       },
       {
-        "title": "Here’s where TSMC is reportedly eyeing a second U.S. site for a chip-making hub",
-        "link": "https://www.marketwatch.com/story/heres-where-tsmc-is-reportedly-eyeing-a-second-u-s-site-for-a-chip-making-hub-828e4488?mod=mw_rss_topstories",
-        "summary": "Taiwan Semiconductor Manufacturing Co., the Taiwanese contract chipmaker that makes semiconductors for Nvidia among others, is reportedly eyeing a second site in the U.S.",
+        "title": "The hidden messages the bond market is sending about the AI boom and the stock market",
+        "link": "https://www.marketwatch.com/story/the-hidden-messages-the-bond-market-is-sending-about-the-ai-boom-and-the-stock-market-5c9495ba?mod=mw_rss_topstories",
+        "summary": "Author and FT correspondent Robin Wigglesworth tells MarketWatch about how bonds build the modern financial system, and what they are currently saying about and inflation, governme...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790673960000
+        "pubDate": 1790700240000
       }
     ],
     "business": [
       {
-        "title": "More free nursery hours proposed in budget",
-        "link": "https://www.bbc.co.uk/news/articles/c699dz2v752lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The government releases its proposed budget with \"targeted measures\" to help families.",
+        "title": "Oura pulls $15bn stock market listing days after announcement",
+        "link": "https://www.bbc.co.uk/news/articles/cjwyz5v190qwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The wearable technology company had been expected to list its shares in the US.",
         "source": "BBC News",
-        "pubDate": 1790679022000
-      },
-      {
-        "title": "Warning more homes will be uninsurable due to flood risk",
-        "link": "https://www.bbc.co.uk/news/articles/c60qxk288e57o?at_medium=RSS&at_campaign=rss",
-        "summary": "Aviva boss Amanda Blanc said England was \"for sure\" building homes that might be uninsurable at some point in the future.",
-        "source": "BBC News",
-        "pubDate": 1790674968000
+        "pubDate": 1790702227000
       },
       {
         "title": "What is the triple lock and why are people talking about it?",
         "link": "https://www.bbc.co.uk/news/articles/cq6m03ld7nvo?at_medium=RSS&at_campaign=rss",
         "summary": "The triple lock guarantees that the state pension is not overtaken by inflation or wage increases.",
         "source": "BBC News",
-        "pubDate": 1790674930000
+        "pubDate": 1790701786000
       },
       {
-        "title": "OpenAI scraps rollout of new model over safety concerns",
-        "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+        "title": "Faisal Islam: Triple lock move is significant, but it's a gamble",
+        "link": "https://www.bbc.co.uk/news/articles/cwp93d078j8no?at_medium=RSS&at_campaign=rss",
+        "summary": "I had expected him to try to forge a political consensus on this thorny issue at this stage, but he has gone further than that.",
         "source": "BBC News",
-        "pubDate": 1790673253000
+        "pubDate": 1790700219000
       },
       {
-        "title": "UK tries to stop Trump's diesel export ban",
-        "link": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
-        "summary": "John Healey said the government is in talks with the US over Donald Trump's threat to stop exports.",
+        "title": "Burnham says public body will invest in electricity grid",
+        "link": "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
+        "summary": "The prime minister said he wants to reduce energy costs in his first conference speech as Labour leader.",
         "source": "BBC News",
-        "pubDate": 1790666344000
+        "pubDate": 1790694879000
+      },
+      {
+        "title": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
+        "link": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+        "summary": "It is the latest escalation in the Canada-US trade war after negotiations collapsed in late August, with no word on when talks may resume.",
+        "source": "BBC News",
+        "pubDate": 1790689086000
       }
     ],
     "world": [
       {
-        "title": "Evicted Spanish pensioner can move back home, lawyer says ",
-        "link": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The eviction of Maricarmen Abascal, 87, prompted large-scale protests across Spain.",
-        "source": "BBC News",
-        "pubDate": 1790679422000
+        "title": "Why the U.S. Is Imposing New Visa Restrictions on South Africa",
+        "link": "https://www.nytimes.com/2026/09/29/world/africa/south-africa-trump-letter-visas-racism.html",
+        "summary": "The Trump administration announced new visa restrictions on the country days after receiving a letter that South African officials had hoped would bring down the temperature.",
+        "source": "NYT > World News",
+        "pubDate": 1790705466000
       },
       {
-        "title": "Evicted Woman Set to Return Home as Spain Plans Fixes to Housing Crisis",
+        "title": "Evicted Woman Set to Return Home as Spain Announces Plans to Fix Housing Crisis",
         "link": "https://www.nytimes.com/2026/09/29/world/europe/spain-housing-eviction-maricarmen-abascal-madrid-protests.html",
-        "summary": "The eviction of an 87-year-old set off protests in the country, which has an acute housing shortage. The government said it would present laws to protect renters.",
+        "summary": "The eviction of an 87-year-old set off protests in the country, which has an acute housing shortage. The government presented legislation to protect renters.",
         "source": "NYT > World News",
-        "pubDate": 1790678886000
+        "pubDate": 1790704871000
+      },
+      {
+        "title": "New York Times executive fatally shot by elderly in-laws, police say",
+        "link": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss",
+        "summary": "Jonathan McKinsey's in-laws, who are both 77 years old, face multiple charges including first-degree murder.",
+        "source": "BBC News",
+        "pubDate": 1790704088000
       },
       {
         "title": "Rubio Says Incident at UK Air Base RAF Fairford ‘Clearly Involved’ a Foreign Actor",
         "link": "https://www.nytimes.com/2026/09/29/world/europe/uk-raf-fairford-air-base-incident-rubio-us.html",
         "summary": "The U.S. secretary of state, Marco Rubio, told Fox News that what happened at a base used by U.S. bombers flying to Iran was “very serious,” without providing details.",
         "source": "NYT > World News",
-        "pubDate": 1790678662000
+        "pubDate": 1790702840000
       },
       {
-        "title": "Hurricane Polo makes landfall on Mexico's Pacific coast",
-        "link": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
-        "summary": "The storm moved ashore on the Baja California peninsula, which is a popular tourist destination.",
-        "source": "BBC News",
-        "pubDate": 1790678093000
-      },
-      {
-        "title": "The Rescuers Keeping Two Ukrainian ‘Fortress Cities’ Alive",
-        "link": "https://www.nytimes.com/2026/09/29/world/europe/ukraine-donbas-emergency-workers.html",
-        "summary": "Emergency workers have to move fast after Russian attacks in eastern Ukraine. Another could come at any moment.",
+        "title": "Prime Minister Andy Burnham Lays Out Plan to Change UK in Emotional Speech at Labour Conference",
+        "link": "https://www.nytimes.com/2026/09/29/world/europe/andy-burnham-labour-conference-uk.html",
+        "summary": "Andy Burnham set out a range of policies on Tuesday in his biggest speech since becoming prime minister of Britain. “I accept people will not agree with every part of it,” he said.",
         "source": "NYT > World News",
-        "pubDate": 1790676225000
+        "pubDate": 1790702538000
       }
     ]
   }
