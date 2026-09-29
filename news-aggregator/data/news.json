@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-09-29T00:49:16.022Z",
+  "lastUpdated": "2026-09-29T11:06:35.896Z",
   "categories": {
     "technology": [
+      {
+        "title": "Your car’s data privacy problems are worse than you think",
+        "link": "https://www.theverge.com/transportation/1001463/car-data-privacy-northeastern-study-honda-gm-ford",
+        "summary": "You hear it all the time: Modern cars are basically smartphones on wheels. And just like the phone in your pocket, the car in your driveway collects vast amounts of data - tracking...",
+        "source": "The Verge",
+        "pubDate": 1790676000000
+      },
+      {
+        "title": "Nothing’s new flagship Headphone 1 Pro put you in the studio",
+        "link": "https://www.theverge.com/tech/1001797/nothings-headphone-1-pro-review",
+        "summary": "The Headphone 1 Pro flagship headphones keep Nothing’s aesthetic while adding some surprises. | Photo: John Higgins / The Verge\t\n\nNothing has been on a bit of an audio tear this ye...",
+        "source": "The Verge",
+        "pubDate": 1790643600000
+      },
       {
         "title": "Boeing \"incredibly excited\" to serve as nation's only astronaut transportation",
         "link": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
@@ -22,131 +36,117 @@
         "summary": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images\t\n\nAMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent research...",
         "source": "The Verge",
         "pubDate": 1790631095000
-      },
-      {
-        "title": "SpaceX's Starship goes orbital, deploying first next-gen Starlinks",
-        "link": "https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks/",
-        "summary": "Starship had already flown 99 percent of the way to low-Earth orbit. Monday's flight added the last bit.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790630779000
-      },
-      {
-        "title": "Florida invokes extinction fears in legal bid to halt OpenAI development",
-        "link": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
-        "summary": "State says LLMs threaten civilization as \"the greatest public nuisance ever created.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790628579000
       }
     ],
     "finance": [
       {
-        "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
-        "link": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
-        "summary": "The chip maker is buying the startup and adding AI pioneer Fei-Fei Li as its chief scientist.",
+        "title": "Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs",
+        "link": "https://www.marketwatch.com/story/morgan-stanleys-mike-wilson-says-an-s-p-500-correction-may-be-exactly-what-the-market-needs-a6baf54e?mod=mw_rss_topstories",
+        "summary": "The chief U.S. equity strategist at the investment bank favors large-capitalization quality companies.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790640180000
+        "pubDate": 1790679780000
       },
       {
-        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
-        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-        "summary": "“As a country, we have grown dangerously comfortable.”",
+        "title": "Two stock picks from a money manager who expects small-caps to roar in 2027",
+        "link": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
+        "summary": "Calamos Investments manager Brandon Nelson’s four-star fund is betting on financial services apps.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790636400000
-      },
-      {
-        "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
-        "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-        "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790635500000
+        "pubDate": 1790679720000
       },
       {
         "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
         "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
         "summary": "“When my paycheck lands, it takes a detour through bitcoin.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790634900000
+        "pubDate": 1790676900000
       },
       {
-        "title": "SpaceX’s next big growth engine isn’t rockets — it’s this play on AI power, analysts say",
-        "link": "https://www.marketwatch.com/story/spacexs-next-big-growth-engine-isnt-rockets-its-this-play-on-ai-power-analysts-say-11963aeb?mod=mw_rss_topstories",
-        "summary": "The company has a lucrative opportunity in letting rivals tap its data centers for computing power.",
+        "title": "Novo Nordisk strikes second licensing deal since frosty capital-markets day",
+        "link": "https://www.marketwatch.com/story/novo-nordisk-strikes-second-licensing-deal-since-frosty-capital-markets-day-cc0db878?mod=mw_rss_topstories",
+        "summary": "Novo Nordisk on Tuesday struck its second licensing deal since receiving a poor reception from investors after presenting its long-term strategy.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790632980000
+        "pubDate": 1790675100000
+      },
+      {
+        "title": "Here’s where TSMC is reportedly eyeing a second U.S. site for a chip-making hub",
+        "link": "https://www.marketwatch.com/story/heres-where-tsmc-is-reportedly-eyeing-a-second-u-s-site-for-a-chip-making-hub-828e4488?mod=mw_rss_topstories",
+        "summary": "Taiwan Semiconductor Manufacturing Co., the Taiwanese contract chipmaker that makes semiconductors for Nvidia among others, is reportedly eyeing a second site in the U.S.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790673960000
       }
     ],
     "business": [
       {
-        "title": "Burnham to unveil public body to invest in electricity grid",
-        "link": "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
-        "summary": "The prime minister will say he wants to reduce energy costs in his first conference speech as Labour leader.",
+        "title": "More free nursery hours proposed in budget",
+        "link": "https://www.bbc.co.uk/news/articles/c699dz2v752lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The government releases its proposed budget with \"targeted measures\" to help families.",
         "source": "BBC News",
-        "pubDate": 1790642429000
+        "pubDate": 1790679022000
       },
       {
         "title": "Warning more homes will be uninsurable due to flood risk",
         "link": "https://www.bbc.co.uk/news/articles/c60qxk288e57o?at_medium=RSS&at_campaign=rss",
         "summary": "Aviva boss Amanda Blanc said England was \"for sure\" building homes that might be uninsurable at some point in the future.",
         "source": "BBC News",
-        "pubDate": 1790637013000
+        "pubDate": 1790674968000
       },
       {
-        "title": "Unis are offering degrees in content creation for £30,000. But are they worth it?",
-        "link": "https://www.bbc.co.uk/news/articles/c61mvy1emr2zo?at_medium=RSS&at_campaign=rss",
-        "summary": "Content creation degrees aim to help people make money from their social media posts.",
+        "title": "What is the triple lock and why are people talking about it?",
+        "link": "https://www.bbc.co.uk/news/articles/cq6m03ld7nvo?at_medium=RSS&at_campaign=rss",
+        "summary": "The triple lock guarantees that the state pension is not overtaken by inflation or wage increases.",
         "source": "BBC News",
-        "pubDate": 1790637006000
+        "pubDate": 1790674930000
       },
       {
-        "title": "Why UK diesel prices have hit an all-time high",
-        "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The average price of a litre of diesel at the pump stands at 198.32p, according to the RAC motoring body.",
+        "title": "OpenAI scraps rollout of new model over safety concerns",
+        "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
         "source": "BBC News",
-        "pubDate": 1790628232000
+        "pubDate": 1790673253000
       },
       {
-        "title": "UK diesel price hits all-time high, the RAC says",
-        "link": "https://www.bbc.co.uk/news/articles/c6n4k987k981o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US-Israel war with Iran has caused fuel prices to soar due to disruption of global oil supplies.",
+        "title": "UK tries to stop Trump's diesel export ban",
+        "link": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
+        "summary": "John Healey said the government is in talks with the US over Donald Trump's threat to stop exports.",
         "source": "BBC News",
-        "pubDate": 1790628176000
+        "pubDate": 1790666344000
       }
     ],
     "world": [
       {
-        "title": "Netanyahu Visits Emirati Leader After Reports on Warning About Hamas Attack",
-        "link": "https://www.nytimes.com/2026/09/28/world/middleeast/netanyahu-emirati-leader-hamas-attack.html",
-        "summary": "Official statements said bilateral relations were discussed. But the question of who bears responsibility for failing to prevent the Oct. 7 attack is a major election issue in Isra...",
+        "title": "Evicted Spanish pensioner can move back home, lawyer says ",
+        "link": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The eviction of Maricarmen Abascal, 87, prompted large-scale protests across Spain.",
+        "source": "BBC News",
+        "pubDate": 1790679422000
+      },
+      {
+        "title": "Evicted Woman Set to Return Home as Spain Plans Fixes to Housing Crisis",
+        "link": "https://www.nytimes.com/2026/09/29/world/europe/spain-housing-eviction-maricarmen-abascal-madrid-protests.html",
+        "summary": "The eviction of an 87-year-old set off protests in the country, which has an acute housing shortage. The government said it would present laws to protect renters.",
         "source": "NYT > World News",
-        "pubDate": 1790642357000
+        "pubDate": 1790678886000
       },
       {
-        "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
-        "link": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss",
-        "summary": "It comes after the woman filed a civil lawsuit alleging she was drugged and raped at a fraternity house in 2024.",
-        "source": "BBC News",
-        "pubDate": 1790642303000
+        "title": "Rubio Says Incident at UK Air Base RAF Fairford ‘Clearly Involved’ a Foreign Actor",
+        "link": "https://www.nytimes.com/2026/09/29/world/europe/uk-raf-fairford-air-base-incident-rubio-us.html",
+        "summary": "The U.S. secretary of state, Marco Rubio, told Fox News that what happened at a base used by U.S. bombers flying to Iran was “very serious,” without providing details.",
+        "source": "NYT > World News",
+        "pubDate": 1790678662000
       },
       {
-        "title": "Journalist to be crowned king in Uganda after bitter succession dispute",
-        "link": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&at_campaign=rss",
-        "summary": "Kijanangoma is being crowned amid a dispute over a young heir whom the royal clan does not recognise.",
-        "source": "BBC News",
-        "pubDate": 1790639089000
-      },
-      {
-        "title": "Hurricane Polo unleashes threatening winds as it approaches Mexico",
+        "title": "Hurricane Polo makes landfall on Mexico's Pacific coast",
         "link": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
-        "summary": "The category-three storm is expected to make landfall of north of Cabo San Lucas, a popular tourist area, on the Mexican peninsula of Baja California Sur.",
+        "summary": "The storm moved ashore on the Baja California peninsula, which is a popular tourist destination.",
         "source": "BBC News",
-        "pubDate": 1790639028000
+        "pubDate": 1790678093000
       },
       {
-        "title": "Tennessee governor rejects clemency bid for Christa Pike as execution looms",
-        "link": "https://www.bbc.co.uk/news/articles/ckr50yyddljlo?at_medium=RSS&at_campaign=rss",
-        "summary": "If the execution proceeds, Pike would be the first woman executed in Tennessee in more than 200 years.",
-        "source": "BBC News",
-        "pubDate": 1790634453000
+        "title": "The Rescuers Keeping Two Ukrainian ‘Fortress Cities’ Alive",
+        "link": "https://www.nytimes.com/2026/09/29/world/europe/ukraine-donbas-emergency-workers.html",
+        "summary": "Emergency workers have to move fast after Russian attacks in eastern Ukraine. Another could come at any moment.",
+        "source": "NYT > World News",
+        "pubDate": 1790676225000
       }
     ]
   }
