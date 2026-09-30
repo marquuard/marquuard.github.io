@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-09-30T00:04:13.676Z",
+  "lastUpdated": "2026-09-30T10:54:03.723Z",
   "categories": {
     "technology": [
+      {
+        "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+        "summary": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timelin...",
+        "source": "The Verge",
+        "pubDate": 1790727553000
+      },
       {
         "title": "Most powerful obesity drug yet: People lost up to 25% of weight in trial",
         "link": "https://arstechnica.com/health/2026/09/most-powerful-obesity-drug-yet-people-lost-up-to-25-of-weight-in-trial/",
@@ -12,7 +19,7 @@
       {
         "title": "Trump orders US government to call AI ‘Super Intelligence’",
         "link": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
-        "summary": "Image: Carolyn Van Houten/The Washington Post via Getty Images\t\n\nThe US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, offic...",
+        "summary": "Image: Carolyn Van Houten / The Washington Post via Getty Images\t\n\nThe US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, off...",
         "source": "The Verge",
         "pubDate": 1790720745000
       },
@@ -29,124 +36,117 @@
         "summary": "New sculpture depicts AI leaders escaping a sinking ship.",
         "source": "Ars Technica - All content",
         "pubDate": 1790718778000
-      },
-      {
-        "title": "Suspected ShinyHunters leader arrested in the Netherlands",
-        "link": "https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested",
-        "summary": "Dutch police say they arrested a 24-year-old Amsterdam man in connection with ShinyHunters, the hacking group that claimed responsibility for high-profile attacks on Ticketmaster, ...",
-        "source": "The Verge",
-        "pubDate": 1790718631000
       }
     ],
     "finance": [
       {
-        "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
-        "link": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
-        "summary": "“I am a retired senior citizen living check-to-check.”",
+        "title": "Boeing was at risk of losing all fighter-jet production altogether. Now the stock is up on a new Navy contract.",
+        "link": "https://www.marketwatch.com/story/boeing-was-at-risk-of-losing-all-fighter-jet-production-altogether-now-the-stock-is-up-on-a-new-navy-contract-ffb625b2?mod=mw_rss_topstories",
+        "summary": "Shares in the aerospace company rose close to 3% in premarket trading on Wednesday after the U.S. Navy selected it to develop its next-generation fighter jet.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790724600000
+        "pubDate": 1790764680000
       },
       {
-        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
-        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-        "summary": "“As a country, we have grown dangerously comfortable.”",
+        "title": "Why Tuesday was one of the most disturbing days for markets in recent memory, according to a Goldman Sachs pro",
+        "link": "https://www.marketwatch.com/story/tuesdays-market-moves-was-one-of-the-more-disturbing-days-of-late-says-goldman-sachs-pro-22abf406?mod=mw_rss_topstories",
+        "summary": "Beneath the languished moves in the main stock-market indexes, there were some disturbing features.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790722980000
+        "pubDate": 1790763300000
       },
       {
-        "title": "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
-        "link": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-        "summary": "“We have an ironclad prenup.”",
+        "title": "He’s been badmouthing Treasury bonds since 2020, but now ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish",
+        "link": "https://www.marketwatch.com/story/hes-been-badmouthing-treasury-bonds-since-2020-but-now-the-big-fat-cushion-of-5-25-yields-is-turning-this-strategist-bullish-376fafba?mod=mw_rss_topstories",
+        "summary": "Investors have become accustomed to returns distorted by artificially low interest rates.  5% on bonds and 6% on stocks are more realistic and Bianco finds value in U.S. Treasury n...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790719200000
+        "pubDate": 1790760720000
       },
       {
-        "title": "Hollywood’s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
-        "link": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
-        "summary": "The Paramount financing will be a closely watched barometer of dealmaking appetite despite rising borrowing costs in 2026.",
+        "title": "One group of funds is holding up the stock market. Barclays says oil prices have to fall to drive a year-end rally.",
+        "link": "https://www.marketwatch.com/story/one-group-of-funds-is-holding-up-the-stock-market-barclays-says-oil-prices-have-to-fall-to-drive-a-year-end-rally-c6d551f9?mod=mw_rss_topstories",
+        "summary": "Strategists at the bank said a rally at the end of the year would likely depend on oil prices lowering or stabilizing even as the historically best-performing quarter approaches.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790718960000
+        "pubDate": 1790760000000
       },
       {
-        "title": "Could SpaceX be worth $12 trillion one day? Citi says Starship gets it a step closer.",
-        "link": "https://www.marketwatch.com/story/could-spacex-be-worth-12-trillion-one-day-citi-says-starship-gets-it-a-step-closer-6ce44961?mod=mw_rss_topstories",
-        "summary": "The recent Starship launch helps SpaceX with a number of priorities that could help its stock reach $900 over the long run, an analyst says.",
+        "title": "There’s a new Wall Street TACO index — and this one is saying it’s time for Trump to strike a deal",
+        "link": "https://www.marketwatch.com/story/theres-a-new-wall-street-taco-index-and-this-one-is-saying-its-time-for-trump-to-strike-a-deal-c9ccb3fc?mod=mw_rss_topstories",
+        "summary": "JPMorgan has devised a TACO barometer, referring to the expression Trump Always Chickens Out ,as a way to predict the behavior of the mercurial world leader.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790718780000
+        "pubDate": 1790759760000
       }
     ],
     "business": [
       {
-        "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
-        "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Sam Altman spoke in San Francisco during OpenAI’s annual event for tech developers.",
+        "title": "Household energy bills forecast to see biggest rise in four years",
+        "link": "https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo?at_medium=RSS&at_campaign=rss",
+        "summary": "A typical household faces an annual gas and electricity bill of £1,999 from January, based on a key forecast.",
         "source": "BBC News",
-        "pubDate": 1790725630000
+        "pubDate": 1790765269000
       },
       {
-        "title": "Chinese AI tool told researchers how to make bioweapons",
-        "link": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
+        "title": "Pie shop owner gets reply from Andy Burnham",
+        "link": "https://www.bbc.co.uk/videos/cq2dw9kykeeno?at_medium=RSS&at_campaign=rss",
+        "summary": "Chorley businessman, Paul Bowen received a reply from Prime Minister Andy Burnham, after posting a video on social media about the closure of one of his shops due to the state of t...",
         "source": "BBC News",
-        "pubDate": 1790723729000
+        "pubDate": 1790764153000
       },
       {
-        "title": "The start-ups hoping to return battery making to the US",
-        "link": "https://www.bbc.co.uk/news/articles/cvgyexx4g8ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Batteries based on sodium-ion technology could be made in the US with locally sourced materials.",
+        "title": "Regulating AI 'not the right place to start' says Bailey",
+        "link": "https://www.bbc.co.uk/news/articles/cvzez7k0pn40o?at_medium=RSS&at_campaign=rss",
+        "summary": "AI needs \"rigorous\" testing and safeguards to contain risk, Andrew Bailey says.",
         "source": "BBC News",
-        "pubDate": 1790723210000
+        "pubDate": 1790763620000
       },
       {
-        "title": "'I like proving people wrong': The women taking up DIY and plumbing",
-        "link": "https://www.bbc.co.uk/news/articles/cm89jkn232xxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Female DIY experts and tradeswomen talk about their experiences of a traditionally male-dominated domain.",
+        "title": "Africa's richest man to launch Kenya oil refinery despite land protests",
+        "link": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&at_campaign=rss",
+        "summary": "The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.",
         "source": "BBC News",
-        "pubDate": 1790723174000
+        "pubDate": 1790761793000
       },
       {
-        "title": "Huel ad banned for suggesting its products could replace all conventional food",
-        "link": "https://www.bbc.co.uk/news/articles/c920v3y1gjgpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The advertising watchdog said that viewers could assume from the ad that replacing all normal food with Huel was \"nutritionally appropriate\".",
+        "title": "Greggs to shut four factories and cut 740 jobs",
+        "link": "https://www.bbc.co.uk/news/articles/cm7802ylq973o?at_medium=RSS&at_campaign=rss",
+        "summary": "The company says it needs to \"keep evolving alongside changing customer expectations\".",
         "source": "BBC News",
-        "pubDate": 1790723166000
+        "pubDate": 1790758754000
       }
     ],
     "world": [
       {
-        "title": "Ukraine's prized steel industry left in ruins by Russian missile campaign",
-        "link": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's remaining steelworks, a vital part of its economy, have all but ground to a halt because of relentless attacks.",
-        "source": "BBC News",
-        "pubDate": 1790724814000
+        "title": "Live Updates: Clash in Cockpit Prompts Distress Signal on Israel-Bound Flight",
+        "link": "https://www.nytimes.com/live/2026/09/30/world/dubai-flight-tel-aviv-israel-pilots",
+        "summary": "Israel and Saudi Arabia scrambled jets over fears of a hijacking on a flight from Dubai to Tel Aviv. The plane landed in Saudi Arabia with more than 160 passengers safe and account...",
+        "source": "NYT > World News",
+        "pubDate": 1790765191000
       },
       {
-        "title": "Chinese AI tool told researchers how to make bioweapons",
-        "link": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
-        "source": "BBC News",
-        "pubDate": 1790723729000
+        "title": "What Life Looks Like in the ‘Fortress Cities’ Russia Is Trying to Break",
+        "link": "https://www.nytimes.com/2026/09/29/world/europe/ukraine-donbas-emergency-workers.html",
+        "summary": "Emergency workers have to move fast after Russian attacks in eastern Ukraine. Another could come at any moment.",
+        "source": "NYT > World News",
+        "pubDate": 1790764775000
       },
       {
-        "title": "South Africa to clean up high-risk areas after 12 women killed",
-        "link": "https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The deaths sparked a national outcry about the scale of violence against women in the country.",
-        "source": "BBC News",
-        "pubDate": 1790721219000
+        "title": "Turkish Confectioner Hands Out Doughnuts to Honor the Dead",
+        "link": "https://www.nytimes.com/video/world/asia/100000011182398/turkey-doughnuts-lokma-honor-dead.html",
+        "summary": "In Turkey, people who have recently lost loved ones hire doughnut makers to hand out fried dough balls, known as lokma, to honor the dead and spread their blessings.",
+        "source": "NYT > World News",
+        "pubDate": 1790763935000
       },
       {
-        "title": "Six Flags shuts down X2 rollercoaster after hundreds allege brain injuries",
-        "link": "https://www.bbc.co.uk/news/articles/cw14d37446d8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The announcement comes after multiple lawsuits alleged that hundreds of riders suffered brain injuries from X2, a ride with seats that spin 360 degrees.",
-        "source": "BBC News",
-        "pubDate": 1790721193000
+        "title": "The Latin American Right’s Big Bet",
+        "link": "https://www.nytimes.com/2026/09/29/world/latin-america-brazil-election-trump-openai.html",
+        "summary": "The Trump administration is exerting new levels of control over the region. What’s the next move?",
+        "source": "NYT > World News",
+        "pubDate": 1790762609000
       },
       {
-        "title": "Former American Idol contestant and pastor found guilty of murdering wife",
-        "link": "https://www.bbc.co.uk/news/articles/c5rm9gv7n07xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Caleb Flynn weeps in court as he is convicted of shooting his wife, Ashley, dead in their Ohio home.",
+        "title": "Africa's richest man to launch Kenya oil refinery despite land protests",
+        "link": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&at_campaign=rss",
+        "summary": "The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.",
         "source": "BBC News",
-        "pubDate": 1790720016000
+        "pubDate": 1790761793000
       }
     ]
   }
