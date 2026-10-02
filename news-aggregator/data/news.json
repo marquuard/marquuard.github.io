@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-02T10:53:07.153Z",
+  "lastUpdated": "2026-10-02T18:12:48.830Z",
   "categories": {
     "technology": [
       {
-        "title": "AI music maker Suno now generates spoken words",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
-        "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public ...",
+        "title": "Breaking up (with Elon Musk) is hard to do",
+        "link": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+        "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of four of her children, Elon Musk, had broken up on X.\nTo do so, she quote-tweeted a...",
         "source": "The Verge",
-        "pubDate": 1790934139000
+        "pubDate": 1790962656000
       },
       {
-        "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
-        "link": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
-        "summary": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the...",
+        "title": "Rivian’s sales pop as the company’s big R2 bet starts to pay off",
+        "link": "https://www.theverge.com/transportation/1004127/rivian-q3-2026-production-delivery-r2",
+        "summary": "Rivian had high hopes for its more affordable R2 vehicle - and so far, those hopes appear to be paying off. \nThe company released its third-quarter production and delivery numbers ...",
         "source": "The Verge",
-        "pubDate": 1790895096000
+        "pubDate": 1790961303000
       },
       {
-        "title": "Venus' mysterious haze is actually cosmic dust",
-        "link": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
-        "summary": "A physical model show that iron dust and sulfuric acid create the right properties.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790893624000
+        "title": "Beehiiv creators are buzzing about a new price increase",
+        "link": "https://www.theverge.com/tech/1004133/beehiiv-price-increase-reactions",
+        "summary": "Beehiiv, a creator platform that has risen in popularity as an alternative to Substack, is increasing its prices - and many users aren't happy. In a post explaining the increase, B...",
+        "source": "The Verge",
+        "pubDate": 1790959909000
       },
       {
-        "title": "SpaceX describes surgical intervention before launch of latest crew mission",
-        "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
-        "summary": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790892453000
+        "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
+        "link": "https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller",
+        "summary": "Nacon announced what the company is claiming is the world's first officially licensed PlayStation 5 controller with a built-in screen for adjusting settings like joystick sensitivi...",
+        "source": "The Verge",
+        "pubDate": 1790958913000
       },
       {
-        "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
-        "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
-        "summary": "It has been a bad month for federal government cybersecurity.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790886525000
+        "title": "Dots get up in Muse’s business",
+        "link": "https://www.theverge.com/podcast/1004059/openai-dots-kindle-homepad-cybercab-vergecast",
+        "summary": "OpenAI's answer to Muse arrived this week, and it looks a whole lot like Muse dressed up in a suit and tie. Dots is a business-first product - for now, at least - costing a minimum...",
+        "source": "The Verge",
+        "pubDate": 1790956025000
       }
     ],
     "finance": [
       {
-        "title": "Three reasons why this Wall Street market-making powerhouse says investors should reload on stocks now",
-        "link": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
-        "summary": "September provided a reset for stocks, pointing to a good end to the year, says Scott Rubner",
+        "title": "How much higher can bond yields rise — and what does it mean for stocks?",
+        "link": "https://www.marketwatch.com/story/how-much-higher-can-bond-yields-rise-and-what-does-it-mean-for-stocks-12883d6c?mod=mw_rss_topstories",
+        "summary": "Also in Weekend Reads: Adjustable-rate mortgage loans, Gen Z entrepreneurs and advice from the Moneyist.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790938080000
+        "pubDate": 1790963280000
       },
       {
-        "title": "Here’s the bond-market alternative as U.S. and other developed markets debt deteriorate",
-        "link": "https://www.marketwatch.com/story/heres-the-bond-market-alternative-as-u-s-and-other-developed-markets-debt-deteriorate-e3d57b02?mod=mw_rss_topstories",
-        "summary": "Christopher Wood, of Jefferies, said Group of Seven bonds have entered a ‘structural bear market’ since March 2020.",
+        "title": "Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms",
+        "link": "https://www.marketwatch.com/story/europes-leaders-rush-to-release-diesel-from-stockpiles-as-fuel-shock-hangs-over-u-s-midterms-80bf0f38?mod=mw_rss_topstories",
+        "summary": "Europe leaders agreed Friday to release some of diesel stockpiles, pulling prices of oil down by more than 4%.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790936700000
+        "pubDate": 1790963280000
       },
       {
-        "title": "Brazil is holding an election — and for the stock market, there’s more to gain than to lose, says fund manager",
-        "link": "https://www.marketwatch.com/story/brazil-is-holding-an-election-and-for-the-stock-market-theres-more-to-gain-than-to-lose-says-fund-manager-fa29f26e?mod=mw_rss_topstories",
-        "summary": "Were Flavio Bolsonaro to outperform current polling Sunday, an emerging-market fund manager see the opportunity for a sharp rally in stocks",
+        "title": "Why bond investors quickly lost their enthusiasm for weak jobs figures",
+        "link": "https://www.marketwatch.com/story/why-bond-investors-quickly-lost-their-enthusiasm-for-weak-labor-figures-7a9727da?mod=mw_rss_topstories",
+        "summary": "A weak U.S. labor report did what bad news hadn’t done in a while: It made U.S. debt look like a safe haven again — albeit briefly.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790936520000
+        "pubDate": 1790962680000
       },
       {
         "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
         "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
         "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790936100000
+        "pubDate": 1790962200000
       },
       {
-        "title": "Another viral AI doomsday report claims ‘it’s over.’ Why home prices could take a hit as screen-based jobs disappear.",
-        "link": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc?mod=mw_rss_topstories",
-        "summary": "Egan-Jones has become the latest to issue a viral AI doomsday report, zeroing in on difficulties facing screen-based workers and the housing market.",
+        "title": "The U.S. can’t find enough of this critical machine component to win the humanoid-robots race",
+        "link": "https://www.marketwatch.com/story/to-win-the-humanoid-robots-race-the-u-s-needs-this-critical-machine-component-thats-hard-to-find-ca244571?mod=mw_rss_topstories",
+        "summary": "Humanoid robots have the potential to revolutionize life as we know it — but the U.S. does not have a supply chain that can produce key parts.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790933100000
+        "pubDate": 1790962140000
       }
     ],
     "business": [
       {
-        "title": "UK diesel price hits £2 a litre for first time, RAC says",
-        "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The motoring body says diesel price rises are showing no signs of slowing, \"heaping more misery\" onto drivers.",
+        "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+        "summary": "The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
         "source": "BBC News",
-        "pubDate": 1790937879000
+        "pubDate": 1790962196000
+      },
+      {
+        "title": "U.S. Labor Market Shifts to a Lower Gear",
+        "link": "https://www.nytimes.com/2026/10/02/business/economy/jobs-report-unemployment.html",
+        "summary": "The economy added fewer jobs in September and unemployment ticked up, while inflation has maintained pressure on markets and raised costs.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790960985000
+      },
+      {
+        "title": "Watch: Why has UK diesel price hit an all time high?",
+        "link": "https://www.bbc.co.uk/news/videos/c6m2d3mpm7r8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Diesel has now hit an average of £2 a litre in the UK, the RAC motoring group says, with petrol prices also rising.",
+        "source": "BBC News",
+        "pubDate": 1790960310000
+      },
+      {
+        "title": "Black Unemployment Rose Sharply in September, Jobs Report Shows",
+        "link": "https://www.nytimes.com/2026/10/02/business/economy/jobs-report-black-unemployment.html",
+        "summary": "Economists had taken a recent drop in Black unemployment as a hopeful sign that job gains were lifting a broad share of workers.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790959304000
       },
       {
         "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/02/business/jobs-report-economy/jobs-report-unemployment",
+        "link": "https://www.nytimes.com/live/2026/10/02/business/jobs-report-economy/heres-the-latest",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1790934363000
-      },
-      {
-        "title": "Tariffs Are Making Instruments So Expensive, School Music Programs Are at Risk",
-        "link": "https://www.nytimes.com/2026/10/02/business/economy/tariffs-instruments-school-music-programs.html",
-        "summary": "When a single cello can cost $1,000 and a tuba $9,000, tariffs are straining meager band and orchestra budgets.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790931780000
-      },
-      {
-        "title": "Diesel prices in NI at highest level since Iran war began",
-        "link": "https://www.bbc.co.uk/news/articles/c64g7gn4v99go?at_medium=RSS&at_campaign=rss",
-        "summary": "The average price of a litre of diesel hit 193.3p this week, according to NI Consumer Council data.",
-        "source": "BBC News",
-        "pubDate": 1790931741000
-      },
-      {
-        "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
-        "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-        "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-        "source": "BBC News",
-        "pubDate": 1790931240000
+        "pubDate": 1790956757000
       }
     ],
     "world": [
       {
-        "title": "‘I Couldn’t Let All of Them Die’: Pilot on FlyDubai Flight Recalls Sudden Attack",
-        "link": "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india.html",
-        "summary": "Capt. Smit Machchhar, who was stabbed by his co-pilot midair between Dubai and Tel Aviv, said he “had to act” to prevent a crash despite serious injuries.",
+        "title": "Sales of Hulking Pickups and S.U.V.s Sag as Fuel Prices Soar",
+        "link": "https://www.nytimes.com/2026/10/02/business/auto-sales-pickup-trucks-suvs.html",
+        "summary": "Sales of big pickup trucks and sport utility vehicles have dipped as more Americans buy hybrids and smaller cars.",
         "source": "NYT > World News",
-        "pubDate": 1790937956000
+        "pubDate": 1790964464000
       },
       {
-        "title": "Airlines Set to Bring Israelis Back From U.A.E. After FlyDubai Cockpit Attack",
-        "link": "https://www.nytimes.com/2026/10/02/world/middleeast/israel-dubai-uae-flights.html",
-        "summary": "The attack, on a flight from Dubai to Tel Aviv, halted the only direct service between the two cities since the war in Iran disrupted air traffic.",
+        "title": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War",
+        "link": "https://www.nytimes.com/2026/10/02/world/middleeast/yemen-houthis-saudi-arabia-sanaa-taiz.html",
+        "summary": "Yemen’s capital, Sanaa, was bombarded overnight, after government forces reported some of the most intense clashes in years around Taiz, the country’s third largest city.",
         "source": "NYT > World News",
-        "pubDate": 1790936523000
+        "pubDate": 1790964413000
       },
       {
-        "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
-        "link": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
-        "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
+        "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
+        "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.",
         "source": "BBC News",
-        "pubDate": 1790935496000
+        "pubDate": 1790963048000
       },
       {
-        "title": "A 'dark cloud' and 'dismal' mood: How it feels on Cornell campus right now",
-        "link": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
+        "title": "Riot police clash with students as education protests rage in France",
+        "link": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
+        "summary": "More than 600 schools have faced disruption as protests over standards and lack of teachers continue.",
         "source": "BBC News",
-        "pubDate": 1790935224000
+        "pubDate": 1790962990000
       },
       {
-        "title": "China’s Push into A.I. Has Led to a Problem: Too Much Usage",
-        "link": "https://www.nytimes.com/2026/10/02/world/asia/china-ai-overuse.html",
-        "summary": "As citizens embrace the technology for entertainment, relationships and even farming advice, the government is stepping up efforts to set limits.",
+        "title": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas",
+        "link": "https://www.nytimes.com/2026/10/02/world/europe/france-schools-protests-unrest.html",
+        "summary": "Days of unrest have affected more than 1,000 schools across France as high school students push for better standards.",
         "source": "NYT > World News",
-        "pubDate": 1790934624000
+        "pubDate": 1790962779000
       }
     ]
   }
