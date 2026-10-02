@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-01T18:41:58.095Z",
+  "lastUpdated": "2026-10-02T00:31:06.836Z",
   "categories": {
     "technology": [
       {
-        "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
-        "link": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
-        "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffi...",
+        "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
+        "link": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+        "summary": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the...",
         "source": "The Verge",
-        "pubDate": 1790874741000
+        "pubDate": 1790895096000
       },
       {
-        "title": "Sony brings AI graphics upscaling to the regular PS5",
-        "link": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
-        "summary": "Sony is launching a new AI upscaling technology specifically for the regular PS5. The new tech, called Quick Spectral Super Resolution (QSSR), is a \"new performance tier of AI upsc...",
-        "source": "The Verge",
-        "pubDate": 1790873619000
-      },
-      {
-        "title": "With most information hidden, the game Stratego",
-        "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-        "summary": "Adding in a second neural network that guesses the identity of hidden pieces was key.",
+        "title": "Venus' mysterious haze is actually cosmic dust",
+        "link": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
+        "summary": "A physical model show that iron dust and sulfuric acid create the right properties.",
         "source": "Ars Technica - All content",
-        "pubDate": 1790872084000
+        "pubDate": 1790893624000
       },
       {
-        "title": "Can VR glasses save VR?",
-        "link": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality",
-        "summary": "Sean wears the Meta VR Glasses. | Photo: Meta\t\n\nI'm pretty sure I won't be buying the $1,299 Meta VR Glasses. That's too rich for my blood in today's economy, and my feelings about...",
-        "source": "The Verge",
-        "pubDate": 1790871032000
+        "title": "SpaceX describes surgical intervention before launch of latest crew mission",
+        "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
+        "summary": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790892453000
       },
       {
-        "title": "Microsoft’s Office and Teams chief is leaving",
-        "link": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving",
-        "summary": "After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky is leaving the company. Roslansky, who until recently was the CEO of LinkedIn, was promoted to the head of Office la...",
-        "source": "The Verge",
-        "pubDate": 1790870557000
+        "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+        "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+        "summary": "It has been a bad month for federal government cybersecurity.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790886525000
+      },
+      {
+        "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+        "link": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+        "summary": "The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790885515000
       }
     ],
     "finance": [
       {
-        "title": "Financial stocks are falling below a key chart level to warn the worst is yet to come",
-        "link": "https://www.marketwatch.com/story/financial-stocks-are-falling-below-a-key-chart-level-to-warn-the-worst-is-yet-to-come-86e43092?mod=mw_rss_topstories",
-        "summary": "Financial stocks have struggled over the past several weeks, and it’s becoming clear the decline may not be over.",
+        "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+        "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+        "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790879880000
+        "pubDate": 1790900100000
       },
       {
-        "title": "This silent alarm in the bond market tells you which stocks to buy and which to avoid",
-        "link": "https://www.marketwatch.com/story/this-silent-alarm-in-the-bond-market-tells-you-which-stocks-to-buy-and-which-to-avoid-4568ac53?mod=mw_rss_topstories",
-        "summary": "Widening credit spreads send an important signal that investors should heed about which stocks to buy and which to avoid",
+        "title": "Here’s who’s joining the S&P 500 in the index’s latest shakeup",
+        "link": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
+        "summary": "Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790878200000
+        "pubDate": 1790900040000
       },
       {
-        "title": "Trump’s SEC wants to allow fund managers to charge extra fees for better performance. Here’s why it’s a terrible idea.",
-        "link": "https://www.marketwatch.com/story/trumps-sec-wants-to-allow-fund-managers-to-charge-extra-fees-for-better-performance-heres-why-its-a-terrible-idea-61f6e0cc?mod=mw_rss_topstories",
-        "summary": "Think twice before embracing any new fund with high performance-related fees in your 401(k).",
+        "title": "This could be the worst year ever for Nike’s stock, with sales set to fall further",
+        "link": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+        "summary": "The company has faced struggles in China and in its sneaker business.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790874960000
+        "pubDate": 1790899980000
       },
       {
-        "title": "This couple took out an adjustable-rate mortgage when rates were over 8%. Here’s how it worked out.",
-        "link": "https://www.marketwatch.com/story/this-couple-took-out-an-adjustable-rate-mortgage-when-rates-were-over-8-heres-how-it-worked-out-d52e592a?mod=mw_rss_topstories",
-        "summary": "Adjustable-rate mortgages have made a comeback as mortgage rates surge and buyers seek relief from high housing costs.",
+        "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
+        "link": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
+        "summary": "Annuity payout rates are closely tied to interest rates",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790873460000
+        "pubDate": 1790890020000
       },
       {
-        "title": "Mark Zuckerberg is coming for Apple’s empire",
-        "link": "https://www.marketwatch.com/story/metas-mark-zuckerberg-is-coming-for-apples-empire-f34d1f92?mod=mw_rss_topstories",
-        "summary": "Apple has a grip on consumer technology through its iPhone business, but Meta is betting that the AI era warrants different types of hardware.",
+        "title": "The stock market is anything but normal right now — and these charts show it",
+        "link": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
+        "summary": "The S&P 500 is trading just shy of record territory, even as most individual stocks are struggling.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790873220000
+        "pubDate": 1790888460000
       }
     ],
     "business": [
       {
-        "title": "Thames Water apologises after £145,000 customer billing mistake",
-        "link": "https://www.bbc.co.uk/news/articles/ck24j46424veo?at_medium=RSS&at_campaign=rss",
-        "summary": "The firm has apologised to the family.",
+        "title": "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
+        "link": "https://www.bbc.co.uk/news/articles/c6je85jzk9y7o?at_medium=RSS&at_campaign=rss",
+        "summary": "Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years.",
         "source": "BBC News",
-        "pubDate": 1790878156000
+        "pubDate": 1790897579000
       },
       {
-        "title": "UK in talks with EU partners to release strategic fuel reserves if needed, BBC understands",
+        "title": "'It could cost me £10k but I need the money now': Why Gen Z are opting out of pensions",
+        "link": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "A growing number of people are opting out of these schemes due to cost-of-living pressures.",
+        "source": "BBC News",
+        "pubDate": 1790895606000
+      },
+      {
+        "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
+        "link": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.",
+        "source": "BBC News",
+        "pubDate": 1790895605000
+      },
+      {
+        "title": "US says Europe should ready fuel supplies as Trump threatens diesel ban",
         "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-        "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US.",
+        "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
         "source": "BBC News",
-        "pubDate": 1790875657000
+        "pubDate": 1790893276000
       },
       {
-        "title": "Travelodge failed sex assault victim 'at every stage'",
-        "link": "https://www.bbc.co.uk/news/articles/c93429dg425o?at_medium=RSS&at_campaign=rss",
-        "summary": "Room intrusions were still being reported at one-in-10 Travelodge hotels this summer, a review finds.",
+        "title": "PM warned Rosebank oil field could breach West Bank sanctions",
+        "link": "https://www.bbc.co.uk/news/articles/cmrl6lz454lgo?at_medium=RSS&at_campaign=rss",
+        "summary": "Campaigners and Green Party leader Zack Polanski raise concerns about Rosebank's ties to an Israeli firm.",
         "source": "BBC News",
-        "pubDate": 1790872803000
-      },
-      {
-        "title": "'We must keep going' says charity hit by fuel prices",
-        "link": "https://www.bbc.co.uk/news/articles/cw1l6lq41gm6o?at_medium=RSS&at_campaign=rss",
-        "summary": "Both petrol and diesel prices have risen by a third or more in just the past seven months.",
-        "source": "BBC News",
-        "pubDate": 1790871132000
-      },
-      {
-        "title": "Is it time to ditch premium bonds?",
-        "link": "https://www.bbc.co.uk/news/videos/cmy5z5qx19pwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Martin Lewis says though they are the UK's most popular form of savings, not everybody benefits from them.\n \nMartin explains who premium bonds are best for, and who they aren’t so ...",
-        "source": "BBC News",
-        "pubDate": 1790868498000
+        "pubDate": 1790879902000
       }
     ],
     "world": [
       {
-        "title": "Live Updates: Investigators Seek to Establish Motive in FlyDubai Attack",
+        "title": "Investigators Seek to Establish Motive in FlyDubai Attack",
         "link": "https://www.nytimes.com/live/2026/10/01/world/flydubai-flight-israel-plane-pilots",
-        "summary": "The United Arab Emirates said it would lead the investigation, including into possible links to terrorism. Prime Minister Benjamin Netanyahu said the attacker had undergone “Islami...",
+        "summary": "The United Arab Emirates said it would lead the investigation, including into possible links to terrorism. Prime Minister Benjamin Netanyahu of Israel said the attacker had undergo...",
         "source": "NYT > World News",
-        "pubDate": 1790879948000
+        "pubDate": 1790899590000
       },
       {
-        "title": "Nigerian Charged With Running Fake Government Agency",
-        "link": "https://www.nytimes.com/2026/10/01/world/africa/nigeria-fake-government-agency.html",
-        "summary": "The Nigerian secured office space in a federal building, opened bank accounts and even held meetings with foreign diplomats. He says he is innocent.",
+        "title": "Investigators Seek Motive for FlyDubai Cockpit Attack",
+        "link": "https://www.nytimes.com/2026/10/01/world/middleeast/flydubai-attack-invesigation.html",
+        "summary": "Prime Minister Benjamin Netanyahu of Israel said the co-pilot who set upon the pilot had undergone “Islamist radical indoctrination” but did not elaborate.",
         "source": "NYT > World News",
-        "pubDate": 1790879595000
+        "pubDate": 1790897058000
       },
       {
-        "title": "U.S. Bond Yields Hit Highest Level Since 2002",
-        "link": "https://www.nytimes.com/2026/10/01/business/bond-yields-10-year-treasury.html",
-        "summary": "The higher yields, which are pressuring consumer and corporate borrowers and increasingly weighing on certain corners of the stock market, are unlikely to dissipate soon.",
-        "source": "NYT > World News",
-        "pubDate": 1790879301000
-      },
-      {
-        "title": "Fires break out at French schools as students protest nationwide",
-        "link": "https://www.bbc.co.uk/news/articles/c6d080d1e3l4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The French government holds a crisis meeting as demonstrations grow and become violent in places.",
+        "title": "What happened in the failed execution of Christa Pike - and what next?",
+        "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
         "source": "BBC News",
-        "pubDate": 1790878949000
+        "pubDate": 1790895139000
       },
       {
-        "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-        "link": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
+        "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
+        "link": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
+        "summary": "Pike’s lawyers have asked for her death sentence to be commuted following the botched execution.",
         "source": "BBC News",
-        "pubDate": 1790878754000
+        "pubDate": 1790893725000
+      },
+      {
+        "title": "Canada’s Proposed Oil Pipeline Offers Carney Relief From Domestic and Global Turmoil",
+        "link": "https://www.nytimes.com/2026/10/01/world/canada/carney-alberta-british-columbia-oil-pipeline.html",
+        "summary": "The new pipeline from Alberta’s oil sands to the Pacific Coast may lower separatist tensions in that province while also loosening energy ties with the U.S.",
+        "source": "NYT > World News",
+        "pubDate": 1790891250000
       }
     ]
   }
