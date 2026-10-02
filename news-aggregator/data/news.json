@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-10-02T00:31:06.836Z",
+  "lastUpdated": "2026-10-02T10:53:07.153Z",
   "categories": {
     "technology": [
+      {
+        "title": "AI music maker Suno now generates spoken words",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+        "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public ...",
+        "source": "The Verge",
+        "pubDate": 1790934139000
+      },
       {
         "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
         "link": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
@@ -29,124 +36,117 @@
         "summary": "It has been a bad month for federal government cybersecurity.",
         "source": "Ars Technica - All content",
         "pubDate": 1790886525000
-      },
-      {
-        "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
-        "link": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-        "summary": "The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790885515000
       }
     ],
     "finance": [
+      {
+        "title": "Three reasons why this Wall Street market-making powerhouse says investors should reload on stocks now",
+        "link": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
+        "summary": "September provided a reset for stocks, pointing to a good end to the year, says Scott Rubner",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790938080000
+      },
+      {
+        "title": "Here’s the bond-market alternative as U.S. and other developed markets debt deteriorate",
+        "link": "https://www.marketwatch.com/story/heres-the-bond-market-alternative-as-u-s-and-other-developed-markets-debt-deteriorate-e3d57b02?mod=mw_rss_topstories",
+        "summary": "Christopher Wood, of Jefferies, said Group of Seven bonds have entered a ‘structural bear market’ since March 2020.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790936700000
+      },
+      {
+        "title": "Brazil is holding an election — and for the stock market, there’s more to gain than to lose, says fund manager",
+        "link": "https://www.marketwatch.com/story/brazil-is-holding-an-election-and-for-the-stock-market-theres-more-to-gain-than-to-lose-says-fund-manager-fa29f26e?mod=mw_rss_topstories",
+        "summary": "Were Flavio Bolsonaro to outperform current polling Sunday, an emerging-market fund manager see the opportunity for a sharp rally in stocks",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790936520000
+      },
       {
         "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
         "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
         "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790900100000
+        "pubDate": 1790936100000
       },
       {
-        "title": "Here’s who’s joining the S&P 500 in the index’s latest shakeup",
-        "link": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
-        "summary": "Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount.",
+        "title": "Another viral AI doomsday report claims ‘it’s over.’ Why home prices could take a hit as screen-based jobs disappear.",
+        "link": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc?mod=mw_rss_topstories",
+        "summary": "Egan-Jones has become the latest to issue a viral AI doomsday report, zeroing in on difficulties facing screen-based workers and the housing market.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790900040000
-      },
-      {
-        "title": "This could be the worst year ever for Nike’s stock, with sales set to fall further",
-        "link": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
-        "summary": "The company has faced struggles in China and in its sneaker business.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790899980000
-      },
-      {
-        "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
-        "link": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
-        "summary": "Annuity payout rates are closely tied to interest rates",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790890020000
-      },
-      {
-        "title": "The stock market is anything but normal right now — and these charts show it",
-        "link": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
-        "summary": "The S&P 500 is trading just shy of record territory, even as most individual stocks are struggling.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790888460000
+        "pubDate": 1790933100000
       }
     ],
     "business": [
       {
-        "title": "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
-        "link": "https://www.bbc.co.uk/news/articles/c6je85jzk9y7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years.",
+        "title": "UK diesel price hits £2 a litre for first time, RAC says",
+        "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The motoring body says diesel price rises are showing no signs of slowing, \"heaping more misery\" onto drivers.",
         "source": "BBC News",
-        "pubDate": 1790897579000
+        "pubDate": 1790937879000
       },
       {
-        "title": "'It could cost me £10k but I need the money now': Why Gen Z are opting out of pensions",
-        "link": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
-        "summary": "A growing number of people are opting out of these schemes due to cost-of-living pressures.",
-        "source": "BBC News",
-        "pubDate": 1790895606000
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/10/02/business/jobs-report-economy/jobs-report-unemployment",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790934363000
       },
       {
-        "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
-        "link": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.",
-        "source": "BBC News",
-        "pubDate": 1790895605000
+        "title": "Tariffs Are Making Instruments So Expensive, School Music Programs Are at Risk",
+        "link": "https://www.nytimes.com/2026/10/02/business/economy/tariffs-instruments-school-music-programs.html",
+        "summary": "When a single cello can cost $1,000 and a tuba $9,000, tariffs are straining meager band and orchestra budgets.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1790931780000
       },
       {
-        "title": "US says Europe should ready fuel supplies as Trump threatens diesel ban",
+        "title": "Diesel prices in NI at highest level since Iran war began",
+        "link": "https://www.bbc.co.uk/news/articles/c64g7gn4v99go?at_medium=RSS&at_campaign=rss",
+        "summary": "The average price of a litre of diesel hit 193.3p this week, according to NI Consumer Council data.",
+        "source": "BBC News",
+        "pubDate": 1790931741000
+      },
+      {
+        "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
         "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
         "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
         "source": "BBC News",
-        "pubDate": 1790893276000
-      },
-      {
-        "title": "PM warned Rosebank oil field could breach West Bank sanctions",
-        "link": "https://www.bbc.co.uk/news/articles/cmrl6lz454lgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Campaigners and Green Party leader Zack Polanski raise concerns about Rosebank's ties to an Israeli firm.",
-        "source": "BBC News",
-        "pubDate": 1790879902000
+        "pubDate": 1790931240000
       }
     ],
     "world": [
       {
-        "title": "Investigators Seek to Establish Motive in FlyDubai Attack",
-        "link": "https://www.nytimes.com/live/2026/10/01/world/flydubai-flight-israel-plane-pilots",
-        "summary": "The United Arab Emirates said it would lead the investigation, including into possible links to terrorism. Prime Minister Benjamin Netanyahu of Israel said the attacker had undergo...",
+        "title": "‘I Couldn’t Let All of Them Die’: Pilot on FlyDubai Flight Recalls Sudden Attack",
+        "link": "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india.html",
+        "summary": "Capt. Smit Machchhar, who was stabbed by his co-pilot midair between Dubai and Tel Aviv, said he “had to act” to prevent a crash despite serious injuries.",
         "source": "NYT > World News",
-        "pubDate": 1790899590000
+        "pubDate": 1790937956000
       },
       {
-        "title": "Investigators Seek Motive for FlyDubai Cockpit Attack",
-        "link": "https://www.nytimes.com/2026/10/01/world/middleeast/flydubai-attack-invesigation.html",
-        "summary": "Prime Minister Benjamin Netanyahu of Israel said the co-pilot who set upon the pilot had undergone “Islamist radical indoctrination” but did not elaborate.",
+        "title": "Airlines Set to Bring Israelis Back From U.A.E. After FlyDubai Cockpit Attack",
+        "link": "https://www.nytimes.com/2026/10/02/world/middleeast/israel-dubai-uae-flights.html",
+        "summary": "The attack, on a flight from Dubai to Tel Aviv, halted the only direct service between the two cities since the war in Iran disrupted air traffic.",
         "source": "NYT > World News",
-        "pubDate": 1790897058000
+        "pubDate": 1790936523000
       },
       {
-        "title": "What happened in the failed execution of Christa Pike - and what next?",
-        "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-        "summary": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
+        "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+        "link": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+        "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
         "source": "BBC News",
-        "pubDate": 1790895139000
+        "pubDate": 1790935496000
       },
       {
-        "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-        "link": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
-        "summary": "Pike’s lawyers have asked for her death sentence to be commuted following the botched execution.",
+        "title": "A 'dark cloud' and 'dismal' mood: How it feels on Cornell campus right now",
+        "link": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
         "source": "BBC News",
-        "pubDate": 1790893725000
+        "pubDate": 1790935224000
       },
       {
-        "title": "Canada’s Proposed Oil Pipeline Offers Carney Relief From Domestic and Global Turmoil",
-        "link": "https://www.nytimes.com/2026/10/01/world/canada/carney-alberta-british-columbia-oil-pipeline.html",
-        "summary": "The new pipeline from Alberta’s oil sands to the Pacific Coast may lower separatist tensions in that province while also loosening energy ties with the U.S.",
+        "title": "China’s Push into A.I. Has Led to a Problem: Too Much Usage",
+        "link": "https://www.nytimes.com/2026/10/02/world/asia/china-ai-overuse.html",
+        "summary": "As citizens embrace the technology for entertainment, relationships and even farming advice, the government is stepping up efforts to set limits.",
         "source": "NYT > World News",
-        "pubDate": 1790891250000
+        "pubDate": 1790934624000
       }
     ]
   }
