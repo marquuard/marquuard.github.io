@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-10-03T00:09:52.797Z",
+  "lastUpdated": "2026-10-03T10:12:37.685Z",
   "categories": {
     "technology": [
+      {
+        "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+        "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+        "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790982196000
+      },
       {
         "title": "Someone got Doom in an SQL database",
         "link": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
@@ -29,16 +36,16 @@
         "summary": "Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few...",
         "source": "The Verge",
         "pubDate": 1790973026000
-      },
-      {
-        "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-        "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-        "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling ...",
-        "source": "The Verge",
-        "pubDate": 1790971720000
       }
     ],
     "finance": [
+      {
+        "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+        "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+        "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1790993760000
+      },
       {
         "title": "Why Western Digital and Seagate are seeing big stock drops today",
         "link": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
@@ -66,22 +73,36 @@
         "summary": "Is it time to dust off the financial playbook from that dismal decade?",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1790978040000
-      },
-      {
-        "title": "Why mixing politics with your stock portfolio might be costing you money",
-        "link": "https://www.marketwatch.com/story/why-mixing-politics-with-your-stock-portfolio-might-be-costing-you-money-5b4aabfb?mod=mw_rss_topstories",
-        "summary": "Data shows that partisan ETFs result in higher fees and lower market returns",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790973780000
       }
     ],
     "business": [
       {
-        "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
-        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-        "summary": "The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+        "title": "Suppliers pile pressure on government over energy bills",
+        "link": "https://www.bbc.co.uk/news/articles/cq0ld88kzxw8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Immediate action is needed to help households struggling with bills this winter, says trade body Energy UK.",
         "source": "BBC News",
-        "pubDate": 1790972719000
+        "pubDate": 1791017924000
+      },
+      {
+        "title": "New baby bank 'open to everybody'",
+        "link": "https://www.bbc.co.uk/news/articles/ck624p1y8ejyo?at_medium=RSS&at_campaign=rss",
+        "summary": "The facility offers essential items for free, including clothes for babies and small children.",
+        "source": "BBC News",
+        "pubDate": 1791007685000
+      },
+      {
+        "title": "Rising energy costs add to cost of living for Northern Ireland's consumers",
+        "link": "https://www.bbc.co.uk/news/articles/c5j9x99yep92o?at_medium=RSS&at_campaign=rss",
+        "summary": "Households across Northern Ireland face increasing pressure on the cost of living as energy price hikes have come into effect.",
+        "source": "BBC News",
+        "pubDate": 1791005263000
+      },
+      {
+        "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+        "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+        "source": "BBC News",
+        "pubDate": 1791002311000
       },
       {
         "title": "Hiring Slows as U.S. Jobs Report Shows Labor Market Shifting Into Lower Gear",
@@ -89,64 +110,43 @@
         "summary": "The economy added fewer jobs in September and unemployment ticked up, while inflation has maintained pressure on markets and raised costs.",
         "source": "NYT > Business > Economy",
         "pubDate": 1790960985000
-      },
-      {
-        "title": "Watch: Why has UK diesel price hit an all time high?",
-        "link": "https://www.bbc.co.uk/news/videos/c6m2d3mpm7r8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Diesel has now hit an average of £2 a litre in the UK, the RAC motoring group says, with petrol prices also rising.",
-        "source": "BBC News",
-        "pubDate": 1790960310000
-      },
-      {
-        "title": "Black Unemployment Rose Sharply in September, Jobs Report Shows",
-        "link": "https://www.nytimes.com/2026/10/02/business/economy/jobs-report-black-unemployment.html",
-        "summary": "Economists had taken a recent drop in Black unemployment as a hopeful sign that job gains were lifting a broad share of workers.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790959304000
-      },
-      {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/02/business/jobs-report-economy/heres-the-latest",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1790956757000
       }
     ],
     "world": [
       {
-        "title": "Iran Jails Hard-Line Lawmaker, Exposing Deep Rifts in Its Leadership",
-        "link": "https://www.nytimes.com/2026/10/02/world/middleeast/iran-hard-line-lawmaker-jail-rift.html",
-        "summary": "Hamid Rasaei, a vocal opponent of a diplomatic deal with the United States to end the war, was convicted of publishing false information with the intent to harm the Parliament spea...",
+        "title": "Understanding Canada’s Europe Pivot",
+        "link": "https://www.nytimes.com/2026/10/03/world/canada/carney-canada-european-union-trade-currency.html",
+        "summary": "You sent us your questions about the prime minister’s plan to form a closer relationship with the European Union. Our Canada bureau chief answers them.",
         "source": "NYT > World News",
-        "pubDate": 1790983718000
+        "pubDate": 1791021613000
       },
       {
-        "title": "Bridal Shop Owner Who Put Child Onto a Coat Hook Cleared by Court",
-        "link": "https://www.nytimes.com/2026/10/02/world/canada/newfoundland-bridal-shop-owner-boy-coat-hook.html",
-        "summary": "The “horseplay” was misguided, said the Canadian judge, but not malicious.",
-        "source": "NYT > World News",
-        "pubDate": 1790978949000
+        "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
+        "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+        "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+        "source": "BBC News",
+        "pubDate": 1791021604000
       },
       {
-        "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
-        "link": "https://www.nytimes.com/2026/10/02/world/africa/ethiopia-tigray-conflict.html",
-        "summary": "The conflict is raising fears of a regional war in the Horn of Africa, drawing in foreign powers including Eritrea, Egypt the United Arab Emirates and Saudi Arabia.",
-        "source": "NYT > World News",
-        "pubDate": 1790978708000
+        "title": "Russia strikes second major bridge in Kyiv, mayor says",
+        "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+        "summary": "The strike on Northern Bridge comes after repeat attacks on another major bridge in recent days.",
+        "source": "BBC News",
+        "pubDate": 1791021196000
       },
       {
-        "title": "2 Iranian Men Charged in U.K. Over Suspected Plot to Target Jews",
-        "link": "https://www.nytimes.com/2026/10/02/world/europe/uk-manchester-terror-plot-iranians-jews.html",
-        "summary": "The British police said the two Iranian nationals were charged Friday with terrorism offenses.",
+        "title": "FlyDubai Co-Pilot Used Crash Ax in ‘Terrorist’ Cockpit Attack, Emirates Says",
+        "link": "https://www.nytimes.com/2026/10/03/world/middleeast/flydubai-ax-cockpit.html",
+        "summary": "The violent midair assault on a FlyDubai flight to Tel Aviv has deepened concerns about the safety of Israelis traveling abroad.",
         "source": "NYT > World News",
-        "pubDate": 1790978062000
+        "pubDate": 1791019091000
       },
       {
-        "title": "Widdecombe Murder Suspect Charged With Preparing Acts of Terrorism, Including Against Farage",
-        "link": "https://www.nytimes.com/2026/10/02/world/europe/uk-terrorism-nigel-farage.html",
-        "summary": "Joshua Kerry, a 28-year-old British man accused of killing the former lawmaker Ann Widdecombe, was charged on Friday.",
+        "title": "These Birds Are Louder Than Elephants, Jackhammers and Chain Saws",
+        "link": "https://www.nytimes.com/2026/10/03/science/loudest-birds.html",
+        "summary": "A new study has identified two species of Brazilian birds, the bare-throated bellbird and the red-legged seriema, as the loudest in nature.",
         "source": "NYT > World News",
-        "pubDate": 1790975750000
+        "pubDate": 1791018126000
       }
     ]
   }
