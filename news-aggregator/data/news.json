@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-10-03T10:12:37.685Z",
+  "lastUpdated": "2026-10-03T16:59:11.943Z",
   "categories": {
     "technology": [
       {
-        "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-        "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-        "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790982196000
-      },
-      {
-        "title": "Someone got Doom in an SQL database",
-        "link": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
-        "summary": "1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790975945000
-      },
-      {
-        "title": "Meta open sources code to let you make Muse AI gadgets",
-        "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-        "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a c...",
+        "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+        "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+        "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi I...",
         "source": "The Verge",
-        "pubDate": 1790975317000
+        "pubDate": 1791046150000
       },
       {
-        "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-        "link": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-        "summary": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1790973027000
-      },
-      {
-        "title": "Netflix is pivoting away from prestige",
-        "link": "https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig",
-        "summary": "Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few...",
+        "title": "The best early October Prime Day deals happening now",
+        "link": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
+        "summary": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up Oct...",
         "source": "The Verge",
-        "pubDate": 1790973026000
+        "pubDate": 1791044560000
+      },
+      {
+        "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+        "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+        "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into ma...",
+        "source": "The Verge",
+        "pubDate": 1791039600000
+      },
+      {
+        "title": "An OpenAI safety employee has quit and is sounding the alarm",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+        "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editori...",
+        "source": "The Verge",
+        "pubDate": 1791037916000
+      },
+      {
+        "title": "3D movies are finally worth watching",
+        "link": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+        "summary": "My colleague Cameron Faulkner models a pair of Xreal glasses. | Photo: Cameron Faulkner / The Verge\t\n\nWhy am I suddenly buying up every 3D Blu-ray I can find after 3D became one of...",
+        "source": "The Verge",
+        "pubDate": 1791028800000
       }
     ],
     "finance": [
       {
-        "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-        "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
-        "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
+        "title": "Switching jobs to get higher pay works best in these industries",
+        "link": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories",
+        "summary": "Finding a new job is one way to get a pay increase at a time when inflation has been outpacing wage growth.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790993760000
+        "pubDate": 1791045720000
       },
       {
-        "title": "Why Western Digital and Seagate are seeing big stock drops today",
-        "link": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
-        "summary": "Investors are worried that Toshiba will boost its production of a key AI storage product, potentially hurting the strong pricing power that Western Digital and Seagate currently en...",
+        "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+        "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+        "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790980920000
+        "pubDate": 1791045000000
       },
       {
-        "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
-        "link": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
-        "summary": "EV giant Tesla had the best three-month period for vehicle sales this year, but it was less than a year ago.",
+        "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
+        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+        "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790980140000
+        "pubDate": 1791043200000
       },
       {
-        "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
-        "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-        "summary": "“I have $152,000 in my IRA and Roth accounts.”",
+        "title": "The No. 1 mistake beginners make with travel cards, according to The Points Guy",
+        "link": "https://www.marketwatch.com/story/the-no-1-mistake-beginners-make-with-travel-cards-according-to-the-points-guy-3502e859?mod=mw_rss_topstories",
+        "summary": "The Points Guy’s Brian Kelly gave me a crash course in annual fees and redemptions to offset rising travel costs",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790979000000
+        "pubDate": 1791042120000
       },
       {
-        "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
-        "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
-        "summary": "Is it time to dust off the financial playbook from that dismal decade?",
+        "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+        "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+        "summary": "“When my paycheck lands, it takes a detour through bitcoin.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790978040000
+        "pubDate": 1791041400000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Understanding Canada’s Europe Pivot",
-        "link": "https://www.nytimes.com/2026/10/03/world/canada/carney-canada-european-union-trade-currency.html",
-        "summary": "You sent us your questions about the prime minister’s plan to form a closer relationship with the European Union. Our Canada bureau chief answers them.",
-        "source": "NYT > World News",
-        "pubDate": 1791021613000
-      },
-      {
-        "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-        "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-        "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+        "title": "Tennessee prison chief to resign after Christa Pike's failed execution, governor says",
+        "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Pike survived two lethal injections on Wednesday and is currently in critical condition in hospital.",
         "source": "BBC News",
-        "pubDate": 1791021604000
+        "pubDate": 1791046622000
       },
       {
-        "title": "Russia strikes second major bridge in Kyiv, mayor says",
+        "title": "American High School Students Are Selling Guns Bound for Cartels",
+        "link": "https://www.nytimes.com/2026/10/03/world/americas/high-school-arms-dealing-mexican-cartels.html",
+        "summary": "Drawn by money and status, teenagers in Arizona are buying, stealing and selling weapons destined for criminal groups in Mexico.",
+        "source": "NYT > World News",
+        "pubDate": 1791046041000
+      },
+      {
+        "title": "What We Learned About American Teenagers Supplying Guns to Cartels",
+        "link": "https://www.nytimes.com/2026/10/03/world/americas/american-teenage-gun-traffickers.html",
+        "summary": "Our reporting revealed how Mexican criminal groups are relying on teenagers and young adults in border states like Arizona to help supply their weapons.",
+        "source": "NYT > World News",
+        "pubDate": 1791045385000
+      },
+      {
+        "title": "How RAF Fairford in a Quiet Corner of England Became a U.S.-Iran Flashpoint",
+        "link": "https://www.nytimes.com/2026/10/03/world/europe/raf-fairford-air-base-incident-iran.html",
+        "summary": "A mysterious call last Sunday near a military base used by the U.S. set in motion a huge counterterrorism response and days of uncertainty in Britain.",
+        "source": "NYT > World News",
+        "pubDate": 1791044346000
+      },
+      {
+        "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
         "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-        "summary": "The strike on Northern Bridge comes after repeat attacks on another major bridge in recent days.",
+        "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
         "source": "BBC News",
-        "pubDate": 1791021196000
-      },
-      {
-        "title": "FlyDubai Co-Pilot Used Crash Ax in ‘Terrorist’ Cockpit Attack, Emirates Says",
-        "link": "https://www.nytimes.com/2026/10/03/world/middleeast/flydubai-ax-cockpit.html",
-        "summary": "The violent midair assault on a FlyDubai flight to Tel Aviv has deepened concerns about the safety of Israelis traveling abroad.",
-        "source": "NYT > World News",
-        "pubDate": 1791019091000
-      },
-      {
-        "title": "These Birds Are Louder Than Elephants, Jackhammers and Chain Saws",
-        "link": "https://www.nytimes.com/2026/10/03/science/loudest-birds.html",
-        "summary": "A new study has identified two species of Brazilian birds, the bare-throated bellbird and the red-legged seriema, as the loudest in nature.",
-        "source": "NYT > World News",
-        "pubDate": 1791018126000
+        "pubDate": 1791044209000
       }
     ]
   }
