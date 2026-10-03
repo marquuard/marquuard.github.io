@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-10-02T18:12:48.830Z",
+  "lastUpdated": "2026-10-03T00:09:52.797Z",
   "categories": {
     "technology": [
       {
-        "title": "Breaking up (with Elon Musk) is hard to do",
-        "link": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
-        "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of four of her children, Elon Musk, had broken up on X.\nTo do so, she quote-tweeted a...",
-        "source": "The Verge",
-        "pubDate": 1790962656000
+        "title": "Someone got Doom in an SQL database",
+        "link": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
+        "summary": "1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790975945000
       },
       {
-        "title": "Rivian’s sales pop as the company’s big R2 bet starts to pay off",
-        "link": "https://www.theverge.com/transportation/1004127/rivian-q3-2026-production-delivery-r2",
-        "summary": "Rivian had high hopes for its more affordable R2 vehicle - and so far, those hopes appear to be paying off. \nThe company released its third-quarter production and delivery numbers ...",
+        "title": "Meta open sources code to let you make Muse AI gadgets",
+        "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+        "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a c...",
         "source": "The Verge",
-        "pubDate": 1790961303000
+        "pubDate": 1790975317000
       },
       {
-        "title": "Beehiiv creators are buzzing about a new price increase",
-        "link": "https://www.theverge.com/tech/1004133/beehiiv-price-increase-reactions",
-        "summary": "Beehiiv, a creator platform that has risen in popularity as an alternative to Substack, is increasing its prices - and many users aren't happy. In a post explaining the increase, B...",
-        "source": "The Verge",
-        "pubDate": 1790959909000
+        "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+        "link": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+        "summary": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1790973027000
       },
       {
-        "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
-        "link": "https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller",
-        "summary": "Nacon announced what the company is claiming is the world's first officially licensed PlayStation 5 controller with a built-in screen for adjusting settings like joystick sensitivi...",
+        "title": "Netflix is pivoting away from prestige",
+        "link": "https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig",
+        "summary": "Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few...",
         "source": "The Verge",
-        "pubDate": 1790958913000
+        "pubDate": 1790973026000
       },
       {
-        "title": "Dots get up in Muse’s business",
-        "link": "https://www.theverge.com/podcast/1004059/openai-dots-kindle-homepad-cybercab-vergecast",
-        "summary": "OpenAI's answer to Muse arrived this week, and it looks a whole lot like Muse dressed up in a suit and tie. Dots is a business-first product - for now, at least - costing a minimum...",
+        "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+        "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+        "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling ...",
         "source": "The Verge",
-        "pubDate": 1790956025000
+        "pubDate": 1790971720000
       }
     ],
     "finance": [
       {
-        "title": "How much higher can bond yields rise — and what does it mean for stocks?",
-        "link": "https://www.marketwatch.com/story/how-much-higher-can-bond-yields-rise-and-what-does-it-mean-for-stocks-12883d6c?mod=mw_rss_topstories",
-        "summary": "Also in Weekend Reads: Adjustable-rate mortgage loans, Gen Z entrepreneurs and advice from the Moneyist.",
+        "title": "Why Western Digital and Seagate are seeing big stock drops today",
+        "link": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
+        "summary": "Investors are worried that Toshiba will boost its production of a key AI storage product, potentially hurting the strong pricing power that Western Digital and Seagate currently en...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790963280000
+        "pubDate": 1790980920000
       },
       {
-        "title": "Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms",
-        "link": "https://www.marketwatch.com/story/europes-leaders-rush-to-release-diesel-from-stockpiles-as-fuel-shock-hangs-over-u-s-midterms-80bf0f38?mod=mw_rss_topstories",
-        "summary": "Europe leaders agreed Friday to release some of diesel stockpiles, pulling prices of oil down by more than 4%.",
+        "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
+        "link": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
+        "summary": "EV giant Tesla had the best three-month period for vehicle sales this year, but it was less than a year ago.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790963280000
+        "pubDate": 1790980140000
       },
       {
-        "title": "Why bond investors quickly lost their enthusiasm for weak jobs figures",
-        "link": "https://www.marketwatch.com/story/why-bond-investors-quickly-lost-their-enthusiasm-for-weak-labor-figures-7a9727da?mod=mw_rss_topstories",
-        "summary": "A weak U.S. labor report did what bad news hadn’t done in a while: It made U.S. debt look like a safe haven again — albeit briefly.",
+        "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+        "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+        "summary": "“I have $152,000 in my IRA and Roth accounts.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790962680000
+        "pubDate": 1790979000000
       },
       {
-        "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-        "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
-        "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
+        "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
+        "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
+        "summary": "Is it time to dust off the financial playbook from that dismal decade?",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790962200000
+        "pubDate": 1790978040000
       },
       {
-        "title": "The U.S. can’t find enough of this critical machine component to win the humanoid-robots race",
-        "link": "https://www.marketwatch.com/story/to-win-the-humanoid-robots-race-the-u-s-needs-this-critical-machine-component-thats-hard-to-find-ca244571?mod=mw_rss_topstories",
-        "summary": "Humanoid robots have the potential to revolutionize life as we know it — but the U.S. does not have a supply chain that can produce key parts.",
+        "title": "Why mixing politics with your stock portfolio might be costing you money",
+        "link": "https://www.marketwatch.com/story/why-mixing-politics-with-your-stock-portfolio-might-be-costing-you-money-5b4aabfb?mod=mw_rss_topstories",
+        "summary": "Data shows that partisan ETFs result in higher fees and lower market returns",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1790962140000
+        "pubDate": 1790973780000
       }
     ],
     "business": [
@@ -81,10 +81,10 @@
         "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
         "summary": "The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
         "source": "BBC News",
-        "pubDate": 1790962196000
+        "pubDate": 1790972719000
       },
       {
-        "title": "U.S. Labor Market Shifts to a Lower Gear",
+        "title": "Hiring Slows as U.S. Jobs Report Shows Labor Market Shifting Into Lower Gear",
         "link": "https://www.nytimes.com/2026/10/02/business/economy/jobs-report-unemployment.html",
         "summary": "The economy added fewer jobs in September and unemployment ticked up, while inflation has maintained pressure on markets and raised costs.",
         "source": "NYT > Business > Economy",
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Sales of Hulking Pickups and S.U.V.s Sag as Fuel Prices Soar",
-        "link": "https://www.nytimes.com/2026/10/02/business/auto-sales-pickup-trucks-suvs.html",
-        "summary": "Sales of big pickup trucks and sport utility vehicles have dipped as more Americans buy hybrids and smaller cars.",
+        "title": "Iran Jails Hard-Line Lawmaker, Exposing Deep Rifts in Its Leadership",
+        "link": "https://www.nytimes.com/2026/10/02/world/middleeast/iran-hard-line-lawmaker-jail-rift.html",
+        "summary": "Hamid Rasaei, a vocal opponent of a diplomatic deal with the United States to end the war, was convicted of publishing false information with the intent to harm the Parliament spea...",
         "source": "NYT > World News",
-        "pubDate": 1790964464000
+        "pubDate": 1790983718000
       },
       {
-        "title": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War",
-        "link": "https://www.nytimes.com/2026/10/02/world/middleeast/yemen-houthis-saudi-arabia-sanaa-taiz.html",
-        "summary": "Yemen’s capital, Sanaa, was bombarded overnight, after government forces reported some of the most intense clashes in years around Taiz, the country’s third largest city.",
+        "title": "Bridal Shop Owner Who Put Child Onto a Coat Hook Cleared by Court",
+        "link": "https://www.nytimes.com/2026/10/02/world/canada/newfoundland-bridal-shop-owner-boy-coat-hook.html",
+        "summary": "The “horseplay” was misguided, said the Canadian judge, but not malicious.",
         "source": "NYT > World News",
-        "pubDate": 1790964413000
+        "pubDate": 1790978949000
       },
       {
-        "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-        "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
-        "summary": "The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.",
-        "source": "BBC News",
-        "pubDate": 1790963048000
-      },
-      {
-        "title": "Riot police clash with students as education protests rage in France",
-        "link": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 600 schools have faced disruption as protests over standards and lack of teachers continue.",
-        "source": "BBC News",
-        "pubDate": 1790962990000
-      },
-      {
-        "title": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas",
-        "link": "https://www.nytimes.com/2026/10/02/world/europe/france-schools-protests-unrest.html",
-        "summary": "Days of unrest have affected more than 1,000 schools across France as high school students push for better standards.",
+        "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
+        "link": "https://www.nytimes.com/2026/10/02/world/africa/ethiopia-tigray-conflict.html",
+        "summary": "The conflict is raising fears of a regional war in the Horn of Africa, drawing in foreign powers including Eritrea, Egypt the United Arab Emirates and Saudi Arabia.",
         "source": "NYT > World News",
-        "pubDate": 1790962779000
+        "pubDate": 1790978708000
+      },
+      {
+        "title": "2 Iranian Men Charged in U.K. Over Suspected Plot to Target Jews",
+        "link": "https://www.nytimes.com/2026/10/02/world/europe/uk-manchester-terror-plot-iranians-jews.html",
+        "summary": "The British police said the two Iranian nationals were charged Friday with terrorism offenses.",
+        "source": "NYT > World News",
+        "pubDate": 1790978062000
+      },
+      {
+        "title": "Widdecombe Murder Suspect Charged With Preparing Acts of Terrorism, Including Against Farage",
+        "link": "https://www.nytimes.com/2026/10/02/world/europe/uk-terrorism-nigel-farage.html",
+        "summary": "Joshua Kerry, a 28-year-old British man accused of killing the former lawmaker Ann Widdecombe, was charged on Friday.",
+        "source": "NYT > World News",
+        "pubDate": 1790975750000
       }
     ]
   }
