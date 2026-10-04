@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T23:30:50.988Z",
+  "lastUpdated": "2026-10-04T10:53:51.125Z",
   "categories": {
     "technology": [
       {
@@ -40,6 +40,20 @@
     ],
     "finance": [
       {
+        "title": "The government can take 15% of Social Security benefits to repay student loans. These proposals seek to stop it.",
+        "link": "https://www.marketwatch.com/story/the-government-can-take-15-of-social-security-benefits-to-repay-student-loans-these-proposals-seek-to-stop-it-102622fa?mod=mw_rss_topstories",
+        "summary": "Debt among older Americans is rising, both in terms of the number of older households carrying debt and the amount borrowed.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791072120000
+      },
+      {
+        "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
+        "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
+        "summary": "Is it time to dust off the financial playbook from that dismal decade?",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791071880000
+      },
+      {
         "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
         "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
         "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
@@ -59,20 +73,6 @@
         "summary": "With U.S. Treasury yields on the rise, financial planners say they’re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1791053340000
-      },
-      {
-        "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
-        "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-        "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791052200000
-      },
-      {
-        "title": "A tough job market is pushing more young Americans to make a big bet: on themselves",
-        "link": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories",
-        "summary": "There has been a rise in entrepreneurship among young Americans as the entry-level labor market has become tougher to join.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791048240000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Medical plane with 6 on board missing off Massachusetts coast",
-        "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-        "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
+        "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
+        "link": "https://www.nytimes.com/2026/10/04/world/middleeast/houthis-oil-attack-saudi-arabia-yemen.html",
+        "summary": "The Iran-backed militia said it targeted an Aramco site in Saudi Arabia’s capital, Riyadh, and fresh airstrikes hit the Yemeni capital, raising fears of a widening war.",
+        "source": "NYT > World News",
+        "pubDate": 1791110750000
+      },
+      {
+        "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+        "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Unverified video shows a drone hitting the Northern Bridge as vehicles move across it, creating a large fireball.",
         "source": "BBC News",
-        "pubDate": 1791062181000
+        "pubDate": 1791108692000
       },
       {
-        "title": "Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline",
-        "link": "https://www.nytimes.com/2026/10/03/world/europe/russia-ukraine-bridges-kyiv.html",
-        "summary": "The bridges, used by many commuters in the Ukrainian capital, are the latest target in a broad Russian bombing campaign against infrastructure.",
+        "title": "Who Were the Pilots on the FlyDubai Flight?",
+        "link": "https://www.nytimes.com/2026/10/04/world/middleeast/flydubai-flight-who-were-pilots.html",
+        "summary": "The co-pilot’s embrace of extreme Islamist views prompted Omani officials to scrutinize him, according to two people briefed on the investigation.",
         "source": "NYT > World News",
-        "pubDate": 1791058651000
+        "pubDate": 1791106398000
       },
       {
-        "title": "American High School Students Are Selling Guns Bound for Cartels",
-        "link": "https://www.nytimes.com/2026/10/03/world/americas/high-school-arms-dealing-mexican-cartels.html",
-        "summary": "Drawn by money and status, teenagers in Arizona are buying, stealing and selling weapons destined for criminal groups in Mexico.",
+        "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
+        "link": "https://www.nytimes.com/2026/10/02/world/africa/ethiopia-tigray-conflict.html",
+        "summary": "The conflict is raising fears of a regional war in the Horn of Africa, drawing in foreign powers including Eritrea, Egypt, the United Arab Emirates and Saudi Arabia.",
         "source": "NYT > World News",
-        "pubDate": 1791052849000
+        "pubDate": 1791106267000
       },
       {
-        "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
-        "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections.",
-        "source": "BBC News",
-        "pubDate": 1791049722000
-      },
-      {
-        "title": "What We Learned About American Teenagers Supplying Guns to Cartels",
-        "link": "https://www.nytimes.com/2026/10/03/world/americas/american-teenage-gun-traffickers.html",
-        "summary": "Our reporting revealed how Mexican criminal groups are relying on teenagers and young adults in border states like Arizona to help supply their weapons.",
+        "title": "Who Owns the Moon?",
+        "link": "https://www.nytimes.com/2026/10/04/world/asia/who-owns-moon.html",
+        "summary": "A treaty from the 1960s declared that nobody can own outer space. Half a century later, billionaires and superpowers see fortunes to be made nonetheless.",
         "source": "NYT > World News",
-        "pubDate": 1791045385000
+        "pubDate": 1791104800000
       }
     ]
   }
