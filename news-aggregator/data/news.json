@@ -1,44 +1,65 @@
 {
-  "lastUpdated": "2026-10-04T10:53:51.125Z",
+  "lastUpdated": "2026-10-04T17:17:40.049Z",
   "categories": {
     "technology": [
       {
-        "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
-        "link": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
-        "summary": "\"...we were making history.\"",
+        "title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+        "summary": "Well, if AI said it, it must be true. | Bloomberg via Getty Images\t\n\nNew Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation fo...",
+        "source": "The Verge",
+        "pubDate": 1791130564000
+      },
+      {
+        "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
+        "link": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
+        "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home",
         "source": "Ars Technica - All content",
-        "pubDate": 1791056717000
+        "pubDate": 1791128054000
       },
       {
-        "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-        "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-        "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi I...",
+        "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+        "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best...",
         "source": "The Verge",
-        "pubDate": 1791046150000
+        "pubDate": 1791127319000
       },
       {
-        "title": "The best early October Prime Day deals happening now",
-        "link": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
-        "summary": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up Oct...",
+        "title": "This toolless modular lever-action wallet is the coolest I’ve stuck to my phone",
+        "link": "https://www.theverge.com/gadgets/1004360/this-toolless-modular-lever-action-wallet-is-the-coolest-ive-stuck-to-my-phone",
+        "summary": "The OhSnap Wallet 2. | Photo by Sean Hollister / The Verge\t\n\nThis toolless modular lever-action wallet is the coolest I've stuck to my phone.\nRemember when I tested the ultra-thin ...",
         "source": "The Verge",
-        "pubDate": 1791044560000
+        "pubDate": 1791126000000
       },
       {
-        "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
-        "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
-        "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into ma...",
+        "title": "The AirPods Pro 3 are a fantastic deal at $179",
+        "link": "https://www.theverge.com/gadgets/1004242/airpods-pro-3-amazon-october-prime-day-deal-sale",
+        "summary": "AirPods Pro 3 | Photo by Amelia Holowaty Krales / The Verge\t\n\nIt’s been a while since we’ve seen a good discount on the Apple AirPods Pro 3, but like the latest iPad Mini and the M...",
         "source": "The Verge",
-        "pubDate": 1791039600000
-      },
-      {
-        "title": "An OpenAI safety employee has quit and is sounding the alarm",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-        "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editori...",
-        "source": "The Verge",
-        "pubDate": 1791037916000
+        "pubDate": 1791118800000
       }
     ],
     "finance": [
+      {
+        "title": "Corporate America has never been this upbeat about future profits",
+        "link": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories",
+        "summary": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791122400000
+      },
+      {
+        "title": "October can be a scary month for stocks. Here’s what investors need to watch this year.",
+        "link": "https://www.marketwatch.com/story/october-can-be-a-scary-month-for-stocks-heres-what-investors-need-to-watch-this-year-ac1da700?mod=mw_rss_topstories",
+        "summary": "If stocks see another big swoon this year, investors already know why.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791118800000
+      },
+      {
+        "title": "Fed minutes coming this week could give markets important clues about future rate hikes",
+        "link": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
+        "summary": "Minutes from the September meeting may provide extra context, as the real fed-funds rate is now surprisingly low.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791115200000
+      },
       {
         "title": "The government can take 15% of Social Security benefits to repay student loans. These proposals seek to stop it.",
         "link": "https://www.marketwatch.com/story/the-government-can-take-15-of-social-security-benefits-to-repay-student-loans-these-proposals-seek-to-stop-it-102622fa?mod=mw_rss_topstories",
@@ -52,27 +73,6 @@
         "summary": "Is it time to dust off the financial playbook from that dismal decade?",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1791071880000
-      },
-      {
-        "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-        "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
-        "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791057600000
-      },
-      {
-        "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-        "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
-        "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791055800000
-      },
-      {
-        "title": "These bond strategies can help you get a safe 5% return on your cash",
-        "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
-        "summary": "With U.S. Treasury yields on the rise, financial planners say they’re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791053340000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
+        "title": "Indian police accused of sexual harassment against journalists at protest",
+        "link": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
+        "source": "BBC News",
+        "pubDate": 1791133279000
+      },
+      {
+        "title": "Yemen's government announces all-out war to reclaim land from Houthis",
+        "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+        "source": "BBC News",
+        "pubDate": 1791132690000
+      },
+      {
+        "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
+        "link": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Pike's lawyer says doctors are still trying to clear two lethal doses of pentobarbital from her body.",
+        "source": "BBC News",
+        "pubDate": 1791131088000
+      },
+      {
         "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
         "link": "https://www.nytimes.com/2026/10/04/world/middleeast/houthis-oil-attack-saudi-arabia-yemen.html",
-        "summary": "The Iran-backed militia said it targeted an Aramco site in Saudi Arabia’s capital, Riyadh, and fresh airstrikes hit the Yemeni capital, raising fears of a widening war.",
+        "summary": "The announcement plunges the Middle East deeper into war, as the Iran-allied Houthis have scored a series of triumphs in Yemen on the battlefield since the conflict was reignited.",
         "source": "NYT > World News",
-        "pubDate": 1791110750000
+        "pubDate": 1791129817000
       },
       {
-        "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-        "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Unverified video shows a drone hitting the Northern Bridge as vehicles move across it, creating a large fireball.",
-        "source": "BBC News",
-        "pubDate": 1791108692000
-      },
-      {
-        "title": "Who Were the Pilots on the FlyDubai Flight?",
-        "link": "https://www.nytimes.com/2026/10/04/world/middleeast/flydubai-flight-who-were-pilots.html",
-        "summary": "The co-pilot’s embrace of extreme Islamist views prompted Omani officials to scrutinize him, according to two people briefed on the investigation.",
+        "title": "Israeli Authorities Trade Blame for Failure to Flag FlyDubai Co-Pilot",
+        "link": "https://www.nytimes.com/2026/10/04/world/middleeast/flydubai-israel-debate-pilot-security.html",
+        "summary": "The Omani co-pilot who officials said tried to crash the plane was said to have embraced extremist Islamist views.",
         "source": "NYT > World News",
-        "pubDate": 1791106398000
-      },
-      {
-        "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
-        "link": "https://www.nytimes.com/2026/10/02/world/africa/ethiopia-tigray-conflict.html",
-        "summary": "The conflict is raising fears of a regional war in the Horn of Africa, drawing in foreign powers including Eritrea, Egypt, the United Arab Emirates and Saudi Arabia.",
-        "source": "NYT > World News",
-        "pubDate": 1791106267000
-      },
-      {
-        "title": "Who Owns the Moon?",
-        "link": "https://www.nytimes.com/2026/10/04/world/asia/who-owns-moon.html",
-        "summary": "A treaty from the 1960s declared that nobody can own outer space. Half a century later, billionaires and superpowers see fortunes to be made nonetheless.",
-        "source": "NYT > World News",
-        "pubDate": 1791104800000
+        "pubDate": 1791126118000
       }
     ]
   }
