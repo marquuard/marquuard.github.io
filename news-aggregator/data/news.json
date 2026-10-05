@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-10-04T23:49:34.873Z",
+  "lastUpdated": "2026-10-05T12:02:42.249Z",
   "categories": {
     "technology": [
+      {
+        "title": "Google admits not every Android app runs great on Intel Googlebooks",
+        "link": "https://www.theverge.com/tech/1004643/google-android-apps-intel-googlebooks-performance",
+        "summary": "This Asus Googlebook is one of the Intel models that may have issues. | Photo: Antonio G. Di Benedetto / The Verge\t\n\nGoogle has waited until the day its new Googlebook laptops hit ...",
+        "source": "The Verge",
+        "pubDate": 1791197902000
+      },
+      {
+        "title": "Our minds aren’t equipped to handle AI",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+        "summary": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers...",
+        "source": "The Verge",
+        "pubDate": 1791194400000
+      },
+      {
+        "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
+        "link": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
+        "summary": "Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls",
+        "source": "Ars Technica - All content",
+        "pubDate": 1791172852000
+      },
       {
         "title": "The new Fitbit Edge leaks",
         "link": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
@@ -15,138 +36,117 @@
         "summary": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (whic...",
         "source": "The Verge",
         "pubDate": 1791144000000
-      },
-      {
-        "title": "The best early October Prime Day deals happening now",
-        "link": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
-        "summary": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up Oct...",
-        "source": "The Verge",
-        "pubDate": 1791134280000
-      },
-      {
-        "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
-        "summary": "Well, if AI said it, it must be true. | Bloomberg via Getty Images\t\n\nNew Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation fo...",
-        "source": "The Verge",
-        "pubDate": 1791130564000
-      },
-      {
-        "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
-        "link": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
-        "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791128054000
       }
     ],
     "finance": [
       {
-        "title": "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
-        "link": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-        "summary": "“We have an ironclad prenup.”",
+        "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected wealthy couples due to overspending. We’re all heading for trouble.",
+        "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
+        "summary": "“We’d better get real quick or we’re going to have a financial crisis that makes the Great Recession of 2008 look like a picnic.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791145860000
+        "pubDate": 1791200400000
       },
       {
-        "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
-        "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-        "summary": "“I have $152,000 in my IRA and Roth accounts.”",
+        "title": "Musk hints TSMC may join his mega chip venture, and Intel’s stock is taking a hit",
+        "link": "https://www.marketwatch.com/story/musk-hints-tsmc-may-join-his-mega-chip-venture-and-intels-stock-is-taking-a-hit-61c67ef9?mod=mw_rss_topstories",
+        "summary": "Intel shares are taking a hit on Monday after a report that TSMC may help with Elon Musk’s Terafab factory.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791144000000
+        "pubDate": 1791199620000
+      },
+      {
+        "title": "An AI ‘reality check’ may take the S&P 500 to 5,000. Here are the trades to make, this strategist says.",
+        "link": "https://www.marketwatch.com/story/an-ai-reality-check-may-take-the-s-p-500-to-5-000-heres-the-trades-to-make-this-strategist-says-263cf0e9?mod=mw_rss_topstories",
+        "summary": "Keep an eye on artificial-intelligence spending in the upcoming earnings season, Panmure Liberum’s Joachim Klement said.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791199140000
       },
       {
         "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
         "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
         "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791142200000
+        "pubDate": 1791198900000
       },
       {
-        "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-        "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
-        "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
+        "title": "Bitcoin’s big bounce has graduated to a longer-term uptrend. Is it too late to buy?",
+        "link": "https://www.marketwatch.com/story/bitcoins-big-bounce-has-graduated-to-a-longer-term-uptrend-is-it-too-late-to-buy-a9bc585c?mod=mw_rss_topstories",
+        "summary": "A bullish “golden cross” technical pattern has appeared for the first time in more than three years. The last one worked out pretty well.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791140880000
-      },
-      {
-        "title": "Corporate America has never been this upbeat about future profits",
-        "link": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories",
-        "summary": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791122400000
+        "pubDate": 1791197160000
       }
     ],
     "business": [
       {
-        "title": "The job interview question you don't have to answer",
-        "link": "https://www.bbc.co.uk/news/articles/cje3r35p0qeno?at_medium=RSS&at_campaign=rss",
-        "summary": "Experts explain what you should do if you are asked for your current salary during a job interview.",
+        "title": "Shadow chancellor to unveil Tory plans to cut taxes and regulations",
+        "link": "https://www.bbc.co.uk/news/articles/cqj9kje82jm1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Shadow ministers will unveil a series of policies on day two of the Conservative Party conference in Birmingham.",
         "source": "BBC News",
-        "pubDate": 1791156127000
+        "pubDate": 1791197091000
       },
       {
-        "title": "Suppliers pile pressure on government over energy bills",
-        "link": "https://www.bbc.co.uk/news/articles/cq0ld88kzxw8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Immediate action is needed to help households struggling with bills this winter, says trade body Energy UK.",
+        "title": "BT agrees rescue deal to buy broadband operator TalkTalk ",
+        "link": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The takeover still needs to be approved by the regulator, but would give certainty to TalkTalk's millions of customers",
         "source": "BBC News",
-        "pubDate": 1791017924000
+        "pubDate": 1791195936000
       },
       {
-        "title": "New baby bank 'open to everybody'",
-        "link": "https://www.bbc.co.uk/news/articles/ck624p1y8ejyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The facility offers essential items for free, including clothes for babies and small children.",
+        "title": "Why are data centres such a big deal in Scotland?",
+        "link": "https://www.bbc.co.uk/news/articles/c6qxv55882z1o?at_medium=RSS&at_campaign=rss",
+        "summary": "At least 23 huge data centres are planned in Scotland, causing significant concern for campaigners.",
         "source": "BBC News",
-        "pubDate": 1791007685000
+        "pubDate": 1791194648000
       },
       {
-        "title": "Rising energy costs add to cost of living for Northern Ireland's consumers",
-        "link": "https://www.bbc.co.uk/news/articles/c5j9x99yep92o?at_medium=RSS&at_campaign=rss",
-        "summary": "Households across Northern Ireland face increasing pressure on the cost of living as energy price hikes have come into effect.",
+        "title": "Trump chooses top spy boss to run new AI taskforce",
+        "link": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president said his national intelligence chief will lead the group as worries over AI grow.",
         "source": "BBC News",
-        "pubDate": 1791005263000
+        "pubDate": 1791194618000
       },
       {
-        "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-        "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+        "title": "Average five-year mortgage rate hits 6% for first time in three years",
+        "link": "https://www.bbc.co.uk/news/articles/c8r4yxpry5e9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The cost of a new fixed-rate mortgage has been rising in recent weeks as lenders face higher costs.",
         "source": "BBC News",
-        "pubDate": 1791002311000
+        "pubDate": 1791194097000
       }
     ],
     "world": [
       {
-        "title": "Polls close in Brazil as Lula and Flávio Bolsonaro remain neck and neck",
-        "link": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
-        "summary": "If no candidate gets more than 50% of the vote, the election will go to a run-off on 25 October.",
+        "title": "The Humanoid Robot Future Has Arrived at a South Korean Park. Sort of.",
+        "link": "https://www.nytimes.com/2026/10/05/world/asia/south-korea-ai-humanoid-robot-park.html",
+        "summary": "I went to Galaxy Robot Park in Seoul to see how we might one day live with robots. It was part cutting-edge technology, part theatrics.",
+        "source": "NYT > World News",
+        "pubDate": 1791201328000
+      },
+      {
+        "title": "Live Updates: Spain Calls Early Election After Housing Crisis Roils Government",
+        "link": "https://www.nytimes.com/live/2026/10/05/world/spain-elections-sanchez",
+        "summary": "Prime Minister Pedro Sánchez of Spain has faced rising challenges to his authority amid a migration crisis and several corruption scandals involving his inner circle.",
+        "source": "NYT > World News",
+        "pubDate": 1791200962000
+      },
+      {
+        "title": "Housing, Corruption and a Migrant Surge: Why Spain Is Holding an Early Election",
+        "link": "https://www.nytimes.com/2026/10/05/world/europe/spain-elections-housing-migrants-corruption.html",
+        "summary": "Spain’s prime minister, Pedro Sánchez, dissolved Parliament on Monday, after months of spiraling crises.",
+        "source": "NYT > World News",
+        "pubDate": 1791200593000
+      },
+      {
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/10/05/world/spain-elections-sanchez/spain-snap-elections-sanchez",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "NYT > World News",
+        "pubDate": 1791200569000
+      },
+      {
+        "title": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
+        "link": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
         "source": "BBC News",
-        "pubDate": 1791157553000
-      },
-      {
-        "title": "Rescuers suspend search for survivors after plane went missing off US coast",
-        "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-        "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
-        "source": "BBC News",
-        "pubDate": 1791156558000
-      },
-      {
-        "title": "How RAF Fairford in a Quiet Corner of England Became a U.S.-Iran Flashpoint",
-        "link": "https://www.nytimes.com/2026/10/03/world/europe/raf-fairford-air-base-incident-iran.html",
-        "summary": "A mysterious call last Sunday near a military base used by the U.S. set in motion a huge counterterrorism response and days of uncertainty in Britain.",
-        "source": "NYT > World News",
-        "pubDate": 1791155005000
-      },
-      {
-        "title": "U.S. Rushes to Withdraw Bombers From U.K. Air Base After New Threats",
-        "link": "https://www.nytimes.com/2026/10/04/us/politics/us-bombers-britain-raf-fairford-iran.html",
-        "summary": "The withdrawal came with unusual speed, following what U.S. officials said were threats of an Iran-based plot against the installation.",
-        "source": "NYT > World News",
-        "pubDate": 1791153289000
-      },
-      {
-        "title": "U.K. Base Would Be Ambitious Target for ‘Gig Economy’ Warfare",
-        "link": "https://www.nytimes.com/2026/10/04/world/europe/uk-base-plot-proxy-attacks.html",
-        "summary": "The U.S. war in Iran unleashed small-scale attacks by local criminals or disenfranchised young men hired anonymously to target Jewish and American sites in Europe and North America...",
-        "source": "NYT > World News",
-        "pubDate": 1791153027000
+        "pubDate": 1791200099000
       }
     ]
   }
