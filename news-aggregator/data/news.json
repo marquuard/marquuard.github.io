@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-07T19:12:29.492Z",
+  "lastUpdated": "2026-10-08T00:42:48.083Z",
   "categories": {
     "technology": [
       {
-        "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-        "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users...",
+        "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
+        "link": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
+        "summary": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehic...",
         "source": "The Verge",
-        "pubDate": 1791400242000
+        "pubDate": 1791410460000
       },
       {
-        "title": "The first Nvidia RTX Spark laptops cost up to $7,000",
-        "link": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
-        "summary": "The 15-inch Surface Laptop Ultra starts at $2,599. | Photo by Tom Warren / The Verge\t\n\nThe first array of laptops powered by Nvidia's new RTX Spark chip are designed to compete wit...",
-        "source": "The Verge",
-        "pubDate": 1791399952000
+        "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+        "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1791410202000
       },
       {
-        "title": "It appears .agent and .agi are about to be the hot new domains",
-        "link": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
-        "summary": "What’s in a URL anymore, really.\t\n\nFor the first time in years, the Internet Corporation for Assigned Names and Numbers - better known as ICANN - is accepting applications for new ...",
+        "title": "Teenage Engineering’s CEO says it’ll stop making synths",
+        "link": "https://www.theverge.com/gadgets/1007489/teengage-engineering-stop-making-synths",
+        "summary": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map...",
         "source": "The Verge",
-        "pubDate": 1791398776000
+        "pubDate": 1791407994000
       },
       {
-        "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
-        "link": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-        "summary": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco.\nThe biggest announcement was arguably the release details about the Surface Laptop Ultra, its ...",
+        "title": "Android&#8217;s physical navigation buttons are back on Googlebooks, but not the way you think",
+        "link": "https://www.theverge.com/tech/1007409/androids-physical-navigation-buttons-are-back-on-googlebooks-but-not-the-way-you-think",
+        "summary": "What year is it, and what dessert name of Android are we up to? | Photo: Antonio G. Di Benedetto / The Verge\t\n\nA common misconception I've seen with Googlebooks is that the Quick I...",
         "source": "The Verge",
-        "pubDate": 1791398542000
+        "pubDate": 1791405874000
       },
       {
-        "title": "Microsoft is giving Copilot more control over Windows and your files",
-        "link": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-        "summary": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions ac...",
+        "title": "We found some great October Prime Day deals under $50",
+        "link": "https://www.theverge.com/gadgets/1007110/october-prime-day-budget-deals-under-50",
+        "summary": "Anker’s 45W charger is less than $50 during Amazon’s October sale. In fact, you can get two for under $50.\t\n\nGetting in on the Prime Day action doesn’t have to result in an empty w...",
         "source": "The Verge",
-        "pubDate": 1791396080000
+        "pubDate": 1791405000000
       }
     ],
     "finance": [
       {
-        "title": "Stocks are increasingly their own best hedge. This chart shows why.",
-        "link": "https://www.marketwatch.com/story/stocks-are-increasingly-their-own-best-hedge-this-chart-shows-why-19a79b68?mod=mw_rss_topstories",
-        "summary": "For decades, investors concerned about stocks sought succor in the bond market. But these days, the best shield against an outbreak of volatility might just be owning other stocks.",
+        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+        "summary": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining brightly on a small group o...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791397860000
+        "pubDate": 1791412320000
+      },
+      {
+        "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+        "link": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+        "summary": "Technology is the only one of the S&P 500’s 11 sectors that gained since Sept. 1, as Treasury yields have climbed to multi-decade highs.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791406680000
+      },
+      {
+        "title": "Options traders are betting on a dramatic drop in interest rates",
+        "link": "https://www.marketwatch.com/story/options-traders-are-betting-on-a-dramatic-drop-in-interest-rates-141066fb?mod=mw_rss_topstories",
+        "summary": "Recent options activity points to bullish positioning for long-term bonds and utilities.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791405360000
       },
       {
         "title": "Fed’s minutes show no appetite for a series of interest-rate hikes",
         "link": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
         "summary": "September’s rate hike was viewed by many officials as needed just in case inflation remains sticky.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791397680000
+        "pubDate": 1791401700000
       },
       {
-        "title": "SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips",
-        "link": "https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories",
-        "summary": "A report says SpaceX is considering raising $40 billion to finance the purchase of advanced graphic processing units and related systems.",
+        "title": "Microsoft and Nvidia are teaming up on a supercharged AI laptop",
+        "link": "https://www.marketwatch.com/story/microsoft-and-nvidia-are-teaming-up-on-a-supercharged-ai-laptop-f58b28d8?mod=mw_rss_topstories",
+        "summary": "Powered by Nvidia’s RTX Spark chip, the latest Windows laptop is designed to run AI models and workloads directly on the device.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791397320000
-      },
-      {
-        "title": "‘He grew up wealthy’: My husband inherited $3 million. He wants a vacation home. I want to save for retirement. Who’s right?",
-        "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
-        "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791395100000
-      },
-      {
-        "title": "Washington and Wall Street chose to delay paying their bills — and to put them on your tab",
-        "link": "https://www.marketwatch.com/story/washington-and-wall-street-chose-to-delay-paying-their-bills-and-to-put-them-on-your-tab-2eba83aa?mod=mw_rss_topstories",
-        "summary": "The polite word for what the government and Wall Street are doing is deferring payment, like opening a tab at a bar that somebody else will pay later.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791394560000
+        "pubDate": 1791400320000
       }
     ],
     "business": [
       {
-        "title": "Whistle-Blower Says I.R.S. Leaked His Tax Records in Retaliation",
-        "link": "https://www.nytimes.com/2026/10/07/business/economy/whistle-blower-irs-lawsuit.html",
-        "summary": "Brian J. Visalli, a veteran investigator of tax fraud, said in a lawsuit that the agency had sent his personal and tax information to federal prosecutors.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1791396663000
+        "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+        "link": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
+        "summary": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
+        "source": "BBC News",
+        "pubDate": 1791417029000
       },
       {
-        "title": "Boots sold in £7bn deal to Canadian billionaire family ",
-        "link": "https://www.bbc.co.uk/news/articles/cwly0jyk2vl5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The sale of the High Street chain was announced on Wednesday.",
+        "title": "What independence could mean for oil-rich Alberta's economy",
+        "link": "https://www.bbc.co.uk/news/articles/cy745jznvxpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum.",
         "source": "BBC News",
-        "pubDate": 1791393510000
+        "pubDate": 1791414613000
       },
       {
-        "title": "No child should have to learn in a cold classroom - children's commissioner",
-        "link": "https://www.bbc.co.uk/news/articles/cw0k08nnz07go?at_medium=RSS&at_campaign=rss",
-        "summary": "The EA suggests cost-saving measures as it warns school gas and electricity bills are set to rise.",
+        "title": "We spent thousands on a Tui river cruise but ended up on coach trips",
+        "link": "https://www.bbc.co.uk/news/articles/cq62j2lzlnm8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Passengers have described their anger after their itineraries changed to involve hours spent on coach trips instead.",
         "source": "BBC News",
-        "pubDate": 1791393326000
+        "pubDate": 1791414317000
       },
       {
-        "title": "Ex-bankers jailed for rigging rates have convictions quashed",
-        "link": "https://www.bbc.co.uk/news/articles/cm4g175e8163o?at_medium=RSS&at_campaign=rss",
-        "summary": "Jay Merchant, Jonathan Mathew, Philippe Moryoussef, Alex Pabon, Colin Bermingham had their convictions overturned by the Court of Appeal.",
+        "title": "Hedgehog among four chosen animals to feature on new banknotes",
+        "link": "https://www.bbc.co.uk/news/articles/cwe8ld517ry3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The decision comes after nearly half a million people cast their votes from a shortlist of 18 creatures.",
         "source": "BBC News",
-        "pubDate": 1791381133000
+        "pubDate": 1791414090000
       },
       {
-        "title": "Royal Mail plans to cut 2,500 jobs",
-        "link": "https://www.bbc.co.uk/news/articles/cwvgdld13e3eo?at_medium=RSS&at_campaign=rss",
-        "summary": "The postal service firm wants to cut head office and other non-frontline jobs by the end of 2027.",
+        "title": "'Stop throwing shade' - the woman trying to stop firms leaving the UK",
+        "link": "https://www.bbc.co.uk/news/articles/cmgqwydpd4xwo?at_medium=RSS&at_campaign=rss",
+        "summary": "British people need more incentives to invest in big firms listed in the UK, Dame Julia Hoggett, boss of the London Stock Exchange, says.",
         "source": "BBC News",
-        "pubDate": 1791375946000
+        "pubDate": 1791414055000
       }
     ],
     "world": [
       {
-        "title": "Rubio Urges Europe to Awaken From ‘Slumber’ and Uphold Western Dominance",
-        "link": "https://www.nytimes.com/2026/10/07/world/europe/rubio-greece-defense-immigration.html",
-        "summary": "In Greece, Secretary of State Marco Rubio said Western nations must embrace an earlier ethos of exploration and conquest as part of their civilization, to remain ‘at the head of th...",
+        "title": "Europe’s Trade Tensions With China Are Coming to a Head",
+        "link": "https://www.nytimes.com/2026/10/07/business/china-europe-trade-issues.html",
+        "summary": "The European Union is weighing tougher trade measures as negotiators prepare to meet Chinese officials in Beijing, with surging exports from China pressuring key industries in Euro...",
         "source": "NYT > World News",
-        "pubDate": 1791399357000
+        "pubDate": 1791418954000
       },
       {
-        "title": "Canada Halts Plan to Allow Medically Assisted Death for the Mentally Ill",
-        "link": "https://www.nytimes.com/2026/10/07/world/canada/canada-medically-assisted-death-mental-illness.html",
-        "summary": "People who have mental illness alone will not qualify for assisted death, but patients who have other conditions and expect to have a cognitive decline can make an advanced request...",
-        "source": "NYT > World News",
-        "pubDate": 1791398168000
-      },
-      {
-        "title": "Trump to speak to Putin about plague lab worker's death in Russia",
-        "link": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.",
+        "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+        "link": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+        "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
         "source": "BBC News",
-        "pubDate": 1791397660000
+        "pubDate": 1791418157000
       },
       {
-        "title": "Russia Says It Found No ‘Emergency’ in Plague Lab",
-        "link": "https://www.nytimes.com/2026/10/07/world/europe/russia-plague-us-trump-state-department.html",
-        "summary": "New information around the death of a lab worker, including a statement that she had been vaccinated against the plague, came as U.S. officials demanded more data.",
+        "title": "3 Killed and Dozens Injured in Attacks on Saudi Airports, as Houthis Claim Strikes",
+        "link": "https://www.nytimes.com/2026/10/07/world/middleeast/saudi-arabia-airports-houthis.html",
+        "summary": "The Saudi government said the dead included two women and a Sudanese man, and that its capital’s airport was hit. A Houthi spokesman said the militia had attacked the airports.",
         "source": "NYT > World News",
-        "pubDate": 1791397234000
+        "pubDate": 1791414228000
       },
       {
-        "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
-        "link": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Five children are among the victims of a strike that destroyed 30 flats in northern Ukraine as families slept.",
-        "source": "BBC News",
-        "pubDate": 1791396778000
+        "title": "What Life in Gaza Is Like Now",
+        "link": "https://www.nytimes.com/video/world/middleeast/100000011168313/what-life-in-gaza-is-like-now.html",
+        "summary": "Nearly a year after Israel and Hamas agreed to end the war in Gaza, Saher Alghorra, a photographer for The New York Times, documents how residents are coping and working to rebuild...",
+        "source": "NYT > World News",
+        "pubDate": 1791409471000
+      },
+      {
+        "title": "The School Near Paris That Shows Why French Students Are Protesting",
+        "link": "https://www.nytimes.com/2026/10/07/world/europe/france-school-protest-paul-eluard.html",
+        "summary": "Angered by poor classroom conditions, students at Paul Éluard High School in a suburb of the capital were among the first to blockade their campus during an ongoing round of unrest...",
+        "source": "NYT > World News",
+        "pubDate": 1791408811000
       }
     ]
   }
