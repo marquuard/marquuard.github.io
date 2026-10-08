@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-08T00:42:48.083Z",
+  "lastUpdated": "2026-10-08T11:46:42.203Z",
   "categories": {
     "technology": [
+      {
+        "title": "Cupertino might be made for your mom, but it&#8217;s a good take on tech",
+        "link": "https://www.theverge.com/entertainment/1007492/cupertino-cbs-tv-review",
+        "summary": "Ella Stiller, Mike Colter, and Rachel Keller star in Cupertino. | CBS\t\n\nCupertino brings the tech backlash to the CBS procedural - an initially awkward combination, but with reward...",
+        "source": "The Verge",
+        "pubDate": 1791459000000
+      },
+      {
+        "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+        "link": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+        "summary": "Full-stack safety solution for physical AI is being used by robotics companies.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1791458133000
+      },
+      {
+        "title": "A senator tried to ban gambling on prediction markets—now she's a Kalshi lobbyist",
+        "link": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
+        "summary": "Sen. Blanche Lincoln wrote law that let US ban sports-event contracts. She lobbies for the other side now.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1791457214000
+      },
+      {
+        "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+        "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+        "summary": "Get ready for more AI in your Windows and more AI on the desktop.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1791417624000
+      },
       {
         "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
         "link": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
         "summary": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehic...",
         "source": "The Verge",
         "pubDate": 1791410460000
-      },
-      {
-        "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
-        "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-        "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791410202000
-      },
-      {
-        "title": "Teenage Engineering’s CEO says it’ll stop making synths",
-        "link": "https://www.theverge.com/gadgets/1007489/teengage-engineering-stop-making-synths",
-        "summary": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map...",
-        "source": "The Verge",
-        "pubDate": 1791407994000
-      },
-      {
-        "title": "Android&#8217;s physical navigation buttons are back on Googlebooks, but not the way you think",
-        "link": "https://www.theverge.com/tech/1007409/androids-physical-navigation-buttons-are-back-on-googlebooks-but-not-the-way-you-think",
-        "summary": "What year is it, and what dessert name of Android are we up to? | Photo: Antonio G. Di Benedetto / The Verge\t\n\nA common misconception I've seen with Googlebooks is that the Quick I...",
-        "source": "The Verge",
-        "pubDate": 1791405874000
-      },
-      {
-        "title": "We found some great October Prime Day deals under $50",
-        "link": "https://www.theverge.com/gadgets/1007110/october-prime-day-budget-deals-under-50",
-        "summary": "Anker’s 45W charger is less than $50 during Amazon’s October sale. In fact, you can get two for under $50.\t\n\nGetting in on the Prime Day action doesn’t have to result in an empty w...",
-        "source": "The Verge",
-        "pubDate": 1791405000000
       }
     ],
     "finance": [
-      {
-        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
-        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
-        "summary": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining brightly on a small group o...",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791412320000
-      },
       {
         "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
         "link": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
         "summary": "Technology is the only one of the S&P 500’s 11 sectors that gained since Sept. 1, as Treasury yields have climbed to multi-decade highs.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791406680000
+        "pubDate": 1791459780000
       },
       {
-        "title": "Options traders are betting on a dramatic drop in interest rates",
-        "link": "https://www.marketwatch.com/story/options-traders-are-betting-on-a-dramatic-drop-in-interest-rates-141066fb?mod=mw_rss_topstories",
-        "summary": "Recent options activity points to bullish positioning for long-term bonds and utilities.",
+        "title": "Tesla’s big AI gamble puts its EV business under a microscope",
+        "link": "https://www.marketwatch.com/story/teslas-big-ai-gamble-puts-its-ev-business-under-a-microscope-0ea9b387?mod=mw_rss_topstories",
+        "summary": "Investors are left with unanswered questions as the company leans on car sales to help fund its expensive AI ventures.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791405360000
+        "pubDate": 1791459180000
       },
       {
-        "title": "Fed’s minutes show no appetite for a series of interest-rate hikes",
-        "link": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
-        "summary": "September’s rate hike was viewed by many officials as needed just in case inflation remains sticky.",
+        "title": "A strategist who called the Asian financial crisis sees parallels with the AI boom",
+        "link": "https://www.marketwatch.com/story/a-strategist-who-called-the-asian-financial-crisis-sees-parallels-with-the-ai-boom-b45522ad?mod=mw_rss_topstories",
+        "summary": "Albert Edwards, well-known for his generally bearish views on equity markets, finds the economicbenefits of AI to be a promise rather than a reality at present.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791401700000
+        "pubDate": 1791459120000
       },
       {
-        "title": "Microsoft and Nvidia are teaming up on a supercharged AI laptop",
-        "link": "https://www.marketwatch.com/story/microsoft-and-nvidia-are-teaming-up-on-a-supercharged-ai-laptop-f58b28d8?mod=mw_rss_topstories",
-        "summary": "Powered by Nvidia’s RTX Spark chip, the latest Windows laptop is designed to run AI models and workloads directly on the device.",
+        "title": "After a 33% gain in the first half, this fund manager grew tired of the AI trade. Here’s where he’s looking now.",
+        "link": "https://www.marketwatch.com/story/after-a-33-gain-in-the-first-half-this-fund-manager-grew-tired-of-the-ai-trade-heres-where-hes-looking-now-1783b3a4?mod=mw_rss_topstories",
+        "summary": "Bill Hench, of First Eagle, stepped away from the artificial-intelligence trade with small-capitalization bets on a recovery of the U.S. housing construction market.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791400320000
+        "pubDate": 1791459060000
+      },
+      {
+        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+        "summary": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining brightly on a small group o...",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791457200000
       }
     ],
     "business": [
       {
-        "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
-        "link": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
-        "summary": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
+        "title": "Asos hackers took more personal details than first revealed, BBC finds",
+        "link": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\"",
         "source": "BBC News",
-        "pubDate": 1791417029000
-      },
-      {
-        "title": "What independence could mean for oil-rich Alberta's economy",
-        "link": "https://www.bbc.co.uk/news/articles/cy745jznvxpo?at_medium=RSS&at_campaign=rss",
-        "summary": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum.",
-        "source": "BBC News",
-        "pubDate": 1791414613000
+        "pubDate": 1791457289000
       },
       {
         "title": "We spent thousands on a Tui river cruise but ended up on coach trips",
         "link": "https://www.bbc.co.uk/news/articles/cq62j2lzlnm8o?at_medium=RSS&at_campaign=rss",
         "summary": "Passengers have described their anger after their itineraries changed to involve hours spent on coach trips instead.",
         "source": "BBC News",
-        "pubDate": 1791414317000
+        "pubDate": 1791443474000
       },
       {
-        "title": "Hedgehog among four chosen animals to feature on new banknotes",
-        "link": "https://www.bbc.co.uk/news/articles/cwe8ld517ry3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The decision comes after nearly half a million people cast their votes from a shortlist of 18 creatures.",
+        "title": "New vape tax made me swap e-cigs for dartboards",
+        "link": "https://www.bbc.co.uk/news/videos/cmd6dv1446lno?at_medium=RSS&at_campaign=rss",
+        "summary": "The Vaping Product Duty will be imposed at a rate of £2.20 per 10ml of e-liquid from April 2027.",
         "source": "BBC News",
-        "pubDate": 1791414090000
+        "pubDate": 1791436733000
       },
       {
-        "title": "'Stop throwing shade' - the woman trying to stop firms leaving the UK",
-        "link": "https://www.bbc.co.uk/news/articles/cmgqwydpd4xwo?at_medium=RSS&at_campaign=rss",
-        "summary": "British people need more incentives to invest in big firms listed in the UK, Dame Julia Hoggett, boss of the London Stock Exchange, says.",
+        "title": "New electric car 'make or break for Jaguar'",
+        "link": "https://www.bbc.co.uk/news/articles/cwvgrx5ner6go?at_medium=RSS&at_campaign=rss",
+        "summary": "Prof David Bailey says there is a lot riding on the Type 01 in terms of jobs and investment.",
         "source": "BBC News",
-        "pubDate": 1791414055000
+        "pubDate": 1791436136000
+      },
+      {
+        "title": "Hygiene poverty at tipping point, charity warns",
+        "link": "https://www.bbc.co.uk/news/articles/cmwyv502k441o?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC hears people \"you would not expect\" can no longer afford items to be clean and healthy.",
+        "source": "BBC News",
+        "pubDate": 1791435942000
       }
     ],
     "world": [
       {
-        "title": "Europe’s Trade Tensions With China Are Coming to a Head",
-        "link": "https://www.nytimes.com/2026/10/07/business/china-europe-trade-issues.html",
-        "summary": "The European Union is weighing tougher trade measures as negotiators prepare to meet Chinese officials in Beijing, with surging exports from China pressuring key industries in Euro...",
+        "title": "Israel and U.K. Cut Last-Minute Deal to Avoid Full Closure of British Consulate in East Jerusalem",
+        "link": "https://www.nytimes.com/2026/10/08/world/europe/uk-israel-consulate-east-jerusalem-palestinians.html",
+        "summary": "Israel had threatened to close the British Consulate in East Jerusalem, a center of outreach to Palestinians for decades. A last-minute agreement means a smaller diplomatic service...",
         "source": "NYT > World News",
-        "pubDate": 1791418954000
+        "pubDate": 1791459757000
       },
       {
-        "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
-        "link": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/10/08/world/france-protests-students-schools/france-protests-unrest-students",
+        "summary": "Students and activists were rallying across France on Thursday, in a test of the longevity of a nationwide student protest movement.",
+        "source": "NYT > World News",
+        "pubDate": 1791458838000
+      },
+      {
+        "title": "Italy Weighs Controversial Law Giving Bonus Seats to Election Winners",
+        "link": "https://www.nytimes.com/2026/10/08/world/europe/italy-election-law-bonus.html",
+        "summary": "Supporters of the legislation say it will bring stability to a country with a long history of short-lived governments, but critics see the measure as a threat to democracy.",
+        "source": "NYT > World News",
+        "pubDate": 1791457786000
+      },
+      {
+        "title": "Russian strike on buses kills 33, say officials, as deadly attacks on Ukraine surge",
+        "link": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine accused Russia of targeting the crowded bus in the frontline city to kill as many civilians as possible.",
         "source": "BBC News",
-        "pubDate": 1791418157000
+        "pubDate": 1791456770000
       },
       {
-        "title": "3 Killed and Dozens Injured in Attacks on Saudi Airports, as Houthis Claim Strikes",
-        "link": "https://www.nytimes.com/2026/10/07/world/middleeast/saudi-arabia-airports-houthis.html",
-        "summary": "The Saudi government said the dead included two women and a Sudanese man, and that its capital’s airport was hit. A Houthi spokesman said the militia had attacked the airports.",
+        "title": "Blasts Rattle Riyadh as Saudi Arabia Hit By Deadliest Houthi Attacks So Far",
+        "link": "https://www.nytimes.com/2026/10/08/world/middleeast/saudi-yemen-houthis-attack.html",
+        "summary": "The cause of the explosions on Thursday morning remains unclear. Saudi Arabia is on edge a day after the authorities said Houthi strikes on two airports had killed three people.",
         "source": "NYT > World News",
-        "pubDate": 1791414228000
-      },
-      {
-        "title": "What Life in Gaza Is Like Now",
-        "link": "https://www.nytimes.com/video/world/middleeast/100000011168313/what-life-in-gaza-is-like-now.html",
-        "summary": "Nearly a year after Israel and Hamas agreed to end the war in Gaza, Saher Alghorra, a photographer for The New York Times, documents how residents are coping and working to rebuild...",
-        "source": "NYT > World News",
-        "pubDate": 1791409471000
-      },
-      {
-        "title": "The School Near Paris That Shows Why French Students Are Protesting",
-        "link": "https://www.nytimes.com/2026/10/07/world/europe/france-school-protest-paul-eluard.html",
-        "summary": "Angered by poor classroom conditions, students at Paul Éluard High School in a suburb of the capital were among the first to blockade their campus during an ongoing round of unrest...",
-        "source": "NYT > World News",
-        "pubDate": 1791408811000
+        "pubDate": 1791456482000
       }
     ]
   }
