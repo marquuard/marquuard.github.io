@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-08T19:08:47.473Z",
+  "lastUpdated": "2026-10-09T00:58:46.743Z",
   "categories": {
     "technology": [
       {
-        "title": "Tim Cook says &#8216;I&#8217;m not meddling&#8217; in the new Apple CEO&#8217;s business",
-        "link": "https://www.theverge.com/news/1008279/apple-tim-cook-not-meddling-john-ternus-ceo",
-        "summary": "Tim Cook stepped down as Apple CEO in September, handing over the top job to former hardware chief John Ternus and taking an executive chairman role. Cook's still a visible represe...",
+        "title": "US plans livestream of execution by firing squad",
+        "link": "https://www.theverge.com/tech/1008530/us-government-livestream-execution-firing-squad-fort-hood",
+        "summary": "The United States' execution of the Fort Hood shooter will be livestreamed, anonymous officials from the Defense Department told the BBC and Associated Press. The planned execution...",
         "source": "The Verge",
-        "pubDate": 1791485316000
+        "pubDate": 1791498724000
       },
       {
-        "title": "I only bought Pokémon Legends: Z-A during Prime Day, and it’s still on sale",
-        "link": "https://www.theverge.com/gadgets/1008212/pokemon-legends-z-a-switch-deal-sale",
-        "summary": "Pokémon trainers gearing up for battle. | Image: Nintendo\t\n\nAfter covering Amazon’s October sale for the last few days, only one item found its way into my shopping cart, and, luck...",
+        "title": "Anthropic launches free AI security scans for open-source projects",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+        "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thor...",
         "source": "The Verge",
-        "pubDate": 1791485291000
+        "pubDate": 1791496431000
       },
       {
-        "title": "Forza Horizon 6 is being delayed on PS5 to January 2027",
-        "link": "https://www.theverge.com/news/989314/forza-horizon-6-ps5-release-date-january-2027-delay",
-        "summary": "Playground Games first revealed earlier this year that Forza Horizon 6 would be arriving on PS5 in 2026, but the launch is now being pushed back. I reported last month that there w...",
-        "source": "The Verge",
-        "pubDate": 1791483265000
+        "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
+        "link": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+        "summary": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
+        "source": "Ars Technica - All content",
+        "pubDate": 1791495452000
       },
       {
-        "title": "USA Today becomes the latest publisher to sue OpenAI",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
-        "summary": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as r...",
+        "title": "SpaceX announces plan to become a ‘major mobile carrier’",
+        "link": "https://www.theverge.com/science/1008467/spacex-announces-plan-to-become-a-major-mobile-carrier",
+        "summary": "SpaceX has acquired a portfolio of low-band spectrum licenses - a move the company says \"will pave the way\" for its Starlink Mobile service to become a \"major\" US carrier. When the...",
         "source": "The Verge",
-        "pubDate": 1791482313000
+        "pubDate": 1791494611000
       },
       {
-        "title": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute",
-        "link": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
-        "summary": "If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, wh...",
+        "title": "AMD will bring FSR 4 to handhelds by the end of 2026",
+        "link": "https://www.theverge.com/games/1008353/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026",
+        "summary": "It's already possible to get AMD's framerate-enhancing FSR 4 boost on handhelds as old as the Steam Deck - but in June, AMD reserved the right to disappoint handheld gamers by not ...",
         "source": "The Verge",
-        "pubDate": 1791482221000
+        "pubDate": 1791493278000
       }
     ],
     "finance": [
+      {
+        "title": "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares",
+        "link": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
+        "summary": "SpaceX plans to purchase Grain Management’s 800 MHz spectrum portfolio in a move to bolster its mobile ambitions. The news is lifting cell-tower stocks.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791507120000
+      },
+      {
+        "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
+        "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
+        "summary": "Seven tips for painlessly moving in retirement.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791504180000
+      },
+      {
+        "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
+        "link": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
+        "summary": "Starbucks investors would likely not be happy about the company adding debt to finance a deal to buy Chipotle, given that it already has a high debt load.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791501240000
+      },
+      {
+        "title": "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’",
+        "link": "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
+        "summary": "OpenAI’s annualized revenue reportedly fell short of expectations — but analysts say that reflects differences in how the figure is reported, not weakness in AI demand.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791497280000
+      },
       {
         "title": "My husband inherited $3 million. He wants a vacation home, but I want to save for retirement. Who’s right?",
         "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
         "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791486000000
-      },
-      {
-        "title": "The options market is reminding investors there’s a cure for rising bond yields — higher yields",
-        "link": "https://www.marketwatch.com/story/the-options-market-is-reminding-investors-theres-a-cure-for-rising-bond-yields-higher-yields-2dcac640?mod=mw_rss_topstories",
-        "summary": "The MOVE Index — the Treasury market’s “fear gauge” — has reached heights that in the past suggested yields may have peaked, at least for now.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791485460000
-      },
-      {
-        "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
-        "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
-        "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791484200000
-      },
-      {
-        "title": "Bond yields fell, as the Treasury market passed a crucial test of investor confidence",
-        "link": "https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41?mod=mw_rss_topstories",
-        "summary": "Higher bond yields aren’t only about inflation and the Iran war. But it means a higher cost of capital.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791483540000
-      },
-      {
-        "title": "Ken Paxton is right. Tax cuts will mean Social Security and Medicare cuts.",
-        "link": "https://www.marketwatch.com/story/ken-paxton-is-right-tax-cuts-will-mean-social-security-and-medicare-cuts-2befed72?mod=mw_rss_topstories",
-        "summary": "It doesn’t matter if you are a Republican or Democrat. Math is math.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791482880000
+        "pubDate": 1791496800000
       }
     ],
     "business": [
       {
-        "title": "Highest Mortgage Rates in 3 Years Chills the Housing Market",
-        "link": "https://www.nytimes.com/2026/10/08/business/mortgage-rates-housing-prices.html",
-        "summary": "The average 30-year fixed-rate mortgage rose to 7.4 percent, putting more pressure on Americans struggling to afford to buy a home.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1791486415000
+        "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
+        "link": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
+        "summary": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent.",
+        "source": "BBC News",
+        "pubDate": 1791501242000
       },
       {
-        "title": "How soon into dating do you talk about your salary?",
-        "link": "https://www.bbc.co.uk/news/videos/cry4x353vz2eo?at_medium=RSS&at_campaign=rss",
-        "summary": "You've met someone and it's going well so far. But bringing up how much you both earn can be a tricky conversation.",
+        "title": "Why are more roofs not made of solar tiles?",
+        "link": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?",
         "source": "BBC News",
-        "pubDate": 1791484001000
+        "pubDate": 1791500996000
+      },
+      {
+        "title": "'Add me to WhatsApp' scam calls to be investigated",
+        "link": "https://www.bbc.co.uk/news/articles/cqd09g4l2k9yo?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK's data watchdog is investigating a spike in complaints about \"robo calls\" that appear to lead to a recruitment scam.",
+        "source": "BBC News",
+        "pubDate": 1791500709000
       },
       {
         "title": "'I don't know what my partner earns': How soon into dating should you reveal your salary?",
         "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
         "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
         "source": "BBC News",
-        "pubDate": 1791482305000
+        "pubDate": 1791500476000
       },
       {
-        "title": "A.I. Fueled More Resilient Global Growth, W.T.O. Says",
-        "link": "https://www.nytimes.com/2026/10/08/business/economy/wto-global-trade-resilient.html",
-        "summary": "The World Trade Organization said that the drag on global trade from the war in the Middle East was more than offset by spending on goods related to artificial intelligence.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1791481746000
-      },
-      {
-        "title": "Plans to shut Marston's Brewery in Burton revealed",
-        "link": "https://www.bbc.co.uk/news/articles/ck8dzq095lj3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Burton-upon-Trent's links with beer and brewing date back centuries.",
+        "title": "White House blocks Microsoft from foreign worker hiring program",
+        "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+        "summary": "An international visa program has for years allowed US tech companies to hire highly skilled workers from abroad.",
         "source": "BBC News",
-        "pubDate": 1791479356000
+        "pubDate": 1791495455000
       }
     ],
     "world": [
       {
-        "title": "Margaret Papandreou, American-Born First Lady of Greece, Dies at 102",
-        "link": "https://www.nytimes.com/2026/10/08/world/europe/margaret-papandreou-dead.html",
-        "summary": "The wife of Prime Minister Andreas Papandreou, she led reforms in the 1980s that helped legalize abortion and end other legal and social restrictions on women.",
-        "source": "NYT > World News",
-        "pubDate": 1791485632000
+        "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
+        "link": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+        "summary": "\"We'll make sure that people are able to watch it,\" the US Defence Secretary Pete Hegseth said on Thursday.",
+        "source": "BBC News",
+        "pubDate": 1791502557000
       },
       {
-        "title": "A Photo of Mussolini’s Corpse Led Page 1. How It Got There Is a Tale.",
-        "link": "https://www.nytimes.com/2026/10/08/world/europe/mussolini-corpse-photo.html",
-        "summary": "It took a perilous trip through an Alpine blizzard to show the world the dictator was dead.",
-        "source": "NYT > World News",
-        "pubDate": 1791485617000
+        "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
+        "link": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
+        "summary": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent.",
+        "source": "BBC News",
+        "pubDate": 1791501242000
       },
       {
-        "title": "Russia Plague Scare: What to Know About Fears of an Outbreak",
-        "link": "https://www.nytimes.com/2026/10/07/world/europe/russia-plague-fears-what-to-know.html",
-        "summary": "Russian authorities aren’t saying much about the death of a woman who worked in a lab studying plague. But experts say any risk of contagion would be limited.",
-        "source": "NYT > World News",
-        "pubDate": 1791485163000
+        "title": "Suspect linked to Monaco bomb attack on millionaire breaks silence to BBC",
+        "link": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev.",
+        "source": "BBC News",
+        "pubDate": 1791501070000
       },
       {
-        "title": "2 Latvians Arrested after Breaching Perimeter of RAF Molesworth, UK Air Base Used by US",
-        "link": "https://www.nytimes.com/2026/10/08/world/europe/latvian-men-arrested-raf-molesworth-uk.html",
-        "summary": "Counterterrorism police said the men were found inside the perimeter of R.A.F. Molesworth, a base used by the United States, raising concerns about security.",
-        "source": "NYT > World News",
-        "pubDate": 1791484678000
+        "title": "What Americans think about the death penalty",
+        "link": "https://www.bbc.co.uk/news/videos/cjx236wl9416o?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC spoke to Americans and international tourists in Washington DC about their views on the death penalty following the botched execution of Christa Pike in Tennessee.",
+        "source": "BBC News",
+        "pubDate": 1791496154000
       },
       {
-        "title": "Indian Opposition Leaders Detained as Protests Over Voter Rolls Intensify",
-        "link": "https://www.nytimes.com/2026/10/08/world/asia/india-voter-protests-opposition-gandhi.html",
-        "summary": "Lawmakers in the capital were forcibly removed for a second consecutive day as police cracked down on demonstrations against the deletion of voter names.",
+        "title": "The Wave of Student Protests Roiling France",
+        "link": "https://www.nytimes.com/2026/10/08/world/europe/france-student-protests.html",
+        "summary": "Anger about classroom overcrowding, teacher shortages and broken-down buildings has boiled over in recent weeks, and threatens to coalesce into broader grievances in a heated polit...",
         "source": "NYT > World News",
-        "pubDate": 1791484548000
+        "pubDate": 1791495343000
       }
     ]
   }
