@@ -1,200 +1,319 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Renault</title>
-<style>
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #e0e0e0;
-  }
-  .container {
-    padding: 20px;
-    border: 1px solid #aaa;
-    border-radius: 8px;
-    background-color: #cccccc;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  .info-line {
-    margin-bottom: 10px;
-    font-size: 1.2em;
-    color: #333;
-  }
-  .special-codes {
-    margin-top: 20px;
-    font-size: 1em;
-    color: #333;
-  }
-  .special-codes div {
-    margin-bottom: 10px;
-  }
-  .copy-button {
-    margin-left: 10px;
-    padding: 4px 8px;
-    font-size: 1.1em;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    background-color: transparent;
-  }
-  .copy-button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  .copied-message {
-    display: none;
-    font-size: 0.9em;
-    color: green;
-    margin-top: 5px;
-  }
-  .djoti-box {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid #aaa;
-    border-radius: 8px;
-    background-color: #d0d0d0;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    color: #333;
-    font-size: 1em;
-  }
-  .djoti-label {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1.1em;
-  }
-  .countdown {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: wrap;
-    font-size: 1.3em;
-    font-weight: bold;
-  }
-  .time-unit {
-    background-color: #e0e0e0;
-    padding: 6px 10px;
-    border-radius: 4px;
-    border: 1px solid #bbb;
-    min-width: 45px;
-  }
-  .label {
-    font-size: 0.7em;
-    display: block;
-    margin-top: 2px;
-    font-weight: normal;
-  }
-  .expired {
-    background-color: #333;
-    color: #ffeb3b;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renault Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: rgba(30, 41, 59, 0.85);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --primary: #38bdf8;
+      --accent: #f59e0b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --sub-card: rgba(15, 23, 42, 0.6);
+      --success: #10b981;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at top, #1e293b, var(--bg));
+      color: var(--text-main);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .header-badge {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .badge-card {
+      background: var(--sub-card);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .badge-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+
+    .badge-value {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .code-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .code-item {
+      background: var(--sub-card);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      transition: border-color 0.2s ease, transform 0.1s ease;
+    }
+
+    .code-item:active {
+      transform: scale(0.99);
+    }
+
+    .code-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .code-name {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .code-string {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.15rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color: #fff;
+    }
+
+    .copy-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      border-radius: 10px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      min-height: 42px;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .copy-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .copy-btn.copied {
+      background: var(--success);
+      color: #fff;
+      border-color: var(--success);
+    }
+
+    .djoti-card {
+      background: linear-gradient(145deg, rgba(245, 158, 11, 0.1), rgba(15, 23, 42, 0.6));
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 14px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .djoti-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .countdown {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .time-slot {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid var(--card-border);
+      padding: 8px 4px;
+      border-radius: 10px;
+    }
+
+    .time-num {
+      display: block;
+      font-size: 1.35rem;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      color: #fff;
+    }
+
+    .time-lbl {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .expired-box {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent);
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+  </style>
 </head>
 <body>
 
-<div class="container">
-  <div id="weekNumber" class="info-line"></div>
-  <div id="dayOfYear" class="info-line"></div>
-  
-  <div class="special-codes">
-    <div>
-      <span id="normalCode"></span>
-      <button class="copy-button" onclick="copyCode('normalCode')" title="Másolás">📋</button>
-      <div id="copiedNormal" class="copied-message">Másolva</div>
+  <div class="container">
+    <div class="header-badge">
+      <div class="badge-card">
+        <div class="badge-label">Hét</div>
+        <div id="weekNumber" class="badge-value">-</div>
+      </div>
+      <div class="badge-card">
+        <div class="badge-label">Év napja</div>
+        <div id="dayOfYear" class="badge-value">-</div>
+      </div>
     </div>
-    <div>
-      <span id="sofaCode"></span>
-      <button class="copy-button" onclick="copyCode('sofaCode')" title="Másolás">📋</button>
-      <div id="copiedSofa" class="copied-message">Másolva</div>
+
+    <div class="code-list">
+      <div class="code-item">
+        <div class="code-info">
+          <span class="code-name">Normál</span>
+          <span class="code-string" id="normalCodeDisplay">...</span>
+        </div>
+        <button class="copy-btn" id="btnNormal" onclick="copyCode('normal')" aria-label="Normál kód másolása">Másolás</button>
+      </div>
+
+      <div class="code-item">
+        <div class="code-info">
+          <span class="code-name">Sofa</span>
+          <span class="code-string" id="sofaCodeDisplay">...</span>
+        </div>
+        <button class="copy-btn" id="btnSofa" onclick="copyCode('sofa')" aria-label="Sofa kód másolása">Másolás</button>
+      </div>
+    </div>
+
+    <div class="djoti-card">
+      <div class="djoti-title">DJ Oti visszaszámláló</div>
+      <div id="countdown" class="countdown">
+        <div class="time-slot"><span id="days" class="time-num">00</span><span class="time-lbl">Nap</span></div>
+        <div class="time-slot"><span id="hours" class="time-num">00</span><span class="time-lbl">Óra</span></div>
+        <div class="time-slot"><span id="minutes" class="time-num">00</span><span class="time-lbl">Perc</span></div>
+        <div class="time-slot"><span id="seconds" class="time-num">00</span><span class="time-lbl">Mp</span></div>
+      </div>
     </div>
   </div>
 
-  <div id="djotiContainer" class="djoti-box">
-    <div class="djoti-label">DJ Oti:</div>
-    <div id="countdown" class="countdown">
-      <span class="time-unit"><span id="days">00</span><span class="label">nap</span></span>
-      <span class="time-unit"><span id="hours">00</span><span class="label">óra</span></span>
-      <span class="time-unit"><span id="minutes">00</span><span class="label">perc</span></span>
-      <span class="time-unit"><span id="seconds">00</span><span class="label">mp</span></span>
-    </div>
-  </div>
-</div>
-
-<script>
-  function getWeekNumber(d) {
-    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
-    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
-    const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
-    return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
-  }
-
-  function getDayOfYear(d) {
-    const jan1 = new Date(d.getFullYear(), 0, 1);
-    const diff = (d - jan1) / (1000 * 60 * 60 * 24);
-    return Math.floor(diff) + 1;
-  }
-
-  const ma = new Date();
-  const hetSzama = getWeekNumber(ma);
-  const evNapja = getDayOfYear(ma);
-  const evNapjaPadded = evNapja.toString().padStart(3, '0');
-  const normalStr = "R" + evNapjaPadded + "858501";
-  const sofaStr = "F" + evNapjaPadded + "993001";
-
-  document.getElementById('weekNumber').textContent = hetSzama + ". hét";
-  document.getElementById('dayOfYear').textContent = evNapja + ". nap";
-  document.getElementById('normalCode').innerHTML = "Normál: <strong>" + normalStr + "</strong>";
-  document.getElementById('sofaCode').innerHTML = "Sofa: <strong>" + sofaStr + "</strong>";
-
-  const countDownDate = new Date('2026-08-08T15:00:00').getTime();
-
-  function updateCountdown() {
-    const now = new Date().getTime();
-    const distance = countDownDate - now;
-
-    const countdownEl = document.getElementById('countdown');
-    if (distance < 0) {
-      countdownEl.innerHTML = '<span class="time-unit expired">Az esemény elkezdődött!</span>';
-      return;
+  <script>
+    function getWeekNumber(d) {
+      d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+      d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+      const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+      return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
     }
 
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    function getDayOfYear(d) {
+      const jan1 = new Date(d.getFullYear(), 0, 1);
+      const diff = (d - jan1) / (1000 * 60 * 60 * 24);
+      return Math.floor(diff) + 1;
+    }
 
-    document.getElementById('days').textContent = days.toString().padStart(2, '0');
-    document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-    document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-    document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-  }
+    const ma = new Date();
+    const hetSzama = getWeekNumber(ma);
+    const evNapja = getDayOfYear(ma);
+    const evNapjaPadded = evNapja.toString().padStart(3, '0');
+    const normalStr = "R" + evNapjaPadded + "858501";
+    const sofaStr = "F" + evNapjaPadded + "993001";
 
-  function copyCode(id) {
-    const text = id === "normalCode" ? normalStr : sofaStr;
-    const msgId = id === "normalCode" ? "copiedNormal" : "copiedSofa";
-    
-    navigator.clipboard.writeText(text).then(() => {
-      showCopied(msgId);
-    });
-  }
+    document.getElementById('weekNumber').textContent = hetSzama + ". hét";
+    document.getElementById('dayOfYear').textContent = evNapja + ". nap";
+    document.getElementById('normalCodeDisplay').textContent = normalStr;
+    document.getElementById('sofaCodeDisplay').textContent = sofaStr;
 
-  function showCopied(elementId) {
-    const el = document.getElementById(elementId);
-    el.style.display = "block";
-    setTimeout(() => {
-      el.style.display = "none";
-    }, 1500);
-  }
+    const countDownDate = new Date('2026-08-08T15:00:00').getTime();
 
-  updateCountdown();
-  setInterval(updateCountdown, 1000);
-</script>
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
 
+      const countdownEl = document.getElementById('countdown');
+      if (distance < 0) {
+        countdownEl.outerHTML = '<div class="expired-box">Az esemény elkezdődött!</div>';
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById('days').textContent = days.toString().padStart(2, '0');
+      document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+      document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+      document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+    }
+
+    function copyCode(type) {
+      const isNormal = type === 'normal';
+      const text = isNormal ? normalStr : sofaStr;
+      const btn = document.getElementById(isNormal ? 'btnNormal' : 'btnSofa');
+
+      navigator.clipboard.writeText(text).then(() => {
+        const prevText = btn.textContent;
+        btn.textContent = "Pipálva ✓";
+        btn.classList.add('copied');
+        
+        setTimeout(() => {
+          btn.textContent = prevText;
+          btn.classList.remove('copied');
+        }, 1500);
+      });
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
 </body>
 </html>
