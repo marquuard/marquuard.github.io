@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-10-09T00:58:46.743Z",
+  "lastUpdated": "2026-10-09T11:39:22.798Z",
   "categories": {
     "technology": [
+      {
+        "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+        "summary": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\"\nIn a post on X on Friday, the ...",
+        "source": "The Verge",
+        "pubDate": 1791539306000
+      },
+      {
+        "title": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
+        "link": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
+        "summary": "Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI ben...",
+        "source": "The Verge",
+        "pubDate": 1791530072000
+      },
       {
         "title": "US plans livestream of execution by firing squad",
         "link": "https://www.theverge.com/tech/1008530/us-government-livestream-execution-firing-squad-fort-hood",
@@ -22,131 +36,117 @@
         "summary": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
         "source": "Ars Technica - All content",
         "pubDate": 1791495452000
-      },
-      {
-        "title": "SpaceX announces plan to become a ‘major mobile carrier’",
-        "link": "https://www.theverge.com/science/1008467/spacex-announces-plan-to-become-a-major-mobile-carrier",
-        "summary": "SpaceX has acquired a portfolio of low-band spectrum licenses - a move the company says \"will pave the way\" for its Starlink Mobile service to become a \"major\" US carrier. When the...",
-        "source": "The Verge",
-        "pubDate": 1791494611000
-      },
-      {
-        "title": "AMD will bring FSR 4 to handhelds by the end of 2026",
-        "link": "https://www.theverge.com/games/1008353/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026",
-        "summary": "It's already possible to get AMD's framerate-enhancing FSR 4 boost on handhelds as old as the Steam Deck - but in June, AMD reserved the right to disappoint handheld gamers by not ...",
-        "source": "The Verge",
-        "pubDate": 1791493278000
       }
     ],
     "finance": [
-      {
-        "title": "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares",
-        "link": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
-        "summary": "SpaceX plans to purchase Grain Management’s 800 MHz spectrum portfolio in a move to bolster its mobile ambitions. The news is lifting cell-tower stocks.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791507120000
-      },
-      {
-        "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
-        "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
-        "summary": "Seven tips for painlessly moving in retirement.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791504180000
-      },
-      {
-        "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
-        "link": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
-        "summary": "Starbucks investors would likely not be happy about the company adding debt to finance a deal to buy Chipotle, given that it already has a high debt load.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791501240000
-      },
-      {
-        "title": "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’",
-        "link": "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
-        "summary": "OpenAI’s annualized revenue reportedly fell short of expectations — but analysts say that reflects differences in how the figure is reported, not weakness in AI demand.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791497280000
-      },
       {
         "title": "My husband inherited $3 million. He wants a vacation home, but I want to save for retirement. Who’s right?",
         "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
         "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791496800000
+        "pubDate": 1791544500000
+      },
+      {
+        "title": "Aging bull: Why the four-year old stock-market rally can still pack a punch",
+        "link": "https://www.marketwatch.com/story/aging-bull-why-the-four-year-old-stock-market-rally-can-still-pack-a-punch-d1271631?mod=mw_rss_topstories",
+        "summary": "History shows bull markets that get past their fourth year rarely throw in the towel, according to Truist Advisory Services.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791543720000
+      },
+      {
+        "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
+        "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
+        "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791540900000
+      },
+      {
+        "title": "Is iPhone 18 demand cooling off? Here’s how deep Apple reportedly is cutting component orders",
+        "link": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
+        "summary": "Component orders for the iPhone 18 Pro and the iPhone 18 Pro Max are down about 15% in October, according to Nikkei Asia.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791540240000
+      },
+      {
+        "title": "‘I feel like a loser’: My ETFs go up one day and crash the next. Is this a bad sign?",
+        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "summary": "“I presume these are sophisticated investors taking a profit.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791537300000
       }
     ],
     "business": [
       {
-        "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
-        "link": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
-        "summary": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent.",
+        "title": "Why are there so many sports subscriptions?",
+        "link": "https://www.bbc.co.uk/sport/football/videos/cj20vkpd61kqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Pete Oliver of DAZN explains why the is a growing number of sports subscriptions and why they are getting more expensive.",
         "source": "BBC News",
-        "pubDate": 1791501242000
+        "pubDate": 1791540433000
       },
       {
-        "title": "Why are more roofs not made of solar tiles?",
-        "link": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?",
-        "source": "BBC News",
-        "pubDate": 1791500996000
-      },
-      {
-        "title": "'Add me to WhatsApp' scam calls to be investigated",
-        "link": "https://www.bbc.co.uk/news/articles/cqd09g4l2k9yo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK's data watchdog is investigating a spike in complaints about \"robo calls\" that appear to lead to a recruitment scam.",
-        "source": "BBC News",
-        "pubDate": 1791500709000
-      },
-      {
-        "title": "'I don't know what my partner earns': How soon into dating should you reveal your salary?",
+        "title": "I've been with my boyfriend for two years and don't know his salary",
         "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
         "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
         "source": "BBC News",
-        "pubDate": 1791500476000
+        "pubDate": 1791538658000
       },
       {
-        "title": "White House blocks Microsoft from foreign worker hiring program",
-        "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
-        "summary": "An international visa program has for years allowed US tech companies to hire highly skilled workers from abroad.",
+        "title": "Everton owners consider selling club two years after takeover",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cmvg9pgg4keyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Everton owners the Friedkin Group are exploring the sale of the club less than two years after taking control.",
         "source": "BBC News",
-        "pubDate": 1791495455000
+        "pubDate": 1791534230000
+      },
+      {
+        "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+        "link": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+        "summary": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\".",
+        "source": "BBC News",
+        "pubDate": 1791530070000
+      },
+      {
+        "title": "Contribution of high value residents discussed",
+        "link": "https://www.bbc.co.uk/news/articles/c6ly0vxd2v9eo?at_medium=RSS&at_campaign=rss",
+        "summary": "More than 260 industry leaders met to discuss the role wealthy residents play in Jersey's economy.",
+        "source": "BBC News",
+        "pubDate": 1791523783000
       }
     ],
     "world": [
       {
-        "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
-        "link": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-        "summary": "\"We'll make sure that people are able to watch it,\" the US Defence Secretary Pete Hegseth said on Thursday.",
-        "source": "BBC News",
-        "pubDate": 1791502557000
-      },
-      {
-        "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
-        "link": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
-        "summary": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent.",
-        "source": "BBC News",
-        "pubDate": 1791501242000
-      },
-      {
-        "title": "Suspect linked to Monaco bomb attack on millionaire breaks silence to BBC",
-        "link": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev.",
-        "source": "BBC News",
-        "pubDate": 1791501070000
-      },
-      {
-        "title": "What Americans think about the death penalty",
-        "link": "https://www.bbc.co.uk/news/videos/cjx236wl9416o?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC spoke to Americans and international tourists in Washington DC about their views on the death penalty following the botched execution of Christa Pike in Tennessee.",
-        "source": "BBC News",
-        "pubDate": 1791496154000
-      },
-      {
-        "title": "The Wave of Student Protests Roiling France",
-        "link": "https://www.nytimes.com/2026/10/08/world/europe/france-student-protests.html",
-        "summary": "Anger about classroom overcrowding, teacher shortages and broken-down buildings has boiled over in recent weeks, and threatens to coalesce into broader grievances in a heated polit...",
+        "title": "Live Updates: Human Rights Lawyer Navi Pillay Is Awarded Nobel Peace Prize",
+        "link": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026",
+        "summary": "Ms. Pillay has served as a judge in her native South Africa and on international courts investigating war crimes. She led a U.N. panel that determined that Israel had committed gen...",
         "source": "NYT > World News",
-        "pubDate": 1791495343000
+        "pubDate": 1791545666000
+      },
+      {
+        "title": "Nobel Prize Winners Don’t Get a Heads-Up",
+        "link": "https://www.nytimes.com/2026/10/09/world/europe/nobel-prize-winners-phone-call-know.html",
+        "summary": "Navi Pillay wasn’t the first Nobel laureate that the prize committees have struggled to reach. Many weren’t even awake when the news broke.",
+        "source": "NYT > World News",
+        "pubDate": 1791545664000
+      },
+      {
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026/heres-the-latest",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "NYT > World News",
+        "pubDate": 1791545525000
+      },
+      {
+        "title": "Houthi Attacks on Riyadh Airport Leave 3 Dead, Saudi Arabia Says",
+        "link": "https://www.nytimes.com/2026/10/09/world/middleeast/yemen-houthi-attack-saudi-arabia-airport-riyadh.html",
+        "summary": "The escalating violence has brought the conflict in Yemen to the doorstep of the Saudi capital, and the kingdom has no easy options to curtail the increasingly sophisticated and ta...",
+        "source": "NYT > World News",
+        "pubDate": 1791543419000
+      },
+      {
+        "title": "Crazy Rich Asians to return as TV show with original film's stars",
+        "link": "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss",
+        "summary": "The show will pick up after the hit 2018 film, and will also star Michelle Yeoh and Ronny Chieng.",
+        "source": "BBC News",
+        "pubDate": 1791543261000
       }
     ]
   }
