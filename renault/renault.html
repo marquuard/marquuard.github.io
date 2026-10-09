@@ -9,14 +9,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0f172a;
+      --bg: #0b1120;
       --card-bg: rgba(30, 41, 59, 0.85);
       --card-border: rgba(255, 255, 255, 0.1);
       --primary: #38bdf8;
       --accent: #f59e0b;
       --text-main: #f8fafc;
       --text-muted: #94a3b8;
-      --sub-card: rgba(15, 23, 42, 0.6);
+      --sub-card: rgba(15, 23, 42, 0.65);
       --success: #10b981;
     }
 
@@ -32,9 +32,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 16px;
+      padding: 20px 16px;
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: radial-gradient(circle at top, #1e293b, var(--bg));
+      background: radial-gradient(circle at 50% 20%, #1e293b, var(--bg));
       color: var(--text-main);
     }
 
@@ -45,24 +45,71 @@
       border: 1px solid var(--card-border);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      border-radius: 20px;
-      padding: 24px;
-      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6);
+      border-radius: 24px;
+      padding: 28px 24px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.65);
       display: flex;
       flex-direction: column;
       gap: 20px;
     }
 
+    /* Renault Márka Fejléc */
+    .brand-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding-bottom: 6px;
+    }
+
+    .logo-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+      border: 1px solid var(--card-border);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .renault-logo {
+      width: 42px;
+      height: 48px;
+      stroke: #ffffff;
+      fill: none;
+      stroke-width: 5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      filter: drop-shadow(0 2px 6px rgba(255, 255, 255, 0.2));
+      transition: transform 0.3s ease;
+    }
+
+    .logo-wrapper:hover .renault-logo {
+      transform: scale(1.06);
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
     .header-badge {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 10px;
+      gap: 12px;
     }
 
     .badge-card {
       background: var(--sub-card);
       border: 1px solid var(--card-border);
-      border-radius: 12px;
+      border-radius: 14px;
       padding: 12px;
       text-align: center;
     }
@@ -70,9 +117,9 @@
     .badge-label {
       font-size: 0.75rem;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
       color: var(--text-muted);
-      margin-bottom: 2px;
+      margin-bottom: 4px;
     }
 
     .badge-value {
@@ -90,12 +137,11 @@
     .code-item {
       background: var(--sub-card);
       border: 1px solid var(--card-border);
-      border-radius: 14px;
+      border-radius: 16px;
       padding: 14px 16px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      position: relative;
       transition: border-color 0.2s ease, transform 0.1s ease;
     }
 
@@ -110,16 +156,18 @@
     }
 
     .code-name {
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       color: var(--text-muted);
       font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
 
     .code-string {
       font-family: 'JetBrains Mono', monospace;
       font-size: 1.15rem;
       font-weight: 600;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.04em;
       color: #fff;
     }
 
@@ -127,17 +175,16 @@
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid var(--card-border);
       color: var(--text-main);
-      border-radius: 10px;
-      padding: 10px 14px;
+      border-radius: 12px;
+      padding: 10px 16px;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 6px;
       font-size: 0.85rem;
       font-weight: 600;
       cursor: pointer;
       min-height: 42px;
-      transition: background 0.2s, transform 0.1s;
+      transition: all 0.2s ease;
     }
 
     .copy-btn:hover {
@@ -151,20 +198,20 @@
     }
 
     .djoti-card {
-      background: linear-gradient(145deg, rgba(245, 158, 11, 0.1), rgba(15, 23, 42, 0.6));
+      background: linear-gradient(145deg, rgba(245, 158, 11, 0.1), rgba(15, 23, 42, 0.7));
       border: 1px solid rgba(245, 158, 11, 0.25);
-      border-radius: 14px;
+      border-radius: 16px;
       padding: 16px;
       text-align: center;
     }
 
     .djoti-title {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       font-weight: 600;
       color: var(--accent);
       margin-bottom: 12px;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
     }
 
     .countdown {
@@ -177,7 +224,7 @@
       background: rgba(15, 23, 42, 0.8);
       border: 1px solid var(--card-border);
       padding: 8px 4px;
-      border-radius: 10px;
+      border-radius: 12px;
     }
 
     .time-num {
@@ -192,13 +239,14 @@
       font-size: 0.65rem;
       text-transform: uppercase;
       color: var(--text-muted);
+      letter-spacing: 0.02em;
     }
 
     .expired-box {
       background: rgba(245, 158, 11, 0.15);
       color: var(--accent);
       padding: 12px;
-      border-radius: 8px;
+      border-radius: 10px;
       font-weight: 600;
     }
   </style>
@@ -206,6 +254,19 @@
 <body>
 
   <div class="container">
+    <!-- Logó és Fejléc -->
+    <header class="brand-header">
+      <div class="logo-wrapper">
+        <svg class="renault-logo" viewBox="0 0 60 70" aria-label="Renault logó">
+          <!-- Belső vonal -->
+          <polygon points="30,8 50,35 30,62 10,35" stroke-dasharray="140" stroke-dashoffset="0" />
+          <!-- Külső egymásba fonódó vonal -->
+          <polygon points="30,2 56,35 30,68 4,35" />
+        </svg>
+      </div>
+      <h1 class="brand-title">Renault</h1>
+    </header>
+
     <div class="header-badge">
       <div class="badge-card">
         <div class="badge-label">Hét</div>
