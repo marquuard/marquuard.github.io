@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="hu" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Éves Naptár & Kiemelt Naptári Hetek (CW)</title>
+
+  <script>
+    (function() {
+      try {
+        const savedTheme = localStorage.getItem('calendar_theme');
+        // Szigorú alapértelmezés: ha nincs mentve semmi, vagy 'dark', akkor sötét mód
+        if (savedTheme === 'light') {
+          document.documentElement.classList.remove('dark');
+        } else {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace']
+          },
+          colors: {
+            cw: {
+              500: '#f59e0b',
+              600: '#d97706',
+              700: '#b45309'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* Egyoldalas, szigorúan görgetésmentes nézet bármilyen kijelzőn */
+    html, body {
+      height: 100%;
+      height: 100dvh;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --cw-font-size: clamp(0.48rem, 0.62vw, 0.72rem);
+      --cw-day-size: clamp(0.52rem, 0.7vw, 0.8rem);
+      --cw-header-size: clamp(0.58rem, 0.8vw, 0.86rem);
+      --cw-badge-w: clamp(34px, 3.4vw, 48px);
+    }
+
+    .cw-text {
+      font-size: var(--cw-font-size);
+      line-height: 1.1;
+    }
+
+    .day-text {
+      font-size: var(--cw-day-size);
+      line-height: 1;
+    }
+
+    .month-header-text {
+      font-size: var(--cw-header-size);
+    }
+
+    .cw-badge-width {
+      width: var(--cw-badge-w);
+      min-width: var(--cw-badge-w);
+      max-width: var(--cw-badge-w);
+    }
+
+    .glow-active-cw {
+      box-shadow: 0 0 0 1.5px rgba(16, 185, 129, 0.7), 0 2px 8px -1px rgba(16, 185, 129, 0.5);
+    }
+
+    button:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+
+<body class="h-[100dvh] w-screen flex flex-col font-sans bg-slate-100 text-slate-800 dark:bg-[#0b0f19] dark:text-slate-100 antialiased select-none overflow-hidden transition-colors duration-200">
+
+  <!-- Kompakt felső vezérlősáv -->
+  <header class="w-full shrink-0 h-11 sm:h-12 border-b border-slate-200/80 dark:border-slate-800/80 bg-white/95 dark:bg-[#111827]/95 px-2.5 sm:px-5 flex items-center justify-between gap-2 shadow-xs z-30">
+    
+    <!-- Évváltó navigáció -->
+    <div class="flex items-center gap-1.5 sm:gap-2">
+      <div class="flex items-center bg-slate-100 dark:bg-slate-800 rounded-lg p-0.5 border border-slate-200 dark:border-slate-700">
+        <button id="prevYearBtn" aria-label="Előző év" class="p-1 rounded-md text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 transition">
+          <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
+        
+        <span id="yearDisplay" class="px-2 font-black font-mono tracking-tight text-sm sm:text-base text-slate-900 dark:text-white">----</span>
+
+        <button id="nextYearBtn" aria-label="Következő év" class="p-1 rounded-md text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 transition">
+          <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+
+      <button id="todayBtn" class="px-2 py-1 text-[11px] font-bold rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:border-amber-500 hover:text-amber-600 dark:hover:text-amber-400 transition">
+        Ma
+      </button>
+    </div>
+
+    <!-- Aktuális hét számláló & Témaváltó gomb -->
+    <div class="flex items-center gap-2">
+      <div class="flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-amber-600 dark:from-amber-600 dark:to-amber-700 text-slate-950 px-2.5 py-1 rounded-lg shadow-xs border border-amber-300/80 dark:border-amber-500/50">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-80"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+        </span>
+        <span class="text-[10px] font-black uppercase tracking-wider text-amber-950/80 hidden xs:inline">Aktuális:</span>
+        <span id="headerCW" class="font-mono font-black text-xs sm:text-sm text-white tracking-tight">CW --</span>
+      </div>
+
+      <!-- Téma kapcsoló -->
+      <button id="themeToggleBtn" aria-label="Téma váltása" class="p-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+        <svg id="moonIcon" class="w-3.5 h-3.5 sm:w-4 sm:h-4 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+        </svg>
+        <svg id="sunIcon" class="w-3.5 h-3.5 sm:w-4 sm:h-4 hidden text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="flex-1 w-full p-1.5 sm:p-2.5 max-w-[1920px] mx-auto overflow-hidden">
+    <div id="calendarGrid" class="w-full h-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1.5 sm:gap-2">
+      <!-- A 12 hónapot a JavaScript tölti be dinamikusan -->
+    </div>
+  </main>
+
+  <script>
+    const THEME_STORAGE_KEY = 'calendar_theme';
+
+    const MONTH_NAMES = [
+      'Január', 'Február', 'Március', 'Április', 'Május', 'Június',
+      'Július', 'Augusztus', 'Szeptember', 'Október', 'November', 'December'
+    ];
+
+    const DAY_HEADERS = ['H', 'K', 'Sze', 'Cs', 'P', 'Szo', 'V'];
+
+    const state = {
+      viewYear: new Date().getFullYear(),
+      today: new Date()
+    };
+
+    /**
+     * ISO-8601 szabvány szerinti hétszám (hétfő az első nap)
+     */
+    function getISOWeek(d) {
+      const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+      date.setUTCDate(date.getUTCDate() + 4 - (date.getUTCDay() || 7));
+      const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+      const weekNo = Math.ceil((((date - yearStart) / 86400000) + 1) / 7);
+      return {
+        week: weekNo,
+        year: date.getUTCFullYear()
+      };
+    }
+
+    function isSameDay(d1, d2) {
+      return (
+        d1.getFullYear() === d2.getFullYear() &&
+        d1.getMonth() === d2.getMonth() &&
+        d1.getDate() === d2.getDate()
+      );
+    }
+
+    function formatCWString(weekNum) {
+      return `CW ${weekNum < 10 ? '0' + weekNum : weekNum}`;
+    }
+
+    function syncThemeUI(isDark) {
+      const sunIcon = document.getElementById('sunIcon');
+      const moonIcon = document.getElementById('moonIcon');
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+        moonIcon.classList.add('hidden');
+        sunIcon.classList.remove('hidden');
+      } else {
+        document.documentElement.classList.remove('dark');
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+      }
+    }
+
+    function initTheme() {
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      // Ellenőrizzük a jelenlegi állapotot (alapértelmezetten sötét)
+      const isDark = document.documentElement.classList.contains('dark');
+      syncThemeUI(isDark);
+
+      themeToggleBtn.addEventListener('click', () => {
+        const currentlyDark = document.documentElement.classList.contains('dark');
+        const nextDark = !currentlyDark;
+        
+        try {
+          // Explicit módon elmentjük a 'dark' vagy 'light' értéket
+          localStorage.setItem(THEME_STORAGE_KEY, nextDark ? 'dark' : 'light');
+        } catch (e) {}
+
+        syncThemeUI(nextDark);
+      });
+    }
+
+    function createMonthCard(year, monthIndex) {
+      const isCurrentMonth = (state.today.getFullYear() === year && state.today.getMonth() === monthIndex);
+      const currentIso = getISOWeek(state.today);
+
+      const card = document.createElement('div');
+      card.className = `rounded-xl border ${
+        isCurrentMonth 
+          ? 'border-amber-500/80 bg-white dark:bg-[#111827] shadow-sm ring-1 ring-amber-500/30' 
+          : 'border-slate-200/90 dark:border-slate-800 bg-white/95 dark:bg-[#131b2e]/90 shadow-2xs'
+      } p-1 sm:p-1.5 flex flex-col justify-between overflow-hidden`;
+
+      // Hónap fejléc
+      const header = document.createElement('div');
+      header.className = 'flex items-center justify-between pb-0.5 border-b border-slate-100 dark:border-slate-800/90';
+      header.innerHTML = `
+        <div class="flex items-center gap-1">
+          <span class="w-4 h-4 rounded text-[9px] font-black font-mono flex items-center justify-center ${
+            isCurrentMonth 
+              ? 'bg-amber-500 text-slate-950 font-bold' 
+              : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
+          }">${monthIndex + 1}</span>
+          <span class="month-header-text font-black text-slate-900 dark:text-white tracking-tight">${MONTH_NAMES[monthIndex]}</span>
+        </div>
+        ${isCurrentMonth ? '<span class="text-[8px] font-black uppercase text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-950/80 px-1 py-0.2 rounded border border-amber-300 dark:border-amber-700/60 leading-none">Aktuális</span>' : ''}
+      `;
+      card.appendChild(header);
+
+      const bodyWrapper = document.createElement('div');
+      bodyWrapper.className = 'flex-1 flex flex-col justify-evenly pt-0.5';
+
+      // Fejléc: CW oszlop + 7 hétköznap
+      const colHeader = document.createElement('div');
+      colHeader.className = 'flex items-center gap-0.5 text-center pb-0.5 border-b border-slate-200 dark:border-slate-800';
+
+      const cwLabel = document.createElement('div');
+      cwLabel.className = 'cw-badge-width text-center pr-1 border-r border-amber-400/80 dark:border-amber-600/70';
+      cwLabel.innerHTML = `
+        <span class="block w-full py-0.2 rounded bg-amber-200 dark:bg-amber-950/80 text-amber-950 dark:text-amber-200 font-black cw-text border border-amber-300 dark:border-amber-700">
+          CW
+        </span>
+      `;
+      colHeader.appendChild(cwLabel);
+
+      const daysRow = document.createElement('div');
+      daysRow.className = 'flex-1 grid grid-cols-7 gap-0.5 text-center';
+
+      DAY_HEADERS.forEach((day, idx) => {
+        const dSpan = document.createElement('span');
+        const isSun = idx === 6;
+        const isSat = idx === 5;
+        dSpan.className = `cw-text font-bold ${
+          isSun ? 'text-rose-600 dark:text-rose-400' : (isSat ? 'text-amber-600 dark:text-amber-400' : 'text-slate-500 dark:text-slate-400')
+        }`;
+        dSpan.textContent = day;
+        daysRow.appendChild(dSpan);
+      });
+      colHeader.appendChild(daysRow);
+      bodyWrapper.appendChild(colHeader);
+
+      // Napok kiszámítása naptári hetekhez
+      const firstDay = new Date(year, monthIndex, 1);
+      let startDayIndex = firstDay.getDay() - 1;
+      if (startDayIndex === -1) startDayIndex = 6;
+
+      const lastDay = new Date(year, monthIndex + 1, 0);
+      const totalDays = lastDay.getDate();
+
+      let runningDate = new Date(year, monthIndex, 1 - startDayIndex);
+      let endDayIndex = lastDay.getDay() - 1;
+      if (endDayIndex === -1) endDayIndex = 6;
+      const daysFromNextMonth = 6 - endDayIndex;
+      const totalGridDays = startDayIndex + totalDays + daysFromNextMonth;
+      const weekRows = Math.ceil(totalGridDays / 7);
+
+      const rowsHolder = document.createElement('div');
+      rowsHolder.className = 'flex-1 flex flex-col justify-between py-0.5';
+
+      for (let r = 0; r < weekRows; r++) {
+        const row = document.createElement('div');
+        row.className = 'flex items-center gap-0.5 py-0.2 rounded';
+
+        const refThursday = new Date(runningDate);
+        refThursday.setDate(refThursday.getDate() + 3);
+        const iso = getISOWeek(refThursday);
+
+        const isCurrentActiveWeek = (
+          iso.week === currentIso.week && 
+          iso.year === currentIso.year
+        );
+
+        if (isCurrentActiveWeek) {
+          row.className += ' bg-emerald-500/10 dark:bg-emerald-400/10 rounded';
+        }
+
+        // CW Badge oszlop
+        const cwContainer = document.createElement('div');
+        cwContainer.className = 'cw-badge-width text-center pr-1 border-r border-amber-400/80 dark:border-amber-600/70 flex items-center justify-center';
+
+        const badge = document.createElement('div');
+        if (isCurrentActiveWeek) {
+          badge.className = 'w-full py-0.5 px-0.5 rounded font-mono font-black cw-text bg-gradient-to-r from-emerald-500 to-teal-500 text-slate-950 glow-active-cw flex items-center justify-center gap-0.5';
+          badge.innerHTML = `<span class="w-1 h-1 rounded-full bg-slate-950"></span><span>${formatCWString(iso.week)}</span>`;
+        } else {
+          badge.className = 'w-full py-0.5 px-0.5 rounded font-mono font-black cw-text bg-amber-500 dark:bg-amber-600 text-slate-950 border border-amber-300 dark:border-amber-400/60 shadow-2xs';
+          badge.textContent = formatCWString(iso.week);
+        }
+        cwContainer.appendChild(badge);
+        row.appendChild(cwContainer);
+
+        // 7 naptári nap cellái
+        const daysContainer = document.createElement('div');
+        daysContainer.className = 'flex-1 grid grid-cols-7 gap-0.5 text-center items-center';
+
+        for (let d = 0; d < 7; d++) {
+          const dayCell = document.createElement('div');
+          const isThisMonth = runningDate.getMonth() === monthIndex;
+          const isToday = isSameDay(runningDate, state.today);
+          const isSun = d === 6;
+          const isSat = d === 5;
+
+          let cellClass = 'day-text font-bold rounded py-0.5 transition-colors flex items-center justify-center ';
+
+          if (isToday) {
+            cellClass += 'bg-slate-950 dark:bg-white text-white dark:text-slate-950 font-black shadow-xs ring-1 ring-amber-400 ';
+          } else if (isThisMonth) {
+            if (isSun) {
+              cellClass += 'text-rose-600 dark:text-rose-400 ';
+            } else if (isSat) {
+              cellClass += 'text-amber-600 dark:text-amber-400 ';
+            } else {
+              cellClass += 'text-slate-800 dark:text-slate-200 ';
+            }
+          } else {
+            cellClass += 'text-slate-300 dark:text-slate-700/60 pointer-events-none ';
+          }
+
+          dayCell.className = cellClass;
+          dayCell.textContent = runningDate.getDate();
+
+          daysContainer.appendChild(dayCell);
+          runningDate.setDate(runningDate.getDate() + 1);
+        }
+
+        row.appendChild(daysContainer);
+        rowsHolder.appendChild(row);
+      }
+
+      bodyWrapper.appendChild(rowsHolder);
+      card.appendChild(bodyWrapper);
+      return card;
+    }
+
+    function renderCalendar() {
+      const year = state.viewYear;
+      document.getElementById('yearDisplay').textContent = year;
+
+      const grid = document.getElementById('calendarGrid');
+      grid.innerHTML = '';
+
+      for (let m = 0; m < 12; m++) {
+        grid.appendChild(createMonthCard(year, m));
+      }
+    }
+
+    function updateHeaderInfo() {
+      const iso = getISOWeek(state.today);
+      document.getElementById('headerCW').textContent = formatCWString(iso.week);
+    }
+
+    function initNavigation() {
+      document.getElementById('prevYearBtn').addEventListener('click', () => {
+        state.viewYear -= 1;
+        renderCalendar();
+      });
+
+      document.getElementById('nextYearBtn').addEventListener('click', () => {
+        state.viewYear += 1;
+        renderCalendar();
+      });
+
+      document.getElementById('todayBtn').addEventListener('click', () => {
+        state.viewYear = state.today.getFullYear();
+        renderCalendar();
+      });
+
+      window.addEventListener('keydown', (e) => {
+        if (e.target.tagName === 'INPUT') return;
+        if (e.key === 'ArrowLeft') {
+          state.viewYear -= 1;
+          renderCalendar();
+        } else if (e.key === 'ArrowRight') {
+          state.viewYear += 1;
+          renderCalendar();
+        }
+      });
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+      initNavigation();
+      updateHeaderInfo();
+      renderCalendar();
+    });
+  </script>
+</body>
+</html>
