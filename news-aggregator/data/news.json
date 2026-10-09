@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-09T11:39:22.798Z",
+  "lastUpdated": "2026-10-09T18:39:21.537Z",
   "categories": {
     "technology": [
       {
-        "title": "OpenAI doubles down on decision to fire three AI safety researchers",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-        "summary": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\"\nIn a post on X on Friday, the ...",
+        "title": "Brendan Carr says he&#8217;ll let Pete Hegseth decide whether TV networks can air the public execution",
+        "link": "https://www.theverge.com/policy/1008950/fcc-brendan-carr-pete-hegseth-execution-tv-networks-air",
+        "summary": "FCC chairman Brendan Carr said he will defer to Secretary of Defense Pete Hegseth on whether TV networks can air the planned execution of convicted Fort Hood shooter Nidal Hasan by...",
         "source": "The Verge",
-        "pubDate": 1791539306000
+        "pubDate": 1791570648000
       },
       {
-        "title": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
-        "link": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
-        "summary": "Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI ben...",
+        "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+        "summary": "The original first place video used AI in post-processing. | Image: Dr. Ning Xu\t\n\nNikon says the video that originally won first place in its Small World in Motion contest \"did not...",
         "source": "The Verge",
-        "pubDate": 1791530072000
+        "pubDate": 1791569217000
       },
       {
-        "title": "US plans livestream of execution by firing squad",
-        "link": "https://www.theverge.com/tech/1008530/us-government-livestream-execution-firing-squad-fort-hood",
-        "summary": "The United States' execution of the Fort Hood shooter will be livestreamed, anonymous officials from the Defense Department told the BBC and Associated Press. The planned execution...",
+        "title": "Google teases Fitbit Edge launch next week",
+        "link": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week",
+        "summary": "Google shared a closeup of its upcoming fitness tracker. | Image: Google\t\n\nIt looks like Google is getting ready to take the wraps off its rumored Fitbit Edge next Monday. In a pos...",
         "source": "The Verge",
-        "pubDate": 1791498724000
+        "pubDate": 1791569155000
       },
       {
-        "title": "Anthropic launches free AI security scans for open-source projects",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-        "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thor...",
+        "title": "The Samsung Galaxy S26 Ultra is down to $950 after Prime Day",
+        "link": "https://www.theverge.com/gadgets/1008857/samsung-galaxy-s26-ultra-deal-sale",
+        "summary": "Amazon has the Samsung Galaxy S26 Ultra in black with 256GB of storage discounted to $949.99, a healthy discount from its usual price of $1,399.99. This phone’s standout feature is...",
         "source": "The Verge",
-        "pubDate": 1791496431000
+        "pubDate": 1791567684000
       },
       {
-        "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
-        "link": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
-        "summary": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791495452000
+        "title": "Amazon’s new Kindles appear to have a light leak problem",
+        "link": "https://www.theverge.com/tech/1008833/amazon-kindle-light-leak",
+        "summary": "Some users are reporting that the new Kindles have a light leak issue that is especially apparent when using dark mode. The latest base-model Kindles have a flush bezel that gives ...",
+        "source": "The Verge",
+        "pubDate": 1791566739000
       }
     ],
     "finance": [
       {
-        "title": "My husband inherited $3 million. He wants a vacation home, but I want to save for retirement. Who’s right?",
-        "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
-        "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791544500000
-      },
-      {
-        "title": "Aging bull: Why the four-year old stock-market rally can still pack a punch",
-        "link": "https://www.marketwatch.com/story/aging-bull-why-the-four-year-old-stock-market-rally-can-still-pack-a-punch-d1271631?mod=mw_rss_topstories",
-        "summary": "History shows bull markets that get past their fourth year rarely throw in the towel, according to Truist Advisory Services.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791543720000
-      },
-      {
-        "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
-        "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
-        "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791540900000
-      },
-      {
-        "title": "Is iPhone 18 demand cooling off? Here’s how deep Apple reportedly is cutting component orders",
-        "link": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
-        "summary": "Component orders for the iPhone 18 Pro and the iPhone 18 Pro Max are down about 15% in October, according to Nikkei Asia.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791540240000
-      },
-      {
-        "title": "‘I feel like a loser’: My ETFs go up one day and crash the next. Is this a bad sign?",
+        "title": "‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
         "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
         "summary": "“I presume these are sophisticated investors taking a profit.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791537300000
+        "pubDate": 1791570600000
+      },
+      {
+        "title": "As AT&T, Verizon and T-Mobile shares fall, Wall Street assesses the growing SpaceX threat",
+        "link": "https://www.marketwatch.com/story/as-at-t-verizon-and-t-mobile-shares-fall-wall-street-assesses-the-growing-spacex-threat-e869ef9e?mod=mw_rss_topstories",
+        "summary": "Telecommunications stocks were seeing their worst daily drops in over a decade.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791569760000
+      },
+      {
+        "title": "Microsoft is nearing a big milestone that solidifies its revival",
+        "link": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
+        "summary": "Microsoft is close to reclaiming a $4 trillion market cap — and fresh records are also in sight.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791569160000
+      },
+      {
+        "title": "Why you need to take a closer look at your favorite stock index",
+        "link": "https://www.marketwatch.com/story/why-you-need-to-take-a-closer-look-at-your-favorite-stock-index-479fb494?mod=mw_rss_topstories",
+        "summary": "Also in Weekend Reads: A positive case for the bond market, how prediction markets can pull you in, and a warning to those who benefit from GLP-1s.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791569040000
+      },
+      {
+        "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+        "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+        "summary": "“Both properties will be solely in his name.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791568800000
       }
     ],
     "business": [
       {
-        "title": "Why are there so many sports subscriptions?",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cj20vkpd61kqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Pete Oliver of DAZN explains why the is a growing number of sports subscriptions and why they are getting more expensive.",
+        "title": "Burnham promises to curb non-compete rules in job contracts",
+        "link": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The prime minister says restrictions on what workers can do after leaving roles have \"gone too far\".",
         "source": "BBC News",
-        "pubDate": 1791540433000
+        "pubDate": 1791562530000
       },
       {
-        "title": "I've been with my boyfriend for two years and don't know his salary",
-        "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
-        "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
-        "source": "BBC News",
-        "pubDate": 1791538658000
+        "title": "Whistle-Blower Says I.R.S. Leaked His Tax Records in Retaliation",
+        "link": "https://www.nytimes.com/2026/10/07/business/economy/whistle-blower-irs-lawsuit.html",
+        "summary": "Brian J. Visalli, a veteran investigator of tax fraud, said in a lawsuit that the agency had sent his personal and tax information to federal prosecutors.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1791558294000
       },
       {
-        "title": "Everton owners consider selling club two years after takeover",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cmvg9pgg4keyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Everton owners the Friedkin Group are exploring the sale of the club less than two years after taking control.",
+        "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
+        "link": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
+        "summary": "The Court of Appeal quashes the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018.",
         "source": "BBC News",
-        "pubDate": 1791534230000
+        "pubDate": 1791556595000
       },
       {
-        "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
-        "link": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
-        "summary": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\".",
-        "source": "BBC News",
-        "pubDate": 1791530070000
+        "title": "Highest Mortgage Rates in 3 Years Chills the Housing Market",
+        "link": "https://www.nytimes.com/2026/10/08/business/mortgage-rates-housing-prices.html",
+        "summary": "The average 30-year fixed-rate mortgage rose to 7.4 percent, putting more pressure on Americans struggling to afford to buy a home.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1791554931000
       },
       {
-        "title": "Contribution of high value residents discussed",
-        "link": "https://www.bbc.co.uk/news/articles/c6ly0vxd2v9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 260 industry leaders met to discuss the role wealthy residents play in Jersey's economy.",
+        "title": "Anthropic bans users from being 'cruel' to its AI systems",
+        "link": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
         "source": "BBC News",
-        "pubDate": 1791523783000
+        "pubDate": 1791549267000
       }
     ],
     "world": [
       {
-        "title": "Live Updates: Human Rights Lawyer Navi Pillay Is Awarded Nobel Peace Prize",
+        "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+        "link": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
+        "source": "BBC News",
+        "pubDate": 1791570978000
+      },
+      {
+        "title": "How India’s Gen Z Protests Inspired Gen Alpha",
+        "link": "https://www.nytimes.com/video/world/asia/100000011164923/india-school-protests-gen-alpha.html",
+        "summary": "India’s youngest students are staging sit-ins and protesting the run-down conditions of their schools, drawing inspiration from the Gen Z protests that roiled the country this summ...",
+        "source": "NYT > World News",
+        "pubDate": 1791570608000
+      },
+      {
+        "title": "Navi Pillay, South African Jurist, Is Awarded the Nobel Peace Prize",
+        "link": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-navi-pillay.html",
+        "summary": "The choice drew condemnation from Israel over Ms. Pillay’s role leading a U.N. commission that said the country had committed genocide against Palestinians.",
+        "source": "NYT > World News",
+        "pubDate": 1791570364000
+      },
+      {
+        "title": "Human Rights Lawyer Navi Pillay Is Awarded Nobel Peace Prize",
         "link": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026",
         "summary": "Ms. Pillay has served as a judge in her native South Africa and on international courts investigating war crimes. She led a U.N. panel that determined that Israel had committed gen...",
         "source": "NYT > World News",
-        "pubDate": 1791545666000
+        "pubDate": 1791569045000
       },
       {
-        "title": "Nobel Prize Winners Don’t Get a Heads-Up",
-        "link": "https://www.nytimes.com/2026/10/09/world/europe/nobel-prize-winners-phone-call-know.html",
-        "summary": "Navi Pillay wasn’t the first Nobel laureate that the prize committees have struggled to reach. Many weren’t even awake when the news broke.",
+        "title": "Trump Administration Hits International Criminal Court With Severe Sanctions",
+        "link": "https://www.nytimes.com/2026/10/09/us/politics/trump-international-criminal-court-sanctions.html",
+        "summary": "U.S. officials announced the new, sweeping punishments just hours after the Nobel Peace Prize committee gave its annual honor to a former court judge.",
         "source": "NYT > World News",
-        "pubDate": 1791545664000
-      },
-      {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026/heres-the-latest",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > World News",
-        "pubDate": 1791545525000
-      },
-      {
-        "title": "Houthi Attacks on Riyadh Airport Leave 3 Dead, Saudi Arabia Says",
-        "link": "https://www.nytimes.com/2026/10/09/world/middleeast/yemen-houthi-attack-saudi-arabia-airport-riyadh.html",
-        "summary": "The escalating violence has brought the conflict in Yemen to the doorstep of the Saudi capital, and the kingdom has no easy options to curtail the increasingly sophisticated and ta...",
-        "source": "NYT > World News",
-        "pubDate": 1791543419000
-      },
-      {
-        "title": "Crazy Rich Asians to return as TV show with original film's stars",
-        "link": "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The show will pick up after the hit 2018 film, and will also star Michelle Yeoh and Ronny Chieng.",
-        "source": "BBC News",
-        "pubDate": 1791543261000
+        "pubDate": 1791568284000
       }
     ]
   }
