@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-10-10T00:29:30.599Z",
+  "lastUpdated": "2026-10-10T10:56:58.092Z",
   "categories": {
     "technology": [
+      {
+        "title": "My brief romance with an AI bird feeder",
+        "link": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too",
+        "summary": "I miss my sweet tits.\t\n\nIt started off promising enough. Dozens of tiny, colorful birds were drawn to my garden just a few weeks after I mounted a $350 $269 Kiwibit Bird Feeder 2 P...",
+        "source": "The Verge",
+        "pubDate": 1791615600000
+      },
       {
         "title": "Neanderthal wooden tools from Spain found preserved in stone",
         "link": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
@@ -29,29 +36,22 @@
         "summary": "CPU makers have noticed that the seemingly unending RAM price hikes are making it tough for a lot of us to upgrade our PCs. Their solution? A return to last-gen DDR4 RAM. Intel and...",
         "source": "The Verge",
         "pubDate": 1791582600000
-      },
-      {
-        "title": "NASA issues long-awaited call to industry for private space stations",
-        "link": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
-        "summary": "\"We’ve made it clear that NASA will never give up its presence in low Earth orbit.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791581649000
       }
     ],
     "finance": [
+      {
+        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?",
+        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "summary": "“I presume these are sophisticated investors taking a profit.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791628200000
+      },
       {
         "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
         "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
         "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1791591300000
-      },
-      {
-        "title": "‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
-        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-        "summary": "“I presume these are sophisticated investors taking a profit.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791590400000
       },
       {
         "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
@@ -81,7 +81,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
         "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
         "source": "BBC News",
-        "pubDate": 1791591566000
+        "pubDate": 1791607100000
       },
       {
         "title": "Boots has a new owner: Three ways it could affect you",
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-        "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+        "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+        "link": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+        "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
         "source": "BBC News",
-        "pubDate": 1791591566000
+        "pubDate": 1791626783000
       },
       {
-        "title": "US immigration officials defend ICE agents who shot man in same car as child",
-        "link": "https://www.bbc.co.uk/news/articles/cq78px5y1zmzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.",
-        "source": "BBC News",
-        "pubDate": 1791591192000
-      },
-      {
-        "title": "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say",
-        "link": "https://www.nytimes.com/2026/10/09/world/middleeast/flydubai-pilot-attack.html",
-        "summary": "The attorney general of the United Arab Emirates said that the co-pilot had been inspired by the Sept. 11 attacks after  years of developing extreme Islamist views.",
+        "title": "Quebec Independence Is Unlikely, but Some Will Still Dream",
+        "link": "https://www.nytimes.com/2026/10/10/world/canada/quebec-election-parti-quebecois-separatism.html",
+        "summary": "The idea of independence remains deeply unpopular in Quebec, yet the separatist Parti Québécois was re-elected to a minority government this week.",
         "source": "NYT > World News",
-        "pubDate": 1791591022000
+        "pubDate": 1791626407000
       },
       {
-        "title": "Questions remain over Ebola patient who travelled across three nations undetected",
-        "link": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fresh details reveal how the 40-year-old businessman flew and crossed regional borders while seriously ill.",
-        "source": "BBC News",
-        "pubDate": 1791590408000
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/10/09/world/india-cjp-cockroach-protest/heres-the-latest",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "NYT > World News",
+        "pubDate": 1791625417000
       },
       {
-        "title": "'Everyone hates the police' – what France's school protests reveal about a divided nation",
-        "link": "https://www.bbc.co.uk/news/articles/crq5nlqnn184o?at_medium=RSS&at_campaign=rss",
-        "summary": "Students taking to the streets in France have become a focal point in the country's increasingly polarised politics.",
+        "title": "Public executions in the US stopped nearly a century ago -  why are they resuming now?",
+        "link": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Pentagon says the execution of Fort Hood shooter Nidal Hasan will be livestreamed, but experts suggest officials are reading the country wrong.",
         "source": "BBC News",
-        "pubDate": 1791588273000
+        "pubDate": 1791623856000
+      },
+      {
+        "title": "A Week Later, Russia Hasn’t Said What Pathogen Killed Plague Researcher",
+        "link": "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
+        "summary": "Experts said they believed that with modern testing technology, the Russian authorities should know the answer by now.",
+        "source": "NYT > World News",
+        "pubDate": 1791622884000
       }
     ]
   }
