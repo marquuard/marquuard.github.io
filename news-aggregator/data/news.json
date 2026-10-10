@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-10-10T10:56:58.092Z",
+  "lastUpdated": "2026-10-10T17:38:43.670Z",
   "categories": {
     "technology": [
       {
-        "title": "My brief romance with an AI bird feeder",
-        "link": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too",
-        "summary": "I miss my sweet tits.\t\n\nIt started off promising enough. Dozens of tiny, colorful birds were drawn to my garden just a few weeks after I mounted a $350 $269 Kiwibit Bird Feeder 2 P...",
+        "title": "Ledger wallet tampering suspected after reports of crypto thefts",
+        "link": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+        "summary": "Reports have been mounting that users of the Ledger crypto wallet have seen their accounts drained, and suspicion is that it's related to reseller CryptoBillis and a bit of spy har...",
         "source": "The Verge",
-        "pubDate": 1791615600000
+        "pubDate": 1791650204000
       },
       {
-        "title": "Neanderthal wooden tools from Spain found preserved in stone",
-        "link": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
-        "summary": "Dissolved rock precipitated around the tools, which then decayed.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791585243000
-      },
-      {
-        "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
-        "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-        "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791583447000
-      },
-      {
-        "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
-        "link": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
-        "summary": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791582672000
-      },
-      {
-        "title": "Decade-old RAM is making a comeback",
-        "link": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
-        "summary": "CPU makers have noticed that the seemingly unending RAM price hikes are making it tough for a lot of us to upgrade our PCs. Their solution? A return to last-gen DDR4 RAM. Intel and...",
+        "title": "K-pop star Sunmi loves Notion and ear cleaning videos",
+        "link": "https://www.theverge.com/entertainment/1008654/k-pop-sunmi-wonder-girls-interview",
+        "summary": "Sunmi is an undeniable force in K-pop. She first made her debut as a member of the Wonder Girls back in 2007, one of the first K-pop acts to really break through in the West. The E...",
         "source": "The Verge",
-        "pubDate": 1791582600000
+        "pubDate": 1791644400000
+      },
+      {
+        "title": "Anthropic is cutting off its internal evaluations from the internet",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+        "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, th...",
+        "source": "The Verge",
+        "pubDate": 1791643276000
+      },
+      {
+        "title": "Will Warner Bros. kill Skydance — or will David Ellison kill Warner Bros?",
+        "link": "https://www.theverge.com/podcast/1008733/warner-skydance-paramount-ellison-debt-failure",
+        "summary": "Today, I’m talking with Peter Kafka, chief correspondent at Business Insider and host of the Channels podcast, about the gigantic Warner Bros.-Paramount merger and the future of th...",
+        "source": "The Verge",
+        "pubDate": 1791640800000
+      },
+      {
+        "title": "LG’s RGB LED TV is good for certain situations, but an OLED is better",
+        "link": "https://www.theverge.com/tech/1008957/lg-mrgb95b-rgb-led-tv-review",
+        "summary": "The LG’s picture is bright and punchy, but its panel is very reflective.\t\n\nWhen it comes to TVs, the LG name has long been synonymous with OLEDs, continually leading Samsung and So...",
+        "source": "The Verge",
+        "pubDate": 1791637200000
       }
     ],
     "finance": [
       {
-        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?",
-        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-        "summary": "“I presume these are sophisticated investors taking a profit.”",
+        "title": "Elon Musk is now richer than any American ever — and it’s not even close",
+        "link": "https://www.marketwatch.com/story/elon-musk-is-now-richer-than-any-american-ever-and-its-not-even-close-58f31401?mod=mw_rss_topstories",
+        "summary": "Musk’s trillioniare status means he’s wealthier than his next three contemporaries combined — and also worth more than historical tycoons like John D. Rockefeller.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791628200000
+        "pubDate": 1791651000000
+      },
+      {
+        "title": "A friend in her 80s fell down her basement stairs. Is this a hidden danger lurking in people’s home?",
+        "link": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
+        "summary": "“She developed pleural effusion — fluid between the lungs and ribs — compressing her lungs and making it hard for her to breathe.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791648000000
       },
       {
         "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
         "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
         "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791591300000
+        "pubDate": 1791646200000
       },
       {
-        "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
-        "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
-        "summary": "“Both properties will be solely in his name.”",
+        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
+        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "summary": "“I presume these are sophisticated investors taking a profit.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791587700000
+        "pubDate": 1791644700000
       },
       {
-        "title": "How to provide guaranteed retirement income while paying no commissions",
-        "link": "https://www.marketwatch.com/story/how-to-provide-guaranteed-retirement-income-while-paying-no-commissions-b2085511?mod=mw_rss_topstories",
-        "summary": "Unlike the stock market, whose future returns are anything but assured, a TIPS ladder’s payout is guaranteed.",
+        "title": "Flu season is already here. Here’s what to know about this year’s flu shots.",
+        "link": "https://www.marketwatch.com/story/flu-season-is-already-here-heres-what-to-know-about-this-years-flu-shots-58aeb705?mod=mw_rss_topstories",
+        "summary": "This year’s flu season has arrived about seven weeks earlier than in 2025 or 2024.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791585660000
-      },
-      {
-        "title": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be ‘too little, too late,’ says strategist.",
-        "link": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories",
-        "summary": "The Trump administration has enlisted Russia to help boost U.S. and global diesel supplies in an effort to lower prices for the fuel ahead of the U.S. midterm elections in November...",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791583200000
+        "pubDate": 1791638340000
       }
     ],
     "business": [
@@ -81,7 +81,14 @@
         "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
         "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
         "source": "BBC News",
-        "pubDate": 1791607100000
+        "pubDate": 1791642254000
+      },
+      {
+        "title": "Money Box",
+        "link": "https://www.bbc.co.uk/sounds/play/m0032qlk?at_medium=RSS&at_campaign=rss",
+        "summary": "What age will you get your state pension?",
+        "source": "BBC News",
+        "pubDate": 1791631800000
       },
       {
         "title": "Boots has a new owner: Three ways it could affect you",
@@ -103,50 +110,43 @@
         "summary": "The price of fuel has soared as the cost of living emerges as a key issue for millions of Americans.",
         "source": "BBC News",
         "pubDate": 1791574370000
-      },
-      {
-        "title": "Burnham promises to curb non-compete rules in job contracts",
-        "link": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The prime minister says restrictions on what workers can do after leaving roles have \"gone too far\".",
-        "source": "BBC News",
-        "pubDate": 1791562530000
       }
     ],
     "world": [
       {
-        "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-        "link": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
-        "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+        "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+        "link": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
         "source": "BBC News",
-        "pubDate": 1791626783000
-      },
-      {
-        "title": "Quebec Independence Is Unlikely, but Some Will Still Dream",
-        "link": "https://www.nytimes.com/2026/10/10/world/canada/quebec-election-parti-quebecois-separatism.html",
-        "summary": "The idea of independence remains deeply unpopular in Quebec, yet the separatist Parti Québécois was re-elected to a minority government this week.",
-        "source": "NYT > World News",
-        "pubDate": 1791626407000
-      },
-      {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/09/world/india-cjp-cockroach-protest/heres-the-latest",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > World News",
-        "pubDate": 1791625417000
-      },
-      {
-        "title": "Public executions in the US stopped nearly a century ago -  why are they resuming now?",
-        "link": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Pentagon says the execution of Fort Hood shooter Nidal Hasan will be livestreamed, but experts suggest officials are reading the country wrong.",
-        "source": "BBC News",
-        "pubDate": 1791623856000
+        "pubDate": 1791653484000
       },
       {
         "title": "A Week Later, Russia Hasn’t Said What Pathogen Killed Plague Researcher",
         "link": "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
         "summary": "Experts said they believed that with modern testing technology, the Russian authorities should know the answer by now.",
         "source": "NYT > World News",
-        "pubDate": 1791622884000
+        "pubDate": 1791652156000
+      },
+      {
+        "title": "Several injured in attack on airport in Saudi capital Riyadh",
+        "link": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+        "summary": "The US embassy says it is \"aware of attacks on King Khalid International Airport\", which come days after Yemen's Houthis said they had struck it.",
+        "source": "BBC News",
+        "pubDate": 1791651392000
+      },
+      {
+        "title": "Palestinian Authority Formally Delays Elections, Despite Western Pressure",
+        "link": "https://www.nytimes.com/2026/10/10/world/middleeast/palestinian-authority-elections-abbas.html",
+        "summary": "The aging Palestinian leader, Mahmoud Abbas, pushed off the planned vote until late 2027. Palestinians haven’t had major elections for about two decades.",
+        "source": "NYT > World News",
+        "pubDate": 1791651133000
+      },
+      {
+        "title": "Indian Police Round Up Protest Leaders and Lock Down Delhi",
+        "link": "https://www.nytimes.com/2026/10/10/world/asia/delhi-protests-india.html",
+        "summary": "Thousands of young people tried to gather to protest a sweeping revision of their country’s voter roll. Security forces hauled many of them away.",
+        "source": "NYT > World News",
+        "pubDate": 1791651045000
       }
     ]
   }
