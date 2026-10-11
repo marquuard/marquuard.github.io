@@ -1,11 +1,25 @@
 {
-  "lastUpdated": "2026-10-10T17:38:43.670Z",
+  "lastUpdated": "2026-10-11T00:05:41.596Z",
   "categories": {
     "technology": [
       {
+        "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+        "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a...",
+        "source": "The Verge",
+        "pubDate": 1791670217000
+      },
+      {
+        "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+        "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+        "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are...",
+        "source": "The Verge",
+        "pubDate": 1791658327000
+      },
+      {
         "title": "Ledger wallet tampering suspected after reports of crypto thefts",
         "link": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
-        "summary": "Reports have been mounting that users of the Ledger crypto wallet have seen their accounts drained, and suspicion is that it's related to reseller CryptoBillis and a bit of spy har...",
+        "summary": "Reports have been mounting that users of the Ledger crypto wallet have seen their accounts drained, and it appears to be related to tampered hardware sold by CryptoBillis. Ledger h...",
         "source": "The Verge",
         "pubDate": 1791650204000
       },
@@ -22,57 +36,43 @@
         "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, th...",
         "source": "The Verge",
         "pubDate": 1791643276000
-      },
-      {
-        "title": "Will Warner Bros. kill Skydance — or will David Ellison kill Warner Bros?",
-        "link": "https://www.theverge.com/podcast/1008733/warner-skydance-paramount-ellison-debt-failure",
-        "summary": "Today, I’m talking with Peter Kafka, chief correspondent at Business Insider and host of the Channels podcast, about the gigantic Warner Bros.-Paramount merger and the future of th...",
-        "source": "The Verge",
-        "pubDate": 1791640800000
-      },
-      {
-        "title": "LG’s RGB LED TV is good for certain situations, but an OLED is better",
-        "link": "https://www.theverge.com/tech/1008957/lg-mrgb95b-rgb-led-tv-review",
-        "summary": "The LG’s picture is bright and punchy, but its panel is very reflective.\t\n\nWhen it comes to TVs, the LG name has long been synonymous with OLEDs, continually leading Samsung and So...",
-        "source": "The Verge",
-        "pubDate": 1791637200000
       }
     ],
     "finance": [
       {
-        "title": "Elon Musk is now richer than any American ever — and it’s not even close",
-        "link": "https://www.marketwatch.com/story/elon-musk-is-now-richer-than-any-american-ever-and-its-not-even-close-58f31401?mod=mw_rss_topstories",
-        "summary": "Musk’s trillioniare status means he’s wealthier than his next three contemporaries combined — and also worth more than historical tycoons like John D. Rockefeller.",
+        "title": "Should I put my nest egg in a 30-year Treasury bond?",
+        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+        "summary": "Risk comes in many forms, even with “safe” investments.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791651000000
+        "pubDate": 1791661440000
       },
       {
-        "title": "A friend in her 80s fell down her basement stairs. Is this a hidden danger lurking in people’s home?",
-        "link": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
-        "summary": "“She developed pleural effusion — fluid between the lungs and ribs — compressing her lungs and making it hard for her to breathe.”",
+        "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
+        "link": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
+        "summary": "Parental controls aren’t just for kids anymore",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791648000000
+        "pubDate": 1791661440000
       },
       {
-        "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-        "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
-        "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
+        "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
+        "link": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
+        "summary": "Don’t just focus on stock picks when you’re thinking of building retirement wealth",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791646200000
+        "pubDate": 1791661440000
       },
       {
-        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
-        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-        "summary": "“I presume these are sophisticated investors taking a profit.”",
+        "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
+        "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
+        "summary": "Seven tips for painlessly moving in retirement.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791644700000
+        "pubDate": 1791661440000
       },
       {
-        "title": "Flu season is already here. Here’s what to know about this year’s flu shots.",
-        "link": "https://www.marketwatch.com/story/flu-season-is-already-here-heres-what-to-know-about-this-years-flu-shots-58aeb705?mod=mw_rss_topstories",
-        "summary": "This year’s flu season has arrived about seven weeks earlier than in 2025 or 2024.",
+        "title": "Rising interest rates: The good, the bad and the ugly for retirees",
+        "link": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
+        "summary": "Unlike higher gas prices, which hurt almost everyone, higher borrowing costs have an uneven impact.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791638340000
+        "pubDate": 1791661440000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-        "link": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+        "title": "Inside the room: What it was like to be with Blackpink's Lisa as race scandal erupted",
+        "link": "https://www.bbc.co.uk/news/articles/cjzxl56q30k7o?at_medium=RSS&at_campaign=rss",
+        "summary": "Film-maker Sue Kim talks about having unprecedented access to K-Pop idol Lisa Manobal at her most candid.",
         "source": "BBC News",
-        "pubDate": 1791653484000
+        "pubDate": 1791675095000
       },
       {
-        "title": "A Week Later, Russia Hasn’t Said What Pathogen Killed Plague Researcher",
-        "link": "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
-        "summary": "Experts said they believed that with modern testing technology, the Russian authorities should know the answer by now.",
+        "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes",
+        "link": "https://www.nytimes.com/2026/10/10/world/middleeast/riyadh-airport-attack-energy-congress.html",
+        "summary": "The strike on Saturday was the deadliest attack in a Gulf Arab country since the U.S.-Israeli war with Iran began in February, and forced the airport to temporarily suspend operati...",
         "source": "NYT > World News",
-        "pubDate": 1791652156000
+        "pubDate": 1791674850000
       },
       {
-        "title": "Several injured in attack on airport in Saudi capital Riyadh",
+        "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+        "link": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+        "summary": "Roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone.",
+        "source": "BBC News",
+        "pubDate": 1791674395000
+      },
+      {
+        "title": "Man Dies in Tiger Attack at Yorkshire Wildlife Park in England",
+        "link": "https://www.nytimes.com/2026/10/10/world/europe/tiger-attack-wildlife-park-man-dead.html",
+        "summary": "The man came face to face with an Amur tiger inside the animal’s habitat at Yorkshire Wildlife Park in England. The park was evacuated and closed to the public.",
+        "source": "NYT > World News",
+        "pubDate": 1791673333000
+      },
+      {
+        "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
         "link": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
-        "summary": "The US embassy says it is \"aware of attacks on King Khalid International Airport\", which come days after Yemen's Houthis said they had struck it.",
+        "summary": "Another 309 people are injured in the attack on the airport, which come days after Yemen's Houthis said they had struck it.",
         "source": "BBC News",
-        "pubDate": 1791651392000
-      },
-      {
-        "title": "Palestinian Authority Formally Delays Elections, Despite Western Pressure",
-        "link": "https://www.nytimes.com/2026/10/10/world/middleeast/palestinian-authority-elections-abbas.html",
-        "summary": "The aging Palestinian leader, Mahmoud Abbas, pushed off the planned vote until late 2027. Palestinians haven’t had major elections for about two decades.",
-        "source": "NYT > World News",
-        "pubDate": 1791651133000
-      },
-      {
-        "title": "Indian Police Round Up Protest Leaders and Lock Down Delhi",
-        "link": "https://www.nytimes.com/2026/10/10/world/asia/delhi-protests-india.html",
-        "summary": "Thousands of young people tried to gather to protest a sweeping revision of their country’s voter roll. Security forces hauled many of them away.",
-        "source": "NYT > World News",
-        "pubDate": 1791651045000
+        "pubDate": 1791672056000
       }
     ]
   }
