@@ -1,81 +1,95 @@
 {
-  "lastUpdated": "2026-10-11T11:12:38.164Z",
+  "lastUpdated": "2026-10-11T17:54:21.523Z",
   "categories": {
     "technology": [
       {
-        "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-        "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a...",
+        "title": "The new Apple TV could have a built-in mic and a remote with a speaker",
+        "link": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
+        "summary": "The latest rumors are that the new Apple TV will have a built-in microphone, while the upgraded remote will get a speaker. The mic would let users control the set-top box using Sir...",
         "source": "The Verge",
-        "pubDate": 1791670217000
+        "pubDate": 1791739867000
       },
       {
-        "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-        "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
-        "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are...",
+        "title": "NASA dumped over 800GB of Artemis II data online",
+        "link": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
+        "summary": "A crew annotated image showing where the Artemis II team observed impact flashes on the dark side of the Moon. | Image: NASA\t\n\nIf you thought you'd seen all there is to see from th...",
         "source": "The Verge",
-        "pubDate": 1791658327000
+        "pubDate": 1791732880000
       },
       {
-        "title": "Ledger wallet tampering suspected after reports of crypto thefts",
-        "link": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
-        "summary": "Reports have been mounting that users of the Ledger crypto wallet have seen their accounts drained, and it appears to be related to tampered hardware sold by CryptoBillis. Ledger h...",
+        "title": "George A. Romero’s Season of the Witch is a slow-burn feminist occult drama",
+        "link": "https://www.theverge.com/entertainment/1009346/george-a-romero-season-of-the-witch-feminist-horror-review",
+        "summary": "George A. Romero is obviously best known as the father of the modern zombie movie. But between inventing the genre with Night of the Living Dead and his outbreak horror, The Crazie...",
         "source": "The Verge",
-        "pubDate": 1791650204000
+        "pubDate": 1791731700000
       },
       {
-        "title": "K-pop star Sunmi loves Notion and ear cleaning videos",
-        "link": "https://www.theverge.com/entertainment/1008654/k-pop-sunmi-wonder-girls-interview",
-        "summary": "Sunmi is an undeniable force in K-pop. She first made her debut as a member of the Wonder Girls back in 2007, one of the first K-pop acts to really break through in the West. The E...",
-        "source": "The Verge",
-        "pubDate": 1791644400000
+        "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+        "link": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+        "summary": "Also: new trailer for Godzilla Minus Zero, the sequel to Takashi Yamazaki’s kaiju epic, Godzilla Minus One",
+        "source": "Ars Technica - All content",
+        "pubDate": 1791730224000
       },
       {
-        "title": "Anthropic is cutting off its internal evaluations from the internet",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-        "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, th...",
+        "title": "Vurt wants you to look at vertical videos as a genre of their own",
+        "link": "https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey",
+        "summary": "From Disney Plus to HBO Max, almost every major established streaming service is experimenting with ways to get into vertical content. It's clear that these companies see video-foc...",
         "source": "The Verge",
-        "pubDate": 1791643276000
+        "pubDate": 1791723600000
       }
     ],
     "finance": [
       {
-        "title": "Should I put my nest egg in a 30-year Treasury bond?",
-        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
-        "summary": "Risk comes in many forms, even with “safe” investments.",
+        "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
+        "link": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
+        "summary": "There will be no Medicare Advantage plans in 181 counties in 2027, up from 67 in 2026.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791661440000
+        "pubDate": 1791736500000
       },
       {
-        "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
-        "link": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
-        "summary": "Parental controls aren’t just for kids anymore",
+        "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
+        "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
+        "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791661440000
+        "pubDate": 1791727200000
       },
       {
-        "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
-        "link": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
-        "summary": "Don’t just focus on stock picks when you’re thinking of building retirement wealth",
+        "title": "The bull market is turning 4 years old — but yields could crash the party",
+        "link": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+        "summary": "For four years, tech has been the answer to almost every question about this bull market.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791661440000
+        "pubDate": 1791723600000
       },
       {
-        "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
-        "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
-        "summary": "Seven tips for painlessly moving in retirement.",
+        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
+        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "summary": "“I presume these are sophisticated investors taking a profit.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791661440000
+        "pubDate": 1791721800000
       },
       {
-        "title": "Rising interest rates: The good, the bad and the ugly for retirees",
-        "link": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
-        "summary": "Unlike higher gas prices, which hurt almost everyone, higher borrowing costs have an uneven impact.",
+        "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+        "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+        "summary": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791661440000
+        "pubDate": 1791720000000
       }
     ],
     "business": [
+      {
+        "title": "Citroen revives the 2CV for an electric age",
+        "link": "https://www.bbc.co.uk/news/articles/c620r33plgppo?at_medium=RSS&at_campaign=rss",
+        "summary": "The French firm is reinventing the classic model as carmakers come under pressure from Chinese rivals.",
+        "source": "BBC News",
+        "pubDate": 1791738005000
+      },
+      {
+        "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+        "link": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+        "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
+        "source": "BBC News",
+        "pubDate": 1791729490000
+      },
       {
         "title": "Charities and businesses wrestle with diesel cost",
         "link": "https://www.bbc.co.uk/news/articles/c5x2vn4dzz08o?at_medium=RSS&at_campaign=rss",
@@ -96,57 +110,43 @@
         "summary": "What age will you get your state pension?",
         "source": "BBC News",
         "pubDate": 1791631800000
-      },
-      {
-        "title": "Boots has a new owner: Three ways it could affect you",
-        "link": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
-        "summary": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
-        "source": "BBC News",
-        "pubDate": 1791586874000
-      },
-      {
-        "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
-        "link": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
-        "source": "BBC News",
-        "pubDate": 1791585022000
       }
     ],
     "world": [
       {
-        "title": "Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on",
-        "link": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
-        "summary": "Hundreds of people who came out on the streets despite the police's restrictions were detained on Sunday.",
+        "title": "India’s Youth Protests Challenge Narendra Modi",
+        "link": "https://www.nytimes.com/2026/10/11/world/asia/india-crackdown-narendra-modi.html",
+        "summary": "Prime Minister Narendra Modi of India has long succeeded in isolating and undermining opponents. The Gen Z protests pose a challenge unlike any he has faced before.",
+        "source": "NYT > World News",
+        "pubDate": 1791740655000
+      },
+      {
+        "title": "Poland detains man suspected of planning assassination of PM Tusk",
+        "link": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
         "source": "BBC News",
-        "pubDate": 1791717102000
+        "pubDate": 1791739644000
       },
       {
-        "title": "Pope Leo to have surgery after lump found on lung",
-        "link": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The 71-year-old pontiff said the nodule was identified \"at a very early stage\".",
-        "source": "BBC News",
-        "pubDate": 1791716762000
-      },
-      {
-        "title": "India’s ‘Cockroach’ Leaders Released as New Delhi Braces for More Protests",
-        "link": "https://www.nytimes.com/2026/10/11/world/asia/india-cockroach-dipke-new-delhi-protests.html",
-        "summary": "The leaders of the Cockroach Janta Party, an Indian youth movement, were detained by the police before they could lead protests over voting rights.",
+        "title": "Over 100 Migrants Are Dead After Boat Capsizes Near Djibouti",
+        "link": "https://www.nytimes.com/2026/10/11/world/africa/migrant-boat-capsize-djibouti-dead-yemen.html",
+        "summary": "The shipwreck is among the deadliest ever recorded on the route to Yemen, the International Organization for Migration said. Dozens remain missing, and the bodies of 15 children we...",
         "source": "NYT > World News",
-        "pubDate": 1791716374000
+        "pubDate": 1791739638000
       },
       {
-        "title": "Wringing Hope From the Rubble of Gaza",
-        "link": "https://www.nytimes.com/2026/10/11/world/middleeast/wringing-hope-from-the-rubble-of-gaza.html",
-        "summary": "The cease-fire last October ostensibly brought an end to Israel’s war in Gaza after the Hamas-led attacks on Oct. 7, 2023. A year later, however, Israeli strikes, though less frequ...",
+        "title": "Saudi Arabia Has Few Options as Houthis Aim at Heart of Its Ambitions",
+        "link": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
+        "summary": "Three deadly attacks by the Iran-backed Houthis in Yemen on an airport in the Saudi capital underscored the asymmetrical nature of their conflict with the kingdom.",
         "source": "NYT > World News",
-        "pubDate": 1791709285000
+        "pubDate": 1791739222000
       },
       {
-        "title": "In Canada’s Arctic, a New Generation of Inuit Creatives Are Using Identity to Fuel Their Art",
-        "link": "https://www.nytimes.com/2026/10/11/world/canada/inuit-inuk-indigenous-people-identity-iqaluit.html",
-        "summary": "In Iqaluit, the only city in Canada’s Arctic, a new generation of Inuit writers and artists is turning questions of language, land and identity into books, films and even tattoos.",
+        "title": "Pope Leo Will Have Surgery to Remove Growth on Lung",
+        "link": "https://www.nytimes.com/2026/10/11/world/europe/pope-leo-lung-surgery.html",
+        "summary": "A recent medical examination found a small nodule, he announced, adding that doctors would remove it this week.",
         "source": "NYT > World News",
-        "pubDate": 1791709231000
+        "pubDate": 1791737570000
       }
     ]
   }
