@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-10-11T17:54:21.523Z",
+  "lastUpdated": "2026-10-12T00:13:52.446Z",
   "categories": {
     "technology": [
+      {
+        "title": "A college in Illinois tried to cancel its Flock contact and it refused",
+        "link": "https://www.theverge.com/tech/1009411/elgin-community-college-flock-safety-cameras",
+        "summary": "BOULDER, CO - MARCH 5:A Flock Safety license plate recognition camera is seen near the intersection of Marine Street and Arapahoe Avenue in Boulder on Thursday, March 5, 2026. (Pho...",
+        "source": "The Verge",
+        "pubDate": 1791749203000
+      },
+      {
+        "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+        "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most...",
+        "source": "The Verge",
+        "pubDate": 1791743636000
+      },
       {
         "title": "The new Apple TV could have a built-in mic and a remote with a speaker",
         "link": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
@@ -22,131 +36,117 @@
         "summary": "George A. Romero is obviously best known as the father of the modern zombie movie. But between inventing the genre with Night of the Living Dead and his outbreak horror, The Crazie...",
         "source": "The Verge",
         "pubDate": 1791731700000
-      },
-      {
-        "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
-        "link": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
-        "summary": "Also: new trailer for Godzilla Minus Zero, the sequel to Takashi Yamazaki’s kaiju epic, Godzilla Minus One",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791730224000
-      },
-      {
-        "title": "Vurt wants you to look at vertical videos as a genre of their own",
-        "link": "https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey",
-        "summary": "From Disney Plus to HBO Max, almost every major established streaming service is experimenting with ways to get into vertical content. It's clear that these companies see video-foc...",
-        "source": "The Verge",
-        "pubDate": 1791723600000
       }
     ],
     "finance": [
       {
-        "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
-        "link": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
-        "summary": "There will be no Medicare Advantage plans in 181 counties in 2027, up from 67 in 2026.",
+        "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+        "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+        "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791736500000
-      },
-      {
-        "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
-        "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
-        "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791727200000
-      },
-      {
-        "title": "The bull market is turning 4 years old — but yields could crash the party",
-        "link": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
-        "summary": "For four years, tech has been the answer to almost every question about this bull market.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791723600000
+        "pubDate": 1791749700000
       },
       {
         "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
         "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
         "summary": "“I presume these are sophisticated investors taking a profit.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791721800000
+        "pubDate": 1791748800000
       },
       {
-        "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
-        "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
-        "summary": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
+        "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+        "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+        "summary": "“Both properties will be solely in his name.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791720000000
+        "pubDate": 1791747120000
+      },
+      {
+        "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
+        "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
+        "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791747120000
+      },
+      {
+        "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
+        "link": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
+        "summary": "There will be no Medicare Advantage plans in 181 counties in 2027, up from 67 in 2026.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1791736500000
       }
     ],
     "business": [
       {
-        "title": "Citroen revives the 2CV for an electric age",
-        "link": "https://www.bbc.co.uk/news/articles/c620r33plgppo?at_medium=RSS&at_campaign=rss",
-        "summary": "The French firm is reinventing the classic model as carmakers come under pressure from Chinese rivals.",
+        "title": "Roofing scammers con homeowners out of thousands of pounds ",
+        "link": "https://www.bbc.co.uk/news/articles/c6x29kydnzv0o?at_medium=RSS&at_campaign=rss",
+        "summary": "One in 10 scams reported to Citizens Advice relate to fraudsters charging for work not done, or done badly.",
         "source": "BBC News",
-        "pubDate": 1791738005000
+        "pubDate": 1791760789000
       },
       {
-        "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-        "link": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-        "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
+        "title": "Debt advice that may leave you owing even more money",
+        "link": "https://www.bbc.co.uk/news/articles/c84g1xz1l9ddo?at_medium=RSS&at_campaign=rss",
+        "summary": "People are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.",
         "source": "BBC News",
-        "pubDate": 1791729490000
+        "pubDate": 1791760747000
       },
       {
-        "title": "Charities and businesses wrestle with diesel cost",
-        "link": "https://www.bbc.co.uk/news/articles/c5x2vn4dzz08o?at_medium=RSS&at_campaign=rss",
-        "summary": "Cancer charity Daft as a Brush and Teesside Minibus Hire say they are struggling with pump prices.",
+        "title": "Trump faces growing backlash over plans to import diesel from Russia",
+        "link": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
         "source": "BBC News",
-        "pubDate": 1791699807000
+        "pubDate": 1791760725000
       },
       {
-        "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-        "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+        "title": "AI is less regulated than milk, says Microsoft president",
+        "link": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
+        "summary": "Brad Smith calls for global rules on AI, and says the UK is in the \"best position\" to lead the charge.",
         "source": "BBC News",
-        "pubDate": 1791642254000
+        "pubDate": 1791760055000
       },
       {
-        "title": "Money Box",
-        "link": "https://www.bbc.co.uk/sounds/play/m0032qlk?at_medium=RSS&at_campaign=rss",
-        "summary": "What age will you get your state pension?",
+        "title": "Iran war threatens Healey's Budget plans, think tank warns",
+        "link": "https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo?at_medium=RSS&at_campaign=rss",
+        "summary": "The impact of the Iran war poses significant risks for the government’s spending plans, the Institute for Fiscal Studies says.",
         "source": "BBC News",
-        "pubDate": 1791631800000
+        "pubDate": 1791759847000
       }
     ],
     "world": [
       {
-        "title": "India’s Youth Protests Challenge Narendra Modi",
-        "link": "https://www.nytimes.com/2026/10/11/world/asia/india-crackdown-narendra-modi.html",
-        "summary": "Prime Minister Narendra Modi of India has long succeeded in isolating and undermining opponents. The Gen Z protests pose a challenge unlike any he has faced before.",
+        "title": "Saudi and Yemeni Airports Hit in New Round of Strikes",
+        "link": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-yemen-airports-houthis.html",
+        "summary": "At least one person was killed in the Saudi capital, Riyadh, kingdom authorities said. The Houthis said Saudi aircraft hit the Yemeni capital’s airport.",
         "source": "NYT > World News",
-        "pubDate": 1791740655000
+        "pubDate": 1791762312000
       },
       {
-        "title": "Poland detains man suspected of planning assassination of PM Tusk",
-        "link": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
+        "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+        "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
         "source": "BBC News",
-        "pubDate": 1791739644000
+        "pubDate": 1791758758000
       },
       {
-        "title": "Over 100 Migrants Are Dead After Boat Capsizes Near Djibouti",
-        "link": "https://www.nytimes.com/2026/10/11/world/africa/migrant-boat-capsize-djibouti-dead-yemen.html",
-        "summary": "The shipwreck is among the deadliest ever recorded on the route to Yemen, the International Organization for Migration said. Dozens remain missing, and the bodies of 15 children we...",
-        "source": "NYT > World News",
-        "pubDate": 1791739638000
+        "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+        "link": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+        "source": "BBC News",
+        "pubDate": 1791754600000
       },
       {
-        "title": "Saudi Arabia Has Few Options as Houthis Aim at Heart of Its Ambitions",
-        "link": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
-        "summary": "Three deadly attacks by the Iran-backed Houthis in Yemen on an airport in the Saudi capital underscored the asymmetrical nature of their conflict with the kingdom.",
-        "source": "NYT > World News",
-        "pubDate": 1791739222000
+        "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+        "link": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Neither Egypt nor Sudan has commented on the alleged strikes on an artisanal mining camp on Saturday.",
+        "source": "BBC News",
+        "pubDate": 1791753164000
       },
       {
-        "title": "Pope Leo Will Have Surgery to Remove Growth on Lung",
-        "link": "https://www.nytimes.com/2026/10/11/world/europe/pope-leo-lung-surgery.html",
-        "summary": "A recent medical examination found a small nodule, he announced, adding that doctors would remove it this week.",
+        "title": "An Israeli Election Like No Other",
+        "link": "https://www.nytimes.com/2026/10/11/world/israel-election-india-protests-riyadh.html",
+        "summary": "Many say a vote in two weeks may be the most consequential in Israel’s history.",
         "source": "NYT > World News",
-        "pubDate": 1791737570000
+        "pubDate": 1791752259000
       }
     ]
   }
