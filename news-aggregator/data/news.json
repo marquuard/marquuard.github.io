@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-14T09:55:28.552Z",
+  "lastUpdated": "2026-10-14T17:47:05.908Z",
   "categories": {
     "technology": [
       {
-        "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
-        "link": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
-        "summary": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791931692000
-      },
-      {
-        "title": "Apple’s HomeView ad is confusing to everyone except parents",
-        "link": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction",
-        "summary": "Nothing like a little family togetherness in the morning. | Image: Apple\t\n\nApple's ad introducing its new HomeView smart display is a little unusual. It's fast-paced and unruly, de...",
+        "title": "Apple&#8217;s new HomeView smart display is $10 cheaper at Amazon",
+        "link": "https://www.theverge.com/gadgets/1011227/apple-homeview-smart-display-deal-sale",
+        "summary": "It’s like a big Apple Watch for the home. | Image: Apple\t\n\nApple only just announced on Tuesday that its first smart display, the HomeView, will arrive on November 13th, but you ca...",
         "source": "The Verge",
-        "pubDate": 1791929400000
+        "pubDate": 1791998682000
       },
       {
-        "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
-        "link": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/",
-        "summary": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791928549000
-      },
-      {
-        "title": "Topgolf saved over $11.3 million after leaving VMware",
-        "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
-        "summary": "Topgolf and VMware \"ran deep\" before the migration.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1791927223000
-      },
-      {
-        "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-        "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alf...",
+        "title": "Sprout Pi adds Bluetooth, streaming, and USB-C to your aging iPod",
+        "link": "https://www.theverge.com/gadgets/1011266/sprout-pi-adds-bluetooth-streaming-and-usb-c-to-your-aging-ipod",
+        "summary": "There's an entire cottage industry of iPod mods out there, but Sprout Pi and Sprout Pico are two of the few full motherboard replacements that combine many of the most popular mods...",
         "source": "The Verge",
-        "pubDate": 1791924325000
+        "pubDate": 1791998351000
+      },
+      {
+        "title": "Anbernic’s next dual-screen handheld could replace your aging Nintendo 3DS",
+        "link": "https://www.theverge.com/tech/1011200/anbernic-rg-dds-dual-screen-handheld-emulator-nintendo-3ds",
+        "summary": "Anbernic shared a new video of its upcoming dual-screen handheld it announced last week showing the device playing 3DS, Xbox, and PS3 games through emulation. While competitors lik...",
+        "source": "The Verge",
+        "pubDate": 1791998007000
+      },
+      {
+        "title": "My AI doppelganger tells me what to eat",
+        "link": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+        "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change yo...",
+        "source": "The Verge",
+        "pubDate": 1791997200000
+      },
+      {
+        "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+        "summary": "OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of...",
+        "source": "The Verge",
+        "pubDate": 1791996204000
       }
     ],
     "finance": [
       {
-        "title": "‘I earn $110,000 a year’: I lost my home in the Great Recession. I’m renting in my 50s. Why is that judged as failure?",
-        "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-        "summary": "“I lost my job and eventually my home — and it’s still hard.”",
+        "title": "3 things that are driving inflation higher",
+        "link": "https://www.marketwatch.com/story/3-things-that-are-driving-inflation-higher-26bda9a9?mod=mw_rss_topstories",
+        "summary": "Struggling with elevated prices? You don’t have to look much further than your local gas station.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791969300000
+        "pubDate": 1791996600000
       },
       {
-        "title": "‘Sopranos’ star Steven Van Zandt is selling his Greenwich Village penthouse for $19 million",
-        "link": "https://www.marketwatch.com/story/sopranos-star-steven-van-zandt-is-selling-his-greenwich-village-penthouse-for-19-million-ad250720?mod=mw_rss_topstories",
-        "summary": "Musician and actor Steven Van Zandt is ready to part with his Greenwich Village penthouse, hiking the price up by $4 million after initially listing it in June of this year.",
+        "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma",
+        "link": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326?mod=mw_rss_topstories",
+        "summary": "There isn’t any way to spin Wednesday’s hot consumer-price index report as good, especially when looking at the bond market’s reaction.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791968580000
+        "pubDate": 1791995220000
       },
       {
-        "title": "Chip bellwether ASML says customers are already asking to place orders — for 2030",
-        "link": "https://www.marketwatch.com/story/chip-bellwether-asml-says-customers-are-already-asking-to-place-orders-for-2030-b3aa1a90?mod=mw_rss_topstories",
-        "summary": "The Dutch supplier for the semiconductor industry said there is strong interest in placing orders for 2029 and 2030.",
+        "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+        "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+        "summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791967260000
+        "pubDate": 1791994800000
       },
       {
-        "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-        "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-        "summary": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
+        "title": "Rising diesel prices have helped fuel inflation — and we’re about to see how much worse it could get",
+        "link": "https://www.marketwatch.com/story/rising-diesel-prices-have-helped-fuel-inflation-and-were-about-to-see-how-much-worse-it-could-get-430f36d1?mod=mw_rss_topstories",
+        "summary": "Consumer inflation just came in hot. Thursday will provide more clues on the impact of record diesel prices ahead of the midterm elections.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791941460000
+        "pubDate": 1791994020000
       },
       {
-        "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
-        "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-        "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+        "title": "The truth about being a landlord in retirement",
+        "link": "https://www.marketwatch.com/story/the-truth-about-being-a-landlord-in-retirement-5d1daf4c?mod=mw_rss_topstories",
+        "summary": "Investing in rental property isn’t easy or ‘passive’",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1791941100000
+        "pubDate": 1791993900000
       }
     ],
     "business": [
       {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/14/business/inflation-cpi-report-september/inflation-cpi",
-        "summary": "Nincs elérhető összefoglaló.",
+        "title": "Netflix to lay off 1,000 staff in steepest cuts since 2022",
+        "link": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
+        "source": "BBC News",
+        "pubDate": 1791996452000
+      },
+      {
+        "title": "Higher Energy Prices Pushed U.S. Inflation Up to 3.7% Ahead of Midterm Elections",
+        "link": "https://www.nytimes.com/2026/10/14/business/economy/inflation-cpi.html",
+        "summary": "September’s Consumer Price Index report will keep pressure on President Trump and the Federal Reserve to tame intensifying price pressures.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1791971237000
+        "pubDate": 1791994372000
       },
       {
-        "title": "Wayfair among firms fined millions for misleading sales tactics",
-        "link": "https://www.bbc.co.uk/news/articles/cqx298e5rr3po?at_medium=RSS&at_campaign=rss",
-        "summary": "The Competition and Markets Authority has fined Wayfair, Appliances Direct, and Gold's Gym £6m in total.",
+        "title": "'It's rough out here': Americans struggle with rising inflation ",
+        "link": "https://www.bbc.co.uk/news/articles/c305649p2d6o?at_medium=RSS&at_campaign=rss",
+        "summary": "US inflation continues to rise, and this month the jump was above forecasts. Here's how some are surviving.",
         "source": "BBC News",
-        "pubDate": 1791970924000
+        "pubDate": 1791993431000
       },
       {
-        "title": "'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire",
-        "link": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
+        "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+        "link": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
         "source": "BBC News",
-        "pubDate": 1791966437000
+        "pubDate": 1791993244000
       },
       {
-        "title": "Hundreds of Royal Mail staff quitting each week under new efficiency plans",
-        "link": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The CWU says more posties are leaving since a new delivery system was brought in that it claims is not working in hundreds of offices.",
-        "source": "BBC News",
-        "pubDate": 1791962288000
-      },
-      {
-        "title": "Heating oil users facing fuel or food winter choice",
-        "link": "https://www.bbc.co.uk/news/articles/cv4g18we232ro?at_medium=RSS&at_campaign=rss",
-        "summary": "It comes as ministers say they will tighten up rules on heating oil and promote competition.",
-        "source": "BBC News",
-        "pubDate": 1791955120000
+        "title": "Surging Inflation Complicates Trump’s Final Push to Sell Voters on Strong Economy",
+        "link": "https://www.nytimes.com/2026/10/14/business/economy/inflation-economy-midterms.html",
+        "summary": "The final inflation report before the 2026 election — showing price increases and stagnant wages — spelled bad political news for the White House.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1791992102000
       }
     ],
     "world": [
       {
-        "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line",
-        "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-        "summary": "Critical energy infrastructure is hit, as Ukraine says speed restrictions of Elon Musk's Starlink are disrupting battlefield missions.",
+        "title": "Kenya confirms second Ebola case - a relative of the first victim",
+        "link": "https://www.bbc.co.uk/news/articles/cw5yn8rn04ljo?at_medium=RSS&at_campaign=rss",
+        "summary": "It follows the death last week of a man who had arrived in Kenya after travelling from DR Congo.",
         "source": "BBC News",
-        "pubDate": 1791970928000
+        "pubDate": 1791998581000
       },
       {
-        "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-        "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Four years after the attacks, Serhii K is in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+        "title": "Zelensky Visits U.K. as Ukraine Presses Allies on Intelligence Sharing",
+        "link": "https://www.nytimes.com/2026/10/14/world/europe/ukraine-intelligence-sharing-zelensky-uk.html",
+        "summary": "President Volodymyr Zelensky said Ukraine had received “no early warning from our partners” about Russian attacks. President Trump has said Washington is still “sharing intel.”",
+        "source": "NYT > World News",
+        "pubDate": 1791998039000
+      },
+      {
+        "title": "Ukraine’s Vulnerability Grows as Starlink Is Restricted and Russia Escalates",
+        "link": "https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html",
+        "summary": "A huge attack cut power to 600,000 people in Kyiv, and a Pentagon-funded satellite internet program appeared to be curbed without warning.",
+        "source": "NYT > World News",
+        "pubDate": 1791997869000
+      },
+      {
+        "title": "Turkey Raids Pro-Opposition TV Station",
+        "link": "https://www.nytimes.com/2026/10/14/world/middleeast/turkey-erdogan-opposition-halk-tv.html",
+        "summary": "The government appointed an overseer to the last big news channel critical of President Recep Tayyip Erdogan. The authorities have now replaced the leadership at five major news ou...",
+        "source": "NYT > World News",
+        "pubDate": 1791997241000
+      },
+      {
+        "title": "Netflix to lay off 1,000 staff in steepest cuts since 2022",
+        "link": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
         "source": "BBC News",
-        "pubDate": 1791970374000
-      },
-      {
-        "title": "Pope Leo’s Cancer Diagnosis: What Happens Next",
-        "link": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
-        "summary": "Pope Leo XIV was diagnosed with a common form of lung cancer on Tuesday, about a year and half into his papacy. He still plans to travel to South America next month.",
-        "source": "NYT > World News",
-        "pubDate": 1791970366000
-      },
-      {
-        "title": "A Pilgrim and a Retiree: Victims of the Houthi Airport Attack in Saudi Arabia",
-        "link": "https://www.nytimes.com/2026/10/14/world/middleeast/houthi-airport-attack-victims-saudi-arabia.html",
-        "summary": "The strike was the Iran-backed militia’s most lethal against the kingdom, by far, during their long conflict.",
-        "source": "NYT > World News",
-        "pubDate": 1791970201000
-      },
-      {
-        "title": "The Taliban Suspend BBC Broadcasts Across Afghanistan",
-        "link": "https://www.nytimes.com/2026/10/14/world/asia/afghanistan-taliban-suspends-bbc.html",
-        "summary": "The Taliban government has intensified its crackdown on the press in recent months but had so far targeted Afghan news outlets.",
-        "source": "NYT > World News",
-        "pubDate": 1791970139000
+        "pubDate": 1791996452000
       }
     ]
   }
