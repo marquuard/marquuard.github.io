@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-10-15T23:32:46.525Z",
+  "lastUpdated": "2026-10-16T09:29:57.180Z",
   "categories": {
     "technology": [
+      {
+        "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
+        "link": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+        "summary": "Elon Musk promised a flying car. And the Tesla Roadster did exactly that. \nTesla demonstrated its next-generation Roadster at an event in Waco, Texas, where the electric supercar d...",
+        "source": "The Verge",
+        "pubDate": 1792114107000
+      },
       {
         "title": "Steam can now show game achievements in separate ‘sets’",
         "link": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
@@ -24,58 +31,72 @@
         "pubDate": 1792103755000
       },
       {
-        "title": "The tech backlash is now in theaters",
-        "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-        "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping o...",
-        "source": "The Verge",
-        "pubDate": 1792100392000
-      },
-      {
-        "title": "Plex now helps sell movie theater tickets",
-        "link": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
-        "summary": "Discovery data from Plex users will help studios, advertisers.",
+        "title": "KDE turns 30 with Plasma 6.8, remote upgrades, and an X11 farewell",
+        "link": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/",
+        "summary": "KDE celebrates 30 years with a new Plasma release, a farewell to X11, and a movie.",
         "source": "Ars Technica - All content",
-        "pubDate": 1792099335000
+        "pubDate": 1792102866000
       }
     ],
     "finance": [
       {
-        "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-        "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-        "summary": "”I earn $110,000 a year.”",
+        "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
+        "link": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
+        "summary": "Federal Reserve Chair Kevin Warsh had an opportunity Thursday night to shape expectations heading into the central bank’s interest-rate-setting meeting in two week’s time — and in ...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792103460000
+        "pubDate": 1792142160000
       },
       {
-        "title": "I’m 64 years old, with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
-        "link": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
-        "summary": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
+        "title": "‘It’s a wait-and-see situation’: I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+        "link": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+        "summary": "“My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792102500000
+        "pubDate": 1792142100000
       },
       {
-        "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
-        "link": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
-        "summary": "Popular AI names are under pressure again this week — but the pain could worsen after the Nov. 3 election.",
+        "title": "The pull of Nashville: A dozen celebrities who have moved to Tennessee, and why",
+        "link": "https://www.marketwatch.com/story/the-pull-of-nashville-a-dozen-celebrities-who-have-moved-to-tennessee-and-why-68446959?mod=mw_rss_topstories",
+        "summary": "Nashville has long been home to many big names in R&B and country music, but over the last few years, celebrities from a variety of industries have flocked to the Music City.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792101360000
+        "pubDate": 1792141500000
       },
       {
-        "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
-        "link": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
-        "summary": "Reported details about Anthropic’s financial progress are adding to concerns about the health of the AI ecosystem.",
+        "title": "Tesla finally delivers on its promise to create a flying car",
+        "link": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8?mod=mw_rss_topstories",
+        "summary": "Tesla’s demonstration of a levitating Roadster sports car was “an engineering flex with no commercial value beyond embarrassing traditional car makers.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792099380000
+        "pubDate": 1792118520000
       },
       {
-        "title": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
-        "link": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
-        "summary": "Investors have a ‘love-hate relationship’ with tech stocks now — and experts recommend selectively hunting for bargains while also betting on the major cloud companies.",
+        "title": "Pepsi loses more ground in the soda wars, as KFC switches to Coke",
+        "link": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53?mod=mw_rss_topstories",
+        "summary": "As more people switch to Coke, some analysts are getting more worried about the state of archrival Pepsi.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792099260000
+        "pubDate": 1792106940000
       }
     ],
     "business": [
+      {
+        "title": "Banks expect to be hit with higher taxes in Budget",
+        "link": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
+        "source": "BBC News",
+        "pubDate": 1792140883000
+      },
+      {
+        "title": "Fuel costs squeezing margins for some businesses",
+        "link": "https://www.bbc.co.uk/news/articles/c9rky27ljrxno?at_medium=RSS&at_campaign=rss",
+        "summary": "Diesel recently topped £2 per litre and there is concern that a duty freeze will not go far enough.",
+        "source": "BBC News",
+        "pubDate": 1792128657000
+      },
+      {
+        "title": "'TV and cheap booze' blamed for landlord quitting",
+        "link": "https://www.bbc.co.uk/news/articles/c6lyk77jq9d2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Lincolnshire has lost 27% of its pubs and bars since 2009 and some are calling on the government to act against cheap supermarket booze.",
+        "source": "BBC News",
+        "pubDate": 1792126995000
+      },
       {
         "title": "Living with a stink? Technology might help",
         "link": "https://www.bbc.co.uk/news/articles/cr6240q1w136o?at_medium=RSS&at_campaign=rss",
@@ -89,64 +110,43 @@
         "summary": "After Primark announced plans for home delivery, we hear from women who never go into clothes stores.",
         "source": "BBC News",
         "pubDate": 1792106172000
-      },
-      {
-        "title": "'I'd spend $1,000 on a wedding present'",
-        "link": "https://www.bbc.co.uk/news/videos/ckly0jy2ygdjo?at_medium=RSS&at_campaign=rss",
-        "summary": "New Yorkers share how much they spend on a wedding gift - and how they decide.",
-        "source": "BBC News",
-        "pubDate": 1792089009000
-      },
-      {
-        "title": "Homeownership Drifts Further Out of Reach as Mortgage Rates Rise",
-        "link": "https://www.nytimes.com/2026/10/15/business/economy/housing-market-mortgage-rates.html",
-        "summary": "Mortgage rates have pushed above 7 percent and home prices remain elevated, hurting the prospects of would-be buyers.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1792087939000
-      },
-      {
-        "title": "'I paid thousands to a company for jobs that never came'",
-        "link": "https://www.bbc.co.uk/news/articles/c9j3dvezpdz0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Apurv Patel is one of several people who say they were promised job opportunities that did not appear.",
-        "source": "BBC News",
-        "pubDate": 1792084789000
       }
     ],
     "world": [
       {
-        "title": "Trump’s Deal With Russia Inflames War He Vowed to Swiftly End",
-        "link": "https://www.nytimes.com/2026/10/15/us/politics/trump-russia-ukraine.html",
-        "summary": "The Ukrainian president’s defiant decision to continue attacking Russian refineries underscores President Trump’s inability to end a war he had promised to resolve.",
+        "title": "Caracas Is Eerily Safe After Deadly Police Raids in Venezuela Killed Thousands",
+        "link": "https://www.nytimes.com/2026/10/16/world/americas/caracas-is-eerily-safe-state-death-squads-made-sure-of-it.html",
+        "summary": "Crime plunged after police raids killed thousands. Venezuela is now withdrawing from the International Criminal Court as it investigates this blood-soaked campaign.",
         "source": "NYT > World News",
-        "pubDate": 1792106804000
+        "pubDate": 1792141213000
       },
       {
-        "title": "Venezuela’s Opposition Leader Calls Trump’s New Oil Partner Corrupt",
-        "link": "https://www.nytimes.com/2026/10/15/world/americas/venezuela-machado-trump-oil-deal.html",
-        "summary": "As ties with the Trump administration fray, María Corina Machado said her return to Venezuela would come “sooner than you would expect.”",
+        "title": "What Life Is Like in Kyiv as Russia Tries to Make It Unlivable",
+        "link": "https://www.nytimes.com/2026/10/16/world/europe/ukraine-war-life-in-kyiv.html",
+        "summary": "A day in the Ukrainian capital, a new kind of battlefield far from the front, where daily life means assessing — and accepting — deadly risks.",
         "source": "NYT > World News",
-        "pubDate": 1792106690000
+        "pubDate": 1792141201000
       },
       {
-        "title": "Letters with 'suspicious substances' sent to US senators and election offices",
-        "link": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
-        "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
+        "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
+        "link": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president launches a new wave of blistering criticism at Volodymyr Zelensky ahead of a meeting of EU leaders in Brussels.",
         "source": "BBC News",
-        "pubDate": 1792104409000
+        "pubDate": 1792140437000
       },
       {
-        "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured   ",
-        "link": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
-        "summary": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
+        "title": "China tells Israel to stop 'forced establishment' of West Bank settlements",
+        "link": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
         "source": "BBC News",
-        "pubDate": 1792103841000
+        "pubDate": 1792140354000
       },
       {
-        "title": "Houthi Missiles Strike Government Headquarters in Yemen",
-        "link": "https://www.nytimes.com/2026/10/15/world/middleeast/yemen-strike-aden-palace.html",
-        "summary": "Five people were killed when the Houthi militia struck the Maashiq Palace in Aden, a Yemeni minister said.",
-        "source": "NYT > World News",
-        "pubDate": 1792100583000
+        "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+        "link": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+        "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+        "source": "BBC News",
+        "pubDate": 1792139236000
       }
     ]
   }
