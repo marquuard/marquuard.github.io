@@ -1,13 +1,27 @@
 {
-  "lastUpdated": "2026-10-16T23:14:54.380Z",
+  "lastUpdated": "2026-10-17T09:00:34.010Z",
   "categories": {
     "technology": [
+      {
+        "title": "All the news about the iPhone Duo",
+        "link": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
+        "summary": "Apple has finally announced its long-rumored foldable: the iPhone Duo.\nThe new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner...",
+        "source": "The Verge",
+        "pubDate": 1792193786000
+      },
       {
         "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
         "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
         "summary": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools.\nThe rule changes follow signif...",
         "source": "The Verge",
         "pubDate": 1792191082000
+      },
+      {
+        "title": "OpenAI models hacked a crypto wallet and breached more websites",
+        "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1792184341000
       },
       {
         "title": "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
@@ -22,20 +36,6 @@
         "summary": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-dr...",
         "source": "The Verge",
         "pubDate": 1792183744000
-      },
-      {
-        "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
-        "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-        "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792182007000
-      },
-      {
-        "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
-        "link": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
-        "summary": "There are still significant hurdles ahead, both technical and legislative.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792179678000
       }
     ],
     "finance": [
@@ -77,6 +77,27 @@
     ],
     "business": [
       {
+        "title": "Call for more food funding due to high living cost",
+        "link": "https://www.bbc.co.uk/news/articles/cqde8zk6d916o?at_medium=RSS&at_campaign=rss",
+        "summary": "Deputy Louise Doublet does not think the cost of living was considered in the ending of a trial.",
+        "source": "BBC News",
+        "pubDate": 1792217896000
+      },
+      {
+        "title": "Charity reflects on changing needs over 25 years",
+        "link": "https://www.bbc.co.uk/news/articles/c615jnxv7n45o?at_medium=RSS&at_campaign=rss",
+        "summary": "Help a Guernsey Child says it has provided in excess of £1.2m worth of essential support.",
+        "source": "BBC News",
+        "pubDate": 1792217514000
+      },
+      {
+        "title": "Nightclubs are disappearing - and it's affecting young people",
+        "link": "https://www.bbc.co.uk/news/articles/cm5yngn0pl2ro?at_medium=RSS&at_campaign=rss",
+        "summary": "One young person said with no nightlife in their town they cannot \"let loose and mess around\".",
+        "source": "BBC News",
+        "pubDate": 1792216915000
+      },
+      {
         "title": "Watch: Did Tesla really just unveil a flying car?",
         "link": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss",
         "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
@@ -89,64 +110,43 @@
         "summary": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
         "source": "BBC News",
         "pubDate": 1792145787000
-      },
-      {
-        "title": "Fuel costs squeezing margins for some businesses",
-        "link": "https://www.bbc.co.uk/news/articles/c9rky27ljrxno?at_medium=RSS&at_campaign=rss",
-        "summary": "Diesel recently topped £2 per litre and there is concern that a duty freeze will not go far enough.",
-        "source": "BBC News",
-        "pubDate": 1792128657000
-      },
-      {
-        "title": "'TV and cheap booze' blamed for landlord quitting",
-        "link": "https://www.bbc.co.uk/news/articles/c6lyk77jq9d2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Lincolnshire has lost 27% of its pubs and bars since 2009 and some are calling on the government to act against cheap supermarket booze.",
-        "source": "BBC News",
-        "pubDate": 1792126995000
-      },
-      {
-        "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-        "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-        "source": "BBC News",
-        "pubDate": 1792126817000
       }
     ],
     "world": [
       {
-        "title": "Trial of German steakhouse heiress that sparked a huge spy scandal",
-        "link": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss",
-        "summary": "For 15 months, a high-security courtroom in Hamburg has been hearing the case of Christina Block, accused of ordering the abduction of her children.",
+        "title": "Uncertainty Over Pope’s Health Fuels Familiar Debate Over Vatican’s Candor",
+        "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-vatican-transparency-cancer.html",
+        "summary": "By announcing his lung condition himself, Leo has been more forthcoming than many popes. But mysteries remain, prompting scrutiny of papal statements for hidden meaning.",
+        "source": "NYT > World News",
+        "pubDate": 1792225095000
+      },
+      {
+        "title": "Why Are France’s Students Protesting?",
+        "link": "https://www.nytimes.com/2026/10/17/world/europe/france-student-protests-why.html",
+        "summary": "Student demonstrations for a better-funded education system are converging with a broader protest movement against rising living costs.",
+        "source": "NYT > World News",
+        "pubDate": 1792224556000
+      },
+      {
+        "title": "How Bally Bagayoko, a 53-Year-Old Mayor, Became the Face of France’s Youth Protests",
+        "link": "https://www.nytimes.com/2026/10/17/france-protests-mayor-bally-bagayoko.html",
+        "summary": "Bally Bagayoko, the mayor of a working-class suburb near Paris, has been a regular presence at student demonstrations, prompting both applause and condemnation.",
+        "source": "NYT > World News",
+        "pubDate": 1792224546000
+      },
+      {
+        "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+        "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
         "source": "BBC News",
-        "pubDate": 1792192038000
+        "pubDate": 1792222861000
       },
       {
-        "title": "What Life Is Like in Kyiv as Russia Tries to Make It Unlivable",
-        "link": "https://www.nytimes.com/2026/10/16/world/europe/ukraine-war-life-in-kyiv.html",
-        "summary": "A day in the Ukrainian capital, a new kind of battlefield far from the front, where daily life means assessing — and accepting — deadly risks.",
+        "title": "He Was a Top Voice on Palestinian Liberation. Filmgoers Are Listening.",
+        "link": "https://www.nytimes.com/2026/10/17/nyregion/edward-said-documentary-new-york-film-festival.html",
+        "summary": "A new documentary on Edward Said, the Palestinian American literary critic and activist who taught for decades at Columbia, brought New Yorkers together in a fraught political mome...",
         "source": "NYT > World News",
-        "pubDate": 1792188124000
-      },
-      {
-        "title": "Venezuela’s Opposition Leader Calls Trump’s New Oil Partner Corrupt",
-        "link": "https://www.nytimes.com/2026/10/15/world/americas/venezuela-machado-trump-oil-deal.html",
-        "summary": "The businessman denied accusations made by María Corina Machado in a wide-ranging interview, in which she promised to return to Venezuela “sooner than you would expect.’‘",
-        "source": "NYT > World News",
-        "pubDate": 1792187896000
-      },
-      {
-        "title": "The World’s Oldest Shipwreck? Maybe, but ‘We’re All Excited by Maybe.’",
-        "link": "https://www.nytimes.com/2026/10/16/world/middleeast/oldest-shipwreck-amphora-turkey.html",
-        "summary": "Archaeologists said that they had found jars from a shipwreck as much as 4,700 years old, with black residue inside. Outside experts were skeptical but intrigued.",
-        "source": "NYT > World News",
-        "pubDate": 1792185311000
-      },
-      {
-        "title": "Deadly School Roof Collapse in Pakistan Raises Questions Over Regulation",
-        "link": "https://www.nytimes.com/2026/10/16/world/asia/pakistan-peshawar-school-roof-collapse.html",
-        "summary": "A roof collapse that killed 32 children and a teacher in northwest Pakistan has prompted safety inspections of schools across the region.",
-        "source": "NYT > World News",
-        "pubDate": 1792184427000
+        "pubDate": 1792220407000
       }
     ]
   }
