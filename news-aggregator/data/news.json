@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-10-17T16:08:40.404Z",
+  "lastUpdated": "2026-10-17T22:53:55.538Z",
   "categories": {
     "technology": [
+      {
+        "title": "TikTok bans Musk documentary account",
+        "link": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "summary": "Tesla and SpaceX CEO Elon Musk gestures as he speaks during the inaugural parade inside Capitol One Arena, in Washington, DC, on January 20, 2025. (Photo by ANGELA WEISS / AFP) (Ph...",
+        "source": "The Verge",
+        "pubDate": 1792265543000
+      },
+      {
+        "title": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
+        "link": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
+        "summary": "Earlier this year, Mercedes' AMG performance brand grabbed our attention with the GT four-door coupe, a souped-up sports sedan with three axial flux motors delivering over 1,150 ho...",
+        "source": "The Verge",
+        "pubDate": 1792256400000
+      },
+      {
+        "title": "Elon Musk settles lawsuits over $1 million voter giveaway",
+        "link": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
+        "summary": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That prompted legal challenges, raised questions about its legal...",
+        "source": "The Verge",
+        "pubDate": 1792255184000
+      },
       {
         "title": "Meta removes language that may have allowed it to scrape news sites",
         "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
@@ -15,67 +36,53 @@
         "summary": "Pikmin preparing to do battle with a Bulborb | Image: Nintendo\t\n\nIf you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted a discounted Nintendo ...",
         "source": "The Verge",
         "pubDate": 1792249200000
-      },
-      {
-        "title": "Jad Abumrad loves a butterfly knife and a good springy pillow",
-        "link": "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview",
-        "summary": "It's hard to overstate Jad Abumrad's impact on the podcasting world. He created and hosted Dolly Parton's America and Fela Kuti: Fear No Man, two Peabody Award-winning shows that o...",
-        "source": "The Verge",
-        "pubDate": 1792247400000
-      },
-      {
-        "title": "SpaceX’s ambitious, expensive gamble to replace AT&#038;T, T-Mobile, and Verizon",
-        "link": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
-        "summary": "Today, I’m talking with Walter Piecyk, a partner and analyst at LightShed Partners who covers tech, media, and telecom, about SpaceX’s recently announced plan to become a major wir...",
-        "source": "The Verge",
-        "pubDate": 1792245600000
-      },
-      {
-        "title": "Websites are closing their doors to AI agents",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-        "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a ...",
-        "source": "The Verge",
-        "pubDate": 1792242000000
       }
     ],
     "finance": [
+      {
+        "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+        "link": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
+        "summary": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters — with some help from humans behind the scenes.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792270380000
+      },
+      {
+        "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+        "link": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+        "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792263120000
+      },
+      {
+        "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+        "link": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+        "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792262400000
+      },
+      {
+        "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
+        "link": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
+        "summary": "Preorders for the iPhone Duo began Friday, marking Apple’s debut in a foldable phone market largely dominated by Samsung and Google.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792262400000
+      },
       {
         "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
         "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
         "summary": "”I earn $110,000 a year.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792242000000
-      },
-      {
-        "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
-        "link": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
-        "summary": "Individual investors and second-home buyers accounted for 1 in 5 home purchases in September — the highest share in a little over a year.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792242000000
-      },
-      {
-        "title": "Influencers and biohackers swear by fasting. Here’s what the science says.",
-        "link": "https://www.marketwatch.com/story/influencers-and-biohackers-swear-by-fasting-heres-what-the-science-says-3318191f?mod=mw_rss_topstories",
-        "summary": "Fasting can help some people reduce how many calories they eat — but it’s not “effortless” as some would have you believe.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792240260000
-      },
-      {
-        "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
-        "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
-        "summary": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year...",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792240200000
-      },
-      {
-        "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
-        "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
-        "summary": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792238460000
+        "pubDate": 1792255620000
       }
     ],
     "business": [
+      {
+        "title": "How day of protests unfolded as disorder breaks out across France",
+        "link": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
+        "source": "BBC News",
+        "pubDate": 1792272797000
+      },
       {
         "title": "Low-cost clinic helps pet owners with vet bills",
         "link": "https://www.bbc.co.uk/news/articles/c6kgl39rnnvzo?at_medium=RSS&at_campaign=rss",
@@ -103,50 +110,43 @@
         "summary": "One young person said with no nightlife in their town they cannot \"let loose and mess around\".",
         "source": "BBC News",
         "pubDate": 1792216915000
-      },
-      {
-        "title": "Watch: Did Tesla really just unveil a flying car?",
-        "link": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
-        "source": "BBC News",
-        "pubDate": 1792153951000
       }
     ],
     "world": [
       {
-        "title": "What to Know About the Violent Protests in Albania",
-        "link": "https://www.nytimes.com/2026/10/17/world/europe/albania-protests-what-to-know.html",
-        "summary": "Student demonstrations over education converged with broader protests against rising living costs and a luxury development linked to Jared Kushner, President Trump’s son-in-law.",
+        "title": "Israeli Settlers Attack Palestinians and European Officials in West Bank",
+        "link": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
+        "summary": "Extremists assaulted residents and broke a European diplomatic vehicle’s window, witnesses said, as settler violence surges in the territory during the olive harvest.",
         "source": "NYT > World News",
-        "pubDate": 1792252858000
+        "pubDate": 1792275345000
       },
       {
-        "title": "Pope Leo Leaves Hospital, Days After Lung Cancer Surgery",
-        "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
-        "summary": "Leo XIV had been treated for lung cancer at Gemelli Hospital in Rome.",
-        "source": "NYT > World News",
-        "pubDate": 1792252366000
+        "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+        "link": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
+        "source": "BBC News",
+        "pubDate": 1792274990000
       },
       {
-        "title": "Indian Gen Z Protest Leader Is Released on Bail After Arrest",
-        "link": "https://www.nytimes.com/2026/10/17/world/asia/india-abhijeet-dipke-cockroach-janta-party.html",
-        "summary": "Abhijeet Dipke, the founder of the Cockroach Janta Party, was detained on his way to a protest called to demand the resignation of India’s top election official.",
+        "title": "Unrest Mars Day of Protest in France, as Student Movement Turns National",
+        "link": "https://www.nytimes.com/2026/10/17/world/europe/france-protest-riots-marseille.html",
+        "summary": "Riots broke out in several French cities alongside peaceful marches of tens of thousands of people demonstrating against rising living costs and poor school conditions.",
         "source": "NYT > World News",
-        "pubDate": 1792252219000
+        "pubDate": 1792274804000
       },
       {
-        "title": "Why Are There Protests in France?",
-        "link": "https://www.nytimes.com/2026/10/17/world/europe/france-student-protests-why.html",
-        "summary": "Student demonstrations converged on Saturday with a broader protest movement against rising living costs, heightening a national reckoning.",
+        "title": "17 Dead, Dozens Injured After Stampede at Indian Religious Event",
+        "link": "https://www.nytimes.com/2026/10/17/world/asia/india-deadly-stampede-kolkata.html",
+        "summary": "Such deadly crowd events are relatively common in India, and it was unclear what caused this one. Authorities detained the event’s organizer and others involved.",
         "source": "NYT > World News",
-        "pubDate": 1792251811000
+        "pubDate": 1792273187000
       },
       {
-        "title": "Yemen Fighting Rages as Civilian Toll From Houthi-Saudi Conflict Worsens",
-        "link": "https://www.nytimes.com/2026/10/17/world/middleeast/houthi-saudi-clashes-in-yemen.html",
-        "summary": "New clashes were reported as the Houthis put more pressure on Taiz, a city connecting the government-held south of the country and the Red Sea.",
-        "source": "NYT > World News",
-        "pubDate": 1792251755000
+        "title": "How day of protests unfolded as disorder breaks out across France",
+        "link": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
+        "source": "BBC News",
+        "pubDate": 1792272797000
       }
     ]
   }
