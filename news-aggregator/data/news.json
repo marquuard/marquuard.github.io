@@ -1,81 +1,95 @@
 {
-  "lastUpdated": "2026-10-18T09:19:48.689Z",
+  "lastUpdated": "2026-10-18T16:21:05.955Z",
   "categories": {
     "technology": [
       {
-        "title": "TikTok bans Musk documentary account",
-        "link": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
-        "summary": "Tesla and SpaceX CEO Elon Musk gestures as he speaks during the inaugural parade inside Capitol One Arena, in Washington, DC, on January 20, 2025. (Photo by ANGELA WEISS / AFP) (Ph...",
+        "title": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
+        "link": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
+        "summary": "The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-in...",
         "source": "The Verge",
-        "pubDate": 1792265543000
+        "pubDate": 1792335600000
       },
       {
-        "title": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
-        "link": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
-        "summary": "Earlier this year, Mercedes' AMG performance brand grabbed our attention with the GT four-door coupe, a souped-up sports sedan with three axial flux motors delivering over 1,150 ho...",
+        "title": "J Mascis has nothing better to do",
+        "link": "https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview",
+        "summary": "J Mascis on stage during Dinosaur Jr.’s Baby’s Alright show in NYC. | Photo: Terrence O’Brien\t\n\nDinosaur Jr. frontman J Mascis is known as something of a slacker guitar god. He sta...",
         "source": "The Verge",
-        "pubDate": 1792256400000
+        "pubDate": 1792332000000
       },
       {
-        "title": "Elon Musk settles lawsuits over $1 million voter giveaway",
-        "link": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
-        "summary": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That prompted legal challenges, raised questions about its legal...",
+        "title": "Trump says Google kisses his ass",
+        "link": "https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass",
+        "summary": "During a rally on Saturday, October 17th, in Highland Heights, Kentucky, Donald Trump bragged about how much more powerful and influential he was during his second term. While list...",
         "source": "The Verge",
-        "pubDate": 1792255184000
+        "pubDate": 1792329901000
       },
       {
-        "title": "Meta removes language that may have allowed it to scrape news sites",
-        "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-        "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the foll...",
+        "title": "The best gadget I bought this year is a milk frother",
+        "link": "https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget",
+        "summary": "Back in February, I went to Los Angeles to take in some art and stayed in Koreatown. Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, ...",
         "source": "The Verge",
-        "pubDate": 1792249476000
+        "pubDate": 1792328400000
       },
       {
-        "title": "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
-        "link": "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale",
-        "summary": "Pikmin preparing to do battle with a Bulborb | Image: Nintendo\t\n\nIf you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted a discounted Nintendo ...",
+        "title": "How overhead projectors took over your classroom",
+        "link": "https://www.theverge.com/podcast/1013473/overhead-projector-version-history",
+        "summary": "It used to be so easy to get away with things in school. The teacher, after all, was always turned around writing at the chalkboard! But then came a bit of technology, previously m...",
         "source": "The Verge",
-        "pubDate": 1792249200000
+        "pubDate": 1792328101000
       }
     ],
     "finance": [
-      {
-        "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
-        "link": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
-        "summary": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters — with some help from humans behind the scenes.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792270380000
-      },
-      {
-        "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
-        "link": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
-        "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792263120000
-      },
-      {
-        "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
-        "link": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
-        "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792262400000
-      },
-      {
-        "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
-        "link": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
-        "summary": "Preorders for the iPhone Duo began Friday, marking Apple’s debut in a foldable phone market largely dominated by Samsung and Google.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792262400000
-      },
       {
         "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
         "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
         "summary": "”I earn $110,000 a year.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792255620000
+        "pubDate": 1792340100000
+      },
+      {
+        "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+        "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+        "summary": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792339200000
+      },
+      {
+        "title": "I’m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?",
+        "link": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+        "summary": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792336500000
+      },
+      {
+        "title": "I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+        "link": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+        "summary": "“My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792335600000
+      },
+      {
+        "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+        "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+        "summary": "Boeing, Meta and EchoStar recorded steep charges and expenses a year ago, which are expected to make this latest quarter’s results look especially strong by comparison.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792332000000
       }
     ],
     "business": [
+      {
+        "title": "Gleaning group gives £1m of produce to food banks",
+        "link": "https://www.bbc.co.uk/news/articles/c6n49w1r2zxjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Gleaning Cornwall warns that more funding is needed as costs rise sharply.",
+        "source": "BBC News",
+        "pubDate": 1792321384000
+      },
+      {
+        "title": "What is the Budget and what could be in it?",
+        "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+        "summary": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
+        "source": "BBC News",
+        "pubDate": 1792318937000
+      },
       {
         "title": "3 Charts That Explain the Economy as Voters Head to the Polls",
         "link": "https://www.nytimes.com/2026/10/18/business/economy/economy-midterm-elections.html",
@@ -84,32 +98,18 @@
         "pubDate": 1792314050000
       },
       {
-        "title": "Heating oil customers face tough winter",
-        "link": "https://www.bbc.co.uk/news/articles/cq1j3x66e1rno?at_medium=RSS&at_campaign=rss",
-        "summary": "The government plans to regulate heating oil prices after increases.",
+        "title": "Turning the tides: Could hidden sea power energise our coastal towns?",
+        "link": "https://www.bbc.co.uk/news/articles/c8y56y6xg9n9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Engineer David Mummery has developed a tidal energy generator that he says can change lives for people living in coastal communities.",
         "source": "BBC News",
-        "pubDate": 1792303660000
+        "pubDate": 1792311144000
       },
       {
-        "title": "There's a crackdown on sports piracy - but is it already out of control?",
-        "link": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The sports industry's lucrative business model is being undermined by dodgy TV sticks and illegal streaming links, writes Theo Leggett.",
+        "title": "'I took a chance on the whisky industry and I haven't looked back'",
+        "link": "https://www.bbc.co.uk/news/articles/c6y8ln9831v3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Zoey Darnbrough had no idea there was a distillery near her home - now she has a top tourism role there.",
         "source": "BBC News",
-        "pubDate": 1792282269000
-      },
-      {
-        "title": "How day of protests unfolded as disorder breaks out across France",
-        "link": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
-        "source": "BBC News",
-        "pubDate": 1792272797000
-      },
-      {
-        "title": "Low-cost clinic helps pet owners with vet bills",
-        "link": "https://www.bbc.co.uk/news/articles/c6kgl39rnnvzo?at_medium=RSS&at_campaign=rss",
-        "summary": "RSPCA Medway West launches its clinic for the pets of people with low incomes.",
-        "source": "BBC News",
-        "pubDate": 1792246322000
+        "pubDate": 1792311137000
       }
     ],
     "world": [
@@ -118,35 +118,35 @@
         "link": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html",
         "summary": "The defense minister said people were killed and injured at a base in Alberta, but officials did not offer details on the cause.",
         "source": "NYT > World News",
-        "pubDate": 1792314834000
+        "pubDate": 1792340022000
       },
       {
-        "title": "Several dead or injured in major fire at Canada military base",
-        "link": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
-        "source": "BBC News",
-        "pubDate": 1792313561000
-      },
-      {
-        "title": "At Least 19 Dead After Stampede at Indian Religious Event",
-        "link": "https://www.nytimes.com/2026/10/17/world/asia/india-deadly-stampede-kolkata.html",
-        "summary": "Such deadly crowd events are relatively common in India, and it was unclear what caused this one. The authorities detained the event’s organizer and others involved.",
+        "title": "Pope Leo Leaves Hospital, Days After Lung Cancer Surgery",
+        "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
+        "summary": "Leo XIV had been treated for lung cancer at Gemelli Hospital in Rome.",
         "source": "NYT > World News",
-        "pubDate": 1792313257000
+        "pubDate": 1792339914000
       },
       {
-        "title": "France in Shock After Protests Devolve Into Riots",
+        "title": "Unrest Mars Day of Protest in France, as Student Movement Turns National",
+        "link": "https://www.nytimes.com/2026/10/17/world/europe/france-protest-riots-marseille.html",
+        "summary": "Riots broke out in several French cities alongside peaceful marches of tens of thousands of people demonstrating against rising living costs and poor school conditions.",
+        "source": "NYT > World News",
+        "pubDate": 1792339723000
+      },
+      {
+        "title": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
         "link": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
-        "summary": "Centrist and leftist leaders blamed each other after anti-government protests devolved into chaos.",
+        "summary": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
         "source": "NYT > World News",
-        "pubDate": 1792313066000
+        "pubDate": 1792338520000
       },
       {
-        "title": "In India, the Scion of a Political Dynasty Tries to Seize His Moment",
-        "link": "https://www.nytimes.com/2026/10/18/world/asia/india-gandhi-political-dynasty.html",
-        "summary": "Rahul Gandhi is the descendant of three prime ministers. A surge of protests could give him a springboard to take on the nation’s current leader.",
-        "source": "NYT > World News",
-        "pubDate": 1792310691000
+        "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "link": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+        "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+        "source": "BBC News",
+        "pubDate": 1792338370000
       }
     ]
   }
