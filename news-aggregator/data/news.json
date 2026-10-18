@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T22:53:55.538Z",
+  "lastUpdated": "2026-10-18T09:19:48.689Z",
   "categories": {
     "technology": [
       {
@@ -77,6 +77,27 @@
     ],
     "business": [
       {
+        "title": "3 Charts That Explain the Economy as Voters Head to the Polls",
+        "link": "https://www.nytimes.com/2026/10/18/business/economy/economy-midterm-elections.html",
+        "summary": "Inflation is high, consumer spending is strong and seemingly everything depends on what happens with artificial intelligence.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1792314050000
+      },
+      {
+        "title": "Heating oil customers face tough winter",
+        "link": "https://www.bbc.co.uk/news/articles/cq1j3x66e1rno?at_medium=RSS&at_campaign=rss",
+        "summary": "The government plans to regulate heating oil prices after increases.",
+        "source": "BBC News",
+        "pubDate": 1792303660000
+      },
+      {
+        "title": "There's a crackdown on sports piracy - but is it already out of control?",
+        "link": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The sports industry's lucrative business model is being undermined by dodgy TV sticks and illegal streaming links, writes Theo Leggett.",
+        "source": "BBC News",
+        "pubDate": 1792282269000
+      },
+      {
         "title": "How day of protests unfolded as disorder breaks out across France",
         "link": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
         "summary": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
@@ -89,64 +110,43 @@
         "summary": "RSPCA Medway West launches its clinic for the pets of people with low incomes.",
         "source": "BBC News",
         "pubDate": 1792246322000
-      },
-      {
-        "title": "Call for more food funding due to high living cost",
-        "link": "https://www.bbc.co.uk/news/articles/cqde8zk6d916o?at_medium=RSS&at_campaign=rss",
-        "summary": "Deputy Louise Doublet does not think the cost of living was considered in the ending of a trial.",
-        "source": "BBC News",
-        "pubDate": 1792217896000
-      },
-      {
-        "title": "Charity reflects on changing needs over 25 years",
-        "link": "https://www.bbc.co.uk/news/articles/c615jnxv7n45o?at_medium=RSS&at_campaign=rss",
-        "summary": "Help a Guernsey Child says it has provided in excess of £1.2m worth of essential support.",
-        "source": "BBC News",
-        "pubDate": 1792217514000
-      },
-      {
-        "title": "Nightclubs are disappearing - and it's affecting young people",
-        "link": "https://www.bbc.co.uk/news/articles/cm5yngn0pl2ro?at_medium=RSS&at_campaign=rss",
-        "summary": "One young person said with no nightlife in their town they cannot \"let loose and mess around\".",
-        "source": "BBC News",
-        "pubDate": 1792216915000
       }
     ],
     "world": [
       {
-        "title": "Israeli Settlers Attack Palestinians and European Officials in West Bank",
-        "link": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
-        "summary": "Extremists assaulted residents and broke a European diplomatic vehicle’s window, witnesses said, as settler violence surges in the territory during the olive harvest.",
+        "title": "Deadly ‘Incident’ at Canadian Forces Base Wainwright Sparks Fire",
+        "link": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html",
+        "summary": "The defense minister said people were killed and injured at a base in Alberta, but officials did not offer details on the cause.",
         "source": "NYT > World News",
-        "pubDate": 1792275345000
+        "pubDate": 1792314834000
       },
       {
-        "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
-        "link": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
+        "title": "Several dead or injured in major fire at Canada military base",
+        "link": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
         "source": "BBC News",
-        "pubDate": 1792274990000
+        "pubDate": 1792313561000
       },
       {
-        "title": "Unrest Mars Day of Protest in France, as Student Movement Turns National",
-        "link": "https://www.nytimes.com/2026/10/17/world/europe/france-protest-riots-marseille.html",
-        "summary": "Riots broke out in several French cities alongside peaceful marches of tens of thousands of people demonstrating against rising living costs and poor school conditions.",
-        "source": "NYT > World News",
-        "pubDate": 1792274804000
-      },
-      {
-        "title": "17 Dead, Dozens Injured After Stampede at Indian Religious Event",
+        "title": "At Least 19 Dead After Stampede at Indian Religious Event",
         "link": "https://www.nytimes.com/2026/10/17/world/asia/india-deadly-stampede-kolkata.html",
-        "summary": "Such deadly crowd events are relatively common in India, and it was unclear what caused this one. Authorities detained the event’s organizer and others involved.",
+        "summary": "Such deadly crowd events are relatively common in India, and it was unclear what caused this one. The authorities detained the event’s organizer and others involved.",
         "source": "NYT > World News",
-        "pubDate": 1792273187000
+        "pubDate": 1792313257000
       },
       {
-        "title": "How day of protests unfolded as disorder breaks out across France",
-        "link": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
-        "source": "BBC News",
-        "pubDate": 1792272797000
+        "title": "France in Shock After Protests Devolve Into Riots",
+        "link": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+        "summary": "Centrist and leftist leaders blamed each other after anti-government protests devolved into chaos.",
+        "source": "NYT > World News",
+        "pubDate": 1792313066000
+      },
+      {
+        "title": "In India, the Scion of a Political Dynasty Tries to Seize His Moment",
+        "link": "https://www.nytimes.com/2026/10/18/world/asia/india-gandhi-political-dynasty.html",
+        "summary": "Rahul Gandhi is the descendant of three prime ministers. A surge of protests could give him a springboard to take on the nation’s current leader.",
+        "source": "NYT > World News",
+        "pubDate": 1792310691000
       }
     ]
   }
