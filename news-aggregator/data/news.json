@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-10-20T00:06:34.668Z",
+  "lastUpdated": "2026-10-20T09:48:41.317Z",
   "categories": {
     "technology": [
+      {
+        "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
+        "link": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+        "summary": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1792475996000
+      },
+      {
+        "title": "Baseus’ new security camera has a spotlight that tracks and follows moving targets",
+        "link": "https://www.theverge.com/tech/1005073/baseus-security-primesentinel-u2-pro-outdoor-3k-dual-camera-tracking-spotlight",
+        "summary": "The bright spotlight’s focused beam improves the quality of video captured at night while scaring off unwanted visitors. | Image: Baseus\t\n\nBaseus announced a new addition to its li...",
+        "source": "The Verge",
+        "pubDate": 1792468800000
+      },
       {
         "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
         "link": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
@@ -22,131 +36,117 @@
         "summary": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows.\nElectricity demand is also climbing faster ...",
         "source": "The Verge",
         "pubDate": 1792446481000
-      },
-      {
-        "title": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-        "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from...",
-        "source": "The Verge",
-        "pubDate": 1792445300000
-      },
-      {
-        "title": "I tried a $99 plug that promises to track your car and send help when needed — without selling your data",
-        "link": "https://www.theverge.com/tech/1013918/miles-plug-vehicle-tracking-data-privacy-specs-price-launch-date",
-        "summary": "The Miles is a smart plug for your car.\t\n\nMy 15-year-old daughter just got her learner's permit, so when I was pitched a new gadget tailored to teen drivers, I was intrigued. The M...",
-        "source": "The Verge",
-        "pubDate": 1792443617000
       }
     ],
     "finance": [
-      {
-        "title": "Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.",
-        "link": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
-        "summary": "Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792447080000
-      },
-      {
-        "title": "When should you dump your target-date funds?",
-        "link": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
-        "summary": "Target-date funds aren’t necessarily built to handle many of the decisions retirees face.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792445820000
-      },
-      {
-        "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
-        "link": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
-        "summary": "Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792445760000
-      },
       {
         "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s I’m still hopeful",
         "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
         "summary": "“Ill-timed circumstances can change our financial future in unexpected ways.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792445400000
+        "pubDate": 1792488600000
       },
       {
-        "title": "‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?",
-        "link": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
-        "summary": "“They insist that the details will be provided after they have carried out a soft credit check.”",
+        "title": "My unmarried partner of 17 years left me his $1.1 million home. His three children are livid. Should I share my inheritance?",
+        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+        "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792444500000
+        "pubDate": 1792488600000
+      },
+      {
+        "title": "South Korean IPO flop is the latest in a string of disappointments for the global AI trade",
+        "link": "https://www.marketwatch.com/story/south-korean-ipo-flop-is-the-latest-in-a-string-of-disappointments-for-the-global-ai-trade-fc97748c?mod=mw_rss_topstories",
+        "summary": "October alone has witnessed the shelving of three separate flotations planned for data-center providers, backed by AI powerhouses like Nvidia, Blackstone and SoftBank. Investors ar...",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792488600000
+      },
+      {
+        "title": "The multi-million dollar real estate portfolio of Buffalo Bills QB Josh Allen and actress Hailee Steinfeld",
+        "link": "https://www.marketwatch.com/story/the-multi-million-dollar-real-estate-portfolio-of-buffalo-bills-qb-josh-allen-and-actress-hailee-steinfeld-58a9bd62?mod=mw_rss_topstories",
+        "summary": "Josh Allen reached another milestone in his NFL career, but his life away from football is equally impressive—including the real estate portfolio he shares with his actress wife, H...",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792486920000
+      },
+      {
+        "title": "It’s a rough housing market, and Goldman Sachs expects it to get worse",
+        "link": "https://www.marketwatch.com/story/its-a-rough-housing-market-and-goldman-sachs-expects-it-to-get-worse-be2c5aac?mod=mw_rss_topstories",
+        "summary": "As bad as it is for the housing market — starts and transactions basically flat for the last three years with mortgage rates over 7%— it can get still get worse.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792483980000
       }
     ],
     "business": [
       {
-        "title": "'I'm fed up of swiping': Why singles now want to meet IRL",
-        "link": "https://www.bbc.co.uk/news/articles/cj62y9dnd6pwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC hears from people who think dating events are better value for money than dating apps.",
+        "title": "Jobless rate falls but small firms cut back hiring ",
+        "link": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss",
+        "summary": "Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.",
         "source": "BBC News",
-        "pubDate": 1792450821000
+        "pubDate": 1792488689000
+      },
+      {
+        "title": "Taunting Trump Over Gas Prices, Iran Braces for Aftermath of U.S. Vote",
+        "link": "https://www.nytimes.com/2026/10/20/us/politics/iran-trump-midterm-elections.html",
+        "summary": "The midterm elections appear to be a factor for both sides in the war as President Trump weighs his next steps.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1792486914000
       },
       {
         "title": "Burnham vows end to 'rip-off parking charges' under new rules",
         "link": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss",
-        "summary": "Penalties are seen as too harsh on motorists who are penalised for parking on private land.",
+        "summary": "The changes come after concerns that penalties issued by private providers are too harsh and leave motorists unfairly punished.",
         "source": "BBC News",
-        "pubDate": 1792445406000
+        "pubDate": 1792486502000
       },
       {
-        "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
-        "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
+        "title": "Revolut outage hits 'multiple services' as thousands of users report app issues",
+        "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+        "summary": "Some users of the British neobank reported being unable to make some payments or access funds in its app on Tuesday.",
         "source": "BBC News",
-        "pubDate": 1792444350000
+        "pubDate": 1792485960000
       },
       {
-        "title": "US bans DeepSeek AI from government use as tech tension with China continues",
-        "link": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
-        "summary": "DeepSeek is a powerful, popular and relatively inexpensive artificial intelligence model out of China.",
+        "title": "Chancellor rejects calls to raise Capital Gains Tax in Budget",
+        "link": "https://www.bbc.co.uk/news/articles/c50me4w4x1vyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Influential Labour figures had been pushing for equalising CGT and income tax, but critics have said this could drive wealthy people out of Britain.",
         "source": "BBC News",
-        "pubDate": 1792434114000
-      },
-      {
-        "title": "Vinted blocks French looters listing stolen goods for sale",
-        "link": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro?at_medium=RSS&at_campaign=rss",
-        "summary": "The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".",
-        "source": "BBC News",
-        "pubDate": 1792428395000
+        "pubDate": 1792485896000
       }
     ],
     "world": [
       {
-        "title": "US church on frontline of battle against drug known as 'tranq'",
-        "link": "https://www.bbc.co.uk/news/videos/cqd097z3epvno?at_medium=RSS&at_campaign=rss",
-        "summary": "Synthetic opioids like fentanyl are more powerful and in plentiful supply, and they have transformed the drugs landscape.",
-        "source": "BBC News",
-        "pubDate": 1792454552000
-      },
-      {
-        "title": "Morocco's first female prime minister caught between the king, clerics, and feminists",
-        "link": "https://www.bbc.co.uk/news/articles/cmqxn4gggdw4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Will Fatima El Mansouri advance women’s rights amid religious and political barriers?",
-        "source": "BBC News",
-        "pubDate": 1792452603000
-      },
-      {
-        "title": "Five ways El Niño is affecting the weather around the world",
-        "link": "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo?at_medium=RSS&at_campaign=rss",
-        "summary": "As the strongest El Niño on record continues to intensify, what impacts on weather patterns are already being felt across the globe? Sarah Keith-Lucas looks at the evidence.",
-        "source": "BBC News",
-        "pubDate": 1792451305000
-      },
-      {
-        "title": "In pictures: Dussehra celebrated across India as triumph of good over evil",
-        "link": "https://www.bbc.co.uk/news/articles/c98rzynj6e1yo?at_medium=RSS&at_campaign=rss",
-        "summary": "The festival, which commemorates the triumph of good over evil, is celebrated with different rituals across India.",
-        "source": "BBC News",
-        "pubDate": 1792451048000
-      },
-      {
-        "title": "Priest in Ecuador Dies After Crucifix Falls on Him During Livestreamed Mass",
-        "link": "https://www.nytimes.com/2026/10/19/world/americas/ecuador-priest-dies-crucifix.html",
-        "summary": "The Rev. Patricio Alfredo Sánchez Molinari was addressing his congregation in Guayaquil, Ecuador, when a wooden cross detached from a wall and struck him.",
+        "title": "France to Extend Curfews After a Night of Calm, Prime Minister Says",
+        "link": "https://www.nytimes.com/2026/10/20/world/europe/france-curfews-riots-protests-extended.html",
+        "summary": "The restrictions are part of a state effort to reassert control after the country’s largest riots in years, as those arrested in the unrest face expedited trials.",
         "source": "NYT > World News",
-        "pubDate": 1792450493000
+        "pubDate": 1792488693000
+      },
+      {
+        "title": "France Protests Show Europe’s Shift Away From Centrist Politics",
+        "link": "https://www.nytimes.com/2026/10/20/world/europe/france-protests-europe-centrist-far-right.html",
+        "summary": "Europe’s centrist parties are losing ground among young people and workers, who are increasingly tempted by populist promises of radical change.",
+        "source": "NYT > World News",
+        "pubDate": 1792486912000
+      },
+      {
+        "title": "The Mayor of a City in Haiti Warned of a Massacre. No One Listened.",
+        "link": "https://www.nytimes.com/2026/10/20/world/americas/mayor-kenscoff-haiti-gangs-massacre.html",
+        "summary": "The mayor of Kenscoff, a town near Haiti’s capital, wrote government officials hundreds of letters to warn of gang threats. Then dozens of people died, and he did, too.",
+        "source": "NYT > World News",
+        "pubDate": 1792486894000
+      },
+      {
+        "title": "A Chef Celebrates Immigrant Flavors in Anti-Migrant South Africa",
+        "link": "https://www.nytimes.com/2026/10/20/world/africa/johannesburg-migrant-cuisine-chef.html",
+        "summary": "A self-taught chef borrows ingredients and ideas from restaurants run by immigrants in South Africa, hoping to help counter rising xenophobia.",
+        "source": "NYT > World News",
+        "pubDate": 1792486810000
+      },
+      {
+        "title": "Suspect arrested after historic town hall set alight during disorder - French media",
+        "link": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+        "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
+        "source": "BBC News",
+        "pubDate": 1792486706000
       }
     ]
   }
