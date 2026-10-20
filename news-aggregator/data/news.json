@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-20T17:46:39.341Z",
+  "lastUpdated": "2026-10-20T23:37:28.590Z",
   "categories": {
     "technology": [
       {
-        "title": "Chrome will now show a warning before you visit ‘suspicious’ sites",
-        "link": "https://www.theverge.com/tech/1014446/google-chrome-suspicious-website-warning",
-        "summary": "If you know for sure that a website flagged as suspicious is actually safe, you can mark it as such. | Image: Google\t\n\nGoogle is launching a new browser safety feature for Chrome t...",
-        "source": "The Verge",
-        "pubDate": 1792515600000
-      },
-      {
-        "title": "AMD is bringing FSR 4.1 to Xbox consoles and handhelds",
-        "link": "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops",
-        "summary": "AMD has just revealed that it's bringing its latest upscaling technology, FSR 4.1, to the Xbox Series S and X consoles, as well as laptops, 6000-series GPUs, and handhelds like the...",
-        "source": "The Verge",
-        "pubDate": 1792513278000
-      },
-      {
-        "title": "Arturia’s MiniFreak 49 makes its Freak synths more professional",
-        "link": "https://www.theverge.com/gadgets/1014255/arturias-minifreak-49-synthesizer",
-        "summary": "Arturia is adding to its Freak line of proudly weird digital synths with the MiniFreak 49. Under the hood, it's almost identical to the current MiniFreak, but it adds a number of m...",
-        "source": "The Verge",
-        "pubDate": 1792512000000
-      },
-      {
-        "title": "The Gospel according to Peter (Thiel)",
-        "link": "https://www.theverge.com/tech/1014252/peter-thiel-antichrist-lectures-analysis",
-        "summary": "It's a time of apocalyptic worldviews in Silicon Valley. The latest AI doom cycle is driven by effective altruism, a philosophy that has lurked around the fringes for years but rec...",
-        "source": "The Verge",
-        "pubDate": 1792511100000
-      },
-      {
-        "title": "Polestar tries to quantify what it’s like to drive a performance car",
-        "link": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
-        "summary": "Drivers had electrodes strapped to their heads as they tested EVs on track.",
+        "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+        "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
+        "summary": "\"I do think there's a lot of merit to combining the companies.\"",
         "source": "Ars Technica - All content",
-        "pubDate": 1792507987000
+        "pubDate": 1792533894000
+      },
+      {
+        "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
+        "link": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
+        "summary": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1792532674000
+      },
+      {
+        "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
+        "link": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
+        "summary": "Xbox maker is also apparently planning its own gaming handheld for next year.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1792530873000
+      },
+      {
+        "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
+        "link": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
+        "summary": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has p...",
+        "source": "The Verge",
+        "pubDate": 1792528329000
+      },
+      {
+        "title": "SpaceX says big AI growth fueled revenue jump",
+        "link": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+        "summary": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment an...",
+        "source": "The Verge",
+        "pubDate": 1792528018000
       }
     ],
     "finance": [
       {
-        "title": "Investors’ search for safety has made toothpaste stocks more expensive than tech",
-        "link": "https://www.marketwatch.com/story/investors-search-for-safety-has-made-toothpaste-stocks-more-expensive-than-tech-57a75e56?mod=mw_rss_topstories",
-        "summary": "Wall Street is fleeing tech for toothpaste and shampoo. Even those stocks are getting expensive.",
+        "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
+        "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
+        "summary": "SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792517880000
-      },
-      {
-        "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
-        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-        "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792516500000
+        "pubDate": 1792537800000
       },
       {
         "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful",
         "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
         "summary": "“Ill-timed circumstances can change our financial future in unexpected ways.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792515600000
+        "pubDate": 1792536300000
       },
       {
-        "title": "It’s not just California’s billionaire tax. Wealth is on the ballot in the midterm elections.",
-        "link": "https://www.marketwatch.com/story/its-not-just-californias-billionaire-tax-wealth-is-on-the-ballot-in-the-midterm-elections-a50fc12c?mod=mw_rss_topstories",
-        "summary": "Several states are dealing with ballot measures tied to taxing the rich — and there may be even more initiatives on this front in 2028.",
+        "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+        "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+        "summary": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792515300000
+        "pubDate": 1792535820000
       },
       {
-        "title": "‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?",
-        "link": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
-        "summary": "“They insist that the details will be provided after they have carried out a soft credit check.”",
+        "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+        "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+        "summary": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792513500000
+        "pubDate": 1792535580000
+      },
+      {
+        "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+        "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+        "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792535400000
       }
     ],
     "business": [
       {
-        "title": "Paddy Power cuts 1,400 jobs and blames betting tax rises",
-        "link": "https://www.bbc.co.uk/news/articles/cqzrdpkm3g84o?at_medium=RSS&at_campaign=rss",
-        "summary": "The government increased taxes on online casino and sports betting in last year's Budget.",
+        "title": "Elon Musk says Tesla-SpaceX merger being considered",
+        "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
         "source": "BBC News",
-        "pubDate": 1792511593000
+        "pubDate": 1792538687000
       },
       {
-        "title": "Union attacks NatWest plans to get workers back to the office",
-        "link": "https://www.bbc.co.uk/news/articles/cmly0qwnlgdvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The bank says workers will be required to attend the office at least two days a week from February.",
+        "title": "The tech helping crack decades-old cold cases",
+        "link": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
         "source": "BBC News",
-        "pubDate": 1792507819000
+        "pubDate": 1792538004000
       },
       {
-        "title": "Bereaved families could face 'unjust' tax bill after civil service pension delays",
-        "link": "https://www.bbc.co.uk/news/articles/cq1m4zz9e44go?at_medium=RSS&at_campaign=rss",
-        "summary": "The chairman of Parliament's Public Accounts Committee says families should not be taxed through no fault of their own.",
+        "title": "Audit regulator looking into Manchester City accounting",
+        "link": "https://www.bbc.co.uk/news/articles/cm93z1xlgqxqo?at_medium=RSS&at_campaign=rss",
+        "summary": "No formal investigation has started, but the regulator is making inquiries into the case.",
         "source": "BBC News",
-        "pubDate": 1792499803000
+        "pubDate": 1792529813000
       },
       {
-        "title": "Jobless rate falls but small firms cut back hiring ",
-        "link": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss",
-        "summary": "Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.",
+        "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
+        "link": "https://www.bbc.co.uk/news/articles/c94g1502el58o?at_medium=RSS&at_campaign=rss",
+        "summary": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
         "source": "BBC News",
-        "pubDate": 1792495608000
+        "pubDate": 1792525352000
       },
       {
-        "title": "£30 rise in payments for crisis-hit households",
-        "link": "https://www.bbc.co.uk/news/articles/c59vz71kxxgzo?at_medium=RSS&at_campaign=rss",
-        "summary": "More money is made available through a resilience fund for hard-pressed households in Sheffield.",
+        "title": "Trump sued over Canadian tariffs in latest legal challenge",
+        "link": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+        "summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
         "source": "BBC News",
-        "pubDate": 1792495162000
+        "pubDate": 1792524605000
       }
     ],
     "world": [
       {
-        "title": "Why Zelensky Took the Gloves Off This Time With Trump",
-        "link": "https://www.nytimes.com/2026/10/20/world/europe/ukraine-war-zelensky-trump.html",
-        "summary": "Staying quiet is riskier than speaking up, Ukrainian officials say, as President Trump goes further than ever in prioritizing Russia’s interests.",
+        "title": "As Alberta Rejects Canada Separatism, Carney Gets Much of the Credit",
+        "link": "https://www.nytimes.com/2026/10/20/world/canada/carney-alberta-referendum-trump.html",
+        "summary": "Prime Minister Mark Carney won over Canada’s most conservative province by promising a pipeline and campaigning hard, defeating its efforts to secede.",
         "source": "NYT > World News",
-        "pubDate": 1792518011000
+        "pubDate": 1792539139000
       },
       {
-        "title": "178 Years After Banning Slavery, France Scraps ‘Code Noir’ Rules That Governed It",
-        "link": "https://www.nytimes.com/2026/10/20/178-years-after-banning-slavery-france-scraps-code-noir-rules-that-governed-it.html",
-        "summary": "In a symbolic move, the French Senate approved the repeal of regulations that had remained on the books long after slavery’s abolition.",
+        "title": "The Mayor of a City in Haiti Warned of a Massacre. No One Listened.",
+        "link": "https://www.nytimes.com/2026/10/20/world/americas/mayor-kenscoff-haiti-gangs-massacre.html",
+        "summary": "The mayor of Kenscoff, a town near Haiti’s capital, wrote government officials hundreds of letters to warn of gang threats. Then dozens of people died, and he did, too.",
         "source": "NYT > World News",
-        "pubDate": 1792517789000
+        "pubDate": 1792539090000
       },
       {
-        "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-        "link": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-        "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
-        "source": "BBC News",
-        "pubDate": 1792517415000
-      },
-      {
-        "title": "Student Protesters in France Have a Strange New Slogan. What Does It Mean?",
-        "link": "https://www.nytimes.com/2026/10/20/world/europe/france-student-protests-slogan.html",
-        "summary": "“Bismillah, c’est les ténèbres” has appeared on signs at recent demonstrations. It doesn’t make much sense (it means, “In the name of God, it’s the darkness”) but is seen as shorth...",
+        "title": "China Criticizes U.S. Ban on DeepSeek A.I. in Government Systems",
+        "link": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html",
+        "summary": "The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company.",
         "source": "NYT > World News",
-        "pubDate": 1792515691000
+        "pubDate": 1792535069000
       },
       {
-        "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism ",
-        "link": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Canadian province has voted overwhelmingly to remain part of Canada, though deep political divisions endure.",
-        "source": "BBC News",
-        "pubDate": 1792515546000
+        "title": "Robert Kabera, Rwandan Government Critic, Beheaded in Uganda",
+        "link": "https://www.nytimes.com/2026/10/20/world/africa/rwandan-beheaded-uganda-kabera.html",
+        "summary": "The former soldier had been living in exile since 2020, and said in a video posted this month on TikTok that he feared for his life.",
+        "source": "NYT > World News",
+        "pubDate": 1792534928000
+      },
+      {
+        "title": "Art Basel Paris Preview Draws Interest Despite Protests",
+        "link": "https://www.nytimes.com/2026/10/20/arts/art-basel-paris-france-protests.html",
+        "summary": "The Avant-Première preview of the Art Basel Paris fair attracted major collectors despite an escalation of anti-government protests, riots and looting across French cities.",
+        "source": "NYT > World News",
+        "pubDate": 1792534523000
       }
     ]
   }
