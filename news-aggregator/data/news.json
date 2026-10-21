@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-20T23:37:28.590Z",
+  "lastUpdated": "2026-10-21T09:49:22.079Z",
   "categories": {
     "technology": [
       {
-        "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
-        "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
-        "summary": "\"I do think there's a lot of merit to combining the companies.\"",
+        "title": "PHP warns it plans to release 2 emergency patches imminently",
+        "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+        "summary": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
         "source": "Ars Technica - All content",
-        "pubDate": 1792533894000
+        "pubDate": 1792548738000
       },
       {
-        "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
-        "link": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
-        "summary": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792532674000
-      },
-      {
-        "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
-        "link": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
-        "summary": "Xbox maker is also apparently planning its own gaming handheld for next year.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792530873000
-      },
-      {
-        "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
-        "link": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
-        "summary": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has p...",
+        "title": "YouTube might be testing hiding the dislike button",
+        "link": "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu",
+        "summary": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now bei...",
         "source": "The Verge",
-        "pubDate": 1792528329000
+        "pubDate": 1792540856000
       },
       {
-        "title": "SpaceX says big AI growth fueled revenue jump",
-        "link": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
-        "summary": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment an...",
+        "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+        "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughou...",
         "source": "The Verge",
-        "pubDate": 1792528018000
+        "pubDate": 1792537459000
+      },
+      {
+        "title": "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
+        "link": "https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers",
+        "summary": "Influencer Nick Shirley listens as US President Donald Trump makes an announcement on fraud in the Oval Office of the White House in Washington, DC, on October 20, 2026. (Photo by ...",
+        "source": "The Verge",
+        "pubDate": 1792534811000
+      },
+      {
+        "title": "Google’s more personalized Gemini AI is heading to your car",
+        "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+        "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Googl...",
+        "source": "The Verge",
+        "pubDate": 1792534294000
       }
     ],
     "finance": [
       {
+        "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+        "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
+        "summary": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792574100000
+      },
+      {
+        "title": "George Foreman’s lavish Texas estate with 50-car garage is listed for $6 million",
+        "link": "https://www.marketwatch.com/story/george-foremans-lavish-texas-estate-with-50-car-garage-is-listed-for-6-million-d464b764?mod=mw_rss_topstories",
+        "summary": "The sprawling Texas estate where boxing legend George Foreman spent the final decades of his life has hit the market for $6 million—offering a rare glimpse inside the private world...",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792573440000
+      },
+      {
+        "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+        "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+        "summary": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792573200000
+      },
+      {
         "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
         "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
-        "summary": "SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.",
+        "summary": "SpaceX just gave Wall Street a big reason to believe in the artificial-intelligence boom as demand for its computing power is off the charts.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792537800000
+        "pubDate": 1792572900000
       },
       {
-        "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful",
-        "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-        "summary": "“Ill-timed circumstances can change our financial future in unexpected ways.”",
+        "title": "AI stocks are probably in a bubble — but might be worth holding onto, says Citadel’s Ken Griffin",
+        "link": "https://www.marketwatch.com/story/ai-stocks-are-probably-in-a-bubble-but-might-be-worth-holding-onto-says-citadels-ken-griffin-87f535ce?mod=mw_rss_topstories",
+        "summary": "Investors are for sure facing “bubbles,” but Ken Griffin isn’t telling investors to dump those stocks/",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792536300000
-      },
-      {
-        "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
-        "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
-        "summary": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792535820000
-      },
-      {
-        "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-        "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
-        "summary": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792535580000
-      },
-      {
-        "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-        "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-        "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792535400000
+        "pubDate": 1792572600000
       }
     ],
     "business": [
       {
-        "title": "Elon Musk says Tesla-SpaceX merger being considered",
+        "title": "Inflation and government borrowing highest for a year ahead of next week's Budget",
+        "link": "https://www.bbc.co.uk/news/articles/c6gel2xv4493o?at_medium=RSS&at_campaign=rss",
+        "summary": "Inflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).",
+        "source": "BBC News",
+        "pubDate": 1792575931000
+      },
+      {
+        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
         "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
         "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
         "source": "BBC News",
-        "pubDate": 1792538687000
+        "pubDate": 1792572169000
       },
       {
-        "title": "The tech helping crack decades-old cold cases",
-        "link": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=RSS&at_campaign=rss",
-        "summary": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
+        "title": "What is happening to UK prices?",
+        "link": "https://www.bbc.co.uk/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss",
+        "summary": "UK inflation rose in September, pushed up by higher petrol and diesel prices.",
         "source": "BBC News",
-        "pubDate": 1792538004000
+        "pubDate": 1792571747000
       },
       {
-        "title": "Audit regulator looking into Manchester City accounting",
-        "link": "https://www.bbc.co.uk/news/articles/cm93z1xlgqxqo?at_medium=RSS&at_campaign=rss",
-        "summary": "No formal investigation has started, but the regulator is making inquiries into the case.",
+        "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+        "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+        "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
         "source": "BBC News",
-        "pubDate": 1792529813000
+        "pubDate": 1792564599000
       },
       {
-        "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
-        "link": "https://www.bbc.co.uk/news/articles/c94g1502el58o?at_medium=RSS&at_campaign=rss",
-        "summary": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
+        "title": "Watch: 'We don't pay' - lawyer advises how to avoid £45,000 illegal-worker fine",
+        "link": "https://www.bbc.co.uk/news/videos/cm93z1j33dkpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Mohammad Alias Yousaf made his claim to an undercover reporter posing as a mini-mart owner.",
         "source": "BBC News",
-        "pubDate": 1792525352000
-      },
-      {
-        "title": "Trump sued over Canadian tariffs in latest legal challenge",
-        "link": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
-        "summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
-        "source": "BBC News",
-        "pubDate": 1792524605000
+        "pubDate": 1792558854000
       }
     ],
     "world": [
       {
-        "title": "As Alberta Rejects Canada Separatism, Carney Gets Much of the Credit",
-        "link": "https://www.nytimes.com/2026/10/20/world/canada/carney-alberta-referendum-trump.html",
-        "summary": "Prime Minister Mark Carney won over Canada’s most conservative province by promising a pipeline and campaigning hard, defeating its efforts to secede.",
+        "title": "China Moves to Tighten Its Grip Over Exports of Top A.I. Models",
+        "link": "https://www.nytimes.com/2026/10/21/world/asia/china-exports-ai-controls.html",
+        "summary": "Draft rules on the export of artificial intelligence technology show how China is trying to balance national security risks with its desire to outpace the United States.",
         "source": "NYT > World News",
-        "pubDate": 1792539139000
+        "pubDate": 1792574687000
       },
       {
-        "title": "The Mayor of a City in Haiti Warned of a Massacre. No One Listened.",
-        "link": "https://www.nytimes.com/2026/10/20/world/americas/mayor-kenscoff-haiti-gangs-massacre.html",
-        "summary": "The mayor of Kenscoff, a town near Haiti’s capital, wrote government officials hundreds of letters to warn of gang threats. Then dozens of people died, and he did, too.",
-        "source": "NYT > World News",
-        "pubDate": 1792539090000
-      },
-      {
-        "title": "China Criticizes U.S. Ban on DeepSeek A.I. in Government Systems",
-        "link": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html",
-        "summary": "The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company.",
-        "source": "NYT > World News",
-        "pubDate": 1792535069000
-      },
-      {
-        "title": "Robert Kabera, Rwandan Government Critic, Beheaded in Uganda",
-        "link": "https://www.nytimes.com/2026/10/20/world/africa/rwandan-beheaded-uganda-kabera.html",
-        "summary": "The former soldier had been living in exile since 2020, and said in a video posted this month on TikTok that he feared for his life.",
-        "source": "NYT > World News",
-        "pubDate": 1792534928000
+        "title": "Russia frees US citizen Stephen Hubbard, state media reports",
+        "link": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+        "summary": "Stephen Hubbard has been taken to Pulkovo Airport, Putin said during talks with US envoy Steve Witkoff.",
+        "source": "BBC News",
+        "pubDate": 1792574543000
       },
       {
         "title": "Art Basel Paris Preview Draws Interest Despite Protests",
         "link": "https://www.nytimes.com/2026/10/20/arts/art-basel-paris-france-protests.html",
         "summary": "The Avant-Première preview of the Art Basel Paris fair attracted major collectors despite an escalation of anti-government protests, riots and looting across French cities.",
         "source": "NYT > World News",
-        "pubDate": 1792534523000
+        "pubDate": 1792574017000
+      },
+      {
+        "title": "A.I. Election Videos Are Flooding Brazil. Could They Sway the Vote?",
+        "link": "https://www.nytimes.com/2026/10/21/world/americas/ai-election-videos-brazil.html",
+        "summary": "Brazil spent years targeting electoral lies on the internet. Now, artificial intelligence is stumping the election authorities and reshaping a high-stakes race.",
+        "source": "NYT > World News",
+        "pubDate": 1792573336000
+      },
+      {
+        "title": "Death Toll From Venezuela Quakes Likely Far Exceeds Official Count",
+        "link": "https://www.nytimes.com/2026/10/21/world/americas/venezuela-earthquakes-deaths.html",
+        "summary": "A Times analysis and U.S. Geological Survey data indicate that the official 6,509 death toll is probably a severe undercount.",
+        "source": "NYT > World News",
+        "pubDate": 1792573224000
       }
     ]
   }
