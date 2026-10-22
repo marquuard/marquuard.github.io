@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T23:54:08.200Z",
+  "lastUpdated": "2026-10-22T09:50:37.759Z",
   "categories": {
     "technology": [
       {
@@ -24,129 +24,129 @@
         "pubDate": 1792622024000
       },
       {
+        "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
+        "link": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
+        "summary": "Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1792621070000
+      },
+      {
         "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
         "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
         "summary": "Time-based a la carte charges come on top of the purchase price for the games themselves.",
         "source": "Ars Technica - All content",
         "pubDate": 1792620367000
-      },
-      {
-        "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
-        "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
-        "summary": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792619332000
       }
     ],
     "finance": [
+      {
+        "title": "A top strategist has a warning for retail investors chasing the AI rally",
+        "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
+        "summary": "Maxx Kettner, HSBC’s chief multiasset strategist, says the investors need to understand the goal posts are constantly moving with AI investing.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792660020000
+      },
+      {
+        "title": "Why a JPMorgan strategist says the stock market’s tailspin might have run its course",
+        "link": "https://www.marketwatch.com/story/why-a-jpmorgan-strategist-says-the-stock-markets-tailspin-might-have-run-its-course-71571335?mod=mw_rss_topstories",
+        "summary": "Hedge fund positioning has lightened considerably since its recent September peak, and JPMorgan strategists deduce from this that downside for stocks is now limited.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792659840000
+      },
+      {
+        "title": "Football legend Peyton Manning has invested millions in real estate, including 2 Denver homes",
+        "link": "https://www.marketwatch.com/story/football-legend-peyton-manning-has-invested-millions-in-real-estate-including-2-denver-homes-2c4e355f?mod=mw_rss_topstories",
+        "summary": "NFL legend Peyton Manning has traded his days on the football field for a quieter life with his family, and has amassed an impressive real estate portfolio along the way.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792659780000
+      },
+      {
+        "title": "Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers",
+        "link": "https://www.marketwatch.com/story/why-a-global-bank-is-slashing-thousands-of-jobs-and-what-the-fed-says-about-ai-replacing-workers-9529b6ca?mod=mw_rss_topstories",
+        "summary": "Barclays on Thursday said it’s cutting 5,000 jobs, about 5% of its workforce, as the bank relies on artificial intelligence to perform back-office tasks.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1792658820000
+      },
       {
         "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
         "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
         "summary": "SpaceX merger commentary is arguably the biggest thing on the minds of Tesla investors right now — and Musk had nothing new to offer on Wednesday.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792625340000
-      },
-      {
-        "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
-        "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
-        "summary": "Meta’s core advertising business delivered a strong quarter, but investors are eyeing promising new businesses around the Muse personal assistant",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792624020000
-      },
-      {
-        "title": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
-        "link": "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
-        "summary": "Wall Street is all abuzz over a possible merger between Tesla and SpaceX. But there is a high probability that such a merger would be a bad idea.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792619040000
-      },
-      {
-        "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
-        "link": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
-        "summary": "The president’s statement comes as a voter backlash against the facilities intensifies ahead of the midterm elections.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792618260000
-      },
-      {
-        "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
-        "link": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
-        "summary": "Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792617240000
+        "pubDate": 1792658760000
       }
     ],
     "business": [
       {
-        "title": "The \"trillion pound\" oil fund the government believes Britain could have built",
-        "link": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
-        "summary": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.",
+        "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
+        "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
         "source": "BBC News",
-        "pubDate": 1792625225000
+        "pubDate": 1792661878000
       },
       {
-        "title": "The grads ditching the UK for a fresh start abroad",
-        "link": "https://www.bbc.co.uk/news/articles/cmzxj4e8w44vo?at_medium=RSS&at_campaign=rss",
-        "summary": "With graduate jobs hard to come by, more young adults are reported to be considering emigrating.",
-        "source": "BBC News",
-        "pubDate": 1792624326000
+        "title": "For Clues About How A.I. Will Change Work, Look to the Past",
+        "link": "https://www.nytimes.com/2026/10/22/business/economy/ai-economy-jobs-history.html",
+        "summary": "Economists hope earlier episodes of labor disruption, from the Industrial Revolution to the Great Depression, can help us prepare for the age of artificial intelligence.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1792659712000
       },
       {
-        "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
-        "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+        "title": "Children in care to get £10 a week savings",
+        "link": "https://www.bbc.co.uk/news/articles/c6vg0klve484o?at_medium=RSS&at_campaign=rss",
+        "summary": "Eligible people in the care system will be able to access the savings once they turn 18.",
         "source": "BBC News",
-        "pubDate": 1792623843000
+        "pubDate": 1792652265000
       },
       {
-        "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
-        "link": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November.",
+        "title": "What is PHP and why did it spark a global cyber-security scramble?",
+        "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+        "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
         "source": "BBC News",
-        "pubDate": 1792623298000
+        "pubDate": 1792650299000
       },
       {
-        "title": "Meta fined $25bn for 'lies' over user data privacy",
-        "link": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
-        "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+        "title": "Woman 'scared to turn heating on' due to oil cost",
+        "link": "https://www.bbc.co.uk/news/articles/cmgel220j7nvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Roslynn Garner-Gatley starts using a hot water bottle, bed socks and earlier bedtimes to stay warm.",
         "source": "BBC News",
-        "pubDate": 1792619347000
+        "pubDate": 1792646962000
       }
     ],
     "world": [
       {
-        "title": "El Salvador’s President Issues Harsh Warning to Haitian Gangs After 4 Soldiers Are Abducted",
-        "link": "https://www.nytimes.com/2026/10/21/world/americas/el-salvador-military-haiti-gangs.html",
-        "summary": "Four members of El Salvador’s military were abducted Sunday in Haiti, and their president wants them back.",
+        "title": "Putin Nears a Prize: Restoring Ties With the U.S. While Giving Up Nothing",
+        "link": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+        "summary": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
         "source": "NYT > World News",
-        "pubDate": 1792624419000
+        "pubDate": 1792661548000
       },
       {
-        "title": "Trump's green card curbs test Indian tech workers' American dream",
-        "link": "https://www.bbc.co.uk/news/articles/cqj34j7dk771o?at_medium=RSS&at_campaign=rss",
-        "summary": "With immigration curbs and tech firms cutting foreign hiring, US residency is becoming a distant dream for many Indians.",
+        "title": "How do Israel's elections work and who are the main contenders?",
+        "link": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Many view it as one of the most pivotal elections in Israel's history, with global implications.",
         "source": "BBC News",
-        "pubDate": 1792623997000
+        "pubDate": 1792661230000
       },
       {
-        "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
-        "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+        "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+        "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+        "summary": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom.",
         "source": "BBC News",
-        "pubDate": 1792623843000
+        "pubDate": 1792660488000
       },
       {
-        "title": "Pope Needs No Further Treatment for Lung Cancer, Doctors Say",
-        "link": "https://www.nytimes.com/2026/10/21/world/europe/pope-leo-cancer.html",
-        "summary": "Test results after the operation showed that the cancer was localized.",
+        "title": "Some New Yorkers hail ban on horse-drawn carriages, but drivers fear for incomes",
+        "link": "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss",
+        "summary": "As councillors prepare to banish the vehicles, views in Central Park are divided over the 160-year-old tradition.",
+        "source": "BBC News",
+        "pubDate": 1792660008000
+      },
+      {
+        "title": "Space Debris Found Twice Within Days Amid ‘Growing Casualty Risk’",
+        "link": "https://www.nytimes.com/2026/10/22/world/asia/space-debris-indonesia-minnesota.html",
+        "summary": "Debris was found in Indonesia on Monday, just days after a farmer across the globe in Minnesota reported a massive metal object thought to be space junk in a cornfield.",
         "source": "NYT > World News",
-        "pubDate": 1792621096000
-      },
-      {
-        "title": "Why is a peat fire so bad? BBC is in Indonesia to find out",
-        "link": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Liza Tambunan is in central Kalimantan, to explain what peat is and why Indonesia is facing its worst wildfire season in a decade.",
-        "source": "BBC News",
-        "pubDate": 1792620138000
+        "pubDate": 1792659811000
       }
     ]
   }
