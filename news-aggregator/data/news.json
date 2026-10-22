@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-22T09:50:37.759Z",
+  "lastUpdated": "2026-10-22T17:51:06.584Z",
   "categories": {
     "technology": [
       {
-        "title": "YouTube says it isn’t testing hiding the dislike button",
-        "link": "https://www.theverge.com/streaming/1016206/youtube-dislike-button-videos",
-        "summary": "On Tuesday, I published a story about how YouTube appeared to be testing hiding the dislike button on videos, with at least two users on X sharing screenshots of the dislike button...",
+        "title": "Amazon renames Kindle Unlimited to Kindle Plus and expands access to audiobooks",
+        "link": "https://www.theverge.com/tech/1016789/amazon-kindle-unlimited-plus-subscription-ai-audiobooks",
+        "summary": "The plus-ification of subscription services continues unabated with Amazon becoming the latest company to follow suit with a Kindle Unlimited rebrand. The subscription service is n...",
         "source": "The Verge",
-        "pubDate": 1792626405000
+        "pubDate": 1792691200000
       },
       {
-        "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
-        "link": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
-        "summary": "For years, Elon Musk has been making big promises to Tesla owners about unsupervised autonomous driving and the ability to add their own vehicles to the company's robotaxi fleet. D...",
+        "title": "Elon Musk says Tesla will sell 5 million cars by 2030 — math says otherwise",
+        "link": "https://www.theverge.com/transportation/1016055/elon-musk-tesla-5-million-cars-2030-reality-check",
+        "summary": "On Tesla's earnings call Wednesday, Elon Musk made one of his patented pie-in-the-sky predictions that typically sends his fans into paroxysms of ecstasy: 5 million vehicle deliver...",
         "source": "The Verge",
-        "pubDate": 1792625791000
+        "pubDate": 1792690972000
       },
       {
-        "title": "Data centers could erase decades of air quality gains",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-        "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind g...",
+        "title": "Someone hacked the Switch 2 by using an old game and AI",
+        "link": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+        "summary": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like...",
         "source": "The Verge",
-        "pubDate": 1792622024000
+        "pubDate": 1792689691000
       },
       {
-        "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
-        "link": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
-        "summary": "Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.",
+        "title": "Meta shocked by $25B fine after N.M. refused to join multistate settlement",
+        "link": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
+        "summary": "Meta will appeal a ruling imposing the largest fine Mark Zuckerberg has ever seen.",
         "source": "Ars Technica - All content",
-        "pubDate": 1792621070000
+        "pubDate": 1792688671000
       },
       {
-        "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
-        "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
-        "summary": "Time-based a la carte charges come on top of the purchase price for the games themselves.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792620367000
+        "title": "Arc browser is shutting down",
+        "link": "https://www.theverge.com/tech/1016832/arc-browser-shutting-down",
+        "summary": "Arc’s website today. | Screenshot: The Verge\t\n\nThe Browser Company plans to \"sunset\"  its Arc browser on December 22nd, according to a post on the Arc website. The company moved on...",
+        "source": "The Verge",
+        "pubDate": 1792688617000
       }
     ],
     "finance": [
       {
-        "title": "A top strategist has a warning for retail investors chasing the AI rally",
-        "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
-        "summary": "Maxx Kettner, HSBC’s chief multiasset strategist, says the investors need to understand the goal posts are constantly moving with AI investing.",
+        "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
+        "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
+        "summary": "Trick or treat? Musk has a long record of saying things have little relation to reality.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792660020000
+        "pubDate": 1792690140000
       },
       {
-        "title": "Why a JPMorgan strategist says the stock market’s tailspin might have run its course",
-        "link": "https://www.marketwatch.com/story/why-a-jpmorgan-strategist-says-the-stock-markets-tailspin-might-have-run-its-course-71571335?mod=mw_rss_topstories",
-        "summary": "Hedge fund positioning has lightened considerably since its recent September peak, and JPMorgan strategists deduce from this that downside for stocks is now limited.",
+        "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
+        "link": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+        "summary": "Social Security is looking to reverse an initially slow uptake on Trump accounts",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792659840000
+        "pubDate": 1792689840000
       },
       {
-        "title": "Football legend Peyton Manning has invested millions in real estate, including 2 Denver homes",
-        "link": "https://www.marketwatch.com/story/football-legend-peyton-manning-has-invested-millions-in-real-estate-including-2-denver-homes-2c4e355f?mod=mw_rss_topstories",
-        "summary": "NFL legend Peyton Manning has traded his days on the football field for a quieter life with his family, and has amassed an impressive real estate portfolio along the way.",
+        "title": "Young investors are betting on prediction markets and crypto. But this bestselling author says the boring money moves still work.",
+        "link": "https://www.marketwatch.com/story/young-investors-are-betting-on-prediction-markets-and-crypto-but-this-bestselling-author-says-the-boring-money-moves-still-work-cd9d350a?mod=mw_rss_topstories",
+        "summary": "Beth Kobliner, author of “Get a Financial Life,” explains why today’s young people face a tougher financial world and reveals the three money moves she would make first.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792659780000
+        "pubDate": 1792689660000
       },
       {
-        "title": "Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers",
-        "link": "https://www.marketwatch.com/story/why-a-global-bank-is-slashing-thousands-of-jobs-and-what-the-fed-says-about-ai-replacing-workers-9529b6ca?mod=mw_rss_topstories",
-        "summary": "Barclays on Thursday said it’s cutting 5,000 jobs, about 5% of its workforce, as the bank relies on artificial intelligence to perform back-office tasks.",
+        "title": "‘AI is on trial’: Bond yields sink below 5% as investors look for safety",
+        "link": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories",
+        "summary": "Investors are flooding back into Treasurys for safety to hedge the risks of more AI fallout in stock and credit markets.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792658820000
+        "pubDate": 1792689360000
       },
       {
-        "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
-        "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
-        "summary": "SpaceX merger commentary is arguably the biggest thing on the minds of Tesla investors right now — and Musk had nothing new to offer on Wednesday.",
+        "title": "Young Americans are giving up their cars. It’s a path to financial freedom, for some.",
+        "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+        "summary": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other thi...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792658760000
+        "pubDate": 1792687680000
       }
     ],
     "business": [
+      {
+        "title": "'I wasn't thinking straight' says five jobs civil servant",
+        "link": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro?at_medium=RSS&at_campaign=rss",
+        "summary": "Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.",
+        "source": "BBC News",
+        "pubDate": 1792681547000
+      },
       {
         "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
         "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
         "summary": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
         "source": "BBC News",
-        "pubDate": 1792661878000
+        "pubDate": 1792679339000
       },
       {
-        "title": "For Clues About How A.I. Will Change Work, Look to the Past",
-        "link": "https://www.nytimes.com/2026/10/22/business/economy/ai-economy-jobs-history.html",
-        "summary": "Economists hope earlier episodes of labor disruption, from the Industrial Revolution to the Great Depression, can help us prepare for the age of artificial intelligence.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1792659712000
-      },
-      {
-        "title": "Children in care to get £10 a week savings",
-        "link": "https://www.bbc.co.uk/news/articles/c6vg0klve484o?at_medium=RSS&at_campaign=rss",
-        "summary": "Eligible people in the care system will be able to access the savings once they turn 18.",
+        "title": "Tank barrel production returns to UK after 20 years",
+        "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
         "source": "BBC News",
-        "pubDate": 1792652265000
+        "pubDate": 1792676719000
+      },
+      {
+        "title": "The Briefing Room",
+        "link": "https://www.bbc.co.uk/sounds/play/m00333cg?at_medium=RSS&at_campaign=rss",
+        "summary": "After mass protests and violence, what will persuade the French to accept economic reform?",
+        "source": "BBC News",
+        "pubDate": 1792675140000
       },
       {
         "title": "What is PHP and why did it spark a global cyber-security scramble?",
         "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
         "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
         "source": "BBC News",
-        "pubDate": 1792650299000
-      },
-      {
-        "title": "Woman 'scared to turn heating on' due to oil cost",
-        "link": "https://www.bbc.co.uk/news/articles/cmgel220j7nvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Roslynn Garner-Gatley starts using a hot water bottle, bed socks and earlier bedtimes to stay warm.",
-        "source": "BBC News",
-        "pubDate": 1792646962000
+        "pubDate": 1792667758000
       }
     ],
     "world": [
       {
-        "title": "Putin Nears a Prize: Restoring Ties With the U.S. While Giving Up Nothing",
-        "link": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
-        "summary": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
+        "title": "Total ban on protests in Marseille and Lyon after riots ",
+        "link": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+        "summary": "Protests will only be allowed in some towns and cities if organised by unions, and top museums will be closed on Saturday.",
+        "source": "BBC News",
+        "pubDate": 1792691144000
+      },
+      {
+        "title": "As Typhoon Champi Nears, Taiwan’s Mayors Bet on a Popular Day Off",
+        "link": "https://www.nytimes.com/2026/10/22/world/asia/taiwan-typhoon-champi-mayors.html",
+        "summary": "One expert said the likelihood that a mayor announces closure of work and school because of a typhoon increases 31 percent during an election year.",
         "source": "NYT > World News",
-        "pubDate": 1792661548000
+        "pubDate": 1792690750000
       },
       {
-        "title": "How do Israel's elections work and who are the main contenders?",
-        "link": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Many view it as one of the most pivotal elections in Israel's history, with global implications.",
+        "title": "'Looksmaxxing' influencer Clavicular pleads not guilty to rape charge",
+        "link": "https://www.bbc.co.uk/news/articles/cqwy71ldj3w9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The influencer, whose real name is Braden Peters, is accused of sexually assaulting a 17-year-old girl in 2025.",
         "source": "BBC News",
-        "pubDate": 1792661230000
+        "pubDate": 1792689702000
       },
       {
-        "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-        "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-        "summary": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom.",
+        "title": "'Demeaning' and 'absurd': The backlash against a hugging grandparents consent ad",
+        "link": "https://www.bbc.co.uk/news/articles/c83vqn6zwrx0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Jim O'Callaghan described the video as \"inappropriate and demeaning to grandparents\".",
         "source": "BBC News",
-        "pubDate": 1792660488000
+        "pubDate": 1792689497000
       },
       {
-        "title": "Some New Yorkers hail ban on horse-drawn carriages, but drivers fear for incomes",
-        "link": "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss",
-        "summary": "As councillors prepare to banish the vehicles, views in Central Park are divided over the 160-year-old tradition.",
-        "source": "BBC News",
-        "pubDate": 1792660008000
-      },
-      {
-        "title": "Space Debris Found Twice Within Days Amid ‘Growing Casualty Risk’",
-        "link": "https://www.nytimes.com/2026/10/22/world/asia/space-debris-indonesia-minnesota.html",
-        "summary": "Debris was found in Indonesia on Monday, just days after a farmer across the globe in Minnesota reported a massive metal object thought to be space junk in a cornfield.",
+        "title": "Italy Experiences Food and Fuel Shortages After Truckers on Strike Block Roads",
+        "link": "https://www.nytimes.com/2026/10/22/world/europe/italy-protests-shortages-truckers.html",
+        "summary": "Truckers protesting high gas prices have prevented deliveries to parts of southern Italy, leading to empty shelves and dry pumps.",
         "source": "NYT > World News",
-        "pubDate": 1792659811000
+        "pubDate": 1792689269000
       }
     ]
   }
