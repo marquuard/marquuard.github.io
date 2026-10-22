@@ -1,81 +1,102 @@
 {
-  "lastUpdated": "2026-10-22T17:51:06.584Z",
+  "lastUpdated": "2026-10-22T23:52:56.860Z",
   "categories": {
     "technology": [
       {
-        "title": "Amazon renames Kindle Unlimited to Kindle Plus and expands access to audiobooks",
-        "link": "https://www.theverge.com/tech/1016789/amazon-kindle-unlimited-plus-subscription-ai-audiobooks",
-        "summary": "The plus-ification of subscription services continues unabated with Amazon becoming the latest company to follow suit with a Kindle Unlimited rebrand. The subscription service is n...",
+        "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
+        "link": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
+        "summary": "Spotify co-CEO Alex Norström confirmed on this week's earnings call that the company is trying to catch Spotify Family plan users who don't actually live together with a new QR cod...",
         "source": "The Verge",
-        "pubDate": 1792691200000
+        "pubDate": 1792710163000
       },
       {
-        "title": "Elon Musk says Tesla will sell 5 million cars by 2030 — math says otherwise",
-        "link": "https://www.theverge.com/transportation/1016055/elon-musk-tesla-5-million-cars-2030-reality-check",
-        "summary": "On Tesla's earnings call Wednesday, Elon Musk made one of his patented pie-in-the-sky predictions that typically sends his fans into paroxysms of ecstasy: 5 million vehicle deliver...",
+        "title": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
+        "link": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
+        "summary": "An Xbox Elite controller. | Photo by Antonio G. Di Benedetto / The Verge\t\n\nFortune dropped a bombshell report on the future of gaming this week. According to the publication's Micr...",
         "source": "The Verge",
-        "pubDate": 1792690972000
+        "pubDate": 1792710000000
       },
       {
-        "title": "Someone hacked the Switch 2 by using an old game and AI",
-        "link": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
-        "summary": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like...",
+        "title": "Canva’s first AI image model plans designs before generating them",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft...",
         "source": "The Verge",
-        "pubDate": 1792689691000
+        "pubDate": 1792705885000
       },
       {
-        "title": "Meta shocked by $25B fine after N.M. refused to join multistate settlement",
-        "link": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
-        "summary": "Meta will appeal a ruling imposing the largest fine Mark Zuckerberg has ever seen.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792688671000
+        "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+        "link": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
+        "summary": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with e...",
+        "source": "The Verge",
+        "pubDate": 1792704639000
       },
       {
-        "title": "Arc browser is shutting down",
-        "link": "https://www.theverge.com/tech/1016832/arc-browser-shutting-down",
-        "summary": "Arc’s website today. | Screenshot: The Verge\t\n\nThe Browser Company plans to \"sunset\"  its Arc browser on December 22nd, according to a post on the Arc website. The company moved on...",
+        "title": "Fall 2026 earnings watch",
+        "link": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
+        "summary": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to invest...",
         "source": "The Verge",
-        "pubDate": 1792688617000
+        "pubDate": 1792703716000
       }
     ],
     "finance": [
       {
-        "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
-        "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
-        "summary": "Trick or treat? Musk has a long record of saying things have little relation to reality.",
+        "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
+        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+        "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792690140000
+        "pubDate": 1792710900000
       },
       {
-        "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
-        "link": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
-        "summary": "Social Security is looking to reverse an initially slow uptake on Trump accounts",
+        "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+        "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+        "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792689840000
+        "pubDate": 1792710000000
       },
       {
-        "title": "Young investors are betting on prediction markets and crypto. But this bestselling author says the boring money moves still work.",
-        "link": "https://www.marketwatch.com/story/young-investors-are-betting-on-prediction-markets-and-crypto-but-this-bestselling-author-says-the-boring-money-moves-still-work-cd9d350a?mod=mw_rss_topstories",
-        "summary": "Beth Kobliner, author of “Get a Financial Life,” explains why today’s young people face a tougher financial world and reveals the three money moves she would make first.",
+        "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
+        "link": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
+        "summary": "Stop listening to market pundits and start looking at market performance.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792689660000
+        "pubDate": 1792709640000
       },
       {
-        "title": "‘AI is on trial’: Bond yields sink below 5% as investors look for safety",
-        "link": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories",
-        "summary": "Investors are flooding back into Treasurys for safety to hedge the risks of more AI fallout in stock and credit markets.",
+        "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
+        "link": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
+        "summary": "The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop sin...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792689360000
+        "pubDate": 1792707420000
       },
       {
-        "title": "Young Americans are giving up their cars. It’s a path to financial freedom, for some.",
-        "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
-        "summary": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other thi...",
+        "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
+        "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+        "summary": "‘It’s a take-back trade,’ says PGIM’s Tipp. ‘Not an all-out fear of recession type of situation.’",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792687680000
+        "pubDate": 1792706820000
       }
     ],
     "business": [
+      {
+        "title": "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
+        "link": "https://www.bbc.co.uk/news/articles/c63r5xpezz51o?at_medium=RSS&at_campaign=rss",
+        "summary": "Grandma Droniak, Nonna Gracie, Viv Truran and Barbara Costello have all found fame on social media in their later years.",
+        "source": "BBC News",
+        "pubDate": 1792711238000
+      },
+      {
+        "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+        "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
+        "source": "BBC News",
+        "pubDate": 1792708073000
+      },
+      {
+        "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+        "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
+        "summary": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
+        "source": "BBC News",
+        "pubDate": 1792693616000
+      },
       {
         "title": "'I wasn't thinking straight' says five jobs civil servant",
         "link": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro?at_medium=RSS&at_campaign=rss",
@@ -89,64 +110,43 @@
         "summary": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
         "source": "BBC News",
         "pubDate": 1792679339000
-      },
-      {
-        "title": "Tank barrel production returns to UK after 20 years",
-        "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
-        "source": "BBC News",
-        "pubDate": 1792676719000
-      },
-      {
-        "title": "The Briefing Room",
-        "link": "https://www.bbc.co.uk/sounds/play/m00333cg?at_medium=RSS&at_campaign=rss",
-        "summary": "After mass protests and violence, what will persuade the French to accept economic reform?",
-        "source": "BBC News",
-        "pubDate": 1792675140000
-      },
-      {
-        "title": "What is PHP and why did it spark a global cyber-security scramble?",
-        "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
-        "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
-        "source": "BBC News",
-        "pubDate": 1792667758000
       }
     ],
     "world": [
       {
-        "title": "Total ban on protests in Marseille and Lyon after riots ",
-        "link": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
-        "summary": "Protests will only be allowed in some towns and cities if organised by unions, and top museums will be closed on Saturday.",
+        "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+        "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+        "summary": "The quake hit a mountainous, sparsely-populated region in north-eastern Tibet.",
         "source": "BBC News",
-        "pubDate": 1792691144000
+        "pubDate": 1792711365000
       },
       {
-        "title": "As Typhoon Champi Nears, Taiwan’s Mayors Bet on a Popular Day Off",
-        "link": "https://www.nytimes.com/2026/10/22/world/asia/taiwan-typhoon-champi-mayors.html",
-        "summary": "One expert said the likelihood that a mayor announces closure of work and school because of a typhoon increases 31 percent during an election year.",
+        "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
+        "link": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Officials compare working in Russia since its full-scale invasion of Ukraine to the Cold War era.",
+        "source": "BBC News",
+        "pubDate": 1792710980000
+      },
+      {
+        "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+        "link": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+        "summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
+        "source": "BBC News",
+        "pubDate": 1792710976000
+      },
+      {
+        "title": "Serbian Election Underscores the Region’s Long Political Limbo",
+        "link": "https://www.nytimes.com/2026/10/22/world/europe/serbia-elections-nationalist-politics.html",
+        "summary": "Aleksandar Vucic, Serbia’s dominant political figure since 2012, may extend his grip, using the Balkans’ unresolved nationalist resentments.",
         "source": "NYT > World News",
-        "pubDate": 1792690750000
+        "pubDate": 1792709075000
       },
       {
-        "title": "'Looksmaxxing' influencer Clavicular pleads not guilty to rape charge",
-        "link": "https://www.bbc.co.uk/news/articles/cqwy71ldj3w9o?at_medium=RSS&at_campaign=rss",
-        "summary": "The influencer, whose real name is Braden Peters, is accused of sexually assaulting a 17-year-old girl in 2025.",
+        "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+        "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
         "source": "BBC News",
-        "pubDate": 1792689702000
-      },
-      {
-        "title": "'Demeaning' and 'absurd': The backlash against a hugging grandparents consent ad",
-        "link": "https://www.bbc.co.uk/news/articles/c83vqn6zwrx0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Jim O'Callaghan described the video as \"inappropriate and demeaning to grandparents\".",
-        "source": "BBC News",
-        "pubDate": 1792689497000
-      },
-      {
-        "title": "Italy Experiences Food and Fuel Shortages After Truckers on Strike Block Roads",
-        "link": "https://www.nytimes.com/2026/10/22/world/europe/italy-protests-shortages-truckers.html",
-        "summary": "Truckers protesting high gas prices have prevented deliveries to parts of southern Italy, leading to empty shelves and dry pumps.",
-        "source": "NYT > World News",
-        "pubDate": 1792689269000
+        "pubDate": 1792708073000
       }
     ]
   }
