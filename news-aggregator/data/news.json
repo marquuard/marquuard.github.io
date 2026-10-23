@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-10-22T23:52:56.860Z",
+  "lastUpdated": "2026-10-23T09:44:53.810Z",
   "categories": {
     "technology": [
+      {
+        "title": "Etsy is cracking down on AI slop listings",
+        "link": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+        "summary": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say the...",
+        "source": "The Verge",
+        "pubDate": 1792714198000
+      },
       {
         "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
         "link": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
@@ -17,136 +24,129 @@
         "pubDate": 1792710000000
       },
       {
-        "title": "Canva’s first AI image model plans designs before generating them",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-        "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft...",
-        "source": "The Verge",
-        "pubDate": 1792705885000
+        "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+        "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+        "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1792707933000
       },
       {
-        "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
-        "link": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
-        "summary": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with e...",
-        "source": "The Verge",
-        "pubDate": 1792704639000
-      },
-      {
-        "title": "Fall 2026 earnings watch",
-        "link": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
-        "summary": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to invest...",
-        "source": "The Verge",
-        "pubDate": 1792703716000
+        "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+        "link": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+        "summary": "Markers released top-line results today after previously reporting the trial succeeded.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1792707139000
       }
     ],
     "finance": [
       {
-        "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
-        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-        "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
+        "title": "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.",
+        "link": "https://www.marketwatch.com/story/this-market-signal-just-occurred-for-only-the-second-time-since-1999-heres-what-happened-and-what-it-means-a126cf31?mod=mw_rss_topstories",
+        "summary": "An unusual occurrence with breadth and the stock market just occurred.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792710900000
+        "pubDate": 1792748100000
       },
       {
-        "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-        "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-        "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
+        "title": "France is getting its credit rating reviewed by Moody’s. What to expect as French debt turmoil spills overseas.",
+        "link": "https://www.marketwatch.com/story/france-is-getting-its-credit-rating-reviewed-by-moodys-what-to-expect-as-french-debt-turmoil-spills-overseas-e39de111?mod=mw_rss_topstories",
+        "summary": "Moody’s is set to update its rating on France’s debt after U.S. markets close on Friday.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792710000000
+        "pubDate": 1792747680000
       },
       {
-        "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
-        "link": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
-        "summary": "Stop listening to market pundits and start looking at market performance.",
+        "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
+        "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
+        "summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a post-results bump. But not for Bloom Energy, the fuel-cell maker that has flouris...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792709640000
+        "pubDate": 1792747140000
       },
       {
-        "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
-        "link": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
-        "summary": "The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop sin...",
+        "title": "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
+        "link": "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
+        "summary": "“I retired in 2020 and subsequently went through a divorce a few years later.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792707420000
+        "pubDate": 1792746900000
       },
       {
-        "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
-        "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
-        "summary": "‘It’s a take-back trade,’ says PGIM’s Tipp. ‘Not an all-out fear of recession type of situation.’",
+        "title": "The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.",
+        "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
+        "summary": "Reports of Starlink’s discussions with cell-tower owners were taken badly by shareholders of Verizon, AT&T and T-Mobile.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792706820000
+        "pubDate": 1792746060000
       }
     ],
     "business": [
       {
-        "title": "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
-        "link": "https://www.bbc.co.uk/news/articles/c63r5xpezz51o?at_medium=RSS&at_campaign=rss",
-        "summary": "Grandma Droniak, Nonna Gracie, Viv Truran and Barbara Costello have all found fame on social media in their later years.",
+        "title": "What is the Budget and what could be in it?",
+        "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+        "summary": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
         "source": "BBC News",
-        "pubDate": 1792711238000
+        "pubDate": 1792743244000
       },
       {
-        "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
-        "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
+        "title": "The Indian workers filming their work to train AI",
+        "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Indian workers are being paid to film themselves at work and the footage is used to train AI.",
         "source": "BBC News",
-        "pubDate": 1792708073000
+        "pubDate": 1792742657000
       },
       {
-        "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
-        "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
-        "summary": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
+        "title": "Lights will stay on this winter, grid operator says after concerns",
+        "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
         "source": "BBC News",
-        "pubDate": 1792693616000
+        "pubDate": 1792738030000
       },
       {
-        "title": "'I wasn't thinking straight' says five jobs civil servant",
-        "link": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro?at_medium=RSS&at_campaign=rss",
-        "summary": "Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.",
+        "title": "Renting in London - 'I pay £2,000 for one bedroom'",
+        "link": "https://www.bbc.co.uk/news/videos/cm5ydzw56vkeo?at_medium=RSS&at_campaign=rss",
+        "summary": "We ask people in the capital how much they pay for their homes.",
         "source": "BBC News",
-        "pubDate": 1792681547000
+        "pubDate": 1792734354000
       },
       {
-        "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
-        "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
-        "summary": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
+        "title": "'I live in the dark': How rising bills are shaping daily life",
+        "link": "https://www.bbc.co.uk/news/articles/cwz0vxl21m3jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Errol McGuiness says he has changed his daily routine to cope with higher household bills.",
         "source": "BBC News",
-        "pubDate": 1792679339000
+        "pubDate": 1792733735000
       }
     ],
     "world": [
       {
-        "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-        "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-        "summary": "The quake hit a mountainous, sparsely-populated region in north-eastern Tibet.",
+        "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+        "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
         "source": "BBC News",
-        "pubDate": 1792711365000
+        "pubDate": 1792748203000
       },
       {
-        "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
-        "link": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Officials compare working in Russia since its full-scale invasion of Ukraine to the Cold War era.",
-        "source": "BBC News",
-        "pubDate": 1792710980000
-      },
-      {
-        "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
-        "link": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
-        "source": "BBC News",
-        "pubDate": 1792710976000
-      },
-      {
-        "title": "Serbian Election Underscores the Region’s Long Political Limbo",
-        "link": "https://www.nytimes.com/2026/10/22/world/europe/serbia-elections-nationalist-politics.html",
-        "summary": "Aleksandar Vucic, Serbia’s dominant political figure since 2012, may extend his grip, using the Balkans’ unresolved nationalist resentments.",
+        "title": "How Long Will Russians Put Up With War? Here’s What They Told Us.",
+        "link": "https://www.nytimes.com/2026/10/23/world/europe/russia-ukraine-public-opinion.html",
+        "summary": "“Everything is fine” is a common refrain in a country used to adapting to a new normal.",
         "source": "NYT > World News",
-        "pubDate": 1792709075000
+        "pubDate": 1792747847000
       },
       {
-        "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
-        "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
-        "source": "BBC News",
-        "pubDate": 1792708073000
+        "title": "The Epstein Files Produce an Unlikely Weapon for the Houthi Messaging Wars",
+        "link": "https://www.nytimes.com/2026/10/23/world/middleeast/houthis-saudi-arabia-propaganda-epstein.html",
+        "summary": "The Yemeni militia is using the culture of its sworn enemies in the renewed fighting with Saudi Arabia.",
+        "source": "NYT > World News",
+        "pubDate": 1792747845000
+      },
+      {
+        "title": "Palestinian Gunmen Open Fire on Israelis in the West Bank, Officials Say",
+        "link": "https://www.nytimes.com/2026/10/23/world/middleeast/west-bank-shooting-israel.html",
+        "summary": "Five people were wounded in the attack, days before national elections, health workers said. The Israeli military said its soldiers had killed two of the assailants.",
+        "source": "NYT > World News",
+        "pubDate": 1792747722000
+      },
+      {
+        "title": "Where Brazil’s Left Is Losing Voters",
+        "link": "https://www.nytimes.com/video/world/americas/100000011230998/brazil-nanuque-election-shift.html",
+        "summary": "Far from Rio and São Paulo, small towns like Nanuque, with big agricultural businesses and a surging evangelical Christian movement, are swinging to the right.",
+        "source": "NYT > World News",
+        "pubDate": 1792746261000
       }
     ]
   }
