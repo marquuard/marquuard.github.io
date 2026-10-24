@@ -1,81 +1,95 @@
 {
-  "lastUpdated": "2026-10-24T09:17:49.575Z",
+  "lastUpdated": "2026-10-24T16:26:02.017Z",
   "categories": {
     "technology": [
       {
-        "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-        "link": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-        "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792795705000
-      },
-      {
-        "title": "Xbox’s first chief operating officer is out after just a few months",
-        "link": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
-        "summary": "Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox m...",
+        "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+        "link": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+        "summary": "Lindsay Powell, who releases records under the name Fielded, has spent most of her career subverting expectations and genre conventions. According to their Bandcamp page, Fielded s...",
         "source": "The Verge",
-        "pubDate": 1792791566000
+        "pubDate": 1792854000000
       },
       {
-        "title": "OpenAI now trains its frontier AI models with no internet access",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-        "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline ...",
+        "title": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
+        "link": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
+        "summary": "LG’s C6 OLED TV is on sale in multiple sizes starting at $999.99 ($300 off). | Image: LG\t\n\nBlack Friday is still over a month away, but if you’re hoping to upgrade your TV, you don...",
         "source": "The Verge",
-        "pubDate": 1792789867000
+        "pubDate": 1792854000000
       },
       {
-        "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
-        "link": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
-        "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792787323000
+        "title": "What to expect from Apple’s ‘Pro and tell’ event",
+        "link": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
+        "summary": "It feels like Apple's Welcome Home event just happened. And the iPhone Duo announcement isn't all that far in our rearview mirror, either. Yet, the company is back with another lau...",
+        "source": "The Verge",
+        "pubDate": 1792851300000
       },
       {
-        "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-        "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-        "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1792786795000
+        "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+        "link": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+        "summary": "The Lenovo Yoga 9n is a pricey workstation laptop, but being a 2-in-1 also makes it fun. | Photo: Antonio G. Di Benedetto / The Verge\t\n\nIt looks like the long-rumored touchscreen M...",
+        "source": "The Verge",
+        "pubDate": 1792850400000
+      },
+      {
+        "title": "Lee Chang Dong ponders the ethics of the camera",
+        "link": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
+        "summary": "Lee Chang Dong's seventh feature film, Possible Love, is inspired by true events from 2009, when a Korean conglomerate fired a third of its staff - 2,600 employees - after which ma...",
+        "source": "The Verge",
+        "pubDate": 1792845000000
       }
     ],
     "finance": [
       {
-        "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-        "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-        "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+        "title": "Walmart, Best Buy and other stores now use digital price tags. Critics say they could lead to different prices for different shoppers.",
+        "link": "https://www.marketwatch.com/story/walmart-best-buy-and-other-stores-now-use-digital-price-tags-critics-say-they-could-lead-to-different-prices-for-different-shoppers-19e2f4da?mod=mw_rss_topstories",
+        "summary": "Store aisles are getting a digital makeover.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792828800000
+        "pubDate": 1792858680000
       },
       {
-        "title": "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
-        "link": "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
-        "summary": "“I retired in 2020 and subsequently went through a divorce a few years later.”",
+        "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
+        "link": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
+        "summary": "Market turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792825200000
+        "pubDate": 1792857840000
       },
       {
-        "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-        "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-        "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
+        "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
+        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+        "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792795740000
+        "pubDate": 1792857600000
       },
       {
-        "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-        "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-        "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
+        "title": "Money-saving habits to cope with higher prices — from our readers",
+        "link": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
+        "summary": "I asked people what they’re doing to make life more affordable today. I’ll definitely be trying some of these.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792792800000
+        "pubDate": 1792855620000
       },
       {
-        "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
-        "link": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
-        "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
+        "title": "Is getting a wedding band from Quince a bad idea? It’s a third of the price of a local jeweler.",
+        "link": "https://www.marketwatch.com/story/is-getting-a-wedding-band-from-quince-a-bad-idea-its-a-third-of-the-price-fa89c9b2?mod=mw_rss_topstories",
+        "summary": "“I am slightly anxious about purchasing something so big” from an online retailer known for cut-price duplicates of popular clothes and accessories.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792791960000
+        "pubDate": 1792854600000
       }
     ],
     "business": [
+      {
+        "title": "Rising demand from families needing Christmas help",
+        "link": "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o?at_medium=RSS&at_campaign=rss",
+        "summary": "Charlotte Riley says more families are reaching out for help for a variety of reasons.",
+        "source": "BBC News",
+        "pubDate": 1792842935000
+      },
+      {
+        "title": "Charity expects demand for Christmas present campaign",
+        "link": "https://www.bbc.co.uk/news/articles/cj62yvqvxd4qo?at_medium=RSS&at_campaign=rss",
+        "summary": "The campaign, run by Little Stars, is running from today until 4 December.",
+        "source": "BBC News",
+        "pubDate": 1792835622000
+      },
       {
         "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
         "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
@@ -96,57 +110,43 @@
         "summary": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
         "source": "BBC News",
         "pubDate": 1792800345000
-      },
-      {
-        "title": "Before you crank up the thermostat, try these tips to keep your house warmer for longer",
-        "link": "https://www.bbc.co.uk/news/articles/cqr7yeed1ed7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Make draught excluders from socks, leave your oven door open after cooking and opt for lots of thin layers of clothing to stay warm.",
-        "source": "BBC News",
-        "pubDate": 1792799445000
-      },
-      {
-        "title": "U.S. Government Takes a Cut of Chip Business in Japan-Funded Deal",
-        "link": "https://www.nytimes.com/2026/10/23/business/economy/us-japan-chip-deal.html",
-        "summary": "President Trump’s novel deal-making is on display in upstate New York, where the administration is funneling Japanese funds into a government-owned chip factory.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1792771185000
       }
     ],
     "world": [
       {
-        "title": "Looting Left Damage and Fear on Paradise Street in Marseille",
-        "link": "https://www.nytimes.com/2026/10/24/world/europe/france-looting-rue-paradis-marseille.html",
-        "summary": "Looters ravaged a storied commercial avenue in France’s second-largest city. Its merchants fear that more unrest could follow.",
+        "title": "Live Updates: Protesters March in France Amid Heavy Security",
+        "link": "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
+        "summary": "In Marseille, clashes broke out between protesters and the police, who fired tear gas. As many as 70,000 police and security officers will try to avert the arson and looting that s...",
         "source": "NYT > World News",
-        "pubDate": 1792832668000
+        "pubDate": 1792858661000
       },
       {
-        "title": "Ukraine’s Feeling of Moral Whiplash at the Hands of Trump",
-        "link": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-trump.html",
-        "summary": "The United States once declared that Ukraine’s fight was the front line in a global battle for freedom. Now the Trump administration is sending money to Moscow.",
+        "title": "Drones on Starshield Network Are Back to Normal Speeds, Ukraine Says",
+        "link": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
+        "summary": "The announcement followed more than a week of unexplained problems with Starshield, the Pentagon-funded satellite network Ukraine relies on to thwart Russian attacks.",
         "source": "NYT > World News",
-        "pubDate": 1792832600000
+        "pubDate": 1792858298000
       },
       {
-        "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
-        "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
-        "source": "BBC News",
-        "pubDate": 1792832595000
+        "title": "Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say",
+        "link": "https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html",
+        "summary": "The U.S. government has ordered diplomats and other federal employees to leave Saudi Arabia. It is also drawing down staff at other missions in the region.",
+        "source": "NYT > World News",
+        "pubDate": 1792858155000
       },
       {
-        "title": "The Other Bolsonaro Who Could Become Brazil’s Next President",
-        "link": "https://www.nytimes.com/2026/10/24/world/americas/flavio-bolsonaro-brazil-election-president.html",
-        "summary": "Flávio Bolsonaro, the son of the former president who was jailed over a coup plot, could be on the cusp of winning Brazil’s presidency.",
+        "title": "Why Is the U.S. Accusing Canada of Election Interference?",
+        "link": "https://www.nytimes.com/2026/10/24/world/canada/us-midterms-election-interference-carney-trump.html",
+        "summary": "The Trump administration says Canadian officials are trying to sway the midterm elections for Democrats. Prime Minister Mark Carney says those claims have “no merit.”",
         "source": "NYT > World News",
-        "pubDate": 1792832592000
+        "pubDate": 1792857741000
       },
       {
-        "title": "U.S. Pressures Mexico to Deliver a Security Win Ahead of Midterm Elections",
-        "link": "https://www.nytimes.com/2026/10/24/world/americas/us-mexico-security-cartels.html",
-        "summary": "The Trump administration wants a public victory soon, as well as a potential path to U.S. military forces in Mexico.",
+        "title": "Paris, Battened Down Against Riots, Offers Lonely Welcome to Visitors",
+        "link": "https://www.nytimes.com/2026/10/24/world/europe/paris-riots-tourism.html",
+        "summary": "Americans on hand for the N.F.L.’s first-ever game in France found famous museums closed and shops boarded up.",
         "source": "NYT > World News",
-        "pubDate": 1792832583000
+        "pubDate": 1792857632000
       }
     ]
   }
