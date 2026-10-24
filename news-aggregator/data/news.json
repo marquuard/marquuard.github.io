@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-10-24T16:26:02.017Z",
+  "lastUpdated": "2026-10-24T22:53:39.271Z",
   "categories": {
     "technology": [
+      {
+        "title": "Blue Planet III is keeping the rough edges in the age of AI",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+        "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, cry...",
+        "source": "The Verge",
+        "pubDate": 1792877352000
+      },
+      {
+        "title": "Pennsylvania will require labels on AI-generated ads",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+        "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires a...",
+        "source": "The Verge",
+        "pubDate": 1792866741000
+      },
       {
         "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
         "link": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
@@ -22,57 +36,43 @@
         "summary": "It feels like Apple's Welcome Home event just happened. And the iPhone Duo announcement isn't all that far in our rearview mirror, either. Yet, the company is back with another lau...",
         "source": "The Verge",
         "pubDate": 1792851300000
-      },
-      {
-        "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
-        "link": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
-        "summary": "The Lenovo Yoga 9n is a pricey workstation laptop, but being a 2-in-1 also makes it fun. | Photo: Antonio G. Di Benedetto / The Verge\t\n\nIt looks like the long-rumored touchscreen M...",
-        "source": "The Verge",
-        "pubDate": 1792850400000
-      },
-      {
-        "title": "Lee Chang Dong ponders the ethics of the camera",
-        "link": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
-        "summary": "Lee Chang Dong's seventh feature film, Possible Love, is inspired by true events from 2009, when a Korean conglomerate fired a third of its staff - 2,600 employees - after which ma...",
-        "source": "The Verge",
-        "pubDate": 1792845000000
       }
     ],
     "finance": [
       {
-        "title": "Walmart, Best Buy and other stores now use digital price tags. Critics say they could lead to different prices for different shoppers.",
-        "link": "https://www.marketwatch.com/story/walmart-best-buy-and-other-stores-now-use-digital-price-tags-critics-say-they-could-lead-to-different-prices-for-different-shoppers-19e2f4da?mod=mw_rss_topstories",
-        "summary": "Store aisles are getting a digital makeover.",
+        "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+        "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+        "summary": "“Nothing has been set aside for his needs.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792858680000
+        "pubDate": 1792872900000
       },
       {
-        "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
-        "link": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
-        "summary": "Market turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.",
+        "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+        "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+        "summary": "“My late father bought our house for $250,000 in the 1990s.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792857840000
+        "pubDate": 1792872000000
       },
       {
-        "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
-        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-        "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
+        "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+        "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+        "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792857600000
+        "pubDate": 1792871100000
       },
       {
-        "title": "Money-saving habits to cope with higher prices — from our readers",
-        "link": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
-        "summary": "I asked people what they’re doing to make life more affordable today. I’ll definitely be trying some of these.",
+        "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+        "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+        "summary": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other thi...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792855620000
+        "pubDate": 1792867500000
       },
       {
-        "title": "Is getting a wedding band from Quince a bad idea? It’s a third of the price of a local jeweler.",
-        "link": "https://www.marketwatch.com/story/is-getting-a-wedding-band-from-quince-a-bad-idea-its-a-third-of-the-price-fa89c9b2?mod=mw_rss_topstories",
-        "summary": "“I am slightly anxious about purchasing something so big” from an online retailer known for cut-price duplicates of popular clothes and accessories.",
+        "title": "I’m 58 and hate annuities. How can I get dependable income in retirement?",
+        "link": "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
+        "summary": "For a person looking to make their portfolio more conservative, a TIPS ladder may achieve the same effect",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792854600000
+        "pubDate": 1792864980000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Live Updates: Protesters March in France Amid Heavy Security",
-        "link": "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
-        "summary": "In Marseille, clashes broke out between protesters and the police, who fired tear gas. As many as 70,000 police and security officers will try to avert the arson and looting that s...",
-        "source": "NYT > World News",
-        "pubDate": 1792858661000
-      },
-      {
-        "title": "Drones on Starshield Network Are Back to Normal Speeds, Ukraine Says",
+        "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
         "link": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
-        "summary": "The announcement followed more than a week of unexplained problems with Starshield, the Pentagon-funded satellite network Ukraine relies on to thwart Russian attacks.",
+        "summary": "The comments were his first since the disruption in the country’s satellite service. Earlier, Ukraine said drones using Starshield, the Pentagon-funded service, were back to normal...",
         "source": "NYT > World News",
-        "pubDate": 1792858298000
+        "pubDate": 1792881476000
       },
       {
-        "title": "Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say",
-        "link": "https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html",
-        "summary": "The U.S. government has ordered diplomats and other federal employees to leave Saudi Arabia. It is also drawing down staff at other missions in the region.",
+        "title": "4 Bodies Found in Haiti Are Thought to Be Those of Missing Salvadoran Soldiers",
+        "link": "https://www.nytimes.com/2026/10/24/world/americas/salvadoran-soldiers-haiti-dead.html",
+        "summary": "El Salvador had sent hundreds of troops to find the men, who were ambushed six days ago while working as part of the Gang Suppression Force.",
         "source": "NYT > World News",
-        "pubDate": 1792858155000
+        "pubDate": 1792881236000
       },
       {
-        "title": "Why Is the U.S. Accusing Canada of Election Interference?",
-        "link": "https://www.nytimes.com/2026/10/24/world/canada/us-midterms-election-interference-carney-trump.html",
-        "summary": "The Trump administration says Canadian officials are trying to sway the midterm elections for Democrats. Prime Minister Mark Carney says those claims have “no merit.”",
-        "source": "NYT > World News",
-        "pubDate": 1792857741000
+        "title": "Who are the candidates in Brazil's presidential election?",
+        "link": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
+        "summary": "Voters in Sunday's election are choosing between two very different candidates, as Americas correspondent Ione Wells reports from Rio de Janeiro.",
+        "source": "BBC News",
+        "pubDate": 1792879727000
       },
       {
-        "title": "Paris, Battened Down Against Riots, Offers Lonely Welcome to Visitors",
-        "link": "https://www.nytimes.com/2026/10/24/world/europe/paris-riots-tourism.html",
-        "summary": "Americans on hand for the N.F.L.’s first-ever game in France found famous museums closed and shops boarded up.",
+        "title": "Violent Protests Resurface in Albania: What to Know",
+        "link": "https://www.nytimes.com/2026/10/17/world/europe/albania-protests-what-to-know.html",
+        "summary": "Thousands have marched in student demonstrations over education, the cost of living, and a project linked to Jared Kushner, President Trump’s son-in-law.",
         "source": "NYT > World News",
-        "pubDate": 1792857632000
+        "pubDate": 1792878876000
+      },
+      {
+        "title": "Unrest Erupts Again in France, but This Time, With Less Property Damage",
+        "link": "https://www.nytimes.com/2026/10/24/world/europe/france-protests-unrest-clashes-police.html",
+        "summary": "After largely peaceful marches on Saturday, clashes broke out in the evening. But a large-scale police presence, 1,000 arrests and the rerouting of protest routes kept a lid on who...",
+        "source": "NYT > World News",
+        "pubDate": 1792876995000
       }
     ]
   }
