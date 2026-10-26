@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-10-25T23:01:05.325Z",
+  "lastUpdated": "2026-10-26T10:45:56.022Z",
   "categories": {
     "technology": [
+      {
+        "title": "The city that fought Flock",
+        "link": "https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure",
+        "summary": "It was about to be a long night in Huntington, West Virginia.\nMayor Patrick Farrell stood before 10 members of city council in a white dress shirt and dark blazer studded with an A...",
+        "source": "The Verge",
+        "pubDate": 1793008800000
+      },
       {
         "title": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
         "link": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
@@ -29,124 +36,117 @@
         "summary": "Launcher-like pinned tabs, pop-over glance view, and more make Zen my go to browser. | Image: Zen Browser\t\n\nI know many of you are mourning the loss of the Arc browser, and I get i...",
         "source": "The Verge",
         "pubDate": 1792956290000
-      },
-      {
-        "title": "This Switch 2 sequel accessory was a few millimeters away from being good",
-        "link": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
-        "summary": "The stick and face buttons are too close for comfort. | Photo: Cameron Faulkner / The Verge\t\n\nThe Crkd Nitro Deck was a saving grace for the original Nintendo Switch. The slide-on ...",
-        "source": "The Verge",
-        "pubDate": 1792947600000
       }
     ],
     "finance": [
       {
-        "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-        "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-        "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+        "title": "The Kospi index is the leading indicator for the global AI trade — and Goldman just slashed its forecast by 25%",
+        "link": "https://www.marketwatch.com/story/the-kospi-index-is-the-leading-indicator-for-the-global-ai-trade-and-goldman-just-slashed-its-forecast-by-25-ccfe2690?mod=mw_rss_topstories",
+        "summary": "A reduction in the growth multiple that investors are prepared to pay for AI stocks and a rise in volatility has forced Goldman strategist Tim Moe to take an axe to his Korean mark...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792959300000
+        "pubDate": 1793011380000
       },
       {
-        "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-        "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-        "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
+        "title": "My wife has only $80,000 saved for retirement. I have $2.2 million. Am I wrong to be shocked?",
+        "link": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
+        "summary": "“When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792958400000
+        "pubDate": 1793009700000
       },
       {
-        "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
-        "link": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
-        "summary": "“Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”",
+        "title": "Cheesecake Factory was just the subject of unflattering headlines. It’s actually one of the hottest stocks around.",
+        "link": "https://www.marketwatch.com/story/cheesecake-factory-was-just-the-subject-of-unflattering-headlines-its-actually-one-of-the-hottest-stocks-around-8435cc63?mod=mw_rss_topstories",
+        "summary": "President Barack Obama over the weekend compared President Donald Trump’s White House modifications to “Saddam Hussein opening up a Cheesecake Factory.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792956600000
+        "pubDate": 1793009040000
       },
       {
-        "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
-        "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-        "summary": "“Nothing has been set aside for his needs.”",
+        "title": "Tennis star Taylor Fritz is selling his condo for $860,000—with sweeping views of Miami",
+        "link": "https://www.marketwatch.com/story/tennis-star-taylor-fritz-is-selling-his-condo-for-860-000with-sweeping-views-of-miami-2db8d086?mod=mw_rss_topstories",
+        "summary": "Tennis star Taylor Fritz is serving up his Miami condo for $860,000, offering a buyer the chance to score a corner residence with sweeping views and a tennis court.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792951200000
+        "pubDate": 1793005440000
       },
       {
-        "title": "My partner of 17 years left me his $1 million home. His children are livid. Am I obliged to split it with them?",
-        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-        "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
+        "title": "Support for semiconductor stocks could be as much as 15% lower than current levels, says Morgan Stanley",
+        "link": "https://www.marketwatch.com/story/support-for-semiconductor-stocks-could-be-as-much-as-15-lower-than-current-levels-says-morgan-stanley-1f387f16?mod=mw_rss_topstories",
+        "summary": "The chief stock-market strategist for Morgan Stanley is sticking with a forecast that the S&P 500 will end the year at 8,000, but growing caution is on display as he identified tha...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1792947600000
+        "pubDate": 1793005320000
       }
     ],
     "business": [
       {
-        "title": "Budget to include £1bn for social and affordable housing",
-        "link": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The move will take funding for the 10-year programme to more than £40bn.",
+        "title": "Healey to shield low-income pensioners from income tax in the Budget",
+        "link": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss",
+        "summary": "Changes are needed to prevent the full, flat-rate state pension becoming liable for income tax after it rises in April.",
         "source": "BBC News",
-        "pubDate": 1792922597000
+        "pubDate": 1793010492000
       },
       {
-        "title": "Rosebank: Life on the oil field at the centre of a political storm",
-        "link": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Scotland editor James Cook finds out what life is like on board a ship in an untapped oil field awaiting its fate.",
-        "source": "BBC News",
-        "pubDate": 1792912538000
+        "title": "What’s Riding on Anthropic Going Public? Nearly Everything.",
+        "link": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
+        "summary": "Anthropic sits atop a pyramid of business partners and suppliers, making it a barometer of the broader economy. Its initial public offering will have widespread implications.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1793005335000
       },
       {
-        "title": "Heating oil costs 'more than double' ahead of winter",
-        "link": "https://www.bbc.co.uk/news/articles/c6n8de1jgrdvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Middleton in Teesdale has no mains gas supply so many residents use expensive heating oil.",
+        "title": "Salon owners urge Budget VAT cut as staffing pressures grow",
+        "link": "https://www.bbc.co.uk/news/articles/c60rlp8kkz1zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Marcus Perkins, who owns a hair and beauty salon in Brierley Hill, says he is scared for the future.",
         "source": "BBC News",
-        "pubDate": 1792912341000
+        "pubDate": 1792995251000
       },
       {
-        "title": "How families are cutting the cost of Halloween as spending grows",
-        "link": "https://www.bbc.co.uk/news/articles/c64g1kjgrl47o?at_medium=RSS&at_campaign=rss",
-        "summary": "Families are turning to homemade costumes, swaps and second-hand outfits to keep it affordable.",
+        "title": "What is the Budget and what could be in it?",
+        "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+        "summary": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
         "source": "BBC News",
-        "pubDate": 1792912196000
+        "pubDate": 1792980997000
       },
       {
-        "title": "Firms 'holding back' on new jobs ahead of Budget ",
-        "link": "https://www.bbc.co.uk/news/articles/c62kep355q02o?at_medium=RSS&at_campaign=rss",
-        "summary": "Some businesses say they want to see employment costs come down in the October Budget.",
+        "title": "Healey's Budget needs to sustain the stronger economy through gathering clouds",
+        "link": "https://www.bbc.co.uk/news/articles/ck87z4ng2l03o?at_medium=RSS&at_campaign=rss",
+        "summary": "The economic is positive now but come January things could become trickier for the Labour government",
         "source": "BBC News",
-        "pubDate": 1792911972000
+        "pubDate": 1792974409000
       }
     ],
     "world": [
       {
-        "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
-        "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
-        "source": "BBC News",
-        "pubDate": 1792968897000
+        "title": "What to Know About Lula’s Election Victory in Brazil, and What Comes Next",
+        "link": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html",
+        "summary": "President Luiz Inácio Lula da Silva won a fourth term, halting a string of conservative victories in Latin America. His opponent disputed the result.",
+        "source": "NYT > World News",
+        "pubDate": 1793010673000
       },
       {
-        "title": "Live Updates: Polls Close in Brazil as Presidential Race Comes to Chaotic Close",
-        "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election",
-        "summary": "The leftist president, Luiz Inácio Lula da Silva, accused officials in some areas of slowing transit. His opponent, Flávio Bolsonaro, a Trump ally, said flooding was hampering his ...",
+        "title": "Israeli Jews Across the Spectrum Face an Election of Fears",
+        "link": "https://www.nytimes.com/2026/10/26/world/middleeast/israel-election-stakes.html",
+        "summary": "Supporters and opponents of Prime Minister Benjamin Netanyahu have expressed intense anxieties about isolation abroad, security at home and the future of Israel’s identity.",
         "source": "NYT > World News",
-        "pubDate": 1792968788000
-      },
-      {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/heres-the-latest",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > World News",
-        "pubDate": 1792968786000
+        "pubDate": 1793010657000
       },
       {
         "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
         "link": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html",
         "summary": "“It is clear that we have lost these elections,” Aleksandar Vucic said in a surprisingly early speech congratulating his opponents.",
         "source": "NYT > World News",
-        "pubDate": 1792968054000
+        "pubDate": 1793009020000
       },
       {
-        "title": "The future of the Amazon rainforest could depend on who wins.",
-        "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-future-of-the-amazon-rainforest-could-depend-on-who-wins",
-        "summary": "Nincs elérhető összefoglaló.",
+        "title": "U.S. Army Trains Apache Helicopter Pilots to Shoot Drones",
+        "link": "https://www.nytimes.com/2026/10/26/world/europe/helicopters-drones-apache-shahed-russia-iran.html",
+        "summary": "The U.S. Army is training Apache pilots to shoot down drones as militaries around the world assess the efficacy of 20th-century technologies in a new era.",
         "source": "NYT > World News",
-        "pubDate": 1792968018000
+        "pubDate": 1793008851000
+      },
+      {
+        "title": "To Work With P.O.W.s, Ukrainians Suppress Feelings About the Enemy",
+        "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-russia-pows-prisoners.html",
+        "summary": "Much has been said about how Ukraine should treat Russian prisoners of war. Less attention has been paid to the emotional struggle for the Ukrainians tasked with that work.",
+        "source": "NYT > World News",
+        "pubDate": 1793008689000
       }
     ]
   }
