@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-10-27T00:14:08.076Z",
+  "lastUpdated": "2026-10-27T10:12:13.866Z",
   "categories": {
     "technology": [
+      {
+        "title": "Data center backlash is uniting America",
+        "link": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+        "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure c...",
+        "source": "The Verge",
+        "pubDate": 1793095200000
+      },
+      {
+        "title": "Acer is bringing a Predator gaming handheld to the US for the first time",
+        "link": "https://www.theverge.com/games/1019245/acer-predator-atlas-8-launch-price",
+        "summary": "It's been several months since Acer unveiled its Predator Atlas 8 gaming handheld, but now we finally know that it's coming to the US, and how much it'll cost. The Intel Arc G3 Ext...",
+        "source": "The Verge",
+        "pubDate": 1793094862000
+      },
       {
         "title": "OpenAI announces three big science discoveries and a new way to work with academics",
         "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
@@ -22,131 +36,117 @@
         "summary": "Running out of space on your Nintendo Switch 2? Thankfully, Samsung’s P9 MicroSD Express card is discounted at multiple retailers, with the 256GB version going for $47.99 (Amazon, ...",
         "source": "The Verge",
         "pubDate": 1793051796000
-      },
-      {
-        "title": "Anthropic is burning gas to feed the AI boom",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-        "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious.\n\n\"Competition for access to electrical supply and data center locati...",
-        "source": "The Verge",
-        "pubDate": 1793051131000
-      },
-      {
-        "title": "Worms mate in man's eyes, get plucked out right before larvae burst out",
-        "link": "https://arstechnica.com/health/2026/10/whats-worse-than-having-eye-worms-having-eye-worms-with-babies/",
-        "summary": "Case study gives a whole new meaning to \"bedroom eyes.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793046420000
       }
     ],
     "finance": [
+      {
+        "title": "Customers are chasing higher-rate products, and that’s bad news for banks like HSBC",
+        "link": "https://www.marketwatch.com/story/customers-are-chasing-higher-rate-products-and-thats-bad-news-for-banks-like-hsbc-3a6ec793?mod=mw_rss_topstories",
+        "summary": "Shares of banking giant HSBC Holdings fell as much as 7% on Tuesday as the lender revealed that customers are increasingly turning to higher-rate products.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793095320000
+      },
+      {
+        "title": "Designer Betsey Johnson takes $7 million SoCal home off the market",
+        "link": "https://www.marketwatch.com/story/designer-betsey-johnson-takes-7-million-socal-home-off-the-market-1f027f0e?mod=mw_rss_topstories",
+        "summary": "Betsey Johnson has taken her newly rebuilt Hidden Hills, Calif., home off the market after cutting the price once since it was listed in July.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793091720000
+      },
+      {
+        "title": "The impressive real estate portfolio of sitcom producer Chuck Lorre of ‘Big Bang Theory’ and ‘Two and a Half Men’ fame",
+        "link": "https://www.marketwatch.com/story/the-impressive-real-estate-portfolio-of-sitcom-producer-chuck-lorre-of-big-bang-theory-and-two-and-a-half-men-fame-f8e43ed4?mod=mw_rss_topstories",
+        "summary": "Legendary TV producer Chuck Lorre is opening up about his life like never before with the release of his autobiography, “Sitcom: A Memoir.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793091480000
+      },
+      {
+        "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
+        "link": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
+        "summary": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793073660000
+      },
       {
         "title": "‘You need only watch episodes of Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
         "link": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
         "summary": "“Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1793053800000
-      },
-      {
-        "title": "Dividend stocks are having an excellent October as tech sector struggles",
-        "link": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
-        "summary": "ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793052600000
-      },
-      {
-        "title": "Options traders are seizing control of the S&P 500",
-        "link": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
-        "summary": "There’s a reason the index hasn’t moved much since June, according to a team at UBS.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793052180000
-      },
-      {
-        "title": "TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours.",
-        "link": "https://www.marketwatch.com/story/tiktok-parent-bytedances-chatbot-is-now-giving-travel-booking-sites-a-run-for-their-money-and-yours-028e4aa0?mod=mw_rss_topstories",
-        "summary": "Consumers in China are starting to wonder — for good reason — whether the emerging AI travel agents have a hidden agenda.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793052000000
-      },
-      {
-        "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
-        "link": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
-        "summary": "Nearly half of Americans haven’t calculated what they’ll need in retirement.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793051700000
       }
     ],
     "business": [
       {
-        "title": "'I'm a single mum on £41,000 and limit my weekly shop to £40.' What do you want from the Budget?",
+        "title": "Budget measures to include fuel duty freeze and food tariff cuts ",
+        "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC understands the government will also freeze fuel duty again in the Budget.",
+        "source": "BBC News",
+        "pubDate": 1793095831000
+      },
+      {
+        "title": "Apple says it will replace iPhone Duo handsets with screen problems",
+        "link": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Photos shared online showed faults appearing on the screens of Apple's first foldable device.",
+        "source": "BBC News",
+        "pubDate": 1793093875000
+      },
+      {
+        "title": "Major Chinese brands drop Mbappé as backlash grows over Mao joke",
+        "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+        "summary": "He allegedly said his \"favourite meme\" is \"the one where they put my face on a Chinese dictator\".",
+        "source": "BBC News",
+        "pubDate": 1793085308000
+      },
+      {
+        "title": "I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard",
         "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
         "summary": "People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.",
         "source": "BBC News",
-        "pubDate": 1793059260000
+        "pubDate": 1793083730000
       },
       {
-        "title": "Healey vows cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes' ",
-        "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
-        "summary": "The chancellor will axe tariffs on some staples as part of plans to give households \"breathing space\".",
+        "title": "Rise in sales of radios and tinned foods, say retailers, after call to stock up",
+        "link": "https://www.bbc.co.uk/news/articles/c5rmy84np001o?at_medium=RSS&at_campaign=rss",
+        "summary": "Figures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.",
         "source": "BBC News",
-        "pubDate": 1793053802000
-      },
-      {
-        "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
-        "link": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Anthropic’s IPO prospectus is 355 pages and full of never before disclosed company information.",
-        "source": "BBC News",
-        "pubDate": 1793044643000
-      },
-      {
-        "title": "What’s Riding on Anthropic Going Public? Nearly Everything.",
-        "link": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
-        "summary": "Anthropic sits atop a pyramid of business partners and suppliers, making it a barometer of the broader economy. Its initial public offering will have widespread implications.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793040258000
-      },
-      {
-        "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-        "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
-        "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
-        "source": "BBC News",
-        "pubDate": 1793032037000
+        "pubDate": 1793082791000
       }
     ],
     "world": [
       {
-        "title": "Brazil Supreme Court Orders Flávio Bolsonaro to Hand Over Passports in Money Laundering Inquiry",
-        "link": "https://www.nytimes.com/2026/10/26/world/americas/flavio-bolsonaro-passport-brazil.html",
-        "summary": "Brazil’s Supreme Court told the police to seize passport of Mr. Bolsonaro, who lost the presidential election, over his links to an investigation.",
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections/heres-the-latest",
+        "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > World News",
-        "pubDate": 1793058915000
+        "pubDate": 1793095205000
       },
       {
-        "title": "Civilian Suffering Was Goal of Russian Strikes in Ukraine, U.N. Panel Says",
-        "link": "https://www.nytimes.com/2026/10/26/world/europe/russia-ukraine-energy-strikes-un.html",
-        "summary": "The assaults on infrastructure, which cut off heat and power on bitterly cold winter days, amounted to a crime against humanity, investigators said.",
+        "title": "5 Key Moments From Israel’s Pivotal Election Campaign",
+        "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-election-campaign-highlights.html",
+        "summary": "New political alliances, a contentious A.I. video and accusations about security failures all featured in the run-up to Tuesday’s election, widely seen as one of the most consequen...",
         "source": "NYT > World News",
-        "pubDate": 1793056322000
+        "pubDate": 1793094305000
       },
       {
-        "title": "Machado’s Return to Venezuela Tests Limits of U.S. Sway",
-        "link": "https://www.nytimes.com/2026/10/26/world/americas/venezuela-machado-rodriguez-trump.html",
-        "summary": "Seeking new elections, María Corina Machado will need to tread carefully to avoid offending the Trump administration, while also asserting her own leadership.",
-        "source": "NYT > World News",
-        "pubDate": 1793056154000
+        "title": "Truce begins in Ukraine city where residents ate weeds to survive",
+        "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+        "summary": "The ceasefire in Oleshky, secured by US First Lady Melania Trump, is meant to allow aid deliveries and the evacuation of civilians.",
+        "source": "BBC News",
+        "pubDate": 1793092724000
       },
       {
-        "title": "Netanyahu Pushed for Attack on Iran Ahead of Israeli Election, Officials Say",
-        "link": "https://www.nytimes.com/2026/10/26/world/middleeast/netanyahu-iran-israel-election.html",
-        "summary": "Israel’s military chief resisted the prime minister, who then pressed in recent days for a separate action, short of an overt strike, according to an official and a person briefed ...",
+        "title": "Two Visions, Two Israels, One Nation in the Balance",
+        "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-election-identity.html",
+        "summary": "As Israel votes, hard-right nationalism competes with the country’s founding ideals. The outcome could shape Israel’s identity for years.",
         "source": "NYT > World News",
-        "pubDate": 1793054679000
+        "pubDate": 1793092006000
       },
       {
-        "title": "Mexico’s Top Election Official Resigns Amid Corruption Scandal",
-        "link": "https://www.nytimes.com/2026/10/26/world/americas/mexico-election-official-resigns.html",
-        "summary": "Guadalupe Taddei Zavala, the head of the electoral watchdog, stepped down after facing accusations of corruption and influence peddling.",
+        "title": "The Key Election Issues Dividing Israelis as They Vote",
+        "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-elections-key-issues.html",
+        "summary": "The question of accountability for the government’s failures in the Hamas-led attacks on Oct. 7, 2023, looms over the election.",
         "source": "NYT > World News",
-        "pubDate": 1793054000000
+        "pubDate": 1793091730000
       }
     ]
   }
