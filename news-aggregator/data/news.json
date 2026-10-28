@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-10-27T18:33:17.601Z",
+  "lastUpdated": "2026-10-28T00:14:52.573Z",
   "categories": {
     "technology": [
       {
-        "title": "Trump is making it easier for fossil fuel companies to leak methane",
-        "link": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump",
-        "summary": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks.\nMethane is a smog-formin...",
+        "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
+        "link": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
+        "summary": "Within hours of the iPhone Duo launch last Friday, people reported that the inner screen on some brand new foldable phones was already broken. The issue was similar across many pho...",
         "source": "The Verge",
-        "pubDate": 1793125513000
+        "pubDate": 1793141705000
       },
       {
-        "title": "VisionQuest is what happens when AI really goes rogue",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
-        "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powe...",
-        "source": "The Verge",
-        "pubDate": 1793122200000
+        "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+        "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+        "summary": "Additionally, the N1 chip brings Wi-Fi 7 and Bluetooth 6.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793140650000
       },
       {
-        "title": "The Super Mouse puts a touchscreen macro pad under your hand",
-        "link": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
-        "summary": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact to...",
-        "source": "The Verge",
-        "pubDate": 1793120400000
+        "title": "South Carolina's measles outbreak jumped to Washington state 5 times in 2 weeks",
+        "link": "https://arstechnica.com/health/2026/10/domestic-travel-poses-growing-risk-for-measles-and-a-new-challenge-for-states/",
+        "summary": "International travel used to be the main risk of measles cases in the US—not anymore.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793139752000
       },
       {
-        "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-        "summary": "Anthropic cofounder and CEO Dario Amodei. | Bloomberg via Getty Images\t\n\nAnthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public...",
-        "source": "The Verge",
-        "pubDate": 1793119882000
+        "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
+        "link": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+        "summary": "The DIA's threat assessment suggests China may soon place directed energy weapons in space.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793138690000
       },
       {
-        "title": "Meta’s $25 billion legal loss just put blood in the water",
-        "link": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
-        "summary": "When attorneys general from across the US announced a $17 billion settlement with Meta this summer, the sum was unprecedented. But a ruling last week by a New Mexico judge blew tha...",
-        "source": "The Verge",
-        "pubDate": 1793119480000
+        "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+        "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+        "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793137804000
       }
     ],
     "finance": [
       {
-        "title": "The big reason Boeing’s stock is falling so hard after earnings",
-        "link": "https://www.marketwatch.com/story/the-big-reason-boeings-stock-is-falling-so-hard-after-earnings-d31b400d?mod=mw_rss_topstories",
-        "summary": "Boeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.",
+        "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
+        "link": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
+        "summary": "Robinhood CFO says market volatility didn’t scare traders away from buying chip stocks “that they had really done research on.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793123940000
+        "pubDate": 1793141460000
       },
       {
-        "title": "‘CryptoDad’ on stablecoins, bitcoin’s role in a portfolio and why he does not directly own any crypto",
-        "link": "https://www.marketwatch.com/story/cryptodad-on-stablecoins-bitcoins-role-in-a-portfolio-and-why-he-does-not-directly-own-any-crypto-72472bc1?mod=mw_rss_topstories",
-        "summary": "What former CFTC Chairman Chris Giancarlo tells his own children about buying their first crypto coin.",
+        "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+        "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+        "summary": "“My late father bought our house for $250,000 in the 1990s.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793123580000
+        "pubDate": 1793139480000
       },
       {
-        "title": "JetBlue has been losing money for years. It just charted a path to profitability.",
-        "link": "https://www.marketwatch.com/story/jetblue-has-been-losing-money-for-years-it-just-charted-a-path-to-profitability-03be75c8?mod=mw_rss_topstories",
-        "summary": "JetBlue’s stock rises more than 20% as a new profit target helps calm fears about the airline’s viability.",
+        "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
+        "link": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
+        "summary": "Now that investors have been able to dive further into Anthropic’s IPO filing, they’re seeing the same sorts of trends that helped buoy AI stocks for much of this year.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793119920000
+        "pubDate": 1793137260000
       },
       {
-        "title": "When will Anthropic go public? Here’s what to know about the IPO timeline.",
-        "link": "https://www.marketwatch.com/story/when-will-anthropic-go-public-heres-what-to-know-about-the-ipo-timeline-431eca78?mod=mw_rss_topstories",
-        "summary": "By filing IPO paperwork on Monday, Anthropic can conduct its investor roadshow the week of Nov. 9 and would be eligible to go public as soon as the following week.",
+        "title": "As Trump touts energy companies’ fortunes, U.S. consumers face the most expensive year for gas prices ever",
+        "link": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+        "summary": "President Donald Trump can’t stop touting the fortunes U.S. energy companies have made during the Iran war, while canvassing the country to support Republican candidates ahead of n...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793119080000
+        "pubDate": 1793136540000
       },
       {
-        "title": "Bond investors are starting to say ‘anything but tech.’ What that means for the AI boom.",
-        "link": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories",
-        "summary": "AI financing has been harder and more expensive to come by as the capital-spending boom comes under more scrutiny.",
+        "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
+        "link": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
+        "summary": "The artificial-intelligence trade carried the U.S. stock market in September. But in October, it is being carried out on a stretcher.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793118240000
+        "pubDate": 1793136480000
       }
     ],
     "business": [
@@ -81,72 +81,72 @@
         "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
         "summary": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
         "source": "BBC News",
-        "pubDate": 1793125116000
+        "pubDate": 1793145790000
       },
       {
-        "title": "Minimum wage set to rise but 18-20 year-olds will not get bigger increase",
-        "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
-        "summary": "Chancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.",
-        "source": "BBC News",
-        "pubDate": 1793113287000
-      },
-      {
-        "title": "How the beauty industry is boosting High Streets",
-        "link": "https://www.bbc.co.uk/news/videos/cmr4y51lp5zko?at_medium=RSS&at_campaign=rss",
-        "summary": "Marie Camara believes beauty and personal care businesses play a key role in supporting high streets.",
-        "source": "BBC News",
-        "pubDate": 1793111710000
-      },
-      {
-        "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
-        "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
-        "source": "BBC News",
-        "pubDate": 1793107554000
-      },
-      {
-        "title": "I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard",
+        "title": "I get £4,062 a year and am trying my best - here's what I want from the Budget",
         "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-        "summary": "People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.",
+        "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they want to see in this year's Budget.",
         "source": "BBC News",
-        "pubDate": 1793106506000
+        "pubDate": 1793145785000
+      },
+      {
+        "title": "'An annoying buzz': The search for stealthier drones",
+        "link": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss",
+        "summary": "As drone deliveries become more commonplace, their makers are looking for ways to make them quieter.",
+        "source": "BBC News",
+        "pubDate": 1793145670000
+      },
+      {
+        "title": "China's families are now supporting more old people than kids",
+        "link": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&at_campaign=rss",
+        "summary": "The latest figures mark a major milestone as Beijing grapples with an ageing population.",
+        "source": "BBC News",
+        "pubDate": 1793142968000
+      },
+      {
+        "title": "Plaid demands more cash, but how could the Budget affect Wales?",
+        "link": "https://www.bbc.co.uk/news/articles/cr1ex97l1n7yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Welsh Finance Minister Elin Jones has called for a spending plan that \"finally treats us fairly\".",
+        "source": "BBC News",
+        "pubDate": 1793142252000
       }
     ],
     "world": [
       {
-        "title": "South Africa Deploys 500 Soldiers to Quell Anti-Immigration Violence",
-        "link": "https://www.nytimes.com/2026/10/27/world/africa/south-africa-durban-soldiers.html",
-        "summary": "The deployment comes after a foreign national was beaten to death by a mob during an anti-immigrant protest last week.",
+        "title": "Live Updates: Exit Polls Suggest No Clear Winner in Pivotal Israeli Election",
+        "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections",
+        "summary": "A bloc of parties led by the former military chief Gadi Eisenkot is trying to unseat Prime Minister Benjamin Netanyahu and his right-wing allies. Vote counting continues after a da...",
         "source": "NYT > World News",
-        "pubDate": 1793125739000
+        "pubDate": 1793146244000
       },
       {
-        "title": "Norway and Finland leaders hold rare call with Putin",
-        "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-        "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
+        "title": "Watch: What happens now after close vote in Israeli election?",
+        "link": "https://www.bbc.co.uk/news/videos/cm79p5pxqey2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Polls have closed in the Israeli election, but there is no clear winner.",
         "source": "BBC News",
-        "pubDate": 1793125703000
+        "pubDate": 1793145869000
       },
       {
-        "title": "European Leaders Split Over Phone Call to Putin",
-        "link": "https://www.nytimes.com/2026/10/27/world/europe/norway-finland-putin-call.html",
-        "summary": "The diplomatic outreach was part of an effort to push talks to end the war in Ukraine, though it was not welcome by all European leaders.",
+        "title": "Arab Parties’ Strong Showing May Bring Role in Formation of Israel’s Next Government",
+        "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-election-arab-parties.html",
+        "summary": "Voters supporting two leading Arab parties turned out in record numbers to voice their opposition to the Netanyahu government.",
         "source": "NYT > World News",
-        "pubDate": 1793125562000
+        "pubDate": 1793145653000
       },
       {
         "title": "Here’s the latest.",
         "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections/heres-the-latest",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > World News",
-        "pubDate": 1793125018000
+        "pubDate": 1793145343000
       },
       {
-        "title": "Relatives of victims of the Oct. 7 attack are running for Parliament.",
-        "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections/relatives-of-victims-of-the-oct-7-attack-israeli-election",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > World News",
-        "pubDate": 1793124469000
+        "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
+        "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The trio - two of whom were high-profile US real estate moguls - were found guilty using their social status to lure women to parties and then raping them.",
+        "source": "BBC News",
+        "pubDate": 1793144483000
       }
     ]
   }
