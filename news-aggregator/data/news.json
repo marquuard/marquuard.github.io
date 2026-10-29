@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-29T11:18:09.259Z",
+  "lastUpdated": "2026-10-29T18:47:48.475Z",
   "categories": {
     "technology": [
       {
-        "title": "AI has come for Arizona’s water",
-        "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
-        "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbot...",
-        "source": "The Verge",
-        "pubDate": 1793268004000
-      },
-      {
-        "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
-        "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
-        "summary": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They als...",
-        "source": "The Verge",
-        "pubDate": 1793240566000
-      },
-      {
-        "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-        "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don...",
-        "source": "The Verge",
-        "pubDate": 1793228739000
-      },
-      {
-        "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
-        "link": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
-        "summary": "This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.",
+        "title": "Report: Trump did nothing with intel that China planted spy close to Nvidia CEO",
+        "link": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+        "summary": "Spy accused of exploiting Trump ties to Huang, funneling secrets to China.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793227875000
+        "pubDate": 1793298552000
       },
       {
-        "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
-        "link": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
-        "summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
+        "title": "Ikea&#8217;s colorful donut-shaped smart lamp is $20 off",
+        "link": "https://www.theverge.com/gadgets/1022440/ikea-varmblixt-smart-lamp-deal-sale",
+        "summary": "With its playful design, versatility, and relatively affordable price, the Ikea Varmblixt quickly became one of my colleague Jennifer Pattison Tuohy’s new favorite smart light prod...",
+        "source": "The Verge",
+        "pubDate": 1793297916000
+      },
+      {
+        "title": "Turning a solar power system into its own backup",
+        "link": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+        "summary": "Plant design allows it to run on either stored solar heat or combustion.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793226950000
+        "pubDate": 1793296946000
+      },
+      {
+        "title": "Apple’s new laptop supports one of the coolest features for color pros",
+        "link": "https://www.theverge.com/1022347/apple-macbook-supports-new-cmf",
+        "summary": "The new MacBook Pro brings with it a bunch of firsts for Apple laptops, the two flashiest being an OLED display and touchscreen functionality. But as an image-accuracy enthusiast, ...",
+        "source": "The Verge",
+        "pubDate": 1793296089000
+      },
+      {
+        "title": "Utah charges Kalshi and its CEO with illegally promoting online gambling",
+        "link": "https://www.theverge.com/policy/1022400/utah-kalshi-criminal-charges",
+        "summary": "Kalshi CEO Tarek Mansour. | Michael Nagle/Bloomberg via Getty Images\t\n\nUtah has filed criminal charges against Kalshi and its executives, accusing the prediction market of breaking...",
+        "source": "The Verge",
+        "pubDate": 1793295623000
       }
     ],
     "finance": [
       {
-        "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
-        "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-        "summary": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
+        "title": "It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.",
+        "link": "https://www.marketwatch.com/story/its-the-strangest-job-market-the-u-s-has-ever-seen-the-low-hire-low-fire-economy-turns-3-years-old-ce8d0dfe?mod=mw_rss_topstories",
+        "summary": "America has always been a job-creating machine. It has broken down for three straight years, and the implications could be with us for a long time.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793272500000
+        "pubDate": 1793299320000
       },
       {
-        "title": "The Fed held off on a rate hike. Today’s GDP and inflation reports could make waiting harder.",
-        "link": "https://www.marketwatch.com/story/the-fed-held-off-on-a-rate-hike-todays-gdp-and-inflation-reports-could-make-waiting-harder-693338e6?mod=mw_rss_topstories",
-        "summary": "GDP and inflation figures arrive together at 8:30 a.m. Eastern time. Strong growth and persistent price pressures could strengthen the case for an interest-rate increase in Decembe...",
+        "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+        "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+        "summary": "“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793272260000
+        "pubDate": 1793298600000
       },
       {
-        "title": "Samsung Electronics earned nearly as much as Microsoft and Alphabet combined. What the Korean giant is now saying about the memory-chip outlook.",
-        "link": "https://www.marketwatch.com/story/samsung-electronics-earned-nearly-as-much-as-microsoft-and-alphabet-combined-what-the-korean-giant-is-now-saying-about-the-memory-chip-outlook-e5c94b94?mod=mw_rss_topstories",
-        "summary": "Samsung Electronics just posted a quarter that no other tech company has ever seen.",
+        "title": "‘Fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend, spend, spend?",
+        "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+        "summary": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793272140000
+        "pubDate": 1793297760000
       },
       {
-        "title": "Lilly raises outlook for third time this year as Zepbound sales soar.",
-        "link": "https://www.marketwatch.com/story/lilly-raises-outlook-for-third-time-this-year-as-zepbound-sales-soar-6d987407?mod=mw_rss_topstories",
-        "summary": "The drug continues to dominate the market for prescription weight-loss drugs in the U.S.",
+        "title": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day.",
+        "link": "https://www.marketwatch.com/story/did-the-fed-make-a-mistake-with-its-october-rate-pause-the-treasury-could-help-save-the-day-77d84993?mod=mw_rss_topstories",
+        "summary": "As focus shifts to the Treasury’s funding plans, there’s some expectation that longer-term supply could be reduced in an attempt to boost demand and lower yields",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793271780000
+        "pubDate": 1793296740000
       },
       {
         "title": "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services",
         "link": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210?mod=mw_rss_topstories",
         "summary": "Medicare is testing the use of AI to conduct prior authorizations to target wasteful medical spending",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793271600000
+        "pubDate": 1793293800000
       }
     ],
     "business": [
       {
+        "title": "The South West reacts to Budget announcements",
+        "link": "https://www.bbc.co.uk/news/articles/cm62yle1g2wyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Tourism and business leaders have been reacting to John Healey's first Budget as chancellor.",
+        "source": "BBC News",
+        "pubDate": 1793297246000
+      },
+      {
+        "title": "Watch: Hundreds queue for city's new Lego store",
+        "link": "https://www.bbc.co.uk/news/videos/cw1m4k1nx5r0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Fans queued for hours ahead of the opening of a new Lego Store in Norwich.",
+        "source": "BBC News",
+        "pubDate": 1793293834000
+      },
+      {
         "title": "Poundland's future hangs in the balance as chain edges towards collapse",
         "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Poundland's bosses have filed a notice of intention to appoint administrators to the business.",
+        "summary": "Poundland's bosses is filing a notice of intention to appoint administrators to the business.",
         "source": "BBC News",
-        "pubDate": 1793271934000
+        "pubDate": 1793293272000
       },
       {
-        "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
-        "link": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
-        "source": "BBC News",
-        "pubDate": 1793266203000
-      },
-      {
-        "title": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
+        "title": "The Fed Risks Falling Behind in its Inflation Fight",
         "link": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
         "summary": "Federal Reserve officials are expected to restart rate increases in December, but the cadence of additional moves will depend on the data.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1793264601000
+        "pubDate": 1793290009000
       },
       {
-        "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
-        "link": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
-        "source": "BBC News",
-        "pubDate": 1793260473000
-      },
-      {
-        "title": "Chancellor says government has 'moral duty' to help young people out of work",
-        "link": "https://www.bbc.co.uk/news/videos/c3j47008yl7vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Chancellor John Healey says any cuts to welfare will be done \"in a Labour way\".",
-        "source": "BBC News",
-        "pubDate": 1793257018000
+        "title": "U.S. GDP Increased 3.4% in Third Quarter",
+        "link": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
+        "summary": "The economy grew 3.4 percent in the third quarter, the fastest pace in a year. Strong spending and growth contrast with the poor marks many voters are giving the economy.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1793289515000
       }
     ],
     "world": [
       {
-        "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
-        "link": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
-        "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
+        "title": "India’s Media Giants Join Fight Against Upcoming Privacy Law",
+        "link": "https://www.nytimes.com/2026/10/29/world/asia/india-media-privacy-law.html",
+        "summary": "News organizations owned by two billionaires close to Prime Minister Narendra Modi say the legislation could make investigative reporting nearly impossible.",
+        "source": "NYT > World News",
+        "pubDate": 1793298753000
+      },
+      {
+        "title": "Nigeria’s Ebola Patient Evacuated as Investigators Press for Answers",
+        "link": "https://www.nytimes.com/2026/10/28/world/africa/nigeria-ebola-patient-questions-uganda.html",
+        "summary": "More than a week after the first case was reported in Africa’s most populous nation, pressing questions about the infection remain unanswered.",
+        "source": "NYT > World News",
+        "pubDate": 1793297663000
+      },
+      {
+        "title": "Trump and His Aides Helped Bolsonaro Flee Brazil and Enter U.S.",
+        "link": "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
+        "summary": "President Trump ensured Flávio Bolsonaro, who lost a presidential election in Brazil and faces multiple criminal investigations there, could enter the United States, U.S. officials...",
+        "source": "NYT > World News",
+        "pubDate": 1793294997000
+      },
+      {
+        "title": "U.S. Hits Rwanda With New Sanctions Over a Conflict Trump Declared ‘Ended’",
+        "link": "https://www.nytimes.com/2026/10/29/world/africa/rwanda-sanctions-m23-congo.html",
+        "summary": "The Treasury Department accused Rwanda of undermining a U.S.-brokered peace agreement by supporting a rebel group in the eastern Democratic Republic of Congo.",
+        "source": "NYT > World News",
+        "pubDate": 1793294028000
+      },
+      {
+        "title": "EU chief lays out vision for new Canada partnership at Montreal summit",
+        "link": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ursula von der Leyen continued to use the term \"associate member\" for Canada despite some opposition of the bloc's members, including Germany.",
         "source": "BBC News",
-        "pubDate": 1793272055000
-      },
-      {
-        "title": "Hong Kong Leader Apologizes for Deadly Apartment Building Fire",
-        "link": "https://www.nytimes.com/2026/10/29/world/asia/hong-kong-fire-john-lee-apology.html",
-        "summary": "John Lee, the city’s chief executive, said the city’s housing secretary would step down, but he vehemently defended the government.",
-        "source": "NYT > World News",
-        "pubDate": 1793271493000
-      },
-      {
-        "title": "In Israel, Arab Voters Mobilize, Shifting Political Landscape",
-        "link": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-arab-parties.html",
-        "summary": "The Arab parties have long been kept on the political sidelines. But stunning turnout by their supporters makes the Arab minority an Israeli political reality that cannot be ignore...",
-        "source": "NYT > World News",
-        "pubDate": 1793270750000
-      },
-      {
-        "title": "Spain Crash Investigators Focus on Train Traffic Controllers’ Role",
-        "link": "https://www.nytimes.com/2026/10/29/world/europe/spain-train-crash-renfe.html",
-        "summary": "After the country’s second major rail disaster in a year, Spaniards were confronting questions about the safety of their once-vaunted rail system.",
-        "source": "NYT > World News",
-        "pubDate": 1793269920000
-      },
-      {
-        "title": "How Netanyahu Used Fear, Again, to Win More Votes Than Anyone Else",
-        "link": "https://www.nytimes.com/2026/10/29/world/middleeast/netanyahu-fear-election-votes.html",
-        "summary": "Despite years of political baggage, the Israeli prime minister outperformed expectations, and his rivals, by playing on Jewish voters’ fears of Arab political power and potential s...",
-        "source": "NYT > World News",
-        "pubDate": 1793269740000
+        "pubDate": 1793293379000
       }
     ]
   }
