@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-10-29T00:36:10.066Z",
+  "lastUpdated": "2026-10-29T11:18:09.259Z",
   "categories": {
     "technology": [
+      {
+        "title": "AI has come for Arizona’s water",
+        "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+        "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbot...",
+        "source": "The Verge",
+        "pubDate": 1793268004000
+      },
+      {
+        "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
+        "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+        "summary": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They als...",
+        "source": "The Verge",
+        "pubDate": 1793240566000
+      },
       {
         "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
         "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
@@ -22,131 +36,117 @@
         "summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
         "source": "Ars Technica - All content",
         "pubDate": 1793226950000
-      },
-      {
-        "title": "Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA",
-        "link": "https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/",
-        "summary": "Six unproven peptides popular with MAHA now under \"enforcement discretion policy.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793225835000
-      },
-      {
-        "title": "A hacker stole more than 40,000 DHS employee records",
-        "link": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
-        "summary": "A hacker stole a trove of personal information from the Department of Homeland Security (DHS).  The breach exposes the names, job titles, phone numbers, email addresses, and office...",
-        "source": "The Verge",
-        "pubDate": 1793224665000
       }
     ],
     "finance": [
       {
-        "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
-        "link": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
-        "summary": "An agreement between the companies could come next week, Bloomberg reported",
+        "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+        "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+        "summary": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793233200000
+        "pubDate": 1793272500000
       },
       {
-        "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
-        "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
-        "summary": "A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.",
+        "title": "The Fed held off on a rate hike. Today’s GDP and inflation reports could make waiting harder.",
+        "link": "https://www.marketwatch.com/story/the-fed-held-off-on-a-rate-hike-todays-gdp-and-inflation-reports-could-make-waiting-harder-693338e6?mod=mw_rss_topstories",
+        "summary": "GDP and inflation figures arrive together at 8:30 a.m. Eastern time. Strong growth and persistent price pressures could strengthen the case for an interest-rate increase in Decembe...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793233020000
+        "pubDate": 1793272260000
       },
       {
-        "title": "‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
-        "link": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
-        "summary": "“Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”",
+        "title": "Samsung Electronics earned nearly as much as Microsoft and Alphabet combined. What the Korean giant is now saying about the memory-chip outlook.",
+        "link": "https://www.marketwatch.com/story/samsung-electronics-earned-nearly-as-much-as-microsoft-and-alphabet-combined-what-the-korean-giant-is-now-saying-about-the-memory-chip-outlook-e5c94b94?mod=mw_rss_topstories",
+        "summary": "Samsung Electronics just posted a quarter that no other tech company has ever seen.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793232900000
+        "pubDate": 1793272140000
       },
       {
-        "title": "The major reason Microsoft’s stock is heading higher after earnings",
-        "link": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
-        "summary": "Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.",
+        "title": "Lilly raises outlook for third time this year as Zepbound sales soar.",
+        "link": "https://www.marketwatch.com/story/lilly-raises-outlook-for-third-time-this-year-as-zepbound-sales-soar-6d987407?mod=mw_rss_topstories",
+        "summary": "The drug continues to dominate the market for prescription weight-loss drugs in the U.S.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793232600000
+        "pubDate": 1793271780000
       },
       {
-        "title": "Fortinet’s stock is taking a dive after earnings. Here’s why.",
-        "link": "https://www.marketwatch.com/story/fortinets-stock-is-taking-a-dive-after-earnings-heres-why-d407896e?mod=mw_rss_topstories",
-        "summary": "Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.",
+        "title": "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services",
+        "link": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210?mod=mw_rss_topstories",
+        "summary": "Medicare is testing the use of AI to conduct prior authorizations to target wasteful medical spending",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793229480000
+        "pubDate": 1793271600000
       }
     ],
     "business": [
       {
-        "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-        "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-        "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
+        "title": "Poundland's future hangs in the balance as chain edges towards collapse",
+        "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
+        "summary": "Poundland's bosses have filed a notice of intention to appoint administrators to the business.",
         "source": "BBC News",
-        "pubDate": 1793232025000
+        "pubDate": 1793271934000
       },
       {
-        "title": "'I live with a ghost': Japan's haunted homes attract bargain hunters",
+        "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
         "link": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
         "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
         "source": "BBC News",
-        "pubDate": 1793232015000
+        "pubDate": 1793266203000
       },
       {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/2026/10/28/business/economy/heres-the-latest.html",
-        "summary": "Nincs elérhető összefoglaló.",
+        "title": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
+        "link": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
+        "summary": "Federal Reserve officials are expected to restart rate increases in December, but the cadence of additional moves will depend on the data.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1793227375000
+        "pubDate": 1793264601000
       },
       {
-        "title": "Fed Holds Rates Steady Despite Lack of Progress on Inflation",
-        "link": "https://www.nytimes.com/2026/10/28/business/economy/warsh-interest-rates-fed.html",
-        "summary": "Kevin M. Warsh, the chairman of the Federal Reserve, said an “information-rich” period before the central bank’s gathering in December will help officials determine next steps for ...",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793222869000
-      },
-      {
-        "title": "Restaurants sceptical over 'garlic and gherkins' plan",
-        "link": "https://www.bbc.co.uk/news/articles/cm74pvzzke91o?at_medium=RSS&at_campaign=rss",
-        "summary": "Import tariffs on more than 100 items - including garlic, gherkins and plant-based milk - are being removed.",
+        "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+        "link": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
         "source": "BBC News",
-        "pubDate": 1793219499000
+        "pubDate": 1793260473000
+      },
+      {
+        "title": "Chancellor says government has 'moral duty' to help young people out of work",
+        "link": "https://www.bbc.co.uk/news/videos/c3j47008yl7vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Chancellor John Healey says any cuts to welfare will be done \"in a Labour way\".",
+        "source": "BBC News",
+        "pubDate": 1793257018000
       }
     ],
     "world": [
       {
-        "title": "Surprise Showing by Arab Parties in Israeli Vote Puts Them in Spotlight",
+        "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+        "link": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+        "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
+        "source": "BBC News",
+        "pubDate": 1793272055000
+      },
+      {
+        "title": "Hong Kong Leader Apologizes for Deadly Apartment Building Fire",
+        "link": "https://www.nytimes.com/2026/10/29/world/asia/hong-kong-fire-john-lee-apology.html",
+        "summary": "John Lee, the city’s chief executive, said the city’s housing secretary would step down, but he vehemently defended the government.",
+        "source": "NYT > World News",
+        "pubDate": 1793271493000
+      },
+      {
+        "title": "In Israel, Arab Voters Mobilize, Shifting Political Landscape",
         "link": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-arab-parties.html",
         "summary": "The Arab parties have long been kept on the political sidelines. But stunning turnout by their supporters makes the Arab minority an Israeli political reality that cannot be ignore...",
         "source": "NYT > World News",
-        "pubDate": 1793233515000
+        "pubDate": 1793270750000
       },
       {
-        "title": "Trump Officials Discussing Sanctions Relief for Russian Fund, Russia Acknowledges",
-        "link": "https://www.nytimes.com/2026/10/28/us/politics/russia-sanctions-relief-fund-trump.html",
-        "summary": "A Russian official said potential relief for a state investment fund was part of talks. Russia has sought to wring economic benefits from the negotiations on ending the war with Uk...",
+        "title": "Spain Crash Investigators Focus on Train Traffic Controllers’ Role",
+        "link": "https://www.nytimes.com/2026/10/29/world/europe/spain-train-crash-renfe.html",
+        "summary": "After the country’s second major rail disaster in a year, Spaniards were confronting questions about the safety of their once-vaunted rail system.",
         "source": "NYT > World News",
-        "pubDate": 1793230661000
+        "pubDate": 1793269920000
       },
       {
-        "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
-        "source": "BBC News",
-        "pubDate": 1793229708000
-      },
-      {
-        "title": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
-        "link": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
-        "summary": "Mr. Bolsonaro, who lost Sunday’s presidential election, fled Brazil for the United States via Argentina after the police canceled his passport in relation to an investigation.",
+        "title": "How Netanyahu Used Fear, Again, to Win More Votes Than Anyone Else",
+        "link": "https://www.nytimes.com/2026/10/29/world/middleeast/netanyahu-fear-election-votes.html",
+        "summary": "Despite years of political baggage, the Israeli prime minister outperformed expectations, and his rivals, by playing on Jewish voters’ fears of Arab political power and potential s...",
         "source": "NYT > World News",
-        "pubDate": 1793228684000
-      },
-      {
-        "title": "Girl seriously injured in wolf attack at German wildlife park",
-        "link": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The eight-year-old was in an enclosure with other children and a staff member when she was attacked.",
-        "source": "BBC News",
-        "pubDate": 1793225332000
+        "pubDate": 1793269740000
       }
     ]
   }
