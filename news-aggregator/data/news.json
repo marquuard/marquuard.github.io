@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-28T18:39:18.283Z",
+  "lastUpdated": "2026-10-29T00:36:10.066Z",
   "categories": {
     "technology": [
       {
-        "title": "Microsoft is ending Copilot support on smart TVs",
-        "link": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
-        "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assist...",
+        "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+        "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don...",
         "source": "The Verge",
-        "pubDate": 1793212586000
+        "pubDate": 1793228739000
       },
       {
-        "title": "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
-        "link": "https://www.theverge.com/tech/1020960/google-xreal-glasses-debut-meta-vr-glasses-price-release-date",
-        "summary": "In this economy, how often does a product get less expensive before its debut? That just happened with the Google / Xreal Aura, the lightweight 95-gram glasses with a tethered Andr...",
-        "source": "The Verge",
-        "pubDate": 1793211251000
-      },
-      {
-        "title": "Here’s where to preorder the latest MacBook Pros",
-        "link": "https://www.theverge.com/gadgets/1019109/apple-macbook-pro-m6-proled-xdr-how-to-buy-price-release-date",
-        "summary": "Apple finally showed off its 14- and 16-inch MacBook Pro laptops that have the PROLED XDR display at the October 2026 \"Pro and Tell\" event. The long-awaited laptops feature a Tande...",
-        "source": "The Verge",
-        "pubDate": 1793211023000
-      },
-      {
-        "title": "Amazon turns its most capable smart speaker into a smart camera, too",
-        "link": "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/",
-        "summary": "The Echo Studio with Home Camera can \"see and understand what's in front of the camera.\"",
+        "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
+        "link": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
+        "summary": "This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793210722000
+        "pubDate": 1793227875000
       },
       {
-        "title": "You can see every red flag in Theranos 2.0",
-        "link": "https://www.theverge.com/column/1020859/optimizer-theranos-haemanthus-you-can-see-everything",
-        "summary": "They’re getting the band back together for Theranos 2.0. Supposedly. | Photo: Getty Images\t\n\nThis is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song th...",
+        "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
+        "link": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
+        "summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793226950000
+      },
+      {
+        "title": "Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA",
+        "link": "https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/",
+        "summary": "Six unproven peptides popular with MAHA now under \"enforcement discretion policy.\"",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793225835000
+      },
+      {
+        "title": "A hacker stole more than 40,000 DHS employee records",
+        "link": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
+        "summary": "A hacker stole a trove of personal information from the Department of Homeland Security (DHS).  The breach exposes the names, job titles, phone numbers, email addresses, and office...",
         "source": "The Verge",
-        "pubDate": 1793210400000
+        "pubDate": 1793224665000
       }
     ],
     "finance": [
       {
-        "title": "I’m planning a trip to Europe. Is it dumb to take travel advice from influencers?",
-        "link": "https://www.marketwatch.com/story/im-planning-a-trip-to-europe-is-it-dumb-to-take-travel-advice-from-influencers-f25ae756?mod=mw_rss_topstories",
-        "summary": "“How can I tell if something is a real experience in my price range?”",
+        "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
+        "link": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
+        "summary": "An agreement between the companies could come next week, Bloomberg reported",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793212200000
+        "pubDate": 1793233200000
       },
       {
-        "title": "Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results",
-        "link": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105?mod=mw_rss_topstories",
-        "summary": "The AI infrastructure company beat sales expectations by the widest margin in more than five years and raised its capex outlook.",
+        "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
+        "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+        "summary": "A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793209440000
+        "pubDate": 1793233020000
       },
       {
-        "title": "Wendy’s buyout offer suggests the burger chain’s overhaul could be very expensive",
-        "link": "https://www.marketwatch.com/story/wendys-buyout-offer-suggests-the-burger-chains-overhaul-could-be-very-expensive-ff2c92bb?mod=mw_rss_topstories",
-        "summary": "Nelson Peltz’s Trian Fund Management has made a $1.4 billion offer for Wendy’s and says the company “requires significant capital investment” to get back on track.",
+        "title": "‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
+        "link": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
+        "summary": "“Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793208240000
+        "pubDate": 1793232900000
       },
       {
-        "title": "The U.S. government will no longer penalize American companies for making six popular peptides",
-        "link": "https://www.marketwatch.com/story/trump-administration-clears-the-way-for-production-of-peptides-like-bpc-157-and-tb-500-28ac2d11?mod=mw_rss_topstories",
-        "summary": "It won’t take action against compounding pharmacies that make popular wellness products like BPC-157 and TB-500.",
+        "title": "The major reason Microsoft’s stock is heading higher after earnings",
+        "link": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+        "summary": "Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793206620000
+        "pubDate": 1793232600000
       },
       {
-        "title": "Healthcare stocks are on their biggest hot streak in a generation. Think twice before chasing the rally.",
-        "link": "https://www.marketwatch.com/story/healthcare-stocks-are-on-their-biggest-hot-streak-in-a-generation-think-twice-before-chasing-the-rally-a043adfe?mod=mw_rss_topstories",
-        "summary": "The typically boring healthcare space has delivered a flash of excitement for investors in October, building on its gains from earlier in the year.",
+        "title": "Fortinet’s stock is taking a dive after earnings. Here’s why.",
+        "link": "https://www.marketwatch.com/story/fortinets-stock-is-taking-a-dive-after-earnings-heres-why-d407896e?mod=mw_rss_topstories",
+        "summary": "Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793206140000
+        "pubDate": 1793229480000
       }
     ],
     "business": [
       {
-        "title": "Three ways the Budget affects you",
-        "link": "https://www.bbc.co.uk/news/videos/cjkgern1yw0lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Esyllt Carr explains how the chancellor's spending plans impact young people.",
+        "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+        "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+        "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
         "source": "BBC News",
-        "pubDate": 1793212376000
+        "pubDate": 1793232025000
+      },
+      {
+        "title": "'I live with a ghost': Japan's haunted homes attract bargain hunters",
+        "link": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
+        "source": "BBC News",
+        "pubDate": 1793232015000
       },
       {
         "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/28/business/fed-meeting-warsh-interest-rates/warsh-interest-rates-fed",
+        "link": "https://www.nytimes.com/2026/10/28/business/economy/heres-the-latest.html",
         "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1793211477000
+        "pubDate": 1793227375000
       },
       {
-        "title": "The Budget explained in less than one minute",
-        "link": "https://www.bbc.co.uk/news/videos/crkg70lnlx9yo?at_medium=RSS&at_campaign=rss",
-        "summary": "What the Budget means for you in under a minute",
-        "source": "BBC News",
-        "pubDate": 1793211463000
-      },
-      {
-        "title": "Trump’s Push to Fire Fed Governor Lisa Cook Looms Over Warsh",
-        "link": "https://www.nytimes.com/2026/10/28/business/economy/trump-lisa-cook-warsh.html",
-        "summary": "Lisa D. Cook, a Fed governor, is set to face an unorthodox, private hearing over allegations of mortgage fraud she has consistently denied.",
+        "title": "Fed Holds Rates Steady Despite Lack of Progress on Inflation",
+        "link": "https://www.nytimes.com/2026/10/28/business/economy/warsh-interest-rates-fed.html",
+        "summary": "Kevin M. Warsh, the chairman of the Federal Reserve, said an “information-rich” period before the central bank’s gathering in December will help officials determine next steps for ...",
         "source": "NYT > Business > Economy",
-        "pubDate": 1793211256000
+        "pubDate": 1793222869000
       },
       {
-        "title": "Tax thresholds remain unchanged - here's what it means for your pay",
-        "link": "https://www.bbc.co.uk/news/articles/clydn7r5pn1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The point at which you start to pay tax, and the point where you tip into paying a higher rate of tax have been frozen for three more years.",
+        "title": "Restaurants sceptical over 'garlic and gherkins' plan",
+        "link": "https://www.bbc.co.uk/news/articles/cm74pvzzke91o?at_medium=RSS&at_campaign=rss",
+        "summary": "Import tariffs on more than 100 items - including garlic, gherkins and plant-based milk - are being removed.",
         "source": "BBC News",
-        "pubDate": 1793211144000
+        "pubDate": 1793219499000
       }
     ],
     "world": [
       {
-        "title": "An ‘Endless’ Cruise Around the World Is Suspended, Leaving Passengers Stranded",
-        "link": "https://www.nytimes.com/2026/10/28/travel/endless-cruise-suspended-villa-vie-passengers.html",
-        "summary": "The cruise promised a lifetime of sailing, for less than what it cost to live on land. But it was underfunded and couldn’t absorb the rising cost of fuel.",
+        "title": "Surprise Showing by Arab Parties in Israeli Vote Puts Them in Spotlight",
+        "link": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-arab-parties.html",
+        "summary": "The Arab parties have long been kept on the political sidelines. But stunning turnout by their supporters makes the Arab minority an Israeli political reality that cannot be ignore...",
         "source": "NYT > World News",
-        "pubDate": 1793212456000
+        "pubDate": 1793233515000
       },
       {
-        "title": "At Least 68 Killed in Train Crash in Spain, Officials Say",
-        "link": "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
-        "summary": "A high-speed passenger train rear-ended another near Toledo, months after a crash involving the same carriers killed dozens and stunned the country.",
+        "title": "Trump Officials Discussing Sanctions Relief for Russian Fund, Russia Acknowledges",
+        "link": "https://www.nytimes.com/2026/10/28/us/politics/russia-sanctions-relief-fund-trump.html",
+        "summary": "A Russian official said potential relief for a state investment fund was part of talks. Russia has sought to wring economic benefits from the negotiations on ending the war with Uk...",
         "source": "NYT > World News",
-        "pubDate": 1793212296000
+        "pubDate": 1793230661000
       },
       {
-        "title": "An Inconclusive Vote Leaves Israelis Pondering an Uncertain Future",
-        "link": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-results-netanyahu-eisenkot-mood.html",
-        "summary": "A day after the election, supporters of Prime Minister Benjamin Netanyahu were relieved he still had a chance to stay in power, while his opponents worried the mixed results could ...",
-        "source": "NYT > World News",
-        "pubDate": 1793211754000
+        "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+        "source": "BBC News",
+        "pubDate": 1793229708000
       },
       {
-        "title": "Israel’s opposition may not be able to form a government, but it still could control Parliament.",
-        "link": "https://www.nytimes.com/live/2026/10/28/world/israel-elections/israels-opposition-may-not-be-able-to-form-a-government-but-it-still-could-control-parliament",
-        "summary": "Nincs elérhető összefoglaló.",
+        "title": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
+        "link": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
+        "summary": "Mr. Bolsonaro, who lost Sunday’s presidential election, fled Brazil for the United States via Argentina after the police canceled his passport in relation to an investigation.",
         "source": "NYT > World News",
-        "pubDate": 1793211612000
+        "pubDate": 1793228684000
       },
       {
-        "title": "Rivals in Israel Election Strike Tone of Triumph, but Outcome Is Far From Clear",
-        "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections",
-        "summary": "Addressing supporters after midnight, Prime Minister Benjamin Netanyahu and Gadi Eisenkot, who leads a bloc of opposition parties, both expressed confidence that they will lead Isr...",
-        "source": "NYT > World News",
-        "pubDate": 1793211470000
+        "title": "Girl seriously injured in wolf attack at German wildlife park",
+        "link": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The eight-year-old was in an enclosure with other children and a staff member when she was attacked.",
+        "source": "BBC News",
+        "pubDate": 1793225332000
       }
     ]
   }
