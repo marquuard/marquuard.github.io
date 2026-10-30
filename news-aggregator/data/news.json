@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-10-30T00:37:00.804Z",
+  "lastUpdated": "2026-10-30T11:11:04.705Z",
   "categories": {
     "technology": [
+      {
+        "title": "Maine’s data center revolt will decide who controls the Senate",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+        "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short.\n\"I'm terrified,\" a ma...",
+        "source": "The Verge",
+        "pubDate": 1793358000000
+      },
+      {
+        "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+        "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+        "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyri...",
+        "source": "The Verge",
+        "pubDate": 1793350800000
+      },
       {
         "title": "The director of Obsession put a new horror short on YouTube",
         "link": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear",
@@ -22,131 +36,117 @@
         "summary": "Reddit CEO Steve Huffman said in an earnings call today that Google's AI-powered search modes do not help with traffic to the platform, echoing problems facing other websites and p...",
         "source": "The Verge",
         "pubDate": 1793312372000
-      },
-      {
-        "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
-        "link": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
-        "summary": "Reddit's search traffic \"was down meaningfully\" last quarter.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793310477000
-      },
-      {
-        "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
-        "link": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
-        "summary": "The latest update also brings a cloud recovery option for PCs that won't boot.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793305129000
       }
     ],
     "finance": [
       {
-        "title": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
-        "link": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
-        "summary": "Modest AWS results and weak advertising growth left Wall Street disappointed in Amazon’s third-quarter earnings",
+        "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+        "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+        "summary": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793319300000
+        "pubDate": 1793358060000
       },
       {
-        "title": "A Starbucks turnaround is brewing — but perhaps not quickly enough for investors",
-        "link": "https://www.marketwatch.com/story/a-starbucks-turnaround-is-brewing-but-perhaps-not-quickly-enough-3b5f57ac?mod=mw_rss_topstories",
-        "summary": "The coffee chain beat expectations on a key sales metric, but its stock was still moving lower.",
+        "title": "Here’s the math on Amazon CEO’s claim to be on path to two trillion-dollar revenue businesses",
+        "link": "https://www.marketwatch.com/story/heres-the-math-on-amazon-ceos-claim-to-be-on-path-to-two-trillion-dollar-revenue-businesses-34d648e8?mod=mw_rss_topstories",
+        "summary": "Amazon chief executive Andy Jassy set a bold target on the conference call announcing third-quarter earnings.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793319240000
+        "pubDate": 1793356440000
       },
       {
-        "title": "Sandisk sees revenue nearly quintuple — and a stock split is on the way",
-        "link": "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
-        "summary": "Sandisk’s stock has climbed more than 2,600% since the company separated from Western Digital 20 months ago — and it has one of the highest prices in the S&P 500.",
+        "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
+        "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+        "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793318760000
+        "pubDate": 1793355300000
       },
       {
-        "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
-        "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-        "summary": "“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”",
+        "title": "Here’s when Binance plans to reopen after what’s believed to be the largest-ever $6.3 billion hack",
+        "link": "https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories",
+        "summary": "Binance has vowed to get the exchange back up within a couple of days after a record $6.3 billion heist, which has rattled the industry and investors.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793318700000
+        "pubDate": 1793353800000
       },
       {
         "title": "Why Intel’s stock is sinking toward its worst drop in two years",
         "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
         "summary": "Intel’s PC business is under pressure as memory-chip prices dent demand and as corporate IT teams have less budget for laptops.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793316060000
+        "pubDate": 1793353560000
       }
     ],
     "business": [
       {
-        "title": "From workshops to the catwalk - why mended clothes are going mainstream",
-        "link": "https://www.bbc.co.uk/news/articles/cmwy9qe5r1z3o?at_medium=RSS&at_campaign=rss",
-        "summary": "A new generation is embracing eye-catching patching and visible mends.",
+        "title": "Streeting denies 'kicking can down the road' in defence spending row",
+        "link": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The government is under pressure to set out a path to greater defence spending, as ministers unveil plans to boost UK firms.",
         "source": "BBC News",
-        "pubDate": 1793318435000
+        "pubDate": 1793357361000
       },
       {
-        "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
-        "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-        "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI search summaries were affecting ad revenue.",
+        "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+        "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
         "source": "BBC News",
-        "pubDate": 1793312272000
+        "pubDate": 1793352831000
       },
       {
-        "title": "U.S. GDP Increased 3.4% in Third Quarter",
-        "link": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
-        "summary": "The economy grew 3.4 percent in the third quarter, the fastest pace in a year. Strong spending and growth contrast with the poor marks many voters are giving the economy.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793308238000
-      },
-      {
-        "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
-        "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Poundland's bosses are filing a notice of intention to appoint administrators to the business.",
+        "title": "Yorkshire Water boss resigns after firm downgraded",
+        "link": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss",
+        "summary": "Nicola Shaw, who has led the company since 2022, will step down in January, it is announced.",
         "source": "BBC News",
-        "pubDate": 1793301070000
+        "pubDate": 1793346848000
       },
       {
-        "title": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
-        "link": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
-        "summary": "Federal Reserve officials are expected to restart rate increases in December, but the cadence of additional moves will depend on the data.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793300142000
+        "title": "How video game remakes tap the power of nostalgia",
+        "link": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
+        "summary": "Video games are good at triggering nostalgia, a key reason why classic games keep getting remade.",
+        "source": "BBC News",
+        "pubDate": 1793346300000
+      },
+      {
+        "title": "Who should pay on the first date?",
+        "link": "https://www.bbc.co.uk/news/videos/cmpq0g3g2r8zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Yasmin Rufo asks New Yorkers who picks up the bill on a first date, and how much they usually spend.",
+        "source": "BBC News",
+        "pubDate": 1793341945000
       }
     ],
     "world": [
       {
+        "title": "Oldest Recording of Louisiana’s Vanishing Creole Language Is Published",
+        "link": "https://www.nytimes.com/2026/10/30/us/louisiana-creole-recording-lorenzo-dow-turner.html",
+        "summary": "The rediscovery of a forgotten recording from 1935 sheds light on a language rooted in the state’s history of slavery and French colonialism.",
+        "source": "NYT > World News",
+        "pubDate": 1793358592000
+      },
+      {
+        "title": "Rare Evacuation Announced by Melania Trump Begins in Ukrainian City of Oleshky",
+        "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html",
+        "summary": "Many people left in Oleshky, where bombardment is constant, have run out of food. A truce that began Tuesday is supposed to allow aid in and civilians out.",
+        "source": "NYT > World News",
+        "pubDate": 1793358277000
+      },
+      {
+        "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+        "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Several hundred people are understood to have decided to stay in the frontline town, despite the lack of gas, electricity and running water.",
+        "source": "BBC News",
+        "pubDate": 1793356326000
+      },
+      {
         "title": "Court Rejects Erin Patterson’s Appeal in Mushroom Murders Case",
         "link": "https://www.nytimes.com/2026/10/29/world/asia/mushroom-murder-case-sentencing-appeal-australia.html",
-        "summary": "Judges took away the possibility of parole for an Australian woman, Erin Patterson, and rejected a bid to overturn her conviction over deadly beef Wellington lunch.",
+        "summary": "Judges took away the possibility of parole for an Australian woman, Erin Patterson, and rejected a bid to overturn her conviction over a deadly beef Wellington lunch.",
         "source": "NYT > World News",
-        "pubDate": 1793318631000
+        "pubDate": 1793355273000
       },
       {
-        "title": "What Israeli Election Results Reveal About the Electorate",
-        "link": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-voter-data-takeaways.html",
-        "summary": "Some groups stood by Prime Minister Benjamin Netanyahu’s party, but support fell off among others. Turnout was also a striking factor in the election.",
-        "source": "NYT > World News",
-        "pubDate": 1793317550000
-      },
-      {
-        "title": "Newly Freed American Describes His Years in Russian Prison",
-        "link": "https://www.nytimes.com/2026/10/29/world/europe/stephen-james-hubbard-russian-prison.html",
-        "summary": "Stephen James Hubbard, the retired teacher arrested soon after Russia’s full-scale invasion of Ukraine in 2022, said he sometimes lost hope.",
-        "source": "NYT > World News",
-        "pubDate": 1793316753000
-      },
-      {
-        "title": "No Clear Winner in Israel Election, Final Results Show",
-        "link": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-election-results-netanyahu-eisenkot.html",
-        "summary": "Prime Minister Benjamin Netanyahu’s party and its allies won 53 seats in Parliament, falling short of the outright majority needed to form a government. The main opposition bloc, l...",
-        "source": "NYT > World News",
-        "pubDate": 1793315269000
-      },
-      {
-        "title": "Cuba’s Foreign Minister: We’ll Outlast Trump",
-        "link": "https://www.nytimes.com/2026/10/29/world/americas/cuba-foreign-minister-trump.html",
-        "summary": "The Trump administration is carrying out the most intense pressure campaign on Cuba in decades. The Cuban government says its plan is simply to endure.",
-        "source": "NYT > World News",
-        "pubDate": 1793314140000
+        "title": "Helicopter carrying six people crashes in northern Indian state ",
+        "link": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss",
+        "summary": "The aircraft reportedly took off from the Hindu pilgrimage site of Badrinath on Friday afternoon before losing contact.",
+        "source": "BBC News",
+        "pubDate": 1793354878000
       }
     ]
   }
