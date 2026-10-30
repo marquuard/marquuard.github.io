@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-10-30T11:11:04.705Z",
+  "lastUpdated": "2026-10-30T18:24:56.792Z",
   "categories": {
     "technology": [
       {
-        "title": "Maine’s data center revolt will decide who controls the Senate",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
-        "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short.\n\"I'm terrified,\" a ma...",
+        "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+        "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+        "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing U...",
         "source": "The Verge",
-        "pubDate": 1793358000000
+        "pubDate": 1793384498000
       },
       {
-        "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-        "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
-        "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyri...",
-        "source": "The Verge",
-        "pubDate": 1793350800000
+        "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+        "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+        "summary": "Low costs and offline security mean magnetic tape still has a job.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793381899000
       },
       {
-        "title": "The director of Obsession put a new horror short on YouTube",
-        "link": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear",
-        "summary": "Curry Barker, the director behind the hit horror film Obsession, just published a new horror short on YouTube. The short, titled \"Mama Bear,\" is nearly five minutes long. The video...",
+        "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+        "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company...",
         "source": "The Verge",
-        "pubDate": 1793318238000
+        "pubDate": 1793381884000
       },
       {
-        "title": "Intel says it&#8217;s selling every affordable laptop chip it can make",
-        "link": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
-        "summary": "During Intel's latest earnings call, CEO Lip-Bu Tan said that demand for its budget-focused Wildcat Lake chips \"is outstripping supply.\" According to CFO David Zinsner, the chips a...",
+        "title": "The delightfully messy state of Apple gadgets",
+        "link": "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets",
+        "summary": "The iPhone has more screens! The MacBook has a touchscreen! The HomeView does CarPlay apps! For the first time in a long time, Apple is in a period of unabashed gadget experimentat...",
         "source": "The Verge",
-        "pubDate": 1793317341000
+        "pubDate": 1793381120000
       },
       {
-        "title": "Reddit’s CEO says Google’s AI Mode ‘does not drive traffic’",
-        "link": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic",
-        "summary": "Reddit CEO Steve Huffman said in an earnings call today that Google's AI-powered search modes do not help with traffic to the platform, echoing problems facing other websites and p...",
+        "title": "Rivian’s autonomy gamble faces its first real test",
+        "link": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+        "summary": "Rivian founder and CEO RJ Scaringe (left) watches Rivian R2s being built after an event at the Rivian assembly plant on May 19th, 2026, in Normal, Illinois. | Photo: Scott Olson / ...",
         "source": "The Verge",
-        "pubDate": 1793312372000
+        "pubDate": 1793380569000
       }
     ],
     "finance": [
       {
-        "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
-        "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-        "summary": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
+        "title": "Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
+        "link": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
+        "summary": "Various factors indicate that Microsoft is in a better financial position than its cloud rivals, analysts say.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793358060000
-      },
-      {
-        "title": "Here’s the math on Amazon CEO’s claim to be on path to two trillion-dollar revenue businesses",
-        "link": "https://www.marketwatch.com/story/heres-the-math-on-amazon-ceos-claim-to-be-on-path-to-two-trillion-dollar-revenue-businesses-34d648e8?mod=mw_rss_topstories",
-        "summary": "Amazon chief executive Andy Jassy set a bold target on the conference call announcing third-quarter earnings.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793356440000
+        "pubDate": 1793383740000
       },
       {
         "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
         "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
         "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793355300000
+        "pubDate": 1793383200000
       },
       {
-        "title": "Here’s when Binance plans to reopen after what’s believed to be the largest-ever $6.3 billion hack",
-        "link": "https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories",
-        "summary": "Binance has vowed to get the exchange back up within a couple of days after a record $6.3 billion heist, which has rattled the industry and investors.",
+        "title": "American workers are finding their take-home pay isn’t keeping up with inflation, with their wallets ‘stretched thinner and thinner’",
+        "link": "https://www.marketwatch.com/story/american-workers-are-finding-their-take-home-pay-isnt-keeping-up-with-inflation-with-their-wallets-stretching-thinner-and-thinner-6a1af690?mod=mw_rss_topstories",
+        "summary": "Worker compensation grows slower than inflation for second straight quarter",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793353800000
+        "pubDate": 1793382240000
       },
       {
-        "title": "Why Intel’s stock is sinking toward its worst drop in two years",
-        "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
-        "summary": "Intel’s PC business is under pressure as memory-chip prices dent demand and as corporate IT teams have less budget for laptops.",
+        "title": "You can expect the stock market to rally no matter who wins on Election Day",
+        "link": "https://www.marketwatch.com/story/you-can-expect-the-stock-market-to-rally-no-matter-who-wins-on-election-day-d4a3c282?mod=mw_rss_topstories",
+        "summary": "Also in Weekend Reads: Dividend stocks, a way to jump on the Anthropic bandwagon ahead of its IPO, and advice from The Moneyist.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793353560000
+        "pubDate": 1793381520000
+      },
+      {
+        "title": "Social Security’s fate — and your benefits — are in the hands of the candidates elected this year",
+        "link": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
+        "summary": "The program is expected to run out of money in the next six years, which is the same amount of time as a senator’s term.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793380860000
       }
     ],
     "business": [
       {
-        "title": "Streeting denies 'kicking can down the road' in defence spending row",
-        "link": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The government is under pressure to set out a path to greater defence spending, as ministers unveil plans to boost UK firms.",
+        "title": "City of London chief tops UK Black Powerlist",
+        "link": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ian Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.",
         "source": "BBC News",
-        "pubDate": 1793357361000
+        "pubDate": 1793383224000
       },
       {
-        "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
-        "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+        "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+        "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
         "source": "BBC News",
-        "pubDate": 1793352831000
+        "pubDate": 1793382421000
+      },
+      {
+        "title": "Binance's $6.3bn crypto hack biggest in history",
+        "link": "https://www.bbc.co.uk/news/videos/c6m2dpz0yxn8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Cryptocurrency giant Binance said on Thursday that $6.3bn (£4.7bn) of digital assets have been impacted by what is thought to be the biggest crypto hack on record.",
+        "source": "BBC News",
+        "pubDate": 1793382070000
       },
       {
         "title": "Yorkshire Water boss resigns after firm downgraded",
         "link": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss",
         "summary": "Nicola Shaw, who has led the company since 2022, will step down in January, it is announced.",
         "source": "BBC News",
-        "pubDate": 1793346848000
+        "pubDate": 1793376295000
       },
       {
-        "title": "How video game remakes tap the power of nostalgia",
-        "link": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
-        "summary": "Video games are good at triggering nostalgia, a key reason why classic games keep getting remade.",
+        "title": "What we know about Binance's $6.3bn hack",
+        "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
         "source": "BBC News",
-        "pubDate": 1793346300000
-      },
-      {
-        "title": "Who should pay on the first date?",
-        "link": "https://www.bbc.co.uk/news/videos/cmpq0g3g2r8zo?at_medium=RSS&at_campaign=rss",
-        "summary": "Yasmin Rufo asks New Yorkers who picks up the bill on a first date, and how much they usually spend.",
-        "source": "BBC News",
-        "pubDate": 1793341945000
+        "pubDate": 1793363248000
       }
     ],
     "world": [
       {
-        "title": "Oldest Recording of Louisiana’s Vanishing Creole Language Is Published",
-        "link": "https://www.nytimes.com/2026/10/30/us/louisiana-creole-recording-lorenzo-dow-turner.html",
-        "summary": "The rediscovery of a forgotten recording from 1935 sheds light on a language rooted in the state’s history of slavery and French colonialism.",
+        "title": "U.S. to Send Dozens Back to Afghanistan, Despite Risk of Persecution",
+        "link": "https://www.nytimes.com/2026/10/30/world/asia/afghan-refugees-deported-flight-pakistan.html",
+        "summary": "The Trump administration plans to fly the Afghan immigrants from Louisiana to Pakistan, where they are expected to be expelled over the border to Afghanistan.",
         "source": "NYT > World News",
-        "pubDate": 1793358592000
+        "pubDate": 1793384310000
       },
       {
-        "title": "Rare Evacuation Announced by Melania Trump Begins in Ukrainian City of Oleshky",
-        "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html",
-        "summary": "Many people left in Oleshky, where bombardment is constant, have run out of food. A truce that began Tuesday is supposed to allow aid in and civilians out.",
-        "source": "NYT > World News",
-        "pubDate": 1793358277000
-      },
-      {
-        "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
-        "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Several hundred people are understood to have decided to stay in the frontline town, despite the lack of gas, electricity and running water.",
+        "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+        "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also sta...",
         "source": "BBC News",
-        "pubDate": 1793356326000
+        "pubDate": 1793384247000
       },
       {
-        "title": "Court Rejects Erin Patterson’s Appeal in Mushroom Murders Case",
-        "link": "https://www.nytimes.com/2026/10/29/world/asia/mushroom-murder-case-sentencing-appeal-australia.html",
-        "summary": "Judges took away the possibility of parole for an Australian woman, Erin Patterson, and rejected a bid to overturn her conviction over a deadly beef Wellington lunch.",
+        "title": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says",
+        "link": "https://www.nytimes.com/2026/10/30/world/europe/spain-crash-contoller-errors.html",
+        "summary": "The transport minister said a judge would investigate controllers’ actions, including authorizing a train to proceed at high speed though another was stalled in front of it.",
         "source": "NYT > World News",
-        "pubDate": 1793355273000
+        "pubDate": 1793383575000
       },
       {
-        "title": "Helicopter carrying six people crashes in northern Indian state ",
-        "link": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss",
-        "summary": "The aircraft reportedly took off from the Hindu pilgrimage site of Badrinath on Friday afternoon before losing contact.",
+        "title": "After Crash, Spain Asks if Its Train System Is Too Old and Prone to Human Error",
+        "link": "https://www.nytimes.com/2026/10/29/world/europe/spain-train-crash-renfe.html",
+        "summary": "After the country’s second major rail disaster in a year, Spaniards were confronting questions about the safety of their once-vaunted rail system.",
+        "source": "NYT > World News",
+        "pubDate": 1793382738000
+      },
+      {
+        "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+        "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
         "source": "BBC News",
-        "pubDate": 1793354878000
+        "pubDate": 1793382421000
       }
     ]
   }
