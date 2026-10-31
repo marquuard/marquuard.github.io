@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-10-31T17:30:26.175Z",
+  "lastUpdated": "2026-10-31T23:56:46.629Z",
   "categories": {
     "technology": [
+      {
+        "title": "Get in the spirit with these horrors from YouTube",
+        "link": "https://www.theverge.com/entertainment/1024096/halloween-spirit-youtube-horror",
+        "summary": "Rather than recommend a single horror film or an unsettling album for our final installment of spooky season recs, I present you with a small selection of creepy, disturbing, and j...",
+        "source": "The Verge",
+        "pubDate": 1793480818000
+      },
+      {
+        "title": "Keyboards of The Verge",
+        "link": "https://www.theverge.com/gadgets/1017979/keyboards-of-the-verge-staff-picks",
+        "summary": "What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your hea...",
+        "source": "The Verge",
+        "pubDate": 1793475000000
+      },
+      {
+        "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
+        "link": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
+        "summary": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and th...",
+        "source": "The Verge",
+        "pubDate": 1793472032000
+      },
+      {
+        "title": "Happy Pikmin Day Eve",
+        "link": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve",
+        "summary": "This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about P...",
+        "source": "The Verge",
+        "pubDate": 1793469012000
+      },
       {
         "title": "I built an AI Tamagotchi before Meta could",
         "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
         "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI ...",
         "source": "The Verge",
         "pubDate": 1793462700000
-      },
-      {
-        "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-        "link": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-        "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, an...",
-        "source": "The Verge",
-        "pubDate": 1793459539000
-      },
-      {
-        "title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
-        "link": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
-        "summary": "We got a chance to touch Apple’s latest MacBook at the “Pro and Tell” event. | Photo: Antonio G. Di Benedetto / The Verge\t\n\nWhile the new touch-enabled MacBook Pro with the PROLED ...",
-        "source": "The Verge",
-        "pubDate": 1793458800000
-      },
-      {
-        "title": "Vic Mensa can’t live without the Voice Memos app",
-        "link": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview",
-        "summary": "No lies detected. | Photo: Onda\t\n\nVic Mensa is one of those people who has done so many things that it's hard to remember where you were first introduced to him. Was it his debut m...",
-        "source": "The Verge",
-        "pubDate": 1793458800000
-      },
-      {
-        "title": "Touchscreens everywhere!",
-        "link": "https://www.theverge.com/tech/1023569/ipad-mini-alexa-photo-frame-readwise-installer",
-        "summary": "Hi, friends! Welcome to Installer No. 150, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy Halloween, and also you can read all the ol...",
-        "source": "The Verge",
-        "pubDate": 1793448000000
       }
     ],
     "finance": [
       {
-        "title": "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services",
-        "link": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210?mod=mw_rss_topstories",
-        "summary": "Medicare is testing the use of AI to conduct prior authorizations to target wasteful medical spending",
+        "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
+        "link": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+        "summary": "“Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793467560000
+        "pubDate": 1793477700000
       },
       {
-        "title": "80% of workers make this 401(k)  mistake when they retire",
-        "link": "https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories",
-        "summary": "Other tax repercussions crop up down the road because balances build up, and RMDs get complicated",
+        "title": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
+        "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+        "summary": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793465160000
+        "pubDate": 1793475000000
       },
       {
-        "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
-        "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
-        "summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+        "title": "This is where most people go wrong in their 30s and 40s",
+        "link": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
+        "summary": "These big life decisions will determine just how well you retire.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793462520000
+        "pubDate": 1793473320000
       },
       {
         "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
         "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
         "summary": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793462400000
+        "pubDate": 1793473200000
       },
       {
-        "title": "Our church has a $1.5 million bequest earning 3.75% in a savings account. Are we throwing money away?",
-        "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-        "summary": "“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”",
+        "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
+        "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+        "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793460600000
+        "pubDate": 1793472600000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "Live Updates: Hundreds of Thousands Join Another Round of Protests in France",
-        "link": "https://www.nytimes.com/live/2026/10/31/world/france-student-protests-halloween",
-        "summary": "The interior ministry estimated that 320,000 people had demonstrated nationwide, a smaller number than the previous two Saturdays. The police and protesters clashed in Paris and ot...",
-        "source": "NYT > World News",
-        "pubDate": 1793467317000
+        "title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
+        "link": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ruchira Ranasingha, 50, has been stranded in the Cook Islands since 2023 and wants to return to Sri Lanka.",
+        "source": "BBC News",
+        "pubDate": 1793487973000
       },
       {
-        "title": "Syria Weighs Joining Saudi Mutual Defense Pact as Yemen War Rages",
-        "link": "https://www.nytimes.com/2026/10/31/world/middleeast/syria-saudi-defense-pact.html",
-        "summary": "A move to join Saudi Arabia’s agreement with Turkey and Pakistan could entangle more countries in the kingdom’s escalating conflict between the Iran-backed Houthis.",
+        "title": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
+        "link": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html",
+        "summary": "This week’s $6.3 billion hack of Binance is the largest to hit crypto, and would be the most that North Koreans have stolen in years of brazen cybercrime.",
         "source": "NYT > World News",
-        "pubDate": 1793467110000
-      },
-      {
-        "title": "Poland Deploys Riot Police in Standoff Over Country’s Top Court",
-        "link": "https://www.nytimes.com/2026/10/31/world/europe/poland-court-police-president.html",
-        "summary": "After years of legal wrangling, judges backed by the current government suspended the chief justice, as a feud escalated with the right-wing party that last held power.",
-        "source": "NYT > World News",
-        "pubDate": 1793466851000
+        "pubDate": 1793487942000
       },
       {
         "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
         "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-        "summary": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
+        "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
         "source": "BBC News",
-        "pubDate": 1793464328000
+        "pubDate": 1793484705000
       },
       {
-        "title": "Here is the latest.",
-        "link": "https://www.nytimes.com/live/2026/10/31/world/france-student-protests-halloween/france-student-protests-halloween",
-        "summary": "Thousands, potentially in masks and costumes, are expected on the streets on Saturday, prompting the authorities to prepare another vast security response.",
+        "title": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
+        "link": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html",
+        "summary": "More than 300,000 people took to the streets, some wearing Halloween costumes, before the demonstrations ended in violence.",
         "source": "NYT > World News",
-        "pubDate": 1793463979000
+        "pubDate": 1793483429000
+      },
+      {
+        "title": "‘We Are Coming From Hell’: A Ukrainian City’s Evacuees Tell Survival Stories",
+        "link": "https://www.nytimes.com/2026/10/31/todayspaper/we-are-coming-from-hell-a-ukrainian-citys-evacuees-tell-survival-stories.html",
+        "summary": "Safely out of Oleshky after enduring years in the combat zone and a harrowing 24-hour journey, weary civilians reunited with family and friends.",
+        "source": "NYT > World News",
+        "pubDate": 1793483014000
       }
     ]
   }
