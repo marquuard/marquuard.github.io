@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-10-31T10:43:33.843Z",
+  "lastUpdated": "2026-10-31T17:30:26.175Z",
   "categories": {
     "technology": [
       {
-        "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
-        "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
-        "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793405242000
-      },
-      {
-        "title": "Flesh-eating screwworms spread to third state and are attacking pets",
-        "link": "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/",
-        "summary": "USDA has identified 74 animal cases in US since parasitic flies invaded in June.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793399801000
-      },
-      {
-        "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-        "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-        "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will b...",
+        "title": "I built an AI Tamagotchi before Meta could",
+        "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+        "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI ...",
         "source": "The Verge",
-        "pubDate": 1793399573000
+        "pubDate": 1793462700000
       },
       {
-        "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
-        "link": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
-        "summary": "\"For huge numbers of people, I will always be Jean-Luc Picard. ... We created an admirable individual.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793398865000
+        "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+        "link": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+        "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, an...",
+        "source": "The Verge",
+        "pubDate": 1793459539000
       },
       {
-        "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
-        "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
-        "summary": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793396514000
+        "title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
+        "link": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
+        "summary": "We got a chance to touch Apple’s latest MacBook at the “Pro and Tell” event. | Photo: Antonio G. Di Benedetto / The Verge\t\n\nWhile the new touch-enabled MacBook Pro with the PROLED ...",
+        "source": "The Verge",
+        "pubDate": 1793458800000
+      },
+      {
+        "title": "Vic Mensa can’t live without the Voice Memos app",
+        "link": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview",
+        "summary": "No lies detected. | Photo: Onda\t\n\nVic Mensa is one of those people who has done so many things that it's hard to remember where you were first introduced to him. Was it his debut m...",
+        "source": "The Verge",
+        "pubDate": 1793458800000
+      },
+      {
+        "title": "Touchscreens everywhere!",
+        "link": "https://www.theverge.com/tech/1023569/ipad-mini-alexa-photo-frame-readwise-installer",
+        "summary": "Hi, friends! Welcome to Installer No. 150, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy Halloween, and also you can read all the ol...",
+        "source": "The Verge",
+        "pubDate": 1793448000000
       }
     ],
     "finance": [
       {
-        "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-        "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
-        "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
+        "title": "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services",
+        "link": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210?mod=mw_rss_topstories",
+        "summary": "Medicare is testing the use of AI to conduct prior authorizations to target wasteful medical spending",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793421000000
+        "pubDate": 1793467560000
       },
       {
-        "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-        "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
-        "summary": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
+        "title": "80% of workers make this 401(k)  mistake when they retire",
+        "link": "https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories",
+        "summary": "Other tax repercussions crop up down the road because balances build up, and RMDs get complicated",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793402040000
+        "pubDate": 1793465160000
       },
       {
-        "title": "This cybersecurity stock will be the next to join the S&P 500",
-        "link": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
-        "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
+        "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+        "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+        "summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793398800000
+        "pubDate": 1793462520000
       },
       {
-        "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-        "link": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-        "summary": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday",
+        "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+        "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+        "summary": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793395800000
+        "pubDate": 1793462400000
       },
       {
-        "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-        "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
-        "summary": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
+        "title": "Our church has a $1.5 million bequest earning 3.75% in a savings account. Are we throwing money away?",
+        "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+        "summary": "“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793395380000
+        "pubDate": 1793460600000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "75 Years On, the National Ballet of Canada ‘Remains the Icon’",
-        "link": "https://www.nytimes.com/2026/10/31/world/canada/national-ballet-canada-carney.html",
-        "summary": "The dance company started on a shoestring and went on to become internationally acclaimed.",
+        "title": "Live Updates: Hundreds of Thousands Join Another Round of Protests in France",
+        "link": "https://www.nytimes.com/live/2026/10/31/world/france-student-protests-halloween",
+        "summary": "The interior ministry estimated that 320,000 people had demonstrated nationwide, a smaller number than the previous two Saturdays. The police and protesters clashed in Paris and ot...",
         "source": "NYT > World News",
-        "pubDate": 1793440808000
+        "pubDate": 1793467317000
       },
       {
-        "title": "Stage Fright",
-        "link": "https://www.nytimes.com/2026/10/31/briefing/stage-fright.html",
-        "summary": "Halloween presents an endless parade of ghouls and goblins. Most aren’t actually scary, but can illuminate some things about the nature of fear.",
+        "title": "Syria Weighs Joining Saudi Mutual Defense Pact as Yemen War Rages",
+        "link": "https://www.nytimes.com/2026/10/31/world/middleeast/syria-saudi-defense-pact.html",
+        "summary": "A move to join Saudi Arabia’s agreement with Turkey and Pakistan could entangle more countries in the kingdom’s escalating conflict between the Iran-backed Houthis.",
         "source": "NYT > World News",
-        "pubDate": 1793440696000
+        "pubDate": 1793467110000
       },
       {
-        "title": "Britain’s Prime Minister Says He’s Open to a Formal Apology for Slavery",
-        "link": "https://www.nytimes.com/2026/10/30/world/europe/britain-burnham-charles-apology-slavery.html",
-        "summary": "The premier’s comments represent a major change in British policy, but they are unlikely to satisfy those who hoped that reparations would follow.",
+        "title": "Poland Deploys Riot Police in Standoff Over Country’s Top Court",
+        "link": "https://www.nytimes.com/2026/10/31/world/europe/poland-court-police-president.html",
+        "summary": "After years of legal wrangling, judges backed by the current government suspended the chief justice, as a feud escalated with the right-wing party that last held power.",
         "source": "NYT > World News",
-        "pubDate": 1793438369000
+        "pubDate": 1793466851000
       },
       {
-        "title": "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
-        "link": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
+        "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+        "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+        "summary": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
         "source": "BBC News",
-        "pubDate": 1793438174000
+        "pubDate": 1793464328000
       },
       {
-        "title": "Train Disaster Is a Blow to Spain’s Leader, Already an Election Underdog",
-        "link": "https://www.nytimes.com/2026/10/31/world/europe/spain-train-crash-politics.html",
-        "summary": "Prime Minister Pedro Sánchez wanted to campaign on inequality and housing, but the second major rail accident this year has put his government’s competence on trial.",
+        "title": "Here is the latest.",
+        "link": "https://www.nytimes.com/live/2026/10/31/world/france-student-protests-halloween/france-student-protests-halloween",
+        "summary": "Thousands, potentially in masks and costumes, are expected on the streets on Saturday, prompting the authorities to prepare another vast security response.",
         "source": "NYT > World News",
-        "pubDate": 1793437563000
+        "pubDate": 1793463979000
       }
     ]
   }
