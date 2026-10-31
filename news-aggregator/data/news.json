@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-31T00:23:00.675Z",
+  "lastUpdated": "2026-10-31T10:43:33.843Z",
   "categories": {
     "technology": [
       {
-        "title": "Think you can save the Hubble Space Telescope? NASA wants to know.",
+        "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
         "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
         "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
         "source": "Ars Technica - All content",
@@ -40,6 +40,13 @@
     ],
     "finance": [
       {
+        "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
+        "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
+        "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793421000000
+      },
+      {
         "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
         "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
         "summary": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
@@ -66,13 +73,6 @@
         "summary": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1793395380000
-      },
-      {
-        "title": "In a wild October for markets, these stocks were the biggest winners and losers",
-        "link": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
-        "summary": "Many Big Tech stocks were hit hard but the S&P 500 showed strength under the surface, with a majority of stocks showing gains for the month.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793393520000
       }
     ],
     "business": [
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "'The necktie is dead': How US midterm candidates are dressing for votes",
-        "link": "https://www.bbc.co.uk/news/articles/ckq6nz4286r4o?at_medium=RSS&at_campaign=rss",
-        "summary": "From Alaska to Texas, candidates with an eye on Congress are using their personal style to stand out.",
-        "source": "BBC News",
-        "pubDate": 1793405763000
-      },
-      {
-        "title": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says",
-        "link": "https://www.nytimes.com/2026/10/30/world/europe/spain-crash-contoller-errors.html",
-        "summary": "The transport minister said a judge would investigate controllers’ actions, including authorizing a train to proceed at high speed though another was stalled in front of it.",
+        "title": "75 Years On, the National Ballet of Canada ‘Remains the Icon’",
+        "link": "https://www.nytimes.com/2026/10/31/world/canada/national-ballet-canada-carney.html",
+        "summary": "The dance company started on a shoestring and went on to become internationally acclaimed.",
         "source": "NYT > World News",
-        "pubDate": 1793402865000
+        "pubDate": 1793440808000
       },
       {
-        "title": "He questioned Thailand's monarchy dressed as Harry Potter. Now he's in jail for 34 years",
-        "link": "https://www.bbc.co.uk/news/articles/cmjwepvd0qq9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Thailand has prosecuted 294 people since 2020 under its lèse majesté law, with sentences going up to 50 years.",
-        "source": "BBC News",
-        "pubDate": 1793402776000
+        "title": "Stage Fright",
+        "link": "https://www.nytimes.com/2026/10/31/briefing/stage-fright.html",
+        "summary": "Halloween presents an endless parade of ghouls and goblins. Most aren’t actually scary, but can illuminate some things about the nature of fear.",
+        "source": "NYT > World News",
+        "pubDate": 1793440696000
       },
       {
-        "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-        "link": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
-        "source": "BBC News",
-        "pubDate": 1793402357000
+        "title": "Britain’s Prime Minister Says He’s Open to a Formal Apology for Slavery",
+        "link": "https://www.nytimes.com/2026/10/30/world/europe/britain-burnham-charles-apology-slavery.html",
+        "summary": "The premier’s comments represent a major change in British policy, but they are unlikely to satisfy those who hoped that reparations would follow.",
+        "source": "NYT > World News",
+        "pubDate": 1793438369000
       },
       {
-        "title": "US approves sale of 500 Patriot missiles to Ukraine",
-        "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+        "title": "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
+        "link": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
+        "summary": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
         "source": "BBC News",
-        "pubDate": 1793398852000
+        "pubDate": 1793438174000
+      },
+      {
+        "title": "Train Disaster Is a Blow to Spain’s Leader, Already an Election Underdog",
+        "link": "https://www.nytimes.com/2026/10/31/world/europe/spain-train-crash-politics.html",
+        "summary": "Prime Minister Pedro Sánchez wanted to campaign on inequality and housing, but the second major rail accident this year has put his government’s competence on trial.",
+        "source": "NYT > World News",
+        "pubDate": 1793437563000
       }
     ]
   }
