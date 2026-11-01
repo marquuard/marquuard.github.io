@@ -1,94 +1,101 @@
 {
-  "lastUpdated": "2026-11-01T11:40:47.141Z",
+  "lastUpdated": "2026-11-01T18:15:45.089Z",
   "categories": {
     "technology": [
       {
-        "title": "Get in the spirit with these horrors from YouTube",
-        "link": "https://www.theverge.com/entertainment/1024096/halloween-spirit-youtube-horror",
-        "summary": "Rather than recommend a single horror film or an unsettling album for our final installment of spooky season recs, I present you with a small selection of creepy, disturbing, and j...",
+        "title": "Apple’s HomeView could add security camera features",
+        "link": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+        "summary": "Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding security camera features to its smart home hub. The strings describe a security camera mode...",
         "source": "The Verge",
-        "pubDate": 1793480818000
+        "pubDate": 1793553367000
       },
       {
-        "title": "Keyboards of The Verge",
-        "link": "https://www.theverge.com/gadgets/1017979/keyboards-of-the-verge-staff-picks",
-        "summary": "What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your hea...",
+        "title": "A fully playable version of Portal prequel F-Stop leaked",
+        "link": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+        "summary": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most of the assets came from the massive 12-terabyte leak that dropped this August. That didn...",
         "source": "The Verge",
-        "pubDate": 1793475000000
+        "pubDate": 1793549961000
       },
       {
-        "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
-        "link": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
-        "summary": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and th...",
+        "title": "North Korea linked to massive Binance crypto heist",
+        "link": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+        "summary": "The FBI says North Korea was behind the massive $6.3 billion crypto heist that hit Binance on October 29th. The FBI labeled the activity \"TraderTraitor\" and said that it had observ...",
         "source": "The Verge",
-        "pubDate": 1793472032000
+        "pubDate": 1793543591000
       },
       {
-        "title": "Happy Pikmin Day Eve",
-        "link": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve",
-        "summary": "This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about P...",
+        "title": "HomePod Mini 2 first look: Three things I love and one disappointment",
+        "link": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
+        "summary": "Apple’s second-generation HomePod Mini is a nice upgrade, but the biggest improvement hasn’t arrived yet. | Photo: Jennifer Pattison Tuohy / The Verge\t\n\nWhen I first heard about th...",
         "source": "The Verge",
-        "pubDate": 1793469012000
+        "pubDate": 1793541600000
       },
       {
-        "title": "I built an AI Tamagotchi before Meta could",
-        "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-        "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI ...",
+        "title": "New Zelda and GTA represent a games industry that no longer exists",
+        "link": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the biggest game releases of the year, follow Andrew Webster. The Stepb...",
         "source": "The Verge",
-        "pubDate": 1793462700000
+        "pubDate": 1793538000000
       }
     ],
     "finance": [
       {
-        "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
-        "link": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
-        "summary": "“Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”",
+        "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
+        "link": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+        "summary": "“I suspect the live-in caregiver is benefiting from my parent’s generosity.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793477700000
-      },
-      {
-        "title": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
-        "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
-        "summary": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793475000000
-      },
-      {
-        "title": "This is where most people go wrong in their 30s and 40s",
-        "link": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
-        "summary": "These big life decisions will determine just how well you retire.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793473320000
-      },
-      {
-        "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
-        "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-        "summary": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793473200000
+        "pubDate": 1793554200000
       },
       {
         "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
         "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
         "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793472600000
+        "pubDate": 1793552700000
+      },
+      {
+        "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
+        "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
+        "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793550900000
+      },
+      {
+        "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+        "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+        "summary": "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793545200000
+      },
+      {
+        "title": "This is the biggest threat to the AI-powered bull market",
+        "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+        "summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793541600000
       }
     ],
     "business": [
       {
-        "title": "Shops looted as German cost of living protests turn violent",
-        "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-        "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+        "title": "Thousands of jobs at Virgin Media O2 to be cut",
+        "link": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
+        "summary": "The broadband provider has not finalised the number of roles to be axed but it will likely be a sizeable chunk of its workforce, the BBC understands.",
         "source": "BBC News",
-        "pubDate": 1793531016000
+        "pubDate": 1793552234000
       },
       {
         "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
         "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
         "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
         "source": "BBC News",
-        "pubDate": 1793525286000
+        "pubDate": 1793538697000
+      },
+      {
+        "title": "Shops looted as German cost-of-living protests turn violent",
+        "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+        "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+        "source": "BBC News",
+        "pubDate": 1793534268000
       },
       {
         "title": "Energy bills help 'doesn't go far enough'",
@@ -103,50 +110,43 @@
         "summary": "The Diwali Basket Brigade volunteers want to help vulnerable households with rising food prices.",
         "source": "BBC News",
         "pubDate": 1793517093000
-      },
-      {
-        "title": "No more washing up: How Airbnb's new house rules have divided hosts and guests",
-        "link": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Airbnb hosts must stop asking guests to wash-up or take out bins under rules coming into force in November.",
-        "source": "BBC News",
-        "pubDate": 1793492225000
       }
     ],
     "world": [
       {
-        "title": "Shops looted as German cost of living protests turn violent",
-        "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-        "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+        "title": "Armed police start patrols in Sydney after Bondi Beach attack",
+        "link": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The new police unit is a security measure in response to last year's deadly shooting attack at a Hanukkah festival.",
         "source": "BBC News",
-        "pubDate": 1793531016000
+        "pubDate": 1793555807000
       },
       {
-        "title": "Netanyahu’s Bid to Stay in Power Will Test His Political Savvy",
-        "link": "https://www.nytimes.com/2026/11/01/world/middleeast/netanyahu-coalition-building-tests-political-skills.html",
-        "summary": "After losing ground in Israel’s election, Prime Minister Benjamin Netanyahu must draw on decades of political capital and reckon with old foes if he is to build a governing coaliti...",
-        "source": "NYT > World News",
-        "pubDate": 1793528420000
+        "title": "Lindsay Clancy is back in court - where will her case go next?",
+        "link": "https://www.bbc.co.uk/news/articles/ck3r5z3pw928o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Massachusetts mother, accused of murdering her three children, is expected back in court as she awaits a decision on whether her case will be retried.",
+        "source": "BBC News",
+        "pubDate": 1793554148000
       },
       {
-        "title": "Putin Breaks Down His Isolation, With a Big Assist From Trump",
-        "link": "https://www.nytimes.com/2026/11/01/world/europe/putin-isolation-breakdown-trump.html",
-        "summary": "Notching wins from Washington, the Russian leader is talking with foreign leaders and could return to diplomatic center stage with possible summit meetings.",
-        "source": "NYT > World News",
-        "pubDate": 1793527440000
+        "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+        "link": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say.",
+        "source": "BBC News",
+        "pubDate": 1793552792000
       },
       {
-        "title": "Where Do Israel’s Arab Parties Stand?",
-        "link": "https://www.nytimes.com/2026/11/01/world/middleeast/israel-arab-parties.html",
-        "summary": "Having won a record 19 seats in Israel’s Parliament, the two Arab-led parties say they want to work with opposition factions to take down the Netanyahu government.",
+        "title": "India’s Congress Party Holds Mass Protest in New Delhi",
+        "link": "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html",
+        "summary": "Tens of thousands gathered in India’s capital in a clamor of banging drums, chants and billowing flags, with participants from across the country.",
         "source": "NYT > World News",
-        "pubDate": 1793527431000
+        "pubDate": 1793551894000
       },
       {
-        "title": "Joseph Lagu, Who Led Independence Movement in Southern Sudan, Has Died",
-        "link": "https://www.nytimes.com/2026/11/01/world/africa/joseph-lagu-sudan-dead.html",
-        "summary": "He played a pivotal role in winning his region’s autonomy from Sudan in 1972, then served as a high-ranking diplomat. He was 94.",
+        "title": "Thailand’s Most Famous Snake Catcher",
+        "link": "https://www.nytimes.com/video/world/asia/100000011244032/thailand-snake-catcher-bangkok.html",
+        "summary": "Pinyo Pukpinyo, Thailand’s most famous snake catcher, has found the critters slithering in nooks and crannies all over Bangkok. He refuses to kill them.",
         "source": "NYT > World News",
-        "pubDate": 1793527353000
+        "pubDate": 1793545828000
       }
     ]
   }
