@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-11-02T00:15:13.504Z",
+  "lastUpdated": "2026-11-02T13:05:56.508Z",
   "categories": {
     "technology": [
+      {
+        "title": "This $48 e-paper display can be whatever you want it to be",
+        "link": "https://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be/",
+        "summary": "This DIY e-paper display works in two official ecosystems or on your own server.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793620807000
+      },
+      {
+        "title": "Jackery made its portable power stations even smaller",
+        "link": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
+        "summary": "Jackery announced a new portable power station that uses the safer and longer-lasting lithium iron phosphate (LFP) batteries the company first introduced in 2023. But what makes th...",
+        "source": "The Verge",
+        "pubDate": 1793595600000
+      },
       {
         "title": "NASA hopes the commercial space industry can help save Hubble",
         "link": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
@@ -12,7 +26,7 @@
       {
         "title": "Flock keeps ignoring requests to cancel its contracts",
         "link": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
-        "summary": "While more cities are canceling their contracts with Flock Safety, just as many are discovering how difficult that can be in some instances. Plymouth, Minnesota's city council vote...",
+        "summary": "BOULDER, CO - MARCH 5:A Flock Safety license plate recognition camera is seen near the intersection of Marine Street and Arapahoe Avenue in Boulder on Thursday, March 5, 2026. (Pho...",
         "source": "The Verge",
         "pubDate": 1793563082000
       },
@@ -22,131 +36,117 @@
         "summary": "Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding security camera features to its smart home hub. The strings describe a security camera mode...",
         "source": "The Verge",
         "pubDate": 1793553367000
-      },
-      {
-        "title": "A fully playable version of Portal prequel F-Stop leaked",
-        "link": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
-        "summary": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most of the assets came from the massive 12-terabyte leak that dropped this August. That didn...",
-        "source": "The Verge",
-        "pubDate": 1793549961000
-      },
-      {
-        "title": "North Korea linked to massive Binance crypto heist",
-        "link": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
-        "summary": "The FBI says North Korea was behind the massive $6.3 billion crypto heist that hit Binance on October 29th. The FBI labeled the activity \"TraderTraitor\" and said that it had observ...",
-        "source": "The Verge",
-        "pubDate": 1793543591000
       }
     ],
     "finance": [
       {
-        "title": "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
-        "link": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
-        "summary": "“When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”",
+        "title": "Marvell and Lumentum officially plan to combine. Here’s what to know.",
+        "link": "https://www.marketwatch.com/story/marvell-and-lumentum-officially-plan-to-combine-heres-what-to-know-5599b98a?mod=mw_rss_topstories",
+        "summary": "A newly proposed deal would be financed in stock and target the hot optical-networking market.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793563200000
+        "pubDate": 1793622360000
       },
       {
-        "title": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
-        "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
-        "summary": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
+        "title": "This is the biggest threat to the AI-powered bull market",
+        "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+        "summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793560800000
+        "pubDate": 1793622180000
       },
       {
-        "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
-        "link": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
-        "summary": "“I suspect the live-in caregiver is benefiting from my parent’s generosity.”",
+        "title": "America is doing better than you think — just ask those in the bottom half of household wealth",
+        "link": "https://www.marketwatch.com/story/america-is-doing-better-than-you-think-your-algorithm-is-just-hiding-it-7dbdecff?mod=mw_rss_topstories",
+        "summary": "The bottom half of Americans has more than doubled its net worth since 2019. You wouldn’t know it from scrolling social media.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793554200000
+        "pubDate": 1793622120000
+      },
+      {
+        "title": "In the hunt for $1 trillion of revenue, SpaceX reportedly targets Boost Mobile for a deal",
+        "link": "https://www.marketwatch.com/story/in-the-hunt-for-1-trillion-of-revenue-spacex-reportedly-targets-boost-mobile-for-a-deal-7eb4ea49?mod=mw_rss_topstories",
+        "summary": "In recent weeks there has been intense speculation surrounding SpaceX  ambitions in the cellular market with multiple acquisition targets suggested; Boost Mobile is the latest",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793622000000
       },
       {
         "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
         "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
         "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793552700000
-      },
-      {
-        "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-        "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
-        "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793550900000
+        "pubDate": 1793621700000
       }
     ],
     "business": [
       {
-        "title": "Don't get caught out by new Buy Now Pay Later rules",
-        "link": "https://www.bbc.co.uk/news/articles/crpdgp4y017go?at_medium=RSS&at_campaign=rss",
-        "summary": "New affordability checks mean you could be blocked from using Buy Now Pay Later but here are ways to avoid it.",
+        "title": "Shop freezers in six European countries hit by suspected cyber-attack",
+        "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
         "source": "BBC News",
-        "pubDate": 1793576089000
+        "pubDate": 1793624073000
       },
       {
-        "title": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
-        "link": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Clive Myrie travelled to North Caroline where voters voiced their frustrations ahead of midterm elections.",
+        "title": "Ryanair says it may freeze workers' pay and raise airfares",
+        "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+        "summary": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
         "source": "BBC News",
-        "pubDate": 1793571951000
+        "pubDate": 1793622130000
       },
       {
-        "title": "Thousands of jobs at Virgin Media O2 to be cut",
-        "link": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
-        "summary": "The broadband provider has not finalised the number of roles to be axed but it will likely be a sizeable chunk of its workforce, the BBC understands.",
+        "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+        "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
         "source": "BBC News",
-        "pubDate": 1793552234000
+        "pubDate": 1793605353000
       },
       {
-        "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-        "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+        "title": "Christmas donations gift demand up, charities say",
+        "link": "https://www.bbc.co.uk/news/articles/cm5ynrp0lg2yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Charities collecting Christmas presents for struggling families say demand has gone up.",
         "source": "BBC News",
-        "pubDate": 1793538697000
+        "pubDate": 1793600568000
       },
       {
-        "title": "Shops looted as German cost-of-living protests turn violent",
-        "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-        "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+        "title": "Christmas shoebox appeal launches to help children",
+        "link": "https://www.bbc.co.uk/news/articles/cv98zr5wxp21o?at_medium=RSS&at_campaign=rss",
+        "summary": "A gift-filled shoebox campaign launched for children who would otherwise go without this Christmas.",
         "source": "BBC News",
-        "pubDate": 1793534268000
+        "pubDate": 1793600469000
       }
     ],
     "world": [
       {
-        "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
-        "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-        "summary": "The move by Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, was called a \"despicable betrayal\" by one top Democrat.",
+        "title": "Shop freezers in six European countries hit by suspected cyber-attack",
+        "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
         "source": "BBC News",
-        "pubDate": 1793577735000
+        "pubDate": 1793624073000
       },
       {
-        "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
-        "link": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities say there is no threat and have advised the public to stay calm and follow official channels for information.",
+        "title": "Ryanair says it may freeze workers' pay and raise airfares",
+        "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+        "summary": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
         "source": "BBC News",
-        "pubDate": 1793572704000
+        "pubDate": 1793622130000
       },
       {
-        "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-        "link": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
-        "summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
-        "source": "BBC News",
-        "pubDate": 1793570101000
-      },
-      {
-        "title": "A Lesson From Germany",
-        "link": "https://www.nytimes.com/2026/11/01/world/germany-russia-putin-deals-us-midterms.html",
-        "summary": "Trump is betting on economic incentives to stop Putin in Ukraine. Germany’s experience shows why that strategy is risky.",
+        "title": "Netanyahu and Eisenkot Seek Shot to Be Israel’s Premier",
+        "link": "https://www.nytimes.com/2026/11/02/world/middleeast/israel-election-prime-minister.html",
+        "summary": "Party leaders will make competing cases to the Israeli president for either Benjamin Netanyahu or Gadi Eisenkot to get the first chance to build a governing coalition.",
         "source": "NYT > World News",
-        "pubDate": 1793565944000
+        "pubDate": 1793621606000
       },
       {
-        "title": "Syria Weighs Joining Saudi Mutual Defense Pact as Yemen War Rages",
-        "link": "https://www.nytimes.com/2026/10/31/world/middleeast/syria-saudi-defense-pact.html",
-        "summary": "A move to join Saudi Arabia’s agreement with Turkey and Pakistan could entangle more countries in the kingdom’s escalating conflict between the Iran-backed Houthis.",
+        "title": "Do Animals Grieve?",
+        "link": "https://www.nytimes.com/2026/11/02/science/animals-grief-death.html",
+        "summary": "The feeling of existential loss was long thought to be uniquely human. But studies of coyotes, cockatoos and other creatures are prompting some scientists to reconsider.",
         "source": "NYT > World News",
-        "pubDate": 1793563730000
+        "pubDate": 1793621261000
+      },
+      {
+        "title": "Uganda begins withdrawing troops from Somalia after 20 years",
+        "link": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
+        "summary": "The country was the first to contribute troops to the AU mission established to stabilise Somalia in 2007.",
+        "source": "BBC News",
+        "pubDate": 1793621134000
       }
     ]
   }
