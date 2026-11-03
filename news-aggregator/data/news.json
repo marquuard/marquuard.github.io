@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-03T12:37:29.547Z",
+  "lastUpdated": "2026-11-03T19:57:45.746Z",
   "categories": {
     "technology": [
       {
-        "title": "Redmagic upgrades its liquid-cooled gaming phone with extra RGBs",
-        "link": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
-        "summary": "The circular liquid-cooling system now features its own RGB lights. | Photo: Dominic Preston / The Verge\t\n\nAfter introducing true liquid cooling to its gaming phones last year, Red...",
+        "title": "You can’t hit a wrong note when playing along with songs on Casio’s new keyboard",
+        "link": "https://www.theverge.com/tech/1025673/casio-digital-piano-keyboard-ct-fs1-feel-sync-technology",
+        "summary": "Casio announced a new addition to its Casiotone line of portable electronic keyboards with a feature that could help aspiring musicians master skills like rhythm and timing without...",
         "source": "The Verge",
-        "pubDate": 1793707200000
+        "pubDate": 1793735321000
       },
       {
-        "title": "Rivian spinoff Also wants to reinvent the wheel — but first, it has to ship",
-        "link": "https://www.theverge.com/transportation/1024747/rivian-spinoff-also-chris-yu-interview-ebike-production-ramp",
-        "summary": "Chris Yu, president of Also, stands behind the TM-B electric bike at the company's headquarters in Palo Alto, California, in October 2025. | Photo: Jason Henry / Bloomberg via Gett...",
+        "title": "This Election Day, remember which party ran against EVs and tethered us all to the gas pump",
+        "link": "https://www.theverge.com/transportation/1025318/trump-gop-ev-war-record-gas-prices-midterms",
+        "summary": "It's the midterms! Here's a fun fact for you as you head to the polls: Gas prices today are the highest ever recorded for a US Election Day. \nThe national average for a gallon of g...",
         "source": "The Verge",
-        "pubDate": 1793707200000
+        "pubDate": 1793735086000
       },
       {
-        "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
-        "link": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/",
-        "summary": "The Smithsonian's National Air and Space Museum has all of its \"space\" back open.",
+        "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+        "link": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+        "summary": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new add...",
+        "source": "The Verge",
+        "pubDate": 1793730660000
+      },
+      {
+        "title": "OpenAI says ChatGPT is catching up to Google in search",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+        "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent...",
+        "source": "The Verge",
+        "pubDate": 1793730642000
+      },
+      {
+        "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+        "link": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
+        "summary": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793662216000
-      },
-      {
-        "title": "Apple is ‘not able to predict’ when it&#8217;ll have enough iPhone Duos to go around",
-        "link": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
-        "summary": "Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could lift. During an interview with Reuters, Ternus said the company is \"working hard to get i...",
-        "source": "The Verge",
-        "pubDate": 1793660171000
-      },
-      {
-        "title": "Why large dogs age faster than small ones, and other October research highlights",
-        "link": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/",
-        "summary": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793660075000
+        "pubDate": 1793730627000
       }
     ],
     "finance": [
+      {
+        "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.",
+        "link": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories",
+        "summary": "Don’t sit on the sidelines during open enrollment.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793733780000
+      },
+      {
+        "title": "My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?",
+        "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+        "summary": "“I’m 68, she’s 74, and we’re both in good health.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793732400000
+      },
       {
         "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
         "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
         "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793709000000
+        "pubDate": 1793730600000
       },
       {
-        "title": "11 bargain-priced stocks of companies that have huge growth potential over the next two years",
-        "link": "https://www.marketwatch.com/story/11-bargain-priced-stocks-of-companies-that-have-huge-growth-potential-over-the-next-two-years-d62618e6?mod=mw_rss_topstories",
-        "summary": "These stocks trade at low price/earnings valuations, and the companies are projected to achieve very high revenue growth rates through 2028.",
+        "title": "Once election results are in, here’s what investors should focus on next",
+        "link": "https://www.marketwatch.com/story/once-election-results-are-in-heres-what-investors-should-focus-on-next-75c5ac5d?mod=mw_rss_topstories",
+        "summary": "It is important to separate your political preferences from your investment and trading decisions.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793708880000
+        "pubDate": 1793730420000
       },
       {
-        "title": "Wall Street’s most hated stocks are faring far better than its favorites",
-        "link": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
-        "summary": "The thrashing that Wall Street’s artificial-intelligence darlings have taken over the past few months has led to an unusual situation in the U.S. stock market.",
+        "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Should I intervene?",
+        "link": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+        "summary": "“I suspect the live-in caregiver is benefiting from my parent’s generosity.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793708520000
-      },
-      {
-        "title": "What analysts are telling us while Apple’s stock falls after earnings report",
-        "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
-        "summary": "Shares in Apple declined 4.5% in premarket trading after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue  growth.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793708400000
-      },
-      {
-        "title": "‘She’s a Type A personality’: My stepmother wants me to repay my late father’s $40,000 wedding gift. Should I oblige?",
-        "link": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
-        "summary": "“About two months after his funeral, my stepmother called and said she wanted the money back.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793708100000
+        "pubDate": 1793727000000
       }
     ],
     "business": [
       {
-        "title": "Car finance compensation payments explained",
-        "link": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
-        "summary": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
+        "title": "Keeping mortgage interest relief approved",
+        "link": "https://www.bbc.co.uk/news/articles/c6vgj0ljx01jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Homeowners can get tax relief of £3,500 on the money spent on the interstate of a mortgage.",
         "source": "BBC News",
-        "pubDate": 1793709004000
+        "pubDate": 1793724260000
       },
       {
-        "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-        "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-        "summary": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
+        "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+        "link": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_medium=RSS&at_campaign=rss",
+        "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
         "source": "BBC News",
-        "pubDate": 1793707679000
+        "pubDate": 1793721083000
       },
       {
-        "title": "Drivers may get compensation offers before car finance saga ends",
-        "link": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
-        "summary": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
+        "title": "Asda hires ex-Morrisons boss in bid to grow firm",
+        "link": "https://www.bbc.co.uk/news/articles/c6vg0xzd0ln4o?at_medium=RSS&at_campaign=rss",
+        "summary": "David Potts takes charge of Asda, which is based in Leeds, with immediate effect.",
         "source": "BBC News",
-        "pubDate": 1793706991000
+        "pubDate": 1793718755000
       },
       {
-        "title": "Proposal for free bus service scrapped ",
-        "link": "https://www.bbc.co.uk/news/articles/cmrly74wr9n2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The one-year free bus service pilot was initially put forward as an amendment to next year's budget.",
+        "title": "Mining giant joins fight to stop killer toad march across Australia",
+        "link": "https://www.bbc.co.uk/news/articles/c3dxw8p99ervo?at_medium=RSS&at_campaign=rss",
+        "summary": "Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.",
         "source": "BBC News",
-        "pubDate": 1793704902000
+        "pubDate": 1793718301000
       },
       {
-        "title": "'Quiet quitting' could be hitting the economy - here's why",
-        "link": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
-        "summary": "Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.",
-        "source": "BBC News",
-        "pubDate": 1793704551000
+        "title": "William Nordhaus Dies; Nobel Winner Influenced Climate Policy.",
+        "link": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
+        "summary": "The Yale professor moved climate change into mainstream economic analysis.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1793718140000
       }
     ],
     "world": [
       {
-        "title": "US urges Venezuela to release remaining political prisoners",
-        "link": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss",
-        "summary": "The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'.",
-        "source": "BBC News",
-        "pubDate": 1793707760000
-      },
-      {
-        "title": "Indian tourist killed after two helicopters collide near Everest base camp",
-        "link": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
-        "summary": "The two aircraft crashed just metres from the ground after trying to land at the same spot.",
-        "source": "BBC News",
-        "pubDate": 1793706668000
-      },
-      {
-        "title": "US strikes Iranian island ahead of midterm elections",
-        "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-        "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
-        "source": "BBC News",
-        "pubDate": 1793705613000
-      },
-      {
-        "title": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
-        "link": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-midterms-election.html",
-        "summary": "The energy-rich Gulf Arab countries are engaged in a flurry of mediation efforts to avert war between the U.S. and Iran, as many fear that the fighting will be worse this time arou...",
+        "title": "Trump Pushes Venezuela for Agreement Allowing U.S. Troops to Stay",
+        "link": "https://www.nytimes.com/2026/11/03/us/politics/trump-venezuela-troop-agreement.html",
+        "summary": "The two countries have long been adversaries, and the United States attacked Venezuela this year, but Secretary of State Marco Rubio is starting talks on a legal agreement.",
         "source": "NYT > World News",
-        "pubDate": 1793702838000
+        "pubDate": 1793735219000
       },
       {
-        "title": "Why Trump Often Mentioned Iran in the Midterm Campaign",
-        "link": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
-        "summary": "President Trump has repeatedly reminded Americans of a losing campaign issue just as voters head to the polls. Why?",
+        "title": "Afghan Woman Is Among Dozens to Be Deported to Afghanistan",
+        "link": "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
+        "summary": "The Trump administration has arranged a flight to send dozens of Afghan immigrants back to Afghanistan, despite the risk of persecution by the Taliban.",
         "source": "NYT > World News",
-        "pubDate": 1793702704000
+        "pubDate": 1793734329000
+      },
+      {
+        "title": "Australian Court Hears Challenge to Social Media Ban",
+        "link": "https://www.nytimes.com/2026/11/03/world/asia/australia-social-media-ban-high-court.html",
+        "summary": "Reddit and an Australian digital advocacy group are claiming a law that restricts children younger than 16 from popular platforms infringes on their constitutional rights.",
+        "source": "NYT > World News",
+        "pubDate": 1793733537000
+      },
+      {
+        "title": "Poland Beefs Up Security at Border With Russia",
+        "link": "https://www.nytimes.com/2026/11/03/world/europe/poland-russia-kaliningrad.html",
+        "summary": "Prime Minister Donald Tusk said there had been “disturbing movement” in Kaliningrad, a Russian region just north of Poland.",
+        "source": "NYT > World News",
+        "pubDate": 1793729887000
+      },
+      {
+        "title": "Seven flights across Europe targeted by suspected bomb threats",
+        "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+        "source": "BBC News",
+        "pubDate": 1793728563000
       }
     ]
   }
