@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-11-03T02:45:34.912Z",
+  "lastUpdated": "2026-11-03T12:37:29.547Z",
   "categories": {
     "technology": [
+      {
+        "title": "Redmagic upgrades its liquid-cooled gaming phone with extra RGBs",
+        "link": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
+        "summary": "The circular liquid-cooling system now features its own RGB lights. | Photo: Dominic Preston / The Verge\t\n\nAfter introducing true liquid cooling to its gaming phones last year, Red...",
+        "source": "The Verge",
+        "pubDate": 1793707200000
+      },
+      {
+        "title": "Rivian spinoff Also wants to reinvent the wheel — but first, it has to ship",
+        "link": "https://www.theverge.com/transportation/1024747/rivian-spinoff-also-chris-yu-interview-ebike-production-ramp",
+        "summary": "Chris Yu, president of Also, stands behind the TM-B electric bike at the company's headquarters in Palo Alto, California, in October 2025. | Photo: Jason Henry / Bloomberg via Gett...",
+        "source": "The Verge",
+        "pubDate": 1793707200000
+      },
       {
         "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
         "link": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/",
@@ -22,131 +36,117 @@
         "summary": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more.",
         "source": "Ars Technica - All content",
         "pubDate": 1793660075000
-      },
-      {
-        "title": "Apple set an iPhone sales record even without a new standard iPhone",
-        "link": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings",
-        "summary": "Apple had a record-breaking quarter for iPhone sales - despite not releasing a standard model during its latest refresh. In its fourth-quarter earnings report released on Monday, A...",
-        "source": "The Verge",
-        "pubDate": 1793656956000
-      },
-      {
-        "title": "Third person dies of bird flu since virus started jumping to livestock",
-        "link": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/",
-        "summary": "The threat is still considered to be low, but the virus continues to spread.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793654503000
       }
     ],
     "finance": [
       {
-        "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
-        "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
-        "summary": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.",
+        "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+        "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+        "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793667540000
+        "pubDate": 1793709000000
       },
       {
-        "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
-        "link": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
-        "summary": "Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.",
+        "title": "11 bargain-priced stocks of companies that have huge growth potential over the next two years",
+        "link": "https://www.marketwatch.com/story/11-bargain-priced-stocks-of-companies-that-have-huge-growth-potential-over-the-next-two-years-d62618e6?mod=mw_rss_topstories",
+        "summary": "These stocks trade at low price/earnings valuations, and the companies are projected to achieve very high revenue growth rates through 2028.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793667120000
+        "pubDate": 1793708880000
       },
       {
-        "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-        "link": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
-        "summary": "The “tech wreck” from October continues. Is a bear market next?",
+        "title": "Wall Street’s most hated stocks are faring far better than its favorites",
+        "link": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+        "summary": "The thrashing that Wall Street’s artificial-intelligence darlings have taken over the past few months has led to an unusual situation in the U.S. stock market.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793664180000
+        "pubDate": 1793708520000
       },
       {
-        "title": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
-        "link": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
-        "summary": "Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.",
+        "title": "What analysts are telling us while Apple’s stock falls after earnings report",
+        "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+        "summary": "Shares in Apple declined 4.5% in premarket trading after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue  growth.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793662740000
+        "pubDate": 1793708400000
       },
       {
-        "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-        "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
-        "summary": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
+        "title": "‘She’s a Type A personality’: My stepmother wants me to repay my late father’s $40,000 wedding gift. Should I oblige?",
+        "link": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
+        "summary": "“About two months after his funeral, my stepmother called and said she wanted the money back.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793656980000
+        "pubDate": 1793708100000
       }
     ],
     "business": [
+      {
+        "title": "Car finance compensation payments explained",
+        "link": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
+        "summary": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
+        "source": "BBC News",
+        "pubDate": 1793709004000
+      },
       {
         "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
         "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
         "summary": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
         "source": "BBC News",
-        "pubDate": 1793671873000
+        "pubDate": 1793707679000
       },
       {
-        "title": "North Korea denies being behind record $6.3bn Binance hack",
-        "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
-        "summary": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
+        "title": "Drivers may get compensation offers before car finance saga ends",
+        "link": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
+        "summary": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
         "source": "BBC News",
-        "pubDate": 1793668983000
+        "pubDate": 1793706991000
       },
       {
-        "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
-        "link": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
-        "summary": "The men and women who rummage through commercial bins to take clothes and other items.",
+        "title": "Proposal for free bus service scrapped ",
+        "link": "https://www.bbc.co.uk/news/articles/cmrly74wr9n2o?at_medium=RSS&at_campaign=rss",
+        "summary": "The one-year free bus service pilot was initially put forward as an amendment to next year's budget.",
         "source": "BBC News",
-        "pubDate": 1793666496000
+        "pubDate": 1793704902000
       },
       {
-        "title": "Apple unsure when more foldable iPhones will be available after selling out",
-        "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
-        "summary": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
+        "title": "'Quiet quitting' could be hitting the economy - here's why",
+        "link": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.",
         "source": "BBC News",
-        "pubDate": 1793665740000
-      },
-      {
-        "title": "William Nordhaus Has Died. Nobelist Influenced Climate Policy.",
-        "link": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
-        "summary": "The Yale professor moved climate change into mainstream economic analysis.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793661238000
+        "pubDate": 1793704551000
       }
     ],
     "world": [
       {
-        "title": "Man and boy arrested after allegedly attacking One Nation volunteer with baseball bat in Australia",
-        "link": "https://www.bbc.co.uk/news/articles/cwly3jd27m9xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The incident comes amid growing calls for the temperature of political debate in Australia to be turned down.",
+        "title": "US urges Venezuela to release remaining political prisoners",
+        "link": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss",
+        "summary": "The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'.",
         "source": "BBC News",
-        "pubDate": 1793671066000
+        "pubDate": 1793707760000
       },
       {
-        "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-        "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+        "title": "Indian tourist killed after two helicopters collide near Everest base camp",
+        "link": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
+        "summary": "The two aircraft crashed just metres from the ground after trying to land at the same spot.",
         "source": "BBC News",
-        "pubDate": 1793670987000
+        "pubDate": 1793706668000
       },
       {
-        "title": "North Korea denies being behind record $6.3bn Binance hack",
-        "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
-        "summary": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
+        "title": "US strikes Iranian island ahead of midterm elections",
+        "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+        "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
         "source": "BBC News",
-        "pubDate": 1793668983000
+        "pubDate": 1793705613000
       },
       {
-        "title": "Indian film star Ranbir Kapoor on AI, movies and fatherhood",
-        "link": "https://www.bbc.co.uk/news/videos/cmvg9w5w2p1no?at_medium=RSS&at_campaign=rss",
-        "summary": "The film star plays the leading role in a major new adaptation of the Indian epic Ramayana.",
-        "source": "BBC News",
-        "pubDate": 1793664553000
+        "title": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
+        "link": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-midterms-election.html",
+        "summary": "The energy-rich Gulf Arab countries are engaged in a flurry of mediation efforts to avert war between the U.S. and Iran, as many fear that the fighting will be worse this time arou...",
+        "source": "NYT > World News",
+        "pubDate": 1793702838000
       },
       {
-        "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators ",
-        "link": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-        "summary": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
-        "source": "BBC News",
-        "pubDate": 1793664494000
+        "title": "Why Trump Often Mentioned Iran in the Midterm Campaign",
+        "link": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
+        "summary": "President Trump has repeatedly reminded Americans of a losing campaign issue just as voters head to the polls. Why?",
+        "source": "NYT > World News",
+        "pubDate": 1793702704000
       }
     ]
   }
