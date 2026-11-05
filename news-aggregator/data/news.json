@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-04T20:16:59.316Z",
+  "lastUpdated": "2026-11-05T01:17:43.864Z",
   "categories": {
     "technology": [
       {
-        "title": "Google’s Pixel 11 phones are up to 27 percent off",
-        "link": "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
-        "summary": "You can save a heck of lot of money on Google’s Pixel 11 phones through November 8th, whether you want the best-for-the-least Pixel 11, or the slightly pricier Pixel 11 Pro that ta...",
-        "source": "The Verge",
-        "pubDate": 1793818800000
-      },
-      {
-        "title": "Xbox previews two new ways to control cloud games",
-        "link": "https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller",
-        "summary": "I revealed yesterday that the new Xbox Nano controller supports a Wi-Fi connection directly to Xbox Cloud Gaming, and now Microsoft is making it official today. Two new Xbox previe...",
-        "source": "The Verge",
-        "pubDate": 1793818800000
-      },
-      {
-        "title": "Nothing teases a screen-free AI device ahead of launch next month",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
-        "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" de...",
-        "source": "The Verge",
-        "pubDate": 1793816767000
-      },
-      {
-        "title": "Apple will check shared iCloud links for ‘harmful content’",
-        "link": "https://www.theverge.com/tech/1026604/apple-icloud-links-harmful-content-27-3",
-        "summary": "Apple will start checking iCloud items that are accessible to anyone who has the link for \"harmful content\" starting with iOS 27.3 and other 27.3 updates, the company says.\n\"When y...",
-        "source": "The Verge",
-        "pubDate": 1793816617000
-      },
-      {
-        "title": "People say they want small smartphones—the Enough Phone will put that to the test",
-        "link": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
-        "summary": "It won't win the specs race, but it will actually fit in your hand.",
+        "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+        "link": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
+        "summary": "And what that could mean for physical Switch game costs.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793815240000
+        "pubDate": 1793832471000
+      },
+      {
+        "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+        "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the compan...",
+        "source": "The Verge",
+        "pubDate": 1793832135000
+      },
+      {
+        "title": "Hackers exploited iOS and Android flaws to infect phones",
+        "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+        "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793831209000
+      },
+      {
+        "title": "Uranium cubes reveal why the German nuclear project failed",
+        "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+        "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793829389000
+      },
+      {
+        "title": "17 better ways Elon Musk could have wasted $446 million",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+        "summary": "Dream bigger, babe. | Image: Cath Virginia / The Verge, Getty Images\t\n\nOne of the basic problems of spending too much time on social media is that you are cooking your brain by rea...",
+        "source": "The Verge",
+        "pubDate": 1793828700000
       }
     ],
     "finance": [
       {
-        "title": "Microsoft and Amazon combine for a $400 billion market-cap boost — and these factors show why",
-        "link": "https://www.marketwatch.com/story/microsoft-and-amazon-combine-for-a-400-billion-market-cap-boost-and-these-factors-show-why-6655d1a9?mod=mw_rss_topstories",
-        "summary": "Microsoft and Amazon shares are rising sharply on Wednesday, with one portfolio manager noting that a cloud-supply crunch could help the companies raise prices.",
+        "title": "Qualcomm’s stock falls as twin forces pressure sales",
+        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+        "summary": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793822640000
+        "pubDate": 1793840760000
       },
       {
-        "title": "4 market-moving issues investors should watch now that the midterms are over",
-        "link": "https://www.marketwatch.com/story/4-market-moving-issues-investors-should-watch-now-that-the-midterms-are-over-9a77b3de?mod=mw_rss_topstories",
-        "summary": "The Democrats’ election sweep on Tuesday could have far-reaching consequences for markets and the economy.",
+        "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+        "link": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+        "summary": "AppLovin’s stock is popping after “clearly positive” earnings results.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793819520000
+        "pubDate": 1793840700000
       },
       {
-        "title": "SpaceX’s Qualcomm deal could be a precursor to a telecom takeover",
-        "link": "https://www.marketwatch.com/story/qualcomm-sat-out-the-semiconductor-rally-can-a-spacex-partnership-change-that-5bb4c0b2?mod=mw_rss_topstories",
-        "summary": "The deal adds to what a BNP Paribas analyst called an “unprecedented” amount of news putting pressure on U.S. telecommunications operators.",
+        "title": "Figma’s stock dips as investors worry that AI momentum is coming at a high price",
+        "link": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
+        "summary": "Figma’s investments in AI models and agents are driving usage, but the cost of delivering these features is proving to be expensive",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793818620000
+        "pubDate": 1793840580000
       },
       {
-        "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have $500 in savings. What politician speaks for me?",
-        "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-        "summary": "“In the wake of the midterm elections, how many Americans are living in poverty?”",
+        "title": "McDonald’s tests new value menu as fast-food discount wars heat up",
+        "link": "https://www.marketwatch.com/story/mcdonalds-tests-new-value-menu-as-fast-food-discount-wars-heat-up-bfc57caf?mod=mw_rss_topstories",
+        "summary": "The burger chain is overhauling its menu and seeking to deliver a “clear and compelling value proposition.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793817420000
+        "pubDate": 1793840460000
       },
       {
-        "title": "These stocks have soared the most today after the Democrats trounced Trump",
-        "link": "https://www.marketwatch.com/story/these-stocks-have-soared-the-most-today-after-the-democrats-trounced-trump-9d785314?mod=mw_rss_topstories",
-        "summary": "Stanley Black & Decker’s stock was the strongest performer among the S&P 500, while several tech players and associated power providers showed sharp declines.",
+        "title": "As Vistra and other energy stocks slide, some analysts warn of an ‘excessive knee-jerk’ reaction",
+        "link": "https://www.marketwatch.com/story/as-vistra-and-other-energy-stocks-slide-some-analysts-warn-of-an-excessive-knee-jerk-reaction-aece0737?mod=mw_rss_topstories",
+        "summary": "Energy stocks have already been under pressure, and newly elected officials may not slow the data-center boom as much as feared.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793816940000
+        "pubDate": 1793839080000
       }
     ],
     "business": [
+      {
+        "title": "Australia's oldest department store David Jones collapses after 188 years",
+        "link": "https://www.bbc.co.uk/news/articles/cky93z5y0171o?at_medium=RSS&at_campaign=rss",
+        "summary": "The brand's 38 physical stores and online site will continue to operate while receivers review its operations.",
+        "source": "BBC News",
+        "pubDate": 1793840362000
+      },
+      {
+        "title": "Interest rates expected to rise for first time in over three years",
+        "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
+        "source": "BBC News",
+        "pubDate": 1793836809000
+      },
+      {
+        "title": "Pound rises to its highest level since the Brexit referendum",
+        "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
+        "source": "BBC News",
+        "pubDate": 1793835028000
+      },
+      {
+        "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+        "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
+        "source": "BBC News",
+        "pubDate": 1793828475000
+      },
       {
         "title": "Poundland owner in crunch talks as retailer's collapse looms",
         "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
         "summary": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
         "source": "BBC News",
         "pubDate": 1793821486000
-      },
-      {
-        "title": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
-        "link": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
-        "summary": "The cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.",
-        "source": "BBC News",
-        "pubDate": 1793821133000
-      },
-      {
-        "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
-        "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.",
-        "source": "BBC News",
-        "pubDate": 1793807497000
-      },
-      {
-        "title": "William Nordhaus Dies; Nobel Winner Influenced Climate Policy",
-        "link": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
-        "summary": "The Yale professor moved climate change into mainstream economic analysis.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793804651000
-      },
-      {
-        "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-        "link": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_medium=RSS&at_campaign=rss",
-        "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-        "source": "BBC News",
-        "pubDate": 1793789251000
       }
     ],
     "world": [
       {
-        "title": "John Frieda, Hairdresser to Royalty Who Built a Beauty Empire, Dies at 75",
-        "link": "https://www.nytimes.com/2026/11/04/style/john-frieda-dead.html",
-        "summary": "A fixture of London’s high-fashion salon scene, his clients also included celebrities like Jacqueline Kennedy Onassis, Raquel Welch and Gwyneth Paltrow in a career that lasted more...",
+        "title": "After 3 Months Lost at Sea, Five Survivors Are Rescued on Remote Island",
+        "link": "https://www.nytimes.com/2026/11/04/world/asia/micronesia-boat-survivors-found.html",
+        "summary": "A boat in Micronesia went missing in July. This weekend, five of its passengers landed, unclothed and emaciated, on an island in Kiribati — more than 3,000 miles away.",
         "source": "NYT > World News",
-        "pubDate": 1793822225000
-      },
-      {
-        "title": "For Israelis, U.S. Midterms Show How Far Their Star Has Fallen in America",
-        "link": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-trump-midterm-elections.html",
-        "summary": "Israel once had bipartisan support in the United States, but a strong showing for Democrats, some of whom are deeply critical of the war in Gaza, has left the country with fewer fr...",
-        "source": "NYT > World News",
-        "pubDate": 1793817993000
-      },
-      {
-        "title": "Senji Kuroi Has Died. He Interpreted ‘the Salaried Soul.’",
-        "link": "https://www.nytimes.com/2026/11/04/world/asia/senji-kuroi-dead.html",
-        "summary": "In books and essays, he captured the unease beneath Japan’s economic miracle and wrote about everyday people who might never appear in headlines.",
-        "source": "NYT > World News",
-        "pubDate": 1793816637000
-      },
-      {
-        "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-        "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
-        "summary": "With Canada-US trade talks back on, Tuesday’s midterm Democratic wave puts pressure on the White House to come to a deal.",
-        "source": "BBC News",
-        "pubDate": 1793815291000
+        "pubDate": 1793838633000
       },
       {
         "title": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
         "link": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
         "summary": "Commentators abroad wondered what President Trump’s electoral losses might mean for oil prices, the war on Iran and the future of American politics.",
         "source": "NYT > World News",
-        "pubDate": 1793814680000
+        "pubDate": 1793835419000
+      },
+      {
+        "title": "Bob Dylan Meets With Pope Leo",
+        "link": "https://www.nytimes.com/2026/11/04/world/europe/bob-dylan-pope-leo.html",
+        "summary": "Pope Leo wore his usual white vestments. Bob Dylan visited the Vatican in a hooded sweatshirt and polka-dot tie. There was no singing.",
+        "source": "NYT > World News",
+        "pubDate": 1793834079000
+      },
+      {
+        "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+        "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+        "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
+        "source": "BBC News",
+        "pubDate": 1793832523000
+      },
+      {
+        "title": "For Israelis, U.S. Midterms Show How Far Their Star Has Fallen in America",
+        "link": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-trump-midterm-elections.html",
+        "summary": "Israel once had bipartisan support in the United States, but a strong showing for Democrats, some of whom are deeply critical of the war in Gaza, has left the country with fewer fr...",
+        "source": "NYT > World News",
+        "pubDate": 1793829844000
       }
     ]
   }
