@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-05T01:17:43.864Z",
+  "lastUpdated": "2026-11-05T12:56:09.388Z",
   "categories": {
     "technology": [
       {
-        "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
-        "link": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
-        "summary": "And what that could mean for physical Switch game costs.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793832471000
-      },
-      {
-        "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-        "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the compan...",
+        "title": "Discord is ditching Electron and its new app uses less RAM",
+        "link": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+        "summary": "Discord is finally giving up on Electron, the cross-platform framework that lets developers build desktop apps using web technologies. Electron web apps are notoriously heavy on sy...",
         "source": "The Verge",
-        "pubDate": 1793832135000
+        "pubDate": 1793878782000
       },
       {
-        "title": "Hackers exploited iOS and Android flaws to infect phones",
-        "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
-        "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793831209000
-      },
-      {
-        "title": "Uranium cubes reveal why the German nuclear project failed",
-        "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
-        "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1793829389000
-      },
-      {
-        "title": "17 better ways Elon Musk could have wasted $446 million",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
-        "summary": "Dream bigger, babe. | Image: Cath Virginia / The Verge, Getty Images\t\n\nOne of the basic problems of spending too much time on social media is that you are cooking your brain by rea...",
+        "title": "Playstation and Spider-Man performance see Sony profits surge",
+        "link": "https://www.theverge.com/tech/1027358/sony-q2-2026-earnings-spider-man-playstation",
+        "summary": "Sony is enjoying a sharp profit spike in its latest quarterly financials, largely driven by its PlayStation business and the blockbuster success of Spider-Man: Brand New Day. Accor...",
         "source": "The Verge",
-        "pubDate": 1793828700000
+        "pubDate": 1793876415000
+      },
+      {
+        "title": "Amazon is getting back into restaurant delivery with Uber Eats team-up",
+        "link": "https://www.theverge.com/tech/1026716/amazon-uber-eats-prime-restaurant-delivery-partnership",
+        "summary": "Amazon and Uber are teaming up to make Uber Eats the official restaurant delivery partner for Prime subscribers in the US. The news comes as Uber faces a drastically reshaped compe...",
+        "source": "The Verge",
+        "pubDate": 1793876400000
+      },
+      {
+        "title": "Big Tech’s big AI buildout will not end until someone stops it",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+        "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI dat...",
+        "source": "The Verge",
+        "pubDate": 1793875500000
+      },
+      {
+        "title": "Mercedes-AMG GT 4-Door Coupe first drive: Where tech and fun collide",
+        "link": "https://arstechnica.com/cars/2026/11/mercedes-amg-gt-4-door-coupe-first-drive-where-tech-and-fun-collide/",
+        "summary": "The spirit of AMG is alive via three axial flux electric motors.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1793869213000
       }
     ],
     "finance": [
       {
-        "title": "Qualcomm’s stock falls as twin forces pressure sales",
-        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
-        "summary": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
+        "title": "Robot maker Agility starts trading today — but its steep losses are raising red flags",
+        "link": "https://www.marketwatch.com/story/robot-maker-agility-starts-trading-today-but-its-steep-losses-are-raising-red-flags-f97c2cee?mod=mw_rss_topstories",
+        "summary": "Agility is going public via a SPAC merger that one executive says will give it a “first-mover advantage.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793840760000
+        "pubDate": 1793882580000
       },
       {
-        "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-        "link": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-        "summary": "AppLovin’s stock is popping after “clearly positive” earnings results.",
+        "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon",
+        "link": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
+        "summary": "Strategists at Bank of America found a dramatic correlation between interest rates and oil prices in the U.S., U.K. and Germany.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793840700000
+        "pubDate": 1793881980000
       },
       {
-        "title": "Figma’s stock dips as investors worry that AI momentum is coming at a high price",
-        "link": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
-        "summary": "Figma’s investments in AI models and agents are driving usage, but the cost of delivering these features is proving to be expensive",
+        "title": "The real test for the artificial intelligence build-out is what happens in 2028, analysts say",
+        "link": "https://www.marketwatch.com/story/the-real-test-for-the-artificial-intelligence-build-out-is-what-happens-in-2028-analysts-say-c5978e48?mod=mw_rss_topstories",
+        "summary": "JPMorgan’s Michael Cembalest is worried about data center build-outs following midterm elections, and he’s looking two years ahead.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793840580000
+        "pubDate": 1793881380000
       },
       {
-        "title": "McDonald’s tests new value menu as fast-food discount wars heat up",
-        "link": "https://www.marketwatch.com/story/mcdonalds-tests-new-value-menu-as-fast-food-discount-wars-heat-up-bfc57caf?mod=mw_rss_topstories",
-        "summary": "The burger chain is overhauling its menu and seeking to deliver a “clear and compelling value proposition.”",
+        "title": "An Anthropic IPO when the AI trade is this turbulent? Godspeed!",
+        "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
+        "summary": "Wall Street takes a harder look at AI costs after historic midterm results. Plus, the upside to Apple’s lack of artificial-intelligence spending.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793840460000
+        "pubDate": 1793880960000
       },
       {
-        "title": "As Vistra and other energy stocks slide, some analysts warn of an ‘excessive knee-jerk’ reaction",
-        "link": "https://www.marketwatch.com/story/as-vistra-and-other-energy-stocks-slide-some-analysts-warn-of-an-excessive-knee-jerk-reaction-aece0737?mod=mw_rss_topstories",
-        "summary": "Energy stocks have already been under pressure, and newly elected officials may not slow the data-center boom as much as feared.",
+        "title": "I constantly attend free meals hosted by people promoting annuities. Am I flirting with disaster?",
+        "link": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
+        "summary": "“Salespeople typically push annuities, Medicare plans and estate-planning services.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793839080000
+        "pubDate": 1793880900000
       }
     ],
     "business": [
       {
-        "title": "Australia's oldest department store David Jones collapses after 188 years",
-        "link": "https://www.bbc.co.uk/news/articles/cky93z5y0171o?at_medium=RSS&at_campaign=rss",
-        "summary": "The brand's 38 physical stores and online site will continue to operate while receivers review its operations.",
+        "title": "Faisal Islam: How high will interest rates go? ",
+        "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
         "source": "BBC News",
-        "pubDate": 1793840362000
+        "pubDate": 1793883237000
       },
       {
-        "title": "Interest rates expected to rise for first time in over three years",
+        "title": "Interest rates hiked to 4% in first increase in over three years",
         "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
+        "summary": "Most analysts expected the increase from 3.75% to 4%.",
         "source": "BBC News",
-        "pubDate": 1793836809000
+        "pubDate": 1793881067000
       },
       {
-        "title": "Pound rises to its highest level since the Brexit referendum",
-        "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
+        "title": "Three ways the interest rate rise could affect you",
+        "link": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
+        "summary": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
         "source": "BBC News",
-        "pubDate": 1793835028000
+        "pubDate": 1793880664000
       },
       {
-        "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
-        "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
+        "title": "Why do veterinary fees and sausage rolls vary in price across London?",
+        "link": "https://www.bbc.co.uk/news/articles/cmgqw51gdnzyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Location is not just the only factor on why prices differ across London, as Anna O'Neill finds out.",
         "source": "BBC News",
-        "pubDate": 1793828475000
+        "pubDate": 1793880114000
       },
       {
-        "title": "Poundland owner in crunch talks as retailer's collapse looms",
-        "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
-        "summary": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
+        "title": "Welsh aviation firm AerFin bought in £475m deal",
+        "link": "https://www.bbc.co.uk/news/articles/cq203vjxnln7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The company, which was majority owned by a private equity firm, said it was beginning a \"new chapter\".",
         "source": "BBC News",
-        "pubDate": 1793821486000
+        "pubDate": 1793876466000
       }
     ],
     "world": [
       {
-        "title": "After 3 Months Lost at Sea, Five Survivors Are Rescued on Remote Island",
-        "link": "https://www.nytimes.com/2026/11/04/world/asia/micronesia-boat-survivors-found.html",
-        "summary": "A boat in Micronesia went missing in July. This weekend, five of its passengers landed, unclothed and emaciated, on an island in Kiribati — more than 3,000 miles away.",
+        "title": "After Riots and Protests, French Workers Are Going on Strike",
+        "link": "https://www.nytimes.com/2026/11/05/world/europe/france-protests-general-strike.html",
+        "summary": "Roughly 260 demonstrations are expected to take place across France on Thursday, escalating weeks of protests against the rising cost of living.",
         "source": "NYT > World News",
-        "pubDate": 1793838633000
+        "pubDate": 1793882499000
       },
       {
-        "title": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
-        "link": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
-        "summary": "Commentators abroad wondered what President Trump’s electoral losses might mean for oil prices, the war on Iran and the future of American politics.",
+        "title": "New Series of Bomb Threats Disrupts Flights in Europe",
+        "link": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-europe-flights-airlines.html",
+        "summary": "The planes that were targeted, including in Italy and France, landed safely, officials said. No explosives have been found.",
         "source": "NYT > World News",
-        "pubDate": 1793835419000
+        "pubDate": 1793882276000
       },
       {
-        "title": "Bob Dylan Meets With Pope Leo",
-        "link": "https://www.nytimes.com/2026/11/04/world/europe/bob-dylan-pope-leo.html",
-        "summary": "Pope Leo wore his usual white vestments. Bob Dylan visited the Vatican in a hooded sweatshirt and polka-dot tie. There was no singing.",
-        "source": "NYT > World News",
-        "pubDate": 1793834079000
-      },
-      {
-        "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-        "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-        "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
+        "title": "How America voted in maps and charts",
+        "link": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
+        "summary": "See the maps and charts that show how America voted in the US midterm elections.",
         "source": "BBC News",
-        "pubDate": 1793832523000
+        "pubDate": 1793881972000
       },
       {
-        "title": "For Israelis, U.S. Midterms Show How Far Their Star Has Fallen in America",
-        "link": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-trump-midterm-elections.html",
-        "summary": "Israel once had bipartisan support in the United States, but a strong showing for Democrats, some of whom are deeply critical of the war in Gaza, has left the country with fewer fr...",
+        "title": "Ronaldo retires from Portugal duty",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Portugal legend Cristiano Ronaldo says \"the day has come for me to hand back the number seven shirt\".",
+        "source": "BBC News",
+        "pubDate": 1793881681000
+      },
+      {
+        "title": "Everyone’s Talking About the ‘Blue Tsunami.’ In Japan, It’s Complicated.",
+        "link": "https://www.nytimes.com/2026/11/05/world/asia/japan-hokusai-great-wave-midterms.html",
+        "summary": "The New York Post used a Hokusai work to depict Donald Trump being swept away by Democrats’ midterm election win. Some in Japan were bothered by the imagery.",
         "source": "NYT > World News",
-        "pubDate": 1793829844000
+        "pubDate": 1793879336000
       }
     ]
   }
