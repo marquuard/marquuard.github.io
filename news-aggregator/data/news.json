@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-05T12:56:09.388Z",
+  "lastUpdated": "2026-11-05T20:29:17.201Z",
   "categories": {
     "technology": [
       {
-        "title": "Discord is ditching Electron and its new app uses less RAM",
-        "link": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
-        "summary": "Discord is finally giving up on Electron, the cross-platform framework that lets developers build desktop apps using web technologies. Electron web apps are notoriously heavy on sy...",
+        "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
+        "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+        "summary": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual pric...",
         "source": "The Verge",
-        "pubDate": 1793878782000
+        "pubDate": 1793905978000
       },
       {
-        "title": "Playstation and Spider-Man performance see Sony profits surge",
-        "link": "https://www.theverge.com/tech/1027358/sony-q2-2026-earnings-spider-man-playstation",
-        "summary": "Sony is enjoying a sharp profit spike in its latest quarterly financials, largely driven by its PlayStation business and the blockbuster success of Spider-Man: Brand New Day. Accor...",
+        "title": "Muse has a voice mode now",
+        "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+        "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today.\nThe feature has been rolled out to me, and I gave it a spin on...",
         "source": "The Verge",
-        "pubDate": 1793876415000
+        "pubDate": 1793905384000
       },
       {
-        "title": "Amazon is getting back into restaurant delivery with Uber Eats team-up",
-        "link": "https://www.theverge.com/tech/1026716/amazon-uber-eats-prime-restaurant-delivery-partnership",
-        "summary": "Amazon and Uber are teaming up to make Uber Eats the official restaurant delivery partner for Prime subscribers in the US. The news comes as Uber faces a drastically reshaped compe...",
-        "source": "The Verge",
-        "pubDate": 1793876400000
-      },
-      {
-        "title": "Big Tech’s big AI buildout will not end until someone stops it",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
-        "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI dat...",
-        "source": "The Verge",
-        "pubDate": 1793875500000
-      },
-      {
-        "title": "Mercedes-AMG GT 4-Door Coupe first drive: Where tech and fun collide",
-        "link": "https://arstechnica.com/cars/2026/11/mercedes-amg-gt-4-door-coupe-first-drive-where-tech-and-fun-collide/",
-        "summary": "The spirit of AMG is alive via three axial flux electric motors.",
+        "title": "Is MAHA dying—or will it be reborn? What's next after crushing midterm losses?",
+        "link": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
+        "summary": "RFK Jr.'s Make America Healthy Again movement was in trouble before voting began.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793869213000
+        "pubDate": 1793904581000
+      },
+      {
+        "title": "EA is bringing 25 classic PC games to Steam",
+        "link": "https://www.theverge.com/games/1023553/ea-classic-pc-games-steam-anniversary-edition",
+        "summary": "This Road Rash screenshot rules.\t\n\nElectronic Arts is launching 25 classic games on Steam, including \"Anniversary Editions\" of the motorcycle racer Road Rash and six Wing Commander...",
+        "source": "The Verge",
+        "pubDate": 1793903400000
+      },
+      {
+        "title": "Claude AI can plug directly into your bank account",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+        "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the...",
+        "source": "The Verge",
+        "pubDate": 1793901600000
       }
     ],
     "finance": [
       {
-        "title": "Robot maker Agility starts trading today — but its steep losses are raising red flags",
-        "link": "https://www.marketwatch.com/story/robot-maker-agility-starts-trading-today-but-its-steep-losses-are-raising-red-flags-f97c2cee?mod=mw_rss_topstories",
-        "summary": "Agility is going public via a SPAC merger that one executive says will give it a “first-mover advantage.”",
+        "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+        "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+        "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793882580000
+        "pubDate": 1793910120000
       },
       {
-        "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon",
-        "link": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
-        "summary": "Strategists at Bank of America found a dramatic correlation between interest rates and oil prices in the U.S., U.K. and Germany.",
+        "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
+        "link": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+        "summary": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. mid...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793881980000
+        "pubDate": 1793910060000
       },
       {
-        "title": "The real test for the artificial intelligence build-out is what happens in 2028, analysts say",
-        "link": "https://www.marketwatch.com/story/the-real-test-for-the-artificial-intelligence-build-out-is-what-happens-in-2028-analysts-say-c5978e48?mod=mw_rss_topstories",
-        "summary": "JPMorgan’s Michael Cembalest is worried about data center build-outs following midterm elections, and he’s looking two years ahead.",
+        "title": "After tech-stock rout, October jobs report could bring relief — or more pain",
+        "link": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
+        "summary": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793881380000
+        "pubDate": 1793907960000
       },
       {
-        "title": "An Anthropic IPO when the AI trade is this turbulent? Godspeed!",
-        "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
-        "summary": "Wall Street takes a harder look at AI costs after historic midterm results. Plus, the upside to Apple’s lack of artificial-intelligence spending.",
+        "title": "This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’",
+        "link": "https://www.marketwatch.com/story/this-pancreatic-cancer-treatment-is-on-track-for-one-of-the-best-drug-launches-of-all-time-37bf86ce?mod=mw_rss_topstories",
+        "summary": "Revolution Medicines’ brand-new treatment brought in  far higher sales than expected in its first few weeks on the market.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793880960000
+        "pubDate": 1793907120000
       },
       {
-        "title": "I constantly attend free meals hosted by people promoting annuities. Am I flirting with disaster?",
-        "link": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
-        "summary": "“Salespeople typically push annuities, Medicare plans and estate-planning services.”",
+        "title": "Trump’s Iran war has changed the future of Social Security",
+        "link": "https://www.marketwatch.com/story/trumps-iran-war-has-changed-the-future-of-social-security-7a500f9f?mod=mw_rss_topstories",
+        "summary": "It’s a mathematical certainty that the Iran war is going to have an enormous influence on the future of retirement in America.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793880900000
+        "pubDate": 1793907120000
       }
     ],
     "business": [
       {
-        "title": "Faisal Islam: How high will interest rates go? ",
-        "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
+        "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+        "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
         "source": "BBC News",
-        "pubDate": 1793883237000
+        "pubDate": 1793901477000
       },
       {
         "title": "Interest rates hiked to 4% in first increase in over three years",
         "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
         "summary": "Most analysts expected the increase from 3.75% to 4%.",
         "source": "BBC News",
-        "pubDate": 1793881067000
+        "pubDate": 1793898595000
       },
       {
-        "title": "Three ways the interest rate rise could affect you",
-        "link": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
-        "summary": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
+        "title": "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
+        "link": "https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss",
+        "summary": "A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.",
         "source": "BBC News",
-        "pubDate": 1793880664000
+        "pubDate": 1793892429000
       },
       {
         "title": "Why do veterinary fees and sausage rolls vary in price across London?",
         "link": "https://www.bbc.co.uk/news/articles/cmgqw51gdnzyo?at_medium=RSS&at_campaign=rss",
         "summary": "Location is not just the only factor on why prices differ across London, as Anna O'Neill finds out.",
         "source": "BBC News",
-        "pubDate": 1793880114000
+        "pubDate": 1793891976000
       },
       {
-        "title": "Welsh aviation firm AerFin bought in £475m deal",
-        "link": "https://www.bbc.co.uk/news/articles/cq203vjxnln7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The company, which was majority owned by a private equity firm, said it was beginning a \"new chapter\".",
+        "title": "What does the raise in interest rates mean?",
+        "link": "https://www.bbc.co.uk/news/videos/c9kgjvmn4vlno?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC's cost of living correspondent Kevin Peachey explains what the change could mean for those saving for a holiday or to buying a house.",
         "source": "BBC News",
-        "pubDate": 1793876466000
+        "pubDate": 1793887344000
       }
     ],
     "world": [
       {
-        "title": "After Riots and Protests, French Workers Are Going on Strike",
-        "link": "https://www.nytimes.com/2026/11/05/world/europe/france-protests-general-strike.html",
-        "summary": "Roughly 260 demonstrations are expected to take place across France on Thursday, escalating weeks of protests against the rising cost of living.",
-        "source": "NYT > World News",
-        "pubDate": 1793882499000
-      },
-      {
-        "title": "New Series of Bomb Threats Disrupts Flights in Europe",
-        "link": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-europe-flights-airlines.html",
-        "summary": "The planes that were targeted, including in Italy and France, landed safely, officials said. No explosives have been found.",
-        "source": "NYT > World News",
-        "pubDate": 1793882276000
-      },
-      {
-        "title": "How America voted in maps and charts",
-        "link": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
-        "summary": "See the maps and charts that show how America voted in the US midterm elections.",
+        "title": "California governor commutes death sentences for all 548 people on death row",
+        "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+        "summary": "California has historically had the largest population of death row inmates in the US.",
         "source": "BBC News",
-        "pubDate": 1793881972000
+        "pubDate": 1793910518000
       },
       {
-        "title": "Ronaldo retires from Portugal duty",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Portugal legend Cristiano Ronaldo says \"the day has come for me to hand back the number seven shirt\".",
-        "source": "BBC News",
-        "pubDate": 1793881681000
-      },
-      {
-        "title": "Everyone’s Talking About the ‘Blue Tsunami.’ In Japan, It’s Complicated.",
-        "link": "https://www.nytimes.com/2026/11/05/world/asia/japan-hokusai-great-wave-midterms.html",
-        "summary": "The New York Post used a Hokusai work to depict Donald Trump being swept away by Democrats’ midterm election win. Some in Japan were bothered by the imagery.",
+        "title": "Israel’s Election Ended With No Clear Winner. These Parties Are Trying to Form a Coalition.",
+        "link": "https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-herzog-prime-minister-meetings.html",
+        "summary": "Israeli party leaders held discussions with President Isaac Herzog on Thursday about who should get the first chance to form a governing coalition.",
         "source": "NYT > World News",
-        "pubDate": 1793879336000
+        "pubDate": 1793909812000
+      },
+      {
+        "title": "How Melania Trump Became a Dark Horse Diplomat on Ukraine",
+        "link": "https://www.nytimes.com/2026/11/05/world/europe/melania-trump-oleshky-ukraine-ceasefire.html",
+        "summary": "Both Moscow and Kyiv say Mrs. Trump’s team was the driving force behind an evacuation of a besieged city. It was also in their interest to deliver her a humanitarian win.",
+        "source": "NYT > World News",
+        "pubDate": 1793909680000
+      },
+      {
+        "title": "Who could be behind hoax bomb threats to European air travel?",
+        "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+        "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+        "source": "BBC News",
+        "pubDate": 1793908720000
+      },
+      {
+        "title": "How Did Flávio Bolsonaro Flee Brazil? ‘I’ll Take That to the Grave,’ He Says",
+        "link": "https://www.nytimes.com/2026/11/05/world/americas/flavio-bolsonaro-florida-brazil.html",
+        "summary": "From Miami, Flávio Bolsonaro is making unfounded claims of a stolen election and plotting to sway his nation’s politics from afar, even though his party is not challenging the resu...",
+        "source": "NYT > World News",
+        "pubDate": 1793908612000
       }
     ]
   }
