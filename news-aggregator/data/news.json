@@ -1,87 +1,108 @@
 {
-  "lastUpdated": "2026-11-05T20:29:17.201Z",
+  "lastUpdated": "2026-11-06T01:22:23.638Z",
   "categories": {
     "technology": [
       {
-        "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
-        "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
-        "summary": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual pric...",
+        "title": "OpenAI is stepping back from NDAs for data center projects",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working...",
         "source": "The Verge",
-        "pubDate": 1793905978000
+        "pubDate": 1793925476000
       },
       {
-        "title": "Muse has a voice mode now",
-        "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-        "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today.\nThe feature has been rolled out to me, and I gave it a spin on...",
-        "source": "The Verge",
-        "pubDate": 1793905384000
-      },
-      {
-        "title": "Is MAHA dying—or will it be reborn? What's next after crushing midterm losses?",
-        "link": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
-        "summary": "RFK Jr.'s Make America Healthy Again movement was in trouble before voting began.",
+        "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+        "link": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+        "summary": "\"This is going to be a game-changer.\"",
         "source": "Ars Technica - All content",
-        "pubDate": 1793904581000
+        "pubDate": 1793924226000
       },
       {
-        "title": "EA is bringing 25 classic PC games to Steam",
-        "link": "https://www.theverge.com/games/1023553/ea-classic-pc-games-steam-anniversary-edition",
-        "summary": "This Road Rash screenshot rules.\t\n\nElectronic Arts is launching 25 classic games on Steam, including \"Anniversary Editions\" of the motorcycle racer Road Rash and six Wing Commander...",
+        "title": "Airbnb is working on an AI travel agent",
+        "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+        "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today...",
         "source": "The Verge",
-        "pubDate": 1793903400000
+        "pubDate": 1793923572000
       },
       {
-        "title": "Claude AI can plug directly into your bank account",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-        "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the...",
+        "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
+        "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+        "summary": "Letterboxd’s homepage.\t\n\nThe New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers, for around $330 million, The New Y...",
         "source": "The Verge",
-        "pubDate": 1793901600000
+        "pubDate": 1793922310000
+      },
+      {
+        "title": "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+        "link": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
+        "summary": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom ...",
+        "source": "The Verge",
+        "pubDate": 1793920630000
       }
     ],
     "finance": [
+      {
+        "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+        "link": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
+        "summary": "Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793927220000
+      },
+      {
+        "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+        "link": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
+        "summary": "Demand for automated AI protection is on the rise — and manifesting in Cloudflare’s earnings results.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793927160000
+      },
+      {
+        "title": "Here are the 2027 capital-gains tax rates for each income level",
+        "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+        "summary": "How much will you pay in capital-gains taxes next year? The IRS just released this crucial  information.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793922480000
+      },
+      {
+        "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+        "link": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
+        "summary": "The S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1793918880000
+      },
       {
         "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
         "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
         "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793910120000
-      },
-      {
-        "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
-        "link": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
-        "summary": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. mid...",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793910060000
-      },
-      {
-        "title": "After tech-stock rout, October jobs report could bring relief — or more pain",
-        "link": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
-        "summary": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793907960000
-      },
-      {
-        "title": "This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’",
-        "link": "https://www.marketwatch.com/story/this-pancreatic-cancer-treatment-is-on-track-for-one-of-the-best-drug-launches-of-all-time-37bf86ce?mod=mw_rss_topstories",
-        "summary": "Revolution Medicines’ brand-new treatment brought in  far higher sales than expected in its first few weeks on the market.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793907120000
-      },
-      {
-        "title": "Trump’s Iran war has changed the future of Social Security",
-        "link": "https://www.marketwatch.com/story/trumps-iran-war-has-changed-the-future-of-social-security-7a500f9f?mod=mw_rss_topstories",
-        "summary": "It’s a mathematical certainty that the Iran war is going to have an enormous influence on the future of retirement in America.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793907120000
+        "pubDate": 1793918400000
       }
     ],
     "business": [
       {
-        "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+        "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
         "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-        "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
+        "summary": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
         "source": "BBC News",
-        "pubDate": 1793901477000
+        "pubDate": 1793926937000
+      },
+      {
+        "title": "The engine parts that 'fight the laws of the universe'",
+        "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
+        "source": "BBC News",
+        "pubDate": 1793923566000
+      },
+      {
+        "title": "'I was asked if I was a crier': Your worst job interviews revealed",
+        "link": "https://www.bbc.co.uk/news/articles/c3j4751pqnj8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work",
+        "source": "BBC News",
+        "pubDate": 1793923372000
+      },
+      {
+        "title": "Firms told to publish salaries in job adverts ahead of new law",
+        "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
+        "summary": "The goverment argues the change will help jobseekers and could help to prevent pay discrimination.",
+        "source": "BBC News",
+        "pubDate": 1793917922000
       },
       {
         "title": "Interest rates hiked to 4% in first increase in over three years",
@@ -89,64 +110,43 @@
         "summary": "Most analysts expected the increase from 3.75% to 4%.",
         "source": "BBC News",
         "pubDate": 1793898595000
-      },
-      {
-        "title": "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
-        "link": "https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss",
-        "summary": "A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.",
-        "source": "BBC News",
-        "pubDate": 1793892429000
-      },
-      {
-        "title": "Why do veterinary fees and sausage rolls vary in price across London?",
-        "link": "https://www.bbc.co.uk/news/articles/cmgqw51gdnzyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Location is not just the only factor on why prices differ across London, as Anna O'Neill finds out.",
-        "source": "BBC News",
-        "pubDate": 1793891976000
-      },
-      {
-        "title": "What does the raise in interest rates mean?",
-        "link": "https://www.bbc.co.uk/news/videos/c9kgjvmn4vlno?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's cost of living correspondent Kevin Peachey explains what the change could mean for those saving for a holiday or to buying a house.",
-        "source": "BBC News",
-        "pubDate": 1793887344000
       }
     ],
     "world": [
       {
-        "title": "California governor commutes death sentences for all 548 people on death row",
-        "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-        "summary": "California has historically had the largest population of death row inmates in the US.",
+        "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+        "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
         "source": "BBC News",
-        "pubDate": 1793910518000
+        "pubDate": 1793926937000
+      },
+      {
+        "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+        "link": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+        "summary": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+        "source": "BBC News",
+        "pubDate": 1793923377000
+      },
+      {
+        "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+        "link": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
+        "summary": "The results mean America's two most populous cities - New York and Los Angeles - will be led by democratic socialists.",
+        "source": "BBC News",
+        "pubDate": 1793921495000
       },
       {
         "title": "Israel’s Election Ended With No Clear Winner. These Parties Are Trying to Form a Coalition.",
         "link": "https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-herzog-prime-minister-meetings.html",
-        "summary": "Israeli party leaders held discussions with President Isaac Herzog on Thursday about who should get the first chance to form a governing coalition.",
+        "summary": "President Isaac Herzog wrapped up two days of talks with party leaders by saying he will ask one of them on Sunday to try to assemble a governing coalition.",
         "source": "NYT > World News",
-        "pubDate": 1793909812000
+        "pubDate": 1793920701000
       },
       {
-        "title": "How Melania Trump Became a Dark Horse Diplomat on Ukraine",
-        "link": "https://www.nytimes.com/2026/11/05/world/europe/melania-trump-oleshky-ukraine-ceasefire.html",
-        "summary": "Both Moscow and Kyiv say Mrs. Trump’s team was the driving force behind an evacuation of a besieged city. It was also in their interest to deliver her a humanitarian win.",
-        "source": "NYT > World News",
-        "pubDate": 1793909680000
-      },
-      {
-        "title": "Who could be behind hoax bomb threats to European air travel?",
-        "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
-        "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+        "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
+        "link": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Delhi government has announced a four-month winter action plan, but experts say that won't be enough.",
         "source": "BBC News",
-        "pubDate": 1793908720000
-      },
-      {
-        "title": "How Did Flávio Bolsonaro Flee Brazil? ‘I’ll Take That to the Grave,’ He Says",
-        "link": "https://www.nytimes.com/2026/11/05/world/americas/flavio-bolsonaro-florida-brazil.html",
-        "summary": "From Miami, Flávio Bolsonaro is making unfounded claims of a stolen election and plotting to sway his nation’s politics from afar, even though his party is not challenging the resu...",
-        "source": "NYT > World News",
-        "pubDate": 1793908612000
+        "pubDate": 1793920613000
       }
     ]
   }
