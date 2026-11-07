@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-11-07T11:31:10.369Z",
+  "lastUpdated": "2026-11-07T17:56:35.119Z",
   "categories": {
     "technology": [
       {
-        "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-        "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable co...",
+        "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
+        "link": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
+        "summary": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrell...",
         "source": "The Verge",
-        "pubDate": 1794008778000
+        "pubDate": 1794070800000
       },
       {
-        "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
-        "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
-        "summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794006585000
-      },
-      {
-        "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-        "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-        "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlis...",
+        "title": "Costco members can get $5 off the reimagined Ocarina of Time",
+        "link": "https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale",
+        "summary": "The Legend of Zelda: Ocarina of Time remake showcases plenty of modern effects. | Image: Nintendo\t\n\nWhile some retailers were offering preorder discounts on the remastered Legend o...",
         "source": "The Verge",
-        "pubDate": 1794006044000
+        "pubDate": 1794067200000
       },
       {
-        "title": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
-        "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
-        "summary": "SpaceX has declared that it’s going to make Starlink Mobile a “major” mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but i...",
+        "title": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
+        "link": "https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
+        "summary": "Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buy...",
         "source": "The Verge",
-        "pubDate": 1794005143000
+        "pubDate": 1794067200000
       },
       {
-        "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
-        "link": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
-        "summary": "Iran threatened to attack subsea cables if US escalates military strikes again.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794004897000
+        "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+        "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+        "summary": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge\t\n\nAround 7PM each weeknight, I find myself standing in front of the fridge, trying...",
+        "source": "The Verge",
+        "pubDate": 1794066600000
+      },
+      {
+        "title": "The US let Nvidia sell chips to an empty office in China",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+        "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 ...",
+        "source": "The Verge",
+        "pubDate": 1794066225000
       }
     ],
     "finance": [
       {
-        "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
-        "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-        "summary": "“Sometimes I wonder whether wealthier Americans should trade places with people like me.”",
+        "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
+        "link": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
+        "summary": "There are many ideas for saving Social Security. All of them will hurt.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794001500000
+        "pubDate": 1794073380000
       },
       {
-        "title": "Elon Musk opens the door for a big SpaceX acquisition",
-        "link": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
-        "summary": "The rocket and satellite-internet company is looking to challenge telecom giants.",
+        "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
+        "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
+        "summary": "Math may be cold and unemotional — but finances are not.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794001500000
+        "pubDate": 1794072780000
       },
       {
-        "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
-        "link": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-        "summary": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of ...",
+        "title": "The wealthiest 10% of Americans are pulling ahead of everyone else. This is what’s making them richer.",
+        "link": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
+        "summary": "The wealthiest 10% have a median net worth that is $800,000 greater than it was three years ago.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794001020000
+        "pubDate": 1794071040000
       },
       {
-        "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
-        "link": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
-        "summary": "Analysts warn of further volatility ahead, although there are several new factors that work in the AI trade’s favor.",
+        "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
+        "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+        "summary": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794000240000
+        "pubDate": 1794070860000
       },
       {
-        "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-        "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-        "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
+        "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
+        "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
+        "summary": "The large-cap index is nowhere near as diversified as you think.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793999700000
+        "pubDate": 1794069600000
       }
     ],
     "business": [
@@ -81,10 +81,10 @@
         "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
         "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1794045640000
+        "pubDate": 1794045641000
       },
       {
-        "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets ",
+        "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets ",
         "link": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
         "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
         "source": "BBC News",
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
-        "title": "America’s Rebuke of Trump Won’t Swiftly Restore Canada-U.S. Harmony",
-        "link": "https://www.nytimes.com/2026/11/07/world/canada/carney-trump-canada-us-relations-midterm-elections.html",
-        "summary": "While U.S. voters largely oppose the trade war with Canada, many Democrats and their supporters have protectionist leanings.",
+        "title": "A ‘Chaotic Race’ for the World’s Top Diplomat",
+        "link": "https://www.nytimes.com/2026/11/07/world/americas/un-secretary-general-pick.html",
+        "summary": "The contest to replace António Guterres as U.N. secretary general has been jolted by last-minute entrants and deep divisions among members of the Security Council.",
         "source": "NYT > World News",
-        "pubDate": 1794049207000
+        "pubDate": 1794072412000
       },
       {
-        "title": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
-        "link": "https://www.nytimes.com/2026/11/07/world/europe/bomb-threats-cyberattacks-europe-uncertainty.html",
-        "summary": "A cyberattack on supermarket fridges, bomb threats to planes and software vulnerabilities have Europe on edge as government officials encourage resilience and stockpiling.",
+        "title": "Another Day of France’s Protests Unfurl During an Autumn of Discontent",
+        "link": "https://www.nytimes.com/2026/11/07/world/europe/france-fourth-saturday-protests.html",
+        "summary": "Two days after a general strike and huge demonstrations, students and workers took to the streets again on Saturday.",
         "source": "NYT > World News",
-        "pubDate": 1794047572000
+        "pubDate": 1794071200000
       },
       {
-        "title": "Why Israel’s Ex-Army Chief’s Next Mission Could Be Mission Impossible",
-        "link": "https://www.nytimes.com/2026/11/07/world/middleeast/eisenkot-israel-new-government.html",
-        "summary": "Gadi Eisenkot is poised to get a chance to form a new government, replacing Benjamin Netanyahu as prime minister. But the obstacles are formidable.",
-        "source": "NYT > World News",
-        "pubDate": 1794047046000
+        "title": "Italian foreign minister says hackers leaked his personal data",
+        "link": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Prime Minister Giorgia Meloni has blamed pro-Russian hackers for publishing the details online.",
+        "source": "BBC News",
+        "pubDate": 1794070206000
       },
       {
-        "title": "Why Are There Protests in France?",
-        "link": "https://www.nytimes.com/article/france-student-protests-why.html",
-        "summary": "For a fourth consecutive Saturday, tens of thousands of people are expected to demonstrate. The authorities hope a large security presence will deter riots.",
+        "title": "Gunman Opens Fire in Krakow, Killing at Least 5, Polish Police Say",
+        "link": "https://www.nytimes.com/2026/11/07/world/europe/krakow-poland-shooting.html",
+        "summary": "The authorities said that the gunman, who began shooting from a car near a market square, was shot and taken to a hospital.",
         "source": "NYT > World News",
-        "pubDate": 1794046421000
+        "pubDate": 1794070165000
       },
       {
-        "title": "Inside the Operation That Helped Ukraine Reverse Some Russian War Gains",
-        "link": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html",
-        "summary": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
+        "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
+        "link": "https://www.nytimes.com/2026/11/07/world/middleeast/more-than-50-killed-in-yemen.html",
+        "summary": "Strikes show the heavy toll since fighting between the Houthis and the Saudi-backed government reignited in August, with civilians paying a heavy price.",
         "source": "NYT > World News",
-        "pubDate": 1794045701000
+        "pubDate": 1794069571000
       }
     ]
   }
