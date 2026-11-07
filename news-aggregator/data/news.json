@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T00:37:32.199Z",
+  "lastUpdated": "2026-11-07T11:31:10.369Z",
   "categories": {
     "technology": [
       {
@@ -10,7 +10,7 @@
         "pubDate": 1794008778000
       },
       {
-        "title": "Man unexpectedly recovers from a knife wound through his eye and brain",
+        "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
         "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
         "summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
         "source": "Ars Technica - All content",
@@ -77,6 +77,20 @@
     ],
     "business": [
       {
+        "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
+        "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+        "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1794045640000
+      },
+      {
+        "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets ",
+        "link": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
+        "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
+        "source": "BBC News",
+        "pubDate": 1794015696000
+      },
+      {
         "title": "Strong Hiring Reinforces a Sturdy Job Market",
         "link": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html",
         "summary": "Unemployment fell in October, extending years of stability for a U.S. work force threatened by inflation and artificial intelligence.",
@@ -96,57 +110,43 @@
         "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
         "source": "BBC News",
         "pubDate": 1793999185000
-      },
-      {
-        "title": "Why the US midterms sparked an AI stock selloff",
-        "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fears of more AI regulation appear to have sparked fear among investors, but  concerns about the industry have been growing for some time.",
-        "source": "BBC News",
-        "pubDate": 1793989936000
-      },
-      {
-        "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
-        "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
-        "summary": "A post-Brexit deal on food standards has raised questions over the future naming of the classic British snack.",
-        "source": "BBC News",
-        "pubDate": 1793985578000
       }
     ],
     "world": [
       {
-        "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
-        "link": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
-        "summary": "Santiago Peña was impeached, removed from office and placed under house arrest after a bank with close ties to his administration went under.",
+        "title": "America’s Rebuke of Trump Won’t Swiftly Restore Canada-U.S. Harmony",
+        "link": "https://www.nytimes.com/2026/11/07/world/canada/carney-trump-canada-us-relations-midterm-elections.html",
+        "summary": "While U.S. voters largely oppose the trade war with Canada, many Democrats and their supporters have protectionist leanings.",
         "source": "NYT > World News",
-        "pubDate": 1794009550000
+        "pubDate": 1794049207000
       },
       {
-        "title": "Will New Zealand Join Voters’ Global Revolt Over Soaring Costs?",
-        "link": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html",
-        "summary": "In the lead-up to an election in which economic concerns dominate, there was no clear front-runner. Minor parties will most likely determine who governs.",
+        "title": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
+        "link": "https://www.nytimes.com/2026/11/07/world/europe/bomb-threats-cyberattacks-europe-uncertainty.html",
+        "summary": "A cyberattack on supermarket fridges, bomb threats to planes and software vulnerabilities have Europe on edge as government officials encourage resilience and stockpiling.",
         "source": "NYT > World News",
-        "pubDate": 1794006342000
+        "pubDate": 1794047572000
       },
       {
-        "title": "After Israel’s Election, Who Will Get the First Chance to Form a Government?",
-        "link": "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
-        "summary": "President Isaac Herzog is set to task a candidate with trying to form a government, following two days of talks with party leaders and officials after an inconclusive election.",
+        "title": "Why Israel’s Ex-Army Chief’s Next Mission Could Be Mission Impossible",
+        "link": "https://www.nytimes.com/2026/11/07/world/middleeast/eisenkot-israel-new-government.html",
+        "summary": "Gadi Eisenkot is poised to get a chance to form a new government, replacing Benjamin Netanyahu as prime minister. But the obstacles are formidable.",
         "source": "NYT > World News",
-        "pubDate": 1794004575000
+        "pubDate": 1794047046000
       },
       {
-        "title": "Meghan Markle’s Father Is Arrested on Child Sex Abuse Material Charges",
-        "link": "https://www.nytimes.com/2026/11/06/us/thomas-markle-arrested-child-sexual-abuse.html",
-        "summary": "Thomas Markle Sr., Meghan’s estranged father, was arrested in Florida on Friday. He has denied the accusations against him.",
+        "title": "Why Are There Protests in France?",
+        "link": "https://www.nytimes.com/article/france-student-protests-why.html",
+        "summary": "For a fourth consecutive Saturday, tens of thousands of people are expected to demonstrate. The authorities hope a large security presence will deter riots.",
         "source": "NYT > World News",
-        "pubDate": 1794002383000
+        "pubDate": 1794046421000
       },
       {
-        "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-        "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
-        "source": "BBC News",
-        "pubDate": 1794001790000
+        "title": "Inside the Operation That Helped Ukraine Reverse Some Russian War Gains",
+        "link": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html",
+        "summary": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
+        "source": "NYT > World News",
+        "pubDate": 1794045701000
       }
     ]
   }
