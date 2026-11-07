@@ -1,87 +1,101 @@
 {
-  "lastUpdated": "2026-11-06T19:50:54.252Z",
+  "lastUpdated": "2026-11-07T00:37:32.199Z",
   "categories": {
     "technology": [
       {
-        "title": "Lame-duck Congress might actually do something: speed up energy projects",
-        "link": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
-        "summary": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while...",
+        "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+        "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable co...",
         "source": "The Verge",
-        "pubDate": 1793990550000
+        "pubDate": 1794008778000
       },
       {
-        "title": "The folks behind John Wick are back with Karōshi trailer",
-        "link": "https://arstechnica.com/culture/2026/11/the-folks-behind-john-wick-are-back-with-karoshi-trailer/",
-        "summary": "Stuntman/director Chad Stahelski and 87Eleven bring us an action-packed dystopian, futuristic thriller.",
+        "title": "Man unexpectedly recovers from a knife wound through his eye and brain",
+        "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
+        "summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793989819000
+        "pubDate": 1794006585000
       },
       {
-        "title": "You know the launch market is tough when satellite companies start building rockets",
-        "link": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
-        "summary": "\"The Blacklift rocket is the springboard to significantly expand our total addressable market.\"",
+        "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+        "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+        "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlis...",
+        "source": "The Verge",
+        "pubDate": 1794006044000
+      },
+      {
+        "title": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
+        "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+        "summary": "SpaceX has declared that it’s going to make Starlink Mobile a “major” mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but i...",
+        "source": "The Verge",
+        "pubDate": 1794005143000
+      },
+      {
+        "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
+        "link": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+        "summary": "Iran threatened to attack subsea cables if US escalates military strikes again.",
         "source": "Ars Technica - All content",
-        "pubDate": 1793989247000
-      },
-      {
-        "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-        "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-        "summary": "Meta will now allow you to build customized, app-like experiences within its Muse AI assistant. The new feature, called \"spaces,\" allows Muse to build things like a shopping hub, s...",
-        "source": "The Verge",
-        "pubDate": 1793988610000
-      },
-      {
-        "title": "Amazon is now making a Melania Trump TV series",
-        "link": "https://www.theverge.com/tech/1028854/amazon-melania-the-series-mgm-studios-prime-video",
-        "summary": "Following the Melania documentary movie that premiered earlier this year, Amazon is now planning to release a two-part Prime Video series focusing on the first lady. The show, Mela...",
-        "source": "The Verge",
-        "pubDate": 1793987818000
+        "pubDate": 1794004897000
       }
     ],
     "finance": [
       {
-        "title": "Cybertruck’s run comes to an end as Musk kills off pricey pet project",
-        "link": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
-        "summary": "The Cybertruck failed to catch on with car buyers due to high prices and some notable recalls.",
+        "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
+        "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+        "summary": "“Sometimes I wonder whether wealthier Americans should trade places with people like me.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793991240000
+        "pubDate": 1794001500000
       },
       {
-        "title": "My adviser recommended an annuity. Is it the right move in this market environment?",
-        "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
-        "summary": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
+        "title": "Elon Musk opens the door for a big SpaceX acquisition",
+        "link": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
+        "summary": "The rocket and satellite-internet company is looking to challenge telecom giants.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793991180000
+        "pubDate": 1794001500000
       },
       {
-        "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
-        "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
-        "summary": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
+        "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
+        "link": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
+        "summary": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of ...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793988900000
+        "pubDate": 1794001020000
       },
       {
-        "title": "You’re fired! But you can keep the laptop and insurance. And here’s $10,000.",
-        "link": "https://www.marketwatch.com/story/layoffs-with-dignity-why-these-tech-firms-are-offering-free-laptops-and-linkedin-premium-28750d39?mod=mw_rss_topstories",
-        "summary": "Some tech companies are giving more generous severance packages, but here’s what to keep in mind.",
+        "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
+        "link": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+        "summary": "Analysts warn of further volatility ahead, although there are several new factors that work in the AI trade’s favor.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793988180000
+        "pubDate": 1794000240000
       },
       {
-        "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
-        "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
-        "summary": "Math may be cold and unemotional — but finances are not.",
+        "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+        "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+        "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1793988000000
+        "pubDate": 1793999700000
       }
     ],
     "business": [
+      {
+        "title": "Strong Hiring Reinforces a Sturdy Job Market",
+        "link": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html",
+        "summary": "Unemployment fell in October, extending years of stability for a U.S. work force threatened by inflation and artificial intelligence.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1794004177000
+      },
+      {
+        "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+        "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+        "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+        "source": "BBC News",
+        "pubDate": 1794001790000
+      },
       {
         "title": "AI stocks climb after trillions wiped from market values",
         "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
         "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
         "source": "BBC News",
-        "pubDate": 1793993830000
+        "pubDate": 1793999185000
       },
       {
         "title": "Why the US midterms sparked an AI stock selloff",
@@ -91,62 +105,48 @@
         "pubDate": 1793989936000
       },
       {
-        "title": "Strong Hiring Reinforces a Sturdy Job Market",
-        "link": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html",
-        "summary": "Unemployment fell in October, extending years of stability for a U.S. work force threated by inflation and artificial intelligence.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793984727000
-      },
-      {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/11/06/business/jobs-report-stocks-market-economy/heres-the-latest",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1793983358000
-      },
-      {
-        "title": "Food bank to close amid rising costs",
-        "link": "https://www.bbc.co.uk/news/articles/cqrkyyj6rx7ro?at_medium=RSS&at_campaign=rss",
-        "summary": "A food bank in Goole annouces it will close in January as costs rise and donations drop.",
+        "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
+        "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
+        "summary": "A post-Brexit deal on food standards has raised questions over the future naming of the classic British snack.",
         "source": "BBC News",
-        "pubDate": 1793983343000
+        "pubDate": 1793985578000
       }
     ],
     "world": [
       {
-        "title": "AI stocks climb after trillions wiped from market values",
-        "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-        "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-        "source": "BBC News",
-        "pubDate": 1793993830000
+        "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
+        "link": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
+        "summary": "Santiago Peña was impeached, removed from office and placed under house arrest after a bank with close ties to his administration went under.",
+        "source": "NYT > World News",
+        "pubDate": 1794009550000
       },
       {
-        "title": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery",
-        "link": "https://www.nytimes.com/2026/11/06/world/europe/pope-leo-visit-uruguay-argentina-peru.html",
-        "summary": "Pope Leo XIV’s tour of Uruguay, Argentina and Peru is his first major trip since an operation on his lung last month.",
+        "title": "Will New Zealand Join Voters’ Global Revolt Over Soaring Costs?",
+        "link": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html",
+        "summary": "In the lead-up to an election in which economic concerns dominate, there was no clear front-runner. Minor parties will most likely determine who governs.",
         "source": "NYT > World News",
-        "pubDate": 1793993048000
-      },
-      {
-        "title": "In French City Hit by Terrorist Attack, Residents Blame Far-Right Rhetoric",
-        "link": "https://www.nytimes.com/2026/11/06/world/europe/france-shooting-trappes.html",
-        "summary": "In Trappes, a suburb of Paris with a large immigrant population, residents believe that a shooting was fueled by years of anti-immigrant sentiment.",
-        "source": "NYT > World News",
-        "pubDate": 1793992796000
-      },
-      {
-        "title": "They Spent Millions to Keep Their Dream Cruise Afloat. It Died Anyway.",
-        "link": "https://www.nytimes.com/2026/11/06/travel/villa-vie-residences-odyssey-cruise.html",
-        "summary": "Secrecy, debt and soaring fuel costs all contributed to the Odyssey’s downfall. Here’s an inside look at how the “endless cruise” unraveled.",
-        "source": "NYT > World News",
-        "pubDate": 1793991503000
+        "pubDate": 1794006342000
       },
       {
         "title": "After Israel’s Election, Who Will Get the First Chance to Form a Government?",
         "link": "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
         "summary": "President Isaac Herzog is set to task a candidate with trying to form a government, following two days of talks with party leaders and officials after an inconclusive election.",
         "source": "NYT > World News",
-        "pubDate": 1793990217000
+        "pubDate": 1794004575000
+      },
+      {
+        "title": "Meghan Markle’s Father Is Arrested on Child Sex Abuse Material Charges",
+        "link": "https://www.nytimes.com/2026/11/06/us/thomas-markle-arrested-child-sexual-abuse.html",
+        "summary": "Thomas Markle Sr., Meghan’s estranged father, was arrested in Florida on Friday. He has denied the accusations against him.",
+        "source": "NYT > World News",
+        "pubDate": 1794002383000
+      },
+      {
+        "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+        "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+        "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+        "source": "BBC News",
+        "pubDate": 1794001790000
       }
     ]
   }
