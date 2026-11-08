@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T00:11:27.381Z",
+  "lastUpdated": "2026-11-08T11:41:26.350Z",
   "categories": {
     "technology": [
       {
@@ -77,6 +77,27 @@
     ],
     "business": [
       {
+        "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+        "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+        "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
+        "source": "BBC News",
+        "pubDate": 1794137132000
+      },
+      {
+        "title": "Traders 'priced out' of £12,000 Christmas market pitches",
+        "link": "https://www.bbc.co.uk/news/articles/ckn8wew92xw1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Stall holders said they'd met the council leader to express their concerns at high costs since a new operator took over.",
+        "source": "BBC News",
+        "pubDate": 1794121862000
+      },
+      {
+        "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+        "link": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
+        "summary": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
+        "source": "BBC News",
+        "pubDate": 1794092555000
+      },
+      {
         "title": "Ipswich Town's new club shop 'here to stay'",
         "link": "https://www.bbc.co.uk/news/videos/cxnv0455zq5jo?at_medium=RSS&at_campaign=rss",
         "summary": "Fans and players are delighted at the new \"activation space\" in the town centre.",
@@ -89,64 +110,43 @@
         "summary": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
         "source": "BBC News",
         "pubDate": 1794087376000
-      },
-      {
-        "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
-        "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
-        "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1794045641000
-      },
-      {
-        "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets ",
-        "link": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
-        "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
-        "source": "BBC News",
-        "pubDate": 1794015696000
-      },
-      {
-        "title": "Strong Hiring Reinforces a Sturdy Job Market",
-        "link": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html",
-        "summary": "Unemployment fell in October, extending years of stability for a U.S. work force threatened by inflation and artificial intelligence.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1794004177000
       }
     ],
     "world": [
       {
-        "title": "At Least 6 Dead in Poland After Gunman Opens Fire in Krakow, Police Say",
-        "link": "https://www.nytimes.com/2026/11/07/world/europe/krakow-poland-shooting.html",
-        "summary": "The authorities said that the gunman, who began shooting from a car near a market square, was shot and taken to a hospital.",
+        "title": "Who Is Gadi Eisenkot, Israel’s Opposition Leader?",
+        "link": "https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html",
+        "summary": "Mr. Eisenkot, a career general and the leading rival of Prime Minister Benjamin Netanyahu of Israel, will now have up to six weeks to form a coalition.",
         "source": "NYT > World News",
-        "pubDate": 1794094577000
+        "pubDate": 1794137626000
+      },
+      {
+        "title": "What we know so far after Krakow gun attack",
+        "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
+        "source": "BBC News",
+        "pubDate": 1794136937000
+      },
+      {
+        "title": "A Guide to COP31 Climate Talks in Antalya, Turkey",
+        "link": "https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html",
+        "summary": "Negotiators and leaders are gathering for annual United Nations climate talks. They come as global temperatures are set to breach a key threshold.",
+        "source": "NYT > World News",
+        "pubDate": 1794132110000
+      },
+      {
+        "title": "In Argentina, Pope Leo to Meet Church at Odds With President Milei",
+        "link": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
+        "summary": "The pontiff’s trip comes amid tensions between the country’s libertarian leader and its Catholic Church, which is deeply committed to social justice.",
+        "source": "NYT > World News",
+        "pubDate": 1794132057000
       },
       {
         "title": "Eisenkot, Netanyahu Rival and Opposition Leader, Tapped to Try to Form Government",
         "link": "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html",
         "summary": "Gadi Eisenkot, a former military chief, hopes to succeed Benjamin Netanyahu as prime minister by cobbling together a coalition after an inconclusive election.",
         "source": "NYT > World News",
-        "pubDate": 1794092609000
-      },
-      {
-        "title": "What we know so far after Krakow gun attack",
-        "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
-        "source": "BBC News",
-        "pubDate": 1794092329000
-      },
-      {
-        "title": "Israel's president tasks opposition leader Eisenkot with forming government",
-        "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
-        "source": "BBC News",
-        "pubDate": 1794089999000
-      },
-      {
-        "title": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
-        "link": "https://www.nytimes.com/2026/11/07/world/europe/bomb-threats-cyberattacks-europe-uncertainty.html",
-        "summary": "A cyberattack on supermarket fridges, bomb threats to planes and software vulnerabilities have Europe on edge as government officials encourage resilience and stockpiling.",
-        "source": "NYT > World News",
-        "pubDate": 1794089157000
+        "pubDate": 1794130915000
       }
     ]
   }
