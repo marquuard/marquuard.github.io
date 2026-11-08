@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-11-08T11:41:26.350Z",
+  "lastUpdated": "2026-11-08T18:13:27.685Z",
   "categories": {
     "technology": [
       {
-        "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
-        "link": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
-        "summary": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrell...",
+        "title": "Elvis and Eminem rights holders are suing Suno",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company...",
         "source": "The Verge",
-        "pubDate": 1794070800000
+        "pubDate": 1794158599000
       },
       {
-        "title": "Costco members can get $5 off the reimagined Ocarina of Time",
-        "link": "https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale",
-        "summary": "The Legend of Zelda: Ocarina of Time remake showcases plenty of modern effects. | Image: Nintendo\t\n\nWhile some retailers were offering preorder discounts on the remastered Legend o...",
+        "title": "Apple’s M5 MacBook Air is down to its lowest price since July",
+        "link": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
+        "summary": "A top-down view of the 15-inch MacBook Air, which features Apple’s M5 processor. | Photo: Antonio G. Di Benedetto / The Verge\t\n\nThe latest 13-inch MacBook Air is currently availabl...",
         "source": "The Verge",
-        "pubDate": 1794067200000
+        "pubDate": 1794153600000
       },
       {
-        "title": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
-        "link": "https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
-        "summary": "Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buy...",
+        "title": "Chatbots might be coming to Apple’s HomeView",
+        "link": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+        "summary": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no d...",
         "source": "The Verge",
-        "pubDate": 1794067200000
+        "pubDate": 1794150030000
       },
       {
-        "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-        "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-        "summary": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge\t\n\nAround 7PM each weeknight, I find myself standing in front of the fridge, trying...",
+        "title": "There’s no slowing down media’s pivot-to-video 2.0",
+        "link": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the pressures of creating content for the internet, follow Mia Sato. Th...",
         "source": "The Verge",
-        "pubDate": 1794066600000
+        "pubDate": 1794142800000
       },
       {
-        "title": "The US let Nvidia sell chips to an empty office in China",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-        "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 ...",
-        "source": "The Verge",
-        "pubDate": 1794066225000
+        "title": "Physicists listened to electrical noise to crack a superconductor mystery",
+        "link": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+        "summary": "Tuning in to electronic noise can tell us whether electrons have paired up or not.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1794140131000
       }
     ],
     "finance": [
       {
-        "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
-        "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
-        "summary": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
+        "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+        "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+        "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794084480000
+        "pubDate": 1794160800000
       },
       {
-        "title": "Second-guessing my adviser: Is an annuity the right move in this market?",
-        "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
-        "summary": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
+        "title": "Two months after my father’s funeral, my stepmother asked me to repay his $40,000 wedding gift. Should I do what she says?",
+        "link": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
+        "summary": "“About two months after his funeral, my stepmother called and said she wanted the money back.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794083760000
+        "pubDate": 1794159000000
       },
       {
-        "title": "Here are the 2027 capital-gains tax rates for each income level",
-        "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
-        "summary": "How much will you pay in capital-gains taxes next year? The IRS just released this crucial  information.",
+        "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
+        "link": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
+        "summary": "“It’s not my funeral — it’s yours — so make it what you want,” one funeral-home operator says.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794080880000
+        "pubDate": 1794158580000
       },
       {
-        "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.",
-        "link": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories",
-        "summary": "Don’t sit on the sidelines during open enrollment.",
+        "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
+        "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+        "summary": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794079200000
+        "pubDate": 1794153600000
       },
       {
-        "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
-        "link": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
-        "summary": "There are many ideas for saving Social Security. All of them will hurt.",
+        "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
+        "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+        "summary": "“Sometimes I wonder whether wealthier Americans should trade places with people like me.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794073380000
+        "pubDate": 1794151800000
       }
     ],
     "business": [
@@ -81,7 +81,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
         "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
         "source": "BBC News",
-        "pubDate": 1794137132000
+        "pubDate": 1794152245000
       },
       {
         "title": "Traders 'priced out' of £12,000 Christmas market pitches",
@@ -91,7 +91,7 @@
         "pubDate": 1794121862000
       },
       {
-        "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+        "title": "He spent $50,000 on Labubus but now the craze is dying",
         "link": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
         "summary": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
         "source": "BBC News",
@@ -114,39 +114,39 @@
     ],
     "world": [
       {
+        "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+        "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
+        "source": "BBC News",
+        "pubDate": 1794160743000
+      },
+      {
         "title": "Who Is Gadi Eisenkot, Israel’s Opposition Leader?",
         "link": "https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html",
         "summary": "Mr. Eisenkot, a career general and the leading rival of Prime Minister Benjamin Netanyahu of Israel, will now have up to six weeks to form a coalition.",
         "source": "NYT > World News",
-        "pubDate": 1794137626000
+        "pubDate": 1794159974000
       },
       {
-        "title": "What we know so far after Krakow gun attack",
-        "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
+        "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+        "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+        "summary": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
         "source": "BBC News",
-        "pubDate": 1794136937000
+        "pubDate": 1794159313000
       },
       {
-        "title": "A Guide to COP31 Climate Talks in Antalya, Turkey",
-        "link": "https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html",
-        "summary": "Negotiators and leaders are gathering for annual United Nations climate talks. They come as global temperatures are set to breach a key threshold.",
+        "title": "How Israel’s Opposition Could Unseat Netanyahu (or Not)",
+        "link": "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
+        "summary": "Gadi Eisenkot, the leading rival of Prime Minister Benjamin Netanyahu, now has a chance to form Israel’s governing coalition. Here are three routes he could try.",
         "source": "NYT > World News",
-        "pubDate": 1794132110000
+        "pubDate": 1794159074000
       },
       {
-        "title": "In Argentina, Pope Leo to Meet Church at Odds With President Milei",
-        "link": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
-        "summary": "The pontiff’s trip comes amid tensions between the country’s libertarian leader and its Catholic Church, which is deeply committed to social justice.",
+        "title": "Trains Collide Near Cairo, Killing 4",
+        "link": "https://www.nytimes.com/2026/11/08/world/middleeast/egypt-train-collision-al-ayyat-district.html",
+        "summary": "The crash between two passenger trains was the latest in a long history of deadly rail accidents in Egypt, despite billions of dollars spent modernizing the network.",
         "source": "NYT > World News",
-        "pubDate": 1794132057000
-      },
-      {
-        "title": "Eisenkot, Netanyahu Rival and Opposition Leader, Tapped to Try to Form Government",
-        "link": "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html",
-        "summary": "Gadi Eisenkot, a former military chief, hopes to succeed Benjamin Netanyahu as prime minister by cobbling together a coalition after an inconclusive election.",
-        "source": "NYT > World News",
-        "pubDate": 1794130915000
+        "pubDate": 1794158245000
       }
     ]
   }
