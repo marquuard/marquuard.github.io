@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-11-09T00:32:45.681Z",
+  "lastUpdated": "2026-11-09T13:37:34.768Z",
   "categories": {
     "technology": [
+      {
+        "title": "New Democratic Congress will likely strip the gilding from Trump's Golden Dome",
+        "link": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+        "summary": "\"There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.\"",
+        "source": "Ars Technica - All content",
+        "pubDate": 1794225605000
+      },
+      {
+        "title": "Instagram’s AI age detection is expanding globally",
+        "link": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+        "summary": "Meta is globally expanding the age estimation technology it uses to find teenagers on Instagram who haven't correctly disclosed their age. The rollout will automatically place \"mil...",
+        "source": "The Verge",
+        "pubDate": 1794225600000
+      },
+      {
+        "title": "Torrent underground",
+        "link": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
+        "summary": "When Jane first heard about Memory and Imagination, a rare 1990s documentary about the Library of Congress, she was intrigued. But the Canadian writer in her 30s couldn’t find the ...",
+        "source": "The Verge",
+        "pubDate": 1794222005000
+      },
       {
         "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
         "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
@@ -15,138 +36,117 @@
         "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, s...",
         "source": "The Verge",
         "pubDate": 1794177442000
-      },
-      {
-        "title": "Epic Games Launcher is coming to SteamOS",
-        "link": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
-        "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS wa...",
-        "source": "The Verge",
-        "pubDate": 1794171125000
-      },
-      {
-        "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-        "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Mi...",
-        "source": "The Verge",
-        "pubDate": 1794169359000
-      },
-      {
-        "title": "Apple is racing to make Siri more agentic",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-        "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dot...",
-        "source": "The Verge",
-        "pubDate": 1794165499000
       }
     ],
     "finance": [
       {
-        "title": "I’m second-guessing my adviser: Is an annuity the right move in this market?",
-        "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
-        "summary": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
+        "title": "My 93-year-old father changed his will at the 11th hour, leaving my brother his entire $500,000 estate. Can I challenge it?",
+        "link": "https://www.marketwatch.com/story/my-93-year-old-father-changed-his-will-at-the-11th-hour-leaving-my-brother-his-entire-500-000-estate-can-i-challenge-it-ecfc63d2?mod=mw_rss_topstories",
+        "summary": "“My brother had no job and needed a place to live.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794184200000
+        "pubDate": 1794231000000
+      },
+      {
+        "title": "Retirement is now part of the affordability crisis. Politicians should pay attention.",
+        "link": "https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories",
+        "summary": "Americans are more concerned about retirement than ever, and some of their biggest fears can’t be fixed by individual behavior alone.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794231000000
+      },
+      {
+        "title": "The biggest takeaway from Berkshire Hathaway’s latest quarter isn’t the $357 billion cash or its stock buybacks",
+        "link": "https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories",
+        "summary": "The dismal performance of Geico is the biggest takeaway from Berkshire Hathaway’s third-quarter results.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794227220000
+      },
+      {
+        "title": "A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with an alleged spy",
+        "link": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
+        "summary": "Jensen Huang will remain in his role and cooperate with the investigation, though analysts say the matter could cloud over Nvidia’s stock for some time.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794227160000
       },
       {
         "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
         "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
         "summary": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794182520000
-      },
-      {
-        "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
-        "link": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
-        "summary": "“It’s not my funeral — it’s yours — so make it what you want,” one funeral-home operator says.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794182400000
-      },
-      {
-        "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
-        "link": "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories",
-        "summary": "The math should actually start with “if” — not “how much.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794181800000
-      },
-      {
-        "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
-        "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
-        "summary": "Math may be cold and unemotional — but finances are not.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794181740000
+        "pubDate": 1794226500000
       }
     ],
     "business": [
+      {
+        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+        "source": "BBC News",
+        "pubDate": 1794229832000
+      },
+      {
+        "title": "Government's EV targets expected to be reduced this week",
+        "link": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
+        "summary": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
+        "source": "BBC News",
+        "pubDate": 1794225982000
+      },
+      {
+        "title": "Is it the end of free school milk?",
+        "link": "https://www.bbc.co.uk/news/videos/c65ynnx2e7kko?at_medium=RSS&at_campaign=rss",
+        "summary": "Free school milk has been provided to children in Wales since the 1970s, but that could now change.",
+        "source": "BBC News",
+        "pubDate": 1794211950000
+      },
       {
         "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
         "link": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
         "summary": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
         "source": "BBC News",
-        "pubDate": 1794183409000
+        "pubDate": 1794211825000
       },
       {
-        "title": "Doing these things now will help you save money at Christmas",
-        "link": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
-        "summary": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
+        "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+        "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
         "source": "BBC News",
-        "pubDate": 1794182954000
-      },
-      {
-        "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
-        "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
-        "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1794174502000
-      },
-      {
-        "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
-        "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
-        "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
-        "source": "BBC News",
-        "pubDate": 1794152245000
-      },
-      {
-        "title": "Traders 'priced out' of £12,000 Christmas market pitches",
-        "link": "https://www.bbc.co.uk/news/articles/ckn8wew92xw1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Stall holders said they'd met the council leader to express their concerns at high costs since a new operator took over.",
-        "source": "BBC News",
-        "pubDate": 1794121862000
+        "pubDate": 1794208211000
       }
     ],
     "world": [
       {
-        "title": "In Argentina, Pope Leo Tells President Milei Economy Must Serve the Needy",
-        "link": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
-        "summary": "The pontiff’s trip comes amid tensions between the country’s libertarian leader and its Catholic Church, which is deeply committed to social justice.",
+        "title": "Bipartisan Support for Israel Erodes as Both Sides Push for New Limits",
+        "link": "https://www.nytimes.com/2026/11/09/us/politics/us-israel-midterm-elections.html",
+        "summary": "Vice President JD Vance is among Republicans calling for change. Many Democratic lawmakers have been driving a campaign to restrict military aid to Israel.",
         "source": "NYT > World News",
-        "pubDate": 1794180992000
+        "pubDate": 1794231131000
       },
       {
-        "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-        "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
+        "title": "Ukraine Peace Talks Resume This Week in Abu Dhabi",
+        "link": "https://www.nytimes.com/2026/11/09/world/europe/ukraine-russia-peace-talks.html",
+        "summary": "U.S.-led talks to end the war between Russia and Ukraine will resume this week in Abu Dhabi. A cease-fire won’t be on the table.",
+        "source": "NYT > World News",
+        "pubDate": 1794230371000
+      },
+      {
+        "title": "How a Bank Implosion in Paraguay Ensnared a President",
+        "link": "https://www.nytimes.com/2026/11/09/world/americas/paraguay-bank-president-ueno.html",
+        "summary": "Prosecutors accused President Santiago Peña of funneling nearly a billion dollars of government funds to the Ueno bank as its executives made reckless insider loans.",
+        "source": "NYT > World News",
+        "pubDate": 1794229952000
+      },
+      {
+        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
         "source": "BBC News",
-        "pubDate": 1794180858000
+        "pubDate": 1794229832000
       },
       {
-        "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
-        "link": "https://www.nytimes.com/2026/11/08/world/americas/colombia-drone-attack-eln.html",
-        "summary": "American forces are helping Colombia and Venezuela hunt the ELN. This weekend, the group attacked a Colombian military base with drones, officials said.",
-        "source": "NYT > World News",
-        "pubDate": 1794179490000
-      },
-      {
-        "title": "Trains Collide Near Cairo, Killing 4",
-        "link": "https://www.nytimes.com/2026/11/08/world/middleeast/egypt-train-collision-al-ayyat-district.html",
-        "summary": "The crash between two passenger trains was the latest in a history of deadly rail accidents in Egypt, despite billions spent modernizing the network.",
-        "source": "NYT > World News",
-        "pubDate": 1794178981000
-      },
-      {
-        "title": "Reeling From Rare Mass Shooting, Poles Ask What Set Off Young Suspect",
-        "link": "https://www.nytimes.com/2026/11/08/world/europe/poland-shooting-suspect-family.html",
-        "summary": "Officials say that a 24-year-old killed his family and then six people during a rampage in Krakow. Now they are trying to determine the motive.",
-        "source": "NYT > World News",
-        "pubDate": 1794178105000
+        "title": "Nine foreigners caught allegedly trying to leave South Africa to fight in Ukraine",
+        "link": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Police declined to disclose their nationalities but said none of them lived in South Africa.",
+        "source": "BBC News",
+        "pubDate": 1794227604000
       }
     ]
   }
