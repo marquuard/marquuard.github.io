@@ -1,81 +1,102 @@
 {
-  "lastUpdated": "2026-11-08T18:13:27.685Z",
+  "lastUpdated": "2026-11-09T00:32:45.681Z",
   "categories": {
     "technology": [
       {
-        "title": "Elvis and Eminem rights holders are suing Suno",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-        "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company...",
+        "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+        "summary": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. ...",
         "source": "The Verge",
-        "pubDate": 1794158599000
+        "pubDate": 1794178490000
       },
       {
-        "title": "Apple’s M5 MacBook Air is down to its lowest price since July",
-        "link": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
-        "summary": "A top-down view of the 15-inch MacBook Air, which features Apple’s M5 processor. | Photo: Antonio G. Di Benedetto / The Verge\t\n\nThe latest 13-inch MacBook Air is currently availabl...",
+        "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+        "link": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+        "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, s...",
         "source": "The Verge",
-        "pubDate": 1794153600000
+        "pubDate": 1794177442000
       },
       {
-        "title": "Chatbots might be coming to Apple’s HomeView",
-        "link": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
-        "summary": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no d...",
+        "title": "Epic Games Launcher is coming to SteamOS",
+        "link": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
+        "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS wa...",
         "source": "The Verge",
-        "pubDate": 1794150030000
+        "pubDate": 1794171125000
       },
       {
-        "title": "There’s no slowing down media’s pivot-to-video 2.0",
-        "link": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
-        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the pressures of creating content for the internet, follow Mia Sato. Th...",
+        "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+        "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Mi...",
         "source": "The Verge",
-        "pubDate": 1794142800000
+        "pubDate": 1794169359000
       },
       {
-        "title": "Physicists listened to electrical noise to crack a superconductor mystery",
-        "link": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
-        "summary": "Tuning in to electronic noise can tell us whether electrons have paired up or not.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794140131000
+        "title": "Apple is racing to make Siri more agentic",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+        "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dot...",
+        "source": "The Verge",
+        "pubDate": 1794165499000
       }
     ],
     "finance": [
       {
-        "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-        "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-        "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
+        "title": "I’m second-guessing my adviser: Is an annuity the right move in this market?",
+        "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
+        "summary": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794160800000
-      },
-      {
-        "title": "Two months after my father’s funeral, my stepmother asked me to repay his $40,000 wedding gift. Should I do what she says?",
-        "link": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
-        "summary": "“About two months after his funeral, my stepmother called and said she wanted the money back.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794159000000
-      },
-      {
-        "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
-        "link": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
-        "summary": "“It’s not my funeral — it’s yours — so make it what you want,” one funeral-home operator says.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794158580000
+        "pubDate": 1794184200000
       },
       {
         "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
         "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
         "summary": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794153600000
+        "pubDate": 1794182520000
       },
       {
-        "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
-        "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-        "summary": "“Sometimes I wonder whether wealthier Americans should trade places with people like me.”",
+        "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
+        "link": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
+        "summary": "“It’s not my funeral — it’s yours — so make it what you want,” one funeral-home operator says.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794151800000
+        "pubDate": 1794182400000
+      },
+      {
+        "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
+        "link": "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories",
+        "summary": "The math should actually start with “if” — not “how much.”",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794181800000
+      },
+      {
+        "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
+        "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
+        "summary": "Math may be cold and unemotional — but finances are not.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794181740000
       }
     ],
     "business": [
+      {
+        "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+        "summary": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
+        "source": "BBC News",
+        "pubDate": 1794183409000
+      },
+      {
+        "title": "Doing these things now will help you save money at Christmas",
+        "link": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
+        "summary": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
+        "source": "BBC News",
+        "pubDate": 1794182954000
+      },
+      {
+        "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
+        "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+        "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1794174502000
+      },
       {
         "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
         "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
@@ -89,64 +110,43 @@
         "summary": "Stall holders said they'd met the council leader to express their concerns at high costs since a new operator took over.",
         "source": "BBC News",
         "pubDate": 1794121862000
-      },
-      {
-        "title": "He spent $50,000 on Labubus but now the craze is dying",
-        "link": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
-        "summary": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
-        "source": "BBC News",
-        "pubDate": 1794092555000
-      },
-      {
-        "title": "Ipswich Town's new club shop 'here to stay'",
-        "link": "https://www.bbc.co.uk/news/videos/cxnv0455zq5jo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fans and players are delighted at the new \"activation space\" in the town centre.",
-        "source": "BBC News",
-        "pubDate": 1794087632000
-      },
-      {
-        "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
-        "link": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
-        "source": "BBC News",
-        "pubDate": 1794087376000
       }
     ],
     "world": [
+      {
+        "title": "In Argentina, Pope Leo Tells President Milei Economy Must Serve the Needy",
+        "link": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
+        "summary": "The pontiff’s trip comes amid tensions between the country’s libertarian leader and its Catholic Church, which is deeply committed to social justice.",
+        "source": "NYT > World News",
+        "pubDate": 1794180992000
+      },
       {
         "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
         "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
         "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
         "source": "BBC News",
-        "pubDate": 1794160743000
+        "pubDate": 1794180858000
       },
       {
-        "title": "Who Is Gadi Eisenkot, Israel’s Opposition Leader?",
-        "link": "https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html",
-        "summary": "Mr. Eisenkot, a career general and the leading rival of Prime Minister Benjamin Netanyahu of Israel, will now have up to six weeks to form a coalition.",
+        "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
+        "link": "https://www.nytimes.com/2026/11/08/world/americas/colombia-drone-attack-eln.html",
+        "summary": "American forces are helping Colombia and Venezuela hunt the ELN. This weekend, the group attacked a Colombian military base with drones, officials said.",
         "source": "NYT > World News",
-        "pubDate": 1794159974000
-      },
-      {
-        "title": "Seven dead and more than 100 injured after trains collide in Egypt",
-        "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-        "summary": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
-        "source": "BBC News",
-        "pubDate": 1794159313000
-      },
-      {
-        "title": "How Israel’s Opposition Could Unseat Netanyahu (or Not)",
-        "link": "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
-        "summary": "Gadi Eisenkot, the leading rival of Prime Minister Benjamin Netanyahu, now has a chance to form Israel’s governing coalition. Here are three routes he could try.",
-        "source": "NYT > World News",
-        "pubDate": 1794159074000
+        "pubDate": 1794179490000
       },
       {
         "title": "Trains Collide Near Cairo, Killing 4",
         "link": "https://www.nytimes.com/2026/11/08/world/middleeast/egypt-train-collision-al-ayyat-district.html",
-        "summary": "The crash between two passenger trains was the latest in a long history of deadly rail accidents in Egypt, despite billions of dollars spent modernizing the network.",
+        "summary": "The crash between two passenger trains was the latest in a history of deadly rail accidents in Egypt, despite billions spent modernizing the network.",
         "source": "NYT > World News",
-        "pubDate": 1794158245000
+        "pubDate": 1794178981000
+      },
+      {
+        "title": "Reeling From Rare Mass Shooting, Poles Ask What Set Off Young Suspect",
+        "link": "https://www.nytimes.com/2026/11/08/world/europe/poland-shooting-suspect-family.html",
+        "summary": "Officials say that a 24-year-old killed his family and then six people during a rampage in Krakow. Now they are trying to determine the motive.",
+        "source": "NYT > World News",
+        "pubDate": 1794178105000
       }
     ]
   }
