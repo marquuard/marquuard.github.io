@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-10T03:10:04.330Z",
+  "lastUpdated": "2026-11-10T13:15:24.250Z",
   "categories": {
     "technology": [
+      {
+        "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+        "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+        "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1794312932000
+      },
+      {
+        "title": "Review: Apple's M6 MacBook Pro is good, but it's missing all the exciting stuff",
+        "link": "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle/",
+        "summary": "Per usual, the basic MacBook Pro lags behind the flagships where it counts.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1794312021000
+      },
+      {
+        "title": "Seagate’s FireCuda Forge moves your data between a hard drive and SSD for better performance",
+        "link": "https://www.theverge.com/tech/1029665/seagate-firecuda-forge-hybrid-ssd-hard-drive-storage-alkemi-technology",
+        "summary": "Seagate announced a new external storage solution, called the FireCuda Forge, that combines the speed benefits of an SSD with the affordability of a higher-capacity hard drive. The...",
+        "source": "The Verge",
+        "pubDate": 1794308460000
+      },
+      {
+        "title": "Real Motors’ Project Ares is a cyberpunk fantasy made real",
+        "link": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
+        "summary": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they wan...",
+        "source": "The Verge",
+        "pubDate": 1794308400000
+      },
       {
         "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
         "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
         "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a questi...",
         "source": "The Verge",
         "pubDate": 1794270529000
-      },
-      {
-        "title": "What could China get from Jensen Huang?",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-        "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has c...",
-        "source": "The Verge",
-        "pubDate": 1794268318000
-      },
-      {
-        "title": "Here’s what Trump said he knew about Jensen Huang",
-        "link": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-        "summary": "Jensen Huang and President Trump. | Getty Images\t\n\nPresident Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia ...",
-        "source": "The Verge",
-        "pubDate": 1794268066000
-      },
-      {
-        "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-        "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions world...",
-        "source": "The Verge",
-        "pubDate": 1794265679000
-      },
-      {
-        "title": "DCU shake-up: James Gunn and Peter Safran out post-merger",
-        "link": "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/",
-        "summary": "Producer and former Kevin Feige protege Jeremy Latcham will replace Gunn and Safran.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794261335000
       }
     ],
     "finance": [
       {
-        "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
-        "link": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
-        "summary": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
+        "title": "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.",
+        "link": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
+        "summary": "A Fed official raises the prospect of a half-a-percentage-point rate hike. Plus, fresh valuation focus on Anthropic’s blockbuster IPO.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794271680000
+        "pubDate": 1794313980000
       },
       {
-        "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
-        "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
-        "summary": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
+        "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
+        "link": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+        "summary": "Anthropic could raise up to $63 billion in an IPO expected to take place next week.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794268320000
+        "pubDate": 1794313920000
       },
       {
-        "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
-        "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
-        "summary": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
+        "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+        "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+        "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794264540000
+        "pubDate": 1794312960000
       },
       {
-        "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
-        "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-        "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+        "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+        "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+        "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794264540000
+        "pubDate": 1794309300000
       },
       {
-        "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
-        "summary": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.",
+        "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+        "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+        "summary": "“Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794261300000
+        "pubDate": 1794307500000
       }
     ],
     "business": [
       {
-        "title": "Qantas to outsource 850 local jobs with most roles moving to India ",
-        "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+        "title": "Anthropic to raise $64bn in major stock market listing",
+        "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
         "source": "BBC News",
-        "pubDate": 1794275722000
+        "pubDate": 1794315663000
       },
       {
-        "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-        "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-        "source": "BBC News",
-        "pubDate": 1794275093000
-      },
-      {
-        "title": "Headteachers say families will struggle after another rise in school dinner prices ",
-        "link": "https://www.bbc.co.uk/news/articles/c9m262yv6yx8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The price of a school dinner in a primary school will have risen from £2.60 to £3.40 since the start of 2026.",
-        "source": "BBC News",
-        "pubDate": 1794268822000
-      },
-      {
-        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
-        "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
-        "source": "BBC News",
-        "pubDate": 1794268282000
-      },
-      {
-        "title": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention",
-        "link": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
-        "summary": "An investigation into Megaspeed, a Singapore company that was buying advanced Nvidia A.I. chips, was transferred to the Justice Department after a top Nvidia executive reached out ...",
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october/inflation-economy-cpi",
+        "summary": "Nincs elérhető összefoglaló.",
         "source": "NYT > Business > Economy",
-        "pubDate": 1794266824000
+        "pubDate": 1794313436000
+      },
+      {
+        "title": "Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch",
+        "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
+        "summary": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
+        "source": "BBC News",
+        "pubDate": 1794310986000
+      },
+      {
+        "title": "Here’s why last year’s government shutdown will haunt October’s inflation data.",
+        "link": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october/heres-why-last-years-government-shutdown-will-haunt-octobers-inflation-data",
+        "summary": "Nincs elérhető összefoglaló.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1794307680000
+      },
+      {
+        "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
+        "link": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The contents of the calendar, including hair clips and keychains, have been widely criticised on social media.",
+        "source": "BBC News",
+        "pubDate": 1794304669000
       }
     ],
     "world": [
       {
-        "title": "Qantas to outsource 850 local jobs with most roles moving to India ",
-        "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+        "title": "Anthropic to raise $64bn in major stock market listing",
+        "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
         "source": "BBC News",
-        "pubDate": 1794275722000
+        "pubDate": 1794315663000
       },
       {
-        "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-        "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-        "source": "BBC News",
-        "pubDate": 1794275093000
+        "title": "U.S. Forces in Europe Face Uncertainty as Pentagon Reviews Troop Levels",
+        "link": "https://www.nytimes.com/2026/11/10/world/europe/us-troops-germany-pentagon-review-army.html",
+        "summary": "A U.S. Army unit in Germany is not sure what’s next as the Pentagon considers a major drawdown of forces in Europe.",
+        "source": "NYT > World News",
+        "pubDate": 1794315497000
       },
       {
-        "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-        "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
-        "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
-        "source": "BBC News",
-        "pubDate": 1794274729000
+        "title": "Kenyan Domestic Worker Sentenced to 100 Lashes in Saudi Arabia",
+        "link": "https://www.nytimes.com/2026/11/10/world/middleeast/saudi-arabia-lashing-sentence-kenyan-woman.html",
+        "summary": "The kingdom’s promised reforms don’t always match the realities of its justice system. Unmarried women, particularly foreign workers, face unique perils.",
+        "source": "NYT > World News",
+        "pubDate": 1794315420000
       },
       {
-        "title": "Epstein associate who still runs model agency 'put me in danger' says abuse survivor",
-        "link": "https://www.bbc.co.uk/news/articles/cm86z6w59gggo?at_medium=RSS&at_campaign=rss",
-        "summary": "A woman says an agency boss sent her to photoshoots at the sex offender's Florida beach home.",
-        "source": "BBC News",
-        "pubDate": 1794269643000
+        "title": "Why U.S. Business Deals Are Unlikely to Get Putin to Give Any Ground",
+        "link": "https://www.nytimes.com/2026/11/10/world/europe/putin-trump-abu-dhabi-talks.html",
+        "summary": "President Vladimir V. Putin of Russia has shown a willingness to endure a high price to get what he wants in Ukraine, and he sees little reason to stop fighting now, analysts say.",
+        "source": "NYT > World News",
+        "pubDate": 1794315062000
       },
       {
-        "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Kyiv, Washington and Moscow are all sending delegation to the United Arab Emirates for the first trilateral talks since February.",
-        "source": "BBC News",
-        "pubDate": 1794269389000
+        "title": "Who Is David Walliams, the UK Entertainer Accused of Sexual Misconduct?",
+        "link": "https://www.nytimes.com/2026/11/10/world/europe/who-is-david-walliams-sexual-misconduct-allegations-uk.html",
+        "summary": "The British entertainer rose to fame with the television show “Little Britain” and has published over 40 children’s books.",
+        "source": "NYT > World News",
+        "pubDate": 1794314367000
       }
     ]
   }
