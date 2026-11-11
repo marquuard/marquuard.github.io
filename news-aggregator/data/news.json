@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-11-11T01:00:25.504Z",
+  "lastUpdated": "2026-11-11T12:25:54.456Z",
   "categories": {
     "technology": [
+      {
+        "title": "Apple is killing its Support Community forum next week",
+        "link": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+        "summary": "It's the end of the road for the Apple Support Community. The dedicated discussion forum, which gave Apple users a place to exchange advice, troubleshoot, and generally chat about ...",
+        "source": "The Verge",
+        "pubDate": 1794399550000
+      },
       {
         "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
         "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
@@ -29,124 +36,117 @@
         "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
         "source": "Ars Technica - All content",
         "pubDate": 1794350101000
-      },
-      {
-        "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
-        "link": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
-        "summary": "Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's...",
-        "source": "The Verge",
-        "pubDate": 1794348000000
       }
     ],
     "finance": [
       {
-        "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
-        "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
-        "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+        "title": "Nvidia’s valuation tumbles to a 15-year low. A bargain or a falling knife?",
+        "link": "https://www.marketwatch.com/story/nvidias-valuation-tumbles-to-a-15-year-low-a-bargain-or-a-falling-knife-2ebf6085?mod=mw_rss_topstories",
+        "summary": "The AI giant now trades at a discount to the S&P 500, by one measure. Plus, CoreWeave’s answer to its debt problem and a Veterans Day breather for bonds.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794357000000
+        "pubDate": 1794399360000
       },
       {
         "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
         "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
         "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794355200000
+        "pubDate": 1794399300000
       },
       {
-        "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-        "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-        "summary": "There is already a demographic ‘run’ on Social Security.",
+        "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
+        "link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
+        "summary": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794353400000
+        "pubDate": 1794398400000
       },
       {
-        "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-        "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
-        "summary": "“Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
+        "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
+        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
+        "summary": "A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave’s business.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794353100000
+        "pubDate": 1794396420000
       },
       {
-        "title": "One reason Children’s Place is filing for bankruptcy? Not enough children.",
-        "link": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
-        "summary": "People might be having fewer children, but that isn’t the only thing to blame for Children’s Place filing for bankruptcy.",
+        "title": "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast",
+        "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
+        "summary": "Following Tuesday’s hot CPI data , Goldman Sachs is now pencilling in additional Fed tightening.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794351360000
+        "pubDate": 1794393420000
       }
     ],
     "business": [
       {
-        "title": "Robot vessels take on the dangerous work of mine hunting",
-        "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
-        "summary": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
-        "source": "BBC News",
-        "pubDate": 1794356353000
+        "title": "Heating Costs Will Rise 7% on Average This Winter",
+        "link": "https://www.nytimes.com/2026/11/11/business/energy-environment/winter-heating-oil-costs.html",
+        "summary": "People who use heating oil will see increases of around 70 percent because the war in Iran has greatly reduced supply of that fuel.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1794391461000
       },
       {
-        "title": "Stickers and building sets help drive toy sales ahead of Christmas rush",
-        "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
-        "summary": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
-        "source": "BBC News",
-        "pubDate": 1794356204000
-      },
-      {
-        "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+        "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
         "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
         "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
         "source": "BBC News",
-        "pubDate": 1794355327000
+        "pubDate": 1794391414000
       },
       {
-        "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
-        "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+        "title": "The Global Story",
+        "link": "https://www.bbc.co.uk/sounds/play/w3ct8mlr?at_medium=RSS&at_campaign=rss",
+        "summary": "Tracking down the men who have made serious money from internet porn.",
         "source": "BBC News",
-        "pubDate": 1794351135000
+        "pubDate": 1794391200000
       },
       {
-        "title": "Law on 'holiday hunger' passed by Stormont assembly",
-        "link": "https://www.bbc.co.uk/news/articles/cmewewgvrwpqo?at_medium=RSS&at_campaign=rss",
-        "summary": "A majority of 49 to 24 assembly members backed the legislation, which was proposed by Sinn Féin's Danny Baker and welcomed by some parents and charities.",
+        "title": "Lebanon Faces Economic ‘Catastrophe’ After War and Years of Mismanagement",
+        "link": "https://www.nytimes.com/2026/11/11/world/middleeast/lebanon-economy-crisis-corruption-war.html",
+        "summary": "Hezbollah’s conflict with Israel and the U.S.-Israel war with Iran have made systemic problems worse, causing the cost of living to soar and driving many Lebanese to despair.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1794389478000
+      },
+      {
+        "title": "Christmas toy rush being driven by squishies and building sets",
+        "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
+        "summary": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
         "source": "BBC News",
-        "pubDate": 1794345846000
+        "pubDate": 1794383525000
       }
     ],
     "world": [
+      {
+        "title": "Lloyd Geering, Pastor Who Disputed Christ’s Resurrection, Dies at 108",
+        "link": "https://www.nytimes.com/2026/11/09/obituaries/lloyd-geering-dead.html",
+        "summary": "“It is faith that man needs, not past doctrines,” he said in defense of his views, which became a cause célèbre for many but were condemned by others.",
+        "source": "NYT > World News",
+        "pubDate": 1794399703000
+      },
+      {
+        "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
+        "link": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+        "summary": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
+        "source": "BBC News",
+        "pubDate": 1794399252000
+      },
       {
         "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
         "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
         "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
         "source": "BBC News",
-        "pubDate": 1794357513000
+        "pubDate": 1794397642000
       },
       {
-        "title": "'They will kill you too': Sonia Gandhi's turbulent journey in Indian politics",
-        "link": "https://www.bbc.co.uk/news/articles/c687z7g4xr97o?at_medium=RSS&at_campaign=rss",
-        "summary": "Sonia Gandhi's memoir revisits love, loss and political inheritance, offering a deeply personal defence of her family and its legacy.",
+        "title": "Eswatini gives illegal foreign businesses 12 months to leave",
+        "link": "https://www.bbc.co.uk/news/articles/cm4gnq2pw2kro?at_medium=RSS&at_campaign=rss",
+        "summary": "The law follows the growth of foreign-owned businesses in  retail sector in rural areas.",
         "source": "BBC News",
-        "pubDate": 1794356762000
+        "pubDate": 1794395700000
       },
       {
-        "title": "Real Madrid's Vinícius Jr sends surprise message to boy who lost his legs in Sudan's war",
-        "link": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Double amputee Zaher told the BBC last year about his favourite footballer and a dream of being able to walk again.",
-        "source": "BBC News",
-        "pubDate": 1794356382000
-      },
-      {
-        "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
-        "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Forecasters warn that this year's El Niño could be one of the strongest on record, with heavy rain and flooding in Kenya.",
-        "source": "BBC News",
-        "pubDate": 1794356287000
-      },
-      {
-        "title": "ICE Deportation Flight Carrying Iranians Turns Back and Lands in Arizona",
-        "link": "https://www.nytimes.com/2026/11/10/world/asia/ice-deportation-flight-iran-mesa.html",
-        "summary": "The Iranian immigrants in the plane were scheduled to be flown to Pakistan and then transferred to Iran, lawyers for the group said.",
+        "title": "Pope Returns to Peru, Where Evangelicals Challenge Catholic Dominance",
+        "link": "https://www.nytimes.com/2026/11/11/world/americas/pope-leo-peru-evangelicals.html",
+        "summary": "Pope Leo spent nearly two decades in Peru, rising to bishop and becoming a citizen. But many Peruvians have turned away from Catholicism, seeking a more expressive and direct conne...",
         "source": "NYT > World News",
-        "pubDate": 1794356244000
+        "pubDate": 1794391449000
       }
     ]
   }
