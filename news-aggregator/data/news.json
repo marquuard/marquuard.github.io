@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-10T13:15:24.250Z",
+  "lastUpdated": "2026-11-11T01:00:25.504Z",
   "categories": {
     "technology": [
       {
-        "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
-        "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
-        "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+        "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
+        "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+        "summary": "The Xbox Ally X. | Photo by Amelia Holowaty Krales / The Verge\t\n\nMicrosoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidi...",
+        "source": "The Verge",
+        "pubDate": 1794357264000
+      },
+      {
+        "title": "Seagate's new hybrid drive raises some old questions",
+        "link": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/",
+        "summary": "The FireCuda Forge revisits an old idea, with some familiar questions.",
         "source": "Ars Technica - All content",
-        "pubDate": 1794312932000
+        "pubDate": 1794353456000
       },
       {
-        "title": "Review: Apple's M6 MacBook Pro is good, but it's missing all the exciting stuff",
-        "link": "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle/",
-        "summary": "Per usual, the basic MacBook Pro lags behind the flagships where it counts.",
+        "title": "The US military seems to be getting nervous about the launch supply crunch",
+        "link": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/",
+        "summary": "\"Launch is extremely constrained and that is exactly the situation we predicted.\"",
         "source": "Ars Technica - All content",
-        "pubDate": 1794312021000
+        "pubDate": 1794351759000
       },
       {
-        "title": "Seagate’s FireCuda Forge moves your data between a hard drive and SSD for better performance",
-        "link": "https://www.theverge.com/tech/1029665/seagate-firecuda-forge-hybrid-ssd-hard-drive-storage-alkemi-technology",
-        "summary": "Seagate announced a new external storage solution, called the FireCuda Forge, that combines the speed benefits of an SSD with the affordability of a higher-capacity hard drive. The...",
-        "source": "The Verge",
-        "pubDate": 1794308460000
+        "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+        "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+        "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+        "source": "Ars Technica - All content",
+        "pubDate": 1794350101000
       },
       {
-        "title": "Real Motors’ Project Ares is a cyberpunk fantasy made real",
-        "link": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
-        "summary": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they wan...",
+        "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
+        "link": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+        "summary": "Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's...",
         "source": "The Verge",
-        "pubDate": 1794308400000
-      },
-      {
-        "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-        "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-        "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a questi...",
-        "source": "The Verge",
-        "pubDate": 1794270529000
+        "pubDate": 1794348000000
       }
     ],
     "finance": [
-      {
-        "title": "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.",
-        "link": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
-        "summary": "A Fed official raises the prospect of a half-a-percentage-point rate hike. Plus, fresh valuation focus on Anthropic’s blockbuster IPO.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794313980000
-      },
-      {
-        "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
-        "link": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
-        "summary": "Anthropic could raise up to $63 billion in an IPO expected to take place next week.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794313920000
-      },
       {
         "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
         "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
         "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794312960000
+        "pubDate": 1794357000000
       },
       {
         "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
         "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
         "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794309300000
+        "pubDate": 1794355200000
+      },
+      {
+        "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+        "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+        "summary": "There is already a demographic ‘run’ on Social Security.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794353400000
       },
       {
         "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
         "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
         "summary": "“Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794307500000
+        "pubDate": 1794353100000
+      },
+      {
+        "title": "One reason Children’s Place is filing for bankruptcy? Not enough children.",
+        "link": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
+        "summary": "People might be having fewer children, but that isn’t the only thing to blame for Children’s Place filing for bankruptcy.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794351360000
       }
     ],
     "business": [
       {
-        "title": "Anthropic to raise $64bn in major stock market listing",
-        "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
+        "title": "Robot vessels take on the dangerous work of mine hunting",
+        "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
+        "summary": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
         "source": "BBC News",
-        "pubDate": 1794315663000
+        "pubDate": 1794356353000
       },
       {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october/inflation-economy-cpi",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1794313436000
-      },
-      {
-        "title": "Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch",
-        "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
-        "summary": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
+        "title": "Stickers and building sets help drive toy sales ahead of Christmas rush",
+        "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
+        "summary": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
         "source": "BBC News",
-        "pubDate": 1794310986000
+        "pubDate": 1794356204000
       },
       {
-        "title": "Here’s why last year’s government shutdown will haunt October’s inflation data.",
-        "link": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october/heres-why-last-years-government-shutdown-will-haunt-octobers-inflation-data",
-        "summary": "Nincs elérhető összefoglaló.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1794307680000
-      },
-      {
-        "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
-        "link": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The contents of the calendar, including hair clips and keychains, have been widely criticised on social media.",
+        "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+        "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
         "source": "BBC News",
-        "pubDate": 1794304669000
+        "pubDate": 1794355327000
+      },
+      {
+        "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+        "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+        "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+        "source": "BBC News",
+        "pubDate": 1794351135000
+      },
+      {
+        "title": "Law on 'holiday hunger' passed by Stormont assembly",
+        "link": "https://www.bbc.co.uk/news/articles/cmewewgvrwpqo?at_medium=RSS&at_campaign=rss",
+        "summary": "A majority of 49 to 24 assembly members backed the legislation, which was proposed by Sinn Féin's Danny Baker and welcomed by some parents and charities.",
+        "source": "BBC News",
+        "pubDate": 1794345846000
       }
     ],
     "world": [
       {
-        "title": "Anthropic to raise $64bn in major stock market listing",
-        "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
+        "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+        "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
         "source": "BBC News",
-        "pubDate": 1794315663000
+        "pubDate": 1794357513000
       },
       {
-        "title": "U.S. Forces in Europe Face Uncertainty as Pentagon Reviews Troop Levels",
-        "link": "https://www.nytimes.com/2026/11/10/world/europe/us-troops-germany-pentagon-review-army.html",
-        "summary": "A U.S. Army unit in Germany is not sure what’s next as the Pentagon considers a major drawdown of forces in Europe.",
-        "source": "NYT > World News",
-        "pubDate": 1794315497000
+        "title": "'They will kill you too': Sonia Gandhi's turbulent journey in Indian politics",
+        "link": "https://www.bbc.co.uk/news/articles/c687z7g4xr97o?at_medium=RSS&at_campaign=rss",
+        "summary": "Sonia Gandhi's memoir revisits love, loss and political inheritance, offering a deeply personal defence of her family and its legacy.",
+        "source": "BBC News",
+        "pubDate": 1794356762000
       },
       {
-        "title": "Kenyan Domestic Worker Sentenced to 100 Lashes in Saudi Arabia",
-        "link": "https://www.nytimes.com/2026/11/10/world/middleeast/saudi-arabia-lashing-sentence-kenyan-woman.html",
-        "summary": "The kingdom’s promised reforms don’t always match the realities of its justice system. Unmarried women, particularly foreign workers, face unique perils.",
-        "source": "NYT > World News",
-        "pubDate": 1794315420000
+        "title": "Real Madrid's Vinícius Jr sends surprise message to boy who lost his legs in Sudan's war",
+        "link": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Double amputee Zaher told the BBC last year about his favourite footballer and a dream of being able to walk again.",
+        "source": "BBC News",
+        "pubDate": 1794356382000
       },
       {
-        "title": "Why U.S. Business Deals Are Unlikely to Get Putin to Give Any Ground",
-        "link": "https://www.nytimes.com/2026/11/10/world/europe/putin-trump-abu-dhabi-talks.html",
-        "summary": "President Vladimir V. Putin of Russia has shown a willingness to endure a high price to get what he wants in Ukraine, and he sees little reason to stop fighting now, analysts say.",
-        "source": "NYT > World News",
-        "pubDate": 1794315062000
+        "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+        "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Forecasters warn that this year's El Niño could be one of the strongest on record, with heavy rain and flooding in Kenya.",
+        "source": "BBC News",
+        "pubDate": 1794356287000
       },
       {
-        "title": "Who Is David Walliams, the UK Entertainer Accused of Sexual Misconduct?",
-        "link": "https://www.nytimes.com/2026/11/10/world/europe/who-is-david-walliams-sexual-misconduct-allegations-uk.html",
-        "summary": "The British entertainer rose to fame with the television show “Little Britain” and has published over 40 children’s books.",
+        "title": "ICE Deportation Flight Carrying Iranians Turns Back and Lands in Arizona",
+        "link": "https://www.nytimes.com/2026/11/10/world/asia/ice-deportation-flight-iran-mesa.html",
+        "summary": "The Iranian immigrants in the plane were scheduled to be flown to Pakistan and then transferred to Iran, lawyers for the group said.",
         "source": "NYT > World News",
-        "pubDate": 1794314367000
+        "pubDate": 1794356244000
       }
     ]
   }
