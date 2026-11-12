@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-11-12T02:06:54.616Z",
+  "lastUpdated": "2026-11-12T13:31:53.451Z",
   "categories": {
     "technology": [
+      {
+        "title": "Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk",
+        "link": "https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/",
+        "summary": "Apple's M6 keeps the iMac current without shaking things up much.",
+        "source": "Ars Technica",
+        "pubDate": 1794484837000
+      },
+      {
+        "title": "Ring confirms its camera drone won’t have manual controls after crashing on CBS News",
+        "link": "https://www.theverge.com/tech/1031817/ring-drone-cam-manual-flight-controls",
+        "summary": "When (or if) Ring's security camera drone flies into our homes in January, you won't get the option to pilot it yourself. The Ring Drone Cam relies entirely on an \"AI Pilot\" system...",
+        "source": "The Verge",
+        "pubDate": 1794481952000
+      },
       {
         "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
         "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
@@ -12,7 +26,7 @@
       {
         "title": "Nvidia is reportedly preparing to fire Jensen Huang",
         "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-        "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a sepa...",
+        "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a sepa...",
         "source": "The Verge",
         "pubDate": 1794437076000
       },
@@ -22,131 +36,117 @@
         "summary": "The Aux-2 can be many things. Even a hat for your amp! | Photo: Nathan Edwards / The Verge\t\n\nNabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant ...",
         "source": "The Verge",
         "pubDate": 1794434400000
-      },
-      {
-        "title": "United won’t let your AI agent book your flight",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-        "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns.\nThe company says it hasn't yet seen many people try to use...",
-        "source": "The Verge",
-        "pubDate": 1794434061000
-      },
-      {
-        "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
-        "link": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
-        "summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
-        "source": "Ars Technica",
-        "pubDate": 1794429141000
       }
     ],
     "finance": [
       {
-        "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
-        "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
-        "summary": "Nvidia’s board of directors reportedly could meet as soon as today to determine the CEO’s fate.",
+        "title": "Wendy’s rejects a takeover offer, scales back breakfast and still sees its stock surge",
+        "link": "https://www.marketwatch.com/story/wendys-rejects-a-takeover-offer-scales-back-breakfast-and-still-sees-its-stock-surge-4e398cde?mod=mw_rss_topstories",
+        "summary": "Wendy’s plans to go it alone, and analysts say the company has “significant work ahead.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794447300000
+        "pubDate": 1794488700000
       },
       {
-        "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
-        "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
-        "summary": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
+        "title": "The world’s most sophisticated drug companies are putting billions into vaccines — despite the political environment",
+        "link": "https://www.marketwatch.com/story/the-worlds-most-sophisticated-drug-companies-are-putting-billions-into-vaccines-despite-the-political-environment-8dcbf276?mod=mw_rss_topstories",
+        "summary": "Look at the promising data for Moderna and Merck’s experimental cancer vaccine and the research suggesting the shingles vaccine can delay dementia.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794445920000
+        "pubDate": 1794488400000
       },
       {
-        "title": "Your holiday credit-card bills are going up. What you can do to ease the pain.",
-        "link": "https://www.marketwatch.com/story/your-holiday-credit-card-bills-are-going-up-what-you-can-do-to-ease-the-pain-5ddeb446?mod=mw_rss_topstories",
-        "summary": "The government may have lost a month of inflation data, but don’t expect your credit card’s annual percentage rate to decline because of it.",
+        "title": "How the U.S. government’s equity holdings have surged during Trump’s second term — in one chart",
+        "link": "https://www.marketwatch.com/story/how-the-u-s-governments-equity-holdings-have-surged-during-trumps-second-term-in-one-chart-b598c369?mod=mw_rss_topstories",
+        "summary": "41 companies have made deals that grant stakes to the Trump administration, and some could face probes from the new Congress",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794439800000
+        "pubDate": 1794488400000
       },
       {
-        "title": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?",
-        "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
-        "summary": "“I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”",
+        "title": "The ‘bank of Nvidia’ is in jeopardy, threatening the entire AI boom",
+        "link": "https://www.marketwatch.com/story/jensen-huang-built-nvidia-into-a-behemoth-his-scandal-puts-the-entire-ai-boom-in-jeopardy-c374b079?mod=mw_rss_topstories",
+        "summary": "Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794436200000
+        "pubDate": 1794488100000
       },
       {
-        "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
-        "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
-        "summary": "CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.",
+        "title": "Nvidia’s Jensen Huang crisis tests how much of the AI industry depends on one man",
+        "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
+        "summary": "Huang’s exit could fray tight bonds among AI businesses. Plus, Oracle’s potential AI catalyst, a $1.5 trillion Social Security stock proposal and what the oil-yield split may mean ...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794434700000
+        "pubDate": 1794486540000
       }
     ],
     "business": [
       {
-        "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-        "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+        "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
+        "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK is seeing impressive growth, but will it last?",
         "source": "BBC News",
-        "pubDate": 1794444545000
+        "pubDate": 1794490029000
       },
       {
-        "title": "From Paris to DC - why offices are being turned into apartments",
-        "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Office buildings with low occupancy rates are being transformed into flats.",
-        "source": "BBC News",
-        "pubDate": 1794441940000
-      },
-      {
-        "title": "Some under-25s should get less benefits, Milburn review to say",
+        "title": "Some under-25s should get fewer benefits, Milburn review to say",
         "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
         "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
         "source": "BBC News",
-        "pubDate": 1794439324000
+        "pubDate": 1794489419000
       },
       {
-        "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+        "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
+        "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+        "summary": "As uncertainty swirls over the boss of the AI chip giant, some names have emerged as potential successors.",
         "source": "BBC News",
-        "pubDate": 1794434857000
+        "pubDate": 1794482485000
       },
       {
-        "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
-        "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
-        "summary": "There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.",
+        "title": "UK economy grows at fastest rate for more than two years",
+        "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK economy grew by 0.7% in the three months to September, according to official figures.",
         "source": "BBC News",
-        "pubDate": 1794433340000
+        "pubDate": 1794482425000
+      },
+      {
+        "title": "Are branded cold and flu tablets really worth the extra money?",
+        "link": "https://www.bbc.co.uk/news/videos/cw4gnxm0y43po?at_medium=RSS&at_campaign=rss",
+        "summary": "Are branded cold and flu tablets REALLY worth the extra money?",
+        "source": "BBC News",
+        "pubDate": 1794464226000
       }
     ],
     "world": [
       {
-        "title": "New York building collapse kills one person and injures 12",
-        "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-        "summary": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
-        "source": "BBC News",
-        "pubDate": 1794447298000
-      },
-      {
-        "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
-        "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
-        "source": "BBC News",
-        "pubDate": 1794445204000
-      },
-      {
-        "title": "Nigeria's president launches re-election manifesto but can he regain voters' trust?",
-        "link": "https://www.bbc.co.uk/news/articles/ck5ynyw527wdo?at_medium=RSS&at_campaign=rss",
-        "summary": "For Nigerians to feel meaningful improvements, reforms will need to go beyond the promises outlined, analysts say.",
-        "source": "BBC News",
-        "pubDate": 1794443771000
-      },
-      {
-        "title": "Court in UK Decriminalizes Same-Sex Relations in Trinidad and Tobago",
-        "link": "https://www.nytimes.com/2026/11/11/world/americas/trinidad-same-sex-ruling.html",
-        "summary": "The ruling, which could affect similar laws in other British Commonwealth countries, has spotlighted a legal system still intertwined with a former colonial power.",
+        "title": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
+        "link": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+        "summary": "The Israeli authorities said that Hamas had established a command center at the hospital complex. Hamas said the attack was “a heinous crime targeting a civilian medical facility.”",
         "source": "NYT > World News",
-        "pubDate": 1794442076000
+        "pubDate": 1794488877000
       },
       {
-        "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+        "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
         "source": "BBC News",
-        "pubDate": 1794434857000
+        "pubDate": 1794488566000
+      },
+      {
+        "title": "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
+        "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Medical staff are going unpaid, lack proper training and are struggling with shortages of essential supplies, MSF warns",
+        "source": "BBC News",
+        "pubDate": 1794488557000
+      },
+      {
+        "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+        "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+        "summary": "In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate.",
+        "source": "BBC News",
+        "pubDate": 1794488215000
+      },
+      {
+        "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+        "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
+        "source": "BBC News",
+        "pubDate": 1794486361000
       }
     ]
   }
