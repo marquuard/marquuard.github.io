@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-11T19:59:56.757Z",
+  "lastUpdated": "2026-11-12T02:06:54.616Z",
   "categories": {
     "technology": [
       {
-        "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
-        "link": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
-        "summary": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794423626000
+        "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+        "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+        "summary": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
+        "source": "Ars Technica",
+        "pubDate": 1794438617000
       },
       {
-        "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-        "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-        "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794421000000
-      },
-      {
-        "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
-        "link": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
-        "summary": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital...",
+        "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+        "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+        "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a sepa...",
         "source": "The Verge",
-        "pubDate": 1794420832000
+        "pubDate": 1794437076000
       },
       {
-        "title": "Trump admin loses fight to spy on random journalists’ LinkedIn DMs",
-        "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
-        "summary": "Confidential sources “lifeblood” of free press, court rules in LinkedIn fight.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794420326000
+        "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+        "link": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+        "summary": "The Aux-2 can be many things. Even a hat for your amp! | Photo: Nathan Edwards / The Verge\t\n\nNabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant ...",
+        "source": "The Verge",
+        "pubDate": 1794434400000
       },
       {
-        "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-        "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-        "summary": "Any amount of AI coding is too much for many Independent Games Festival judges.",
-        "source": "Ars Technica - All content",
-        "pubDate": 1794418652000
+        "title": "United won’t let your AI agent book your flight",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+        "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns.\nThe company says it hasn't yet seen many people try to use...",
+        "source": "The Verge",
+        "pubDate": 1794434061000
+      },
+      {
+        "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
+        "link": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
+        "summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
+        "source": "Ars Technica",
+        "pubDate": 1794429141000
       }
     ],
     "finance": [
+      {
+        "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+        "summary": "Nvidia’s board of directors reportedly could meet as soon as today to determine the CEO’s fate.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794447300000
+      },
+      {
+        "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+        "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+        "summary": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794445920000
+      },
+      {
+        "title": "Your holiday credit-card bills are going up. What you can do to ease the pain.",
+        "link": "https://www.marketwatch.com/story/your-holiday-credit-card-bills-are-going-up-what-you-can-do-to-ease-the-pain-5ddeb446?mod=mw_rss_topstories",
+        "summary": "The government may have lost a month of inflation data, but don’t expect your credit card’s annual percentage rate to decline because of it.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794439800000
+      },
       {
         "title": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?",
         "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
         "summary": "“I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794426060000
+        "pubDate": 1794436200000
       },
       {
-        "title": "Nvidia is spending more than ever on Washington lobbying. It may not stop Congress from limiting China chip sales now.",
-        "link": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
-        "summary": "‘There’s no question that Congress is going to push for a complete ban on the sale of advanced semiconductors into China,’ says a former U.S. ambassador to Beijing",
+        "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
+        "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
+        "summary": "CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794422880000
-      },
-      {
-        "title": "Oracle’s stock is totally misunderstood and should be a ‘go-to’ AI play, says this analyst",
-        "link": "https://www.marketwatch.com/story/oracles-stock-is-totally-misunderstood-and-should-be-a-go-to-ai-play-says-this-analyst-2a87e80d?mod=mw_rss_topstories",
-        "summary": "A Bernstein analyst thinks two key investor concerns will soon subside.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794420780000
-      },
-      {
-        "title": "Has Nvidia flown too close to the sun? One analyst warns of major scrutiny ahead.",
-        "link": "https://www.marketwatch.com/story/has-nvidia-flown-too-close-to-the-sun-one-analyst-warns-of-major-scrutiny-ahead-a323c4dd?mod=mw_rss_topstories",
-        "summary": "A Baird analyst no longer recommends buying the chip maker’s stock as its problems mount.",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794417180000
-      },
-      {
-        "title": "Need money for a down payment? More employers are offering to help.",
-        "link": "https://www.marketwatch.com/story/need-money-for-a-down-payment-more-employers-are-offering-to-help-59c57da3?mod=mw_rss_topstories",
-        "summary": "The rise in home-buying help from employers “speaks volumes about how difficult buying a home has become, even for people with steady jobs.”",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794416760000
+        "pubDate": 1794434700000
       }
     ],
     "business": [
-      {
-        "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
-        "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
-        "summary": "There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.",
-        "source": "BBC News",
-        "pubDate": 1794424545000
-      },
       {
         "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
         "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
         "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
         "source": "BBC News",
-        "pubDate": 1794422899000
+        "pubDate": 1794444545000
       },
       {
-        "title": "Poundland founder writes to King for help",
-        "link": "https://www.bbc.co.uk/news/videos/cm4gndjd4nnno?at_medium=RSS&at_campaign=rss",
-        "summary": "Poundland has filed a notice of intention to appoint administrators, which protects it from creditors until Thursday.",
+        "title": "From Paris to DC - why offices are being turned into apartments",
+        "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Office buildings with low occupancy rates are being transformed into flats.",
         "source": "BBC News",
-        "pubDate": 1794419975000
+        "pubDate": 1794441940000
       },
       {
-        "title": "Brad Friedel on Shrewsbury Town takeover",
-        "link": "https://www.bbc.co.uk/news/videos/cq62p80pe3yzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Exclusive interview with BBC Radio Shropshire, Brad Friedel on Shrewsbury Town takeover.",
+        "title": "Some under-25s should get less benefits, Milburn review to say",
+        "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+        "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
         "source": "BBC News",
-        "pubDate": 1794419743000
+        "pubDate": 1794439324000
       },
       {
-        "title": "Spain sees widespread disruption in first general strike for 14 years",
+        "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
         "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Protests are also expected in the biggest cities less than three weeks before Spaniards vote in parliamentary elections.",
+        "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
         "source": "BBC News",
-        "pubDate": 1794419072000
+        "pubDate": 1794434857000
+      },
+      {
+        "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
+        "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
+        "summary": "There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.",
+        "source": "BBC News",
+        "pubDate": 1794433340000
       }
     ],
     "world": [
       {
-        "title": "Protesters Throw Projectiles at Biden During Dublin Trip",
-        "link": "https://www.nytimes.com/2026/11/11/world/europe/joe-biden-dublin-ireland-protesters-attack.html",
-        "summary": "Video showed demonstrators from a pro-Palestinian protest throwing projectiles at former President Joseph R. Biden Jr. after he attended an event at Trinity College Dublin on Tuesd...",
+        "title": "New York building collapse kills one person and injures 12",
+        "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+        "summary": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
+        "source": "BBC News",
+        "pubDate": 1794447298000
+      },
+      {
+        "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+        "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+        "source": "BBC News",
+        "pubDate": 1794445204000
+      },
+      {
+        "title": "Nigeria's president launches re-election manifesto but can he regain voters' trust?",
+        "link": "https://www.bbc.co.uk/news/articles/ck5ynyw527wdo?at_medium=RSS&at_campaign=rss",
+        "summary": "For Nigerians to feel meaningful improvements, reforms will need to go beyond the promises outlined, analysts say.",
+        "source": "BBC News",
+        "pubDate": 1794443771000
+      },
+      {
+        "title": "Court in UK Decriminalizes Same-Sex Relations in Trinidad and Tobago",
+        "link": "https://www.nytimes.com/2026/11/11/world/americas/trinidad-same-sex-ruling.html",
+        "summary": "The ruling, which could affect similar laws in other British Commonwealth countries, has spotlighted a legal system still intertwined with a former colonial power.",
         "source": "NYT > World News",
-        "pubDate": 1794425651000
+        "pubDate": 1794442076000
       },
       {
-        "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-        "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public. It is not known if the incidents are linked.",
+        "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
         "source": "BBC News",
-        "pubDate": 1794422325000
-      },
-      {
-        "title": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
-        "link": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital.",
-        "source": "BBC News",
-        "pubDate": 1794420657000
-      },
-      {
-        "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-        "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
-        "source": "BBC News",
-        "pubDate": 1794420298000
-      },
-      {
-        "title": "U.S. Efforts to Tighten Blockade of Iran Rely on Reluctant Neighbors",
-        "link": "https://www.nytimes.com/2026/11/11/world/middleeast/us-blockade-iran-taskforce-iron-gate.html",
-        "summary": "Washington wants to intensify its economic pressure campaign on Iran by closing its land borders. Neighboring states, fearing economic fallout, are pushing back.",
-        "source": "NYT > World News",
-        "pubDate": 1794420172000
+        "pubDate": 1794434857000
       }
     ]
   }
