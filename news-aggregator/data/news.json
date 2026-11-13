@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-13T01:41:10.004Z",
+  "lastUpdated": "2026-11-13T12:51:31.502Z",
   "categories": {
     "technology": [
+      {
+        "title": "Microsoft&#8217;s massive Outlook outage continues",
+        "link": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+        "summary": "Service is gradually starting to recover for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are...",
+        "source": "The Verge",
+        "pubDate": 1794574083000
+      },
+      {
+        "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+        "link": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+        "summary": "\"You can simplify it as a big tank feeding engines.\"",
+        "source": "Ars Technica",
+        "pubDate": 1794571240000
+      },
+      {
+        "title": "Let’s talk about Jensen Huang’s many affairs!",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+        "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak f...",
+        "source": "The Verge",
+        "pubDate": 1794571200000
+      },
+      {
+        "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+        "link": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
+        "summary": "Specialized’s second-fastest bike may be the smart buy.",
+        "source": "Ars Technica",
+        "pubDate": 1794570638000
+      },
       {
         "title": "Donald Trump really wants Tim Cook to run Nvidia",
         "link": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
         "summary": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an int...",
         "source": "The Verge",
         "pubDate": 1794530767000
-      },
-      {
-        "title": "Xbox announces Wolfenstein 3",
-        "link": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
-        "summary": "A screenshot from Wolfenstein II: The New Colossus.\t\n\nIt's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is rea...",
-        "source": "The Verge",
-        "pubDate": 1794528704000
-      },
-      {
-        "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
-        "link": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
-        "summary": "Starting Thursday, Whoop members can share their data from its wearables on the app's new Whoop Humans social network. Users can make their metrics, activities, and achievements vi...",
-        "source": "The Verge",
-        "pubDate": 1794527002000
-      },
-      {
-        "title": "Humble Bundle redesign removes two-factor verification from settings",
-        "link": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
-        "summary": "The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verificati...",
-        "source": "The Verge",
-        "pubDate": 1794526252000
-      },
-      {
-        "title": "Microsoft Outlook is still down",
-        "link": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
-        "summary": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly ack...",
-        "source": "The Verge",
-        "pubDate": 1794525853000
       }
     ],
     "finance": [
       {
-        "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
-        "link": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
-        "summary": "As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy",
+        "title": "The prostate-cancer screening rules just changed. Here’s when men should get tested.",
+        "link": "https://www.marketwatch.com/story/the-prostate-cancer-screening-rules-just-changed-heres-when-men-should-get-tested-894418bb?mod=mw_rss_topstories",
+        "summary": "The American Cancer Society now recommends most men get their first PSA test when they turn 50. Black men and other men considered high risk should start screening at age 45.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794524220000
+        "pubDate": 1794573420000
       },
       {
-        "title": "Opening trading-card packs has become a $2 billion market",
-        "link": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-        "summary": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
+        "title": "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth.",
+        "link": "https://www.marketwatch.com/story/nvidia-has-shed-nearly-500-billion-in-market-value-this-week-its-still-a-4-trillion-ai-behemoth-2ca6eba7?mod=mw_rss_topstories",
+        "summary": "Can Nvidia keep its lead in AI chips without Jensen Huang? Plus, what investors are watching on inflation.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794523080000
+        "pubDate": 1794572700000
       },
       {
-        "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-        "link": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
-        "summary": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
+        "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+        "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+        "summary": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794521760000
+        "pubDate": 1794572100000
       },
       {
-        "title": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
-        "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-        "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+        "title": "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting",
+        "link": "https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories",
+        "summary": "Microsoft stock fell in premarket trade Friday as the company struggled to address a worldwide outage of its popular products.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794520800000
+        "pubDate": 1794572040000
       },
       {
-        "title": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
-        "link": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
-        "summary": "More people want to understand the fine print on plans this year, financial planners say.",
+        "title": "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists",
+        "link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
+        "summary": "Although the majority of S&P 500 companies reported earnings above analysts’ expectations, the beats were significantly lower than in more recent quarters.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794520500000
+        "pubDate": 1794570060000
       }
     ],
     "business": [
       {
-        "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
-        "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
+        "title": "What we know about the global Microsoft outage",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far been largely unsuccessful.",
         "source": "BBC News",
-        "pubDate": 1794533972000
+        "pubDate": 1794573109000
       },
       {
-        "title": "'My window faces a brick wall': What's your rent in NYC?",
-        "link": "https://www.bbc.co.uk/news/videos/c6wy9j9v7nl7o?at_medium=RSS&at_campaign=rss",
-        "summary": "We ask people in New York City how much they pay for their homes.",
+        "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+        "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
         "source": "BBC News",
-        "pubDate": 1794533431000
+        "pubDate": 1794572550000
       },
       {
-        "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
-        "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
-        "summary": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+        "title": "Heat pumps: How much heat does your home really need?",
+        "link": "https://www.bbc.co.uk/news/articles/cqy43zk3kk04o?at_medium=RSS&at_campaign=rss",
+        "summary": "Knowing how much heat your home loses is important before installing a new heating system.",
         "source": "BBC News",
-        "pubDate": 1794528815000
+        "pubDate": 1794562165000
       },
       {
-        "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-        "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-        "summary": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
+        "title": "Politicians back focus on cost of living",
+        "link": "https://www.bbc.co.uk/news/articles/cqj9mjl8jy4no?at_medium=RSS&at_campaign=rss",
+        "summary": "The Government of Jersey's key priorities are passed despite concerns over a lack of \"real action\".",
         "source": "BBC News",
-        "pubDate": 1794526445000
+        "pubDate": 1794551017000
       },
       {
-        "title": "Some under-25s should get fewer benefits, Milburn review to say",
-        "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-        "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+        "title": "Cider makers fear future for orchards as costs grow",
+        "link": "https://www.bbc.co.uk/news/articles/c5zjxjzx2dpwo?at_medium=RSS&at_campaign=rss",
+        "summary": "Producers claimed without more support, they could be forced to stop using British-grown apples.",
         "source": "BBC News",
-        "pubDate": 1794523878000
+        "pubDate": 1794550894000
       }
     ],
     "world": [
       {
-        "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-        "link": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
-        "summary": "Critics say Howard Lutnick, the commerce secretary, and his department have shielded Nvidia as concerns have grown over A.I. chip sales to firms like Megaspeed.",
+        "title": "Europe Haggles Over Who Will Represent It in Talks With Russia",
+        "link": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
+        "summary": "After coveting a seat in the Ukraine war discussions, Europe is poised to get one. Deciding who should speak for the continent is its own negotiation.",
         "source": "NYT > World News",
-        "pubDate": 1794533320000
+        "pubDate": 1794573199000
       },
       {
-        "title": "Court in UK Decriminalizes Same-Sex Relations in Trinidad and Tobago",
-        "link": "https://www.nytimes.com/2026/11/11/world/americas/trinidad-same-sex-ruling.html",
-        "summary": "The ruling, which could affect similar laws in other British Commonwealth countries, has spotlighted a legal system still intertwined with a former colonial power.",
-        "source": "NYT > World News",
-        "pubDate": 1794532892000
-      },
-      {
-        "title": "Australian footballers will not be charged after hotel incident, police say",
-        "link": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Four Sydney Swans players had been under investigation after an alleged sexual assault after a game in Melbourne.",
+        "title": "What we know about the global Microsoft outage",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far been largely unsuccessful.",
         "source": "BBC News",
-        "pubDate": 1794531839000
+        "pubDate": 1794573109000
       },
       {
-        "title": "Paul Barril, French ‘Supergendarme’ Turned Mercenary, Has Died",
-        "link": "https://www.nytimes.com/2026/11/12/world/europe/paul-barril-dead.html",
-        "summary": "After years in elite police units, he drew scrutiny from human rights groups for selling arms and providing other services to unsavory governments. He was 80.",
-        "source": "NYT > World News",
-        "pubDate": 1794529426000
-      },
-      {
-        "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-        "link": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-        "summary": "The army has taken control of most of Tigray's main towns - it is unclear if the TPLF is capable of fighting back.",
+        "title": "UN watchdog 'increasingly concerned' over Iran nuclear site",
+        "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+        "summary": "It says it has never been able to inspect a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
         "source": "BBC News",
-        "pubDate": 1794529224000
+        "pubDate": 1794572908000
+      },
+      {
+        "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+        "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+        "source": "BBC News",
+        "pubDate": 1794572550000
+      },
+      {
+        "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+        "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+        "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
+        "source": "BBC News",
+        "pubDate": 1794570207000
       }
     ]
   }
