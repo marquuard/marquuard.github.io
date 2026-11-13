@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-12T13:31:53.451Z",
+  "lastUpdated": "2026-11-13T01:41:10.004Z",
   "categories": {
     "technology": [
       {
-        "title": "Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk",
-        "link": "https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/",
-        "summary": "Apple's M6 keeps the iMac current without shaking things up much.",
-        "source": "Ars Technica",
-        "pubDate": 1794484837000
-      },
-      {
-        "title": "Ring confirms its camera drone won’t have manual controls after crashing on CBS News",
-        "link": "https://www.theverge.com/tech/1031817/ring-drone-cam-manual-flight-controls",
-        "summary": "When (or if) Ring's security camera drone flies into our homes in January, you won't get the option to pilot it yourself. The Ring Drone Cam relies entirely on an \"AI Pilot\" system...",
+        "title": "Donald Trump really wants Tim Cook to run Nvidia",
+        "link": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+        "summary": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an int...",
         "source": "The Verge",
-        "pubDate": 1794481952000
+        "pubDate": 1794530767000
       },
       {
-        "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
-        "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
-        "summary": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
-        "source": "Ars Technica",
-        "pubDate": 1794438617000
-      },
-      {
-        "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-        "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-        "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a sepa...",
+        "title": "Xbox announces Wolfenstein 3",
+        "link": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+        "summary": "A screenshot from Wolfenstein II: The New Colossus.\t\n\nIt's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is rea...",
         "source": "The Verge",
-        "pubDate": 1794437076000
+        "pubDate": 1794528704000
       },
       {
-        "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
-        "link": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
-        "summary": "The Aux-2 can be many things. Even a hat for your amp! | Photo: Nathan Edwards / The Verge\t\n\nNabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant ...",
+        "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
+        "link": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+        "summary": "Starting Thursday, Whoop members can share their data from its wearables on the app's new Whoop Humans social network. Users can make their metrics, activities, and achievements vi...",
         "source": "The Verge",
-        "pubDate": 1794434400000
+        "pubDate": 1794527002000
+      },
+      {
+        "title": "Humble Bundle redesign removes two-factor verification from settings",
+        "link": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+        "summary": "The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verificati...",
+        "source": "The Verge",
+        "pubDate": 1794526252000
+      },
+      {
+        "title": "Microsoft Outlook is still down",
+        "link": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+        "summary": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly ack...",
+        "source": "The Verge",
+        "pubDate": 1794525853000
       }
     ],
     "finance": [
       {
-        "title": "Wendy’s rejects a takeover offer, scales back breakfast and still sees its stock surge",
-        "link": "https://www.marketwatch.com/story/wendys-rejects-a-takeover-offer-scales-back-breakfast-and-still-sees-its-stock-surge-4e398cde?mod=mw_rss_topstories",
-        "summary": "Wendy’s plans to go it alone, and analysts say the company has “significant work ahead.”",
+        "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
+        "link": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
+        "summary": "As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794488700000
+        "pubDate": 1794524220000
       },
       {
-        "title": "The world’s most sophisticated drug companies are putting billions into vaccines — despite the political environment",
-        "link": "https://www.marketwatch.com/story/the-worlds-most-sophisticated-drug-companies-are-putting-billions-into-vaccines-despite-the-political-environment-8dcbf276?mod=mw_rss_topstories",
-        "summary": "Look at the promising data for Moderna and Merck’s experimental cancer vaccine and the research suggesting the shingles vaccine can delay dementia.",
+        "title": "Opening trading-card packs has become a $2 billion market",
+        "link": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
+        "summary": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794488400000
+        "pubDate": 1794523080000
       },
       {
-        "title": "How the U.S. government’s equity holdings have surged during Trump’s second term — in one chart",
-        "link": "https://www.marketwatch.com/story/how-the-u-s-governments-equity-holdings-have-surged-during-trumps-second-term-in-one-chart-b598c369?mod=mw_rss_topstories",
-        "summary": "41 companies have made deals that grant stakes to the Trump administration, and some could face probes from the new Congress",
+        "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+        "link": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+        "summary": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794488400000
+        "pubDate": 1794521760000
       },
       {
-        "title": "The ‘bank of Nvidia’ is in jeopardy, threatening the entire AI boom",
-        "link": "https://www.marketwatch.com/story/jensen-huang-built-nvidia-into-a-behemoth-his-scandal-puts-the-entire-ai-boom-in-jeopardy-c374b079?mod=mw_rss_topstories",
-        "summary": "Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?",
+        "title": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
+        "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+        "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794488100000
+        "pubDate": 1794520800000
       },
       {
-        "title": "Nvidia’s Jensen Huang crisis tests how much of the AI industry depends on one man",
-        "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
-        "summary": "Huang’s exit could fray tight bonds among AI businesses. Plus, Oracle’s potential AI catalyst, a $1.5 trillion Social Security stock proposal and what the oil-yield split may mean ...",
+        "title": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
+        "link": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
+        "summary": "More people want to understand the fine print on plans this year, financial planners say.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794486540000
+        "pubDate": 1794520500000
       }
     ],
     "business": [
       {
-        "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
-        "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK is seeing impressive growth, but will it last?",
+        "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
+        "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+        "summary": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
         "source": "BBC News",
-        "pubDate": 1794490029000
+        "pubDate": 1794533972000
+      },
+      {
+        "title": "'My window faces a brick wall': What's your rent in NYC?",
+        "link": "https://www.bbc.co.uk/news/videos/c6wy9j9v7nl7o?at_medium=RSS&at_campaign=rss",
+        "summary": "We ask people in New York City how much they pay for their homes.",
+        "source": "BBC News",
+        "pubDate": 1794533431000
+      },
+      {
+        "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
+        "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+        "source": "BBC News",
+        "pubDate": 1794528815000
+      },
+      {
+        "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+        "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+        "summary": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
+        "source": "BBC News",
+        "pubDate": 1794526445000
       },
       {
         "title": "Some under-25s should get fewer benefits, Milburn review to say",
         "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
         "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
         "source": "BBC News",
-        "pubDate": 1794489419000
-      },
-      {
-        "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
-        "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-        "summary": "As uncertainty swirls over the boss of the AI chip giant, some names have emerged as potential successors.",
-        "source": "BBC News",
-        "pubDate": 1794482485000
-      },
-      {
-        "title": "UK economy grows at fastest rate for more than two years",
-        "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK economy grew by 0.7% in the three months to September, according to official figures.",
-        "source": "BBC News",
-        "pubDate": 1794482425000
-      },
-      {
-        "title": "Are branded cold and flu tablets really worth the extra money?",
-        "link": "https://www.bbc.co.uk/news/videos/cw4gnxm0y43po?at_medium=RSS&at_campaign=rss",
-        "summary": "Are branded cold and flu tablets REALLY worth the extra money?",
-        "source": "BBC News",
-        "pubDate": 1794464226000
+        "pubDate": 1794523878000
       }
     ],
     "world": [
       {
-        "title": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
-        "link": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
-        "summary": "The Israeli authorities said that Hamas had established a command center at the hospital complex. Hamas said the attack was “a heinous crime targeting a civilian medical facility.”",
+        "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+        "link": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
+        "summary": "Critics say Howard Lutnick, the commerce secretary, and his department have shielded Nvidia as concerns have grown over A.I. chip sales to firms like Megaspeed.",
         "source": "NYT > World News",
-        "pubDate": 1794488877000
+        "pubDate": 1794533320000
       },
       {
-        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-        "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
-        "source": "BBC News",
-        "pubDate": 1794488566000
+        "title": "Court in UK Decriminalizes Same-Sex Relations in Trinidad and Tobago",
+        "link": "https://www.nytimes.com/2026/11/11/world/americas/trinidad-same-sex-ruling.html",
+        "summary": "The ruling, which could affect similar laws in other British Commonwealth countries, has spotlighted a legal system still intertwined with a former colonial power.",
+        "source": "NYT > World News",
+        "pubDate": 1794532892000
       },
       {
-        "title": "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
-        "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
-        "summary": "Medical staff are going unpaid, lack proper training and are struggling with shortages of essential supplies, MSF warns",
+        "title": "Australian footballers will not be charged after hotel incident, police say",
+        "link": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Four Sydney Swans players had been under investigation after an alleged sexual assault after a game in Melbourne.",
         "source": "BBC News",
-        "pubDate": 1794488557000
+        "pubDate": 1794531839000
       },
       {
-        "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-        "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-        "summary": "In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate.",
-        "source": "BBC News",
-        "pubDate": 1794488215000
+        "title": "Paul Barril, French ‘Supergendarme’ Turned Mercenary, Has Died",
+        "link": "https://www.nytimes.com/2026/11/12/world/europe/paul-barril-dead.html",
+        "summary": "After years in elite police units, he drew scrutiny from human rights groups for selling arms and providing other services to unsavory governments. He was 80.",
+        "source": "NYT > World News",
+        "pubDate": 1794529426000
       },
       {
-        "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-        "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
+        "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+        "link": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+        "summary": "The army has taken control of most of Tigray's main towns - it is unclear if the TPLF is capable of fighting back.",
         "source": "BBC News",
-        "pubDate": 1794486361000
+        "pubDate": 1794529224000
       }
     ]
   }
