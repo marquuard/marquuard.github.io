@@ -1,81 +1,88 @@
 {
-  "lastUpdated": "2026-11-13T20:19:33.184Z",
+  "lastUpdated": "2026-11-14T01:17:28.091Z",
   "categories": {
     "technology": [
       {
-        "title": "In elephants, the resilience of communities has its limits",
-        "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
-        "summary": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
+        "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+        "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+        "summary": "One way or another, the company will get some more data on Saturday.",
         "source": "Ars Technica",
-        "pubDate": 1794600193000
+        "pubDate": 1794617353000
       },
       {
-        "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
-        "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
-        "summary": "Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits.",
-        "source": "Ars Technica",
-        "pubDate": 1794599356000
-      },
-      {
-        "title": "Jensen Huang was reckless with the environment, too",
-        "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-        "summary": "Jensen Huang gives a keynote address at the Berlin GPU Technology Conference on October 21st in Berlin. | Photo: Getty Images\t\n\nUnder cofounder Jensen Huang, Nvidia has become the ...",
+        "title": "Amazon has a plan to index the world’s online shopping data",
+        "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+        "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site...",
         "source": "The Verge",
-        "pubDate": 1794591862000
+        "pubDate": 1794613751000
       },
       {
-        "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-        "link": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-        "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
-        "source": "Ars Technica",
-        "pubDate": 1794590745000
-      },
-      {
-        "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
-        "link": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-        "summary": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids ...",
+        "title": "FAA ground stop shuts down flights nationwide",
+        "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
+        "summary": "Delta Air Lines planes at the gate at LaGuardia Airport on June 3, 2026. | Photo: Getty Images\t\n\nTakeoffs from airports throughout the US largely stopped on Friday after the FAA is...",
         "source": "The Verge",
-        "pubDate": 1794589976000
+        "pubDate": 1794613647000
+      },
+      {
+        "title": "FAA orders third nationwide ground stop in its history",
+        "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+        "summary": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+        "source": "Ars Technica",
+        "pubDate": 1794611858000
+      },
+      {
+        "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+        "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+        "summary": "Cost and access barriers are pushing people to modified use and unapproved versions.",
+        "source": "Ars Technica",
+        "pubDate": 1794607141000
       }
     ],
     "finance": [
       {
-        "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
-        "link": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
-        "summary": "Here’s what might be coming for Social Security, Medicare and long-term care.",
+        "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed so far",
+        "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+        "summary": "Agency cites “extraordinary circumstances,” while  Homeland Security Secretary Mullin says no indication of attack. Reduced flights amid fuel-cost surge may curtail rebooking optio...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794600120000
+        "pubDate": 1794616800000
       },
       {
-        "title": "My husband inherited $500,000, but he refuses to spend it on our home. Should I be worried?",
-        "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
-        "summary": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
+        "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+        "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+        "summary": "There is already a demographic ‘run’ on Social Security.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794600000000
+        "pubDate": 1794611520000
       },
       {
-        "title": "Budget airlines are going upscale with first-class seats and faster wifi",
-        "link": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
-        "summary": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.",
+        "title": "4 expert tips for signing up for Medicare",
+        "link": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
+        "summary": "A day in the life of a Medicare counselor",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794598800000
+        "pubDate": 1794609900000
       },
       {
-        "title": "Medicare at age 50? What ‘Medicare for more’ could mean for American workers.",
-        "link": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
-        "summary": "It’s not “Medicare for All,” but a new bill would lower the Medicare age to 50, expanding coverage for 60 million adults",
+        "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+        "summary": "Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794597960000
+        "pubDate": 1794608460000
       },
       {
-        "title": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
-        "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
-        "summary": "A big chunk of your retirement is likely invested in the computer-chip giant.",
+        "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+        "link": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+        "summary": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower d...",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794597540000
+        "pubDate": 1794607440000
       }
     ],
     "business": [
+      {
+        "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+        "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+        "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+        "source": "BBC News",
+        "pubDate": 1794604462000
+      },
       {
         "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
         "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
@@ -103,50 +110,43 @@
         "summary": "The Treasury secretary blamed the department for not sanctioning the Singaporean firm and said that Nvidia employees should be held accountable if they sidestepped the law.",
         "source": "NYT > Business > Economy",
         "pubDate": 1794589512000
-      },
-      {
-        "title": "What are people emergency stockpiling?",
-        "link": "https://www.bbc.co.uk/news/videos/c6zxvg79rr9yo?at_medium=RSS&at_campaign=rss",
-        "summary": "From cider to candy canes: What people are emergency stockpiling",
-        "source": "BBC News",
-        "pubDate": 1794587482000
       }
     ],
     "world": [
       {
-        "title": "‘Get Focused on London’: How Iran’s Agents Attacked European Targets",
-        "link": "https://www.nytimes.com/2026/11/13/world/europe/iran-attacks-europe-britain.html",
-        "summary": "A wave of assaults in Britain and elsewhere in the spring sowed fear across Europe. Prosecutors shed new light on how Iran took aim at U.S. allies.",
+        "title": "Here’s the latest.",
+        "link": "https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa/nationwide-ground-stop-flights-faa",
+        "summary": "Trump administration officials blamed a telecommunication outage but said they said did not know its cause.",
         "source": "NYT > World News",
-        "pubDate": 1794600637000
+        "pubDate": 1794616511000
       },
       {
-        "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-        "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-        "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+        "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
+        "link": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
         "source": "BBC News",
-        "pubDate": 1794599637000
+        "pubDate": 1794614636000
       },
       {
-        "title": "Microsoft’s Global Outage and Fixes: What We Know",
-        "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
-        "summary": "The company described “encouraging” progress on efforts to overcome a second day of disruptions to its email, messaging and other services.",
-        "source": "NYT > World News",
-        "pubDate": 1794596671000
-      },
-      {
-        "title": "Democratic Senate leader Schumer set to face leadership challenge",
-        "link": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-        "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
+        "title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
+        "link": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
+        "summary": "The 52-year-old general’s provocative posts and military threats have fuelled rumours of a dynastic succession.",
         "source": "BBC News",
-        "pubDate": 1794596590000
+        "pubDate": 1794614632000
       },
       {
-        "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
-        "link": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
-        "summary": "After coveting a seat in the Ukraine war discussions, Europe is poised to get one. The continent wants to fill it with a six-member team.",
-        "source": "NYT > World News",
-        "pubDate": 1794595927000
+        "title": "Setback for SpaceX Starship rocket's double-catch test",
+        "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+        "source": "BBC News",
+        "pubDate": 1794614461000
+      },
+      {
+        "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+        "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+        "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+        "source": "BBC News",
+        "pubDate": 1794613245000
       }
     ]
   }
