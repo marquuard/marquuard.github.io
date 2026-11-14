@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-11-14T01:17:28.091Z",
+  "lastUpdated": "2026-11-14T11:55:59.912Z",
   "categories": {
     "technology": [
+      {
+        "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+        "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
+        "summary": "A view of an information board at the Chicago O'Hare International Airport, filled with waiting passengers on November 13, 2026. Photo by Jacek Boczarski/Anadolu via Getty Images) ...",
+        "source": "The Verge",
+        "pubDate": 1794621184000
+      },
       {
         "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
         "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
@@ -17,16 +24,9 @@
         "pubDate": 1794613751000
       },
       {
-        "title": "FAA ground stop shuts down flights nationwide",
-        "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
-        "summary": "Delta Air Lines planes at the gate at LaGuardia Airport on June 3, 2026. | Photo: Getty Images\t\n\nTakeoffs from airports throughout the US largely stopped on Friday after the FAA is...",
-        "source": "The Verge",
-        "pubDate": 1794613647000
-      },
-      {
-        "title": "FAA orders third nationwide ground stop in its history",
+        "title": "FAA has lifted its third-ever nationwide ground stop",
         "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
-        "summary": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+        "summary": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
         "source": "Ars Technica",
         "pubDate": 1794611858000
       },
@@ -40,11 +40,18 @@
     ],
     "finance": [
       {
-        "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed so far",
+        "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
         "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-        "summary": "Agency cites “extraordinary circumstances,” while  Homeland Security Secretary Mullin says no indication of attack. Reduced flights amid fuel-cost surge may curtail rebooking optio...",
+        "summary": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794616800000
+        "pubDate": 1794624120000
+      },
+      {
+        "title": "14 dividend stocks selected for long-term growth",
+        "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+        "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+        "source": "MarketWatch.com - Top Stories",
+        "pubDate": 1794621480000
       },
       {
         "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
@@ -66,87 +73,80 @@
         "summary": "Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
         "source": "MarketWatch.com - Top Stories",
         "pubDate": 1794608460000
-      },
-      {
-        "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
-        "link": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
-        "summary": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower d...",
-        "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794607440000
       }
     ],
     "business": [
       {
-        "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+        "title": "Football kit giveaway aims to boost participation",
+        "link": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Millie Bright helps hand out free kit to young girls to help them keep playing in spite of costs.",
+        "source": "BBC News",
+        "pubDate": 1794644020000
+      },
+      {
+        "title": "The rise of 'housefishing' by estate agents",
+        "link": "https://www.bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The rise of 'housefishing' by estate agents.",
+        "source": "BBC News",
+        "pubDate": 1794642350000
+      },
+      {
+        "title": "What do Christmas market traders say about rising prices?",
+        "link": "https://www.bbc.co.uk/news/articles/c95y152k8erpo?at_medium=RSS&at_campaign=rss",
+        "summary": "From £8 bratwursts to £11 Yorkshire pudding wraps, why is the cost of the markets rising year on year?",
+        "source": "BBC News",
+        "pubDate": 1794640286000
+      },
+      {
+        "title": "Microsoft says services fully restored after day-long global outage",
         "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-        "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+        "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
         "source": "BBC News",
-        "pubDate": 1794604462000
+        "pubDate": 1794638547000
       },
       {
-        "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
-        "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-        "summary": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
+        "title": "Food bank sees donations drop by 10% each year",
+        "link": "https://www.bbc.co.uk/news/articles/c6702j7e48eno?at_medium=RSS&at_campaign=rss",
+        "summary": "Staff fear the government stockpiling advice will have an impact on donations as Christmas looms.",
         "source": "BBC News",
-        "pubDate": 1794599637000
-      },
-      {
-        "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
-        "source": "BBC News",
-        "pubDate": 1794595017000
-      },
-      {
-        "title": "Are board games making a comeback this Christmas?",
-        "link": "https://www.bbc.co.uk/news/videos/ckp80l667rdjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Are board games making a comeback this Christmas?",
-        "source": "BBC News",
-        "pubDate": 1794592840000
-      },
-      {
-        "title": "Bessent Faults Commerce Dept. for Failing to Blacklist Megaspeed",
-        "link": "https://www.nytimes.com/2026/11/13/business/economy/bessent-commerce-megaspeed-lutnick.html",
-        "summary": "The Treasury secretary blamed the department for not sanctioning the Singaporean firm and said that Nvidia employees should be held accountable if they sidestepped the law.",
-        "source": "NYT > Business > Economy",
-        "pubDate": 1794589512000
+        "pubDate": 1794637986000
       }
     ],
     "world": [
       {
-        "title": "Here’s the latest.",
-        "link": "https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa/nationwide-ground-stop-flights-faa",
-        "summary": "Trump administration officials blamed a telecommunication outage but said they said did not know its cause.",
+        "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
+        "source": "BBC News",
+        "pubDate": 1794656480000
+      },
+      {
+        "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+        "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+        "summary": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans,  Louisiana on Friday.",
+        "source": "BBC News",
+        "pubDate": 1794655810000
+      },
+      {
+        "title": "In Canada, Watching the N.H.L. Has Become Expensive and Cumbersome",
+        "link": "https://www.nytimes.com/2026/11/14/world/canada/national-hockey-league-rogers-sportsnet.html",
+        "summary": "Games behind paywalls and exorbitant costs forcing a drop in attendance — even to watch Connor McDavid in Edmonton — have only compounded the loss of a Saturday night ritual.",
         "source": "NYT > World News",
-        "pubDate": 1794616511000
+        "pubDate": 1794654008000
       },
       {
-        "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
-        "link": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
+        "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
+        "link": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Prime Minister Péter Magyar promised a sweeping anti-corruption drive after ousting Orbán in April.",
         "source": "BBC News",
-        "pubDate": 1794614636000
+        "pubDate": 1794652940000
       },
       {
-        "title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
-        "link": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
-        "summary": "The 52-year-old general’s provocative posts and military threats have fuelled rumours of a dynastic succession.",
-        "source": "BBC News",
-        "pubDate": 1794614632000
-      },
-      {
-        "title": "Setback for SpaceX Starship rocket's double-catch test",
-        "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-        "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
-        "source": "BBC News",
-        "pubDate": 1794614461000
-      },
-      {
-        "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-        "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
-        "source": "BBC News",
-        "pubDate": 1794613245000
+        "title": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
+        "link": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
+        "summary": "Long-held beliefs in Venezuela about sovereign control over oil are fraying as the U.S. lays claim to the country’s oil reserves.",
+        "source": "NYT > World News",
+        "pubDate": 1794651001000
       }
     ]
   }
