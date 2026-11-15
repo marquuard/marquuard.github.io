@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-11-14T18:38:33.433Z",
+  "lastUpdated": "2026-11-15T00:45:29.478Z",
   "categories": {
     "technology": [
+      {
+        "title": "With Starship catch, SpaceX still shows it can dazzle the world",
+        "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+        "summary": "It felt like stepping into the future.",
+        "source": "Ars Technica",
+        "pubDate": 1794703259000
+      },
+      {
+        "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+        "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+        "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company h...",
+        "source": "The Verge",
+        "pubDate": 1794692684000
+      },
+      {
+        "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+        "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+        "summary": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker,...",
+        "source": "The Verge",
+        "pubDate": 1794685660000
+      },
       {
         "title": "Work to replace old copper wire led to the FAA’s ground stop",
         "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
@@ -15,67 +36,53 @@
         "summary": "Black Friday has become a shopping season of its own, with retailers once again offering discounts well ahead of the actual shopping holiday. We’ve already rounded up some of the b...",
         "source": "The Verge",
         "pubDate": 1794668400000
-      },
-      {
-        "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-        "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-        "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on A...",
-        "source": "The Verge",
-        "pubDate": 1794668400000
-      },
-      {
-        "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
-        "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
-        "summary": "Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with the offer to \"select customers\" to purchase a Cybercab for \"personal use.\" But the gilde...",
-        "source": "The Verge",
-        "pubDate": 1794665916000
-      },
-      {
-        "title": "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers",
-        "link": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
-        "summary": "As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, w...",
-        "source": "The Verge",
-        "pubDate": 1794664800000
       }
     ],
     "finance": [
       {
-        "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
-        "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-        "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+        "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
+        "link": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
+        "summary": "The historic first gets SpaceX closer to “rapid reusability” of rockets.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794681000000
+        "pubDate": 1794702780000
       },
       {
-        "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-        "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-        "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+        "title": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
+        "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
+        "summary": "“I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794679200000
+        "pubDate": 1794691860000
       },
       {
-        "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
-        "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-        "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+        "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+        "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+        "summary": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794678600000
+        "pubDate": 1794690000000
       },
       {
-        "title": "The trillion-dollar mistake corporate America is making about retirement",
-        "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-        "summary": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+        "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+        "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+        "summary": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794678600000
+        "pubDate": 1794686400000
       },
       {
-        "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
-        "link": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
-        "summary": "Here’s what might be coming for Social Security, Medicare and long-term care.",
+        "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+        "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+        "summary": "“Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794678600000
+        "pubDate": 1794684600000
       }
     ],
     "business": [
+      {
+        "title": "Beauty advent calendars can cost hundreds - but are they value for money?",
+        "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
+        "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
+        "source": "BBC News",
+        "pubDate": 1794700867000
+      },
       {
         "title": "Football kit giveaway aims to boost participation",
         "link": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss",
@@ -103,50 +110,43 @@
         "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
         "source": "BBC News",
         "pubDate": 1794638547000
-      },
-      {
-        "title": "Food bank sees donations drop by 10% each year",
-        "link": "https://www.bbc.co.uk/news/articles/c6702j7e48eno?at_medium=RSS&at_campaign=rss",
-        "summary": "Staff fear the government stockpiling advice will have an impact on donations as Christmas looms.",
-        "source": "BBC News",
-        "pubDate": 1794637986000
       }
     ],
     "world": [
       {
-        "title": "Italy fines Meta €805m over accessing users' photos",
-        "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
-        "summary": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+        "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+        "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Fear and misinformation surrounds the Ebola outbreak in DR Congo - Dr Kamwanga's mother was not immune.",
         "source": "BBC News",
-        "pubDate": 1794680886000
+        "pubDate": 1794701215000
       },
       {
-        "title": "Philippines wins first Eurovision Song Contest Asia ",
-        "link": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
+        "title": "Judo champion shakes up French  presidential race with surprise candidacy",
+        "link": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Teddy Riner is one of the most popular figures in modern-day France, and one in five voters say they could support him.",
         "source": "BBC News",
-        "pubDate": 1794680278000
+        "pubDate": 1794701211000
       },
       {
-        "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
-        "link": "https://www.bbc.co.uk/news/articles/cmwy05gg75lvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Sotheby's says it will work with the heirs of a family who had previously owned the artwork to try and reach a solution.",
-        "source": "BBC News",
-        "pubDate": 1794679210000
-      },
-      {
-        "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
-        "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
-        "summary": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those in France.",
+        "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan, Indonesia and Japan",
+        "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-china-japan.html",
+        "summary": "China, India, Pakistan, Indonesia and Japan aren’t joining the singing contest. That leaves some of the region’s best-known musical cultures out of the mix.",
         "source": "NYT > World News",
-        "pubDate": 1794677210000
+        "pubDate": 1794699993000
       },
       {
-        "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
-        "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-        "summary": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
+        "title": "How telecoms upgrade work sparked US flight chaos",
+        "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+        "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
         "source": "BBC News",
-        "pubDate": 1794676596000
+        "pubDate": 1794697887000
+      },
+      {
+        "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
+        "source": "BBC News",
+        "pubDate": 1794695845000
       }
     ]
   }
