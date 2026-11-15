@@ -1,9 +1,16 @@
 {
-  "lastUpdated": "2026-11-15T00:45:29.478Z",
+  "lastUpdated": "2026-11-15T12:29:26.503Z",
   "categories": {
     "technology": [
       {
-        "title": "With Starship catch, SpaceX still shows it can dazzle the world",
+        "title": "How the world’s fires changed while humanity hit pause",
+        "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
+        "summary": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
+        "source": "Ars Technica",
+        "pubDate": 1794744454000
+      },
+      {
+        "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
         "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
         "summary": "It felt like stepping into the future.",
         "source": "Ars Technica",
@@ -29,13 +36,6 @@
         "summary": "A view of an information board at the Chicago O'Hare International Airport, filled with waiting passengers on November 13, 2026. | Anadolu via Getty Images\t\n\nAt a press conference ...",
         "source": "The Verge",
         "pubDate": 1794678268000
-      },
-      {
-        "title": "Here are our favorite deals from REI’s giant Holiday Sale",
-        "link": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
-        "summary": "Black Friday has become a shopping season of its own, with retailers once again offering discounts well ahead of the actual shopping holiday. We’ve already rounded up some of the b...",
-        "source": "The Verge",
-        "pubDate": 1794668400000
       }
     ],
     "finance": [
@@ -77,7 +77,14 @@
     ],
     "business": [
       {
-        "title": "Beauty advent calendars can cost hundreds - but are they value for money?",
+        "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
+        "link": "https://www.nytimes.com/2026/11/15/us/politics/trump-lutnick-ai-chips-cantor-fitzgerald.html",
+        "summary": "The commerce secretary has been writing new rules that would affect Southeast Asian data centers, some of which are clients of his former firm.",
+        "source": "NYT > Business > Economy",
+        "pubDate": 1794736925000
+      },
+      {
+        "title": "Beauty advent calendars can cost hundreds but are they value for money?",
         "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
         "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
         "source": "BBC News",
@@ -103,50 +110,43 @@
         "summary": "From £8 bratwursts to £11 Yorkshire pudding wraps, why is the cost of the markets rising year on year?",
         "source": "BBC News",
         "pubDate": 1794640286000
-      },
-      {
-        "title": "Microsoft says services fully restored after day-long global outage",
-        "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-        "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
-        "source": "BBC News",
-        "pubDate": 1794638547000
       }
     ],
     "world": [
       {
-        "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
-        "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Fear and misinformation surrounds the Ebola outbreak in DR Congo - Dr Kamwanga's mother was not immune.",
-        "source": "BBC News",
-        "pubDate": 1794701215000
-      },
-      {
-        "title": "Judo champion shakes up French  presidential race with surprise candidacy",
-        "link": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss",
-        "summary": "Teddy Riner is one of the most popular figures in modern-day France, and one in five voters say they could support him.",
-        "source": "BBC News",
-        "pubDate": 1794701211000
-      },
-      {
-        "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan, Indonesia and Japan",
-        "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-china-japan.html",
-        "summary": "China, India, Pakistan, Indonesia and Japan aren’t joining the singing contest. That leaves some of the region’s best-known musical cultures out of the mix.",
+        "title": "Iran Attacks Bahrain for the Second Time in Days",
+        "link": "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html",
+        "summary": "The resumption of attacks after a two-month lull comes as peace talks between the U.S. and Iran appear to have stalled.",
         "source": "NYT > World News",
-        "pubDate": 1794699993000
+        "pubDate": 1794744424000
       },
       {
-        "title": "How telecoms upgrade work sparked US flight chaos",
-        "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-        "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+        "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+        "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
         "source": "BBC News",
-        "pubDate": 1794697887000
+        "pubDate": 1794740792000
       },
       {
-        "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
+        "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+        "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
         "source": "BBC News",
-        "pubDate": 1794695845000
+        "pubDate": 1794736645000
+      },
+      {
+        "title": "After Decades of Blood and Mistrust, Doubts Over Who’s to Blame for an Israeli Hostage",
+        "link": "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html",
+        "summary": "Israeli spies kidnapped and killed Iranians. They were convinced that Tehran was to blame for a fallen airman. Alternative theories got little attention, until now.",
+        "source": "NYT > World News",
+        "pubDate": 1794735419000
+      },
+      {
+        "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+        "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.",
+        "source": "BBC News",
+        "pubDate": 1794734797000
       }
     ]
   }
