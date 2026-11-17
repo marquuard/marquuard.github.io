@@ -1,0 +1,3137 @@
+<!DOCTYPE html>
+<html lang="hu" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IndexPulse — Ultra-Fast Cloudflare Terminál</title>
+  <script>
+    (function () {
+      try {
+        const saved = localStorage.getItem('indexpulse_theme_v1');
+        const theme = saved === 'light' ? 'light' : 'dark';
+        if (!saved) localStorage.setItem('indexpulse_theme_v1', 'dark');
+        document.documentElement.classList.toggle('dark', theme === 'dark');
+        document.documentElement.classList.toggle('light', theme === 'light');
+      } catch (e) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    .glass-panel {
+      background: rgba(15, 23, 42, 0.72);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+    .card-hover {
+      transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease, background-color 0.16s ease;
+    }
+    .card-hover:hover { transform: translateY(-2px); }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(0.85); }
+    }
+    .beacon-dot { animation: pulseDot 1.6s infinite ease-in-out; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    @keyframes priceFlashUp {
+      0% { background-color: rgba(16, 185, 129, 0.28); }
+      100% { background-color: transparent; }
+    }
+    @keyframes priceFlashDown {
+      0% { background-color: rgba(244, 63, 94, 0.28); }
+      100% { background-color: transparent; }
+    }
+    .flash-up { animation: priceFlashUp 0.55s ease-out; border-radius: 6px; }
+    .flash-down { animation: priceFlashDown 0.55s ease-out; border-radius: 6px; }
+
+    /* Világos mód felülírások */
+    html.light body { background-color: #f1f5f9 !important; color: #0f172a !important; }
+    html.light header { background-color: rgba(255, 255, 255, 0.9) !important; border-color: #cbd5e1 !important; }
+    html.light footer { background-color: rgba(255, 255, 255, 0.85) !important; border-color: #cbd5e1 !important; color: #475569 !important; }
+    html.light .glass-panel { background: rgba(255, 255, 255, 0.92) !important; border-color: #cbd5e1 !important; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05); }
+    html.light .bg-slate-950, html.light .bg-slate-950\/80, html.light .bg-slate-950\/90, html.light .bg-slate-950\/70 { background-color: #f8fafc !important; }
+    html.light .bg-slate-900, html.light .bg-slate-900\/80, html.light .bg-slate-900\/70, html.light .bg-slate-900\/60, html.light .bg-slate-900\/50 { background-color: #ffffff !important; }
+    html.light .bg-slate-800, html.light .bg-slate-800\/90, html.light .bg-slate-800\/80 { background-color: #e2e8f0 !important; }
+    html.light .hover\:bg-slate-800:hover, html.light .hover\:bg-slate-800\/60:hover, html.light .hover\:bg-slate-700\/90:hover { background-color: #cbd5e1 !important; }
+    html.light .border-slate-800, html.light .border-slate-800\/90, html.light .border-slate-800\/80, html.light .border-slate-800\/70, html.light .border-slate-700, html.light .border-slate-700\/80 { border-color: #cbd5e1 !important; }
+    html.light .text-white { color: #0f172a !important; }
+    html.light .text-slate-100, html.light .text-slate-200 { color: #1e293b !important; }
+    html.light .text-slate-300 { color: #334155 !important; }
+    html.light .text-slate-400 { color: #475569 !important; }
+    html.light .text-slate-500 { color: #64748b !important; }
+    html.light .text-emerald-300 { color: #047857 !important; }
+    html.light .text-emerald-400 { color: #059669 !important; }
+    html.light .text-rose-300 { color: #be123c !important; }
+    html.light .text-rose-400 { color: #e11d48 !important; }
+    html.light .text-blue-300, html.light .text-blue-400 { color: #1d4ed8 !important; }
+    html.light .text-amber-300, html.light .text-amber-400 { color: #b45309 !important; }
+    html.light select option { background-color: #ffffff; color: #0f172a; }
+    html.light #themeToggleBtn { background-color: #ffffff !important; border-color: #cbd5e1 !important; color: #0f172a !important; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col selection:bg-blue-500 selection:text-white transition-colors duration-200">
+
+  <!-- Felső navigációs és státusz sáv -->
+  <header class="sticky top-0 z-30 border-b border-slate-800/90 bg-slate-950/90 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex flex-wrap items-center justify-between gap-3">
+      <!-- Márka + Állapot -->
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-blue-500/20 border border-blue-400/30">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 17l6-6 4 4 8-8M14 7h7v7" />
+          </svg>
+        </div>
+        <div>
+          <div class="flex flex-wrap items-center gap-2">
+            <h1 class="text-lg sm:text-xl font-bold tracking-tight text-white">IndexPulse</h1>
+            <span id="connectionBadge" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+              <span id="connectionDot" class="w-1.5 h-1.5 rounded-full bg-emerald-400 beacon-dot"></span>
+              <span id="connectionText">Élő Adatkapcsolat</span>
+            </span>
+            <span id="latencyBadge" class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-mono bg-slate-800/90 text-slate-300 border border-slate-700/80">
+              -- ms
+            </span>
+            <span id="preloadStatusBadge" class="hidden inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-blue-500/15 text-blue-300 border border-blue-500/35">
+              <span class="w-1.5 h-1.5 rounded-full bg-blue-400 animate-ping"></span>
+              <span id="preloadStatusText">Előtöltés: 0/7</span>
+            </span>
+            <button type="button" onclick="openPinModal()" id="workerQuotaBadge" title="Cloudflare Worker napi kvóta (UTC 00:00-kor nullázódik) — kattints a részletekért" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-slate-800/90 hover:bg-slate-700/90 text-slate-300 border border-slate-700 transition cursor-pointer">
+              <span id="workerQuotaDot" class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              <span id="workerQuotaText">Kvóta: 0 / 100k (0.0%)</span>
+            </button>
+          </div>
+          <p id="lastUpdatedLabel" class="text-xs text-slate-400 mt-0.5">
+            Kapcsolódás a Cloudflare Edge szerverhez...
+          </p>
+        </div>
+      </div>
+
+      <!-- Vezérlők + Kerek témaváltó ikon kívül a jobb szélen -->
+      <div class="flex items-center gap-2.5">
+        <div class="flex items-center gap-1.5 bg-slate-900 border border-slate-800 rounded-xl px-2.5 py-1.5">
+          <span class="text-[11px] font-medium text-slate-400 hidden md:inline">Élő frissítés:</span>
+          <select id="pollIntervalSelect" onchange="changePollInterval(this.value)" class="bg-transparent text-xs font-mono font-semibold text-emerald-300 focus:outline-none cursor-pointer">
+            <option value="1000" selected class="bg-slate-900 text-white">1 mp (Ultra)</option>
+            <option value="2000" class="bg-slate-900 text-white">2 mp</option>
+            <option value="5000" class="bg-slate-900 text-white">5 mp</option>
+            <option value="15000" class="bg-slate-900 text-white">15 mp</option>
+            <option value="0" class="bg-slate-900 text-white">Szünet</option>
+          </select>
+        </div>
+
+        <button onclick="manualRefreshAll()" id="refreshBtn" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition cursor-pointer">
+          <svg id="refreshIcon" class="w-3.5 h-3.5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
+          <span>Frissítés</span>
+        </button>
+
+        <button onclick="openPinModal()" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/40 transition cursor-pointer">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+          </svg>
+          <span>Worker URL Beállítása</span>
+        </button>
+
+        <button id="themeToggleBtn" type="button" onclick="toggleTheme()" aria-label="Téma váltása" title="Világos mód bekapcsolása" class="w-9 h-9 rounded-full inline-flex items-center justify-center bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 shadow-sm transition cursor-pointer shrink-0">
+          <svg id="themeIconSun" class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path stroke-linecap="round" d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"></path>
+          </svg>
+          <svg id="themeIconMoon" class="w-4 h-4 text-blue-600 hidden" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fő tartalom -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
+
+    <!-- 4 Fő Index Összefoglaló Kártya -->
+    <section id="indexCardsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></section>
+
+    <!-- Interaktív Grafikon Szekció -->
+    <section class="glass-panel rounded-2xl border border-slate-800/90 p-4 sm:p-6 shadow-2xl">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-5 border-b border-slate-800/80">
+        <div>
+          <div class="flex flex-wrap items-center gap-2.5">
+            <h2 id="chartMainTitle" class="text-lg sm:text-xl font-bold text-white">S&P 500 (^GSPC)</h2>
+            <span id="chartChangeBadge" class="inline-flex items-center px-2.5 py-0.5 rounded-lg text-xs font-mono font-bold bg-slate-800 text-slate-300">
+              Betöltés...
+            </span>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2.5">
+          <!-- Grafikon típus kapcsoló -->
+          <div class="inline-flex rounded-xl bg-slate-900 p-1 border border-slate-800">
+            <button id="btnTypeLine" onclick="setChartType('line')" class="px-3 py-1.5 rounded-lg text-xs font-semibold transition bg-blue-600 text-white shadow cursor-pointer">
+              Vonaldiagram
+            </button>
+            <button id="btnTypeCandle" onclick="setChartType('candlestick')" class="px-3 py-1.5 rounded-lg text-xs font-semibold transition text-slate-400 hover:text-white cursor-pointer">
+              Gyertyadiagram
+            </button>
+          </div>
+
+          <!-- Időperiódus választó -->
+          <div id="periodButtonsGroup" class="inline-flex flex-wrap rounded-xl bg-slate-900 p-1 border border-slate-800 gap-0.5">
+            <button data-period="1D" onclick="selectPeriod('1D')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition bg-slate-700 text-white cursor-pointer">1D</button>
+            <button data-period="5D" onclick="selectPeriod('5D')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">5D</button>
+            <button data-period="1M" onclick="selectPeriod('1M')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">1M</button>
+            <button data-period="6M" onclick="selectPeriod('6M')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">6M</button>
+            <button data-period="YTD" onclick="selectPeriod('YTD')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">YTD</button>
+            <button data-period="1Y" onclick="selectPeriod('1Y')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">1Y</button>
+            <button data-period="5Y" onclick="selectPeriod('5Y')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">5Y</button>
+            <button data-period="ALL" onclick="selectPeriod('ALL')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">ALL</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- OHLC Gyorsmérő sáv -->
+      <div id="ohlcSummaryBar" class="grid grid-cols-2 sm:grid-cols-4 gap-3 py-3.5 px-1 text-xs border-b border-slate-800/60">
+        <div>
+          <span class="text-slate-500 block">Időszak Nyitó</span>
+          <span id="statOpen" class="font-mono font-semibold text-slate-200">--</span>
+        </div>
+        <div>
+          <span class="text-slate-500 block">Időszak Maximum</span>
+          <span id="statHigh" class="font-mono font-semibold text-emerald-400">--</span>
+        </div>
+        <div>
+          <span class="text-slate-500 block">Időszak Minimum</span>
+          <span id="statLow" class="font-mono font-semibold text-rose-400">--</span>
+        </div>
+        <div>
+          <span class="text-slate-500 block">Előző Záró / Bázis</span>
+          <span id="statPrevClose" class="font-mono font-semibold text-slate-200">--</span>
+        </div>
+      </div>
+
+      <!-- Canvas konténer -->
+      <div class="relative w-full h-[340px] sm:h-[400px] mt-4">
+        <div id="chartLoadingOverlay" class="hidden absolute inset-0 z-10 bg-slate-950/75 backdrop-blur-xs rounded-xl flex flex-col items-center justify-center gap-3">
+          <div class="w-8 h-8 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          <span class="text-xs font-medium text-slate-300">Adatok betöltése a Cloudflare Edge-ről...</span>
+        </div>
+        <canvas id="mainMarketChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Indexek Top 5 Contributor Részvényei (1 oszlopos, aktív index mindig legfelül) -->
+    <section class="space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+        <div>
+          <h2 class="text-lg font-bold text-white">Indexek Top 5 Contributor Részvényei</h2>
+        </div>
+        <div class="text-xs font-mono text-slate-400">
+          Kattints bármelyik kártyára a lenyitáshoz vagy bezáráshoz
+        </div>
+      </div>
+
+      <div id="contributorsGrid" class="grid grid-cols-1 gap-4"></div>
+    </section>
+
+    <!-- Globális Napi Top 10 Nyertes & Top 10 Vesztes -->
+    <section class="space-y-4 pt-2">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+        <div>
+          <h2 class="text-lg font-bold text-white">Globális Napi Top 10 Nyertes & Top 10 Vesztes</h2>
+        </div>
+        <div id="dailyMoversUpdatedTag" class="text-xs font-mono text-slate-400">
+          Globális élő szinkron...
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <!-- Bal oszlop: Top 10 Nyertes -->
+        <div class="glass-panel rounded-2xl border border-slate-800/90 p-5">
+          <div class="flex items-center justify-between pb-3.5 mb-3 border-b border-slate-800/80">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+              <h3 class="text-base font-bold text-white">Napi Top 10 Nyertes</h3>
+            </div>
+            <span class="px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+              ▲ TOP 10 GAINERS
+            </span>
+          </div>
+          <div id="dailyGainersList" class="space-y-2.5"></div>
+        </div>
+
+        <!-- Jobb oszlop: Top 10 Vesztes -->
+        <div class="glass-panel rounded-2xl border border-slate-800/90 p-5">
+          <div class="flex items-center justify-between pb-3.5 mb-3 border-b border-slate-800/80">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-rose-400"></span>
+              <h3 class="text-base font-bold text-white">Napi Top 10 Vesztes</h3>
+            </div>
+            <span class="px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-rose-500/15 text-rose-300 border border-rose-500/30">
+              ▼ TOP 10 LOSERS
+            </span>
+          </div>
+          <div id="dailyLosersList" class="space-y-2.5"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Lábléc -->
+  <footer class="border-t border-slate-800/80 bg-slate-950/80 py-4 px-4 sm:px-6 text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <span>IndexPulse Terminál • Cloudflare Workers Edge API + TradingView Global Scanner</span>
+      <span id="activeBridgeDisplay" class="font-mono text-slate-400 truncate max-w-md"></span>
+    </div>
+  </footer>
+
+  <!-- PIN-kód Ellenőrző Modális Ablak -->
+  <div id="pinModal" class="hidden fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-sm items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700/90 rounded-2xl max-w-sm w-full p-6 shadow-2xl space-y-5">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3.5">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-blue-400">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">Védett Beállítások</h3>
+            <p class="text-[11px] text-slate-400">Add meg a 4 jegyű PIN-kódot a folytatáshoz</p>
+          </div>
+        </div>
+        <button onclick="closePinModal()" class="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800 cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <form onsubmit="verifyPinAndOpenSettings(event)" class="space-y-4">
+        <div>
+          <label for="pinCodeInput" class="block text-xs font-semibold text-slate-300 mb-1.5">PIN-kód</label>
+          <input
+            id="pinCodeInput"
+            type="password"
+            inputmode="numeric"
+            maxlength="4"
+            autocomplete="off"
+            placeholder="••••"
+            oninput="handlePinInput(this)"
+            class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-700 text-center text-xl font-mono tracking-[0.6em] text-white placeholder-slate-600 focus:border-blue-500 focus:outline-none"
+          />
+          <p id="pinErrorMsg" class="hidden text-xs text-rose-400 font-medium mt-2 text-center">
+            Hibás PIN-kód! Próbáld újra.
+          </p>
+        </div>
+
+        <div class="flex items-center justify-end gap-2 pt-1">
+          <button type="button" onclick="closePinModal()" class="px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:bg-slate-800 cursor-pointer">
+            Mégse
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Cloudflare Worker URL Beállító + Kvóta Modális Ablak -->
+  <div id="bridgeModal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 shadow-2xl space-y-5 max-h-[92vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+        <div>
+          <h3 class="text-lg font-bold text-white">Cloudflare Worker Edge Proxy &amp; Kvóta</h3>
+          <p class="text-xs text-slate-400 mt-0.5">Alapértelmezett: <span class="font-mono text-emerald-300">https://yahoo.nterr.workers.dev</span></p>
+        </div>
+        <button onclick="closeBridgeModal()" class="text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- 1. Lépés: URL megadása -->
+      <div class="space-y-2">
+        <label class="block text-xs font-semibold text-slate-300">Aktív Cloudflare Worker URL</label>
+        <div class="flex flex-col sm:flex-row gap-2">
+          <input
+            id="bridgeUrlInput"
+            type="url"
+            placeholder="https://yahoo.nterr.workers.dev"
+            class="flex-1 px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs font-mono text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
+          />
+          <button onclick="testBridgeConnection()" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-600 transition cursor-pointer">
+            Tesztelés
+          </button>
+          <button onclick="saveBridgeUrl()" class="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-xs font-semibold text-white transition cursor-pointer">
+            Mentés &amp; Kapcsolódás
+          </button>
+        </div>
+        <div id="bridgeTestResult" class="hidden p-3 rounded-xl text-xs font-mono border"></div>
+      </div>
+
+      <!-- 1/B. Cloudflare Worker Napi Kvóta Állapot & Opcionális GraphQL Szinkron -->
+      <div class="rounded-xl bg-slate-950/80 border border-slate-800 p-4 space-y-3">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <span class="text-xs font-bold text-white block">Cloudflare Worker Napi Kvóta (Free Plan: 100 000 req / UTC nap)</span>
+            <span id="quotaResetCountdown" class="text-[11px] font-mono text-slate-400">UTC nullázásig: számítás...</span>
+          </div>
+          <span id="quotaSourceTag" class="px-2.5 py-1 rounded-lg bg-slate-800 border border-slate-700 text-[11px] font-mono text-slate-300">
+            Forrás: Worker Szerver
+          </span>
+        </div>
+
+        <div class="space-y-1.5">
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span id="quotaDetailCounts" class="text-emerald-300 font-semibold">Várakozás a Worker válaszára...</span>
+            <span id="quotaRateInfo" class="text-slate-400">24h becslés: 0</span>
+          </div>
+          <div class="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+            <div id="quotaProgressBar" class="h-full bg-emerald-500 transition-all duration-300" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <p class="text-[11px] text-slate-400 leading-relaxed border-t border-slate-800/80 pt-2">
+          A számlálás non-blocking módon a Cloudflare Workerben fut (0 ms késleltetés). Ha a Worker <span class="font-mono text-slate-200">Settings → Variables and Secrets</span> részében megadod a <span class="font-mono text-blue-300">CF_ACCOUNT_ID</span> és <span class="font-mono text-blue-300">CF_API_TOKEN</span> (Analytics:Read) változókat, a Worker automatikusan a Cloudflare hivatalos fiókszintű kvótáját adja vissza.
+        </p>
+      </div>
+
+      <!-- 2. Lépés: Cloudflare Worker Forráskód -->
+      <div class="space-y-2.5 pt-2 border-t border-slate-800">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Cloudflare Worker Kód (worker.js — Ultra-Fast Edge)</span>
+          <button onclick="copyWorkerCode()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 cursor-pointer">
+            <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <span id="copyBtnLabel">Worker kód másolása</span>
+          </button>
+        </div>
+
+        <pre id="workerCodePreview" class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 text-[11px] font-mono text-slate-300 overflow-x-auto max-h-60 leading-relaxed select-all"></pre>
+      </div>
+
+      <div class="flex items-center justify-between pt-2">
+        <button onclick="resetToDefaultWorker()" class="text-xs text-slate-400 hover:text-amber-300 underline cursor-pointer">
+          Visszaállítás az alapértelmezett Workerre (yahoo.nterr.workers.dev)
+        </button>
+        <button onclick="closeBridgeModal()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-white cursor-pointer">
+          Bezárás
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast értesítések -->
+  <div id="toastContainer" class="fixed bottom-5 right-5 z-50 space-y-2 pointer-events-none"></div>
+
+  <!-- Nyers, módosítatlan Worker forráskód sablon (100% bitpontos másoláshoz) -->
+  <script type="text/plain" id="workerSourceTemplate">export default {
+  async fetch(request, env, ctx) {
+    const corsHeaders = {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+    };
+
+    if (request.method === 'OPTIONS') {
+      return new Response(null, { headers: corsHeaders });
+    }
+
+    const url = new URL(request.url);
+
+    // Globális napi Top 10 nyertes és vesztes
+    if (url.searchParams.get('globalMovers') === '1') {
+      const moversData = await fetchGlobalTopMovers();
+      return new Response(JSON.stringify(moversData), {
+        headers: { ...corsHeaders, 'Content-Type': 'application/json; charset=utf-8' },
+      });
+    }
+
+    const symbolsParam = (url.searchParams.get('symbols') || '^GSPC').trim();
+    const range = (url.searchParams.get('range') || '1d').trim();
+    const interval = (url.searchParams.get('interval') || '1m').trim();
+    const mode = (url.searchParams.get('mode') || 'quote').trim();
+    const callback = (url.searchParams.get('callback') || '').trim();
+
+    // Non-blocking kvóta kiolvasás
+    const quota = await getFastWorkerQuota(env, ctx);
+
+    // Edge Cache ellenőrzése (quote: 2 mp, full: 30 mp)
+    const cache = caches.default;
+    const normCacheUrl = new URL(url.origin + url.pathname);
+    normCacheUrl.searchParams.set('symbols', symbolsParam);
+    normCacheUrl.searchParams.set('range', range);
+    normCacheUrl.searchParams.set('interval', interval);
+    normCacheUrl.searchParams.set('mode', mode);
+    const edgeCacheKey = new Request(normCacheUrl.toString());
+
+    const cachedResp = await cache.match(edgeCacheKey);
+    if (cachedResp) {
+      const cachedJson = await cachedResp.text();
+      if (callback) {
+        return new Response(callback + "(" + cachedJson + ");", {
+          headers: {
+            ...corsHeaders,
+            'Content-Type': 'application/javascript; charset=utf-8',
+            'X-Worker-Quota': String(quota.used),
+            'X-Cache': 'HIT',
+          },
+        });
+      }
+      return new Response(cachedJson, {
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json; charset=utf-8',
+          'X-Worker-Quota': String(quota.used),
+          'X-Cache': 'HIT',
+        },
+      });
+    }
+
+    const symbols = symbolsParam.split(',').map((s) => s.trim()).filter(Boolean);
+    const yahooSymbols = symbols.filter((s) => s !== '^BUX' && s !== 'BUX.BD');
+    const needsBux = symbols.includes('^BUX') || symbols.includes('BUX.BD');
+    const buxWeights = [
+      { sym: 'OTP.BD', w: 0.385 },
+      { sym: 'MOL.BD', w: 0.242 },
+      { sym: 'RICHTER.BD', w: 0.218 },
+      { sym: 'MTELEKOM.BD', w: 0.095 },
+      { sym: '4IG.BD', w: 0.024 },
+    ];
+
+    const outBatch = {};
+
+    // ULTRA-FAST QUOTE MÓD: 1 db egyetlen Yahoo v7 batch HTTP hívás az összes szimbólumra!
+    if (mode === 'quote') {
+      const allQuoteSyms = new Set(yahooSymbols);
+      if (needsBux) {
+        buxWeights.forEach((item) => allQuoteSyms.add(item.sym));
+      }
+
+      const [quoteMap, bseVals] = await Promise.all([
+        fetchYahooBatchQuotes(Array.from(allQuoteSyms), cache),
+        needsBux ? getCachedBseValues() : Promise.resolve({ spotBux: null, prevBux: null }),
+      ]);
+
+      for (const sym of yahooSymbols) {
+        if (quoteMap[sym]) {
+          outBatch[sym] = quoteMap[sym];
+        }
+      }
+
+      if (needsBux) {
+        outBatch['^BUX'] = buildBuxQuoteFromBatch(quoteMap, bseVals, buxWeights);
+      }
+    } else {
+      // FULL MÓD: Grafikon idősorok lekérése
+      const allToFetch = new Set(yahooSymbols);
+      if (needsBux && range === '1d') {
+        buxWeights.forEach((item) => allToFetch.add(item.sym));
+      }
+
+      const rawBatch = {};
+      await Promise.all(
+        Array.from(allToFetch).map(async (sym) => {
+          const yUrl = "https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(sym) + "?range=" + encodeURIComponent(range) + "&interval=" + encodeURIComponent(interval) + "&includePrePost=true";
+          try {
+            const res = await fetchWithTimeout(yUrl, {
+              headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' },
+              cf: { cacheTtl: 30, cacheEverything: true },
+            }, 6500);
+            rawBatch[sym] = await res.json();
+          } catch (err) {
+            rawBatch[sym] = { error: String(err) };
+          }
+        })
+      );
+
+      if (needsBux) {
+        rawBatch['^BUX'] = await buildBuxData(range, interval, 'full', rawBatch, buxWeights);
+      }
+
+      for (const sym of symbols) {
+        if (rawBatch[sym]) outBatch[sym] = rawBatch[sym];
+      }
+    }
+
+    const body = JSON.stringify({ mode, quota, batch: outBatch });
+    const ttl = mode === 'quote' ? 2 : 30;
+    ctx.waitUntil(
+      cache.put(
+        edgeCacheKey,
+        new Response(body, {
+          headers: {
+            'Content-Type': 'application/json; charset=utf-8',
+            'Cache-Control': 'public, max-age=' + ttl,
+          },
+        })
+      )
+    );
+
+    if (callback) {
+      return new Response(callback + "(" + body + ");", {
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/javascript; charset=utf-8',
+          'X-Worker-Quota': String(quota.used),
+          'X-Cache': 'MISS',
+        },
+      });
+    }
+    return new Response(body, {
+      headers: {
+        ...corsHeaders,
+        'Content-Type': 'application/json; charset=utf-8',
+        'X-Worker-Quota': String(quota.used),
+        'X-Cache': 'MISS',
+      },
+    });
+  },
+};
+
+async function fetchWithTimeout(url, options, timeoutMs) {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(id);
+  }
+}
+
+// 1etlen HTTP hívás az összes részvény/index élő árára (v7 batch + v8 fallback)
+async function fetchYahooBatchQuotes(symbolsList, cache) {
+  const out = {};
+  if (!symbolsList || symbolsList.length === 0) return out;
+
+  try {
+    const auth = await getYahooAuth(cache);
+    const qUrl = "https://query1.finance.yahoo.com/v7/finance/quote?symbols=" + encodeURIComponent(symbolsList.join(',')) + "&crumb=" + encodeURIComponent(auth.crumb || '');
+    const batchRes = await fetchWithTimeout(qUrl, {
+      headers: {
+        'User-Agent': auth.ua || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'Cookie': auth.cookie || '',
+      },
+    }, 4500);
+
+    if (batchRes.ok) {
+      const json = await batchRes.json();
+      const results = json?.quoteResponse?.result || [];
+      for (const q of results) {
+        if (!q || !q.symbol || q.regularMarketPrice == null) continue;
+        out[q.symbol] = {
+          chart: {
+            result: [{
+              meta: {
+                currency: q.currency || 'USD',
+                marketState: q.marketState || 'REGULAR',
+                regularMarketPrice: Number(q.regularMarketPrice),
+                chartPreviousClose: Number(q.regularMarketPreviousClose ?? q.regularMarketPrice),
+                preMarketPrice: q.preMarketPrice != null ? Number(q.preMarketPrice) : null,
+              },
+              timestamp: [],
+              indicators: { quote: [{ close: [Number(q.regularMarketPrice)] }] },
+            }],
+          },
+        };
+      }
+    }
+  } catch (e) {}
+
+  // Ha valamelyik szimbólum kimaradt volna, csak arra fut v8 fallback
+  const missing = symbolsList.filter((s) => !out[s]);
+  if (missing.length > 0) {
+    await Promise.all(
+      missing.map(async (sym) => {
+        const yUrl = "https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(sym) + "?range=1d&interval=15m&includePrePost=true";
+        try {
+          const chartRes = await fetchWithTimeout(yUrl, {
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' },
+          }, 4000);
+          const j = await chartRes.json();
+          out[sym] = stripToQuoteOnly(j);
+        } catch (err) {}
+      })
+    );
+  }
+
+  return out;
+}
+
+function buildBuxQuoteFromBatch(quoteMap, bseVals, weights) {
+  const { spotBux, prevBux } = bseVals || {};
+  let weightedRel = 0;
+  let activeW = 0;
+
+  for (const item of weights) {
+    const m = quoteMap[item.sym]?.chart?.result?.[0]?.meta;
+    if (m && m.regularMarketPrice > 0) {
+      const base = m.chartPreviousClose > 0 ? m.chartPreviousClose : m.regularMarketPrice;
+      weightedRel += item.w * (m.regularMarketPrice / base);
+      activeW += item.w;
+    }
+  }
+
+  const lastRel = activeW > 0 ? weightedRel / activeW : 1;
+  const currentBux = spotBux || Number((146070.02 * lastRel).toFixed(2));
+  const baseBux = prevBux || Number((currentBux / lastRel).toFixed(2));
+
+  return {
+    chart: {
+      result: [{
+        meta: {
+          currency: 'HUF',
+          exchangeName: 'BET',
+          regularMarketPrice: Number(currentBux.toFixed(2)),
+          chartPreviousClose: baseBux,
+        },
+        timestamp: [],
+        indicators: { quote: [{ close: [Number(currentBux.toFixed(2))] }] },
+      }],
+    },
+  };
+}
+
+async function getFastWorkerQuota(env, ctx) {
+  const limit = 100000;
+  const now = new Date();
+  const utcDay = now.toISOString().slice(0, 10);
+  const cache = caches.default;
+  const qKey = new Request("https://cf-quota.internal/fast-" + utcDay);
+
+  let current = { used: null, limit, utcDay, source: 'unconfigured', lastSync: 0 };
+  const cached = await cache.match(qKey);
+  if (cached) {
+    try {
+      current = await cached.json();
+    } catch (e) {}
+  }
+
+  if (env && env.CF_ACCOUNT_ID && env.CF_API_TOKEN) {
+    const isStale = Date.now() - (current.lastSync || 0) > 45000;
+    if (isStale) {
+      ctx.waitUntil(
+        (async () => {
+          try {
+            const startIso = utcDay + "T00:00:00Z";
+            const endIso = new Date().toISOString();
+            const gqlQuery = {
+              query: "query($acc: String!, $start: Time!, $end: Time!) { viewer { accounts(filter: {accountTag: $acc}) { workersInvocationsAdaptive(limit: 1000, filter: {datetime_geq: $start, datetime_leq: $end}) { sum { requests } } } } }",
+              variables: { acc: env.CF_ACCOUNT_ID, start: startIso, end: endIso },
+            };
+            const gqlRes = await fetch("https://api.cloudflare.com/client/v4/graphql", {
+              method: 'POST',
+              headers: {
+                'Authorization': 'Bearer ' + env.CF_API_TOKEN,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(gqlQuery),
+            });
+            if (gqlRes.ok) {
+              const json = await gqlRes.json();
+              const rows = json?.data?.viewer?.accounts?.[0]?.workersInvocationsAdaptive || [];
+              const total = rows.reduce((acc, r) => acc + (Number(r?.sum?.requests) || 0), 0);
+              const updated = { used: total, limit, utcDay, source: 'cloudflare_graphql', lastSync: Date.now() };
+              await cache.put(
+                qKey,
+                new Response(JSON.stringify(updated), {
+                  headers: { 'Cache-Control': 'public, max-age=86400' },
+                })
+              );
+            }
+          } catch (e) {}
+        })()
+      );
+    }
+    if (current.used !== null) {
+      return { used: current.used, limit, utcDay, source: 'cloudflare_graphql' };
+    }
+  }
+
+  return { used: current.used, limit, utcDay, source: current.source };
+}
+
+async function getYahooAuth(cache) {
+  const authKey = new Request("https://yahoo-auth.internal/crumb-v1");
+  const cached = await cache.match(authKey);
+  if (cached) {
+    try {
+      return await cached.json();
+    } catch (e) {}
+  }
+
+  const ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+  const cookieRes = await fetch("https://fc.yahoo.com/", {
+    headers: { 'User-Agent': ua },
+    redirect: 'manual',
+  });
+  const setCookie = cookieRes.headers.get('set-cookie') || '';
+  const cookiePair = setCookie.split(';')[0] || '';
+
+  const crumbRes = await fetch("https://query1.finance.yahoo.com/v1/test/getcrumb", {
+    headers: { 'User-Agent': ua, Cookie: cookiePair },
+  });
+  const crumb = (await crumbRes.text()).trim();
+  const authObj = { cookie: cookiePair, crumb, ua };
+
+  if (crumb && !crumb.includes('<')) {
+    await cache.put(
+      authKey,
+      new Response(JSON.stringify(authObj), {
+        headers: { 'Cache-Control': 'public, max-age=1800' },
+      })
+    );
+  }
+  return authObj;
+}
+
+async function runGlobalScreener(sortType, auth) {
+  const screenerUrl = "https://query1.finance.yahoo.com/v1/finance/screener?crumb=" + encodeURIComponent(auth.crumb) + "&lang=en-US&region=US";
+  const payload = {
+    size: 50,
+    offset: 0,
+    sortField: 'percentchange',
+    sortType,
+    quoteType: 'EQUITY',
+    query: {
+      operator: 'AND',
+      operands: [
+        { operator: 'GT', operands: ['intradaymarketcap', 5000000000] },
+        { operator: 'GT', operands: ['dayvolume', 500000] },
+        { operator: 'GT', operands: ['intradayprice', 2] },
+      ],
+    },
+  };
+
+  const scrRes = await fetch(screenerUrl, {
+    method: 'POST',
+    headers: {
+      'User-Agent': auth.ua,
+      'Content-Type': 'application/json',
+      Cookie: auth.cookie,
+    },
+    body: JSON.stringify(payload),
+  });
+
+  if (!scrRes.ok) return [];
+  const data = await scrRes.json();
+  return data?.finance?.result?.[0]?.quotes || [];
+}
+
+function isCleanOperatingCompany(q) {
+  if (!q || q.quoteType !== 'EQUITY') return false;
+  const sym = String(q.symbol || '').toUpperCase();
+  const name = String(q.longName || q.shortName || '').toUpperCase();
+  const exchange = String(q.exchange || '').toUpperCase();
+
+  const blockedExchanges = ['PNK', 'OTC', 'OQX', 'OQB', 'BER', 'MUN', 'STU', 'DUS', 'HAN'];
+  if (blockedExchanges.includes(exchange)) return false;
+
+  const blockedSuffixes = ['.BE', '.MU', '.SG', '.DU', '.HA', '.HM'];
+  if (blockedSuffixes.some((suf) => sym.endsWith(suf))) return false;
+
+  const blockedWords = ['ETF', 'ETN', 'FUND', 'TRUST', 'WARRANT', 'RIGHTS', 'UNIT', 'PREFERRED', 'PREF', 'BEAR', 'BULL', '2X', '3X'];
+  const tokens = name.split(/[^A-Z0-9]+/);
+  if (blockedWords.some((w) => tokens.includes(w))) return false;
+
+  const price = Number(q.regularMarketPrice ?? 0);
+  const prevClose = Number(q.regularMarketPreviousClose ?? 0);
+  const rawPct = Number(q.regularMarketChangePercent ?? 0);
+  const high52 = Number(q.fiftyTwoWeekHigh ?? 0);
+  const low52 = Number(q.fiftyTwoWeekLow ?? 0);
+
+  if (price <= 0 || prevClose <= 0 || !Number.isFinite(rawPct)) return false;
+  if (Math.abs(rawPct) > 45) return false;
+  const calcPct = ((price - prevClose) / prevClose) * 100;
+  if (Math.abs(calcPct - rawPct) > 2.5) return false;
+  if (high52 > 0 && price > high52 * 1.2) return false;
+  if (low52 > 0 && price < low52 * 0.8) return false;
+
+  return true;
+}
+
+async function fetchGlobalTopMovers() {
+  const cache = caches.default;
+  const cacheKey = new Request("https://global-movers.internal/world-top10-clean-v5");
+  const cached = await cache.match(cacheKey);
+  if (cached) return await cached.json();
+
+  try {
+    const auth = await getYahooAuth(cache);
+    const [rawGainers, rawLosers] = await Promise.all([
+      runGlobalScreener('DESC', auth),
+      runGlobalScreener('ASC', auth),
+    ]);
+
+    const seenNames = new Set();
+    const mapQuote = (q) => ({
+      symbol: q.symbol,
+      name: q.longName || q.shortName || q.symbol,
+      exchange: q.fullExchangeName || q.exchange || '',
+      region: q.region || '',
+      price: Number(q.regularMarketPrice ?? 0),
+      currency: q.currency || 'USD',
+      changePct: Number(q.regularMarketChangePercent ?? 0),
+    });
+
+    const dedupeByCompany = (list) => {
+      const out = [];
+      for (const q of list) {
+        const normName = String(q.longName || q.shortName || q.symbol)
+          .toLowerCase()
+          .replace(/[^a-z0-9]/g, '')
+          .slice(0, 14);
+        if (normName && seenNames.has(normName)) continue;
+        if (normName) seenNames.add(normName);
+        out.push(mapQuote(q));
+        if (out.length >= 10) break;
+      }
+      return out;
+    };
+
+    const gainers = dedupeByCompany(
+      rawGainers.filter((q) => isCleanOperatingCompany(q) && Number(q.regularMarketChangePercent) > 0)
+    );
+
+    const losers = dedupeByCompany(
+      rawLosers.filter((q) => isCleanOperatingCompany(q) && Number(q.regularMarketChangePercent) < 0)
+    );
+
+    const result = {
+      source: 'global_world_screener_clean',
+      updatedAt: Date.now(),
+      gainers,
+      losers,
+    };
+
+    if (gainers.length > 0 || losers.length > 0) {
+      await cache.put(
+        cacheKey,
+        new Response(JSON.stringify(result), {
+          headers: { 'Cache-Control': 'public, max-age=25' },
+        })
+      );
+    }
+    return result;
+  } catch (err) {
+    return { source: 'error', error: String(err), gainers: [], losers: [] };
+  }
+}
+
+function stripToQuoteOnly(rawObj) {
+  const r = rawObj?.chart?.result?.[0];
+  if (!r || !r.meta) return rawObj;
+  const closes = r.indicators?.quote?.[0]?.close || [];
+  let lastClose = null;
+  for (let i = closes.length - 1; i >= 0; i--) {
+    if (closes[i] != null) {
+      lastClose = closes[i];
+      break;
+    }
+  }
+  return {
+    chart: {
+      result: [{
+        meta: {
+          currency: r.meta.currency,
+          marketState: r.meta.marketState,
+          regularMarketPrice: r.meta.regularMarketPrice ?? lastClose,
+          chartPreviousClose: r.meta.chartPreviousClose ?? r.meta.previousClose,
+          preMarketPrice: r.meta.preMarketPrice ?? null,
+        },
+        timestamp: [],
+        indicators: { quote: [{ close: lastClose != null ? [lastClose] : [] }] },
+      }],
+    },
+  };
+}
+
+function parseBseNumber(str) {
+  if (!str) return null;
+  const cleaned = str.replace(/,/g, '').replace(/\s+/g, '');
+  const num = parseFloat(cleaned);
+  return Number.isFinite(num) && num > 10000 ? num : null;
+}
+
+async function getCachedBseValues() {
+  const cache = caches.default;
+  const cacheKey = new Request("https://bse-cache.internal/bux-values-v3");
+  const cached = await cache.match(cacheKey);
+  if (cached) {
+    try {
+      return await cached.json();
+    } catch (e) {}
+  }
+
+  let spotBux = null;
+  let prevBux = null;
+
+  try {
+    const bseRes = await fetchWithTimeout("https://www.bse.hu/", {
+      headers: { 'User-Agent': 'Mozilla/5.0' },
+    }, 4500);
+    const html = await bseRes.text();
+    const idx = html.indexOf('BUX Index');
+    if (idx > -1) {
+      const snippet = html.slice(Math.max(0, idx - 150), idx + 900);
+      const lastCloseIdx = snippet.indexOf('Last close:');
+      if (lastCloseIdx > -1) {
+        const afterClose = snippet.slice(lastCloseIdx + 11, lastCloseIdx + 40);
+        const mPrev = afterClose.match(/[0-9][0-9,\s]*\.[0-9]{2}/);
+        if (mPrev) prevBux = parseBseNumber(mPrev[0]);
+      }
+      const mAll = snippet.match(/[0-9]{2,3}[,\s][0-9]{3}\.[0-9]{2}/g);
+      if (mAll && mAll.length > 0) {
+        spotBux = parseBseNumber(mAll[0]);
+      }
+    }
+    const out = { spotBux, prevBux };
+    await cache.put(
+      cacheKey,
+      new Response(JSON.stringify(out), { headers: { 'Cache-Control': 'public, max-age=30' } })
+    );
+    return out;
+  } catch (e) {
+    return { spotBux: null, prevBux: null };
+  }
+}
+
+async function fetchStooqBuxRows(stooqInterval) {
+  const stooqUrl = "https://stooq.com/q/d/l/?s=%5Ebux&i=" + encodeURIComponent(stooqInterval);
+  const stooqRes = await fetchWithTimeout(stooqUrl, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+      'Accept': 'text/csv,text/plain,*/*',
+    },
+  }, 6500);
+  if (!stooqRes.ok) return [];
+  const csv = await stooqRes.text();
+  if (!csv || csv.includes('<html') || csv.includes('Exceeded')) return [];
+
+  const lines = csv.trim().split('\n');
+  if (lines.length < 5) return [];
+
+  const rows = [];
+  for (let i = 1; i < lines.length; i++) {
+    const cols = lines[i].trim().split(',');
+    if (cols.length < 5) continue;
+    const ts = Math.floor(new Date(cols[0].trim() + 'T15:00:00Z').getTime() / 1000);
+    const o = parseFloat(cols[1]);
+    const h = parseFloat(cols[2]);
+    const l = parseFloat(cols[3]);
+    const c = parseFloat(cols[4]);
+    if (!Number.isFinite(ts) || !Number.isFinite(c) || c <= 0 || c > 500000) continue;
+    rows.push({
+      ts,
+      o: Number.isFinite(o) && o > 0 ? o : c,
+      h: Number.isFinite(h) && h > 0 ? h : c,
+      l: Number.isFinite(l) && l > 0 ? l : c,
+      c,
+    });
+  }
+  return rows;
+}
+
+async function fetchWsjBuxRows(range) {
+  const timeFrameMap = {
+    '5d': 'P5D',
+    '1mo': 'P1M',
+    '6mo': 'P6M',
+    'ytd': 'YTD',
+    '1y': 'P1Y',
+    '5y': 'P5Y',
+    'max': 'ALL',
+  };
+  const stepMap = {
+    '5d': 'P1D',
+    '1mo': 'P1D',
+    '6mo': 'P1D',
+    'ytd': 'P1D',
+    '1y': 'P1D',
+    '5y': 'P1D',
+    'max': 'P1M',
+  };
+  const tf = timeFrameMap[range] || 'P1Y';
+  const step = stepMap[range] || 'P1D';
+  const jsonParam = JSON.stringify({
+    Step: step,
+    TimeFrame: tf,
+    EntitlementToken: 'cecc4267a0194af89ca343805a3e51af',
+    IncludeMockTick: true,
+    FilterNullSlots: true,
+    FilterClosedPoints: true,
+    IncludeClosedSlots: false,
+    IncludeOfficialClose: true,
+    InjectOpen: false,
+    ShowPreMarket: false,
+    ShowAfterHours: false,
+    UseExtendedTimeFrame: false,
+    WantPriorClose: true,
+    WantOpenHighLow: true,
+    WantVolume: false,
+    WantDataPoints: true,
+    Series: [{
+      Key: 'INDEX/HU/XBUD/BUX',
+      Dialect: 'Charting',
+      Kind: 'Ticker',
+      SeriesId: 's1',
+      DataTypes: ['Open', 'High', 'Low', 'Last'],
+    }],
+  });
+
+  const wsjUrl = "https://api.wsj.net/api/michelangelo/timeseries/history?json=" + encodeURIComponent(jsonParam) + "&ckey=cecc4267a0";
+  const wsjRes = await fetchWithTimeout(wsjUrl, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+      'Accept': 'application/json',
+      'Dylan2010.EntitlementToken': 'cecc4267a0194af89ca343805a3e51af',
+    },
+  }, 4500);
+  if (!wsjRes.ok) return [];
+  const data = await wsjRes.json();
+  const ticks = data?.TimeInfo?.Ticks || [];
+  const points = data?.Series?.[0]?.DataPoints || [];
+  if (!ticks.length || ticks.length !== points.length) return [];
+
+  const rows = [];
+  for (let i = 0; i < ticks.length; i++) {
+    const ts = Math.floor(Number(ticks[i]) / 1000);
+    const p = points[i];
+    if (!Array.isArray(p) || p.length < 4) continue;
+    const o = Number(p[0]);
+    const h = Number(p[1]);
+    const l = Number(p[2]);
+    const c = Number(p[3]);
+    if (!Number.isFinite(ts) || !Number.isFinite(c) || c <= 0 || c > 500000) continue;
+    rows.push({
+      ts,
+      o: Number.isFinite(o) && o > 0 ? o : c,
+      h: Number.isFinite(h) && h > 0 ? h : c,
+      l: Number.isFinite(l) && l > 0 ? l : c,
+      c,
+    });
+  }
+  return rows;
+}
+
+async function getRealBuxHistory(range) {
+  const cache = caches.default;
+  const cacheKey = new Request("https://real-bux-hist.internal/v8-" + range);
+  const cached = await cache.match(cacheKey);
+  if (cached) {
+    try {
+      return await cached.json();
+    } catch (e) {}
+  }
+
+  const stooqInt = range === 'max' ? 'm' : 'd';
+
+  const wsjPromise = fetchWsjBuxRows(range).then((r) => {
+    if (r && r.length >= 2) return r;
+    throw new Error('wsj_empty');
+  });
+
+  const stooqPromise = fetchStooqBuxRows(stooqInt).then((allStooq) => {
+    if (!allStooq || allStooq.length < 2) throw new Error('stooq_empty');
+    const nowSec = Math.floor(Date.now() / 1000);
+    const jan1Sec = Math.floor(new Date(new Date().getUTCFullYear() + "-01-01T00:00:00Z").getTime() / 1000);
+    const cutoffMap = {
+      '5d': nowSec - 12 * 86400,
+      '1mo': nowSec - 32 * 86400,
+      '6mo': nowSec - 185 * 86400,
+      'ytd': jan1Sec,
+      '1y': nowSec - 366 * 86400,
+      '5y': nowSec - 5 * 366 * 86400,
+      'max': 0,
+    };
+    const cutoff = cutoffMap[range] ?? 0;
+    const filtered = allStooq.filter((r) => r.ts >= cutoff);
+    if (filtered.length >= 2) return filtered;
+    throw new Error('stooq_short');
+  });
+
+  let rows = [];
+  try {
+    rows = await Promise.any([wsjPromise, stooqPromise]);
+  } catch (e) {
+    rows = [];
+  }
+
+  if (rows && rows.length >= 2) {
+    await cache.put(
+      cacheKey,
+      new Response(JSON.stringify(rows), {
+        headers: { 'Cache-Control': 'public, max-age=1800' },
+      })
+    );
+  }
+  return rows || [];
+}
+
+async function buildBuxData(range, interval, mode, existingBatch, weights) {
+  const { spotBux, prevBux } = await getCachedBseValues();
+  const totalW = weights.reduce((acc, x) => acc + x.w, 0);
+
+  if (mode === 'quote' || range === '1d') {
+    const seriesData = weights.map((item) => {
+      const r = existingBatch[item.sym]?.chart?.result?.[0];
+      const closes = r?.indicators?.quote?.[0]?.close || [];
+      const validCloses = closes.filter((v) => v != null && Number.isFinite(v) && v > 0);
+      const firstVal = validCloses[0] || 1;
+      const lastVal = r?.meta?.regularMarketPrice || validCloses[validCloses.length - 1] || firstVal;
+      const prevClose = r?.meta?.chartPreviousClose || firstVal;
+      return { w: item.w, closes, prevClose, lastVal };
+    });
+
+    if (mode === 'quote') {
+      let weightedRel = 0;
+      seriesData.forEach((s) => {
+        weightedRel += s.w * (s.lastVal / (s.prevClose || 1));
+      });
+      const lastRel = weightedRel / totalW || 1;
+      const currentBux = spotBux || Number((146070.02 * lastRel).toFixed(2));
+      const baseBux = prevBux || Number((currentBux / lastRel).toFixed(2));
+      return {
+        chart: {
+          result: [{
+            meta: {
+              currency: 'HUF',
+              exchangeName: 'BET',
+              regularMarketPrice: Number(currentBux.toFixed(2)),
+              chartPreviousClose: baseBux,
+            },
+            timestamp: [],
+            indicators: { quote: [{ close: [Number(currentBux.toFixed(2))] }] },
+          }],
+        },
+      };
+    }
+
+    const refRes = existingBatch['OTP.BD']?.chart?.result?.[0];
+    const tsList = refRes?.timestamp || [];
+    const normSeries = tsList.map((_, i) => {
+      let weightedRel = 0;
+      let activeW = 0;
+      seriesData.forEach((s) => {
+        const c = s.closes[i];
+        const base = s.prevClose || 1;
+        if (c != null && Number.isFinite(c) && c > 0 && base > 0) {
+          weightedRel += s.w * (c / base);
+          activeW += s.w;
+        }
+      });
+      return activeW > 0 ? weightedRel / activeW : 1;
+    });
+
+    const lastRel = normSeries[normSeries.length - 1] || 1;
+    const currentBux = spotBux || Number((146070.02 * lastRel).toFixed(2));
+    const baseBux = prevBux || Number((currentBux / lastRel).toFixed(2));
+    const scaledCloses = normSeries.map((rel) => Number((rel * baseBux).toFixed(2)));
+    if (scaledCloses.length > 0 && spotBux) {
+      scaledCloses[scaledCloses.length - 1] = Number(spotBux.toFixed(2));
+    }
+
+    return {
+      chart: {
+        result: [{
+          meta: {
+            currency: 'HUF',
+            exchangeName: 'BET (BÉT Live)',
+            regularMarketPrice: Number(currentBux.toFixed(2)),
+            chartPreviousClose: baseBux,
+          },
+          timestamp: tsList,
+          indicators: { quote: [{ close: scaledCloses }] },
+        }],
+      },
+    };
+  }
+
+  const filtered = await getRealBuxHistory(range);
+
+  if (filtered.length >= 2) {
+    const lastRow = filtered[filtered.length - 1];
+    const currentBux = spotBux || lastRow.c;
+    if (spotBux) {
+      filtered[filtered.length - 1] = {
+        ...lastRow,
+        c: spotBux,
+        h: Math.max(lastRow.h, spotBux),
+        l: Math.min(lastRow.l, spotBux),
+      };
+    }
+
+    const firstStart = filtered[0].o || filtered[0].c;
+
+    return {
+      chart: {
+        result: [{
+          meta: {
+            currency: 'HUF',
+            exchangeName: 'BET (Hivatalos BÉT BUX Index)',
+            regularMarketPrice: Number(currentBux.toFixed(2)),
+            chartPreviousClose: Number(firstStart.toFixed(2)),
+          },
+          timestamp: filtered.map((r) => r.ts),
+          indicators: {
+            quote: [{
+              open: filtered.map((r) => Number(r.o.toFixed(2))),
+              high: filtered.map((r) => Number(r.h.toFixed(2))),
+              low: filtered.map((r) => Number(r.l.toFixed(2))),
+              close: filtered.map((r) => Number(r.c.toFixed(2))),
+            }],
+          },
+        }],
+      },
+    };
+  }
+
+  return { chart: { error: { description: 'BUX historikus adatok ideiglenesen nem elérhetők' } } };
+}</script>
+
+  <script>
+    /**
+     * ============================================================================
+     * 1. KONFIGURÁCIÓ ÉS INDEX METAADATOK
+     * ============================================================================
+     */
+    const DEFAULT_BRIDGE_URL = 'https://yahoo.nterr.workers.dev';
+    const SETTINGS_PIN = '4660';
+
+    const INDICES = [
+      {
+        id: 'SP500',
+        name: 'S&P 500',
+        shortName: 'S&P 500',
+        symbol: '^GSPC',
+        region: 'USA • NYSE / NASDAQ',
+        currency: 'USD',
+        accent: '#3b82f6',
+        contributors: [
+          { symbol: 'NVDA', name: 'NVIDIA Corp.', weight: 6.85 },
+          { symbol: 'AAPL', name: 'Apple Inc.', weight: 6.72 },
+          { symbol: 'MSFT', name: 'Microsoft Corp.', weight: 6.45 },
+          { symbol: 'AMZN', name: 'Amazon.com Inc.', weight: 3.85 },
+          { symbol: 'META', name: 'Meta Platforms', weight: 2.65 },
+        ],
+      },
+      {
+        id: 'NASDAQ',
+        name: 'NASDAQ Composite',
+        shortName: 'NASDAQ',
+        symbol: '^IXIC',
+        region: 'USA • Tech & Growth',
+        currency: 'USD',
+        accent: '#8b5cf6',
+        contributors: [
+          { symbol: 'AAPL', name: 'Apple Inc.', weight: 8.95 },
+          { symbol: 'MSFT', name: 'Microsoft Corp.', weight: 8.40 },
+          { symbol: 'NVDA', name: 'NVIDIA Corp.', weight: 8.15 },
+          { symbol: 'AMZN', name: 'Amazon.com Inc.', weight: 5.25 },
+          { symbol: 'AVGO', name: 'Broadcom Inc.', weight: 4.35 },
+        ],
+      },
+      {
+        id: 'DJI',
+        name: 'Dow Jones Industrial',
+        shortName: 'Dow Jones (DJI)',
+        symbol: '^DJI',
+        region: 'USA • 30 Blue Chip',
+        currency: 'USD',
+        accent: '#06b6d4',
+        contributors: [
+          { symbol: 'GS', name: 'Goldman Sachs', weight: 8.45 },
+          { symbol: 'UNH', name: 'UnitedHealth Group', weight: 7.90 },
+          { symbol: 'MSFT', name: 'Microsoft Corp.', weight: 6.35 },
+          { symbol: 'HD', name: 'Home Depot Inc.', weight: 5.75 },
+          { symbol: 'CAT', name: 'Caterpillar Inc.', weight: 5.45 },
+        ],
+      },
+      {
+        id: 'BUX',
+        name: 'BUX Index',
+        shortName: 'BUX Index',
+        symbol: '^BUX',
+        region: 'Magyarország • BÉT',
+        currency: 'HUF',
+        accent: '#10b981',
+        contributors: [
+          { symbol: 'OTP.BD', name: 'OTP Bank Nyrt.', weight: 38.50 },
+          { symbol: 'MOL.BD', name: 'MOL Nyrt.', weight: 24.20 },
+          { symbol: 'RICHTER.BD', name: 'Richter Gedeon', weight: 21.80 },
+          { symbol: 'MTELEKOM.BD', name: 'Magyar Telekom', weight: 9.50 },
+          { symbol: '4IG.BD', name: '4iG Nyrt.', weight: 2.40 },
+        ],
+      },
+    ];
+
+    const CORE_SYMBOLS = INDICES.map((i) => i.symbol);
+
+    const MOVERS_UNIVERSE = [
+      { symbol: 'NVDA', name: 'NVIDIA Corp.', domain: 'nvidia.com', region: 'US', currency: 'USD' },
+      { symbol: 'AAPL', name: 'Apple Inc.', domain: 'apple.com', region: 'US', currency: 'USD' },
+      { symbol: 'MSFT', name: 'Microsoft Corp.', domain: 'microsoft.com', region: 'US', currency: 'USD' },
+      { symbol: 'AMZN', name: 'Amazon.com Inc.', domain: 'amazon.com', region: 'US', currency: 'USD' },
+      { symbol: 'META', name: 'Meta Platforms', domain: 'meta.com', region: 'US', currency: 'USD' },
+      { symbol: 'GOOGL', name: 'Alphabet Inc.', domain: 'google.com', region: 'US', currency: 'USD' },
+      { symbol: 'TSLA', name: 'Tesla Inc.', domain: 'tesla.com', region: 'US', currency: 'USD' },
+      { symbol: 'AVGO', name: 'Broadcom Inc.', domain: 'broadcom.com', region: 'US', currency: 'USD' },
+      { symbol: 'AMD', name: 'AMD Inc.', domain: 'amd.com', region: 'US', currency: 'USD' },
+      { symbol: 'NFLX', name: 'Netflix Inc.', domain: 'netflix.com', region: 'US', currency: 'USD' },
+      { symbol: 'JPM', name: 'JPMorgan Chase', domain: 'jpmorganchase.com', region: 'US', currency: 'USD' },
+      { symbol: 'V', name: 'Visa Inc.', domain: 'visa.com', region: 'US', currency: 'USD' },
+      { symbol: 'WMT', name: 'Walmart Inc.', domain: 'walmart.com', region: 'US', currency: 'USD' },
+      { symbol: 'UNH', name: 'UnitedHealth Group', domain: 'unitedhealthgroup.com', region: 'US', currency: 'USD' },
+      { symbol: 'GS', name: 'Goldman Sachs', domain: 'goldmansachs.com', region: 'US', currency: 'USD' },
+      { symbol: 'HD', name: 'Home Depot Inc.', domain: 'homedepot.com', region: 'US', currency: 'USD' },
+      { symbol: 'CAT', name: 'Caterpillar Inc.', domain: 'caterpillar.com', region: 'US', currency: 'USD' },
+      { symbol: 'ASML', name: 'ASML Holding', domain: 'asml.com', region: 'EU', currency: 'USD' },
+      { symbol: 'NVO', name: 'Novo Nordisk', domain: 'novonordisk.com', region: 'EU', currency: 'USD' },
+      { symbol: 'SAP', name: 'SAP SE', domain: 'sap.com', region: 'EU', currency: 'USD' },
+      { symbol: 'MC.PA', name: 'LVMH Moët Hennessy', domain: 'lvmh.com', region: 'EU', currency: 'EUR' },
+      { symbol: 'SIE.DE', name: 'Siemens AG', domain: 'siemens.com', region: 'EU', currency: 'EUR' },
+      { symbol: 'SHEL', name: 'Shell plc', domain: 'shell.com', region: 'EU', currency: 'USD' },
+      { symbol: 'AZN', name: 'AstraZeneca plc', domain: 'astrazeneca.com', region: 'EU', currency: 'USD' },
+      { symbol: 'HSBC', name: 'HSBC Holdings', domain: 'hsbc.com', region: 'EU', currency: 'USD' },
+      { symbol: 'NESN.SW', name: 'Nestlé S.A.', domain: 'nestle.com', region: 'EU', currency: 'CHF' },
+      { symbol: 'TSM', name: 'TSMC (Taiwan Semi)', domain: 'tsmc.com', region: 'ASIA', currency: 'USD' },
+      { symbol: '005930.KS', name: 'Samsung Electronics', domain: 'samsung.com', region: 'ASIA', currency: 'KRW' },
+      { symbol: 'TM', name: 'Toyota Motor Corp.', domain: 'toyota-global.com', region: 'ASIA', currency: 'USD' },
+      { symbol: 'BABA', name: 'Alibaba Group', domain: 'alibabagroup.com', region: 'ASIA', currency: 'USD' },
+      { symbol: '0700.HK', name: 'Tencent Holdings', domain: 'tencent.com', region: 'ASIA', currency: 'HKD' },
+      { symbol: 'SONY', name: 'Sony Group Corp.', domain: 'sony.com', region: 'ASIA', currency: 'USD' },
+      { symbol: 'BHP', name: 'BHP Group Ltd.', domain: 'bhp.com', region: 'APAC', currency: 'USD' },
+      { symbol: 'OTP.BD', name: 'OTP Bank Nyrt.', domain: 'otpbank.hu', region: 'HU', currency: 'HUF' },
+      { symbol: 'MOL.BD', name: 'MOL Nyrt.', domain: 'molgroup.info', region: 'HU', currency: 'HUF' },
+      { symbol: 'RICHTER.BD', name: 'Richter Gedeon', domain: 'gedeonrichter.com', region: 'HU', currency: 'HUF' },
+      { symbol: 'MTELEKOM.BD', name: 'Magyar Telekom', domain: 'telekom.hu', region: 'HU', currency: 'HUF' },
+      { symbol: '4IG.BD', name: '4iG Nyrt.', domain: '4ig.hu', region: 'HU', currency: 'HUF' },
+    ];
+
+    const PERIOD_PARAMS = {
+      '1D':  { range: '1d',  interval: '2m',  label: 'Napi (2 perces)' },
+      '5D':  { range: '5d',  interval: '15m', label: '5 Napos (15 perces)' },
+      '1M':  { range: '1mo', interval: '1d',  label: '1 Hónapos (Napi)' },
+      '6M':  { range: '6mo', interval: '1d',  label: '6 Hónapos (Napi)' },
+      'YTD': { range: 'ytd', interval: '1d',  label: 'Év elejétől (YTD)' },
+      '1Y':  { range: '1y',  interval: '1d',  label: '1 Éves (Napi)' },
+      '5Y':  { range: '5y',  interval: '1wk', label: '5 Éves (Heti)' },
+      'ALL': { range: 'max', interval: '1mo', label: 'Teljes történeti (Havi)' },
+    };
+
+    const ALL_PERIOD_KEYS = Object.keys(PERIOD_PARAMS);
+
+    const STORAGE_KEY = 'indexpulse_yahoo_bridge_url_v3';
+    const THEME_STORAGE_KEY = 'indexpulse_theme_v1';
+    const CF_DAILY_LIMIT = 100000;
+    const FULL_CHART_REFRESH_MS = 45000;
+
+    const state = {
+      theme: 'dark',
+      bridgeUrl: DEFAULT_BRIDGE_URL,
+      selectedIndexId: 'SP500',
+      selectedPeriod: '1D',
+      chartType: 'line',
+      isLoading: false,
+      queuedFullSync: false,
+      livePollMs: 1000,
+      livePollTimer: null,
+      lastFullSyncByPeriod: {},
+      lastContribSyncMs: 0,
+      lastLatencyMs: null,
+      isPreloadingAll: false,
+      preloadRunId: 0,
+      chartInstance: null,
+      quoteCache: {},
+      tvScannerMovers: null,
+      lastTvScannerFetchMs: 0,
+      isFetchingTvScanner: false,
+      expandedContribIds: new Set(['SP500']),
+      serverQuota: null,
+    };
+
+    /**
+     * ============================================================================
+     * 2. TÉMA (SÖTÉT / VILÁGOS) & URL KEZELÉS
+     * ============================================================================
+     */
+    function initThemeFromStorage() {
+      let savedTheme = 'dark';
+      try {
+        const raw = localStorage.getItem(THEME_STORAGE_KEY);
+        if (raw === 'light' || raw === 'dark') {
+          savedTheme = raw;
+        } else {
+          localStorage.setItem(THEME_STORAGE_KEY, 'dark');
+        }
+      } catch (e) {}
+      applyTheme(savedTheme, false);
+    }
+
+    function applyTheme(theme, redrawChart = true) {
+      const normalized = theme === 'light' ? 'light' : 'dark';
+      state.theme = normalized;
+      document.documentElement.classList.toggle('dark', normalized === 'dark');
+      document.documentElement.classList.toggle('light', normalized === 'light');
+      try {
+        localStorage.setItem(THEME_STORAGE_KEY, normalized);
+      } catch (e) {}
+      syncThemeButtonUI();
+      if (redrawChart && Object.keys(state.quoteCache).length > 0) {
+        renderMainChart();
+      }
+    }
+
+    function toggleTheme() {
+      applyTheme(state.theme === 'dark' ? 'light' : 'dark', true);
+    }
+
+    function syncThemeButtonUI() {
+      const sunIcon = document.getElementById('themeIconSun');
+      const moonIcon = document.getElementById('themeIconMoon');
+      const btn = document.getElementById('themeToggleBtn');
+      if (!sunIcon || !moonIcon || !btn) return;
+      if (state.theme === 'dark') {
+        sunIcon.classList.remove('hidden');
+        moonIcon.classList.add('hidden');
+        btn.title = 'Világos mód bekapcsolása';
+        btn.setAttribute('aria-label', 'Világos mód bekapcsolása');
+      } else {
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+        btn.title = 'Sötét mód bekapcsolása';
+        btn.setAttribute('aria-label', 'Sötét mód bekapcsolása');
+      }
+    }
+
+    function normalizeBridgeUrl(rawUrl) {
+      let clean = (rawUrl || '').trim();
+      if (!clean) return DEFAULT_BRIDGE_URL;
+      if (!/^https?:\/\//i.test(clean)) clean = 'https://' + clean;
+      return clean.replace(/\/+$/, '');
+    }
+
+    function isAppsScriptUrl(url) {
+      return /script\.google(usercontent)?\.com/i.test(url || '');
+    }
+
+    function initBridgeUrlFromStorageOrHash() {
+      let resolvedUrl = '';
+      if (window.location.hash && window.location.hash.includes('bridge=')) {
+        const hashParams = new URLSearchParams(window.location.hash.slice(1));
+        const fromHash = hashParams.get('bridge');
+        if (fromHash && fromHash.startsWith('http')) {
+          resolvedUrl = normalizeBridgeUrl(fromHash);
+          localStorage.setItem(STORAGE_KEY, resolvedUrl);
+        }
+      }
+      if (!resolvedUrl) {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (stored && stored.startsWith('http') && !isAppsScriptUrl(stored)) {
+          resolvedUrl = normalizeBridgeUrl(stored);
+        }
+      }
+      if (!resolvedUrl) {
+        resolvedUrl = DEFAULT_BRIDGE_URL;
+        localStorage.setItem(STORAGE_KEY, resolvedUrl);
+      }
+      state.bridgeUrl = resolvedUrl;
+      updateBridgeStatusUI();
+    }
+
+    function updateBridgeStatusUI() {
+      const displayEl = document.getElementById('activeBridgeDisplay');
+      const connText = document.getElementById('connectionText');
+      const connDot = document.getElementById('connectionDot');
+      const connBadge = document.getElementById('connectionBadge');
+
+      displayEl.textContent = `Edge API: ${state.bridgeUrl}`;
+      connBadge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30';
+      connDot.className = 'w-1.5 h-1.5 rounded-full bg-emerald-400 beacon-dot';
+      connText.textContent = `Élő Edge (${state.livePollMs > 0 ? (state.livePollMs / 1000) + ' mp' : 'Szünet'})`;
+    }
+
+    /**
+     * ============================================================================
+     * 3. PIN-KÓD & WORKER MODAL KEZELÉS
+     * ============================================================================
+     */
+    function openPinModal() {
+      const modal = document.getElementById('pinModal');
+      const input = document.getElementById('pinCodeInput');
+      const errEl = document.getElementById('pinErrorMsg');
+      input.value = '';
+      errEl.classList.add('hidden');
+      input.classList.remove('border-rose-500');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      setTimeout(() => input.focus(), 40);
+    }
+
+    function closePinModal() {
+      const modal = document.getElementById('pinModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function clearPinError() {
+      document.getElementById('pinErrorMsg').classList.add('hidden');
+      document.getElementById('pinCodeInput').classList.remove('border-rose-500');
+    }
+
+    function handlePinInput(inputEl) {
+      const digitsOnly = (inputEl.value || '').replace(/\D/g, '').slice(0, 4);
+      if (inputEl.value !== digitsOnly) {
+        inputEl.value = digitsOnly;
+      }
+      if (digitsOnly.length < 4) {
+        clearPinError();
+        return;
+      }
+      verifyPinAndOpenSettings();
+    }
+
+    function verifyPinAndOpenSettings(event) {
+      if (event) event.preventDefault();
+      const input = document.getElementById('pinCodeInput');
+      const errEl = document.getElementById('pinErrorMsg');
+      if (input.value.trim() === SETTINGS_PIN) {
+        closePinModal();
+        openBridgeModal();
+      } else {
+        errEl.classList.remove('hidden');
+        input.classList.add('border-rose-500');
+        input.value = '';
+        input.focus();
+      }
+    }
+
+    function initPinModalListeners() {
+      const pinModal = document.getElementById('pinModal');
+      pinModal.addEventListener('click', (e) => {
+        if (e.target === pinModal) closePinModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !pinModal.classList.contains('hidden')) {
+          closePinModal();
+        }
+      });
+    }
+
+    function openBridgeModal() {
+      document.getElementById('bridgeUrlInput').value = state.bridgeUrl || DEFAULT_BRIDGE_URL;
+      document.getElementById('bridgeTestResult').classList.add('hidden');
+      const tpl = document.getElementById('workerSourceTemplate');
+      const prev = document.getElementById('workerCodePreview');
+      if (tpl && prev) {
+        prev.textContent = tpl.textContent.trim();
+      }
+      updateQuotaUI();
+      const modal = document.getElementById('bridgeModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeBridgeModal() {
+      const modal = document.getElementById('bridgeModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function resetToDefaultWorker() {
+      state.bridgeUrl = DEFAULT_BRIDGE_URL;
+      localStorage.setItem(STORAGE_KEY, DEFAULT_BRIDGE_URL);
+      document.getElementById('bridgeUrlInput').value = DEFAULT_BRIDGE_URL;
+      updateBridgeStatusUI();
+      showToast('Alapértelmezett Worker URL visszaállítva!', 'blue');
+      syncMarketData('full', false).then(() => preloadAllPeriodsInBackground(true));
+    }
+
+    function getTimeUntilUtcMidnightStr() {
+      const now = new Date();
+      const nextMidnight = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1, 0, 0, 0);
+      const diffMs = Math.max(0, nextMidnight - now.getTime());
+      const hrs = Math.floor(diffMs / 3600000);
+      const mins = Math.floor((diffMs % 3600000) / 60000);
+      return `${hrs} óra ${mins} perc (UTC 00:00)`;
+    }
+
+    function applyServerQuotaFromPayload(quotaObj) {
+      if (!quotaObj || typeof quotaObj !== 'object') return;
+      state.serverQuota = {
+        used: quotaObj.used != null && Number.isFinite(Number(quotaObj.used)) ? Number(quotaObj.used) : null,
+        limit: Number(quotaObj.limit) || CF_DAILY_LIMIT,
+        utcDay: quotaObj.utcDay || new Date().toISOString().slice(0, 10),
+        source: quotaObj.source || 'worker',
+      };
+      updateQuotaUI();
+    }
+
+    function updateQuotaUI() {
+      const q = state.serverQuota;
+      const limit = q?.limit || CF_DAILY_LIMIT;
+      const used = q?.used;
+      const hasValue = used != null && Number.isFinite(used);
+      const pct = hasValue ? Math.min(100, (used / limit) * 100) : 0;
+      const projected24h = state.livePollMs > 0 ? Math.round(86400000 / state.livePollMs) : 0;
+
+      const badge = document.getElementById('workerQuotaBadge');
+      const dot = document.getElementById('workerQuotaDot');
+      const text = document.getElementById('workerQuotaText');
+
+      if (badge && dot && text) {
+        if (!hasValue) {
+          text.textContent = 'Kvóta: Nincs CF Token';
+          dot.className = 'w-1.5 h-1.5 rounded-full bg-slate-400';
+          badge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-slate-800/90 hover:bg-slate-700/90 text-slate-300 border border-slate-700 transition cursor-pointer';
+        } else {
+          const usedShort = used >= 1000 ? `${(used / 1000).toFixed(1)}k` : String(used);
+          text.textContent = `Kvóta: ${usedShort} / 100k (${pct.toFixed(1)}%)`;
+          if (pct >= 85) {
+            dot.className = 'w-1.5 h-1.5 rounded-full bg-rose-400 beacon-dot';
+            badge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-rose-500/15 hover:bg-rose-500/25 text-rose-300 border border-rose-500/40 transition cursor-pointer';
+          } else if (pct >= 60) {
+            dot.className = 'w-1.5 h-1.5 rounded-full bg-amber-400';
+            badge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 transition cursor-pointer';
+          } else {
+            dot.className = 'w-1.5 h-1.5 rounded-full bg-emerald-400';
+            badge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-slate-800/90 hover:bg-slate-700/90 text-slate-300 border border-slate-700 transition cursor-pointer';
+          }
+        }
+      }
+
+      const resetEl = document.getElementById('quotaResetCountdown');
+      const sourceEl = document.getElementById('quotaSourceTag');
+      const detailEl = document.getElementById('quotaDetailCounts');
+      const rateEl = document.getElementById('quotaRateInfo');
+      const barEl = document.getElementById('quotaProgressBar');
+
+      if (resetEl) resetEl.textContent = `UTC nullázásig: ${getTimeUntilUtcMidnightStr()}`;
+      if (sourceEl) {
+        sourceEl.textContent = q?.source === 'cloudflare_graphql'
+          ? 'Forrás: Cloudflare GraphQL API'
+          : 'Forrás: Worker (CF Token nincs beállítva)';
+      }
+      if (detailEl) {
+        detailEl.textContent = hasValue
+          ? `${used.toLocaleString('hu-HU')} / ${limit.toLocaleString('hu-HU')} kérés (${pct.toFixed(2)}%)`
+          : 'Add meg a Workerben a CF_ACCOUNT_ID + CF_API_TOKEN változókat';
+      }
+      if (rateEl) {
+        rateEl.textContent = `24h becslés (${state.livePollMs > 0 ? (state.livePollMs / 1000) + ' mp' : 'szünet'}): ~${projected24h.toLocaleString('hu-HU')} req`;
+      }
+      if (barEl) {
+        barEl.style.width = `${pct.toFixed(2)}%`;
+        barEl.className = `h-full transition-all duration-300 ${
+          pct >= 85 ? 'bg-rose-500' : pct >= 60 ? 'bg-amber-500' : 'bg-emerald-500'
+        }`;
+      }
+    }
+
+    function copyWorkerCode() {
+      const tpl = document.getElementById('workerSourceTemplate');
+      const code = tpl ? tpl.textContent.trim() : '';
+      if (!code) return;
+
+      const ta = document.createElement('textarea');
+      ta.value = code;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        const lbl = document.getElementById('copyBtnLabel');
+        if (lbl) {
+          lbl.textContent = 'Kimásolva!';
+          setTimeout(() => { lbl.textContent = 'Worker kód másolása'; }, 2200);
+        }
+        showToast('Cloudflare Worker kód bitpontos formában kimásolva!', 'emerald');
+      } catch (e) {
+        showToast('A másolás nem sikerült, jelöld ki manuálisan a kódot.', 'rose');
+      } finally {
+        document.body.removeChild(ta);
+      }
+    }
+
+    /**
+     * ============================================================================
+     * 4. ULTRA-FAST EDGE FETCH & JSONP TARTALÉK KOMMUNIKÁCIÓ
+     * ============================================================================
+     */
+    function jsonpRequest(baseUrl, paramsObj, timeoutMs = 15000) {
+      return new Promise((resolve, reject) => {
+        const cbName = '__ip_cb_' + Date.now() + '_' + Math.floor(Math.random() * 100000);
+        const url = new URL(baseUrl);
+        Object.entries(paramsObj).forEach(([k, v]) => url.searchParams.set(k, v));
+        url.searchParams.set('callback', cbName);
+
+        const script = document.createElement('script');
+        let finished = false;
+
+        const cleanup = () => {
+          finished = true;
+          delete window[cbName];
+          if (script.parentNode) script.parentNode.removeChild(script);
+        };
+
+        const timer = setTimeout(() => {
+          if (!finished) {
+            cleanup();
+            reject(new Error('Időtúllépés a szerver válaszára várva.'));
+          }
+        }, timeoutMs);
+
+        window[cbName] = (data) => {
+          if (!finished) {
+            clearTimeout(timer);
+            cleanup();
+            resolve(data);
+          }
+        };
+
+        script.onerror = () => {
+          if (!finished) {
+            clearTimeout(timer);
+            cleanup();
+            reject(new Error('Hálózati hiba az URL elérésekor.'));
+          }
+        };
+
+        script.src = url.toString();
+        document.head.appendChild(script);
+      });
+    }
+
+    async function fetchMarketPayload(baseUrl, paramsObj, timeoutMs = 12000) {
+      if (!isAppsScriptUrl(baseUrl)) {
+        const url = new URL(baseUrl);
+        Object.entries(paramsObj).forEach(([k, v]) => url.searchParams.set(k, v));
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort('timeout'), timeoutMs);
+        try {
+          const res = await fetch(url.toString(), {
+            method: 'GET',
+            mode: 'cors',
+            signal: controller.signal,
+          });
+          clearTimeout(timer);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          if (data && data.quota) {
+            applyServerQuotaFromPayload(data.quota);
+          }
+          return data;
+        } catch (err) {
+          clearTimeout(timer);
+          if (err && (err.name === 'AbortError' || controller.signal.aborted)) {
+            const timeoutErr = new Error('Edge kérés időtúllépés (újrapróbálás a következő ciklusban)');
+            timeoutErr.isTimeout = true;
+            throw timeoutErr;
+          }
+          throw err;
+        }
+      }
+      return await jsonpRequest(baseUrl, paramsObj, timeoutMs);
+    }
+
+    async function testBridgeConnection() {
+      const raw = document.getElementById('bridgeUrlInput').value;
+      const resBox = document.getElementById('bridgeTestResult');
+      const url = normalizeBridgeUrl(raw);
+      document.getElementById('bridgeUrlInput').value = url;
+
+      resBox.classList.remove('hidden', 'bg-emerald-950/60', 'border-emerald-700', 'text-emerald-300', 'bg-rose-950/60', 'border-rose-700', 'text-rose-300');
+      resBox.classList.add('bg-slate-800', 'border-slate-700', 'text-slate-300');
+      resBox.textContent = 'Edge kapcsolat tesztelése...';
+
+      const t0 = performance.now();
+      try {
+        const data = await fetchMarketPayload(url, { symbols: '^GSPC,^BUX', range: '1d', interval: '5m', mode: 'quote' }, 10000);
+        const dt = Math.round(performance.now() - t0);
+        const spPrice = data?.batch?.['^GSPC']?.chart?.result?.[0]?.meta?.regularMarketPrice;
+        const buxPrice = data?.batch?.['^BUX']?.chart?.result?.[0]?.meta?.regularMarketPrice;
+        if (spPrice) {
+          resBox.className = 'p-3 rounded-xl text-xs font-mono border bg-emerald-950/60 border-emerald-700 text-emerald-300';
+          resBox.textContent = `Sikeres Edge válasz (${dt} ms)! S&P 500: ${spPrice.toLocaleString('en-US')} | BUX: ${buxPrice ? buxPrice.toLocaleString('hu-HU') : 'OK'}`;
+        } else {
+          throw new Error('A válasz nem tartalmazott árfolyamadatot.');
+        }
+      } catch (err) {
+        resBox.className = 'p-3 rounded-xl text-xs font-mono border bg-rose-950/60 border-rose-700 text-rose-300';
+        resBox.textContent = `Hiba: ${err.message}`;
+      }
+    }
+
+    function saveBridgeUrl() {
+      const url = normalizeBridgeUrl(document.getElementById('bridgeUrlInput').value);
+      state.bridgeUrl = url;
+      localStorage.setItem(STORAGE_KEY, url);
+      updateBridgeStatusUI();
+      closeBridgeModal();
+      showToast('Cloudflare Worker URL elmentve!', 'emerald');
+      syncMarketData('full', false).then(() => preloadAllPeriodsInBackground(true));
+    }
+
+    /**
+     * ============================================================================
+     * 5. ULTRA-GYORS PÁRHUZAMOS ADATPARSOLÁS, ELŐTÖLTÉS & ÉLŐ TICK SZINKRONIZÁLÁS
+     * ============================================================================
+     */
+    function parseYahooResult(rawSymbolObj, periodKey, fallbackCurrency = 'USD') {
+      const result = rawSymbolObj?.chart?.result?.[0];
+      if (!result || !result.meta) return null;
+
+      const meta = result.meta;
+      const timestamps = result.timestamp || [];
+      const quote = result.indicators?.quote?.[0] || {};
+      const closes = quote.close || [];
+      const opens = quote.open || [];
+      const highs = quote.high || [];
+      const lows = quote.low || [];
+
+      const ohlc = [];
+      for (let i = 0; i < timestamps.length; i++) {
+        const c = closes[i];
+        if (c == null || Number.isNaN(c) || c <= 0) continue;
+        const o = (opens[i] != null && opens[i] > 0) ? opens[i] : c;
+        const h = (highs[i] != null && highs[i] > 0) ? highs[i] : Math.max(o, c);
+        const l = (lows[i] != null && lows[i] > 0) ? lows[i] : Math.min(o, c);
+        ohlc.push({ t: timestamps[i] * 1000, o, h, l, c });
+      }
+
+      const lastPoint = ohlc.length > 0 ? ohlc[ohlc.length - 1] : null;
+      const firstPoint = ohlc.length > 0 ? ohlc[0] : null;
+
+      const currentPrice = Number(meta.regularMarketPrice ?? lastPoint?.c ?? 0);
+      const prevClose = periodKey === '1D'
+        ? Number(meta.chartPreviousClose ?? meta.previousClose ?? firstPoint?.c ?? currentPrice)
+        : Number(firstPoint?.c ?? meta.chartPreviousClose ?? currentPrice);
+
+      const changeAbs = currentPrice - prevClose;
+      const changePct = prevClose !== 0 ? (changeAbs / prevClose) * 100 : 0;
+
+      const marketState = String(meta.marketState || '').toUpperCase();
+      const rawPrePrice = meta.preMarketPrice != null ? Number(meta.preMarketPrice) : null;
+      const hasValidPreMarket = rawPrePrice != null && Number.isFinite(rawPrePrice) && rawPrePrice > 0 && marketState !== 'REGULAR';
+      const preMarketChangePct = hasValidPreMarket && currentPrice > 0
+        ? ((rawPrePrice - currentPrice) / currentPrice) * 100
+        : null;
+
+      const periodHigh = ohlc.length > 0 ? Math.max(...ohlc.map((d) => d.h)) : currentPrice;
+      const periodLow = ohlc.length > 0 ? Math.min(...ohlc.map((d) => d.l)) : currentPrice;
+      const periodOpen = firstPoint ? firstPoint.o : prevClose;
+
+      return {
+        currency: meta.currency || fallbackCurrency,
+        marketState,
+        currentPrice,
+        prevClose,
+        changeAbs,
+        changePct,
+        preMarketPrice: hasValidPreMarket ? rawPrePrice : null,
+        preMarketChangePct,
+        periodOpen,
+        periodHigh,
+        periodLow,
+        ohlc,
+        updatedAt: Date.now(),
+      };
+    }
+
+    // Csak a szükséges szimbólumok gyűjtése: full módban csak a 4 fő index, quote módban 4 index + lenyitott komponensek
+    function collectSymbolsForSync(isFullSync) {
+      const set = new Set(CORE_SYMBOLS);
+      if (!isFullSync) {
+        const needsAllContribs = Date.now() - state.lastContribSyncMs > 15000;
+        if (needsAllContribs) {
+          INDICES.forEach((idx) => idx.contributors.forEach((c) => set.add(c.symbol)));
+          state.lastContribSyncMs = Date.now();
+        } else {
+          state.expandedContribIds.forEach((id) => {
+            const idx = INDICES.find((i) => i.id === id);
+            if (idx) idx.contributors.forEach((c) => set.add(c.symbol));
+          });
+        }
+      }
+      return Array.from(set);
+    }
+
+    function updatePreloadBadgeUI(doneCount, totalCount, isRunning) {
+      const badge = document.getElementById('preloadStatusBadge');
+      const text = document.getElementById('preloadStatusText');
+      if (!badge || !text) return;
+      if (isRunning && totalCount > 0) {
+        badge.classList.remove('hidden');
+        text.textContent = `Előtöltés: ${doneCount}/${totalCount}`;
+      } else {
+        badge.classList.add('hidden');
+      }
+    }
+
+    // Azonnali párhuzamos (Promise.all) előtöltő a 4 fő index összes periódusára (0 ms késleltetéssel)
+    async function preloadAllPeriodsInBackground(forceRestart = false) {
+      if (state.isPreloadingAll && !forceRestart) return;
+      const runId = ++state.preloadRunId;
+      state.isPreloadingAll = true;
+
+      const targetPeriods = ALL_PERIOD_KEYS.filter(
+        (p) => forceRestart || !state.lastFullSyncByPeriod[p]
+      );
+      if (targetPeriods.length === 0) {
+        state.isPreloadingAll = false;
+        updatePreloadBadgeUI(0, 0, false);
+        return;
+      }
+
+      let completed = 0;
+      const total = targetPeriods.length;
+      updatePreloadBadgeUI(0, total, true);
+
+      await Promise.all(
+        targetPeriods.map(async (periodKey) => {
+          const pCfg = PERIOD_PARAMS[periodKey];
+          try {
+            const payload = await fetchMarketPayload(
+              state.bridgeUrl,
+              {
+                symbols: CORE_SYMBOLS.join(','),
+                range: pCfg.range,
+                interval: pCfg.interval,
+                mode: 'full',
+              },
+              14000
+            );
+            if (runId !== state.preloadRunId) return;
+            if (payload && payload.batch) {
+              Object.entries(payload.batch).forEach(([sym, rawObj]) => {
+                if (!state.quoteCache[sym]) state.quoteCache[sym] = {};
+                const parsed = parseYahooResult(rawObj, periodKey);
+                if (parsed) state.quoteCache[sym][periodKey] = parsed;
+              });
+              state.lastFullSyncByPeriod[periodKey] = Date.now();
+              if (state.selectedPeriod === periodKey) {
+                renderMainChart();
+                updateHeaderMetrics();
+              }
+            }
+          } catch (e) {
+            console.warn(`Háttér-előtöltés (${periodKey}):`, e);
+          } finally {
+            completed++;
+            if (runId === state.preloadRunId) {
+              updatePreloadBadgeUI(completed, total, completed < total);
+            }
+          }
+        })
+      );
+
+      if (runId === state.preloadRunId) {
+        state.isPreloadingAll = false;
+        updatePreloadBadgeUI(total, total, false);
+      }
+    }
+
+    async function syncMarketData(syncMode = 'quote', silent = true) {
+      if (state.isLoading) {
+        if (syncMode === 'full') state.queuedFullSync = true;
+        return;
+      }
+
+      const periodKey = state.selectedPeriod;
+      const lastFull = state.lastFullSyncByPeriod[periodKey] || 0;
+      const needsPeriodicFull = Date.now() - lastFull > FULL_CHART_REFRESH_MS;
+      const effectiveMode = (syncMode === 'full' || needsPeriodicFull) ? 'full' : 'quote';
+
+      state.isLoading = true;
+      const refreshIcon = document.getElementById('refreshIcon');
+      if (!silent) {
+        refreshIcon.classList.add('animate-spin');
+        document.getElementById('chartLoadingOverlay').classList.remove('hidden');
+      }
+
+      const pCfg = PERIOD_PARAMS[periodKey];
+      const symbolList = collectSymbolsForSync(effectiveMode === 'full');
+      const t0 = performance.now();
+
+      try {
+        const payload = await fetchMarketPayload(
+          state.bridgeUrl,
+          {
+            symbols: symbolList.join(','),
+            range: pCfg.range,
+            interval: pCfg.interval,
+            mode: effectiveMode,
+          },
+          effectiveMode === 'quote' ? 6000 : 12000
+        );
+
+        const latency = Math.round(performance.now() - t0);
+        state.lastLatencyMs = latency;
+        const latBadge = document.getElementById('latencyBadge');
+        if (latBadge) latBadge.textContent = `${latency} ms`;
+
+        if (!payload || !payload.batch) {
+          throw new Error('Érvénytelen válasz a Cloudflare Workertől.');
+        }
+
+        if (effectiveMode === 'full') {
+          Object.entries(payload.batch).forEach(([sym, rawObj]) => {
+            if (!state.quoteCache[sym]) state.quoteCache[sym] = {};
+            const parsed = parseYahooResult(rawObj, periodKey);
+            if (parsed) state.quoteCache[sym][periodKey] = parsed;
+          });
+          state.lastFullSyncByPeriod[periodKey] = Date.now();
+        } else {
+          Object.entries(payload.batch).forEach(([sym, rawObj]) => {
+            const meta = rawObj?.chart?.result?.[0]?.meta;
+            if (!meta || meta.regularMarketPrice == null) return;
+            const newPrice = Number(meta.regularMarketPrice);
+            const rawPre = meta.preMarketPrice != null ? Number(meta.preMarketPrice) : null;
+            const mState = String(meta.marketState || '').toUpperCase();
+            if (!state.quoteCache[sym]) state.quoteCache[sym] = {};
+
+            ALL_PERIOD_KEYS.forEach((pKey) => {
+              const cached = state.quoteCache[sym][pKey];
+              if (cached) {
+                cached.currentPrice = newPrice;
+                if (pKey === '1D' && meta.chartPreviousClose) {
+                  cached.prevClose = Number(meta.chartPreviousClose);
+                } else if (pKey !== '1D' && cached.ohlc && cached.ohlc.length > 0) {
+                  cached.prevClose = Number(cached.ohlc[0].c ?? cached.prevClose);
+                }
+                cached.changeAbs = newPrice - cached.prevClose;
+                cached.changePct = cached.prevClose !== 0 ? (cached.changeAbs / cached.prevClose) * 100 : 0;
+                if (mState) cached.marketState = mState;
+                if (rawPre != null && Number.isFinite(rawPre) && rawPre > 0 && cached.marketState !== 'REGULAR') {
+                  cached.preMarketPrice = rawPre;
+                  cached.preMarketChangePct = newPrice > 0 ? ((rawPre - newPrice) / newPrice) * 100 : null;
+                } else {
+                  cached.preMarketPrice = null;
+                  cached.preMarketChangePct = null;
+                }
+                if (cached.ohlc && cached.ohlc.length > 0) {
+                  const lastBar = cached.ohlc[cached.ohlc.length - 1];
+                  lastBar.c = newPrice;
+                  if (newPrice > lastBar.h) lastBar.h = newPrice;
+                  if (newPrice < lastBar.l) lastBar.l = newPrice;
+                }
+                if (newPrice > cached.periodHigh) cached.periodHigh = newPrice;
+                if (newPrice < cached.periodLow) cached.periodLow = newPrice;
+              } else if (pKey === '1D') {
+                const parsed = parseYahooResult(rawObj, '1D');
+                if (parsed) state.quoteCache[sym]['1D'] = parsed;
+              }
+            });
+          });
+        }
+
+        const nowStr = new Date().toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        document.getElementById('lastUpdatedLabel').textContent = `Élő frissítés: ${nowStr} (${latency} ms) • ${pCfg.label}`;
+
+        if (effectiveMode === 'full') {
+          renderIndexSummaryCards();
+          renderContributorsCards();
+          renderMainChart();
+          updateHeaderMetrics();
+        } else {
+          patchLiveDomValues();
+          updateActiveChartLastPoint();
+          updateHeaderMetrics();
+        }
+        renderDailyMovers();
+      } catch (err) {
+        if (!err || !err.isTimeout) {
+          console.error('Edge szinkron hiba:', err);
+          if (!silent) {
+            showToast(`Kapcsolati hiba: ${err.message}`, 'rose');
+          }
+        }
+        if (Object.keys(state.quoteCache).length === 0) {
+          renderIndexSummaryCards();
+          renderContributorsCards();
+        }
+      } finally {
+        state.isLoading = false;
+        refreshIcon.classList.remove('animate-spin');
+        document.getElementById('chartLoadingOverlay').classList.add('hidden');
+        restartLivePollTimer();
+
+        if (state.queuedFullSync) {
+          state.queuedFullSync = false;
+          syncMarketData('full', false);
+        }
+      }
+    }
+
+    function restartLivePollTimer() {
+      if (state.livePollTimer) {
+        clearTimeout(state.livePollTimer);
+        state.livePollTimer = null;
+      }
+      if (state.livePollMs > 0) {
+        state.livePollTimer = setTimeout(() => {
+          syncMarketData('quote', true);
+        }, state.livePollMs);
+      }
+    }
+
+    function changePollInterval(msStr) {
+      state.livePollMs = Number(msStr);
+      updateBridgeStatusUI();
+      updateQuotaUI();
+      restartLivePollTimer();
+      if (state.livePollMs > 0) {
+        showToast(`Élő frissítési ütem: ${state.livePollMs / 1000} mp`, 'blue');
+      } else {
+        showToast('Élő automatikus frissítés szüneteltetve.', 'amber');
+      }
+    }
+
+    function manualRefreshAll() {
+      syncMarketData('full', false);
+      fetchGlobalTradingViewMovers(true);
+    }
+
+    /**
+     * ============================================================================
+     * 6. ULTRA-GYORS IN-PLACE DOM FRISSÍTÉS & VILLANÁS ANIMÁCIÓ
+     * ============================================================================
+     */
+    function applyFlash(el, oldVal, newVal) {
+      if (!el || oldVal == null || Number.isNaN(oldVal) || oldVal === newVal) return;
+      el.classList.remove('flash-up', 'flash-down');
+      void el.offsetWidth;
+      el.classList.add(newVal > oldVal ? 'flash-up' : 'flash-down');
+    }
+
+    function patchLiveDomValues() {
+      const pKey = state.selectedPeriod;
+      INDICES.forEach((idx) => {
+        const data = state.quoteCache[idx.symbol]?.[pKey] || state.quoteCache[idx.symbol]?.['1D'];
+        if (!data) return;
+        const isPos = data.changePct >= 0;
+
+        const priceEl = document.querySelector(`[data-live-price="${idx.symbol}"]`);
+        if (priceEl) {
+          const prevNumeric = parseFloat(priceEl.dataset.rawPrice || 'NaN');
+          const nextFormatted = formatPrice(data.currentPrice, idx.currency);
+          if (priceEl.textContent !== nextFormatted) {
+            priceEl.textContent = nextFormatted;
+            priceEl.dataset.rawPrice = String(data.currentPrice);
+            applyFlash(priceEl, prevNumeric, data.currentPrice);
+          }
+        }
+
+        const pctEl = document.querySelector(`[data-live-pct="${idx.symbol}"]`);
+        if (pctEl) {
+          pctEl.textContent = `${isPos ? '▲' : '▼'} ${formatSignedPct(data.changePct)}`;
+          pctEl.className = `px-2 py-0.5 rounded-md text-xs font-mono font-bold ${
+            isPos ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30' : 'bg-rose-500/15 text-rose-300 border border-rose-500/30'
+          }`;
+        }
+
+        const absEl = document.querySelector(`[data-live-abs="${idx.symbol}"]`);
+        if (absEl) {
+          absEl.textContent = `${formatSignedNumber(data.changeAbs, idx.currency)} (${pKey})`;
+          absEl.className = `text-xs font-mono mt-1 ${isPos ? 'text-emerald-400' : 'text-rose-400'}`;
+        }
+      });
+
+      state.expandedContribIds.forEach((id) => {
+        const idx = INDICES.find((i) => i.id === id);
+        if (!idx) return;
+        idx.contributors.forEach((c) => {
+          const cData = state.quoteCache[c.symbol]?.['1D'];
+          if (!cData) return;
+          const isPos = cData.changePct >= 0;
+
+          const cPriceEl = document.querySelector(`[data-live-cprice="${idx.id}_${c.symbol}"]`);
+          if (cPriceEl) {
+            const prevNum = parseFloat(cPriceEl.dataset.rawPrice || 'NaN');
+            const nextStr = formatPrice(cData.currentPrice, idx.currency);
+            if (cPriceEl.textContent !== nextStr) {
+              cPriceEl.textContent = nextStr;
+              cPriceEl.dataset.rawPrice = String(cData.currentPrice);
+              applyFlash(cPriceEl, prevNum, cData.currentPrice);
+            }
+          }
+
+          const cPctEl = document.querySelector(`[data-live-cpct="${idx.id}_${c.symbol}"]`);
+          if (cPctEl) {
+            cPctEl.textContent = formatSignedPct(cData.changePct);
+            cPctEl.className = `px-2 py-0.5 rounded-md text-xs font-mono font-bold ${
+              isPos ? 'bg-emerald-500/15 text-emerald-300' : 'bg-rose-500/15 text-rose-300'
+            }`;
+          }
+        });
+      });
+    }
+
+    function updateActiveChartLastPoint() {
+      const chart = state.chartInstance;
+      if (!chart) return;
+      const activeIdx = INDICES.find((i) => i.id === state.selectedIndexId) || INDICES[0];
+      const data = state.quoteCache[activeIdx.symbol]?.[state.selectedPeriod];
+      if (!data || !data.ohlc || data.ohlc.length === 0) return;
+
+      const lastIdx = data.ohlc.length - 1;
+      const lastPoint = data.ohlc[lastIdx];
+
+      if (state.chartType === 'line') {
+        const ds = chart.data.datasets[0];
+        if (ds && ds.data.length > 0) {
+          ds.data[ds.data.length - 1] = lastPoint.c;
+          chart.update('none');
+        }
+      } else {
+        const bodyDs = chart.data.datasets[0];
+        const wickDs = chart.data.datasets[1];
+        if (bodyDs && bodyDs.data.length > 0) {
+          bodyDs.data[bodyDs.data.length - 1] = [lastPoint.o, lastPoint.c];
+          wickDs.data[wickDs.data.length - 1] = [lastPoint.l, lastPoint.h];
+          chart.update('none');
+        }
+      }
+    }
+
+    /**
+     * ============================================================================
+     * 7. GLOBÁLIS NAPI TOP 10 NYERTES & VESZTES (TRADINGVIEW SCANNER + TARTALÉK)
+     * ============================================================================
+     */
+    const TV_SCANNER_MARKETS = [
+      { market: 'america', tag: 'US' },
+      { market: 'uk', tag: 'UK' },
+      { market: 'germany', tag: 'DE' },
+      { market: 'france', tag: 'FR' },
+      { market: 'hungary', tag: 'HU' },
+      { market: 'japan', tag: 'JP' },
+      { market: 'hongkong', tag: 'HK' },
+    ];
+
+    function isValidDailyMove(item) {
+      if (!item || !Number.isFinite(item.changePct)) return false;
+      const sym = String(item.symbol || '').toUpperCase();
+      const name = String(item.name || '').toUpperCase();
+      if (/\b(ETF|ETN|FUND|TRUST|WARRANT|RIGHTS|UNIT|PREFERRED|PREF|BEAR|BULL|2X|3X)\b/.test(name)) return false;
+      if (/\.(BE|MU|SG|DU|HA|HM)$/i.test(sym)) return false;
+      if (Math.abs(item.changePct) > 150 || Math.abs(item.changePct) < 0.01) return false;
+      return true;
+    }
+
+    async function fetchTradingViewMarketSide(market, tag, ascending) {
+      const endpoint = `https://scanner.tradingview.com/${market}/scan`;
+      const payload = {
+        filter: [
+          { left: 'type', operation: 'in_range', right: ['stock', 'dr'] },
+          { left: 'subtype', operation: 'in_range', right: ['common', 'foreign-issuer', ''] },
+          { left: 'is_primary', operation: 'equal', right: true },
+          { left: 'close', operation: 'greater', right: 0.2 },
+          { left: 'volume', operation: 'greater', right: 50000 },
+          { left: 'change', operation: ascending ? 'less' : 'greater', right: 0 },
+        ],
+        options: { lang: 'en' },
+        markets: [market],
+        symbols: { query: { types: [] }, tickers: [] },
+        columns: ['name', 'description', 'logoid', 'close', 'change', 'currency', 'exchange'],
+        sort: { sortBy: 'change', sortOrder: ascending ? 'asc' : 'desc' },
+        range: [0, 18],
+      };
+
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) return [];
+      const json = await res.json();
+      const rows = json?.data || [];
+
+      return rows
+        .map((row) => {
+          const [ticker, desc, logoid, close, change, currency, exchange] = row.d || [];
+          const cleanName = desc || ticker || '';
+          const logoUrl = logoid ? `https://s3-symbol-logo.tradingview.com/${logoid}--big.svg` : '';
+          return {
+            symbol: ticker || '',
+            name: cleanName,
+            domain: '',
+            logoUrl,
+            region: exchange ? `${exchange} • ${tag}` : tag,
+            price: Number(close ?? 0),
+            currency: currency || 'USD',
+            changePct: Number(change ?? 0),
+          };
+        })
+        .filter((item) => item.symbol && isValidDailyMove(item));
+    }
+
+    async function fetchGlobalTradingViewMovers(force = false) {
+      if (state.isFetchingTvScanner) return;
+      if (!force && Date.now() - state.lastTvScannerFetchMs < 20000 && state.tvScannerMovers) return;
+
+      state.isFetchingTvScanner = true;
+      try {
+        const gainTasks = TV_SCANNER_MARKETS.map((m) =>
+          fetchTradingViewMarketSide(m.market, m.tag, false).catch(() => [])
+        );
+        const lossTasks = TV_SCANNER_MARKETS.map((m) =>
+          fetchTradingViewMarketSide(m.market, m.tag, true).catch(() => [])
+        );
+
+        const [gainArrays, lossArrays] = await Promise.all([
+          Promise.all(gainTasks),
+          Promise.all(lossTasks),
+        ]);
+
+        const dedupeSort = (flatList, descending) => {
+          const seen = new Set();
+          return flatList
+            .sort((a, b) => (descending ? b.changePct - a.changePct : a.changePct - b.changePct))
+            .filter((item) => {
+              const key = item.name.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 16) || item.symbol;
+              if (seen.has(key)) return false;
+              seen.add(key);
+              return true;
+            })
+            .slice(0, 10);
+        };
+
+        const gainers = dedupeSort(gainArrays.flat().filter((x) => x.changePct > 0), true);
+        const losers = dedupeSort(lossArrays.flat().filter((x) => x.changePct < 0), false);
+
+        if (gainers.length > 0 || losers.length > 0) {
+          state.tvScannerMovers = { gainers, losers, updatedAt: Date.now() };
+          state.lastTvScannerFetchMs = Date.now();
+          renderDailyMovers();
+        }
+      } catch (e) {
+        console.warn('TradingView global scanner hiba:', e);
+      } finally {
+        state.isFetchingTvScanner = false;
+      }
+    }
+
+    function buildMoverRowHtml(item, rank, isPositive) {
+      const initials = (item.symbol || item.name || '?').replace(/[^A-Z0-9]/gi, '').slice(0, 3).toUpperCase();
+      const logoSrc = item.logoUrl || (item.domain ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(item.domain)}&sz=64` : '');
+      const pctStr = formatSignedPct(item.changePct);
+      const currCode = item.currency || 'USD';
+      const priceStr = (item.price != null && Number.isFinite(Number(item.price)) && Number(item.price) > 0)
+        ? formatPrice(Number(item.price), currCode)
+        : currCode;
+      const badgeCls = isPositive
+        ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30'
+        : 'bg-rose-500/15 text-rose-300 border border-rose-500/30';
+
+      return `
+        <div class="flex items-center justify-between gap-3 px-3.5 py-2.5 rounded-xl bg-slate-900/75 border border-slate-800/80 hover:border-slate-700 transition">
+          <div class="flex items-center gap-3 min-w-0">
+            <span class="w-5 text-xs font-mono font-bold text-slate-500 shrink-0">${rank}.</span>
+            <div class="w-8 h-8 rounded-lg bg-white border border-slate-700/60 flex items-center justify-center overflow-hidden shrink-0 shadow-xs">
+              ${logoSrc
+                ? `<img src="${logoSrc}" alt="${item.name}" class="w-5 h-5 object-contain" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');" />
+                   <span class="hidden text-[10px] font-mono font-bold text-slate-900">${initials}</span>`
+                : `<span class="text-[10px] font-mono font-bold text-slate-900">${initials}</span>`
+              }
+            </div>
+            <div class="min-w-0">
+              <div class="text-sm font-semibold text-white truncate">${item.name}</div>
+              <div class="text-[11px] font-mono text-slate-400 truncate">${item.symbol}${item.region ? ` • ${item.region}` : ''} • ${currCode}</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-2.5 shrink-0">
+            <span class="text-xs font-mono font-semibold text-slate-300 hidden sm:inline">${priceStr}</span>
+            <span class="px-2.5 py-1 rounded-lg text-xs font-mono font-bold ${badgeCls}">
+              ${pctStr}
+            </span>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderDailyMovers() {
+      const gainersEl = document.getElementById('dailyGainersList');
+      const losersEl = document.getElementById('dailyLosersList');
+      const tagEl = document.getElementById('dailyMoversUpdatedTag');
+      if (!gainersEl || !losersEl) return;
+
+      if (Date.now() - state.lastTvScannerFetchMs > 25000 && !state.isFetchingTvScanner) {
+        fetchGlobalTradingViewMovers(false);
+      }
+
+      const tv = state.tvScannerMovers;
+      if (tv && ((tv.gainers && tv.gainers.length > 0) || (tv.losers && tv.losers.length > 0))) {
+        gainersEl.innerHTML = (tv.gainers || [])
+          .slice(0, 10)
+          .map((item, idx) => buildMoverRowHtml(item, idx + 1, true))
+          .join('');
+        losersEl.innerHTML = (tv.losers || [])
+          .slice(0, 10)
+          .map((item, idx) => buildMoverRowHtml(item, idx + 1, false))
+          .join('');
+        if (tagEl) {
+          const tStr = new Date(tv.updatedAt || Date.now()).toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+          tagEl.textContent = `Globális élő rangsor (US • UK • DE • FR • HU • JP • HK) • ${tStr}`;
+        }
+        return;
+      }
+
+      const items = [];
+      MOVERS_UNIVERSE.forEach((m) => {
+        const d = state.quoteCache[m.symbol]?.['1D'];
+        if (d && Number.isFinite(d.changePct) && isValidDailyMove({ symbol: m.symbol, name: m.name, changePct: d.changePct })) {
+          items.push({
+            symbol: m.symbol,
+            name: m.name,
+            domain: m.domain,
+            region: m.region,
+            price: d.currentPrice,
+            currency: d.currency || m.currency || 'USD',
+            changePct: d.changePct,
+          });
+        }
+      });
+
+      if (items.length === 0) {
+        const placeholder = `<div class="py-6 text-center text-xs text-slate-400 font-mono">Globális élő árfolyamok betöltése...</div>`;
+        gainersEl.innerHTML = placeholder;
+        losersEl.innerHTML = placeholder;
+        return;
+      }
+
+      const gainers = [...items]
+        .filter((x) => x.changePct > 0)
+        .sort((a, b) => b.changePct - a.changePct)
+        .slice(0, 10);
+
+      const losers = [...items]
+        .filter((x) => x.changePct < 0)
+        .sort((a, b) => a.changePct - b.changePct)
+        .slice(0, 10);
+
+      gainersEl.innerHTML = gainers.length > 0
+        ? gainers.map((item, idx) => buildMoverRowHtml(item, idx + 1, true)).join('')
+        : `<div class="py-5 text-center text-xs text-slate-400">Nincs pozitív napi teljesítményű cég.</div>`;
+
+      losersEl.innerHTML = losers.length > 0
+        ? losers.map((item, idx) => buildMoverRowHtml(item, idx + 1, false)).join('')
+        : `<div class="py-5 text-center text-xs text-slate-400">Nincs negatív napi teljesítményű cég.</div>`;
+
+      if (tagEl) {
+        const nowStr = new Date().toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        tagEl.textContent = `Globális toplista frissítve: ${nowStr}`;
+      }
+    }
+
+    /**
+     * ============================================================================
+     * 8. UI RENDERELÉS (KÁRTYÁK, TOP 5 CONTRIBUTOR, GRAFIKON)
+     * ============================================================================
+     */
+    function renderIndexSummaryCards() {
+      const grid = document.getElementById('indexCardsGrid');
+      const pKey = state.selectedPeriod;
+
+      grid.innerHTML = INDICES.map((idx) => {
+        const isSelected = idx.id === state.selectedIndexId;
+        const data = state.quoteCache[idx.symbol]?.[pKey] || state.quoteCache[idx.symbol]?.['1D'];
+        const isPos = data ? data.changePct >= 0 : true;
+
+        const priceFormatted = data ? formatPrice(data.currentPrice, idx.currency) : '---';
+        const pctFormatted = data ? `${isPos ? '▲' : '▼'} ${formatSignedPct(data.changePct)}` : 'Betöltés...';
+        const absFormatted = data ? `${formatSignedNumber(data.changeAbs, idx.currency)} (${pKey})` : 'Várakozás...';
+
+        return `
+          <button
+            onclick="selectIndex('${idx.id}')"
+            class="card-hover text-left rounded-2xl p-4 sm:p-5 border transition cursor-pointer relative overflow-hidden ${
+              isSelected
+                ? 'bg-slate-900 border-blue-500/80 shadow-lg shadow-blue-500/10 ring-1 ring-blue-500/40'
+                : 'glass-panel border-slate-800/90 hover:border-slate-700'
+            }"
+          >
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <span class="text-[11px] font-medium text-slate-400 block">${idx.region}</span>
+                <h3 class="text-base font-bold text-white mt-0.5">${idx.shortName}</h3>
+              </div>
+              <span data-live-pct="${idx.symbol}" class="px-2 py-0.5 rounded-md text-xs font-mono font-bold ${
+                data
+                  ? (isPos ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30' : 'bg-rose-500/15 text-rose-300 border border-rose-500/30')
+                  : 'bg-slate-800 text-slate-400'
+              }">
+                ${pctFormatted}
+              </span>
+            </div>
+
+            <div class="mt-4">
+              <div data-live-price="${idx.symbol}" data-raw-price="${data ? data.currentPrice : ''}" class="text-2xl font-mono font-bold tracking-tight text-white">
+                ${priceFormatted}
+              </div>
+              <div data-live-abs="${idx.symbol}" class="text-xs font-mono mt-1 ${data ? (isPos ? 'text-emerald-400' : 'text-rose-400') : 'text-slate-500'}">
+                ${absFormatted}
+              </div>
+            </div>
+
+            <div class="mt-3 pt-2.5 border-t border-slate-800/70 flex items-center justify-between text-[11px] text-slate-400">
+              <div class="flex items-center gap-1.5">
+                <span class="font-mono">${idx.symbol}</span>
+                <span class="px-1.5 py-0.2 rounded bg-slate-800/90 text-slate-300 border border-slate-700/70 font-mono text-[10px]">${idx.currency}</span>
+              </div>
+              <span class="${isSelected ? 'text-blue-400 font-semibold' : ''}">
+                ${isSelected ? '● Aktív grafikon' : 'Kattints a grafikonhoz →'}
+              </span>
+            </div>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function renderContributorsCards() {
+      const grid = document.getElementById('contributorsGrid');
+      const orderedIndices = [
+        ...INDICES.filter((idx) => state.expandedContribIds.has(idx.id)),
+        ...INDICES.filter((idx) => !state.expandedContribIds.has(idx.id)),
+      ];
+
+      grid.innerHTML = orderedIndices.map((idx) => {
+        const isExpanded = state.expandedContribIds.has(idx.id);
+        const idxData = state.quoteCache[idx.symbol]?.['1D'];
+        const idxPos = idxData ? idxData.changePct >= 0 : true;
+
+        const rowsHtml = idx.contributors.map((c) => {
+          const cData = state.quoteCache[c.symbol]?.['1D'];
+          const isPos = cData ? cData.changePct >= 0 : true;
+          const priceStr = cData ? formatPrice(cData.currentPrice, idx.currency) : '---';
+          const pctStr = cData ? formatSignedPct(cData.changePct) : '--%';
+
+          const hasPre = cData && cData.preMarketPrice != null && cData.preMarketChangePct != null;
+          const prePos = hasPre ? cData.preMarketChangePct >= 0 : true;
+          const prePriceStr = hasPre ? formatPrice(cData.preMarketPrice, idx.currency) : '';
+          const prePctStr = hasPre ? formatSignedPct(cData.preMarketChangePct) : '';
+
+          return `
+            <div class="flex items-center justify-between gap-3 py-2.5 px-3 rounded-xl bg-slate-900/60 border border-slate-800/70 hover:border-slate-700/90 transition">
+              <div class="min-w-0">
+                <div class="flex items-center gap-2">
+                  <span class="font-mono font-bold text-xs text-white">${c.symbol.replace('.BD', '')}</span>
+                  <span class="text-[11px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">Súly: ${c.weight.toFixed(1)}%</span>
+                </div>
+                <p class="text-xs text-slate-400 truncate mt-0.5">${c.name}</p>
+              </div>
+
+              <div class="flex items-center gap-3 shrink-0">
+                <div class="text-right">
+                  <div data-live-cprice="${idx.id}_${c.symbol}" data-raw-price="${cData ? cData.currentPrice : ''}" class="font-mono text-xs font-semibold text-slate-200">${priceStr}</div>
+                  ${hasPre ? `
+                    <div class="text-[10px] font-mono mt-0.5 flex items-center justify-end gap-1">
+                      <span class="px-1 py-0.2 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30 font-semibold">PRE</span>
+                      <span class="text-slate-300">${prePriceStr}</span>
+                      <span class="${prePos ? 'text-emerald-400' : 'text-rose-400'}">(${prePctStr})</span>
+                    </div>
+                  ` : ''}
+                </div>
+                <span data-live-cpct="${idx.id}_${c.symbol}" class="px-2 py-0.5 rounded-md text-xs font-mono font-bold ${
+                  cData
+                    ? (isPos ? 'bg-emerald-500/15 text-emerald-300' : 'bg-rose-500/15 text-rose-300')
+                    : 'bg-slate-800 text-slate-400'
+                }">
+                  ${pctStr}
+                </span>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        return `
+          <div class="glass-panel rounded-2xl border ${isExpanded ? 'border-slate-700' : 'border-slate-800/90'} overflow-hidden transition">
+            <button
+              onclick="toggleContributorCard('${idx.id}')"
+              class="w-full px-5 py-4 flex items-center justify-between gap-3 hover:bg-slate-800/40 transition cursor-pointer text-left"
+            >
+              <div class="flex items-center gap-3">
+                <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${idx.accent}"></span>
+                <div>
+                  <div class="flex items-center gap-2">
+                    <h3 class="text-sm sm:text-base font-bold text-white">${idx.name}</h3>
+                    <span class="px-1.5 py-0.5 rounded bg-slate-800/90 text-slate-300 border border-slate-700/70 font-mono text-[10px]">${idx.currency}</span>
+                  </div>
+                  <span class="text-xs text-slate-400">Top 5 komponens súlyozás • Napi teljesítmény (${idx.currency})</span>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3">
+                ${idxData ? `
+                  <span class="text-xs font-mono font-bold ${idxPos ? 'text-emerald-400' : 'text-rose-400'}">
+                    ${formatSignedPct(idxData.changePct)}
+                  </span>
+                ` : ''}
+                <div class="w-7 h-7 rounded-lg bg-slate-800/90 border border-slate-700/80 flex items-center justify-center text-slate-300">
+                  <svg class="w-4 h-4 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
+            </button>
+
+            ${isExpanded ? `
+              <div class="px-5 pb-5 pt-1 space-y-2 border-t border-slate-800/60">
+                ${rowsHtml}
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+    }
+
+    function updateHeaderMetrics() {
+      const activeIdx = INDICES.find((i) => i.id === state.selectedIndexId) || INDICES[0];
+      const pKey = state.selectedPeriod;
+      const data = state.quoteCache[activeIdx.symbol]?.[pKey];
+
+      const titleEl = document.getElementById('chartMainTitle');
+      const badgeEl = document.getElementById('chartChangeBadge');
+
+      titleEl.textContent = `${activeIdx.name} (${activeIdx.symbol} • ${activeIdx.currency})`;
+
+      if (!data) {
+        badgeEl.textContent = 'Adatok betöltése...';
+        badgeEl.className = 'inline-flex items-center px-2.5 py-0.5 rounded-lg text-xs font-mono font-bold bg-slate-800 text-slate-300';
+        return;
+      }
+
+      const isPos = data.changePct >= 0;
+      badgeEl.textContent = `${formatPrice(data.currentPrice, activeIdx.currency)}  |  ${isPos ? '▲' : '▼'} ${formatSignedNumber(data.changeAbs, activeIdx.currency)} (${formatSignedPct(data.changePct)})`;
+      badgeEl.className = `inline-flex items-center px-2.5 py-0.5 rounded-lg text-xs font-mono font-bold ${
+        isPos
+          ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30'
+          : 'bg-rose-500/15 text-rose-300 border border-rose-500/30'
+      }`;
+
+      document.getElementById('statOpen').textContent = formatPrice(data.periodOpen, activeIdx.currency);
+      document.getElementById('statHigh').textContent = formatPrice(data.periodHigh, activeIdx.currency);
+      document.getElementById('statLow').textContent = formatPrice(data.periodLow, activeIdx.currency);
+      document.getElementById('statPrevClose').textContent = formatPrice(data.prevClose, activeIdx.currency);
+    }
+
+    const crosshairPlugin = {
+      id: 'indexpulseCrosshair',
+      afterDatasetsDraw(chart) {
+        const activeElements = chart.getActiveElements();
+        if (!activeElements || activeElements.length === 0) return;
+
+        const { ctx, chartArea: { top, bottom, left, right } } = chart;
+        const activePt = activeElements[0].element;
+        if (!activePt) return;
+
+        ctx.save();
+        ctx.beginPath();
+        ctx.setLineDash([4, 4]);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = state.theme === 'light'
+          ? 'rgba(71, 85, 105, 0.55)'
+          : 'rgba(148, 163, 184, 0.55)';
+
+        ctx.moveTo(activePt.x, top);
+        ctx.lineTo(activePt.x, bottom);
+        ctx.moveTo(left, activePt.y);
+        ctx.lineTo(right, activePt.y);
+        ctx.stroke();
+        ctx.restore();
+      },
+    };
+
+    function aggregateCandles(ohlcList, targetCount = 42) {
+      if (!ohlcList || ohlcList.length <= targetCount) return ohlcList || [];
+      const bucketSize = Math.ceil(ohlcList.length / targetCount);
+      const result = [];
+      for (let i = 0; i < ohlcList.length; i += bucketSize) {
+        const slice = ohlcList.slice(i, i + bucketSize);
+        if (slice.length === 0) continue;
+        let high = -Infinity;
+        let low = Infinity;
+        for (const bar of slice) {
+          if (bar.h > high) high = bar.h;
+          if (bar.l < low) low = bar.l;
+        }
+        result.push({
+          t: slice[0].t,
+          o: slice[0].o,
+          h: high,
+          l: low,
+          c: slice[slice.length - 1].c,
+        });
+      }
+      return result;
+    }
+
+    function renderMainChart() {
+      const activeIdx = INDICES.find((i) => i.id === state.selectedIndexId) || INDICES[0];
+      const pKey = state.selectedPeriod;
+      const data = state.quoteCache[activeIdx.symbol]?.[pKey];
+      const canvas = document.getElementById('mainMarketChart');
+      const ctx = canvas.getContext('2d');
+
+      if (state.chartInstance) {
+        state.chartInstance.destroy();
+        state.chartInstance = null;
+      }
+
+      if (!data || !data.ohlc || data.ohlc.length === 0) return;
+
+      const isLight = state.theme === 'light';
+      const gridColor = isLight ? 'rgba(148, 163, 184, 0.25)' : 'rgba(51, 65, 85, 0.35)';
+      const tickColor = isLight ? '#475569' : '#94a3b8';
+      const tooltipBg = isLight ? 'rgba(255, 255, 255, 0.97)' : 'rgba(15, 23, 42, 0.96)';
+      const tooltipTitleColor = isLight ? '#475569' : '#94a3b8';
+      const tooltipBodyColor = isLight ? '#0f172a' : '#f8fafc';
+      const tooltipBorderColor = isLight ? '#cbd5e1' : '#334155';
+
+      const displayOhlc = (state.chartType === 'candlestick' && (pKey === '1D' || pKey === '5D'))
+        ? aggregateCandles(data.ohlc, 42)
+        : data.ohlc;
+
+      const labels = displayOhlc.map((pt) => formatAxisTimestamp(pt.t, pKey));
+      const isPos = data.changePct >= 0;
+      const lineColor = isPos ? '#10b981' : '#f43f5e';
+
+      const allLows = displayOhlc.map((pt) => pt.l);
+      const allHighs = displayOhlc.map((pt) => pt.h);
+      const minVal = Math.min(...allLows);
+      const maxVal = Math.max(...allHighs);
+      const span = Math.max(maxVal - minVal, maxVal * 0.0015 || 1);
+      const yMin = minVal - span * 0.1;
+      const yMax = maxVal + span * 0.1;
+
+      let datasets = [];
+
+      if (state.chartType === 'line') {
+        const gradient = ctx.createLinearGradient(0, 0, 0, 380);
+        gradient.addColorStop(0, isPos ? 'rgba(16, 185, 129, 0.28)' : 'rgba(244, 63, 94, 0.28)');
+        gradient.addColorStop(1, 'rgba(15, 23, 42, 0.0)');
+
+        datasets = [{
+          label: `${activeIdx.shortName} Árfolyam`,
+          data: displayOhlc.map((pt) => pt.c),
+          borderColor: lineColor,
+          borderWidth: 2.2,
+          backgroundColor: gradient,
+          fill: true,
+          pointRadius: 0,
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: lineColor,
+          pointHoverBorderColor: isLight ? '#0f172a' : '#ffffff',
+          pointHoverBorderWidth: 2,
+          tension: 0.12,
+        }];
+      } else {
+        const candlePalette = {
+          up: '#10b981',
+          down: '#ef4444',
+          unchanged: '#94a3b8',
+        };
+        const bodyData = displayOhlc.map((pt) => [pt.o, pt.c]);
+        const wickData = displayOhlc.map((pt) => [pt.l, pt.h]);
+        const candleColors = displayOhlc.map((pt) => {
+          if (pt.c > pt.o) return candlePalette.up;
+          if (pt.c < pt.o) return candlePalette.down;
+          return candlePalette.unchanged;
+        });
+
+        datasets = [
+          {
+            label: 'Gyertyatest (Open–Close)',
+            data: bodyData,
+            color: candlePalette,
+            backgroundColor: candleColors,
+            borderColor: candleColors,
+            borderWidth: 1,
+            borderSkipped: false,
+            borderRadius: 1.5,
+            minBarLength: 2,
+            barPercentage: 0.65,
+            categoryPercentage: 0.8,
+            grouped: false,
+            order: 1,
+          },
+          {
+            label: 'Kanóc (Low–High)',
+            data: wickData,
+            wickColor: candlePalette,
+            backgroundColor: candleColors,
+            borderColor: candleColors,
+            borderSkipped: false,
+            barThickness: 2,
+            grouped: false,
+            order: 2,
+          },
+        ];
+      }
+
+      state.chartInstance = new Chart(ctx, {
+        type: state.chartType === 'line' ? 'line' : 'bar',
+        data: { labels, datasets },
+        plugins: [crosshairPlugin],
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          animation: { duration: 150 },
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: tooltipBg,
+              titleColor: tooltipTitleColor,
+              bodyColor: tooltipBodyColor,
+              borderColor: tooltipBorderColor,
+              borderWidth: 1,
+              padding: 12,
+              displayColors: false,
+              titleFont: { family: 'JetBrains Mono', size: 11 },
+              bodyFont: { family: 'JetBrains Mono', size: 12 },
+              callbacks: {
+                title(items) {
+                  const idx = items[0].dataIndex;
+                  return formatTooltipTimestamp(displayOhlc[idx].t, pKey);
+                },
+                label(item) {
+                  if (state.chartType === 'candlestick' && item.datasetIndex === 1) return null;
+                  const pt = displayOhlc[item.dataIndex];
+                  if (state.chartType === 'line') {
+                    return `Záró / Aktuális: ${formatPrice(pt.c, activeIdx.currency)}`;
+                  }
+                  return [
+                    `Nyitó (O):  ${formatPrice(pt.o, activeIdx.currency)}`,
+                    `Max   (H):  ${formatPrice(pt.h, activeIdx.currency)}`,
+                    `Min   (L):  ${formatPrice(pt.l, activeIdx.currency)}`,
+                    `Záró  (C):  ${formatPrice(pt.c, activeIdx.currency)}`,
+                  ];
+                },
+              },
+            },
+          },
+          scales: {
+            x: {
+              grid: { color: gridColor, drawTicks: false },
+              ticks: {
+                color: tickColor,
+                font: { family: 'JetBrains Mono', size: 10 },
+                maxTicksLimit: 9,
+                maxRotation: 0,
+              },
+            },
+            y: {
+              position: 'right',
+              beginAtZero: false,
+              min: yMin,
+              max: yMax,
+              grid: { color: gridColor },
+              ticks: {
+                color: tickColor,
+                font: { family: 'JetBrains Mono', size: 11 },
+                callback(val) {
+                  return formatCompactNumber(val, activeIdx.currency);
+                },
+              },
+            },
+          },
+        },
+      });
+    }
+
+    /**
+     * ============================================================================
+     * 10. INTERAKCIÓS ESEMÉNYKEZELŐK
+     * ============================================================================
+     */
+    function selectIndex(indexId) {
+      if (state.selectedIndexId === indexId) return;
+      state.selectedIndexId = indexId;
+      state.expandedContribIds.clear();
+      state.expandedContribIds.add(indexId);
+
+      renderIndexSummaryCards();
+      renderContributorsCards();
+      updateHeaderMetrics();
+      renderMainChart();
+
+      if (!state.quoteCache[INDICES.find((i) => i.id === indexId)?.symbol]?.[state.selectedPeriod]) {
+        syncMarketData('full', false);
+      } else {
+        syncMarketData('quote', true);
+      }
+    }
+
+    function selectPeriod(periodKey) {
+      if (state.selectedPeriod === periodKey) return;
+      state.selectedPeriod = periodKey;
+      updateControlsUI();
+
+      renderIndexSummaryCards();
+      updateHeaderMetrics();
+      renderMainChart();
+
+      const activeIdx = INDICES.find((i) => i.id === state.selectedIndexId) || INDICES[0];
+      const hasCached = Boolean(state.quoteCache[activeIdx.symbol]?.[periodKey]?.ohlc?.length);
+      if (!hasCached) {
+        syncMarketData('full', false);
+      }
+    }
+
+    function setChartType(type) {
+      if (state.chartType === type) return;
+      state.chartType = type;
+      updateControlsUI();
+      renderMainChart();
+    }
+
+    function toggleContributorCard(indexId) {
+      if (state.expandedContribIds.has(indexId)) {
+        state.expandedContribIds.delete(indexId);
+        renderContributorsCards();
+      } else {
+        state.expandedContribIds.clear();
+        state.expandedContribIds.add(indexId);
+        if (state.selectedIndexId !== indexId) {
+          selectIndex(indexId);
+        } else {
+          renderContributorsCards();
+        }
+      }
+    }
+
+    function updateControlsUI() {
+      const btnLine = document.getElementById('btnTypeLine');
+      const btnCandle = document.getElementById('btnTypeCandle');
+      if (state.chartType === 'line') {
+        btnLine.className = 'px-3 py-1.5 rounded-lg text-xs font-semibold transition bg-blue-600 text-white shadow cursor-pointer';
+        btnCandle.className = 'px-3 py-1.5 rounded-lg text-xs font-semibold transition text-slate-400 hover:text-white cursor-pointer';
+      } else {
+        btnCandle.className = 'px-3 py-1.5 rounded-lg text-xs font-semibold transition bg-blue-600 text-white shadow cursor-pointer';
+        btnLine.className = 'px-3 py-1.5 rounded-lg text-xs font-semibold transition text-slate-400 hover:text-white cursor-pointer';
+      }
+
+      document.querySelectorAll('.period-btn').forEach((btn) => {
+        const p = btn.getAttribute('data-period');
+        if (p === state.selectedPeriod) {
+          btn.className = 'period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition bg-slate-700 text-white shadow cursor-pointer';
+        } else {
+          btn.className = 'period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer';
+        }
+      });
+    }
+
+    /**
+     * ============================================================================
+     * 11. FORMÁZÓ SEGÉDFÜGGVÉNYEK ÉS TOAST ÉRTESÍTÉSEK
+     * ============================================================================
+     */
+    function formatPrice(value, currency = 'USD') {
+      if (value == null || Number.isNaN(value)) return '---';
+      const code = (currency || 'USD').toUpperCase();
+      if (code === 'HUF') {
+        return value.toLocaleString('hu-HU', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' Ft (HUF)';
+      }
+      return value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ' + code;
+    }
+
+    function formatCompactNumber(value, currency = 'USD') {
+      const code = (currency || 'USD').toUpperCase();
+      if (code === 'HUF') {
+        return Math.round(value).toLocaleString('hu-HU') + ' Ft';
+      }
+      return value.toLocaleString('en-US', { maximumFractionDigits: 0 }) + ' ' + code;
+    }
+
+    function formatSignedNumber(value, currency = 'USD') {
+      if (value == null || Number.isNaN(value)) return '--';
+      const code = (currency || 'USD').toUpperCase();
+      const sign = value >= 0 ? '+' : '';
+      if (code === 'HUF') {
+        return sign + value.toLocaleString('hu-HU', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' Ft';
+      }
+      return sign + value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ' + code;
+    }
+
+    function formatSignedPct(value) {
+      if (value == null || Number.isNaN(value)) return '--%';
+      const sign = value >= 0 ? '+' : '';
+      return `${sign}${value.toFixed(2)}%`;
+    }
+
+    function formatAxisTimestamp(ms, periodKey) {
+      const d = new Date(ms);
+      if (periodKey === '1D') {
+        return d.toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit' });
+      }
+      if (periodKey === '5D') {
+        return d.toLocaleDateString('hu-HU', { month: 'short', day: 'numeric' }) + ' ' +
+               d.toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit' });
+      }
+      if (periodKey === '5Y' || periodKey === 'ALL') {
+        return d.toLocaleDateString('hu-HU', { year: 'numeric', month: 'short' });
+      }
+      return d.toLocaleDateString('hu-HU', { month: 'short', day: 'numeric' });
+    }
+
+    function formatTooltipTimestamp(ms, periodKey) {
+      const d = new Date(ms);
+      if (periodKey === '1D' || periodKey === '5D') {
+        return d.toLocaleString('hu-HU', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+      }
+      return d.toLocaleDateString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+
+    function showToast(message, color = 'blue') {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      const colorMap = {
+        emerald: 'bg-emerald-950/95 border-emerald-600/70 text-emerald-200',
+        rose: 'bg-rose-950/95 border-rose-600/70 text-rose-200',
+        amber: 'bg-amber-950/95 border-amber-600/70 text-amber-200',
+        blue: 'bg-slate-900/95 border-blue-500/70 text-blue-200',
+      };
+      toast.className = `px-4 py-2.5 rounded-xl border text-xs font-medium shadow-xl backdrop-blur-md transition-opacity duration-300 ${colorMap[color] || colorMap.blue}`;
+      toast.textContent = message;
+      container.appendChild(toast);
+
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        setTimeout(() => toast.remove(), 300);
+      }, 3200);
+    }
+
+    /**
+     * ============================================================================
+     * 12. ALKALMAZÁS INDÍTÁSA
+     * ============================================================================
+     */
+    window.addEventListener('DOMContentLoaded', () => {
+      initThemeFromStorage();
+      updateQuotaUI();
+      state.selectedPeriod = '1D';
+      state.expandedContribIds.clear();
+      state.expandedContribIds.add(state.selectedIndexId);
+      initPinModalListeners();
+      initBridgeUrlFromStorageOrHash();
+      updateControlsUI();
+      fetchGlobalTradingViewMovers(true);
+      syncMarketData('full', false).then(() => {
+        preloadAllPeriodsInBackground(false);
+      });
+    });
+  </script>
+</body>
+</html>
