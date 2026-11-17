@@ -1,152 +1,152 @@
 {
-  "lastUpdated": "2026-11-16T13:21:13.352Z",
+  "lastUpdated": "2026-11-17T03:24:15.558Z",
   "categories": {
     "technology": [
       {
-        "title": "The Nvidia scandal isn’t slowing down",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-        "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are ...",
+        "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+        "link": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+        "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to th...",
         "source": "The Verge",
-        "pubDate": 1794834000000
+        "pubDate": 1794872158000
       },
       {
-        "title": "Delivery drones are coming. For some with PTSD, that's a terrifying prospect.",
-        "link": "https://arstechnica.com/gadgets/2026/11/the-drone-delivery-boom-could-be-a-nightmare-for-people-traumatized-by-war/",
-        "summary": "For those who have lived under armed drones, the sound overhead can be distressing.",
+        "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+        "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+        "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstateme...",
+        "source": "The Verge",
+        "pubDate": 1794871054000
+      },
+      {
+        "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+        "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+        "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
         "source": "Ars Technica",
-        "pubDate": 1794830457000
+        "pubDate": 1794869907000
       },
       {
-        "title": "Amazon’s Zoox robotaxis are now available via Uber",
-        "link": "https://www.theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles",
-        "summary": "Uber may be breaking up with Waymo, but it's also gaining a new robotaxi BFF: Amazon. Starting today, Uber riders in Las Vegas can be matched with Amazon-owned Zoox's purpose-built...",
+        "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+        "link": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+        "summary": "United Airlines passenger planes are seen at gates at Newark Liberty International Airport (EWR) in Newark, New Jersey, on November 15, 2026. | AFP via Getty Images\t\n\nLess than a w...",
         "source": "The Verge",
-        "pubDate": 1794830400000
+        "pubDate": 1794869699000
       },
       {
-        "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
-        "link": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
-        "summary": "Washington Senator Maria Cantwell, one of the top Democrats on the Senate commerce committee, has taken fire at the Department of Commerce (DOC) under Secretary Howard Lutnick for ...",
-        "source": "The Verge",
-        "pubDate": 1794826800000
-      },
-      {
-        "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-        "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-        "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The com...",
-        "source": "The Verge",
-        "pubDate": 1794792416000
+        "title": "Three small failures combined to take down Microsoft 365",
+        "link": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
+        "summary": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
+        "source": "Ars Technica",
+        "pubDate": 1794866199000
       }
     ],
     "finance": [
       {
-        "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs",
-        "link": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
-        "summary": "The regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.",
+        "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+        "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+        "summary": "“If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794834060000
+        "pubDate": 1794882600000
       },
       {
-        "title": "How to use options to bet against Big Tech, while keeping risk in check",
-        "link": "https://www.marketwatch.com/story/how-to-use-options-to-bet-against-big-tech-while-keeping-risk-in-check-a2609641?mod=mw_rss_topstories",
-        "summary": "One way to bet on the continued move away from Big Tech is by buying options that give you the right to both buy and sell certain market ETFs.",
+        "title": "United Airlines resolves system outage that delayed flights Monday",
+        "link": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
+        "summary": "The outage came just days after an FAA ground stop disrupted air travel nationally.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794833580000
+        "pubDate": 1794872520000
       },
       {
-        "title": "Anthropic’s IPO is forcing investors to assess uninsurable risks they’ve never encountered before",
-        "link": "https://www.marketwatch.com/story/anthropics-ipo-is-forcing-investors-to-assess-uninsurable-risks-theyve-never-encountered-before-dea85fbf?mod=mw_rss_topstories",
-        "summary": "Who pays when AI goes rogue? Insurance giants are reluctant to touch catastrophic legal liability.",
+        "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+        "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
+        "summary": "Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794832380000
+        "pubDate": 1794871680000
       },
       {
-        "title": "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil",
-        "link": "https://www.marketwatch.com/story/why-this-40-year-market-veteran-is-making-a-lonely-bet-on-a-40-stock-market-crash-and-500-oil-c62aefdb?mod=mw_rss_topstories",
-        "summary": "Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.",
+        "title": "Do Amazon’s Black Friday deals really save you money? A new report casts doubt.",
+        "link": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
+        "summary": "Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794832320000
+        "pubDate": 1794870240000
       },
       {
-        "title": "Three questions for anyone considering the Nvidia CEO job",
-        "link": "https://www.marketwatch.com/story/three-questions-for-anyone-considering-the-nvidia-ceo-job-08ef8120?mod=mw_rss_topstories",
-        "summary": "Colette Kress’s first earnings call as interim CEO offers a glimpse of Nvidia after Jensen Huang. Plus, Anthropic’s coming IPO and why some gamers may call in sick this week.",
+        "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+        "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+        "summary": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
         "source": "MarketWatch.com - Top Stories",
-        "pubDate": 1794831420000
+        "pubDate": 1794870000000
       }
     ],
     "business": [
       {
-        "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
-        "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-        "summary": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
-        "source": "BBC News",
-        "pubDate": 1794835173000
-      },
-      {
-        "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+        "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
         "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-        "summary": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+        "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
         "source": "BBC News",
-        "pubDate": 1794831649000
+        "pubDate": 1794883073000
       },
       {
-        "title": "Avoid this Black Friday scam - how to check it's a real deal",
-        "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
-        "summary": "Sales and the looming tax deadline mean more scams - here's how to make sure you don't get caught out.",
+        "title": "Customers report service outages at major US banks",
+        "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+        "summary": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
         "source": "BBC News",
-        "pubDate": 1794823132000
+        "pubDate": 1794874681000
       },
       {
-        "title": "Gas starts flowing from Jackdaw after government green light",
-        "link": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
-        "summary": "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.",
+        "title": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+        "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+        "summary": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
         "source": "BBC News",
-        "pubDate": 1794810248000
+        "pubDate": 1794873603000
       },
       {
-        "title": "Thrift shop asks shoppers to nominate a charity",
-        "link": "https://www.bbc.co.uk/news/articles/c804wp1y2ky1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The owners want customers and donors to decide what charities benefit each month.",
+        "title": "We couldn't afford a house alone, so we bought one with strangers",
+        "link": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+        "summary": "People who can't afford to get on the housing ladder are buying homes with people they don't know.",
         "source": "BBC News",
-        "pubDate": 1794809019000
+        "pubDate": 1794873602000
+      },
+      {
+        "title": "California sues OpenAI over Hugging Face attack",
+        "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+        "summary": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+        "source": "BBC News",
+        "pubDate": 1794870744000
       }
     ],
     "world": [
       {
-        "title": "Bahrain Convicts Dozens of Shiite Clerics in Sweeping Terrorism Trial",
-        "link": "https://www.nytimes.com/2026/11/16/world/middleeast/bahrain-shiite-clerics-convicted.html",
-        "summary": "The defendants were accused of colluding with Iran. Rights groups said the case raised concerns about religious persecution in Bahrain, which is ruled by a Sunni monarchy.",
-        "source": "NYT > World News",
-        "pubDate": 1794833695000
-      },
-      {
-        "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
-        "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-        "summary": "Germany, Denmark, Austria, Greece and the Netherlands are expected to announce a \"return hub\" for failed asylum seekers.",
+        "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+        "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+        "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
         "source": "BBC News",
-        "pubDate": 1794833684000
-      },
-      {
-        "title": "Winter Nightmare Looms Early in Ukraine as Russia Strikes Relentlessly",
-        "link": "https://www.nytimes.com/2026/11/16/world/europe/russia-ukraine-winter-campaign.html",
-        "summary": "Even as it talks peace, Russia has opened a bombing campaign intended to strip Kyiv and other cities of heat, running water and sanitation this winter.",
-        "source": "NYT > World News",
-        "pubDate": 1794833408000
+        "pubDate": 1794883073000
       },
       {
         "title": "Pope Endures Grueling Travel in South America Weeks After Surgery",
         "link": "https://www.nytimes.com/2026/11/16/world/europe/pope-leo-peru-health.html",
         "summary": "When doctors operated on Pope Leo XIV’s lung in October, some wondered if he’d postpone a long-planned trip to South America. It’s gone well so far.",
         "source": "NYT > World News",
-        "pubDate": 1794832991000
+        "pubDate": 1794877792000
       },
       {
-        "title": "Ashes of exiled Nobel Laureate Miguel Ángel Asturias returned to Guatemala",
-        "link": "https://www.bbc.co.uk/news/articles/cvde1klewg88o?at_medium=RSS&at_campaign=rss",
-        "summary": "The poet, writer and diplomat died in Europe in 1974 having been forced to leave his native country.",
+        "title": "Five EU countries announce migrant deportation centre in Rwanda",
+        "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+        "summary": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
         "source": "BBC News",
-        "pubDate": 1794832934000
+        "pubDate": 1794871245000
+      },
+      {
+        "title": "Study Hard, Get a Career and Get Ahead? It’s Not What It Used to Be.",
+        "link": "https://www.nytimes.com/2026/11/13/world/europe/education-meritocracy.html",
+        "summary": "From India to France, the implicit meritocratic bargain that underwrote stable societies by providing advancement to new generations is breaking down.",
+        "source": "NYT > World News",
+        "pubDate": 1794867290000
+      },
+      {
+        "title": "10 Numbers That Might Change How You See Asia",
+        "link": "https://www.nytimes.com/2026/11/16/world/asia/asean-trade-security-technology.html",
+        "summary": "From semiconductor dominance to new power grids, defense deals and K-pop, the region — beyond China — is becoming increasingly interconnected and self-reliant.",
+        "source": "NYT > World News",
+        "pubDate": 1794867250000
       }
     ]
   }
