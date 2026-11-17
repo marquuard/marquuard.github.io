@@ -2375,6 +2375,9 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
         const ds = chart.data.datasets[0];
         if (ds && ds.data.length > 0) {
           ds.data[ds.data.length - 1] = lastPoint.c;
+          if (chart.scales?.y) {
+            chart.scales.y.width = Math.max(chart.scales.y.width || 0, 82);
+          }
           chart.update('none');
         }
       } else {
@@ -2383,6 +2386,9 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
         if (bodyDs && bodyDs.data.length > 0) {
           bodyDs.data[bodyDs.data.length - 1] = [lastPoint.o, lastPoint.c];
           wickDs.data[wickDs.data.length - 1] = [lastPoint.l, lastPoint.h];
+          if (chart.scales?.y) {
+            chart.scales.y.width = Math.max(chart.scales.y.width || 0, 82);
+          }
           chart.update('none');
         }
       }
@@ -3024,6 +3030,11 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
         options: {
           responsive: true,
           maintainAspectRatio: false,
+          layout: {
+            padding: {
+              right: 8,
+            },
+          },
           animation: { duration: 150 },
           interaction: { mode: 'index', intersect: false },
           plugins: {
@@ -3074,9 +3085,13 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
               beginAtZero: false,
               min: yMin,
               max: yMax,
+              afterFit(scale) {
+                scale.width = Math.max(scale.width, 82);
+              },
               grid: { color: gridColor },
               ticks: {
                 color: tickColor,
+                padding: 6,
                 font: { family: 'JetBrains Mono', size: 11 },
                 callback(val) {
                   return formatCompactNumber(val, activeIdx.currency);
