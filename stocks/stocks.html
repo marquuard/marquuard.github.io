@@ -23,6 +23,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
+    html, body {
+      overflow-x: hidden;
+      max-width: 100%;
+    }
     body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
     .font-mono { font-family: 'JetBrains Mono', monospace; }
     .glass-panel {
@@ -80,43 +84,43 @@
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col selection:bg-blue-500 selection:text-white transition-colors duration-200">
 
   <!-- Felső navigációs és státusz sáv -->
-  <header class="sticky top-0 z-30 border-b border-slate-800/90 bg-slate-950/90 backdrop-blur-md">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex flex-wrap items-center justify-between gap-3">
+  <header class="sticky top-0 z-30 border-b border-slate-800/90 bg-slate-950/90 backdrop-blur-md w-full max-w-full">
+    <div class="max-w-7xl w-full mx-auto px-3.5 sm:px-6 py-3 sm:py-3.5 flex flex-wrap items-center justify-between gap-2.5 sm:gap-3">
       <!-- Márka + Állapot -->
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-blue-500/20 border border-blue-400/30">
+      <div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-blue-500/20 border border-blue-400/30 shrink-0">
           <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3 17l6-6 4 4 8-8M14 7h7v7" />
           </svg>
         </div>
-        <div>
-          <div class="flex flex-wrap items-center gap-2">
-            <h1 class="text-lg sm:text-xl font-bold tracking-tight text-white">IndexPulse</h1>
-            <span id="connectionBadge" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+        <div class="min-w-0">
+          <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+            <h1 class="text-base sm:text-xl font-bold tracking-tight text-white">IndexPulse</h1>
+            <span id="connectionBadge" class="inline-flex items-center gap-1.5 px-2 sm:px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
               <span id="connectionDot" class="w-1.5 h-1.5 rounded-full bg-emerald-400 beacon-dot"></span>
               <span id="connectionText">Élő Adatkapcsolat</span>
             </span>
             <span id="latencyBadge" class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-mono bg-slate-800/90 text-slate-300 border border-slate-700/80">
               -- ms
             </span>
-            <span id="preloadStatusBadge" class="hidden inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-blue-500/15 text-blue-300 border border-blue-500/35">
+            <span id="preloadStatusBadge" class="hidden inline-flex items-center gap-1.5 px-2 sm:px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-mono font-semibold bg-blue-500/15 text-blue-300 border border-blue-500/35">
               <span class="w-1.5 h-1.5 rounded-full bg-blue-400 animate-ping"></span>
               <span id="preloadStatusText">Előtöltés: 0/7</span>
             </span>
-            <button type="button" onclick="openPinModal()" id="workerQuotaBadge" title="Cloudflare Worker napi kvóta (UTC 00:00-kor nullázódik) — kattints a részletekért" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-slate-800/90 hover:bg-slate-700/90 text-slate-300 border border-slate-700 transition cursor-pointer">
+            <button type="button" onclick="openPinModal()" id="workerQuotaBadge" title="Cloudflare Worker napi kvóta (UTC 00:00-kor nullázódik) — kattints a részletekért" class="inline-flex items-center gap-1.5 px-2 sm:px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-mono font-semibold bg-slate-800/90 hover:bg-slate-700/90 text-slate-300 border border-slate-700 transition cursor-pointer">
               <span id="workerQuotaDot" class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
               <span id="workerQuotaText">Kvóta: 0 / 100k (0.0%)</span>
             </button>
           </div>
-          <p id="lastUpdatedLabel" class="text-xs text-slate-400 mt-0.5">
+          <p id="lastUpdatedLabel" class="text-[11px] sm:text-xs text-slate-400 mt-0.5 truncate">
             Kapcsolódás a Cloudflare Edge szerverhez...
           </p>
         </div>
       </div>
 
       <!-- Vezérlők + Kerek témaváltó ikon kívül a jobb szélen -->
-      <div class="flex items-center gap-2.5">
-        <div class="flex items-center gap-1.5 bg-slate-900 border border-slate-800 rounded-xl px-2.5 py-1.5">
+      <div class="flex flex-wrap items-center gap-1.5 sm:gap-2.5 w-full sm:w-auto justify-between sm:justify-end">
+        <div class="flex items-center gap-1.5 bg-slate-900 border border-slate-800 rounded-xl px-2 sm:px-2.5 py-1.5">
           <span class="text-[11px] font-medium text-slate-400 hidden md:inline">Élő frissítés:</span>
           <select id="pollIntervalSelect" onchange="changePollInterval(this.value)" class="bg-transparent text-xs font-mono font-semibold text-emerald-300 focus:outline-none cursor-pointer">
             <option value="1000" selected class="bg-slate-900 text-white">1 mp (Ultra)</option>
@@ -127,18 +131,19 @@
           </select>
         </div>
 
-        <button onclick="manualRefreshAll()" id="refreshBtn" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition cursor-pointer">
-          <svg id="refreshIcon" class="w-3.5 h-3.5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+        <button onclick="manualRefreshAll()" id="refreshBtn" class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-xl text-xs font-semibold bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition cursor-pointer">
+          <svg id="refreshIcon" class="w-3.5 h-3.5 text-blue-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
           </svg>
           <span>Frissítés</span>
         </button>
 
-        <button onclick="openPinModal()" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/40 transition cursor-pointer">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+        <button onclick="openPinModal()" class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-xl text-xs font-semibold bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/40 transition cursor-pointer">
+          <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
           </svg>
-          <span>Worker URL Beállítása</span>
+          <span class="hidden xs:inline sm:inline">Worker URL</span>
+          <span class="hidden md:inline">Beállítása</span>
         </button>
 
         <button id="themeToggleBtn" type="button" onclick="toggleTheme()" aria-label="Téma váltása" title="Világos mód bekapcsolása" class="w-9 h-9 rounded-full inline-flex items-center justify-center bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 shadow-sm transition cursor-pointer shrink-0">
@@ -155,68 +160,68 @@
   </header>
 
   <!-- Fő tartalom -->
-  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
+  <main class="flex-1 max-w-7xl w-full mx-auto px-3.5 sm:px-6 py-4 sm:py-6 space-y-5 sm:space-y-6 overflow-x-hidden">
 
     <!-- 4 Fő Index Összefoglaló Kártya -->
-    <section id="indexCardsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></section>
+    <section id="indexCardsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4 w-full min-w-0"></section>
 
     <!-- Interaktív Grafikon Szekció -->
-    <section class="glass-panel rounded-2xl border border-slate-800/90 p-4 sm:p-6 shadow-2xl">
-      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-5 border-b border-slate-800/80">
-        <div class="flex flex-col items-start gap-2">
-          <h2 id="chartMainTitle" class="text-lg sm:text-xl font-bold text-white">S&P 500 (^GSPC)</h2>
-          <span id="chartChangeBadge" class="inline-flex items-center px-2.5 py-0.5 rounded-lg text-xs font-mono font-bold bg-slate-800 text-slate-300">
+    <section class="glass-panel rounded-2xl border border-slate-800/90 p-3.5 sm:p-6 shadow-2xl w-full min-w-0 overflow-hidden">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3.5 sm:gap-4 pb-4 sm:pb-5 border-b border-slate-800/80 min-w-0">
+        <div class="flex flex-col items-start gap-2 min-w-0 max-w-full">
+          <h2 id="chartMainTitle" class="text-base sm:text-xl font-bold text-white break-words max-w-full">S&P 500 (^GSPC)</h2>
+          <span id="chartChangeBadge" class="inline-flex flex-wrap items-center px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-mono font-bold bg-slate-800 text-slate-300 max-w-full break-words">
             Betöltés...
           </span>
         </div>
 
-        <div class="flex flex-wrap items-center gap-2.5">
+        <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 min-w-0 max-w-full">
           <!-- Grafikon típus kapcsoló -->
-          <div class="inline-flex rounded-xl bg-slate-900 p-1 border border-slate-800">
-            <button id="btnTypeLine" onclick="setChartType('line')" class="px-3 py-1.5 rounded-lg text-xs font-semibold transition bg-blue-600 text-white shadow cursor-pointer">
+          <div class="inline-flex rounded-xl bg-slate-900 p-1 border border-slate-800 max-w-full">
+            <button id="btnTypeLine" onclick="setChartType('line')" class="px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold transition bg-blue-600 text-white shadow cursor-pointer">
               Vonaldiagram
             </button>
-            <button id="btnTypeCandle" onclick="setChartType('candlestick')" class="px-3 py-1.5 rounded-lg text-xs font-semibold transition text-slate-400 hover:text-white cursor-pointer">
+            <button id="btnTypeCandle" onclick="setChartType('candlestick')" class="px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold transition text-slate-400 hover:text-white cursor-pointer">
               Gyertyadiagram
             </button>
           </div>
 
           <!-- Időperiódus választó -->
-          <div id="periodButtonsGroup" class="inline-flex flex-wrap rounded-xl bg-slate-900 p-1 border border-slate-800 gap-0.5">
-            <button data-period="1D" onclick="selectPeriod('1D')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition bg-slate-700 text-white cursor-pointer">1D</button>
-            <button data-period="5D" onclick="selectPeriod('5D')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">5D</button>
-            <button data-period="1M" onclick="selectPeriod('1M')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">1M</button>
-            <button data-period="6M" onclick="selectPeriod('6M')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">6M</button>
-            <button data-period="YTD" onclick="selectPeriod('YTD')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">YTD</button>
-            <button data-period="1Y" onclick="selectPeriod('1Y')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">1Y</button>
-            <button data-period="5Y" onclick="selectPeriod('5Y')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">5Y</button>
-            <button data-period="ALL" onclick="selectPeriod('ALL')" class="period-btn px-2.5 py-1.5 rounded-lg text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">ALL</button>
+          <div id="periodButtonsGroup" class="inline-flex flex-wrap rounded-xl bg-slate-900 p-1 border border-slate-800 gap-0.5 max-w-full">
+            <button data-period="1D" onclick="selectPeriod('1D')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition bg-slate-700 text-white cursor-pointer">1D</button>
+            <button data-period="5D" onclick="selectPeriod('5D')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">5D</button>
+            <button data-period="1M" onclick="selectPeriod('1M')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">1M</button>
+            <button data-period="6M" onclick="selectPeriod('6M')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">6M</button>
+            <button data-period="YTD" onclick="selectPeriod('YTD')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">YTD</button>
+            <button data-period="1Y" onclick="selectPeriod('1Y')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">1Y</button>
+            <button data-period="5Y" onclick="selectPeriod('5Y')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">5Y</button>
+            <button data-period="ALL" onclick="selectPeriod('ALL')" class="period-btn px-2 sm:px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-mono font-semibold transition text-slate-400 hover:text-white cursor-pointer">ALL</button>
           </div>
         </div>
       </div>
 
       <!-- OHLC Gyorsmérő sáv -->
-      <div id="ohlcSummaryBar" class="grid grid-cols-2 sm:grid-cols-4 gap-3 py-3.5 px-1 text-xs border-b border-slate-800/60">
-        <div>
+      <div id="ohlcSummaryBar" class="grid grid-cols-2 sm:grid-cols-4 gap-3 py-3.5 px-1 text-xs border-b border-slate-800/60 min-w-0">
+        <div class="min-w-0">
           <span class="text-slate-500 block">Időszak Nyitó</span>
-          <span id="statOpen" class="font-mono font-semibold text-slate-200">--</span>
+          <span id="statOpen" class="font-mono font-semibold text-slate-200 block truncate">--</span>
         </div>
-        <div>
+        <div class="min-w-0">
           <span class="text-slate-500 block">Időszak Maximum</span>
-          <span id="statHigh" class="font-mono font-semibold text-emerald-400">--</span>
+          <span id="statHigh" class="font-mono font-semibold text-emerald-400 block truncate">--</span>
         </div>
-        <div>
+        <div class="min-w-0">
           <span class="text-slate-500 block">Időszak Minimum</span>
-          <span id="statLow" class="font-mono font-semibold text-rose-400">--</span>
+          <span id="statLow" class="font-mono font-semibold text-rose-400 block truncate">--</span>
         </div>
-        <div>
+        <div class="min-w-0">
           <span class="text-slate-500 block">Előző Záró / Bázis</span>
-          <span id="statPrevClose" class="font-mono font-semibold text-slate-200">--</span>
+          <span id="statPrevClose" class="font-mono font-semibold text-slate-200 block truncate">--</span>
         </div>
       </div>
 
       <!-- Canvas konténer -->
-      <div class="relative w-full h-[340px] sm:h-[400px] mt-4">
+      <div class="relative w-full h-[290px] sm:h-[400px] mt-4 min-w-0 overflow-hidden">
         <div id="chartLoadingOverlay" class="hidden absolute inset-0 z-10 bg-slate-950/75 backdrop-blur-xs rounded-xl flex flex-col items-center justify-center gap-3">
           <div class="w-8 h-8 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
           <span class="text-xs font-medium text-slate-300">Adatok betöltése a Cloudflare Edge-ről...</span>
@@ -226,39 +231,39 @@
     </section>
 
     <!-- Indexek Top 5 Contributor Részvényei (1 oszlopos, aktív index mindig legfelül) -->
-    <section class="space-y-4">
+    <section class="space-y-4 min-w-0">
       <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
         <div>
-          <h2 class="text-lg font-bold text-white">Indexek Top 5 Contributor Részvényei</h2>
+          <h2 class="text-base sm:text-lg font-bold text-white">Indexek Top 5 Contributor Részvényei</h2>
         </div>
         <div class="text-xs font-mono text-slate-400">
           Kattints bármelyik kártyára a lenyitáshoz vagy bezáráshoz
         </div>
       </div>
 
-      <div id="contributorsGrid" class="grid grid-cols-1 gap-4"></div>
+      <div id="contributorsGrid" class="grid grid-cols-1 gap-4 min-w-0"></div>
     </section>
 
     <!-- Globális Napi Top 10 Nyertes & Top 10 Vesztes -->
-    <section class="space-y-4 pt-2">
+    <section class="space-y-4 pt-2 min-w-0">
       <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
         <div>
-          <h2 class="text-lg font-bold text-white">Globális Napi Top 10 Nyertes & Top 10 Vesztes</h2>
+          <h2 class="text-base sm:text-lg font-bold text-white">Globális Napi Top 10 Nyertes & Top 10 Vesztes</h2>
         </div>
         <div id="dailyMoversUpdatedTag" class="text-xs font-mono text-slate-400">
           Globális élő szinkron...
         </div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 min-w-0">
         <!-- Bal oszlop: Top 10 Nyertes -->
-        <div class="glass-panel rounded-2xl border border-slate-800/90 p-5">
-          <div class="flex items-center justify-between pb-3.5 mb-3 border-b border-slate-800/80">
-            <div class="flex items-center gap-2">
-              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-              <h3 class="text-base font-bold text-white">Napi Top 10 Nyertes</h3>
+        <div class="glass-panel rounded-2xl border border-slate-800/90 p-3.5 sm:p-5 min-w-0 overflow-hidden">
+          <div class="flex items-center justify-between gap-2 pb-3.5 mb-3 border-b border-slate-800/80">
+            <div class="flex items-center gap-2 min-w-0">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shrink-0"></span>
+              <h3 class="text-sm sm:text-base font-bold text-white truncate">Napi Top 10 Nyertes</h3>
             </div>
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+            <span class="px-2 py-0.5 rounded-md text-[10px] sm:text-[11px] font-mono font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 whitespace-nowrap shrink-0">
               ▲ TOP 10 GAINERS
             </span>
           </div>
@@ -266,13 +271,13 @@
         </div>
 
         <!-- Jobb oszlop: Top 10 Vesztes -->
-        <div class="glass-panel rounded-2xl border border-slate-800/90 p-5">
-          <div class="flex items-center justify-between pb-3.5 mb-3 border-b border-slate-800/80">
-            <div class="flex items-center gap-2">
-              <span class="w-2.5 h-2.5 rounded-full bg-rose-400"></span>
-              <h3 class="text-base font-bold text-white">Napi Top 10 Vesztes</h3>
+        <div class="glass-panel rounded-2xl border border-slate-800/90 p-3.5 sm:p-5 min-w-0 overflow-hidden">
+          <div class="flex items-center justify-between gap-2 pb-3.5 mb-3 border-b border-slate-800/80">
+            <div class="flex items-center gap-2 min-w-0">
+              <span class="w-2.5 h-2.5 rounded-full bg-rose-400 shrink-0"></span>
+              <h3 class="text-sm sm:text-base font-bold text-white truncate">Napi Top 10 Vesztes</h3>
             </div>
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-rose-500/15 text-rose-300 border border-rose-500/30">
+            <span class="px-2 py-0.5 rounded-md text-[10px] sm:text-[11px] font-mono font-semibold bg-rose-500/15 text-rose-300 border border-rose-500/30 whitespace-nowrap shrink-0">
               ▼ TOP 10 LOSERS
             </span>
           </div>
@@ -284,10 +289,10 @@
   </main>
 
   <!-- Lábléc -->
-  <footer class="border-t border-slate-800/80 bg-slate-950/80 py-4 px-4 sm:px-6 text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-      <span>IndexPulse Terminál • Cloudflare Workers Edge API + TradingView Global Scanner</span>
-      <span id="activeBridgeDisplay" class="font-mono text-slate-400 truncate max-w-md"></span>
+  <footer class="border-t border-slate-800/80 bg-slate-950/80 py-4 px-3.5 sm:px-6 text-xs text-slate-500 w-full max-w-full overflow-hidden">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 min-w-0">
+      <span class="text-center sm:text-left">IndexPulse Terminál • Cloudflare Workers Edge API + TradingView Global Scanner</span>
+      <span id="activeBridgeDisplay" class="font-mono text-slate-400 truncate max-w-full sm:max-w-md"></span>
     </div>
   </footer>
 
@@ -2514,8 +2519,8 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
         : 'bg-rose-500/15 text-rose-300 border border-rose-500/30';
 
       return `
-        <div class="flex items-center justify-between gap-3 px-3.5 py-2.5 rounded-xl bg-slate-900/75 border border-slate-800/80 hover:border-slate-700 transition">
-          <div class="flex items-center gap-3 min-w-0">
+        <div class="flex items-center justify-between gap-2.5 sm:gap-3 px-3 sm:px-3.5 py-2.5 rounded-xl bg-slate-900/75 border border-slate-800/80 hover:border-slate-700 transition min-w-0">
+          <div class="flex items-center gap-2.5 sm:gap-3 min-w-0 flex-1">
             <span class="w-5 text-xs font-mono font-bold text-slate-500 shrink-0">${rank}.</span>
             <div class="w-8 h-8 rounded-lg bg-white border border-slate-700/60 flex items-center justify-center overflow-hidden shrink-0 shadow-xs">
               ${logoSrc
@@ -2524,14 +2529,14 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
                 : `<span class="text-[10px] font-mono font-bold text-slate-900">${initials}</span>`
               }
             </div>
-            <div class="min-w-0">
+            <div class="min-w-0 flex-1">
               <div class="text-sm font-semibold text-white truncate">${item.name}</div>
               <div class="text-[11px] font-mono text-slate-400 truncate">${item.symbol}${item.region ? ` • ${item.region}` : ''} • ${currCode}</div>
             </div>
           </div>
-          <div class="flex items-center gap-2.5 shrink-0">
+          <div class="flex items-center gap-2 sm:gap-2.5 shrink-0">
             <span class="text-xs font-mono font-semibold text-slate-300 hidden sm:inline">${priceStr}</span>
-            <span class="px-2.5 py-1 rounded-lg text-xs font-mono font-bold ${badgeCls}">
+            <span class="px-2 sm:px-2.5 py-1 rounded-lg text-xs font-mono font-bold whitespace-nowrap ${badgeCls}">
               ${pctStr}
             </span>
           </div>
@@ -2681,15 +2686,15 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
         return `
           <button
             onclick="selectIndex('${idx.id}')"
-            class="card-hover text-left rounded-2xl p-4 sm:p-5 border transition cursor-pointer relative overflow-hidden flex flex-col justify-between h-full ${
+            class="w-full min-w-0 card-hover text-left rounded-2xl p-4 sm:p-5 border transition cursor-pointer relative overflow-hidden flex flex-col justify-between h-full ${
               isSelected
                 ? 'bg-slate-900 border-blue-500/80 shadow-lg shadow-blue-500/10 ring-1 ring-blue-500/40'
                 : 'glass-panel border-slate-800/90 hover:border-slate-700'
             }"
           >
-            <div class="w-full">
-              <div class="flex items-start justify-between gap-2">
-                <div class="min-w-0">
+            <div class="w-full min-w-0">
+              <div class="flex items-start justify-between gap-2 min-w-0">
+                <div class="min-w-0 flex-1">
                   <span class="text-[11px] font-medium text-slate-400 block truncate">${idx.region}</span>
                   <div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
                     <h3 class="text-base font-bold text-white whitespace-nowrap">${idx.shortName}</h3>
@@ -2707,22 +2712,22 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
                 </span>
               </div>
 
-              <div class="mt-4">
-                <div data-live-price="${idx.symbol}" data-raw-price="${data ? data.currentPrice : ''}" class="text-xl xl:text-2xl font-mono font-bold tracking-tight text-white whitespace-nowrap">
+              <div class="mt-4 min-w-0">
+                <div data-live-price="${idx.symbol}" data-raw-price="${data ? data.currentPrice : ''}" class="text-lg sm:text-xl xl:text-2xl font-mono font-bold tracking-tight text-white whitespace-nowrap">
                   ${priceFormatted}
                 </div>
-                <div data-live-abs="${idx.symbol}" class="text-xs font-mono mt-1 whitespace-nowrap ${data ? (isPos ? 'text-emerald-400' : 'text-rose-400') : 'text-slate-500'}">
+                <div data-live-abs="${idx.symbol}" class="text-xs font-mono mt-1 whitespace-nowrap truncate ${data ? (isPos ? 'text-emerald-400' : 'text-rose-400') : 'text-slate-500'}">
                   ${absFormatted}
                 </div>
               </div>
             </div>
 
-            <div class="w-full mt-3 pt-2.5 border-t border-slate-800/70 flex items-center justify-between text-[11px] text-slate-400">
-              <div class="flex items-center gap-1.5">
+            <div class="w-full min-w-0 mt-3 pt-2.5 border-t border-slate-800/70 flex items-center justify-between gap-2 text-[11px] text-slate-400">
+              <div class="flex items-center gap-1.5 shrink-0">
                 <span class="font-mono">${idx.symbol}</span>
                 <span class="px-1.5 py-0.2 rounded bg-slate-800/90 text-slate-300 border border-slate-700/70 font-mono text-[10px]">${idx.currency}</span>
               </div>
-              <span class="${isSelected ? 'text-blue-400 font-semibold' : ''}">
+              <span class="truncate ${isSelected ? 'text-blue-400 font-semibold' : ''}">
                 ${isSelected ? '● Aktív grafikon' : 'Kattints a grafikonhoz →'}
               </span>
             </div>
@@ -2755,27 +2760,27 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
           const prePctStr = hasPre ? formatSignedPct(cData.preMarketChangePct) : '';
 
           return `
-            <div class="flex items-center justify-between gap-3 py-2.5 px-3 rounded-xl bg-slate-900/60 border border-slate-800/70 hover:border-slate-700/90 transition">
-              <div class="min-w-0">
-                <div class="flex items-center gap-2">
+            <div class="flex items-center justify-between gap-2.5 sm:gap-3 py-2.5 px-3 rounded-xl bg-slate-900/60 border border-slate-800/70 hover:border-slate-700/90 transition min-w-0">
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-2 flex-wrap">
                   <span class="font-mono font-bold text-xs text-white">${c.symbol.replace('.BD', '')}</span>
                   <span class="text-[11px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">Súly: ${c.weight.toFixed(1)}%</span>
                 </div>
                 <p class="text-xs text-slate-400 truncate mt-0.5">${c.name}</p>
               </div>
 
-              <div class="flex items-center gap-3 shrink-0">
+              <div class="flex items-center gap-2 sm:gap-3 shrink-0">
                 <div class="text-right">
-                  <div data-live-cprice="${idx.id}_${c.symbol}" data-raw-price="${cData ? cData.currentPrice : ''}" class="font-mono text-xs font-semibold text-slate-200">${priceStr}</div>
+                  <div data-live-cprice="${idx.id}_${c.symbol}" data-raw-price="${cData ? cData.currentPrice : ''}" class="font-mono text-xs font-semibold text-slate-200 whitespace-nowrap">${priceStr}</div>
                   ${hasPre ? `
-                    <div class="text-[10px] font-mono mt-0.5 flex items-center justify-end gap-1">
+                    <div class="text-[10px] font-mono mt-0.5 flex items-center justify-end gap-1 whitespace-nowrap">
                       <span class="px-1 py-0.2 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30 font-semibold">PRE</span>
                       <span class="text-slate-300">${prePriceStr}</span>
                       <span class="${prePos ? 'text-emerald-400' : 'text-rose-400'}">(${prePctStr})</span>
                     </div>
                   ` : ''}
                 </div>
-                <span data-live-cpct="${idx.id}_${c.symbol}" class="px-2 py-0.5 rounded-md text-xs font-mono font-bold ${
+                <span data-live-cpct="${idx.id}_${c.symbol}" class="px-2 py-0.5 rounded-md text-xs font-mono font-bold whitespace-nowrap ${
                   cData
                     ? (isPos ? 'bg-emerald-500/15 text-emerald-300' : 'bg-rose-500/15 text-rose-300')
                     : 'bg-slate-800 text-slate-400'
@@ -2788,29 +2793,29 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
         }).join('');
 
         return `
-          <div class="glass-panel rounded-2xl border ${isExpanded ? 'border-slate-700' : 'border-slate-800/90'} overflow-hidden transition">
+          <div class="glass-panel rounded-2xl border ${isExpanded ? 'border-slate-700' : 'border-slate-800/90'} overflow-hidden transition min-w-0">
             <button
               onclick="toggleContributorCard('${idx.id}')"
-              class="w-full px-5 py-4 flex items-center justify-between gap-3 hover:bg-slate-800/40 transition cursor-pointer text-left"
+              class="w-full min-w-0 px-3.5 sm:px-5 py-4 flex items-center justify-between gap-2.5 sm:gap-3 hover:bg-slate-800/40 transition cursor-pointer text-left"
             >
-              <div class="flex items-center gap-3">
-                <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${idx.accent}"></span>
-                <div>
+              <div class="flex items-center gap-2.5 sm:gap-3 min-w-0 flex-1">
+                <span class="w-2.5 h-2.5 rounded-full shrink-0" style="background-color: ${idx.accent}"></span>
+                <div class="min-w-0 flex-1">
                   <div class="flex items-center gap-2">
-                    <h3 class="text-sm sm:text-base font-bold text-white">${idx.name}</h3>
-                    <span class="px-1.5 py-0.5 rounded bg-slate-800/90 text-slate-300 border border-slate-700/70 font-mono text-[10px]">${idx.currency}</span>
+                    <h3 class="text-sm sm:text-base font-bold text-white truncate">${idx.name}</h3>
+                    <span class="px-1.5 py-0.5 rounded bg-slate-800/90 text-slate-300 border border-slate-700/70 font-mono text-[10px] shrink-0">${idx.currency}</span>
                   </div>
-                  <span class="text-xs text-slate-400">Top 5 komponens súlyozás • Napi teljesítmény (${idx.currency})</span>
+                  <span class="text-xs text-slate-400 block truncate">Top 5 komponens súlyozás • Napi teljesítmény (${idx.currency})</span>
                 </div>
               </div>
 
-              <div class="flex items-center gap-3">
+              <div class="flex items-center gap-2 sm:gap-3 shrink-0">
                 ${idxData ? `
-                  <span class="text-xs font-mono font-bold ${idxPos ? 'text-emerald-400' : 'text-rose-400'}">
+                  <span class="text-xs font-mono font-bold whitespace-nowrap ${idxPos ? 'text-emerald-400' : 'text-rose-400'}">
                     ${formatSignedPct(idxData.changePct)}
                   </span>
                 ` : ''}
-                <div class="w-7 h-7 rounded-lg bg-slate-800/90 border border-slate-700/80 flex items-center justify-center text-slate-300">
+                <div class="w-7 h-7 rounded-lg bg-slate-800/90 border border-slate-700/80 flex items-center justify-center text-slate-300 shrink-0">
                   <svg class="w-4 h-4 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                   </svg>
@@ -2819,7 +2824,7 @@ async function buildBuxData(range, interval, mode, existingBatch, weights) {
             </button>
 
             ${isExpanded ? `
-              <div class="px-5 pb-5 pt-1 space-y-2 border-t border-slate-800/60">
+              <div class="px-3.5 sm:px-5 pb-4 sm:pb-5 pt-1 space-y-2 border-t border-slate-800/60">
                 ${rowsHtml}
               </div>
             ` : ''}
