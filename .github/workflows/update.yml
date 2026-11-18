@@ -1,0 +1,125 @@
+name: Generali hozamok frissítése
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 6 * * *"
+    - cron: "15 14 * * *"
+    - cron: "15 22 * * *"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "funds.json"
+      - "history.json"
+      - "portfolio.json"
+      - "portfolio_images/**"
+      - ".portfolio_initialized_v5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: "true"
+    steps:
+      - name: Repository letöltése
+        uses: actions/checkout@v4
+
+      - name: Python beállítása
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Python csomagok telepítése
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pillow playwright
+
+      - name: Statikus portfólió újraépítésének ellenőrzése
+        id: pcheck
+        shell: bash
+        run: |
+          if [ -f ".portfolio_initialized_v5" ]; then
+            echo "refresh=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "refresh=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Playwright Chromium telepítése
+        if: steps.pcheck.outputs.refresh == 'true'
+        run: playwright install --with-deps chromium
+
+      - name: Régi statikus portfólió törlése
+        if: steps.pcheck.outputs.refresh == 'true'
+        run: |
+          rm -f portfolio.json
+          rm -rf portfolio_images
+          mkdir -p portfolio_images
+
+      - name: Referenciaindexek és tiszta diagramblokkok létrehozása
+        if: steps.pcheck.outputs.refresh == 'true'
+        run: python portfolio_init.py
+
+      - name: Inicializálás lezárása
+        if: steps.pcheck.outputs.refresh == 'true'
+        run: printf '%s\n' "portfolio static data initialized v5" > .portfolio_initialized_v5
+
+      - name: YTD adatok lekérése
+        run: python scraper.py
+
+      - name: Adatok szigorú ellenőrzése
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          funds=json.loads(Path("funds.json").read_text(encoding="utf-8"))
+          if not isinstance(funds,list) or len(funds)!=18:
+              raise SystemExit("A funds.json nem pontosan 18 rekord.")
+
+          p=json.loads(Path("portfolio.json").read_text(encoding="utf-8"))
+          if p.get("_version")!=5:
+              raise SystemExit("A portfolio.json nem v5 formátum.")
+          pf=p.get("funds",{})
+          if len(pf)!=18:
+              raise SystemExit("A portfolio.json nem pontosan 18 rekord.")
+
+          for f in funds:
+              x=pf.get(f["id"])
+              if not x:
+                  raise SystemExit(f"Hiányzó portfóliórekord: {f['name']}")
+              if not x.get("reference_index"):
+                  raise SystemExit(f"Hiányzó referenciaindex: {f['name']}")
+              img=x.get("portfolio_image")
+              if not img or not Path(img).exists():
+                  raise SystemExit(f"Hiányzó diagram: {f['name']}")
+          print("Ellenőrzés OK: 18 alap, 18 referenciaindex, 18 tiszta diagram.")
+          PY
+
+      - name: Változások mentése
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add funds.json history.json portfolio.json portfolio_images .portfolio_initialized_v5
+          if git diff --cached --quiet; then
+            echo "Nincs mentendő változás."
+          else
+            git commit -m "Automatikus Generali adatfrissítés"
+            git push
+          fi
+
+      - name: GitHub Pages artifact készítése
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: GitHub Pages publikálása
+        uses: actions/deploy-pages@v4
