@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generali eszközalapok</title>
+
+  <!-- Chart.js betöltése a portfólió-történet diagramhoz -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("generali-theme") === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      } catch (_) {}
+    })();
+  </script>
+
+  <style>
+    :root {
+      --bg: #f4f5f7;
+      --card: #ffffff;
+      --text: #161616;
+      --muted: #6c727a;
+      --border: #dfe2e6;
+      --input: #ffffff;
+      --accent: #b21f2d;
+      --positive: #16833b;
+      --negative: #bd1e2d;
+      --shadow: 0 10px 35px rgba(0,0,0,.08);
+      --item-bg: #f8f9fa;
+      --table-hover: #f1f3f5;
+      --bar-pos: rgba(22, 131, 59, 0.18);
+      --bar-neg: rgba(189, 30, 45, 0.18);
+      --chart-line: #b21f2d;
+      --chart-bg: rgba(178, 31, 45, 0.08);
+      --chart-grid: rgba(0, 0, 0, 0.06);
+    }
+
+    html.dark {
+      --bg: #111315;
+      --card: #1b1e21;
+      --text: #f2f4f5;
+      --muted: #aeb5bb;
+      --border: #343a40;
+      --input: #24282c;
+      --accent: #ef5262;
+      --positive: #49c978;
+      --negative: #ff6878;
+      --shadow: 0 10px 35px rgba(0,0,0,.35);
+      --item-bg: #24282c;
+      --table-hover: #292e33;
+      --bar-pos: rgba(73, 201, 120, 0.22);
+      --bar-neg: rgba(255, 104, 120, 0.22);
+      --chart-line: #ef5262;
+      --chart-bg: rgba(239, 82, 98, 0.12);
+      --chart-grid: rgba(255, 255, 255, 0.06);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      transition: background .2s, color .2s;
+    }
+
+    .page {
+      width: min(1100px, calc(100% - 28px));
+      margin: 35px auto 70px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 26px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .subtitle {
+      margin: 0 0 6px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .last-update {
+      margin: 0 0 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .last-update strong {
+      color: var(--text);
+    }
+
+    .total-portfolio-card {
+      background: var(--item-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-bottom: 22px;
+      text-align: center;
+    }
+
+    .total-portfolio-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .total-portfolio-value {
+      font-size: clamp(28px, 6vw, 36px);
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    .history-chart-card {
+      background: var(--item-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 22px;
+    }
+
+    .history-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .history-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .history-chart-wrap {
+      position: relative;
+      width: 100%;
+      height: 220px;
+    }
+
+    .my-portfolio-wrap {
+      margin-bottom: 22px;
+    }
+
+    .my-portfolio-btn {
+      width: 100%;
+      background: var(--input);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 13px 18px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 11px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: border-color .2s, background-color .2s;
+    }
+
+    .my-portfolio-btn:hover {
+      border-color: var(--accent);
+    }
+
+    .my-portfolio-btn svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      transition: transform .2s ease;
+    }
+
+    .my-portfolio-btn.open svg {
+      transform: rotate(180deg);
+    }
+
+    .my-portfolio-list {
+      display: none;
+      margin-top: 10px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--item-bg);
+      padding: 14px 16px;
+      overflow-x: auto;
+    }
+
+    .portfolio-grid-header {
+      display: grid;
+      grid-template-columns: 2fr 1.1fr 1fr 1.2fr 0.8fr;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--muted);
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      font-weight: 600;
+      min-width: 520px;
+    }
+
+    .my-portfolio-row {
+      display: grid;
+      grid-template-columns: 2fr 1.1fr 1fr 1.2fr 0.8fr;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+      min-width: 520px;
+    }
+
+    .my-portfolio-row:last-child {
+      border-bottom: none;
+    }
+
+    .portfolio-fund-title {
+      font-weight: 600;
+    }
+
+    .portfolio-units {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .portfolio-price {
+      font-weight: 600;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+
+    .portfolio-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 14px;
+    }
+
+    .btn-edit-units {
+      background: transparent;
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: color .2s, border-color .2s;
+    }
+
+    .btn-edit-units:hover {
+      color: var(--text);
+      border-color: var(--text);
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+
+    .search-wrap {
+      position: relative;
+    }
+
+    #search,
+    #fundSelect {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 11px;
+      background: var(--input);
+      color: var(--text);
+      padding: 13px 15px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    #search:focus,
+    #fundSelect:focus {
+      border-color: var(--accent);
+    }
+
+    #search {
+      padding-right: 48px;
+    }
+
+    #clearSearch {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 20px;
+      display: none;
+    }
+
+    .result-count {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 5px;
+    }
+
+    .result {
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding-top: 25px;
+    }
+
+    #fundName {
+      margin: 0;
+      font-size: 23px;
+    }
+
+    .date {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .ytd-label {
+      margin-top: 25px;
+      color: var(--muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    #returnValue {
+      margin: 5px 0 0;
+      font-size: 46px;
+      font-weight: 700;
+    }
+
+    .positive { color: var(--positive) !important; }
+    .negative { color: var(--negative) !important; }
+    .neutral { color: var(--muted) !important; }
+
+    .reference {
+      margin: 24px auto 0;
+      max-width: 850px;
+      padding: 15px 18px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      text-align: left;
+    }
+
+    .reference-title {
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 6px;
+    }
+
+    .reference-value {
+      font-weight: 600;
+      line-height: 1.45;
+    }
+
+    .portfolio {
+      margin-top: 24px;
+      border-top: 1px solid var(--border);
+      padding-top: 25px;
+    }
+
+    .portfolio h2 {
+      margin: 0;
+      font-size: 19px;
+      text-align: left;
+    }
+
+    .portfolio-date {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .chart-wrap {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 10px;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .chart-wrap::-webkit-scrollbar {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+
+    .portfolio-image {
+      display: none;
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 8px;
+      background: transparent;
+      cursor: zoom-in;
+      transition: transform .15s ease;
+    }
+
+    .portfolio-image:hover {
+      transform: scale(1.01);
+    }
+
+    .portfolio-empty {
+      display: block;
+      color: var(--muted);
+      text-align: center;
+      padding: 40px 10px;
+    }
+
+    .source {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: var(--accent);
+    }
+
+    .table-section {
+      margin-top: 35px;
+      border-top: 1px solid var(--border);
+      padding-top: 25px;
+    }
+
+    .table-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 620px;
+      margin: 0 auto 10px;
+      padding: 0 4px;
+    }
+
+    .table-header-row h2 {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    .table-hint {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .table-wrap {
+      width: 100%;
+      max-width: 620px;
+      margin: 0 auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--input);
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 13.5px;
+    }
+
+    th {
+      background: var(--item-bg);
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      transition: color .2s, background-color .2s;
+    }
+
+    th:hover {
+      color: var(--text);
+      background-color: var(--table-hover);
+    }
+
+    th.col-ytd, td.col-ytd {
+      text-align: right;
+      width: 1%;
+      white-space: nowrap;
+      padding-left: 20px;
+    }
+
+    th#thYtd,
+    th#thYtd.active-sort {
+      color: var(--muted) !important;
+    }
+
+    th#thYtd:hover,
+    th#thYtd.active-sort:hover {
+      color: var(--text) !important;
+    }
+
+    .sort-indicator {
+      display: inline-block;
+      margin-left: 4px;
+      font-size: 11px;
+      opacity: 0.6;
+    }
+
+    th.active-sort {
+      color: var(--muted) !important;
+    }
+
+    th.active-sort:hover {
+      color: var(--text) !important;
+    }
+
+    th.active-sort .sort-indicator {
+      opacity: 1;
+    }
+
+    td {
+      padding: 8px 14px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      position: relative;
+    }
+
+    tbody tr {
+      cursor: pointer;
+      transition: background-color .15s ease;
+    }
+
+    tbody tr:hover {
+      background-color: var(--table-hover);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .td-name {
+      font-weight: 500;
+    }
+
+    .ytd-cell-box {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+      min-width: 110px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .ytd-bar {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 4px;
+      transition: width .3s ease;
+      z-index: 1;
+    }
+
+    .ytd-bar.positive-bar {
+      background: var(--bar-pos);
+    }
+
+    .ytd-bar.negative-bar {
+      background: var(--bar-neg);
+    }
+
+    .ytd-text {
+      position: relative;
+      z-index: 2;
+      font-weight: 700;
+      font-size: 14.5px;
+    }
+
+    .error {
+      color: var(--negative);
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* DMCA Végleges SVG Lábléc Stílus */
+    .dmca-footer-wrap {
+      margin-top: 35px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .dmca-badge-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      transition: transform .15s ease, opacity .15s ease;
+    }
+
+    .dmca-badge-link:hover {
+      transform: translateY(-1px);
+      opacity: 0.9;
+    }
+
+    .dmca-badge-svg {
+      display: block;
+      width: 150px;
+      height: 30px;
+      border-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    }
+
+    #imageModal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      cursor: zoom-out;
+      padding: 20px;
+    }
+
+    #imageModal img {
+      max-width: 95vw;
+      max-height: 90vh;
+      object-fit: contain;
+      cursor: zoom-out;
+      border-radius: 12px;
+    }
+
+    #themeToggle {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      z-index: 10;
+    }
+
+    #themeToggle svg {
+      width: 22px;
+      height: 22px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+
+    #unitsModal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 1001;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+    }
+
+    .units-modal-content {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      width: 100%;
+      max-width: 480px;
+      box-shadow: var(--shadow);
+    }
+
+    .units-modal-content h3 {
+      margin: 0 0 16px;
+      font-size: 18px;
+    }
+
+    .units-input-row {
+      margin-bottom: 12px;
+    }
+
+    .units-input-row label {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .units-input-row input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--input);
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .modal-btn-row {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .btn-modal {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-save {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .btn-cancel {
+      background: var(--item-bg);
+      color: var(--text);
+    }
+
+    @media (min-width: 700px) {
+      .controls {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .page {
+        margin-top: 15px;
+        width: min(100% - 16px, 1100px);
+      }
+
+      .card {
+        padding: 18px 14px;
+        border-radius: 14px;
+      }
+
+      h1 { font-size: 21px; }
+      #returnValue { font-size: 38px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>Generali eszközalapok</h1>
+      <p class="subtitle">Forint alapú eszközalapok II. · év elejétől számított hozam</p>
+      <div class="last-update">
+        Adatok utolsó frissítése: <strong id="workflow-last-run">Lekérés...</strong>
+      </div>
+
+      <!-- Fő portfólió kártya -->
+      <div class="total-portfolio-card">
+        <div class="total-portfolio-label">Saját portfólió aktuális értéke</div>
+        <div id="totalPortfolioHuf" class="total-portfolio-value">Számítás...</div>
+      </div>
+
+      <!-- Portfólió-érték történet diagram -->
+      <div id="historyCard" class="history-chart-card" style="display: none;">
+        <div class="history-header">
+          <span class="history-title">📈 Portfólió vagyongörbe</span>
+          <span id="historyChangeBadge" style="font-size: 12px; font-weight: 700;"></span>
+        </div>
+        <div class="history-chart-wrap">
+          <canvas id="portfolioHistoryChart"></canvas>
+        </div>
+      </div>
+
+      <div class="my-portfolio-wrap">
+        <button id="myPortfolioBtn" class="my-portfolio-btn" type="button">
+          <span>💼 Saját portfólió bontása</span>
+          <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div id="myPortfolioList" class="my-portfolio-list">
+          <div class="portfolio-grid-header">
+            <div>Eszközalap</div>
+            <div class="text-right">Nettó eszközérték</div>
+            <div class="text-right">Darabszám</div>
+            <div class="text-right">Érték (HUF)</div>
+            <div class="text-right">Súly (%)</div>
+          </div>
+          <div id="myPortfolioRows"></div>
+          <div class="portfolio-actions">
+            <button id="editUnitsBtn" class="btn-edit-units" type="button">⚙️ Darabszámok frissítése</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div>
+          <div class="search-wrap">
+            <input id="search" type="search" placeholder="Eszközalap keresése..." autocomplete="off">
+            <button id="clearSearch" type="button" aria-label="Keresés törlése">×</button>
+          </div>
+          <div id="resultCount" class="result-count"></div>
+        </div>
+
+        <select id="fundSelect" aria-label="Eszközalap kiválasztása"></select>
+      </div>
+
+      <div id="content">
+        <div class="result">
+          <h2 id="fundName">Válassz eszközalapot!</h2>
+          <div id="dateBadge" class="date"></div>
+          <div class="ytd-label">YTD hozam</div>
+          <div id="returnValue" class="neutral">–</div>
+
+          <div class="reference">
+            <div class="reference-title">Referenciaindex</div>
+            <div id="referenceValue" class="reference-value">–</div>
+          </div>
+
+          <div class="portfolio">
+            <h2>Portfólió összetétele</h2>
+            <div id="portfolioDate" class="portfolio-date"></div>
+            <div class="chart-wrap">
+              <img id="portfolioImage" class="portfolio-image" alt="Portfólió összetétele" loading="lazy" title="Kattints a kinagyításhoz">
+              <div id="portfolioEmpty" class="portfolio-empty">Válassz ki egy eszközalapot a részletekhez.</div>
+            </div>
+          </div>
+
+          <div class="source" id="sourceWrap" style="display: none;">
+            <a id="sourceLink" href="#" target="_blank" rel="noopener noreferrer">Generali eszközalap-oldal</a>
+          </div>
+        </div>
+
+        <div class="table-section">
+          <div class="table-header-row">
+            <h2>Összes eszközalap hozama</h2>
+            <span class="table-hint">Kattints a fejlécre a rendezéshez</span>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th id="thName" onclick="handleTableSort('name')">Eszközalap neve <span class="sort-indicator">▲▼</span></th>
+                  <th id="thYtd" class="col-ytd" onclick="handleTableSort('ytd')">YTD hozam <span class="sort-indicator">▲▼</span></th>
+                </tr>
+              </thead>
+              <tbody id="fundsTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- DMCA Védelem Lábléc: Beágyazott natív SVG, semmilyen AdBlocker nem tiltja -->
+      <div class="dmca-footer-wrap">
+        <a href="https://www.dmca.com/Protection/Status.aspx?ID=913f51b3-7e51-476e-aa0e-401367052aa5" title="DMCA.com Protection Status" class="dmca-badge-link" target="_blank" rel="noopener noreferrer">
+          <svg class="dmca-badge-svg" viewBox="0 0 150 30" width="150" height="30" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="30" fill="#2d3339" rx="3" ry="3"/>
+            <rect x="52" width="98" height="30" fill="#00a884" rx="3" ry="3"/>
+            <rect x="49" width="6" height="30" fill="#2d3339"/>
+            <text x="7" y="20" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="900" letter-spacing="0.5">DMCA</text>
+            <text x="59" y="20" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8">PROTECTED</text>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <div id="imageModal" aria-hidden="true">
+    <img id="modalImg" alt="Kinagyított diagram">
+  </div>
+
+  <div id="unitsModal">
+    <div class="units-modal-content">
+      <h3>Befektetési egységek (Felhő szinkron)</h3>
+      <div id="unitsInputsContainer"></div>
+      <div class="modal-btn-row">
+        <button id="cancelUnitsBtn" class="btn-modal btn-cancel" type="button">Mégse</button>
+        <button id="saveUnitsBtn" class="btn-modal btn-save" type="button">Mentés & Szinkronizálás</button>
+      </div>
+    </div>
+  </div>
+
+  <button id="themeToggle" type="button" aria-label="Dark mode" title="Dark mode"></button>
+
+  <script>
+    const JSONBIN_BIN_ID = "6aab1846ac6210605ad64a79"; 
+    const JSONBIN_API_KEY = "$2a$10$.wAFrVJnX1moDh4euoeNHeKCtJcmocpcCp07W8Q1aXqirBfMKGslu"; 
+
+    const searchInput = document.getElementById("search");
+    const clearSearch = document.getElementById("clearSearch");
+    const fundSelect = document.getElementById("fundSelect");
+    const resultCount = document.getElementById("resultCount");
+    const fundName = document.getElementById("fundName");
+    const dateBadge = document.getElementById("dateBadge");
+    const returnValue = document.getElementById("returnValue");
+    const referenceValue = document.getElementById("referenceValue");
+    const portfolioDate = document.getElementById("portfolioDate");
+    const portfolioImage = document.getElementById("portfolioImage");
+    const portfolioEmpty = document.getElementById("portfolioEmpty");
+    const sourceWrap = document.getElementById("sourceWrap");
+    const sourceLink = document.getElementById("sourceLink");
+    const themeToggle = document.getElementById("themeToggle");
+
+    const myPortfolioBtn = document.getElementById("myPortfolioBtn");
+    const myPortfolioList = document.getElementById("myPortfolioList");
+    const myPortfolioRows = document.getElementById("myPortfolioRows");
+    const totalPortfolioHuf = document.getElementById("totalPortfolioHuf");
+    const fundsTableBody = document.getElementById("fundsTableBody");
+
+    const imageModal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImg");
+
+    const unitsModal = document.getElementById("unitsModal");
+    const editUnitsBtn = document.getElementById("editUnitsBtn");
+    const cancelUnitsBtn = document.getElementById("cancelUnitsBtn");
+    const saveUnitsBtn = document.getElementById("saveUnitsBtn");
+    const unitsInputsContainer = document.getElementById("unitsInputsContainer");
+
+    const historyCard = document.getElementById("historyCard");
+    const historyChangeBadge = document.getElementById("historyChangeBadge");
+    let historyChartInstance = null;
+
+    let funds = [];
+    let portfolio = {};
+    let filteredFunds = [];
+    let portfolioHistory = [];
+
+    let currentSortColumn = "ytd";
+    let currentSortAsc = false;
+
+    let activeUnits = {
+      "tallozo": 114542.676,
+      "horizont-10": 207670.400,
+      "hazai-reszveny": 214985.923,
+      "innovacio": 152078.356
+    };
+
+    async function fetchCloudUnits() {
+      if (!JSONBIN_BIN_ID || JSONBIN_BIN_ID.includes("IDE_MASOLD")) {
+        return activeUnits;
+      }
+      try {
+        const res = await fetch(`https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}/latest`, {
+          headers: { "X-Master-Key": JSONBIN_API_KEY }
+        });
+        if (!res.ok) throw new Error("Felhő letöltési hiba");
+        const data = await res.json();
+        return data.record || activeUnits;
+      } catch (err) {
+        console.warn("Alapértelmezett darabszámok használata:", err);
+        return activeUnits;
+      }
+    }
+
+    async function saveCloudUnits(newUnits) {
+      if (!JSONBIN_BIN_ID || JSONBIN_BIN_ID.includes("IDE_MASOLD")) {
+        activeUnits = newUnits;
+        return;
+      }
+      try {
+        saveUnitsBtn.textContent = "Mentés folyamatban...";
+        saveUnitsBtn.disabled = true;
+
+        const res = await fetch(`https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+            "X-Master-Key": JSONBIN_API_KEY
+          },
+          body: JSON.stringify(newUnits)
+        });
+
+        if (!res.ok) throw new Error("Felhő mentési hiba");
+        activeUnits = newUnits;
+      } catch (err) {
+        alert("Hiba történt: " + err.message);
+      } finally {
+        saveUnitsBtn.textContent = "Mentés & Szinkronizálás";
+        saveUnitsBtn.disabled = false;
+      }
+    }
+
+    function parseReturn(val) {
+      if (val === null || val === undefined || val === "") return null;
+      if (typeof val === "number") return val;
+      const str = String(val).replace(/[−–—]/g, "-").replace(",", ".").replace("%", "").trim();
+      const num = parseFloat(str);
+      return isNaN(num) ? null : num;
+    }
+
+    function parsePrice(val) {
+      if (val === null || val === undefined || val === "") return null;
+      if (typeof val === "number") return isNaN(val) ? null : val;
+      const str = String(val).replace(",", ".").replace(/[^\d.-]/g, "").trim();
+      const num = parseFloat(str);
+      return isNaN(num) ? null : num;
+    }
+
+    function formatReturnValue(val) {
+      const num = parseReturn(val);
+      if (num === null) return { text: "Nincs adat", className: "neutral", val: -9999 };
+      if (num > 0) return { text: `+${num.toFixed(2).replace(".", ",")}%`, className: "positive", val: num };
+      if (num < 0) return { text: `-${Math.abs(num).toFixed(2).replace(".", ",")}%`, className: "negative", val: num };
+      return { text: `0,00%`, className: "neutral", val: 0 };
+    }
+
+    function formatHuf(val) {
+      return Math.round(val).toLocaleString("hu-HU") + " Ft";
+    }
+
+    function formatPrice(val) {
+      if (val === null || val === undefined) return "–";
+      return val.toFixed(4).replace(".", ",") + " Ft";
+    }
+
+    function normalize(text) {
+      return String(text || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, " ").trim();
+    }
+
+    function setThemeIcon() {
+      const dark = document.documentElement.classList.contains("dark");
+      themeToggle.innerHTML = dark
+        ? `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>`
+        : `<svg viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 0 1 11.2 3a8.5 8.5 0 1 0 9.8 9.8Z"></path></svg>`;
+      themeToggle.title = dark ? "Világos mód" : "Dark mode";
+    }
+
+    themeToggle.addEventListener("click", () => {
+      const dark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("generali-theme", dark ? "dark" : "light");
+      setThemeIcon();
+      renderPortfolioHistoryChart();
+    });
+
+    setThemeIcon();
+
+    portfolioImage.addEventListener("click", () => {
+      if (portfolioImage.src && portfolioImage.style.display !== "none") {
+        modalImg.src = portfolioImage.src;
+        imageModal.style.display = "flex";
+      }
+    });
+
+    imageModal.addEventListener("click", () => { imageModal.style.display = "none"; });
+
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        imageModal.style.display = "none";
+        unitsModal.style.display = "none";
+      }
+    });
+
+    myPortfolioBtn.addEventListener("click", () => {
+      const isClosed = myPortfolioList.style.display === "" || myPortfolioList.style.display === "none";
+      myPortfolioList.style.display = isClosed ? "block" : "none";
+      myPortfolioBtn.classList.toggle("open", isClosed);
+    });
+
+    function renderMyPortfolio(fundList) {
+      myPortfolioRows.innerHTML = "";
+
+      let grandTotalHuf = 0;
+      const portfolioItems = [];
+
+      const fallbackPrices = {
+        "tallozo": 2.1257,
+        "horizont-10": 1.8556,
+        "hazai-reszveny": 4.0719,
+        "innovacio": 3.2045
+      };
+
+      const fundLabels = {
+        "hazai-reszveny": "Hazai részvény eszközalap",
+        "horizont-10": "Horizont 10+ vegyes eszközalap",
+        "innovacio": "Innováció részvény eszközalap",
+        "tallozo": "Tallózó abszolút hozam eszközalap"
+      };
+
+      Object.keys(activeUnits).forEach(fundId => {
+        const units = parseFloat(activeUnits[fundId]) || 0;
+        const fund = fundList.find(f => f.id === fundId);
+        
+        let price = null;
+        if (fund && fund.price !== null && fund.price !== undefined) {
+          price = parsePrice(fund.price);
+        }
+        
+        if (price === null || price <= 0) {
+          price = fallbackPrices[fundId] || 1.0;
+        }
+
+        const valueHuf = units * price;
+        grandTotalHuf += valueHuf;
+
+        portfolioItems.push({
+          id: fundId,
+          name: (fund && fund.name) ? fund.name : (fundLabels[fundId] || fundId),
+          price: price,
+          units: units,
+          valueHuf: valueHuf
+        });
+      });
+
+      totalPortfolioHuf.textContent = grandTotalHuf > 0 ? formatHuf(grandTotalHuf) : "0 Ft";
+      portfolioItems.sort((a, b) => b.valueHuf - a.valueHuf);
+
+      portfolioItems.forEach(item => {
+        const weightPercent = grandTotalHuf > 0 ? ((item.valueHuf / grandTotalHuf) * 100).toFixed(1) : "0.0";
+        const row = document.createElement("div");
+        row.className = "my-portfolio-row";
+
+        row.innerHTML = `
+          <div>
+            <div class="portfolio-fund-title">${item.name}</div>
+          </div>
+          <div class="text-right portfolio-price">${formatPrice(item.price)}</div>
+          <div class="text-right portfolio-units">${Math.round(item.units).toLocaleString("hu-HU")} db</div>
+          <div class="text-right" style="font-weight: 700;">${formatHuf(item.valueHuf)}</div>
+          <div class="text-right" style="color: var(--muted); font-size: 13px;">${weightPercent}%</div>
+        `;
+        myPortfolioRows.appendChild(row);
+      });
+    }
+
+    function renderPortfolioHistoryChart() {
+      if (!portfolioHistory || portfolioHistory.length === 0) {
+        historyCard.style.display = "none";
+        return;
+      }
+
+      historyCard.style.display = "block";
+
+      const labels = portfolioHistory.map(h => h.date);
+      const dataPoints = portfolioHistory.map(h => h.value);
+
+      if (portfolioHistory.length >= 2) {
+        const firstVal = portfolioHistory[0].value;
+        const lastVal = portfolioHistory[portfolioHistory.length - 1].value;
+        const diffHuf = lastVal - firstVal;
+        const diffPercent = ((diffHuf / firstVal) * 100).toFixed(2);
+
+        if (diffHuf >= 0) {
+          historyChangeBadge.textContent = `+${formatHuf(diffHuf)} (+${diffPercent}%)`;
+          historyChangeBadge.style.color = "var(--positive)";
+        } else {
+          historyChangeBadge.textContent = `-${formatHuf(Math.abs(diffHuf))} (${diffPercent}%)`;
+          historyChangeBadge.style.color = "var(--negative)";
+        }
+      } else {
+        historyChangeBadge.textContent = "";
+      }
+
+      const isDark = document.documentElement.classList.contains("dark");
+      const lineColor = isDark ? "#ef5262" : "#b21f2d";
+      const fillColor = isDark ? "rgba(239, 82, 98, 0.12)" : "rgba(178, 31, 45, 0.08)";
+      const gridColor = isDark ? "rgba(255, 255, 255, 0.08)" : "rgba(0, 0, 0, 0.06)";
+      const textColor = isDark ? "#aeb5bb" : "#6c727a";
+
+      const ctx = document.getElementById("portfolioHistoryChart").getContext("2d");
+
+      if (historyChartInstance) {
+        historyChartInstance.destroy();
+      }
+
+      historyChartInstance = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: labels,
+          datasets: [{
+            label: "Portfólió összértéke (Ft)",
+            data: dataPoints,
+            borderColor: lineColor,
+            backgroundColor: fillColor,
+            fill: true,
+            tension: 0.25,
+            borderWidth: 2.5,
+            pointRadius: dataPoints.length > 30 ? 0 : 3,
+            pointHoverRadius: 6,
+            pointBackgroundColor: lineColor,
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: function (context) {
+                  return formatHuf(context.parsed.y);
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { display: false },
+              ticks: { color: textColor, font: { size: 11 } }
+            },
+            y: {
+              grid: { color: gridColor },
+              ticks: {
+                color: textColor,
+                font: { size: 11 },
+                callback: function (val) {
+                  return (val / 1000000).toFixed(2) + " M Ft";
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+
+    editUnitsBtn.addEventListener("click", () => {
+      unitsInputsContainer.innerHTML = "";
+
+      const fundLabels = {
+        "hazai-reszveny": "Hazai részvény eszközalap",
+        "horizont-10": "Horizont 10+ vegyes eszközalap",
+        "innovacio": "Innováció részvény eszközalap",
+        "tallozo": "Tallózó abszolút hozam eszközalap"
+      };
+
+      Object.keys(activeUnits).forEach(id => {
+        const row = document.createElement("div");
+        row.className = "units-input-row";
+        row.innerHTML = `
+          <label>${fundLabels[id] || id} (db)</label>
+          <input type="number" step="0.001" id="input-unit-${id}" value="${activeUnits[id]}">
+        `;
+        unitsInputsContainer.appendChild(row);
+      });
+
+      unitsModal.style.display = "flex";
+    });
+
+    cancelUnitsBtn.addEventListener("click", () => { unitsModal.style.display = "none"; });
+
+    saveUnitsBtn.addEventListener("click", async () => {
+      const updatedUnits = {};
+      Object.keys(activeUnits).forEach(id => {
+        const input = document.getElementById(`input-unit-${id}`);
+        if (input) updatedUnits[id] = parseFloat(input.value) || 0;
+      });
+
+      await saveCloudUnits(updatedUnits);
+      unitsModal.style.display = "none";
+      renderMyPortfolio(funds);
+    });
+
+    function renderTable() {
+      let maxAbsValue = 0;
+      funds.forEach(f => {
+        const parsed = parseReturn(f.ytd);
+        if (parsed !== null && Math.abs(parsed) > maxAbsValue) maxAbsValue = Math.abs(parsed);
+      });
+      if (maxAbsValue === 0) maxAbsValue = 1;
+
+      const sorted = [...funds].sort((a, b) => {
+        if (currentSortColumn === "name") return currentSortAsc ? a.name.localeCompare(b.name, "hu") : b.name.localeCompare(a.name, "hu");
+        if (currentSortColumn === "ytd") {
+          const vA = formatReturnValue(a.ytd).val;
+          const vB = formatReturnValue(b.ytd).val;
+          return currentSortAsc ? vA - vB : vB - vA;
+        }
+        return 0;
+      });
+
+      const headers = [
+        { id: "thName", col: "name", label: "Eszközalap neve", isYtd: false },
+        { id: "thYtd", col: "ytd", label: "YTD hozam", isYtd: true }
+      ];
+
+      headers.forEach(h => {
+        const el = document.getElementById(h.id);
+        const baseClass = h.isYtd ? "col-ytd" : "";
+        if (currentSortColumn === h.col) {
+          el.className = `${baseClass} active-sort`.trim();
+          el.innerHTML = `${h.label} <span class="sort-indicator">${currentSortAsc ? "▲" : "▼"}</span>`;
+        } else {
+          el.className = baseClass;
+          el.innerHTML = `${h.label} <span class="sort-indicator">▲▼</span>`;
+        }
+      });
+
+      fundsTableBody.innerHTML = "";
+
+      sorted.forEach(fund => {
+        const tr = document.createElement("tr");
+        const formatted = formatReturnValue(fund.ytd);
+        const numVal = formatted.val;
+
+        let barHtml = "";
+        if (numVal !== -9999 && numVal !== 0) {
+          const barWidthPercent = Math.min(Math.round((Math.abs(numVal) / maxAbsValue) * 95), 95);
+          const barTypeClass = numVal > 0 ? "positive-bar" : "negative-bar";
+          barHtml = `<div class="ytd-bar ${barTypeClass}" style="width: ${barWidthPercent}%;"></div>`;
+        }
+
+        tr.innerHTML = `
+          <td class="td-name">${fund.name}</td>
+          <td class="col-ytd td-ytd">
+            <div class="ytd-cell-box">
+              ${barHtml}
+              <span class="ytd-text ${formatted.className}">${formatted.text}</span>
+            </div>
+          </td>
+        `;
+
+        tr.addEventListener("click", () => {
+          fundSelect.value = fund.id;
+          showFund(fund);
+          returnValue.scrollIntoView({ behavior: "smooth", block: "center" });
+        });
+
+        fundsTableBody.appendChild(tr);
+      });
+    }
+
+    function handleTableSort(column) {
+      if (currentSortColumn === column) {
+        currentSortAsc = !currentSortAsc;
+      } else {
+        currentSortColumn = column;
+        currentSortAsc = column === "name";
+      }
+      renderTable();
+    }
+
+    function resetView() {
+      fundName.textContent = "Válassz eszközalapot!";
+      dateBadge.textContent = "";
+      returnValue.textContent = "–";
+      returnValue.className = "neutral";
+      referenceValue.textContent = "–";
+      portfolioDate.textContent = "";
+      portfolioImage.removeAttribute("src");
+      portfolioImage.style.display = "none";
+      portfolioEmpty.style.display = "block";
+      portfolioEmpty.textContent = "Válassz ki egy eszközalapot a részletekhez.";
+      sourceWrap.style.display = "none";
+    }
+
+    function populateSelect(list) {
+      fundSelect.innerHTML = "";
+      const defaultOption = document.createElement("option");
+      defaultOption.value = "";
+      defaultOption.textContent = "– Válassz eszközalapot –";
+      defaultOption.selected = true;
+      defaultOption.disabled = true;
+      fundSelect.appendChild(defaultOption);
+
+      list.forEach((fund) => {
+        const option = document.createElement("option");
+        option.value = fund.id;
+        option.textContent = fund.name;
+        fundSelect.appendChild(option);
+      });
+    }
+
+    function showFund(fund) {
+      if (!fund) { resetView(); return; }
+      fundName.textContent = fund.name;
+      dateBadge.textContent = fund.date ? `Adat: ${fund.date}` : "";
+
+      const formatted = formatReturnValue(fund.ytd);
+      returnValue.textContent = formatted.text;
+      returnValue.className = formatted.className;
+
+      sourceLink.href = fund.url;
+      sourceWrap.style.display = "block";
+
+      const data = portfolio[fund.id];
+      if (!data) {
+        referenceValue.textContent = "Nincs adat";
+        portfolioDate.textContent = "";
+        portfolioImage.removeAttribute("src");
+        portfolioImage.style.display = "none";
+        portfolioEmpty.style.display = "block";
+        portfolioEmpty.textContent = "Nincs portfóliódiagram.";
+        return;
+      }
+
+      referenceValue.textContent = data.reference_index || "Nincs adat";
+      portfolioDate.textContent = data.portfolio_date ? `Portfólióadat dátuma: ${data.portfolio_date}` : "Statikus portfólióadat";
+
+      if (data.portfolio_image) {
+        portfolioImage.src = `${data.portfolio_image}?v=3`;
+        portfolioImage.alt = `${fund.name} – portfólió összetétele`;
+        portfolioImage.style.display = "block";
+        portfolioEmpty.style.display = "none";
+      } else {
+        portfolioImage.removeAttribute("src");
+        portfolioImage.style.display = "none";
+        portfolioEmpty.style.display = "block";
+        portfolioEmpty.textContent = "Nincs portfóliódiagram.";
+      }
+    }
+
+    function applySearch() {
+      const query = normalize(searchInput.value);
+      filteredFunds = funds.filter(fund => normalize(fund.name).includes(query));
+      populateSelect(filteredFunds);
+      resultCount.textContent = query ? `${filteredFunds.length} találat` : `${funds.length} eszközalap`;
+      clearSearch.style.display = query ? "block" : "none";
+
+      if (filteredFunds.length === 1) {
+        fundSelect.value = filteredFunds[0].id;
+        showFund(filteredFunds[0]);
+      } else if (filteredFunds.length > 1) {
+        resetView();
+      } else {
+        fundName.textContent = "Nincs találat";
+        dateBadge.textContent = "";
+        returnValue.textContent = "–";
+        returnValue.className = "neutral";
+        referenceValue.textContent = "–";
+        portfolioDate.textContent = "";
+        portfolioImage.removeAttribute("src");
+        portfolioImage.style.display = "none";
+        portfolioEmpty.style.display = "block";
+        portfolioEmpty.textContent = "Nincs ilyen nevű eszközalap.";
+        sourceWrap.style.display = "none";
+      }
+    }
+
+    searchInput.addEventListener("input", applySearch);
+    clearSearch.addEventListener("click", () => {
+      searchInput.value = "";
+      applySearch();
+      searchInput.focus();
+    });
+
+    fundSelect.addEventListener("change", () => {
+      const selected = funds.find(fund => fund.id === fundSelect.value);
+      showFund(selected);
+    });
+
+    async function loadLastWorkflowRun() {
+      const label = document.getElementById("workflow-last-run");
+      if (!label) return;
+
+      try {
+        const pathSegments = window.location.pathname.split("/").filter(Boolean);
+        let owner = window.location.hostname.split(".")[0];
+        let repo = pathSegments[0] || "generali-hozamok";
+
+        if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
+          repo = "generali-hozamok";
+        }
+
+        const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/runs?status=success&per_page=1`);
+        if (!res.ok) throw new Error("API hiba");
+        const data = await res.json();
+
+        if (data.workflow_runs && data.workflow_runs.length > 0) {
+          const runDate = new Date(data.workflow_runs[0].updated_at);
+          label.textContent = runDate.toLocaleString("hu-HU", {
+            year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Budapest"
+          });
+        } else {
+          label.textContent = "Nem elérhető";
+        }
+      } catch (_) {
+        label.textContent = "Ismeretlen";
+      }
+    }
+
+    loadLastWorkflowRun();
+
+    Promise.all([
+      fetch("funds.json", { cache: "no-store" }).then(r => r.json()),
+      fetch("portfolio.json", { cache: "no-store" }).then(r => r.json()),
+      fetchCloudUnits(),
+      fetch("history.json", { cache: "no-store" }).then(r => r.json()).catch(() => [])
+    ])
+      .then(([fundData, portfolioData, cloudUnits, historyData]) => {
+        funds = fundData;
+        portfolio = portfolioData.funds || {};
+        activeUnits = cloudUnits;
+        portfolioHistory = Array.isArray(historyData) ? historyData : [];
+
+        filteredFunds = funds;
+        populateSelect(funds);
+        resultCount.textContent = `${funds.length} eszközalap`;
+
+        resetView();
+        renderMyPortfolio(funds);
+        renderTable();
+        renderPortfolioHistoryChart();
+      })
+      .catch((error) => {
+        console.error(error);
+        document.getElementById("content").innerHTML =
+          '<div class="error">Az adatok betöltése nem sikerült.</div>';
+      });
+  </script>
+</body>
+</html>

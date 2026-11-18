@@ -1,0 +1,146 @@
+[
+  {
+    "id": "penzpiaci-2016",
+    "name": "Pénzpiaci 2016 eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/penzpiaci2016eszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 5.26,
+    "price": 1.46289
+  },
+  {
+    "id": "hazai-kotveny",
+    "name": "Hazai kötvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/hazaikotvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 9.89,
+    "price": 1.39229
+  },
+  {
+    "id": "tallozo",
+    "name": "Tallózó abszolút hozam eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/tallozoabszoluthozameszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 11.94,
+    "price": 2.13756
+  },
+  {
+    "id": "vilagjaro-kotveny",
+    "name": "Világjáró kötvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/vilagjarokotvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": -1.33,
+    "price": 1.42051
+  },
+  {
+    "id": "horizont-15",
+    "name": "Horizont 15+ vegyes eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/horizont15eszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 8.22,
+    "price": 2.17733
+  },
+  {
+    "id": "horizont-10",
+    "name": "Horizont 10+ vegyes eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/horizont10eszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 8.76,
+    "price": 1.87961
+  },
+  {
+    "id": "horizont-5",
+    "name": "Horizont 5+ vegyes eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/horizont5eszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 9.15,
+    "price": 1.63801
+  },
+  {
+    "id": "hazai-reszveny",
+    "name": "Hazai részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/hazaireszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 26.59,
+    "price": 3.94823
+  },
+  {
+    "id": "fejlodo-vilag",
+    "name": "Fejlődő világ részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/fejlodovilagreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 9.44,
+    "price": 2.03708
+  },
+  {
+    "id": "fejlett-vilag",
+    "name": "Fejlett világ részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/fejlettvilagreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 7.76,
+    "price": 2.64725
+  },
+  {
+    "id": "vilagmarkak",
+    "name": "Világmárkák részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/vilagmarkakreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 8.87,
+    "price": 2.53124
+  },
+  {
+    "id": "innovacio",
+    "name": "Innováció részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/innovacioreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 15.9,
+    "price": 3.13874
+  },
+  {
+    "id": "fenntarthato",
+    "name": "Fenntartható Világ részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/fenntarthatovilagreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 6.78,
+    "price": 1.53334
+  },
+  {
+    "id": "tudatos-fejlett",
+    "name": "Tudatos fejlett piac részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/tudatosfejlettpiacreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 8.55,
+    "price": 1.09116
+  },
+  {
+    "id": "tavlat-fejlodo",
+    "name": "TávLat fejlődő piac részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/tavlatfejlodopiacreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": 10.18,
+    "price": 1.12022
+  },
+  {
+    "id": "kotveny-2027m",
+    "name": "Kötvény 2027/M árfolyamvédett eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/kotveny2027meszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": null,
+    "price": 1.03201
+  },
+  {
+    "id": "magyar-piac",
+    "name": "Magyar piac részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/magyarpiacreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": null,
+    "price": 1.06257
+  },
+  {
+    "id": "nemzetkozi-markak",
+    "name": "Nemzetközi márkák részvény eszközalap",
+    "url": "https://www.generali.hu/ugyfelszolgalat/informaciok/befektetesek/eszkozalapjaink/nemzetkozimarkakpiacreszvenyeszkozalap.aspx",
+    "date": "2026.11.13",
+    "ytd": null,
+    "price": 1.09767
+  }
+]
