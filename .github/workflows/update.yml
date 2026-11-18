@@ -9,20 +9,22 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - "funds.json"
-      - "history.json"
-      - "portfolio.json"
-      - "portfolio_images/**"
-      - ".portfolio_initialized_v5"
+      - "generali-hozamok/funds.json"
+      - "generali-hozamok/history.json"
+      - "generali-hozamok/portfolio.json"
+      - "generali-hozamok/portfolio_images/**"
+      - "generali-hozamok/.portfolio_initialized_v5"
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: github-pages
+  group: generali-hozamok-update
   cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: ./generali-hozamok
 
 jobs:
   update-and-deploy:
@@ -115,11 +117,3 @@ jobs:
             git commit -m "Automatikus Generali adatfrissítés"
             git push
           fi
-
-      - name: GitHub Pages artifact készítése
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: .
-
-      - name: GitHub Pages publikálása
-        uses: actions/deploy-pages@v4
