@@ -269,14 +269,6 @@
         branch: 'main',
         hasPages: true,   // true: van rajta GitHub Pages bekapcsolva
         isCurrent: true   // true: itt fut a menü index.html-je
-      },
-      {
-        displayName: 'Generali',
-        owner: 'marquuard',
-        repo: 'generali-hozamok',
-        branch: 'main',
-        hasPages: true,   // Állítsd false-ra, ha a második repón NINCS külön Pages bekapcsolva!
-        isCurrent: false
       }
     ];
 
@@ -286,10 +278,8 @@
       }
       
       if (repoConfig.hasPages) {
-        // Ha a másik repónak van saját Pages-e
         return `https://${repoConfig.owner}.github.io/${repoConfig.repo}/${filePath}`;
       } else {
-        // Ha nincs Pages, a htmlpreview szolgáltatással jelenítjük meg a GitHub raw fájlt
         return `https://htmlpreview.github.io/?https://raw.githubusercontent.com/${repoConfig.owner}/${repoConfig.repo}/${repoConfig.branch}/${filePath}`;
       }
     }
@@ -352,7 +342,7 @@
           const grouped = {};
           htmlFiles.forEach(file => {
             const parts = file.path.split('/');
-            const folder = parts.length > 1 ? parts.slice(0, -1).join('/') : 'Generali';
+            const folder = parts.length > 1 ? parts.slice(0, -1).join('/') : 'Gyökér';
             const filename = parts[parts.length - 1];
 
             if (!grouped[folder]) grouped[folder] = [];
@@ -378,7 +368,7 @@
 
               const link = document.createElement('a');
               link.href = buildFileUrl(repoConfig, file.path);
-              link.target = repoConfig.isCurrent ? '_self' : '_blank'; // Másik repó új lapon nyílik meg
+              link.target = repoConfig.isCurrent ? '_self' : '_blank';
               link.innerHTML = `<span>${file.name}</span><span class="arrow">&rarr;</span>`;
 
               item.appendChild(link);
